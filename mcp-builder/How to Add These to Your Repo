@@ -1,0 +1,13 @@
+
+***
+
+## How to Add These to Your Repo
+
+In your terminal from inside the cloned `custom-claude-skills` folder, create each directory and paste the content:
+
+```bash
+mkdir -p skill-seekers pdf office-documents skill-creator code-review-and-tests frontend-design-and-testing mcp-builder
+# Then create each SKILL.md file inside each folder, paste contents, and commit:
+git add .
+git commit -m "Add all 7 custom Claude Agent Skills"
+git push origin main
