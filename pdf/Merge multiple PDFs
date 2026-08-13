@@ -1,0 +1,6 @@
+from pypdf import PdfWriter
+writer = PdfWriter()
+for filename in ['doc1.pdf', 'doc2.pdf', 'doc3.pdf']:
+    writer.append(filename)
+with open('merged.pdf', 'wb') as f:
+    writer.write(f)
