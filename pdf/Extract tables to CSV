@@ -1,0 +1,7 @@
+import pdfplumber, csv
+with pdfplumber.open('data.pdf') as pdf:
+    with open('output.csv', 'w', newline='') as f:
+        writer = csv.writer(f)
+        for page in pdf.pages:
+            for table in page.extract_tables():
+                writer.writerows(table)
