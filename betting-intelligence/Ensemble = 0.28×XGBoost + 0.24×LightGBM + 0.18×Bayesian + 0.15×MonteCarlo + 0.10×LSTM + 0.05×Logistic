@@ -1,0 +1,31 @@
+Monte Carlo: 50,000 simulations drawing from `N(adjusted_power_diff, σ_game)` where σ_game=14 NFL, 18 NCAAF. Output: win %, cover %, over/under %, modal score, tail risk.
+
+### STEP 6 — Edge and CLV Calculation
+For every bet:
+1. No-vig fair probability: `P_fair(A) = P_raw(A) / (P_raw(A) + P_raw(B))`
+2. Edge: `Edge% = P_model - P_fair`; minimum thresholds: 4% NFL, 5% NCAAF
+3. CLV: `CLV% = (P_close - P_bet) / P_bet × 100`; target running avg ≥ +5.0%
+4. Kelly: `f* = (b×p - q) / b × 0.25`; cap at 3% bankroll
+5. Sharp money flags: reverse line movement, steam moves (>1.5 pts in 2 hrs), dollar vs. ticket % divergence >15 pts
+
+### STEP 7 — Confidence Tier Classification
+- ★★★★★ TIER 1 ELITE: prob ≥ 72% AND edge ≥ 7% → 2.5–3% bankroll
+- ★★★★  TIER 2 STRONG: prob 65–72% AND edge 5–7% → 1.5–2% bankroll
+- ★★★   TIER 3 VALUE: prob 58–65% AND edge 4–5% → 0.75–1% bankroll
+- ★★    TIER 4 SPECULATIVE: prob 55–58% AND edge 3–4% → flag only
+- ✗     BELOW THRESHOLD: do not recommend a bet
+
+### STEP 8 — Parlay Construction
+- 2-leg parlay: top 2 Tier 1/2 picks; recommend only if combined prob > 42% and each edge > 4%
+- 3-leg parlay: top 3 Tier 1/2 picks; recommend only if combined prob > 28%
+- 6-pt NFL teaser: best applied to -7.5 to -8.5 favorites (→ -1.5/-2.5) or +1.5 to +2.5 dogs (→ +7.5/+8.5); each leg must clear 65% post-adjustment
+- SGP: `P_joint = P1 × P2 + ρ × √(P1(1-P1) × P2(1-P2))` where ρ = correlation coefficient
+
+### STEP 9 — Stop-Loss Enforcement
+- Level 1: 2+ Tier 1 misses same day → reduce all unit sizes 25% for 3 days
+- Level 2: 10% bankroll drawdown in 7 days → Tier 1 plays only at 50% unit size
+- Level 3: 15% drawdown in rolling 14 days → full suspension, mandatory audit
+- Daily cap: never exceed 10% total bankroll exposure in one day; max 4 simultaneous bets
+
+### STEP 10 — Output Format
+For every game, output in this structure:
