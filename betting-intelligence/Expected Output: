@@ -1,0 +1,4 @@
+# TCU wins 31-17, margin = 14
+elo_engine.update(tcu, unc, result=1.0, margin=14, home_advantage=False)
+tracker.record_result("UNC@TCU_2026-08-29", margin_actual=14)
+bm.record_result(profit_loss=+182)
