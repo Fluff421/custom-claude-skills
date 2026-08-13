@@ -1,0 +1,13 @@
+from openpyxl import Workbook
+from openpyxl.chart import BarChart, Reference
+wb = Workbook()
+ws = wb.active
+ws.title = 'Sales Data'
+ws.append(['Month', 'Revenue'])
+for row in [('Jan', 45000), ('Feb', 52000), ('Mar', 61000)]:
+    ws.append(row)
+chart = BarChart()
+data = Reference(ws, min_col=2, min_row=1, max_row=4)
+chart.add_data(data, titles_from_data=True)
+ws.add_chart(chart, 'D2')
+wb.save('sales.xlsx')
