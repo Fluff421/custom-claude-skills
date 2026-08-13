@@ -1,0 +1,16 @@
+import pytest
+from myapp.auth import validate_token
+
+def test_valid_token_returns_user():
+    assert validate_token('valid-token-123') == {'id': 1, 'role': 'admin'}
+
+def test_expired_token_raises_exception():
+    with pytest.raises(TokenExpiredError):
+        validate_token('expired-token')
+
+def test_empty_token_returns_none():
+    assert validate_token('') is None
+
+def test_malformed_token_raises_value_error():
+    with pytest.raises(ValueError):
+        validate_token(None)
