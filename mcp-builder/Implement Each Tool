@@ -1,0 +1,45 @@
+
+### Step 3: Implement Each Tool
+Every tool must have:
+1. **Name** — snake_case, descriptive (e.g., `search_github_issues`)
+2. **Description** — one sentence Claude uses to decide when to call it
+3. **Input Schema** — Zod (TS) or Pydantic (Python) validation
+4. **Handler** — API call with error handling and retry logic
+5. **Output** — structured JSON matching a defined schema
+
+### Step 4: Security Checklist (required before shipping)
+- [ ] API keys loaded from env vars only — never hardcoded
+- [ ] All inputs validated against schema before use
+- [ ] Rate limiting with exponential backoff on 429s
+- [ ] Sensitive data never logged
+- [ ] HTTPS enforced for all outbound requests
+- [ ] Errors return structured messages, not raw stack traces
+
+## Examples
+
+### TypeScript tool definition
+```typescript
+import { z } from 'zod'
+
+export const searchIssues = {
+  name: 'search_github_issues',
+  description: 'Search GitHub issues by keyword, repo, and state',
+  inputSchema: {
+    type: 'object',
+    properties: {
+      query: { type: 'string', description: 'Search keywords' },
+      repo: { type: 'string', description: 'owner/repo format' },
+      state: { type: 'string', enum: ['open', 'closed', 'all'] }
+    },
+    required: ['query']
+  }
+}
+
+export async function handleSearchIssues(input: { query: string; repo?: string; state?: string }) {
+  const response = await fetch(
+    `https://api.github.com/search/issues?q=${input.query}+repo:${input.repo}`,
+    { headers: { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` } }
+  )
+  if (!response.ok) throw new Error(`GitHub API error: ${response.status}`)
+  return await response.json()
+}
