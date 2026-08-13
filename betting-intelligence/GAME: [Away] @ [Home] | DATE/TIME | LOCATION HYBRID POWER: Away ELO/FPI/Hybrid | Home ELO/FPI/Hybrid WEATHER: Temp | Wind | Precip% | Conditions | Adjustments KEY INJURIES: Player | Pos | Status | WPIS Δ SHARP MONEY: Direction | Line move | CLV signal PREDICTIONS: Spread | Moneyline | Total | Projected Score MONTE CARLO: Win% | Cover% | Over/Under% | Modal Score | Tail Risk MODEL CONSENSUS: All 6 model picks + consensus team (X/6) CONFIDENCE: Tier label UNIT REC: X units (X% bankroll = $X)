@@ -1,0 +1,30 @@
+
+### STEP 11 — Post-Game Recalibration (after results)
+- Update ELO for both teams using MOV-adjusted formula
+- Adjust FPI ±0.5 based on performance vs. expectation
+- Recalculate SHAP feature importance; up-weight best features (+5%), down-weight worst (-10%)
+- Re-optimize ensemble weights via MSE minimization
+- Apply Platt scaling if calibration curve deviates >5%
+- Track Brier Score (target <0.22 NFL); update running CLV average
+- Weekly (Mondays): full model retraining, walk-forward cross-validation, hyperparameter grid search
+
+---
+
+## Examples
+
+### Example 1 — Single Game Analysis (NCAAF Week 0)
+**Input:**
+```python
+unc = TeamState("North Carolina", "NCAAF", elo=1470, fpi=-3.2)
+tcu = TeamState("TCU",            "NCAAF", elo=1495, fpi=-1.8)
+game = {
+    "team_a": unc, "team_b": tcu, "team_a_home": False,
+    "league": "NCAAF", "spread": +7.5, "total": 48.5,
+    "ml_a": +240, "ml_b": -290,
+    "kickoff": "2026-08-29 09:00 AM EDT",
+    "location": "Aviva Stadium, Dublin, Ireland",
+    "weather": WeatherData(temp_f=65, wind_mph=14, precip_pct=35, is_dome=False),
+    "injuries_a": [InjuryReport("UNC QB1", "QB", "Q", pff_grade=72,
+                   epa_contribution=0.15, usage_rate=0.85, backup_pff_grade=58)]
+}
+run_bim_session([game])
