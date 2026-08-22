@@ -1,0 +1,804 @@
+{
+  "beef": {
+    "brisket": {
+      "category": "beef",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Post Oak or Hickory",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "10-14 hours (~1-1.25 hr/lb)",
+        "internal_target_f": 203
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 203,
+      "rest_time_min": 45,
+      "notes": "Wrap in butcher paper at the stall (~165F). Probe for 'butter' tenderness, not just temp."
+    },
+    "ribeye": {
+      "category": "beef",
+      "reverse_sear": true,
+      "traeger": {
+        "preheat_temp_f": 200,
+        "pellet": "Hickory or Oak",
+        "super_smoke": true,
+        "cook_temp_f": 200,
+        "cook_time": "30-45 min (to 10-15F below target)",
+        "internal_target_f": 120
+      },
+      "blackstone": {
+        "preheat_time_min": 10,
+        "heat_zone": "Ripping Hot",
+        "oil": "Avocado or refined high-smoke-point oil",
+        "cook_time_per_side": "2-3 min",
+        "internal_target_or_cue": "Deep brown crust; pull at 130F (med-rare) after sear"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 130,
+      "rest_time_min": 8,
+      "notes": "Classic reverse sear candidate. Dry brine 1+ hr ahead for a better crust."
+    },
+    "ny_strip": {
+      "category": "beef",
+      "reverse_sear": true,
+      "traeger": {
+        "preheat_temp_f": 200,
+        "pellet": "Hickory or Oak",
+        "super_smoke": true,
+        "cook_temp_f": 200,
+        "cook_time": "30-40 min (to 10-15F below target)",
+        "internal_target_f": 120
+      },
+      "blackstone": {
+        "preheat_time_min": 10,
+        "heat_zone": "Ripping Hot",
+        "oil": "Avocado oil",
+        "cook_time_per_side": "2-3 min",
+        "internal_target_or_cue": "Pull at 130F for medium-rare"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 130,
+      "rest_time_min": 8,
+      "notes": "Trim the fat cap slightly so it renders fully during the sear."
+    },
+    "tri_tip": {
+      "category": "beef",
+      "reverse_sear": true,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Oak",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "60-75 min (to 115F)",
+        "internal_target_f": 115
+      },
+      "blackstone": {
+        "preheat_time_min": 10,
+        "heat_zone": "Ripping Hot",
+        "oil": "Avocado oil",
+        "cook_time_per_side": "3-4 min",
+        "internal_target_or_cue": "Pull at 130-135F, slice against the grain"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 130,
+      "rest_time_min": 10,
+      "notes": "Santa Maria rub (salt, pepper, garlic) is traditional. Slice direction changes mid-roast — watch the grain."
+    },
+    "burgers": {
+      "category": "beef",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "High",
+        "oil": "Beef tallow or avocado oil",
+        "cook_time_per_side": "2-3 min (smash), 3-4 min (thick patty)",
+        "internal_target_or_cue": "160F for ground beef (USDA); smash burgers finish faster"
+      },
+      "usda_min_temp_f": 160,
+      "chef_preferred_temp_f": 160,
+      "rest_time_min": 2,
+      "notes": "Smash within 30 sec of hitting the griddle for max crust. Salt after smashing, not before."
+    },
+    "short_ribs": {
+      "category": "beef",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Post Oak",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "6-8 hours",
+        "internal_target_f": 203
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 203,
+      "rest_time_min": 20,
+      "notes": "Same logic as brisket — probe-tender over target-temp. Wrap around 165F internal if bark is set."
+    },
+    "chuck_roast": {
+      "category": "beef",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Hickory",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "5-7 hours",
+        "internal_target_f": 203
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 203,
+      "rest_time_min": 20,
+      "notes": "'Poor man's brisket.' Great shredded for tacos or sandwiches."
+    }
+  },
+  "pork": {
+    "pulled_pork": {
+      "category": "pork",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Hickory or Apple",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "8-10 hours (~1.5 hr/lb)",
+        "internal_target_f": 203
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 203,
+      "rest_time_min": 30,
+      "notes": "Wrap ('Texas crutch') at 165F internal to push through the stall faster."
+    },
+    "baby_back_ribs": {
+      "category": "pork",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Apple or Cherry",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "5 hours (3-2-1 method)",
+        "internal_target_f": "Bend test / 195-203"
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 200,
+      "rest_time_min": 10,
+      "notes": "3-2-1: 3 hrs smoke, 2 hrs wrapped, 1 hr unwrapped with sauce to set."
+    },
+    "st_louis_ribs": {
+      "category": "pork",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Hickory",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "6 hours (3-2-1 method)",
+        "internal_target_f": "Bend test / 195-203"
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 200,
+      "rest_time_min": 10,
+      "notes": "Meatier and fattier than baby backs — can take the full 6-hr 3-2-1 without drying out."
+    },
+    "tenderloin": {
+      "category": "pork",
+      "reverse_sear": true,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Apple",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "35-45 min (to 130F)",
+        "internal_target_f": 130
+      },
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "High",
+        "oil": "Avocado oil",
+        "cook_time_per_side": "2 min",
+        "internal_target_or_cue": "Pull at 145F, rest to carry over"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 145,
+      "rest_time_min": 5,
+      "notes": "Lean cut — easy to overcook. Pull early and trust the carryover."
+    },
+    "chops_thick_cut": {
+      "category": "pork",
+      "reverse_sear": true,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Apple or Cherry",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "30-40 min (to 130F)",
+        "internal_target_f": 130
+      },
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "High",
+        "oil": "Avocado oil",
+        "cook_time_per_side": "2-3 min",
+        "internal_target_or_cue": "Pull at 145F"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 145,
+      "rest_time_min": 5,
+      "notes": "Brine 1-2 hrs ahead (1/4 cup salt per quart water) for a juicier chop."
+    },
+    "bacon": {
+      "category": "pork",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 5,
+        "heat_zone": "Medium",
+        "oil": "None needed (renders its own fat)",
+        "cook_time_per_side": "4-6 min total, flipping often",
+        "internal_target_or_cue": "Crisp to preference; watch for flare-ups from rendered fat"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 1,
+      "notes": "Medium heat, not high — bacon burns before it crisps if the griddle's too hot."
+    }
+  },
+  "poultry": {
+    "whole_chicken": {
+      "category": "poultry",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 275,
+        "pellet": "Cherry or Apple",
+        "super_smoke": false,
+        "cook_temp_f": 275,
+        "cook_time": "~2.5-3 hours (until temp)",
+        "internal_target_f": 165
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 165,
+      "rest_time_min": 15,
+      "notes": "Probe the thickest part of the breast AND the thigh — thigh should read 175-180F for best texture."
+    },
+    "spatchcock_chicken": {
+      "category": "poultry",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 375,
+        "pellet": "Cherry",
+        "super_smoke": false,
+        "cook_temp_f": 375,
+        "cook_time": "60-75 min",
+        "internal_target_f": 165
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 165,
+      "rest_time_min": 10,
+      "notes": "Spatchcocking (remove backbone, flatten) cuts cook time nearly in half and crisps the skin evenly."
+    },
+    "thighs": {
+      "category": "poultry",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 375,
+        "pellet": "Hickory",
+        "super_smoke": false,
+        "cook_temp_f": 375,
+        "cook_time": "35-45 min",
+        "internal_target_f": 175
+      },
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Avocado oil",
+        "cook_time_per_side": "6-7 min",
+        "internal_target_or_cue": "165F minimum, 175F for best texture"
+      },
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 175,
+      "rest_time_min": 5,
+      "notes": "Thighs are forgiving — hard to overcook thanks to higher fat content. Great crossover item for both grills."
+    },
+    "wings": {
+      "category": "poultry",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 375,
+        "pellet": "Hickory",
+        "super_smoke": false,
+        "cook_temp_f": 375,
+        "cook_time": "40-50 min, flip once",
+        "internal_target_f": 175
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 175,
+      "rest_time_min": 3,
+      "notes": "Toss in baking powder + salt 1 hr ahead (uncovered in fridge) for crispier skin without frying."
+    },
+    "turkey_breast": {
+      "category": "poultry",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 300,
+        "pellet": "Apple or Cherry",
+        "super_smoke": false,
+        "cook_temp_f": 300,
+        "cook_time": "~2-2.5 hours (until temp)",
+        "internal_target_f": 165
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 165,
+      "rest_time_min": 15,
+      "notes": "Brine 12-24 hrs ahead — breast meat dries out fast without it."
+    },
+    "duck_breast": {
+      "category": "poultry",
+      "reverse_sear": true,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Cherry",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "20-25 min (to 115F)",
+        "internal_target_f": 115
+      },
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium (skin-side to render, then high)",
+        "oil": "None — render the fat cap itself",
+        "cook_time_per_side": "Skin: 5-6 min to render; flesh: 1-2 min",
+        "internal_target_or_cue": "Pull at 130-135F for medium-rare"
+      },
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 135,
+      "rest_time_min": 5,
+      "notes": "Score the skin in a crosshatch before cooking. Duck breast is served more like red meat than chicken."
+    }
+  },
+  "seafood": {
+    "salmon": {
+      "category": "seafood",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Alder or Cedar",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "45-60 min",
+        "internal_target_f": 125
+      },
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Avocado oil",
+        "cook_time_per_side": "3-4 min skin-side, 2 min flesh-side",
+        "internal_target_or_cue": "Pull at 125-130F, opaque and just flaking"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 125,
+      "rest_time_min": 3,
+      "notes": "Traeger for a smoky, flaky finish; Blackstone for crispy skin. Don't overcook — 125F carries to ~130F."
+    },
+    "shrimp": {
+      "category": "seafood",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "High",
+        "oil": "Butter or avocado oil",
+        "cook_time_per_side": "1-2 min per side",
+        "internal_target_or_cue": "Opaque and curled into a 'C' shape (not a tight 'O' — that's overcooked)"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Cooks in under 4 minutes total. Prep everything before it hits the griddle."
+    },
+    "catfish": {
+      "category": "seafood",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Peanut or vegetable oil (Southern-style)",
+        "cook_time_per_side": "3-4 min per side",
+        "internal_target_or_cue": "145F, flakes easily with a fork"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 145,
+      "rest_time_min": 2,
+      "notes": "Classic Mississippi cornmeal dredge works great on the griddle for a shallow-fry effect."
+    },
+    "tuna_steak": {
+      "category": "seafood",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 10,
+        "heat_zone": "Ripping Hot",
+        "oil": "Sesame or avocado oil",
+        "cook_time_per_side": "60-90 sec per side",
+        "internal_target_or_cue": "Seared outside, cool red-rare center"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": "Rare (sushi-grade only)",
+      "rest_time_min": 2,
+      "notes": "Only sear rare with sushi/sashimi-grade tuna. Pat bone-dry before it hits the griddle."
+    },
+    "scallops": {
+      "category": "seafood",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 10,
+        "heat_zone": "Ripping Hot",
+        "oil": "Avocado oil or clarified butter",
+        "cook_time_per_side": "1.5-2 min per side",
+        "internal_target_or_cue": "Golden crust, opaque and firm center"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 130,
+      "rest_time_min": 1,
+      "notes": "Pat bone-dry and don't crowd the griddle — steam kills the sear."
+    },
+    "crab_legs": {
+      "category": "seafood",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 375,
+        "pellet": "Any (mild)",
+        "super_smoke": false,
+        "cook_temp_f": 375,
+        "cook_time": "15-20 min (already pre-cooked/frozen)",
+        "internal_target_f": "Heated through, 140F"
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 140,
+      "rest_time_min": 0,
+      "notes": "Most crab legs are pre-cooked — you're reheating, not cooking. Baste with garlic butter."
+    },
+    "crawfish": {
+      "category": "seafood",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Traditionally boiled, not grilled/griddled — outside PitMaster AI's two platforms. Best left to the crawfish pot."
+    }
+  },
+  "game": {
+    "venison_backstrap": {
+      "category": "game",
+      "reverse_sear": true,
+      "traeger": {
+        "preheat_temp_f": 200,
+        "pellet": "Hickory or Oak",
+        "super_smoke": true,
+        "cook_temp_f": 200,
+        "cook_time": "30-40 min (to 115F)",
+        "internal_target_f": 115
+      },
+      "blackstone": {
+        "preheat_time_min": 10,
+        "heat_zone": "Ripping Hot",
+        "oil": "Avocado oil or bacon fat",
+        "cook_time_per_side": "1.5-2 min per side",
+        "internal_target_or_cue": "Pull at 130-135F — venison dries out fast past medium-rare"
+      },
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 130,
+      "rest_time_min": 8,
+      "notes": "Very lean — do not cook past medium. Bacon-wrapping is popular for added fat."
+    },
+    "wild_boar": {
+      "category": "game",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 225,
+        "pellet": "Hickory",
+        "super_smoke": true,
+        "cook_temp_f": 225,
+        "cook_time": "6-8 hours (shoulder cuts)",
+        "internal_target_f": 195
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 145,
+      "chef_preferred_temp_f": 195,
+      "rest_time_min": 20,
+      "notes": "Treat like pork shoulder but expect a leaner, gamier result — brine helps."
+    },
+    "duck_whole": {
+      "category": "game",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 325,
+        "pellet": "Cherry",
+        "super_smoke": false,
+        "cook_temp_f": 325,
+        "cook_time": "~2 hours",
+        "internal_target_f": 165
+      },
+      "blackstone": null,
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 165,
+      "rest_time_min": 15,
+      "notes": "Score the fat cap and prick skin to help fat render — expect flare-up management if finishing on Blackstone."
+    },
+    "dove": {
+      "category": "game",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "High",
+        "oil": "Bacon fat",
+        "cook_time_per_side": "2-3 min per side",
+        "internal_target_or_cue": "Medium, still pink at the bone — dove dries out fast"
+      },
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": "Medium",
+      "rest_time_min": 3,
+      "notes": "Classic Southern move: wrap in bacon, griddle-sear, don't overcook."
+    },
+    "frog_legs": {
+      "category": "game",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Butter or peanut oil",
+        "cook_time_per_side": "3-4 min per side",
+        "internal_target_or_cue": "165F, opaque white meat"
+      },
+      "usda_min_temp_f": 165,
+      "chef_preferred_temp_f": 165,
+      "rest_time_min": 2,
+      "notes": "Cornmeal or seasoned flour dredge, Louisiana-style, works great on the flat top."
+    }
+  },
+  "vegetables": {
+    "corn": {
+      "category": "vegetable",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 375,
+        "pellet": "Any",
+        "super_smoke": false,
+        "cook_temp_f": 375,
+        "cook_time": "20-25 min",
+        "internal_target_f": null
+      },
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Butter",
+        "cook_time_per_side": "8-10 min total, rolling",
+        "internal_target_or_cue": "Charred kernels, tender"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Husk-on Traeger for smoky-steamed corn; husked on Blackstone for char."
+    },
+    "asparagus": {
+      "category": "vegetable",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Olive oil",
+        "cook_time_per_side": "3-4 min total, rolling",
+        "internal_target_or_cue": "Bright green, crisp-tender, light char"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Fast side to run alongside a Traeger main — start it when the protein hits its last 5 minutes."
+    },
+    "mushrooms": {
+      "category": "vegetable",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Butter",
+        "cook_time_per_side": "5-7 min total",
+        "internal_target_or_cue": "Deep golden, moisture cooked off"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Don't crowd — mushrooms steam instead of sear if the griddle's too full."
+    },
+    "onions": {
+      "category": "vegetable",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium",
+        "oil": "Butter or oil blend",
+        "cook_time_per_side": "10-15 min total, low and slow for caramelization",
+        "internal_target_or_cue": "Deep golden-brown, sweet"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Classic smash burger partner — start these first, they take longer than the patty."
+    },
+    "peppers": {
+      "category": "vegetable",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Olive oil",
+        "cook_time_per_side": "5-6 min total",
+        "internal_target_or_cue": "Softened with light char"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Great fajita partner with onions — cook together in the same zone."
+    },
+    "potatoes": {
+      "category": "vegetable",
+      "reverse_sear": false,
+      "traeger": {
+        "preheat_temp_f": 400,
+        "pellet": "Any",
+        "super_smoke": false,
+        "cook_temp_f": 400,
+        "cook_time": "45-60 min (whole)",
+        "internal_target_f": "Fork tender"
+      },
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium",
+        "oil": "Oil blend",
+        "cook_time_per_side": "12-15 min total (cubed/hash)",
+        "internal_target_or_cue": "Golden crust, fork tender"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Par-boil cubed potatoes before griddling for a crispier hash without a raw center."
+    },
+    "zucchini": {
+      "category": "vegetable",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Olive oil",
+        "cook_time_per_side": "2-3 min per side",
+        "internal_target_or_cue": "Light char, still slightly firm"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Slice on a bias for more surface-area contact and char."
+    }
+  },
+  "breakfast": {
+    "smash_burgers": {
+      "category": "breakfast",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Ripping Hot",
+        "oil": "Beef tallow",
+        "cook_time_per_side": "90 sec then flip once",
+        "internal_target_or_cue": "160F internal, deep lacy crust"
+      },
+      "usda_min_temp_f": 160,
+      "chef_preferred_temp_f": 160,
+      "rest_time_min": 1,
+      "notes": "Smash a loose ball of beef immediately on contact — the crust is the whole point."
+    },
+    "bacon_breakfast": {
+      "category": "breakfast",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 5,
+        "heat_zone": "Medium",
+        "oil": "None",
+        "cook_time_per_side": "4-6 min total",
+        "internal_target_or_cue": "Crisp to preference"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Cook bacon first and leave the rendered fat on the griddle for eggs/hash browns."
+    },
+    "eggs": {
+      "category": "breakfast",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 5,
+        "heat_zone": "Low-Medium",
+        "oil": "Butter",
+        "cook_time_per_side": "2-3 min (over-easy) to 4-5 min (over-hard)",
+        "internal_target_or_cue": "Set whites, yolk to preference"
+      },
+      "usda_min_temp_f": 144,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Lower heat than most griddle items — eggs scorch fast at high temp."
+    },
+    "pancakes": {
+      "category": "breakfast",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 5,
+        "heat_zone": "Medium-Low",
+        "oil": "Butter, wiped thin",
+        "cook_time_per_side": "2-3 min per side",
+        "internal_target_or_cue": "Bubbles form and pop across the surface before flipping"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "The griddle's huge flat surface is perfect for batch pancakes — cook the whole stack at once."
+    },
+    "hash_browns": {
+      "category": "breakfast",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "Medium-High",
+        "oil": "Oil blend, generous",
+        "cook_time_per_side": "5-6 min per side, don't move them",
+        "internal_target_or_cue": "Deep golden crust before flipping"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Squeeze excess moisture from shredded potatoes first, and resist the urge to flip early."
+    },
+    "fried_rice": {
+      "category": "breakfast",
+      "reverse_sear": false,
+      "traeger": null,
+      "blackstone": {
+        "preheat_time_min": 8,
+        "heat_zone": "High",
+        "oil": "Sesame + neutral oil blend",
+        "cook_time_per_side": "5-8 min total, constant motion",
+        "internal_target_or_cue": "Rice heated through with light char, egg fully cooked"
+      },
+      "usda_min_temp_f": null,
+      "chef_preferred_temp_f": null,
+      "rest_time_min": 0,
+      "notes": "Use day-old cold rice — fresh rice steams and clumps instead of frying."
+    }
+  }
+}
