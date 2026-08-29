@@ -1,0 +1,6 @@
+{
+  "as_of": "2026-08-29T12:36:00Z",
+  "weeks": {"ncaaf": "Week 0 (FBS slate Sat Aug 29)", "nfl": "Preseason Week 3"},
+  "ledger_75ats": {"ats": "0-0-0", "n": 0, "excluded": ["NCAAF Week 0", "NFL preseason"]},
+  "ensemble_weight": 0
+}
