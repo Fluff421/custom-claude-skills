@@ -1,12 +1,12 @@
 # Signal Desk Ledger
 
-As of: 2026-08-29 07:36 CDT
+As of: 2026-08-30 07:33 CDT
 
 ## 75% ATS ledger (regular-season only)
 
 - NCAAF Week 0 FCS/FBS: EXCLUDED from 75% ledger
-- NFL preseason: EXCLUDED from 75% ledger (weight 0.25 if tracked separately)
-- Graded issued unit plays: none (play threshold not enabled)
+- NFL preseason Week 3: EXCLUDED from 75% ledger (weight 0.25 if tracked separately; not tracked as unit plays)
+- Graded issued unit plays: none (play threshold not enabled; no regular-season week graded yet)
 - ATS: 0-0-0 (n=0)
 - ML: 0-0-0 (n=0)
 - Totals: 0-0-0 (n=0)
