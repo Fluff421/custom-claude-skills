@@ -1,10 +1,12 @@
 {
-  "as_of": "2026-08-30T07:33:00-05:00",
+  "as_of": "2026-08-31T07:37:00-05:00",
   "weeks": {
     "ncaaf": "Week 0 complete (FBS 8-game slate Aug 29). Week 1 board open Sep 3-7.",
-    "nfl": "Preseason Week 3 complete Aug 27-29. Regular season Week 1 opens Sep 10."
+    "nfl": "Preseason Week 3 complete Aug 27-29. Regular season Week 1 opens Sep 9 (NE @ SEA)."
   },
   "ledger_75ats": {"ats": "0-0-0", "ml": "0-0-0", "totals": "0-0-0", "n": 0},
   "issued_plays": [],
-  "ensemble_weight": 0
+  "ensemble_weight": 0,
+  "nfl_fpi_top": {"LAR": 5.6, "BUF": 4.0, "BAL": 3.7, "SEA": 3.6, "SF": 3.3},
+  "games_finalized_since_yesterday": []
 }

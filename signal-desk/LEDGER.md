@@ -1,6 +1,6 @@
 # Signal Desk Ledger
 
-As of: 2026-08-30 07:33 CDT
+As of: 2026-08-31 07:37 CDT
 
 ## 75% ATS ledger (regular-season only)
 
