@@ -10,8 +10,8 @@ Engine: model_home_margin = home_fpi - away_fpi + HFA
 - No unit plays until at least one regular-season week is graded
 - NFL preseason weight 0.25
 
-Changelog 2026-08-31:
-- No new finalized games since 2026-08-30 run. NCAAF Week 0 FBS (8) and NFL preseason Week 3 (16) remain the latest completed slates; neither enters the 75% ATS ledger.
-- Reloaded ESPN NFL FPI (all 32 teams, 0-0-0, trend --). Reloaded ESPN NCAAF FPI rank table; numeric FPI scraped for ranks 1-11 plus one 0-1 team at -20.8 (rk 138). Edges issued only when both sides have numbers.
-- Calendar correction vs prior snapshot: NFL regular-season kickoff is Wed Sep 9 (NE @ SEA), not Sep 10.
+Changelog 2026-09-01:
+- No new finalized games since 2026-08-31 run. Latest completed slates remain NCAAF Week 0 FBS (8 games, Aug 29) and NFL preseason Week 3 (16 games, Aug 27-29). Neither enters the 75% ATS ledger.
+- Reloaded ESPN NFL FPI (all 32 teams still 0-0-0, trend --). Top five FPI: LAR 5.9, BUF 4.1, SEA 3.6, BAL 3.5, SF 3.0 (LAR +0.3, BUF +0.1 vs 8/31 snapshot; BAL/SF slightly down).
+- Reloaded full ESPN NCAAF FPI table (138 FBS teams). Numeric FPI used only when both sides published.
 - No coefficients trained. Ensemble weight remains 0. No unit size.
