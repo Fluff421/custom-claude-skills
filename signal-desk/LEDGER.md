@@ -1,6 +1,6 @@
 # Signal Desk Ledger
 
-As of: 2026-09-04 07:38 CDT
+As of: 2026-09-05 07:35 CDT
 
 ## 75% ATS ledger (regular-season only)
 
@@ -13,6 +13,3 @@ As of: 2026-09-04 07:38 CDT
 - Flag: n<30
 
 No 2026 pick log exists. Do not import 2025 W3/W2 titles.
-
-## Informational (not ledger)
-NCAAF Week 1 Thursday 2026-09-03 finals observed vs ScoresandOdds close-ish numbers. Not graded as issued plays.

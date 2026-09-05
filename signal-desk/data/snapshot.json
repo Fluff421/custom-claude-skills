@@ -1,30 +1,10 @@
 {
-  "as_of": "2026-09-04T07:38:00-05:00",
+  "as_of": "2026-09-05T07:35:00-05:00",
   "weeks": {
-    "ncaaf": "Week 0 complete. Week 1 Thursday 9/3 final. Week 1 remainder Fri 9/4-Mon 9/7 unplayed.",
+    "ncaaf": "Week 0 complete. Week 1 Thu/Fri finals observed. Week 1 Sat-Mon unplayed as of 2026-09-05 07:35 CDT.",
     "nfl": "Preseason Week 3 complete Aug 27-29. Regular season Week 1 opens Sep 9 (NE @ SEA)."
   },
   "ledger_75ats": {"ats": "0-0-0", "ml": "0-0-0", "totals": "0-0-0", "n": 0},
   "issued_plays": [],
-  "ensemble_weight": 0,
-  "nfl_fpi_top": {"LAR": 5.9, "BUF": 4.1, "SEA": 3.6, "BAL": 3.5, "SF": 3.0},
-  "ncaaf_fpi_top": {"OSU": 28.7, "TEX": 26.9, "ND": 25.9, "ORE": 25.3, "UGA": 24.8},
-  "games_finalized_since_yesterday": [
-    "UMass 37 Rutgers 21",
-    "Wake Forest 38 Akron 16",
-    "UCF 73 Bethune-Cookman 6",
-    "Delaware 42 Merrimack 7",
-    "Kennesaw State 47 West Georgia 0",
-    "Buffalo 21 Albany 17",
-    "Missouri 54 Arkansas-Pine Bluff 14",
-    "Colorado 14 Georgia Tech 13",
-    "Minnesota 59 Eastern Illinois 7",
-    "Utah 66 Idaho 14",
-    "Illinois 42 UAB 23"
-  ],
-  "watches": [
-    {"game": "NYJ @ TEN", "market": "TEN -1.5", "model_home": 2.7, "edge": 4.2, "note": "watch only; unit threshold off"},
-    {"game": "Toledo @ Michigan State", "market": "MSU -10", "model_home": 6.7, "edge": -3.3, "note": "watch TOL; ESPN FPI preview also MSU by 5.4"},
-    {"game": "Miami @ Stanford", "market": "STAN +24.5", "model_home": -20.6, "edge": 3.9, "note": "watch STAN / fade MIA number; ESPN preview FPI Miami by 21.3"}
-  ]
+  "ensemble_weight": 0
 }
