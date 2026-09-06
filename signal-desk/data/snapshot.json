@@ -1,10 +1,8 @@
 {
-  "as_of": "2026-09-05T07:35:00-05:00",
-  "weeks": {
-    "ncaaf": "Week 0 complete. Week 1 Thu/Fri finals observed. Week 1 Sat-Mon unplayed as of 2026-09-05 07:35 CDT.",
-    "nfl": "Preseason Week 3 complete Aug 27-29. Regular season Week 1 opens Sep 9 (NE @ SEA)."
-  },
-  "ledger_75ats": {"ats": "0-0-0", "ml": "0-0-0", "totals": "0-0-0", "n": 0},
+  "as_of": "2026-09-06T12:34:00-05:00",
+  "ncaaf_week": "Week 1 (Aug 29–Sep 7 window)",
+  "nfl_week": "Preseason complete; Regular Season Week 1 opens Sep 9",
+  "ledger_ats": {"w":0,"l":0,"p":0,"n":0},
   "issued_plays": [],
   "ensemble_weight": 0
 }

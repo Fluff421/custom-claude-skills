@@ -1,15 +1,14 @@
-# Signal Desk Ledger
+# Signal Desk Ledger — 2026 season
 
-As of: 2026-09-05 07:35 CDT
+Updated: 2026-09-06
 
-## 75% ATS ledger (regular-season only)
+## Official 75% ATS ledger (regular-season FBS / NFL regular season only)
+- NCAAF Week 0 FCS/FBS: EXCLUDED
+- NFL preseason (weight 0.25 if tracked separately): EXCLUDED from 75% ATS ledger
+- Issued unit plays: NONE (play threshold not enabled; no regular-season week graded)
 
-- NCAAF Week 0 FCS/FBS: EXCLUDED from 75% ledger
-- NFL preseason Week 3: EXCLUDED from 75% ledger (weight 0.25 if tracked separately; not tracked as unit plays)
-- Graded issued unit plays: none (play threshold not enabled; no regular-season week fully graded; no issued 2026 unit plays)
-- ATS: 0-0-0 (n=0)
-- ML: 0-0-0 (n=0)
-- Totals: 0-0-0 (n=0)
-- Flag: n<30
+ATS: 0-0-0 (n=0)
+ML: 0-0-0 (n=0)
+Totals: 0-0-0 (n=0)
 
-No 2026 pick log exists. Do not import 2025 W3/W2 titles.
+Flag: n<30. No 2026 pick log exists. Do not import 2025 titles.
