@@ -1,6 +1,6 @@
 # Signal Desk Ledger — 2026 season
 
-Updated: 2026-09-06
+Updated: 2026-09-07
 
 ## Official 75% ATS ledger (regular-season FBS / NFL regular season only)
 - NCAAF Week 0 FCS/FBS: EXCLUDED
