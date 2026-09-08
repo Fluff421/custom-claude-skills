@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-07T07:37:00-05:00",
-  "ncaaf_week": "Week 1 closing (SMU@FSU tonight); Week 2 starts Sep 10",
-  "nfl_week": "Preseason complete; Regular Season Week 1 opens Sep 9",
+  "as_of": "2026-09-08T07:37:00-05:00",
+  "ncaaf_week": "Week 1 complete (last: SMU 27 FSU 24 Sep 7); Week 2 starts Sep 10",
+  "nfl_week": "Regular Season Week 1 opens Sep 9; no RS games played",
   "ledger_ats": {"w":0,"l":0,"p":0,"n":0},
   "issued_plays": [],
   "ensemble_weight": 0
