@@ -1,16 +1,13 @@
 {
-  "as_of": "2026-09-13T07:46:00-05:00",
-  "weeks": {"ncaaf": "Week 2 (Sat 9/12 mostly final; W3 Sep 17-19)", "nfl": "Week 1 (Sun 9/13 slate unplayed as of AM CDT)"},
+  "as_of": "2026-09-14T07:50:00-05:00",
+  "weeks": {"ncaaf": "Week 2 complete; Week 3 Sep 17-19 unplayed", "nfl": "Week 1 Sunday complete; DEN@KC MNF unplayed; Week 2 Sep 17-21"},
   "ledger": {"ats": "0-0-0", "ml": "0-0-0", "totals": "0-0-0", "n": 0, "unit_plays_enabled": false},
   "ensemble_weight": 0,
   "nfl_fpi_source": "https://www.espn.com/nfl/fpi",
   "ncaaf_fpi_source": "https://www.espn.com/college-football/fpi",
   "odds_source": "https://www.scoresandodds.com/nfl and /ncaaf",
   "watches": [
-    {"game": "BAL @ IND", "market": "BAL -3.5", "model_home": -1.7, "edge_vs_home_mkt": -5.2, "side": "BAL"},
-    {"game": "CHI @ CAR", "market": "CHI -3", "model_home": -2.0, "edge_vs_home_mkt": -5.0, "side": "CHI"},
-    {"game": "DAL @ NYG", "market": "DAL -3", "model_home": -1.7, "edge_vs_home_mkt": -4.7, "side": "DAL"},
-    {"game": "NYJ @ TEN", "market": "TEN -1.5", "model_home": 2.7, "edge_vs_home_mkt": 4.2, "side": "TEN"}
+    {"game": "DEN @ KC", "market": "KC -2.5", "model_home": 3.1, "edge_vs_home_mkt": 0.6, "side": "none (|edge|<3)", "status": "UNPLAYED MNF"}
   ],
   "issued_plays": []
 }
