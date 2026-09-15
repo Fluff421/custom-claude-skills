@@ -1,13 +1,7 @@
 {
-  "as_of": "2026-09-14T07:50:00-05:00",
-  "weeks": {"ncaaf": "Week 2 complete; Week 3 Sep 17-19 unplayed", "nfl": "Week 1 Sunday complete; DEN@KC MNF unplayed; Week 2 Sep 17-21"},
-  "ledger": {"ats": "0-0-0", "ml": "0-0-0", "totals": "0-0-0", "n": 0, "unit_plays_enabled": false},
-  "ensemble_weight": 0,
-  "nfl_fpi_source": "https://www.espn.com/nfl/fpi",
-  "ncaaf_fpi_source": "https://www.espn.com/college-football/fpi",
-  "odds_source": "https://www.scoresandodds.com/nfl and /ncaaf",
-  "watches": [
-    {"game": "DEN @ KC", "market": "KC -2.5", "model_home": 3.1, "edge_vs_home_mkt": 0.6, "side": "none (|edge|<3)", "status": "UNPLAYED MNF"}
-  ],
-  "issued_plays": []
+  "asof": "2026-09-15T12:45:00Z",
+  "nfl_week_complete": 1,
+  "ncaaf_week_complete": 2,
+  "issued_plays": [],
+  "ledger": {"ats": [0,0,0], "n": 0}
 }
