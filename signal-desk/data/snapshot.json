@@ -1,7 +1,1 @@
-{
-  "asof": "2026-09-15T12:45:00Z",
-  "nfl_week_complete": 1,
-  "ncaaf_week_complete": 2,
-  "issued_plays": [],
-  "ledger": {"ats": [0,0,0], "n": 0}
-}
+{"date":"2026-09-16","nfl_week_completed":1,"ncaaf_week_completed":2,"issued_plays":[]}
