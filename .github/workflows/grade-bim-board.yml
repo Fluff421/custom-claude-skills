@@ -1,0 +1,21 @@
+name: Grade BIM Weekly Board
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/20 * * * 0,1,4,5,6"
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Write ESPN finals into Airtable
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+          AIRTABLE_TABLE_ID: ${{ secrets.AIRTABLE_TABLE_ID }}
+        run: python signal-desk/grade_board.py
