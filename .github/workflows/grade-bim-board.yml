@@ -3,7 +3,7 @@ name: Grade BIM Weekly Board
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/20 * * * 0,1,4,5,6"
+    - cron: "0 */2 * * 0,1,4,5,6"
 
 permissions:
   contents: read
