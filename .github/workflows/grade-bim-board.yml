@@ -15,16 +15,17 @@ jobs:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
       AIRTABLE_TABLE_ID: ${{ secrets.AIRTABLE_TABLE_ID }}
+      WEBSCRAPING_AI_API_KEY: ${{ secrets.WEBSCRAPING_AI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Validate Airtable configuration
+      - name: Validate configuration
         shell: bash
         run: |
           missing=()
-          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID AIRTABLE_TABLE_ID; do
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID AIRTABLE_TABLE_ID WEBSCRAPING_AI_API_KEY; do
             if [ -z "${!key}" ]; then
               missing+=("$key")
             fi
@@ -34,6 +35,6 @@ jobs:
             echo "Add these under Settings > Secrets and variables > Actions."
             exit 1
           fi
-          echo "Airtable configuration is present. Secret values are intentionally hidden."
+          echo "Airtable and WebScraping.AI configuration is present. Secret values are intentionally hidden."
       - name: Write ESPN finals into Airtable
         run: python signal-desk/grade_board.py
