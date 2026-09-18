@@ -5,17 +5,35 @@ on:
   schedule:
     - cron: "*/20 * * * 0,1,4,5,6"
 
+permissions:
+  contents: read
+
 jobs:
   grade:
     runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+      AIRTABLE_TABLE_ID: ${{ secrets.AIRTABLE_TABLE_ID }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Validate Airtable configuration
+        shell: bash
+        run: |
+          missing=()
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID AIRTABLE_TABLE_ID; do
+            if [ -z "${!key}" ]; then
+              missing+=("$key")
+            fi
+          done
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "::error::Missing or empty GitHub Actions secret(s): ${missing[*]}"
+            echo "Add these under Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          echo "Airtable configuration is present. Secret values are intentionally hidden."
       - name: Write ESPN finals into Airtable
-        env:
-          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
-          AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
-          AIRTABLE_TABLE_ID: ${{ secrets.AIRTABLE_TABLE_ID }}
         run: python signal-desk/grade_board.py
