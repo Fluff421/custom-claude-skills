@@ -1,1 +1,10 @@
-{"date":"2026-09-24","nfl_week":"3","ncaaf_week":"4","graded_plays":0,"ats":"0-0-0","issued_plays":[],"notes":"TNF ATL@GB unplayed; no finals since 2026-09-23"}
+{
+  "as_of": "2026-09-25T12:33:00Z",
+  "weeks": {"ncaaf": 4, "nfl": 3},
+  "finalized_since_yesterday": [
+    {"league": "NFL", "game": "ATL @ GB", "score": "ATL 35-14", "spread_market": "GB -4.5", "total_market": 42.5},
+    {"league": "NCAAF", "game": "LIB @ CCU", "score": "LIB 34-17", "spread_market": "LIB -2.5", "total_market": 49.5}
+  ],
+  "issued_plays": [],
+  "ledger": {"ats": [0,0,0], "n": 0}
+}

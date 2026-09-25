@@ -1,7 +1,18 @@
-# Model
-engine: model_home_margin = home_fpi - away_fpi + HFA
-HFA: NCAAF 2.5, NFL 2.0, neutral 0
-Watch threshold: |edge| >= 3
-Ensemble weight: 0 (BIM spec unfitted)
-Unit plays: disabled until one regular-season week is graded
-Changelog 2026-09-24: no parameter change. NFL FPI refresh SF 7.3 (was 7.4 on 9/23), BUF 5.7, LAR 4.7, KC 4.5, GB 0.5, ATL -5.2. NCAAF FPI top OSU/TEX 28.1. Market: scoresandodds NFL W3 + NCAAF W4. No fitting. No neural net.
+# Signal Desk Model
+
+Updated: 2026-09-25
+
+## Engine
+model_home_margin = home_fpi - away_fpi + HFA
+- NCAAF HFA = 2.5
+- NFL HFA = 2.0
+- Neutral = 0
+- Require published FPI for BOTH teams.
+- Watch if |model - market| >= 3.0
+- Ensemble weight = 0
+
+## Changelog 2026-09-25
+- First live 2026 Signal Desk run in this mailbox.
+- Loaded ESPN FPI after NFL TNF (ATL 35, GB 14) and NCAAF Thu (LIB 34, CCU 17).
+- GB FPI now -0.9 (1-2); ATL -3.4 (1-2).
+- No coefficient refit. No neural net. No unit plays issued.
