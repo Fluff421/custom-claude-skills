@@ -1,10 +1,13 @@
 {
-  "as_of": "2026-09-25T12:33:00Z",
-  "weeks": {"ncaaf": 4, "nfl": 3},
-  "finalized_since_yesterday": [
-    {"league": "NFL", "game": "ATL @ GB", "score": "ATL 35-14", "spread_market": "GB -4.5", "total_market": 42.5},
-    {"league": "NCAAF", "game": "LIB @ CCU", "score": "LIB 34-17", "spread_market": "LIB -2.5", "total_market": 49.5}
-  ],
+  "as_of": "2026-09-26T07:30:00-05:00",
+  "nfl_week": 3,
+  "ncaaf_week": 4,
   "issued_plays": [],
-  "ledger": {"ats": [0,0,0], "n": 0}
+  "ledger": {"ats": [0,0,0], "ml": [0,0,0], "totals": [0,0,0]},
+  "ensemble_weight": 0,
+  "finals_since_yesterday": [
+    {"league": "NFL", "away": "ATL", "home": "GB", "score": "35-14", "status": "final"},
+    {"league": "NCAAF", "away": "Howard", "home": "Rutgers", "score": "7-58", "status": "final"},
+    {"league": "NCAAF", "away": "Northwestern", "home": "Indiana", "score": "23-29", "status": "final"}
+  ]
 }
