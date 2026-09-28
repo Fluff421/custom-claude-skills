@@ -1,15 +1,19 @@
 {
-  "as_of": "2026-09-27T07:39:00-05:00",
+  "as_of": "2026-09-28T07:39:00-05:00",
   "nfl_week": 3,
   "ncaaf_week": 4,
+  "nfl_mnf_status": "unplayed",
   "issued_plays": [],
   "ledger": {"ats": [0,0,0], "ml": [0,0,0], "totals": [0,0,0]},
   "ensemble_weight": 0,
   "nfl_fpi_top": {"SF": 7.3, "BUF": 5.7, "SEA": 5.4, "LAR": 4.7, "KC": 4.5, "BAL": 4.1},
   "watches": [
-    {"league": "NFL", "game": "ARI @ SF", "model_home": 14.7, "market_home": 8.5, "edge": 6.2, "note": "watch only"},
-    {"league": "NFL", "game": "PHI @ CHI", "model_home": -1.6, "market_home": -4.5, "edge": 2.9, "note": "near-threshold, not issued"},
-    {"league": "NFL", "game": "BAL vs DAL (neutral)", "model_home": -1.1, "market_home": -3.5, "edge": 2.4, "note": "near-threshold, HFA=0"}
+    {"league": "NFL", "game": "KC @ LV", "model_home": -5.5, "market_home": 4.5, "edge": -10.0, "note": "watch KC; W4"},
+    {"league": "NFL", "game": "DEN @ SF", "model_home": 9.5, "market_home": 3.0, "edge": 6.5, "note": "watch SF"},
+    {"league": "NFL", "game": "IND @ WAS (London, HFA=0)", "model_home": -2.0, "market_home": 3.5, "edge": -5.5, "note": "watch IND"},
+    {"league": "NFL", "game": "DET @ CAR", "model_home": -1.6, "market_home": 3.0, "edge": -4.6, "note": "watch DET"},
+    {"league": "NFL", "game": "PIT @ CLE", "model_home": -1.7, "market_home": 2.5, "edge": -4.2, "note": "watch PIT"},
+    {"league": "NFL", "game": "LAR @ PHI", "model_home": -1.2, "market_home": 2.5, "edge": -3.7, "note": "watch LAR"}
   ],
-  "finals_since_prior_snapshot": "NCAAF W4 Saturday slate reported final; NFL W3 Sunday unplayed"
+  "finals_since_prior_snapshot": "NFL W3 Sunday 14 games final; PHI@CHI unplayed; NCAAF W4 already complete"
 }

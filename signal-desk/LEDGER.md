@@ -1,7 +1,7 @@
 # Signal Desk Ledger
 
-Updated: 2026-09-27 07:39 CDT
-Season: 2026 NFL regular Week 3 / NCAAF regular Week 4
+Updated: 2026-09-28 07:39 CDT
+Season: 2026 NFL regular Week 3 (MNF remaining) / NCAAF regular Week 4 complete
 
 ## 75% ATS ledger (regular season only)
 - Issued unit plays: 0
@@ -13,12 +13,27 @@ Season: 2026 NFL regular Week 3 / NCAAF regular Week 4
 - No 2025 backfill. No invented grades.
 
 ## Finals logged (not issued plays)
-- NFL W3 TNF: ATL 35 @ GB 14 (final). Market GB -4.5. Not an issued play.
-- NFL W3 Sunday/Monday: UNPLAYED as of 07:39 CDT. Not graded.
-- NCAAF W4 Fri: Howard 7 @ Rutgers 58; Northwestern 23 @ Indiana 29.
-- NCAAF W4 Sat confirmed examples (sources: ESPN/The Athletic/ScoresAndOdds): Texas 20 @ Tennessee 17; Illinois 19 @ Ohio State 42; Sam Houston 14 @ Texas Tech 49; Notre Dame 49 @ Purdue 10; Oklahoma 13 @ Georgia 41; Iowa 20 @ Michigan 19; Utah 31 @ Iowa State 17; Wake Forest 30 @ Louisville 27; Liberty 34 @ Coastal Carolina 17 (Thu).
-- Additional Saturday/Sunday night CFB results reported final by ESPN UK (SCAR @ ALA, TAMU @ LSU, ORE @ USC, MIZZ @ MSST, etc.). Not issued plays. Not added to 75% ledger.
+### NFL Week 3 (TNF + Sunday final; MNF unplayed)
+- ATL 35 @ GB 14 (Thu). Market GB -4.5.
+- KC 24 @ MIA 10. Market KC -9.5/-10.
+- CAR 18 @ CLE 21. Market CLE +2.5.
+- TEN 7 @ NYG 12. Market NYG -2.5.
+- NE 6 @ JAX 35. Market JAX -2.5/-3.
+- LAC 16 @ BUF 24. Market BUF -7/-7.5.
+- NYJ 24 @ DET 31. Market DET -6.5.
+- HOU 17 @ IND 19. Market IND +1.5 / HOU -1.5.
+- SEA 31 @ WAS 33. Market WAS +8.5.
+- CIN 27 @ PIT 30. Market PIT +3.5.
+- ARI 30 @ SF 36. Market SF -7.5.
+- MIN 23 @ TB 16. Market MIN -1.5.
+- BAL 34 vs DAL 31 (Rio, neutral). Market BAL -3 / DAL +3.
+- LV 35 @ NO 27. Market LV +3.5.
+- LAR 26 @ DEN 30. Market DEN +1.5.
+- PHI @ CHI: UNPLAYED (Mon 8:15 p.m. ET). Do not grade.
+
+### NCAAF Week 4
+Complete Thu Sep 24–Sun Sep 27. No issued plays. Not added to 75% ledger.
 
 ## Notes
 BIM ensemble weight = 0 (spec exists, not fitted).
-No unit size until at least one regular-season week of issued plays is graded.
+No unit size until play threshold is enabled after a graded issued-play week.
