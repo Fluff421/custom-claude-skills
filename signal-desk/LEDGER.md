@@ -1,7 +1,7 @@
 # Signal Desk Ledger
 
-Updated: 2026-09-28 07:39 CDT
-Season: 2026 NFL regular Week 3 (MNF remaining) / NCAAF regular Week 4 complete
+Updated: 2026-09-29 07:39 CDT
+Season: 2026 NFL regular Week 3 complete / NCAAF regular Week 4 complete; boards = NFL W4 / NCAAF W5 (unplayed)
 
 ## 75% ATS ledger (regular season only)
 - Issued unit plays: 0
@@ -13,26 +13,27 @@ Season: 2026 NFL regular Week 3 (MNF remaining) / NCAAF regular Week 4 complete
 - No 2025 backfill. No invented grades.
 
 ## Finals logged (not issued plays)
-### NFL Week 3 (TNF + Sunday final; MNF unplayed)
-- ATL 35 @ GB 14 (Thu). Market GB -4.5.
+### NFL Week 3 — NOW COMPLETE
+- ATL 35 @ GB 14. Market GB -4.5.
 - KC 24 @ MIA 10. Market KC -9.5/-10.
 - CAR 18 @ CLE 21. Market CLE +2.5.
 - TEN 7 @ NYG 12. Market NYG -2.5.
 - NE 6 @ JAX 35. Market JAX -2.5/-3.
 - LAC 16 @ BUF 24. Market BUF -7/-7.5.
-- NYJ 24 @ DET 31. Market DET -6.5.
+- NYJ 24 @ DET 31. Market DET -6.5/-7.
 - HOU 17 @ IND 19. Market IND +1.5 / HOU -1.5.
 - SEA 31 @ WAS 33. Market WAS +8.5.
 - CIN 27 @ PIT 30. Market PIT +3.5.
 - ARI 30 @ SF 36. Market SF -7.5.
 - MIN 23 @ TB 16. Market MIN -1.5.
-- BAL 34 vs DAL 31 (Rio, neutral). Market BAL -3 / DAL +3.
+- BAL 34 vs DAL 31 (Rio, neutral). Market BAL -3.
 - LV 35 @ NO 27. Market LV +3.5.
-- LAR 26 @ DEN 30. Market DEN +1.5.
-- PHI @ CHI: UNPLAYED (Mon 8:15 p.m. ET). Do not grade.
+- LAR 26 @ DEN 30. Market DEN -1.5 / +1.5 book split.
+- PHI 7 @ CHI 27 (Mon). Market PHI -3.5 / CHI +3.5. Finalized since 2026-09-28 snapshot.
 
 ### NCAAF Week 4
-Complete Thu Sep 24–Sun Sep 27. No issued plays. Not added to 75% ledger.
+Complete Thu Sep 24–Sat Sep 26. No issued plays. Not added to 75% ledger.
+NCAAF Week 5 slate is UNPLAYED (Thu Oct 1 start). Do not grade.
 
 ## Notes
 BIM ensemble weight = 0 (spec exists, not fitted).

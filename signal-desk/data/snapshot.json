@@ -1,19 +1,23 @@
 {
-  "as_of": "2026-09-28T07:39:00-05:00",
-  "nfl_week": 3,
-  "ncaaf_week": 4,
-  "nfl_mnf_status": "unplayed",
+  "as_of": "2026-09-29T07:39:00-05:00",
+  "nfl_week_completed": 3,
+  "ncaaf_week_completed": 4,
+  "board_nfl_week": 4,
+  "board_ncaaf_week": 5,
+  "nfl_mnf_status": "final PHI 7 CHI 27",
   "issued_plays": [],
   "ledger": {"ats": [0,0,0], "ml": [0,0,0], "totals": [0,0,0]},
   "ensemble_weight": 0,
-  "nfl_fpi_top": {"SF": 7.3, "BUF": 5.7, "SEA": 5.4, "LAR": 4.7, "KC": 4.5, "BAL": 4.1},
+  "nfl_fpi_top": {"SF": 7.3, "KC": 4.8, "SEA": 4.8, "JAX": 4.6, "BUF": 4.5, "LAR": 4.1},
   "watches": [
-    {"league": "NFL", "game": "KC @ LV", "model_home": -5.5, "market_home": 4.5, "edge": -10.0, "note": "watch KC; W4"},
-    {"league": "NFL", "game": "DEN @ SF", "model_home": 9.5, "market_home": 3.0, "edge": 6.5, "note": "watch SF"},
-    {"league": "NFL", "game": "IND @ WAS (London, HFA=0)", "model_home": -2.0, "market_home": 3.5, "edge": -5.5, "note": "watch IND"},
-    {"league": "NFL", "game": "DET @ CAR", "model_home": -1.6, "market_home": 3.0, "edge": -4.6, "note": "watch DET"},
-    {"league": "NFL", "game": "PIT @ CLE", "model_home": -1.7, "market_home": 2.5, "edge": -4.2, "note": "watch PIT"},
-    {"league": "NFL", "game": "LAR @ PHI", "model_home": -1.2, "market_home": 2.5, "edge": -3.7, "note": "watch LAR"}
+    {"league": "NFL", "game": "KC @ LV", "model_home": -4.9, "market_home": 4.5, "edge": -9.4, "note": "watch KC"},
+    {"league": "NFL", "game": "GB @ TB", "model_home": -3.7, "market_home": 3.5, "edge": -7.2, "note": "watch GB"},
+    {"league": "NFL", "game": "DET @ CAR", "model_home": -2.6, "market_home": 3.5, "edge": -6.1, "note": "watch DET"},
+    {"league": "NFL", "game": "DEN @ SF", "model_home": 8.5, "market_home": 3.0, "edge": 5.5, "note": "watch SF"},
+    {"league": "NFL", "game": "IND vs WAS London HFA=0", "model_home_was": -1.1, "market_home_was": 3.5, "edge": -4.6, "note": "watch IND"},
+    {"league": "NFL", "game": "DAL @ HOU", "model_home": -1.0, "market_home": 2.5, "edge": -3.5, "note": "watch DAL"},
+    {"league": "NFL", "game": "PIT @ CLE", "model_home": -0.9, "market_home": 2.5, "edge": -3.4, "note": "watch PIT"},
+    {"league": "NFL", "game": "JAX @ CIN", "model_home": -0.7, "market_home": 2.5, "edge": -3.2, "note": "watch JAX"}
   ],
-  "finals_since_prior_snapshot": "NFL W3 Sunday 14 games final; PHI@CHI unplayed; NCAAF W4 already complete"
+  "finals_since_prior_snapshot": "PHI 7 @ CHI 27 MNF; NFL W3 complete"
 }
