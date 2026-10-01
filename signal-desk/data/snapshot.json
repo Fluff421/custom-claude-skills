@@ -1,1 +1,16 @@
-{"date":"2026-09-30","nfl_week_completed":3,"nfl_week_upcoming":4,"ncaaf_week_board":"5","graded_picks":0,"ensemble_weight":0}
+{
+  "as_of": "2026-10-01T07:39:00-05:00",
+  "ncaaf_week": 5,
+  "nfl_week": 4,
+  "finals_since_yesterday": [],
+  "graded": {"ats": "0-0-0", "ml": "0-0-0", "totals": "0-0-0", "n": 0},
+  "issued_plays": [],
+  "watches": [
+    {"league": "NFL", "game": "DEN at SF", "status": "unplayed", "market_home": -3, "model_home": 8.5, "edge": 5.5, "side": "SF -3"},
+    {"league": "NFL", "game": "DAL at HOU", "status": "unplayed", "market_home": -2.5, "model_home": -0.8, "edge": -3.3, "side": "DAL +2.5"},
+    {"league": "NFL", "game": "JAX at CIN", "status": "unplayed", "market_home": -2.5, "model_home": -0.7, "edge": -3.2, "side": "JAX +2.5"},
+    {"league": "NCAAF", "game": "Pitt at Virginia Tech", "status": "unplayed", "market_home": -3, "model_home": -2.1, "edge": -5.1, "side": "Pitt +3"},
+    {"league": "NCAAF", "game": "UCF at Houston", "status": "unplayed", "market_home": -11.5, "model_home": 7.5, "edge": -4.0, "side": "UCF +11.5"}
+  ],
+  "sources": ["https://www.scoresandodds.com/nfl", "https://www.scoresandodds.com/ncaaf", "https://www.espn.com/nfl/fpi", "https://www.espn.com/college-football/fpi"]
+}
