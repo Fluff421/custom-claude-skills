@@ -1,7 +1,16 @@
-# Signal Desk Model
-Engine: model_home_margin = home_fpi - away_fpi + HFA
-HFA: NCAAF 2.5, NFL 2.0, neutral 0
-Watch if |edge| >= 3 vs current market home line (home margin convention).
-Only if both teams have published ESPN FPI.
-Ensemble weight = 0. No neural-net training. No unit size.
-Changelog 2026-10-01: no parameter change. Refreshed ESPN FPI and ScoresAndOdds lines for unplayed NCAAF Week 5 and NFL Week 4. Prior ledger remains n=0; Week 3 NFL finals (through Mon Sep 28) were not backfilled into the ATS ledger because no Signal Desk picks were issued.
+# Signal Desk model
+
+Updated 2026-10-02. Ensemble weight = 0. BIM ensemble spec in betting-intelligence is not fitted. No neural-net training.
+
+## Margin
+
+model_home_margin = home_fpi - away_fpi + HFA
+
+- NCAAF HFA 2.5
+- NFL HFA 2.0
+- Neutral site HFA 0 (London IND-WSH)
+
+Watch only if both teams have a published FPI and abs(model_home_margin - market_home_margin) >= 3.
+Market home margin is the current home spread with sign flipped when the home team is the dog (home +3.5 implies market home margin -3.5).
+
+No unit size. No locks.
