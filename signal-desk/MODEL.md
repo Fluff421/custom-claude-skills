@@ -1,16 +1,13 @@
 # Signal Desk model
 
-Updated 2026-10-02. Ensemble weight = 0. BIM ensemble spec in betting-intelligence is not fitted. No neural-net training.
-
-## Margin
-
 model_home_margin = home_fpi - away_fpi + HFA
 
-- NCAAF HFA 2.5
-- NFL HFA 2.0
-- Neutral site HFA 0 (London IND-WSH)
+- NCAAF HFA: 2.5
+- NFL HFA: 2.0
+- Neutral site: 0 (applied to IND-WSH, London)
 
-Watch only if both teams have a published FPI and abs(model_home_margin - market_home_margin) >= 3.
-Market home margin is the current home spread with sign flipped when the home team is the dog (home +3.5 implies market home margin -3.5).
+Watch if abs(model_home_margin - market_home_margin) >= 3 and both teams have a published ESPN FPI.
 
-No unit size. No locks.
+No unit plays. No neural-net training. Ensemble weight = 0.
+
+Changelog 2026-10-03: first live snapshot of the 2026 season in this log. No coefficient changes. FPI read from ESPN NFL and college pages. Market numbers from ScoresAndOdds Week 4 NFL / Week 5 NCAAF.

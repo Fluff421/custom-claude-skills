@@ -1,14 +1,1 @@
-{
-  "as_of": "2026-10-02T07:39:00-05:00",
-  "nfl_week": 4,
-  "ncaaf_week": 5,
-  "ensemble_weight": 0,
-  "plays_enabled": false,
-  "ledger": {"ats": {"w": 0, "l": 0, "p": 0}, "ml": {"w": 0, "l": 0, "p": 0}, "totals": {"w": 0, "l": 0, "p": 0}},
-  "finalized_since_yesterday": [
-    {"league": "NFL", "game": "PIT @ CLE", "score": "CLE 27, PIT 24", "status": "Final", "graded": false},
-    {"league": "NCAAF", "game": "WKU @ NMSU", "score": "NMSU 34, WKU 13", "status": "Final", "graded": false},
-    {"league": "NCAAF", "game": "UNT @ TLSA", "score": "UNT 45, TLSA 44", "status": "Final/OT", "graded": false}
-  ],
-  "note": "FPI table records on ESPN NFL page still showed PIT 2-1 and CLE 2-1 at fetch, so ratings are a pre-TNF snapshot."
-}
+{"as_of":"2026-10-03T12:39:00Z","nfl_week":4,"ncaaf_week":5,"issued_plays":[],"ledger":{"ats":{"h":0,"m":0,"p":0,"n":0},"ml":{"h":0,"m":0,"p":0,"n":0},"totals":{"h":0,"m":0,"p":0,"n":0}},"final_since_yesterday":[{"league":"NFL","game":"PIT at CLE","score":"CLE 27, PIT 24","status":"final","graded_pick":false},{"league":"NCAAF","game":"Pitt at Virginia Tech","score":"Pitt 35, VT 33","status":"final","graded_pick":false},{"league":"NCAAF","game":"Liberty at Delaware","score":"Liberty 30, Delaware 14","status":"final","graded_pick":false},{"league":"NCAAF","game":"Penn State at Northwestern","score":"Northwestern 34, Penn State 13","status":"final","graded_pick":false}],"watches":[{"game":"DEN at SF","side":"SF -3","edge":5.5,"status":"unplayed"},{"game":"DAL at HOU","side":"DAL +3","edge":3.9,"status":"unplayed"},{"game":"JAX at CIN","side":"JAX +2.5","edge":3.2,"status":"unplayed"},{"game":"IND vs WSH London","side":"WSH +4.5","edge":3.2,"neutral":true,"status":"unplayed"}]}
