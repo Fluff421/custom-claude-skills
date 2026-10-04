@@ -1,13 +1,16 @@
 # Signal Desk model
 
+Updated 2026-10-04.
+
 model_home_margin = home_fpi - away_fpi + HFA
+- NCAAF HFA = 2.5
+- NFL HFA = 2.0
+- Neutral site HFA = 0 (London, Cotton Bowl)
 
-- NCAAF HFA: 2.5
-- NFL HFA: 2.0
-- Neutral site: 0 (applied to IND-WSH, London)
+Watch if both teams have published FPI and abs(model_home_margin - market_home_margin) >= 3.
+No unit plays until the play threshold is enabled after at least one graded regular-season week.
+Ensemble weight = 0. No neural-net training. No locks.
 
-Watch if abs(model_home_margin - market_home_margin) >= 3 and both teams have a published ESPN FPI.
-
-No unit plays. No neural-net training. Ensemble weight = 0.
-
-Changelog 2026-10-03: first live snapshot of the 2026 season in this log. No coefficient changes. FPI read from ESPN NFL and college pages. Market numbers from ScoresAndOdds Week 4 NFL / Week 5 NCAAF.
+Changelog 2026-10-04:
+- Initial live snapshot. ESPN NFL FPI table ingested. NCAAF FPI numeric values taken from On3 restatement of ESPN FPI top 25 after Week 5 (ESPN page team order confirmed; numeric column did not render in the fetch).
+- No coefficient changes. No fit.
