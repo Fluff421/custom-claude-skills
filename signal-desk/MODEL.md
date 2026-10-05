@@ -1,16 +1,13 @@
 # Signal Desk model
 
-Updated 2026-10-04.
+Updated 2026-10-05.
 
 model_home_margin = home_fpi - away_fpi + HFA
-- NCAAF HFA = 2.5
-- NFL HFA = 2.0
-- Neutral site HFA = 0 (London, Cotton Bowl)
 
-Watch if both teams have published FPI and abs(model_home_margin - market_home_margin) >= 3.
-No unit plays until the play threshold is enabled after at least one graded regular-season week.
-Ensemble weight = 0. No neural-net training. No locks.
+HFA: NCAAF 2.5, NFL 2.0, neutral 0.
 
-Changelog 2026-10-04:
-- Initial live snapshot. ESPN NFL FPI table ingested. NCAAF FPI numeric values taken from On3 restatement of ESPN FPI top 25 after Week 5 (ESPN page team order confirmed; numeric column did not render in the fetch).
-- No coefficient changes. No fit.
+Edge used only when both teams have a published ESPN FPI. Watch if absolute edge >= 3 versus the current market home margin.
+
+BIM ensemble spec exists in this repo under betting-intelligence but is not fitted. Ensemble weight = 0.
+
+No locks. No neural-net training. No unit plays until the play threshold is enabled.

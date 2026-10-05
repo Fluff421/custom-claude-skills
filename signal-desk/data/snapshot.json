@@ -1,17 +1,1 @@
-{
-  "as_of": "2026-10-04T07:39:00-05:00",
-  "ncaaf_week_completed": 5,
-  "ncaaf_week_upcoming": 6,
-  "nfl_week": 4,
-  "issued_plays": [],
-  "ledger": {"ats": {"h": 0, "m": 0, "p": 0, "n": 0}, "ml": {"h": 0, "m": 0, "p": 0, "n": 0}, "tot": {"h": 0, "m": 0, "p": 0, "n": 0}},
-  "ensemble_weight": 0,
-  "nfl_fpi": {"SF": 7.3, "KC": 4.7, "SEA": 4.7, "JAX": 4.6, "BUF": 4.5, "LAR": 4.1, "BAL": 3.7, "DAL": 3.4, "DET": 2.4, "CIN": 1.9, "DEN": 0.8, "MIN": 0.7, "HOU": 0.5, "CHI": 0.4, "NE": 0.1, "PHI": -0.8, "LAC": -0.8, "GB": -1.0, "IND": -1.1, "NO": -1.1, "CAR": -2.0, "LV": -2.1, "PIT": -2.2, "WSH": -2.7, "NYJ": -3.3, "ATL": -3.5, "ARI": -4.7, "CLE": -4.7, "TEN": -5.6, "NYG": -6.7, "TB": -7.1, "MIA": -8.3},
-  "watches": [
-    {"game": "DEN @ SF", "market": "SF -3", "model_home_margin": 8.5, "edge": 5.5},
-    {"game": "DAL @ HOU", "market": "HOU -3", "model_home_margin": -0.9, "edge": -3.9},
-    {"game": "JAX @ CIN", "market": "CIN -2.5", "model_home_margin": -0.7, "edge": -3.2},
-    {"game": "TEX vs OU neutral", "market": "TEX -9.5", "model_texas_margin": 14.1, "edge": 4.6, "kick": "2026-10-10"}
-  ],
-  "final_since_yesterday_not_graded": ["NCAAF Week 5 Saturday 2026-10-03 slate final; no prior issued card", "NFL PIT 24 @ CLE 27 final 2026-10-01, before yesterday, not an issued play"]
-}
+{"as_of":"2026-10-05T07:43:00-05:00","nfl_week_in_progress":4,"nfl_next_week":5,"ncaaf_completed_week":5,"ncaaf_next_week":6,"issued_plays":0,"ensemble_weight":0,"ledger":{"ats":{"h":0,"m":0,"p":0,"n":0},"ml":{"h":0,"m":0,"p":0,"n":0},"totals":{"h":0,"m":0,"p":0,"n":0}},"unplayed":["ATL at NO MNF"],"sources":["https://www.scoresandodds.com/nfl","https://www.scoresandodds.com/ncaaf","https://www.espn.com/nfl/fpi","https://www.espn.com/college-football/fpi","https://www.espn.com/nfl/odds"]}
