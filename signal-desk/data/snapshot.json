@@ -1,1 +1,21 @@
-{"as_of":"2026-10-05T07:43:00-05:00","nfl_week_in_progress":4,"nfl_next_week":5,"ncaaf_completed_week":5,"ncaaf_next_week":6,"issued_plays":0,"ensemble_weight":0,"ledger":{"ats":{"h":0,"m":0,"p":0,"n":0},"ml":{"h":0,"m":0,"p":0,"n":0},"totals":{"h":0,"m":0,"p":0,"n":0}},"unplayed":["ATL at NO MNF"],"sources":["https://www.scoresandodds.com/nfl","https://www.scoresandodds.com/ncaaf","https://www.espn.com/nfl/fpi","https://www.espn.com/college-football/fpi","https://www.espn.com/nfl/odds"]}
+{
+  "as_of": "2026-10-06T07:39:00-05:00",
+  "nfl_week_completed": 4,
+  "nfl_week_upcoming": 5,
+  "ncaaf_week": 6,
+  "ncaaf_week_status": "open_no_finals",
+  "games_final_since_yesterday": [{"league": "NFL", "game": "ATL at NO", "score": "ATL 45, NO 24", "status": "final", "source": "ESPN"}],
+  "issued_plays": [],
+  "ensemble_weight": 0,
+  "ledger": {"ats": {"h": 0, "m": 0, "p": 0, "n": 0}, "ml": {"h": 0, "m": 0, "p": 0, "n": 0}, "totals": {"h": 0, "m": 0, "p": 0, "n": 0}},
+  "watches": [
+    {"league": "NFL", "game": "DEN at LAC", "side": "LAC +3.5", "model_home_margin": 0.5, "market_home_margin": -3.5, "edge": 4.0},
+    {"league": "NFL", "game": "SF at SEA", "side": "SF +3", "model_home_margin": -0.8, "market_home_margin": 3.0, "edge": -3.8},
+    {"league": "NFL", "game": "HOU at TEN", "side": "TEN +7", "model_home_margin": -3.8, "market_home_margin": -7.0, "edge": 3.2},
+    {"league": "NCAAF", "game": "Iowa at Washington", "side": "Iowa +3", "model_home_margin": -4.4, "market_home_margin": 3.0, "edge": -7.4},
+    {"league": "NCAAF", "game": "UCF at Oklahoma State", "side": "UCF +9.5", "model_home_margin": 2.5, "market_home_margin": 9.5, "edge": -7.0},
+    {"league": "NCAAF", "game": "South Carolina at Florida", "side": "South Carolina +13.5", "model_home_margin": 8.4, "market_home_margin": 13.5, "edge": -5.1},
+    {"league": "NCAAF", "game": "North Carolina at Pittsburgh", "side": "Pittsburgh -4.5", "model_home_margin": 8.9, "market_home_margin": 4.5, "edge": 4.4},
+    {"league": "NCAAF", "game": "Houston at Kansas State", "side": "Houston +2.5", "model_home_margin": -0.9, "market_home_margin": 2.5, "edge": -3.4}
+  ]
+}
