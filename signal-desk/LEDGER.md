@@ -1,17 +1,17 @@
 # Signal Desk ledger
 
-As of 2026-10-06 (America/Chicago).
+As of 2026-10-07. No graded 2026 pick log. Unit plays disabled until at least one regular-season week is graded against an issued play.
 
-No graded 2026 pick log exists. Prior automation titles that treated 2025 Week 3 CFB / Week 2 NFL as final in August 2026 are not imported.
+## ATS (regular season, eligible)
+- Hits 0 / Misses 0 / Pushes 0
+- n = 0
+- Rate: n/a
+- Flag: n<30
 
-Issued plays: none. Unit size is disabled until the play threshold is enabled and at least one regular-season week of issued plays is graded.
+## ML
+- 0-0-0, n=0
 
-| Book | Hits | Misses | Pushes | n | Rate |
-| --- | --- | --- | --- | --- | --- |
-| ATS (regular season, eligible) | 0 | 0 | 0 | 0 | n/a |
-| ML | 0 | 0 | 0 | 0 | n/a |
-| Totals | 0 | 0 | 0 | 0 | n/a |
+## Totals
+- 0-0-0, n=0
 
-Flag: n<30. 75% ATS is a stretch goal, not an expectation.
-
-NFL preseason weight 0.25 and excluded from the 75% ATS ledger. Week 0 FCS/FBS excluded from the 75% ledger. Neither bucket has logged plays.
+NFL preseason weight 0.25 and excluded from the 75% ATS ledger. Week 0 FCS/FBS excluded. Ensemble weight = 0 (spec not fitted).
