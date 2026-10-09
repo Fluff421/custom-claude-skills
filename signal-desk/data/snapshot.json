@@ -1,17 +1,16 @@
 {
-  "as_of": "2026-10-08T07:39:00-05:00",
+  "as_of": "2026-10-09T12:39:00Z",
   "nfl_week": 5,
   "ncaaf_week": 6,
-  "games_finalized_since_yesterday": [],
   "issued_plays": [],
-  "ledger": {"ats": "0-0-0", "n": 0, "rate": null},
-  "ensemble_weight": 0,
   "watches": [
-    {"game": "UCF @ Oklahoma State", "side": "UCF +10.5", "model_home": 2.5, "market_home": -10.5, "edge": -8.0},
-    {"game": "North Carolina @ Pittsburgh", "side": "Pitt -4", "model_home": 8.9, "market_home": 4.0, "edge": 4.9},
-    {"game": "Denver @ LA Chargers", "side": "LAC +3.5", "model_home": 0.5, "market_home": -3.5, "edge": 4.0},
-    {"game": "Houston @ Tennessee", "side": "TEN +7.5", "model_home": -3.8, "market_home": -7.5, "edge": 3.7},
-    {"game": "Ole Miss @ Vanderbilt", "side": "Vanderbilt +9.5", "model_home": -5.9, "market_home": -9.5, "edge": 3.6},
-    {"game": "Tampa Bay @ Dallas", "side": "DAL -8.5", "model_home": 12.1, "market_home": 8.5, "edge": 3.6}
-  ]
+    {"game": "TEN vs HOU", "side": "TEN +7.5", "edge": 3.6, "status": "unplayed"},
+    {"game": "LAC vs DEN", "side": "LAC +3.5", "edge": 3.9, "status": "unplayed"},
+    {"game": "TEX vs OU neutral", "side": "TEX -7.5", "edge": 6.5, "status": "unplayed"},
+    {"game": "UF vs SC", "side": "SC +11.5", "edge": -3.1, "status": "unplayed"}
+  ],
+  "final_since_yesterday": [
+    {"game": "TB 24 DAL 16", "status": "final", "graded": false}
+  ],
+  "ensemble_weight": 0
 }
