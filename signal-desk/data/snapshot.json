@@ -1,16 +1,1 @@
-{
-  "as_of": "2026-10-09T12:39:00Z",
-  "nfl_week": 5,
-  "ncaaf_week": 6,
-  "issued_plays": [],
-  "watches": [
-    {"game": "TEN vs HOU", "side": "TEN +7.5", "edge": 3.6, "status": "unplayed"},
-    {"game": "LAC vs DEN", "side": "LAC +3.5", "edge": 3.9, "status": "unplayed"},
-    {"game": "TEX vs OU neutral", "side": "TEX -7.5", "edge": 6.5, "status": "unplayed"},
-    {"game": "UF vs SC", "side": "SC +11.5", "edge": -3.1, "status": "unplayed"}
-  ],
-  "final_since_yesterday": [
-    {"game": "TB 24 DAL 16", "status": "final", "graded": false}
-  ],
-  "ensemble_weight": 0
-}
+{"date": "2026-10-10", "nfl_week": 5, "ncaaf_week": 6, "ledger_n": 0, "notes": "No graded 2026 picks. Games in progress or unplayed not graded."}
