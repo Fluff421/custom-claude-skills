@@ -1,9 +1,12 @@
-# Signal Desk Ledger 2026
+# Signal Desk Ledger
 
-No graded regular-season picks yet. n=0. Preseason and Week 0 excluded.
+Date: 2026-10-11
 
-ATS: 0-0-0 (n=0)
-ML: 0-0-0
-Totals: 0-0-0
+No graded 2026 picks yet. n=0 for ATS/ML/totals.
 
-Play threshold not enabled. Ensemble weight=0.
+NFL regular season Week 5 in progress (only TB@DAL finalized).
+NCAAF Week 6 mostly finalized.
+
+Ensemble weight: 0 (BIM not fitted).
+
+No unit plays issued (threshold not met).
