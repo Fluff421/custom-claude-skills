@@ -1,12 +1,9 @@
 # Signal Desk Ledger
 
-Date: 2026-10-11
+No graded 2026 picks yet. Regular season underway; unit plays disabled until at least one full regular-season week is graded.
 
-No graded 2026 picks yet. n=0 for ATS/ML/totals.
+ATS: 0-0-0 (n=0)
+ML: 0-0-0 (n=0)
+Totals: 0-0-0 (n=0)
 
-NFL regular season Week 5 in progress (only TB@DAL finalized).
-NCAAF Week 6 mostly finalized.
-
-Ensemble weight: 0 (BIM not fitted).
-
-No unit plays issued (threshold not met).
+Flag: n<30. 75% ATS is a stretch goal on large sample.
