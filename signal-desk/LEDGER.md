@@ -1,9 +1,7 @@
-# Signal Desk Ledger 2026
+# Signal Desk Ledger
 
-No graded regular-season ATS picks yet for 2026. Ledger starts empty.
+As of 2026-10-14: No graded 2026 picks. n=0 for ATS/ML/totals. Preseason and Week 0 excluded. Ensemble weight 0.
 
-ATS: 0-0-0 (n=0)
-ML: 0-0-0 (n=0)
-Totals: 0-0-0 (n=0)
+ATS: 0-0-0 (N/A)
 
-Flag: n<30. 75% ATS stretch goal on large sample.
+Flag: n<30.

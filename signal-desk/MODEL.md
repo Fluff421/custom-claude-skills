@@ -1,13 +1,7 @@
-# Signal Desk Model
+# Model
 
-model_home_margin = home_fpi - away_fpi + HFA
+model_home_margin = home_fpi - away_fpi + HFA (NCAAF 2.5, NFL 2.0, neutral 0).
 
-HFA: NCAAF 2.5, NFL 2.0, neutral 0.
+Only if both teams have published FPI. Watch if |edge|>=3.
 
-Only when both teams have published FPI.
-
-Watch if |edge| >= 3 vs market spread.
-
-Ensemble weight = 0 (BIM not fitted).
-
-No unit plays until at least one regular-season week graded.
+No unit plays until at least one regular-season week graded. Ensemble not fitted, weight=0.
