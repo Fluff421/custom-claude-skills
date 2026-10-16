@@ -1,13 +1,1 @@
-{
-  "date": "2026-10-15",
-  "nfl_week": 6,
-  "ncaaf_week": 7,
-  "games_finalized_since_yesterday": [
-    {"date": "2026-10-13", "away": "Delaware", "home": "Middle Tennessee", "score": "30-33", "league": "NCAAF"},
-    {"date": "2026-10-13", "away": "FIU", "home": "Jacksonville State", "score": "24-27", "league": "NCAAF"},
-    {"date": "2026-10-14", "away": "Kennesaw State", "home": "Missouri State", "score": "21-24", "league": "NCAAF"},
-    {"date": "2026-10-14", "away": "Western Kentucky", "home": "Sam Houston", "score": "16-3", "league": "NCAAF"}
-  ],
-  "nfl_fpi_sample": {"SF": 6.7, "BUF": 4.8, "SEA": 3.5, "DEN": 1.5},
-  "notes": "No graded picks. Watches only. TNF SEA@DEN unplayed."
-}
+{"date": "2026-10-16", "nfl_week": 6, "ncaaf_week": 7, "finalized": ["SEA@DEN 14-17 OT"], "note": "No graded ledger yet"}
