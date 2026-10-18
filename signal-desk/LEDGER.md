@@ -1,9 +1,5 @@
 # Signal Desk Ledger
 
-No graded 2026 regular-season picks yet.
+No graded 2026 picks. Ledger n=0.
 
-ATS: 0-0-0 (n=0)
-ML: 0-0-0
-Totals: 0-0-0
-
-Note: Unit plays not enabled until at least one full regular-season week graded. Preseason excluded.
+ATS/ML/totals: 0-0-0 (n=0)
