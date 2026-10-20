@@ -1,6 +1,6 @@
 # Signal Desk Ledger
 
-2026 season. No graded picks yet.
+2026 season. No graded picks yet. First regular weeks in progress; no prior issued watches to grade.
 
 ATS: 0-0-0 (n=0)
 ML: 0-0-0
