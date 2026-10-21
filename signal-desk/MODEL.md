@@ -1,13 +1,13 @@
-# Model Spec
+# Signal Desk Model
 
-model_home_margin = home_fpi - away_fpi + HFA
+Engine: model_home_margin = home_fpi - away_fpi + HFA
 
 HFA: NCAAF 2.5, NFL 2.0, neutral 0.
 
-Only if both teams have published FPI.
+Watch threshold: |edge| >= 3.0 points.
 
-Watch if |edge| >= 3 vs market line.
+Ensemble weight = 0 (BIM not fitted).
 
-No unit plays until threshold enabled (post first graded regular week).
+No locks. No unit size until play threshold enabled after graded weeks.
 
-Ensemble weight = 0. BIM not fitted.
+Sources: ESPN FPI, scoresandodds.com.
