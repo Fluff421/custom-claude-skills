@@ -1,10 +1,6 @@
-# Signal Desk Ledger
+# Signal Desk Ledger 2026
 
-## 2026 Season
-No graded picks yet. Ledger empty. n=0.
+No graded regular-season picks yet. n=0.
+ATS/ML/totals: 0-0-0
 
-ATS: 0-0-0 (n=0)
-ML: 0-0-0 (n=0)
-Totals: 0-0-0 (n=0)
-
-Flag: n < 30. No unit plays issued.
+Notes: NFL preseason weighted 0.25 and excluded from 75% ATS ledger. Week 0 FCS/FBS excluded. Unit plays disabled until at least one full regular-season week is graded.

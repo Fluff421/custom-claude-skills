@@ -1,1 +1,7 @@
-{"date": "2026-10-22", "nfl_week": 7, "ncaaf_week": 8, "nfl_fpi_source": "ESPN", "notes": "No games finalized since yesterday. TNF NE@CHI upcoming."}
+{
+  "date": "2026-10-23",
+  "nfl_week": 7,
+  "ncaaf_week": 8,
+  "finalized_since_yesterday": ["NFL: CHI 30, NE 24 (Week 7 TNF)"],
+  "notes": "No prior graded 2026 pick log. Do not invent results."
+}
