@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import time
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -33,8 +34,12 @@ LEDGER_DEFAULT = "tbl3tFHFhvyNMpksE"
 KEEP_STATUS = ("out", "doubtful", "questionable")
 ALIASES = {
     "floridainternational": ["fiu"],
+    "fiu": ["floridainternational"],
     "louisianamonroe": ["ulmonroe"],
+    "ulm": ["louisianamonroe", "ulmonroe"],
+    "ulmonroe": ["louisianamonroe"],
     "appalachianstate": ["appstate"],
+    "appstate": ["appalachianstate"],
     "miamifl": ["miami"],
     "southernmiss": ["southernmississippi"],
     "mississippistate": ["mississippistate"],
@@ -77,6 +82,7 @@ def http_get(url: str, headers: dict | None = None, method: str = "GET", payload
 
 
 def scrape(url: str, key: str, js: bool = False) -> str:
+    time.sleep(1.5)  # stay polite: ESPN 403s rapid sequential requests
     params = urllib.parse.urlencode({"api_key": key, "url": url, "js": "true" if js else "false", "proxy": "datacenter"})
     return http_get(f"{SCRAPER_URL}?{params}")
 
@@ -117,15 +123,22 @@ def at_patch(base: str, table: str, token: str, updates: list[dict]) -> None:
 
 
 # ---------- ESPN scoreboard / lines ----------
-def espn_events(league: str, rng: str, key: str) -> list[dict]:
-    events = []
-    for template in SCOREBOARDS[league]:
-        try:
-            payload = parse_json(scrape(template.format(rng=rng), key))
-        except Exception as exc:  # noqa: BLE001
-            warn(f"{league} scoreboard fetch failed: {exc}")
-            continue
-        events.extend(payload.get("events", []))
+def espn_events(league: str, dates: list[str], key: str) -> list[dict]:
+    """Query ESPN's scoreboard one date at a time: multi-day ranges return no events.
+    Each ledger date is queried together with the following day, so late kickoffs that
+    spill into the next UTC day are still found. Events are deduped by ESPN event id."""
+    events, seen = [], set()
+    for date in dates:
+        for template in SCOREBOARDS[league]:
+            try:
+                payload = parse_json(scrape(template.format(rng=date), key))
+            except Exception as exc:  # noqa: BLE001
+                warn(f"{league} scoreboard fetch failed for {date}: {exc}")
+                continue
+            for ev in payload.get("events", []):
+                if ev.get("id") and ev["id"] not in seen:
+                    seen.add(ev["id"])
+                    events.append(ev)
     return events
 
 
@@ -216,9 +229,57 @@ class Tables(html.parser.HTMLParser):
             self._t = None
 
 
+def _join_cell(cell: list[str]) -> str:
+    """Join the letter-spaced data chunks ESPN's FPI page emits into one value."""
+    return re.sub(r"\s+", " ", "".join(cell)).strip()
+
+
 def parse_fpi(page: str) -> tuple[dict[str, float], str | None]:
     parser = Tables()
     parser.feed(page)
+    updated = None
+    m = re.search(r"Last Updated:?\s*([A-Za-z]+ \d{1,2}, \d{4})", re.sub(r"<[^>]+>", " ", page))
+    if m:
+        updated = m.group(1)
+    out: dict[str, float] = {}
+    # ESPN's FPI page renders team names and stats as two parallel tables (row i = team i).
+    # Rows are letter-spaced, so chunks are joined back together before use.
+    for table in parser.tables:
+        rows = [r for r in table if r]
+        if len(rows) < 8:
+            continue
+        # stats rows: second cell parses as a float (header rows fail and are skipped)
+        if not all(len(r) >= 2 for r in rows):
+            continue
+        stats_rows = []
+        for r in rows:
+            try:
+                stats_rows.append(float(_join_cell(r[1])))
+            except ValueError:
+                continue
+        if len(stats_rows) < 8:
+            continue
+        # find the matching names table: same table length, rows carry text in the first cell.
+        # The tables are zipped by RAW row position (both start with header rows), so
+        # header filtering cannot shift one table relative to the other.
+        for other in parser.tables:
+            if other is table or len(other) != len(table):
+                continue
+            out = {}
+            for nrow, srow in zip(other, table):
+                if not nrow or not srow or not nrow[0] or len(srow) < 2:
+                    continue
+                n = _join_cell(nrow[0])
+                if not n or n.upper() in ("TEAM", "W - L"):
+                    continue
+                try:
+                    val = float(_join_cell(srow[1]))
+                except ValueError:
+                    continue
+                out[norm(n)] = val
+            if out:
+                return out, updated
+    # legacy fallback: single-table layouts
     names, stats = [], []
     for table in parser.tables:
         rows = [r for r in table if r]
@@ -237,8 +298,6 @@ def parse_fpi(page: str) -> tuple[dict[str, float], str | None]:
                         continue
             if len(numeric) >= 8:
                 stats = numeric
-    m = re.search(r"Last Updated:?\s*([A-Za-z]+ \d{1,2}, \d{4})", re.sub(r"<[^>]+>", " ", page))
-    updated = m.group(1) if m else None
     if names and len(names) == len(stats):
         return {norm(n): v for n, v in zip(names, stats)}, updated
     return {}, updated
@@ -271,6 +330,13 @@ def fpi_for(name: str, team: dict | None, fpi: dict[str, float]):
     for k in keys:
         if k in fpi:
             return fpi[k]
+    # unique-prefix fallback: ledger short name vs FPI full name with mascot
+    # (e.g. "Ohio State" -> "Ohio State Buckeyes"); ambiguous prefixes are left unmatched
+    n = norm(name)
+    for cand in [n] + ALIASES.get(n, []):
+        hits = {k: v for k, v in fpi.items() if k.startswith(cand)}
+        if len(hits) == 1:
+            return next(iter(hits.values()))
     return None
 
 
@@ -320,9 +386,12 @@ def main() -> None:
     for league, lrows in by_league.items():
         if league not in SCOREBOARDS:
             continue
-        dates = sorted(r["fields"]["Date"] for r in lrows if r["fields"].get("Date"))
-        rng = dates[0].replace("-", "") + "-" + dates[-1].replace("-", "")
-        events = espn_events(league, rng, key)
+        ledger_dates = sorted({r["fields"]["Date"][:10].replace("-", "") for r in lrows if r["fields"].get("Date")})
+        # add the day after each ledger date to catch late kickoffs that roll into the next UTC day
+        query_dates = sorted({d for d in ledger_dates} | {
+            (dt.datetime.strptime(d, "%Y%m%d") + dt.timedelta(days=1)).strftime("%Y%m%d") for d in ledger_dates
+        })
+        events = espn_events(league, query_dates, key)
         fpi = load_fpi(league, key)
         injuries = load_nfl_injuries(key) if league == "NFL" else {}
         if league == "NCAAF":
