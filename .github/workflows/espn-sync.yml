@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
-      AIRTABLE_BASE_ID: ${{ secrets.AIRTABLE_BASE_ID }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
       LEDGER_TABLE_ID: ${{ vars.LEDGER_TABLE_ID }}
       WEBSCRAPING_AI_API_KEY: ${{ secrets.WEBSCRAPING_AI_API_KEY }}
       ESPN_SYNC_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.ESPN_SYNC_LIVE == 'true')) && '1' || '0' }}
@@ -45,5 +45,6 @@ jobs:
             exit 1
           fi
           echo "Configuration present. Mode: ESPN_SYNC_LIVE=${ESPN_SYNC_LIVE}"
+          echo "Base ID secret resolved: ${AIRTABLE_BASE_ID:+present}"
       - name: Sync ESPN data into the Signal Desk Ledger
         run: python signal-desk/espn_sync.py
