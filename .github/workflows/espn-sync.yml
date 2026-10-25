@@ -1,0 +1,50 @@
+name: ESPN Sync (Signal Desk)
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Write to Airtable (true) or dry run (false)"
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - signal-desk/espn_sync.py
+      - .github/workflows/espn-sync.yml
+  schedule:
+    - cron: "15 */3 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      LEDGER_TABLE_ID: ${{ vars.LEDGER_TABLE_ID }}
+      WEBSCRAPING_AI_API_KEY: ${{ secrets.WEBSCRAPING_AI_API_KEY }}
+      ESPN_SYNC_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.ESPN_SYNC_LIVE == 'true')) && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate configuration
+        shell: bash
+        run: |
+          missing=()
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID WEBSCRAPING_AI_API_KEY; do
+            if [ -z "${!key}" ]; then
+              missing+=("$key")
+            fi
+          done
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "::error::Missing or empty GitHub Actions secret(s): ${missing[*]}"
+            exit 1
+          fi
+          echo "Configuration present. Mode: ESPN_SYNC_LIVE=${ESPN_SYNC_LIVE}"
+          echo "Base ID secret resolved: ${AIRTABLE_BASE_ID:+present}"
+      - name: Sync ESPN data into the Signal Desk Ledger
+        run: python signal-desk/espn_sync.py
