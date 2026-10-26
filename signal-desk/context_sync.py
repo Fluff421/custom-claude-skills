@@ -57,10 +57,13 @@ def _score(side) -> float:
     return float(s or 0)
 
 
-def summarize(games: list[dict]) -> dict:
-    """Last result, streak and next opponent from a team's schedule."""
+def summarize(games: list[dict], after: dt.datetime | None = None) -> dict:
+    """Last result, streak and next opponent from a team's schedule.
+
+    `after` is the current game's kickoff: the 'next opponent' must be the game
+    AFTER the one being played, never the current game itself."""
     done = [g for g in games if g["completed"] and g["me"].get("score") is not None]
-    future = [g for g in games if g["state"] == "pre"]
+    future = [g for g in games if g["state"] == "pre" and (after is None or g["date"] > after)]
     last, streak, nxt = None, None, None
     if done:
         g = done[-1]
@@ -108,6 +111,10 @@ def main() -> None:
                 continue
             ev, c, swapped = hit
             home_t, away_t = (c["away"], c["home"]) if swapped else (c["home"], c["away"])
+            try:
+                kickoff = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
+            except Exception:  # noqa: BLE001
+                kickoff = None
             new, sides = {}, {}
             for label, team in (("Home", home_t), ("Away", away_t)):
                 tid = str((team or {}).get("id") or "")
@@ -115,7 +122,7 @@ def main() -> None:
                     continue
                 if tid not in schedules:
                     schedules[tid] = team_schedule(league, tid, key)
-                s = summarize(schedules[tid])
+                s = summarize(schedules[tid], after=kickoff)
                 if s["last"]:
                     new[f"{label} Last Result"] = s["last"]
                 if s["streak"]:
