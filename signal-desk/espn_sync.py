@@ -363,7 +363,11 @@ def load_nfl_injuries(key: str) -> dict[str, list[str]]:
 
 # ---------- main ----------
 def close(a, b) -> bool:
-    return a is not None and b is not None and abs(float(a) - float(b)) < 1e-6
+    if a is None or b is None:
+        return False
+    if isinstance(a, str) or isinstance(b, str):
+        return a == b  # text fields compare by equality, never as numbers
+    return abs(float(a) - float(b)) < 1e-6
 
 
 def main() -> None:
