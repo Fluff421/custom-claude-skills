@@ -1,0 +1,78 @@
+name: Context & Calibrate (Signal Desk)
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Write to Airtable (true) or dry run (false)"
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - signal-desk/context_sync.py
+      - signal-desk/calibrate.py
+      - .github/workflows/context-calibrate.yml
+  schedule:
+    - cron: "30 13 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  context:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      WEBSCRAPING_AI_API_KEY: ${{ secrets.WEBSCRAPING_AI_API_KEY }}
+      CONTEXT_SYNC_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.CONTEXT_SYNC_LIVE == 'true')) && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate configuration
+        shell: bash
+        run: |
+          missing=()
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID WEBSCRAPING_AI_API_KEY; do
+            if [ -z "${!key}" ]; then
+              missing+=("$key")
+            fi
+          done
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "::error::Missing or empty GitHub Actions secret(s): ${missing[*]}"
+            exit 1
+          fi
+          echo "Configuration present. Mode: CONTEXT_SYNC_LIVE=${CONTEXT_SYNC_LIVE}"
+      - name: Sync momentum and look-ahead context
+        run: python signal-desk/context_sync.py
+
+  calibrate:
+    runs-on: ubuntu-latest
+    needs: context
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      CALIBRATE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.CALIBRATE_LIVE == 'true')) && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate configuration
+        shell: bash
+        run: |
+          missing=()
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID; do
+            if [ -z "${!key}" ]; then
+              missing+=("$key")
+            fi
+          done
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "::error::Missing or empty GitHub Actions secret(s): ${missing[*]}"
+            exit 1
+          fi
+          echo "Configuration present. Mode: CALIBRATE_LIVE=${CALIBRATE_LIVE}"
+      - name: Recalibrate model parameters
+        run: python signal-desk/calibrate.py
