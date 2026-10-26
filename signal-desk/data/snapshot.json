@@ -1,9 +1,1 @@
-{
-  "date": "2026-10-24",
-  "nfl_week": 7,
-  "ncaaf_week": 8,
-  "nfl_fpi_source": "https://www.espn.com/nfl/fpi",
-  "ncaaf_fpi_source": "https://www.espn.com/college-football/fpi",
-  "notes": "Thursday NFL CHI 30 NE 24 final. Remaining NFL Week 7 and all NCAAF Week 8 games unplayed or in progress as of snapshot. No graded picks.",
-  "ledger": {"ats_hits": 0, "ats_misses": 0, "ats_pushes": 0, "n": 0}
-}
+{"date": "2026-10-26", "nfl_week": 7, "ncaaf_week": 8, "notes": "NFL MNF unplayed; NCAAF Week 8 complete, Week 9 upcoming"}
