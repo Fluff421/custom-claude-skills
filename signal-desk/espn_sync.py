@@ -88,8 +88,24 @@ def http_get(url: str, headers: dict | None = None, method: str = "GET", payload
         raise RuntimeError(f"Network error contacting {urllib.parse.urlparse(url).netloc}: {exc.reason}") from exc
 
 
+DIRECT_HOSTS = ("site.api.espn.com", "sports.core.api.espn.com", "site.web.api.espn.com")
+DIRECT_STATS = {"direct": 0, "scraper": 0}
+
+
 def scrape(url: str, key: str, js: bool = False) -> str:
+    """ESPN JSON APIs are fetched directly (no scraper call spent); WebScraping.AI is
+    only used for HTML pages or when a direct fetch fails."""
     time.sleep(1.5)  # stay polite: ESPN 403s rapid sequential requests
+    if urllib.parse.urlparse(url).netloc in DIRECT_HOSTS:
+        try:
+            body = http_get(url, {"User-Agent": "Mozilla/5.0 signal-desk", "Accept": "application/json"})
+            DIRECT_STATS["direct"] += 1
+            return body
+        except RuntimeError as exc:
+            if not key:
+                raise
+            print(f"Direct ESPN fetch failed ({exc}); falling back to scraper.", file=sys.stderr)
+    DIRECT_STATS["scraper"] += 1
     params = urllib.parse.urlencode({"api_key": key, "url": url, "js": "true" if js else "false", "proxy": "datacenter"})
     return http_get(f"{SCRAPER_URL}?{params}")
 
@@ -337,13 +353,7 @@ def _team_id_from_ref(ref: str) -> str | None:
 
 def _get_json(url: str, key: str):
     """Direct fetch first (core API needs no key); WebScraping.AI as fallback."""
-    try:
-        return json.loads(http_get(url, {"User-Agent": "Mozilla/5.0 signal-desk"}))
-    except Exception as exc:  # noqa: BLE001
-        if not key:
-            raise
-        warn(f"Direct fetch failed ({exc}); retrying via scraper.")
-        return parse_json(scrape(url, key))
+    return parse_json(scrape(url, key))
 
 
 def load_fpi_index(league: str, key: str, season: int | None = None) -> dict[str, float]:
@@ -519,7 +529,8 @@ def main() -> None:
     mode = "LIVE" if live else "DRY RUN"
     if live and updates:
         at_patch(base, table, token, updates)
-    lines = [f"Mode: {mode}", f"Ledger rows scanned: {len(rows)}", f"Rows with changes: {len(updates)}"]
+    lines = [f"Mode: {mode}", f"Ledger rows scanned: {len(rows)}", f"Rows with changes: {len(updates)}",
+             f"ESPN fetches: {DIRECT_STATS['direct']} direct, {DIRECT_STATS['scraper']} via scraper"]
     lines += [f"Unmatched to ESPN: {len(unmatched)} - " + "; ".join(unmatched[:25])] if unmatched else []
     lines += [f"WARNING: {w}" for w in WARNINGS] + report[:60]
     print("\n".join(lines))
