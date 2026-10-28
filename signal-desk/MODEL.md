@@ -25,6 +25,11 @@ edge              = model_home_margin - Vegas Implied Home Margin   (Splash line
 | Strong Play | >= 2.5 | 1.5 |
 | Max Play | >= 4.0 | 3.0 |
 
+Sample-size cap: until a league/tier has 20 graded picks, suggested units are
+capped at 1.0 (Lean stays 0.5). The cap also trims pending auto picks that have
+no closing line yet. Override with the `UNIT_CAP` and `UNIT_CAP_SAMPLE_MIN`
+environment variables.
+
 Games below 1.0 get no pick. Thresholds and units can be overridden per league
 in the Airtable Model Parameters table (`Threshold Lean/Strong/Max`,
 `Units Lean/Strong/Max`); none are set today, so the defaults above apply.
