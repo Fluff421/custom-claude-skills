@@ -45,6 +45,7 @@ def team_schedule(league: str, team_id: str, key: str) -> list[dict]:
         out.append({
             "date": when, "state": status.get("state"), "completed": status.get("completed", False),
             "me": side, "opp": opp, "opp_name": ((opp or {}).get("team") or {}).get("displayName", "?"),
+            "opp_id": str(((opp or {}).get("team") or {}).get("id") or ""),
         })
     return sorted(out, key=lambda g: g["date"])
 
@@ -74,7 +75,8 @@ def summarize(games: list[dict], after: dt.datetime | None = None) -> dict:
     if future:
         g = future[0]
         nxt = f"{g['opp_name']} ({g['date'].strftime('%a %m/%d')})"
-    return {"last": last, "streak": streak, "next": nxt, "next_name": future[0]["opp_name"] if future else None}
+    return {"last": last, "streak": streak, "next": nxt, "next_name": future[0]["opp_name"] if future else None,
+            "next_id": future[0].get("opp_id") if future else None}
 
 
 def main() -> None:
@@ -102,7 +104,7 @@ def main() -> None:
         except Exception as exc:  # noqa: BLE001
             es.warn(f"{league} scoreboard fetch failed: {exc}")
             continue
-        fpi = es.load_fpi(league, key)
+        fpi = es.load_fpi_index(league, key)  # keyed by ESPN team id
         schedules: dict[str, list[dict]] = {}
         for r in lrows:
             f = r["fields"]
@@ -136,7 +138,7 @@ def main() -> None:
                 s, cur = sides.get(label), f.get(opp_fpi_field)
                 if not (s and s.get("next_name") and cur is not None and fpi):
                     continue
-                nxt_fpi = es.fpi_for(s["next_name"], None, fpi)
+                nxt_fpi = fpi.get(s.get("next_id") or "")
                 if nxt_fpi is None:
                     continue
                 gap = nxt_fpi - float(cur)
