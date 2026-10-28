@@ -1,0 +1,64 @@
+name: Snapshot (Signal Desk)
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Commit the regenerated files to main (true) or dry run (false)"
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - signal-desk/snapshot.py
+      - .github/workflows/snapshot.yml
+  schedule:
+    - cron: "20 11 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signal-desk-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      SNAPSHOT_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.SNAPSHOT_LIVE == 'true')) && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate configuration
+        shell: bash
+        run: |
+          missing=()
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID; do
+            if [ -z "${!key}" ]; then
+              missing+=("$key")
+            fi
+          done
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "::error::Missing or empty GitHub Actions secret(s): ${missing[*]}"
+            exit 1
+          fi
+          echo "Configuration present. Mode: SNAPSHOT_LIVE=${SNAPSHOT_LIVE}"
+      - name: Regenerate LEDGER.md and snapshot.json from Airtable
+        run: python signal-desk/snapshot.py
+      - name: Commit snapshot
+        if: ${{ env.SNAPSHOT_LIVE == '1' }}
+        shell: bash
+        run: |
+          if git diff --quiet -- signal-desk/LEDGER.md signal-desk/data/snapshot.json; then
+            echo "No change to commit."
+            exit 0
+          fi
+          git config user.name "signal-desk-bot"
+          git config user.email "signal-desk-bot@users.noreply.github.com"
+          git add signal-desk/LEDGER.md signal-desk/data/snapshot.json
+          git commit -m "Signal Desk snapshot $(date -u +%F) (auto, from Airtable)"
+          git push
