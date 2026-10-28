@@ -12,18 +12,28 @@ and the Recommended Side in the ledger's existing text format. Only writes rows 
 no Sharp-Sheet Tier (manual picks are never overwritten). Parameters come from the
 Model Parameters table so the calibrator can tune them. Dry run by default
 (PICKS_LIVE=1 to write).
+
+Sample-size cap: until a league/tier has SAMPLE_MIN graded picks (default 20, the
+calibrator's own tier minimum), suggested units are capped at UNIT_CAP (default 1.0).
+The cap also lowers Suggested Units on existing pending auto picks that have no
+closing line yet; it never changes tier, side, probability or graded rows.
 """
 from __future__ import annotations
 
 import datetime as dt
 import math
+import json
 import os
 import sys
+import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
 
 LEDGER = "tbl3tFHFhvyNMpksE"
+AUTO_BOOK = "Splash Sports (auto)"
+SAMPLE_MIN = int(os.environ.get("UNIT_CAP_SAMPLE_MIN", "20"))
+UNIT_CAP = float(os.environ.get("UNIT_CAP", "1.0"))
 PARAMS = "tblTqY4CnU08ce1s9"
 DEFAULTS = {
     "sigma": {"NCAAF": 14.0, "NFL": 13.5},
@@ -67,6 +77,33 @@ def load_params(token: str) -> dict[str, dict]:
     return out
 
 
+def graded_counts(base: str, token: str) -> dict[tuple[str, str], int]:
+    """Graded (Win/Loss/Push) pick counts by (league, tier) across all weeks."""
+    formula = ("AND({Record Type}='Game',{Sharp-Sheet Tier},"
+               "OR({Grade}='Win',{Grade}='Loss',{Grade}='Push'))")
+    counts: dict[tuple[str, str], int] = {}
+    offset = None
+    while True:
+        url = (f"https://api.airtable.com/v0/{base}/{LEDGER}?pageSize=100&filterByFormula="
+               + urllib.parse.quote(formula))
+        if offset:
+            url += "&offset=" + urllib.parse.quote(offset, safe="")
+        page = json.loads(es.http_get(url, es.at_headers(token)))
+        for r in page.get("records", []):
+            f = r["fields"]
+            key = (f.get("League", ""), f.get("Sharp-Sheet Tier", ""))
+            counts[key] = counts.get(key, 0) + 1
+        offset = page.get("offset")
+        if not offset:
+            return counts
+
+
+def capped_units(base_units: float, league: str, tier: str, counts: dict) -> float:
+    if counts.get((league, tier), 0) < SAMPLE_MIN:
+        return min(base_units, UNIT_CAP)
+    return base_units
+
+
 def win_prob(edge: float, sigma: float) -> float:
     return 0.5 * (1.0 + math.erf(abs(edge) / (sigma * math.sqrt(2.0))))
 
@@ -91,13 +128,23 @@ def main() -> None:
         raise SystemExit("ERROR: AIRTABLE_TOKEN and AIRTABLE_BASE_ID must be set.")
 
     params = load_params(token)
+    counts = graded_counts(base, token)
     rows = es.at_list(base, LEDGER, token)  # Date > yesterday, Record Type Game
     updates, report, skipped = [], [], {"no line": 0, "no fpi": 0, "already picked": 0, "below threshold": 0}
+    recapped = []
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%MZ")
     for r in rows:
         f = r["fields"]
         if f.get("Sharp-Sheet Tier"):
             skipped["already picked"] += 1
+            # re-cap pending auto picks that were sized before the cap existed
+            tier0, units0 = f.get("Sharp-Sheet Tier"), f.get("Sharp-Sheet Suggested Units")
+            if (f.get("Sharp-Sheet Sportsbook") == AUTO_BOOK and f.get("Grade") in (None, "Pending")
+                    and f.get("Closing Spread (Home)") is None and units0 is not None):
+                new_u = capped_units(float(units0), f.get("League", ""), tier0, counts)
+                if new_u < float(units0):
+                    updates.append({"id": r["id"], "fields": {"Sharp-Sheet Suggested Units": new_u}})
+                    recapped.append(f"{f.get('Game')}: {tier0} {float(units0):g}u -> {new_u:g}u")
             continue
         if f.get("Grade") not in (None, "Pending"):
             continue
@@ -126,11 +173,11 @@ def main() -> None:
         mult = float(p["multipliers"].get(tier, 1.0))
         prob = min(0.95, max(0.50, prob * mult))
         home_pick = edge > 0
-        side = "HOME" if home_pick else "AWAY"
+        units = capped_units(p["units"][tier], league, tier, counts)
         new = {
             "Sharp-Sheet Tier": tier,
             "Sharp-Sheet Est. Win Prob %": round(prob, 4),
-            "Sharp-Sheet Suggested Units": p["units"][tier],
+            "Sharp-Sheet Suggested Units": units,
             "Recommended Side": pick_line_text(f["Home Team"] if home_pick else f["Away Team"], vegas, home_pick),
             "Sharp-Sheet Sportsbook": "Splash Sports (auto)",
             "Sharp-Sheet Data Completeness": f"Auto pick {now} | FPI+line ok | edge {edge:+.1f} | "
@@ -138,13 +185,16 @@ def main() -> None:
         }
         updates.append({"id": r["id"], "fields": new})
         report.append(f"{f.get('Game')}: {tier} {new['Recommended Side']} "
-                      f"(edge {edge:+.1f}, p {prob:.1%}, {p['units'][tier]}u)")
+                      f"(edge {edge:+.1f}, p {prob:.1%}, {units:g}u)")
 
     mode = "LIVE" if live else "DRY RUN"
     if live and updates:
         es.at_patch(base, LEDGER, token, updates)
-    lines = [f"Mode: {mode}", f"Picks written: {len(updates)}",
-             f"Skipped: {skipped}"] + report[:60]
+    cap_note = "; ".join(f"{lg} {t}: {n}" for (lg, t), n in sorted(counts.items())) or "none"
+    lines = [f"Mode: {mode}", f"New picks: {len(report)}", f"Units re-capped: {len(recapped)}",
+             f"Skipped: {skipped}",
+             f"Unit cap {UNIT_CAP:g}u until {SAMPLE_MIN} graded per tier. Graded so far: {cap_note}"]
+    lines += report[:60] + recapped[:60]
     print("\n".join(lines))
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if path:
