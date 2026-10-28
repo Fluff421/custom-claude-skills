@@ -1,0 +1,8 @@
+espn_event_id,game,conference,report_type,report_time_utc,report_time_basis,side,player,position,status,report_status,source_url,checked_at_utc
+401859185,Notre Dame at Navy,independent,midweek,,unknown,home,none listed,, ,not_applicable,https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx (ACC only; ND/Navy independent/neutral),2026-10-28T18:00:00Z
+401856842,Arizona at Texas Tech,Big 12,midweek,,unknown,home,none listed,, ,not_published,https://big12sports.com/sports/2025/8/14/FBreporting.aspx,2026-10-28T18:05:00Z
+401856842,Arizona at Texas Tech,Big 12,midweek,,unknown,away,none listed,, ,not_published,https://big12sports.com/sports/2025/8/14/FBreporting.aspx,2026-10-28T18:05:00Z
+401858278,SMU at Syracuse,ACC,midweek,,unknown,home,none listed,, ,not_published,https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx,2026-10-28T18:10:00Z
+401858278,SMU at Syracuse,ACC,midweek,,unknown,away,none listed,, ,not_published,https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx,2026-10-28T18:10:00Z
+401858502,Wisconsin at Iowa,Big Ten,midweek,,unknown,home,none listed,, ,not_published,https://bigten.org/,2026-10-28T18:15:00Z
+401858502,Wisconsin at Iowa,Big Ten,midweek,,unknown,away,none listed,, ,not_published,https://bigten.org/,2026-10-28T18:15:00Z
