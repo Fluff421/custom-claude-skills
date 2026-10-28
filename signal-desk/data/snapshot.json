@@ -1,1 +1,1 @@
-{"date": "2026-10-27", "nfl_week": "7 complete / 8 upcoming", "ncaaf_week": "9 starting", "ledger": {"ats": {"hits": 0, "misses": 0, "pushes": 0, "n": 0}}, "notes": "No prior graded log"}
+{"date": "2026-10-28", "nfl_week": 8, "ncaaf_week": 9, "ledger": {"ats": {"hits":0,"misses":0,"pushes":0}, "ml": {"hits":0,"misses":0,"pushes":0}, "totals": {"hits":0,"misses":0,"pushes":0}}, "notes": "No prior graded 2026 log. Ensemble weight 0."}

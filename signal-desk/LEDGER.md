@@ -1,8 +1,9 @@
 # Signal Desk Ledger
 
-As of 2026-10-27
+No graded 2026 picks. Regular-season ATS ledger starts after first graded week.
 
-No graded 2026 picks. n=0 for ATS/ML/totals.
+ATS: 0-0-0 (n=0)
+ML: 0-0-0 (n=0)
+Totals: 0-0-0 (n=0)
 
-Preseason and Week 0 excluded from 75% ledger as specified.
-
+Flag: n < 30 for all.

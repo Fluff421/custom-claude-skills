@@ -1,10 +1,11 @@
-# Signal Desk Model
+# Model
 
-model_home_margin = home_fpi - away_fpi + HFA (NCAAF 2.5, NFL 2.0, neutral 0)
+model_home_margin = home_fpi - away_fpi + HFA (NCAAF 2.5, NFL 2.0, neutral 0).
 
-Watch if |edge| >= 3 vs market spread.
+Only when both teams have published FPI.
 
-No unit plays issued until regular-season grading threshold met and n sufficient.
+Watch if |edge| >= 3.
 
 Ensemble weight = 0 (BIM not fitted).
 
+No unit plays until regular-season graded sample exists.
