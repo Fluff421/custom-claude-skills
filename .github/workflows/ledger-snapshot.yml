@@ -1,0 +1,42 @@
+name: Ledger Snapshot (Signal Desk)
+
+# Rebuilds signal-desk/LEDGER.md + snapshot.json ledger from Airtable graded rows.
+# Runs after the 7:39 AM CT daily digest commit so a stale hand-written ledger
+# never survives the morning.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 13,19,3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ledger-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Regenerate ledger snapshot
+        run: python signal-desk/ledger_snapshot.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- signal-desk/LEDGER.md signal-desk/data/snapshot.json; then
+            echo "Ledger snapshot already current."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add signal-desk/LEDGER.md signal-desk/data/snapshot.json
+          git commit -m "Signal Desk ledger snapshot $(TZ=America/Chicago date +%F) (auto from Airtable)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
