@@ -26,6 +26,13 @@ SCOREBOARDS = {
         ESPN + "/college-football/scoreboard?groups=81&limit=300&dates={rng}",
     ],
 }
+POWER_INDEX = ("https://sports.core.api.espn.com/v2/sports/football/leagues/{lg}/seasons/{season}"
+               "/powerindex?limit=100&page={page}")
+FPI_LEAGUE_PATH = {"NCAAF": "college-football", "NFL": "nfl"}
+FPI_STALE_HOURS = 72
+# Decimals stored in Home/Away FPI. 1 matches the ESPN display value the ledger has
+# always used, so switching sources does not move games across tier lines.
+FPI_DECIMALS = int(os.environ.get("FPI_DECIMALS", "1"))
 FPI_PAGES = {"NCAAF": "https://www.espn.com/college-football/fpi", "NFL": "https://www.espn.com/nfl/fpi"}
 NFL_INJURIES = ESPN + "/nfl/injuries"
 SCRAPER_URL = "https://api.webscraping.ai/html"
@@ -81,8 +88,24 @@ def http_get(url: str, headers: dict | None = None, method: str = "GET", payload
         raise RuntimeError(f"Network error contacting {urllib.parse.urlparse(url).netloc}: {exc.reason}") from exc
 
 
+DIRECT_HOSTS = ("site.api.espn.com", "sports.core.api.espn.com", "site.web.api.espn.com")
+DIRECT_STATS = {"direct": 0, "scraper": 0}
+
+
 def scrape(url: str, key: str, js: bool = False) -> str:
+    """ESPN JSON APIs are fetched directly (no scraper call spent); WebScraping.AI is
+    only used for HTML pages or when a direct fetch fails."""
     time.sleep(1.5)  # stay polite: ESPN 403s rapid sequential requests
+    if urllib.parse.urlparse(url).netloc in DIRECT_HOSTS:
+        try:
+            body = http_get(url, {"User-Agent": "Mozilla/5.0 signal-desk", "Accept": "application/json"})
+            DIRECT_STATS["direct"] += 1
+            return body
+        except RuntimeError as exc:
+            if not key:
+                raise
+            print(f"Direct ESPN fetch failed ({exc}); falling back to scraper.", file=sys.stderr)
+    DIRECT_STATS["scraper"] += 1
     params = urllib.parse.urlencode({"api_key": key, "url": url, "js": "true" if js else "false", "proxy": "datacenter"})
     return http_get(f"{SCRAPER_URL}?{params}")
 
@@ -323,6 +346,61 @@ def load_fpi(league: str, key: str) -> dict[str, float]:
     return {}
 
 
+def _team_id_from_ref(ref: str) -> str | None:
+    m = re.search(r"/teams/(\d+)", ref or "")
+    return m.group(1) if m else None
+
+
+def _get_json(url: str, key: str):
+    """Direct fetch first (core API needs no key); WebScraping.AI as fallback."""
+    return parse_json(scrape(url, key))
+
+
+def load_fpi_index(league: str, key: str, season: int | None = None) -> dict[str, float]:
+    """ESPN Core power index JSON, keyed by ESPN team id (same id as scoreboard
+    competitors[].team.id). Freshness uses lastUpdated; runDateTimeKey is logged only,
+    because the NCAAF value is known to carry stale metadata."""
+    if season is None:
+        today = dt.date.today()
+        season = today.year if today.month >= 3 else today.year - 1  # Jan/Feb belong to last season
+    out: dict[str, float] = {}
+    updated: set[str] = set()
+    run_keys: set[str] = set()
+    page, pages = 1, 1
+    while page <= pages:
+        url = POWER_INDEX.format(lg=FPI_LEAGUE_PATH[league], season=season, page=page)
+        try:
+            payload = _get_json(url, key)
+        except Exception as exc:  # noqa: BLE001
+            warn(f"{league} power index fetch failed (page {page}): {exc}")
+            return {}
+        pages = int(payload.get("pageCount") or 1)
+        for item in payload.get("items", []):
+            tid = _team_id_from_ref((item.get("team") or {}).get("$ref", ""))
+            fpi = next((p.get("value") for p in item.get("predictives", []) if p.get("name") == "fpi"), None)
+            if tid and fpi is not None:
+                out[tid] = round(float(fpi), FPI_DECIMALS)
+            if item.get("lastUpdated"):
+                updated.add(item["lastUpdated"])
+            if item.get("runDateTimeKey"):
+                run_keys.add(str(item["runDateTimeKey"]))
+        page += 1
+    if updated:
+        newest = max(updated)
+        try:
+            ts = dt.datetime.strptime(newest, "%Y-%m-%dT%H:%MZ").replace(tzinfo=dt.timezone.utc)
+            age_h = (dt.datetime.now(dt.timezone.utc) - ts).total_seconds() / 3600
+            print(f"{league} power index: {len(out)} teams, lastUpdated {newest} ({age_h:.0f} h old), "
+                  f"runDateTimeKey {sorted(run_keys)}")
+            if age_h > FPI_STALE_HOURS:
+                warn(f"{league} FPI is stale: lastUpdated {newest} ({age_h:.0f} h old).")
+        except ValueError:
+            warn(f"{league} power index lastUpdated not parseable: {newest}")
+    else:
+        warn(f"{league} power index has no lastUpdated; freshness unknown.")
+    return out
+
+
 def fpi_for(name: str, team: dict | None, fpi: dict[str, float]):
     keys = set(names_for(team)) if team else set()
     keys.add(norm(name))
@@ -396,7 +474,10 @@ def main() -> None:
             (dt.datetime.strptime(d, "%Y%m%d") + dt.timedelta(days=1)).strftime("%Y%m%d") for d in ledger_dates
         })
         events = espn_events(league, query_dates, key)
-        fpi = load_fpi(league, key)
+        fpi_ids = load_fpi_index(league, key)
+        fpi = {} if fpi_ids else load_fpi(league, key)  # HTML name match only if JSON fails
+        if not fpi_ids and fpi:
+            warn(f"{league}: power index JSON unavailable; fell back to FPI page name matching.")
         injuries = load_nfl_injuries(key) if league == "NFL" else {}
         if league == "NCAAF":
             warn("NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed).")
@@ -420,10 +501,14 @@ def main() -> None:
             if spread is not None and splash is not None:
                 note += f" Splash vs ESPN home-margin gap: {float(splash) + spread:+.1f}."
             new["ESPN Line Note"] = note
-            hf, af = fpi_for(f.get("Home Team", ""), home_t, fpi), fpi_for(f.get("Away Team", ""), away_t, fpi)
+            if fpi_ids:
+                hf = fpi_ids.get(str(home_t.get("id") or ""))
+                af = fpi_ids.get(str(away_t.get("id") or ""))
+            else:
+                hf, af = fpi_for(f.get("Home Team", ""), home_t, fpi), fpi_for(f.get("Away Team", ""), away_t, fpi)
             if hf is not None and af is not None:
                 new["Home FPI"], new["Away FPI"] = hf, af
-            elif fpi:
+            elif fpi_ids or fpi:
                 report.append(f"FPI missing for {f.get('Game')} (home={hf}, away={af}) - manual FPI needed")
             if league == "NFL" and injuries:
                 parts = []
@@ -444,7 +529,8 @@ def main() -> None:
     mode = "LIVE" if live else "DRY RUN"
     if live and updates:
         at_patch(base, table, token, updates)
-    lines = [f"Mode: {mode}", f"Ledger rows scanned: {len(rows)}", f"Rows with changes: {len(updates)}"]
+    lines = [f"Mode: {mode}", f"Ledger rows scanned: {len(rows)}", f"Rows with changes: {len(updates)}",
+             f"ESPN fetches: {DIRECT_STATS['direct']} direct, {DIRECT_STATS['scraper']} via scraper"]
     lines += [f"Unmatched to ESPN: {len(unmatched)} - " + "; ".join(unmatched[:25])] if unmatched else []
     lines += [f"WARNING: {w}" for w in WARNINGS] + report[:60]
     print("\n".join(lines))
