@@ -10,6 +10,7 @@ on:
   pull_request:
     paths:
       - signal-desk/snapshot.py
+      - signal-desk/ops_export.py
       - .github/workflows/snapshot.yml
   schedule:
     # 8:15 AM America/Chicago year-round. GitHub cron is UTC only, so both
@@ -21,6 +22,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: signal-desk-snapshot
@@ -31,6 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      GITHUB_TOKEN: ${{ github.token }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
       SNAPSHOT_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.SNAPSHOT_LIVE == 'true')) && '1' || '0' }}
     steps:
@@ -74,16 +77,21 @@ jobs:
       - name: Regenerate LEDGER.md and snapshot.json from Airtable
         if: steps.gate.outputs.run == 'true'
         run: python signal-desk/snapshot.py
+      - name: Export graded picks and ops health (reads Airtable and Actions logs)
+        if: steps.gate.outputs.run == 'true'
+        run: python signal-desk/ops_export.py
       - name: Commit snapshot
         if: ${{ steps.gate.outputs.run == 'true' && env.SNAPSHOT_LIVE == '1' }}
         shell: bash
         run: |
-          if git diff --quiet -- signal-desk/LEDGER.md signal-desk/data/snapshot.json; then
+          FILES="signal-desk/LEDGER.md signal-desk/data/snapshot.json signal-desk/data/graded_picks.csv signal-desk/data/ops_status.json"
+          git add -N $FILES 2>/dev/null || true
+          if git diff --quiet -- $FILES; then
             echo "No change to commit."
             exit 0
           fi
           git config user.name "signal-desk-bot"
           git config user.email "signal-desk-bot@users.noreply.github.com"
-          git add signal-desk/LEDGER.md signal-desk/data/snapshot.json
+          git add $FILES
           git commit -m "Signal Desk snapshot $(date -u +%F) (auto, from Airtable)"
           git push
