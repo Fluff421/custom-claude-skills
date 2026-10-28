@@ -1,57 +1,51 @@
 {
-  "schema_version": "0.1.0-research",
-  "generated_at_utc": "2026-10-28T18:35:00Z",
+  "schema_version": "0.1.1-research",
+  "generated_at_utc": "2026-10-28T19:20:00Z",
   "branch": "research/grok-feed",
   "pilot": true,
   "files": [
     {
       "path": "signal-desk/research/feed/injuries_ncaaf/2026-10-28.csv",
       "type": "injuries_ncaaf",
-      "row_count": 7,
-      "real_data": true,
-      "note": "All rows are honest status (not_published / not_applicable). No fabricated player listings. Event IDs from ESPN scoreboard 20261031."
+      "row_count": 8,
+      "real_data": "status_only",
+      "note": "All rows not_published or not_applicable. player/status left blank. No fabricated listings. Event IDs from ESPN scoreboard."
     },
     {
       "path": "signal-desk/research/feed/weather/2026-10-28.csv",
       "type": "weather",
       "row_count": 2,
-      "real_data": "partial",
-      "note": "Coordinates and source URLs verified. Forecast numerics left blank pending full hourly pull for kickoff hour. Roof status unknown."
+      "real_data": true,
+      "note": "NWS primary. Coordinates attributed. One kickoff-hour forecast filled per row with issued/valid times and gridpoint URL."
     },
     {
       "path": "signal-desk/research/feed/ops/2026-10-28.md",
       "type": "ops",
       "row_count": null,
       "real_data": true,
-      "note": "Actions run list + LEDGER surface check. Full job logs not expanded (log not inspected)."
+      "note": "ESPN Sync 40692430538 log downloaded and inspected. Health = degraded despite conclusion=success."
     },
     {
-      "path": "signal-desk/research/feed/reference/2026-10-25-fpi-injuries-srs-weather.md",
-      "type": "reference",
-      "real_data": false,
-      "note": "Historical research copy from research/2026-10-25-source-audit"
-    },
-    {
-      "path": "signal-desk/research/feed/reference/2026-10-25-data-sources.md",
-      "type": "reference",
-      "real_data": false,
-      "note": "Historical research copy from research/data-sources-2026-10-25"
-    },
-    {
-      "path": "signal-desk/research/feed/reference/README.md",
-      "type": "reference",
+      "path": "signal-desk/research/feed/manifest-2026-10-28.json",
+      "type": "manifest",
       "real_data": false
     },
     {
       "path": "signal-desk/research/feed/README.md",
       "type": "readme",
       "real_data": false
+    },
+    {
+      "path": "signal-desk/research/feed/reference/",
+      "type": "reference",
+      "real_data": false,
+      "note": "Historical research copies only"
     }
   ],
-  "fetched_source_count": 6,
+  "fetched_source_count": 8,
   "failures": [
-    "Conference availability player tables not yet published for Oct 31 slate at check time (expected for Wednesday afternoon).",
-    "Full Actions job logs not downloaded/expanded for this sample."
+    "Conference availability player tables still not published for Oct 31 slate at revision time.",
+    "Big Ten specific weekly report URL not located (source_url_unknown)."
   ],
-  "notes": "This is a pilot sample set for contract review. No production ingestion. No schedules enabled."
+  "notes": "Revised per PR #12 review (13 items). No schedules. No production writes."
 }
