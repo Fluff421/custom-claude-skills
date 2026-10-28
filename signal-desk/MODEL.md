@@ -1,7 +1,7 @@
 # Signal Desk Model
 
 This file describes what the code on `main` actually does. If a script changes,
-update this file in the same PR. Last reviewed: 2026-10-28.
+update this file in the same PR. Last reviewed: 2026-10-28 (after PR #10).
 
 ## Margin and edge (`picks.py`)
 
@@ -71,9 +71,14 @@ Below those counts the calibrator reports but changes nothing.
 
 ## Data sources and known gaps
 
-- FPI: scraped from the ESPN FPI HTML page and matched by team name. Planned
-  change: ESPN Core power-index JSON matched by ESPN team id, with
-  `lastUpdated` older than 72 h treated as stale.
+- FPI: ESPN Core power index JSON (`sports.core.api.espn.com/.../powerindex`),
+  matched by ESPN team id (same id as the scoreboard). Done in PR #10,
+  2026-10-28. Stored at 1 decimal (`FPI_DECIMALS`). Stale warning when
+  `lastUpdated` is older than 72 h; NCAAF `runDateTimeKey` is logged only.
+  Teams not in the index (FCS) are reported as FPI missing, never guessed.
+  The old HTML page with name matching is a fallback only.
+- ESPN JSON feeds (scoreboard, injuries, schedules, power index) are fetched
+  directly. WebScraping.AI is used only if a direct fetch fails.
 - Lines for comparison: ESPN scoreboard's single embedded provider, not a
   consensus. The bet line is always the Splash line.
 - Injuries: NFL automatic (Out / Doubtful / Questionable). NCAAF manual; a
