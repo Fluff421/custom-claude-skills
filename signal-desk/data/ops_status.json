@@ -1,0 +1,307 @@
+{
+ "generated_at_utc": "2026-10-29T14:37:28Z",
+ "generated_for_central_date": "2026-10-29",
+ "graded_picks_csv_rows": 12,
+ "ledger_health": {
+  "games_today_or_later": 66,
+  "games_before_today": 57,
+  "checks": {
+   "upcoming_no_espn_event_id": {
+    "count": 0,
+    "games": []
+   },
+   "upcoming_no_fpi": {
+    "count": 0,
+    "games": []
+   },
+   "upcoming_no_splash_line": {
+    "count": 0,
+    "games": []
+   },
+   "upcoming_no_espn_line": {
+    "count": 0,
+    "games": []
+   },
+   "upcoming_edge_over_lean_but_no_pick": {
+    "count": 0,
+    "games": []
+   },
+   "upcoming_espn_data_stale": {
+    "count": 0,
+    "games": []
+   },
+   "past_date_no_closing_line": {
+    "count": 0,
+    "games": []
+   },
+   "past_date_no_score": {
+    "count": 0,
+    "games": []
+   },
+   "past_date_scored_but_pick_ungraded": {
+    "count": 0,
+    "games": []
+   }
+  },
+  "note": "Date has no kickoff time; 'before today' is by Central calendar date. Postponed/cancelled games appear under past_date_no_score."
+ },
+ "workflow_health": [
+  {
+   "workflow": "ESPN Sync",
+   "file": "espn-sync.yml",
+   "runs": [
+    {
+     "run_id": 40854257535,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40854257535",
+     "event": "schedule",
+     "created_at": "2026-10-29T10:01:45Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 66,
+      "rows_changed": 66,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40797691960,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40797691960",
+     "event": "schedule",
+     "created_at": "2026-10-29T01:00:17Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 66,
+      "rows_changed": 66,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40762039658,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40762039658",
+     "event": "schedule",
+     "created_at": "2026-10-28T20:18:06Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 68,
+      "rows_changed": 38,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40692430538,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40692430538",
+     "event": "schedule",
+     "created_at": "2026-10-28T12:59:37Z",
+     "conclusion": "success",
+     "health": "degraded",
+     "reasons": [
+      "HTTP 402 api.webscraping.ai x40",
+      "all 68 scanned games unmatched"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF scoreboard fetch failed for 20261028: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
+       "WARN: NCAAF scoreboard fetch failed for 20261028: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
+       "WARN: NCAAF scoreboard fetch failed for 20261029: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
+       "WARN: NCAAF scoreboard fetch failed for 20261029: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
+       "WARN: NCAAF scoreboard fetch failed for 20261030: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
+       "WARN: NCAAF scoreboard fetch failed for 20261030: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
+       "WARN: NCAAF scoreboard fetch failed for 20261031: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
+       "WARN: NCAAF scoreboard fetch failed for 20261031: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi"
+      ],
+      "http_errors": {
+       "402 api.webscraping.ai": 40
+      },
+      "mode": "LIVE",
+      "rows_scanned": 68,
+      "rows_changed": 0,
+      "unmatched": 68,
+      "fpi_missing": 0
+     }
+    }
+   ],
+   "latest_health": "ok"
+  },
+  {
+   "workflow": "Pick Engine",
+   "file": "picks.yml",
+   "runs": [
+    {
+     "run_id": 40857692334,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40857692334",
+     "event": "schedule",
+     "created_at": "2026-10-29T10:27:19Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40799520510,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40799520510",
+     "event": "schedule",
+     "created_at": "2026-10-29T01:17:32Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40764789253,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40764789253",
+     "event": "schedule",
+     "created_at": "2026-10-28T20:36:27Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 26,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40697837880,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40697837880",
+     "event": "schedule",
+     "created_at": "2026-10-28T13:35:31Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "fpi_missing": 0
+     }
+    }
+   ],
+   "latest_health": "ok"
+  },
+  {
+   "workflow": "Close & Grade",
+   "file": "close-grade.yml",
+   "runs": [
+    {
+     "run_id": 40878032407,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40878032407",
+     "event": "schedule",
+     "created_at": "2026-10-29T13:00:27Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 3,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40825491399,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40825491399",
+     "event": "schedule",
+     "created_at": "2026-10-29T05:48:19Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 2,
+      "leg_patches": 0,
+      "calibration_upserts": 2,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40785844821,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40785844821",
+     "event": "schedule",
+     "created_at": "2026-10-28T23:13:45Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 2,
+      "leg_patches": 0,
+      "calibration_upserts": 2,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 40749086424,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40749086424",
+     "event": "schedule",
+     "created_at": "2026-10-28T18:52:05Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 2,
+      "fpi_missing": 0
+     }
+    }
+   ],
+   "latest_health": "ok"
+  },
+  {
+   "workflow": "Context & Calibrate",
+   "file": "context-calibrate.yml",
+   "runs": [
+    {
+     "run_id": 40750061504,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40750061504",
+     "event": "schedule",
+     "created_at": "2026-10-28T18:58:33Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "rows_updated": 68,
+      "fpi_missing": 0
+     }
+    }
+   ],
+   "latest_health": "ok"
+  },
+  {
+   "workflow": "Snapshot",
+   "file": "snapshot.yml",
+   "runs": [],
+   "latest_health": "no_runs_in_window"
+  }
+ ],
+ "how_to_read": "workflow health: ok / warn / degraded / failed / unknown. 'success' conclusions are judged from log text, not trusted. Postponed games and same-day games can appear in the ledger_health lists; they are leads, not verdicts."
+}
