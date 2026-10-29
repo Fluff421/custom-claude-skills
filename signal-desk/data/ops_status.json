@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-29T14:37:28Z",
+ "generated_at_utc": "2026-10-29T18:57:55Z",
  "generated_for_central_date": "2026-10-29",
  "graded_picks_csv_rows": 12,
  "ledger_health": {
@@ -27,8 +27,34 @@
     "games": []
    },
    "upcoming_espn_data_stale": {
-    "count": 0,
-    "games": []
+    "count": 42,
+    "games": [
+     "Georgia Tech @ Pittsburgh (NCAAF, 2026-10-31) (9 h)",
+     "Boston College @ Duke (NCAAF, 2026-10-31) (9 h)",
+     "Louisiana Tech @ South Alabama (NCAAF, 2026-10-31) (9 h)",
+     "Miami (FL) @ North Carolina (NCAAF, 2026-10-31) (9 h)",
+     "Northwestern @ Oregon (NCAAF, 2026-10-31) (9 h)",
+     "Northern Illinois @ UNLV (NCAAF, 2026-10-31) (9 h)",
+     "Minnesota @ Indiana (NCAAF, 2026-10-31) (9 h)",
+     "SMU @ Syracuse (NCAAF, 2026-10-31) (9 h)",
+     "Bowling Green @ Western Michigan (NCAAF, 2026-10-31) (9 h)",
+     "Colorado State @ Utah State (NCAAF, 2026-10-31) (9 h)",
+     "Texas State @ Boise State (NCAAF, 2026-10-31) (9 h)",
+     "UTEP @ North Dakota State (NCAAF, 2026-10-31) (9 h)",
+     "Kansas State @ Colorado (NCAAF, 2026-10-31) (9 h)",
+     "Virginia @ Wake Forest (NCAAF, 2026-10-31) (9 h)",
+     "Utah @ Cincinnati (NCAAF, 2026-10-31) (9 h)",
+     "Oklahoma State @ Iowa State (NCAAF, 2026-10-31) (9 h)",
+     "UConn @ Air Force (NCAAF, 2026-10-31) (9 h)",
+     "Arizona State @ BYU (NCAAF, 2026-10-31) (9 h)",
+     "Washington @ Nebraska (NCAAF, 2026-10-31) (9 h)",
+     "Army @ Memphis (NCAAF, 2026-10-31) (9 h)",
+     "UAB @ South Florida (NCAAF, 2026-10-31) (9 h)",
+     "Oregon State @ Fresno State (NCAAF, 2026-10-31) (9 h)",
+     "Southern Miss @ Louisiana-Monroe (NCAAF, 2026-10-31) (9 h)",
+     "Michigan @ Rutgers (NCAAF, 2026-10-31) (9 h)",
+     "Notre Dame vs Navy (neutral) (NCAAF, 2026-10-31) (9 h)"
+    ]
    },
    "past_date_no_closing_line": {
     "count": 0,
@@ -50,6 +76,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 40931400728,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40931400728",
+     "event": "schedule",
+     "created_at": "2026-10-29T18:30:09Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 66,
+      "rows_changed": 24,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 40854257535,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40854257535",
@@ -103,38 +147,6 @@
       "rows_changed": 38,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 40692430538,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40692430538",
-     "event": "schedule",
-     "created_at": "2026-10-28T12:59:37Z",
-     "conclusion": "success",
-     "health": "degraded",
-     "reasons": [
-      "HTTP 402 api.webscraping.ai x40",
-      "all 68 scanned games unmatched"
-     ],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF scoreboard fetch failed for 20261028: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
-       "WARN: NCAAF scoreboard fetch failed for 20261028: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
-       "WARN: NCAAF scoreboard fetch failed for 20261029: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
-       "WARN: NCAAF scoreboard fetch failed for 20261029: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
-       "WARN: NCAAF scoreboard fetch failed for 20261030: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
-       "WARN: NCAAF scoreboard fetch failed for 20261030: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
-       "WARN: NCAAF scoreboard fetch failed for 20261031: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi",
-       "WARN: NCAAF scoreboard fetch failed for 20261031: HTTP 402 from api.webscraping.ai: {\"message\":\"Your requests quota is exceeded. Please upgrade your plan or top up your PAYG balance on https://webscraping.ai/dashboard/bi"
-      ],
-      "http_errors": {
-       "402 api.webscraping.ai": 40
-      },
-      "mode": "LIVE",
-      "rows_scanned": 68,
-      "rows_changed": 0,
-      "unmatched": 68,
-      "fpi_missing": 0
-     }
     }
    ],
    "latest_health": "ok"
@@ -143,6 +155,21 @@
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "runs": [
+    {
+     "run_id": 40933049216,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40933049216",
+     "event": "schedule",
+     "created_at": "2026-10-29T18:40:38Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 40857692334,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40857692334",
@@ -185,19 +212,6 @@
       "mode": "LIVE",
       "new_picks": 0,
       "units_recapped": 26,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 40697837880,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40697837880",
-     "event": "schedule",
-     "created_at": "2026-10-28T13:35:31Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
       "fpi_missing": 0
      }
     }
@@ -299,8 +313,23 @@
   {
    "workflow": "Snapshot",
    "file": "snapshot.yml",
-   "runs": [],
-   "latest_health": "no_runs_in_window"
+   "runs": [
+    {
+     "run_id": 40893315255,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/40893315255",
+     "event": "workflow_dispatch",
+     "created_at": "2026-10-29T14:37:19Z",
+     "conclusion": "success",
+     "health": "warn",
+     "reasons": [
+      "no summary lines found in log"
+     ],
+     "summary": {
+      "fpi_missing": 0
+     }
+    }
+   ],
+   "latest_health": "warn"
   }
  ],
  "how_to_read": "workflow health: ok / warn / degraded / failed / unknown. 'success' conclusions are judged from log text, not trusted. Postponed games and same-day games can appear in the ledger_health lists; they are leads, not verdicts."
