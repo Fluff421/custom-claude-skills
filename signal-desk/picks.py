@@ -17,6 +17,13 @@ Sample-size cap: until a league/tier has SAMPLE_MIN graded picks (default 20, th
 calibrator's own tier minimum), suggested units are capped at UNIT_CAP (default 1.0).
 The cap also lowers Suggested Units on existing pending auto picks that have no
 closing line yet; it never changes tier, side, probability or graded rows.
+
+Re-pricing: when the Splash line or FPI changes after a pick was written, the stored side/tier
+can go stale. Each run re-checks pending AUTO picks (Splash Sports (auto), Grade pending, no
+closing line, game date after today in Central time) and reports any whose side or tier changed.
+It updates them (or withdraws the pick if the edge fell below Lean) only when REPRICE_LIVE=1 and
+PICKS_LIVE=1. The change is recorded in Sharp-Sheet Data Completeness (was ...). Manual picks,
+graded rows and games dated today or earlier are never touched.
 """
 from __future__ import annotations
 
@@ -119,6 +126,44 @@ def pick_line_text(team: str, vegas_home_margin: float, home: bool) -> str:
     return f"{team} {sign}{abs(line):g} (spread)"
 
 
+def evaluate(f: dict, p: dict, counts: dict, now: str) -> tuple[dict | None, float, str, float, float]:
+    """Price one row. Returns (fields or None if below Lean, edge, tier, prob, units)."""
+    hfa = f.get("HFA")
+    if hfa is None:
+        hfa = 2.5 if f.get("League") == "NCAAF" else 2.0
+    model = float(f["Home FPI"]) - float(f["Away FPI"]) + float(hfa)
+    vegas = float(f["Vegas Implied Home Margin"])
+    edge = model - vegas
+    ae = abs(edge)
+    if ae < p["lean"]:
+        return None, edge, "", 0.0, 0.0
+    league = f.get("League", "")
+    tier = "Max Play" if ae >= p["max"] else ("Strong Play" if ae >= p["strong"] else "Lean")
+    prob = win_prob(edge, p["sigma"])
+    mult = float(p["multipliers"].get(tier, 1.0))
+    prob = min(0.95, max(0.50, prob * mult))
+    home_pick = edge > 0
+    units = capped_units(p["units"][tier], league, tier, counts)
+    new = {
+        "Sharp-Sheet Tier": tier,
+        "Sharp-Sheet Est. Win Prob %": round(prob, 4),
+        "Sharp-Sheet Suggested Units": units,
+        "Recommended Side": pick_line_text(f["Home Team"] if home_pick else f["Away Team"], vegas, home_pick),
+        "Sharp-Sheet Sportsbook": AUTO_BOOK,
+        "Sharp-Sheet Data Completeness": f"Auto pick {now} | FPI+line ok | edge {edge:+.1f} | "
+                                         f"injuries: NFL auto, NCAAF auto (secondary)",
+    }
+    return new, edge, tier, prob, units
+
+
+def central_today() -> dt.date:
+    try:
+        from zoneinfo import ZoneInfo
+        return dt.datetime.now(ZoneInfo("America/Chicago")).date()
+    except Exception:  # noqa: BLE001
+        return (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=6)).date()
+
+
 def main() -> None:
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip()
@@ -131,7 +176,9 @@ def main() -> None:
     counts = graded_counts(base, token)
     rows = es.at_list(base, LEDGER, token)  # Date > yesterday, Record Type Game
     updates, report, skipped = [], [], {"no line": 0, "no fpi": 0, "already picked": 0, "below threshold": 0}
-    recapped = []
+    recapped, repriced, withdrawn, stale_today = [], [], [], []
+    reprice_live = live and os.environ.get("REPRICE_LIVE", "0").strip() == "1"
+    today = central_today()
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%MZ")
     for r in rows:
         f = r["fields"]
@@ -139,8 +186,37 @@ def main() -> None:
             skipped["already picked"] += 1
             # re-cap pending auto picks that were sized before the cap existed
             tier0, units0 = f.get("Sharp-Sheet Tier"), f.get("Sharp-Sheet Suggested Units")
-            if (f.get("Sharp-Sheet Sportsbook") == AUTO_BOOK and f.get("Grade") in (None, "Pending")
-                    and f.get("Closing Spread (Home)") is None and units0 is not None):
+            pending_auto = (f.get("Sharp-Sheet Sportsbook") == AUTO_BOOK and f.get("Grade") in (None, "Pending")
+                            and f.get("Closing Spread (Home)") is None)
+            lg0 = f.get("League", "")
+            if (pending_auto and lg0 in params and f.get("Date") and f.get("Home FPI") is not None
+                    and f.get("Away FPI") is not None and f.get("Vegas Implied Home Margin") is not None):
+                new_f, edge0, tier_n, _prob, _u = evaluate(f, params[lg0], counts, now)
+                old_side = f.get("Recommended Side", "")
+                changed = (new_f is None) or new_f["Recommended Side"] != old_side or tier_n != tier0
+                if changed:
+                    if f["Date"][:10] <= today.isoformat():
+                        stale_today.append(f"{f.get('Game')}: {tier0} {old_side} vs now "
+                                           f"{(new_f or {}).get('Recommended Side', 'no pick')} (game date {f['Date'][:10]}, left unchanged)")
+                    elif new_f is None:
+                        withdrawn.append(f"{f.get('Game')}: withdraw {tier0} {old_side} (edge now {edge0:+.1f}, below Lean)")
+                        updates_r = {"Sharp-Sheet Tier": None, "Sharp-Sheet Est. Win Prob %": None,
+                                     "Sharp-Sheet Suggested Units": None, "Recommended Side": None,
+                                     "Sharp-Sheet Data Completeness":
+                                         f"Auto pick withdrawn {now}: line/FPI moved, edge {edge0:+.1f} below Lean | "
+                                         f"was {tier0} {old_side}"}
+                        if reprice_live:
+                            updates.append({"id": r["id"], "fields": updates_r})
+                        continue
+                    else:
+                        repriced.append(f"{f.get('Game')}: {tier0} {old_side} -> {tier_n} {new_f['Recommended Side']} "
+                                        f"(edge {edge0:+.1f})")
+                        new_f["Sharp-Sheet Data Completeness"] = (f"Auto pick re-priced {now} | edge {edge0:+.1f} | "
+                                                                  f"was {tier0} {old_side}")
+                        if reprice_live:
+                            updates.append({"id": r["id"], "fields": new_f})
+                        continue
+            if (pending_auto and units0 is not None):
                 new_u = capped_units(float(units0), f.get("League", ""), tier0, counts)
                 if new_u < float(units0):
                     updates.append({"id": r["id"], "fields": {"Sharp-Sheet Suggested Units": new_u}})
@@ -157,32 +233,10 @@ def main() -> None:
         if f.get("Vegas Implied Home Margin") is None:
             skipped["no line"] += 1
             continue
-        p = params[league]
-        hfa = f.get("HFA")
-        if hfa is None:
-            hfa = 2.5 if league == "NCAAF" else 2.0
-        model = float(f["Home FPI"]) - float(f["Away FPI"]) + float(hfa)
-        vegas = float(f["Vegas Implied Home Margin"])
-        edge = model - vegas
-        ae = abs(edge)
-        if ae < p["lean"]:
+        new, edge, tier, prob, units = evaluate(f, params[league], counts, now)
+        if new is None:
             skipped["below threshold"] += 1
             continue
-        tier = "Max Play" if ae >= p["max"] else ("Strong Play" if ae >= p["strong"] else "Lean")
-        prob = win_prob(edge, p["sigma"])
-        mult = float(p["multipliers"].get(tier, 1.0))
-        prob = min(0.95, max(0.50, prob * mult))
-        home_pick = edge > 0
-        units = capped_units(p["units"][tier], league, tier, counts)
-        new = {
-            "Sharp-Sheet Tier": tier,
-            "Sharp-Sheet Est. Win Prob %": round(prob, 4),
-            "Sharp-Sheet Suggested Units": units,
-            "Recommended Side": pick_line_text(f["Home Team"] if home_pick else f["Away Team"], vegas, home_pick),
-            "Sharp-Sheet Sportsbook": "Splash Sports (auto)",
-            "Sharp-Sheet Data Completeness": f"Auto pick {now} | FPI+line ok | edge {edge:+.1f} | "
-                                             f"injuries: NFL auto, NCAAF manual",
-        }
         updates.append({"id": r["id"], "fields": new})
         report.append(f"{f.get('Game')}: {tier} {new['Recommended Side']} "
                       f"(edge {edge:+.1f}, p {prob:.1%}, {units:g}u)")
@@ -192,9 +246,12 @@ def main() -> None:
         es.at_patch(base, LEDGER, token, updates)
     cap_note = "; ".join(f"{lg} {t}: {n}" for (lg, t), n in sorted(counts.items())) or "none"
     lines = [f"Mode: {mode}", f"New picks: {len(report)}", f"Units re-capped: {len(recapped)}",
+             f"Re-price ({'LIVE' if reprice_live else 'report only'}): {len(repriced)} re-priced, "
+             f"{len(withdrawn)} withdrawn, {len(stale_today)} stale but dated today or earlier (not changed)",
              f"Skipped: {skipped}",
              f"Unit cap {UNIT_CAP:g}u until {SAMPLE_MIN} graded per tier. Graded so far: {cap_note}"]
     lines += report[:60] + recapped[:60]
+    lines += [f"RE-PRICE {x}" for x in repriced] + [f"WITHDRAW {x}" for x in withdrawn] + [f"STALE-TODAY {x}" for x in stale_today]
     print("\n".join(lines))
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if path:
