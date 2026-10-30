@@ -1,0 +1,5 @@
+conference,source_url,checked_at_central,published_time_shown,row_count,verified
+SEC,https://www.secsports.com/fbreports,2026-10-30 11:50 AM,Thursday report ~7:10pm CT Oct 29,existing verified rows from prior feed,verified
+ACC,https://theacc.com/sports/2025/8/28/availability-reporting-football.aspx,2026-10-30 11:50 AM,not_published_yet or tables not accessible in fetch,0,unverified
+Big 12,https://big12sports.com/sports/2025/8/14/FBreporting.aspx,2026-10-30 11:50 AM,not_published_yet or tables not accessible in fetch,0,unverified
+Big Ten,https://bigten.org (policy page),2026-10-30 11:50 AM,not_published_yet or tables not accessible in fetch,0,unverified
