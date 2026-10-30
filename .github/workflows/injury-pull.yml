@@ -12,8 +12,8 @@ on:
       - signal-desk/injury_pull.py
       - .github/workflows/injury-pull.yml
   schedule:
-    - cron: "40 */3 * * 3-6"   # Wed-Sat every 3 hours (UTC)
-    - cron: "40 14 * * 0-2"    # Sun-Tue once a day
+    - cron: "33 */3 * * 3-6"   # Wed-Sat every 3 hours (UTC)
+    - cron: "33 14 * * 0-2"    # Sun-Tue once a day
 
 permissions:
   contents: read

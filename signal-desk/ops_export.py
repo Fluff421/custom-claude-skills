@@ -45,6 +45,17 @@ WORKFLOWS = {  # workflow file -> label
     "context-calibrate.yml": "Context & Calibrate",
     "snapshot.yml": "Snapshot",
 }
+# Scheduled-run expectations. GitHub drops or delays cron runs under load (seen Oct 30: ESPN Sync,
+# Snapshot and Calibrate scheduled runs never fired), so a success conclusion on old runs is not
+# proof the schedule is alive. max_gap_h is the longest quiet period tolerated before "missed".
+SCHEDULE_EXPECT = {
+    "espn-sync.yml": ("ESPN Sync", 3, 7),
+    "picks.yml": ("Pick Engine", 3, 7),
+    "close-grade.yml": ("Close & Grade", 1, 4),
+    "context-calibrate.yml": ("Context & Calibrate", 24, 30),
+    "snapshot.yml": ("Snapshot", 24, 30),
+    "injury-pull.yml": ("NCAAF Injury Pull", 3, 7),  # Wed-Sat; Sun-Tue is daily, see schedule_health()
+}
 LOOKBACK_HOURS = 36
 RUNS_PER_WORKFLOW = 4
 SPLASH_GAP_FLAG = 3.0  # points; Splash line has no timestamp, so a big gap vs ESPN is the staleness/typo signal
@@ -285,6 +296,34 @@ def workflow_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
     return out
 
 
+def schedule_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
+    """Flag workflows whose last SCHEDULED run is older than the tolerated gap (missed cron slots)."""
+    out = []
+    for fname, (label, every_h, max_gap_h) in SCHEDULE_EXPECT.items():
+        entry: dict = {"workflow": label, "file": fname, "expected_every_h": every_h, "max_gap_h": max_gap_h}
+        gap = max_gap_h
+        if fname == "injury-pull.yml" and now.weekday() not in (2, 3, 4, 5):  # Wed-Sat are weekday 2-5
+            gap = 30
+            entry["max_gap_h"] = gap
+            entry["note"] = "Sun-Tue schedule is once a day"
+        try:
+            runs = gh_json(f"/repos/{repo}/actions/workflows/{fname}/runs?per_page=30&event=schedule", token)
+        except Exception as exc:  # noqa: BLE001
+            entry.update(status="unknown", error=f"could not list runs: {exc}"[:160])
+            out.append(entry)
+            continue
+        sched = runs.get("workflow_runs", [])
+        if not sched:
+            entry.update(status="no_scheduled_runs_found", last_scheduled_run_utc=None)
+        else:
+            last = max(dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) for r in sched)
+            age = (now - last).total_seconds() / 3600
+            entry.update(last_scheduled_run_utc=last.strftime("%Y-%m-%dT%H:%M:%SZ"), age_h=round(age, 1),
+                         status="ok" if age <= gap else "missed")
+        out.append(entry)
+    return out
+
+
 def main() -> None:
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip()
@@ -306,10 +345,12 @@ def main() -> None:
     }
     if gh_token and repo:
         status["workflow_health"] = workflow_health(repo, gh_token, now)
+        status["schedule_health"] = schedule_health(repo, gh_token, now)
     else:
         status["workflow_health"] = "unknown: GITHUB_TOKEN/GITHUB_REPOSITORY not set"
     status["how_to_read"] = ("workflow health: ok / warn / degraded / failed / unknown. 'success' "
                              "conclusions are judged from log text, not trusted. Postponed games and "
+                             "schedule_health: ok / missed per workflow (last SCHEDULED run vs tolerated gap; manual runs do not count). "
                              "same-day games can appear in the ledger_health lists; they are leads, not verdicts.")
     with open(os.path.join(DATA, "ops_status.json"), "w", encoding="utf-8") as fh:
         fh.write(json.dumps(status, indent=1) + "\n")
@@ -323,6 +364,10 @@ def main() -> None:
         for w in status["workflow_health"]:
             lines.append(f"{w['workflow']}: latest={w.get('latest_health')} "
                          + "; ".join(f"{r['health']}({', '.join(r['reasons']) or 'clean'})" for r in w["runs"][:2]))
+    for s in status.get("schedule_health", []):
+        if s.get("status") != "ok":
+            lines.append(f"SCHEDULE {s['workflow']}: {s.get('status')} (last scheduled run {s.get('last_scheduled_run_utc')}, "
+                         f"{s.get('age_h', '?')} h ago, tolerated {s['max_gap_h']} h)")
     print("\n".join(lines))
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if path:

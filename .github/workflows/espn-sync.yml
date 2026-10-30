@@ -12,7 +12,7 @@ on:
       - signal-desk/espn_sync.py
       - .github/workflows/espn-sync.yml
   schedule:
-    - cron: "15 */3 * * *"
+    - cron: "27 */3 * * *"
 
 permissions:
   contents: read
