@@ -53,7 +53,7 @@ Sigma and tier multipliers come from Model Parameters when present.
 | `context_sync.py` | 13:30 daily | Last Result, Streak, Next Opponent, Look-Ahead Note (flag if next opponent is 8+ FPI points stronger) |
 | `calibrate.py` | 13:30 daily | Model Parameters only |
 | `snapshot.py` | 8:15 AM Central daily | `LEDGER.md`, `data/snapshot.json` (read-only on Airtable) |
-| `ops_export.py` | same job | `data/graded_picks.csv`, `data/ops_status.json`: row-level ledger health and per-workflow health read from run logs (a "success" run with HTTP 402 or all games unmatched is reported as degraded) |
+| `ops_export.py` | same job | `data/graded_picks.csv`, `data/ops_status.json`: row-level ledger health and per-workflow health read from run logs (a "success" run with HTTP 402 or all games unmatched is reported as degraded); also flags upcoming games where the hand-entered Splash line differs from the ESPN spread by 3 or more points |
 
 `picks.py` and `close_grade.py` are the only scripts allowed to write
 Sharp-Sheet or Grade fields. Nothing automated writes the Splash line.

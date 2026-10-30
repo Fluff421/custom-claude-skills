@@ -47,6 +47,7 @@ WORKFLOWS = {  # workflow file -> label
 }
 LOOKBACK_HOURS = 36
 RUNS_PER_WORKFLOW = 4
+SPLASH_GAP_FLAG = 3.0  # points; Splash line has no timestamp, so a big gap vs ESPN is the staleness/typo signal
 STALE_HOURS = 6
 LEAN_THRESHOLD = 1.0
 CAP = 25  # max game names listed per category
@@ -93,7 +94,7 @@ def row_health(rows: list[dict], today: dt.date, now: dt.datetime) -> dict:
     """Ledger checks. Date is a date (no kickoff time), so 'past' means before today (Central)."""
     cats: dict[str, list[str]] = {k: [] for k in (
         "upcoming_no_espn_event_id", "upcoming_no_fpi", "upcoming_no_splash_line",
-        "upcoming_no_espn_line", "upcoming_edge_over_lean_but_no_pick", "upcoming_espn_data_stale",
+        "upcoming_no_espn_line", "upcoming_splash_vs_espn_gap", "upcoming_edge_over_lean_but_no_pick", "upcoming_espn_data_stale",
         "past_date_no_closing_line", "past_date_no_score", "past_date_scored_but_pick_ungraded")}
     upcoming = past = 0
     for r in rows:
@@ -113,6 +114,11 @@ def row_health(rows: list[dict], today: dt.date, now: dt.datetime) -> dict:
                 cats["upcoming_no_splash_line"].append(name)
             if f.get("ESPN Spread (Home)") is None:
                 cats["upcoming_no_espn_line"].append(name)
+            splash, espn = f.get("Vegas Implied Home Margin"), f.get("ESPN Spread (Home)")
+            if splash is not None and espn is not None:
+                gap = float(splash) + float(espn)  # 0 when Splash and ESPN agree
+                if abs(gap) >= SPLASH_GAP_FLAG:
+                    cats["upcoming_splash_vs_espn_gap"].append(f"{name} (gap {gap:+.1f})")
             edge = f.get("Edge")
             if edge is not None and abs(float(edge)) >= LEAN_THRESHOLD and not f.get("Sharp-Sheet Tier"):
                 cats["upcoming_edge_over_lean_but_no_pick"].append(name)
@@ -133,7 +139,9 @@ def row_health(rows: list[dict], today: dt.date, now: dt.datetime) -> dict:
     return {"games_today_or_later": upcoming, "games_before_today": past,
             "checks": {k: {"count": len(v), "games": v[:CAP]} for k, v in cats.items()},
             "note": "Date has no kickoff time; 'before today' is by Central calendar date. "
-                    "Postponed/cancelled games appear under past_date_no_score."}
+                    "Postponed/cancelled games appear under past_date_no_score. "
+                    "Splash line = 'Vegas Implied Home Margin' (entered by hand, no timestamp); "
+                    "upcoming_splash_vs_espn_gap flags |Splash + ESPN spread| >= 3 points as a possible stale or mistyped line."}
 
 
 # ---------- GitHub Actions ----------
