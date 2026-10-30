@@ -122,7 +122,7 @@ def airtable_headers(token: str) -> dict:
 
 def list_open_records(base_id: str, table_id: str, token: str) -> list[dict]:
     records, offset = [], None
-    formula = urllib.parse.quote("AND({Status}!='Graded',{Result}='')")
+    formula = urllib.parse.quote("AND({Status}!='Graded',{Result}='',{Game}!='No bet',{Game}!='')")
     table = urllib.parse.quote(table_id, safe="")
     while True:
         url = f"https://api.airtable.com/v0/{base_id}/{table}?filterByFormula={formula}&pageSize=100"
