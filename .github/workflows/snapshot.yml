@@ -16,7 +16,7 @@ on:
     # 8:17 AM America/Chicago year-round. GitHub cron is UTC only, so both
     # candidates are scheduled (13:17 UTC = 8:17 CDT, 14:17 UTC = 8:17 CST) and
     # the "Time gate" step lets only the one that lands at 8 AM Central proceed.
-    # Runs after close-grade's 8:12 tick so overnight grades are included.
+    # Runs after close-grade's 7:37 tick so overnight grades are included.
     - cron: "17 13 * * *"
     - cron: "17 14 * * *"
 
