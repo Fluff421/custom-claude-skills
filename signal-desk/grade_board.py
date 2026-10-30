@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
-"""Write completed ESPN football scores to Airtable BIM Weekly Board via WebScraping.AI."""
+"""Write completed ESPN football scores to Airtable BIM Weekly Board (direct ESPN JSON, no scraper)."""
 from __future__ import annotations
 
 import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
 
 ESPN_NFL = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 ESPN_CFB = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300"
-SCRAPER_URL = "https://api.webscraping.ai/html"
-REQUIRED_ENV = ("AIRTABLE_TOKEN", "AIRTABLE_BASE_ID", "AIRTABLE_TABLE_ID", "WEBSCRAPING_AI_API_KEY")
+REQUIRED_ENV = ("AIRTABLE_TOKEN", "AIRTABLE_BASE_ID", "AIRTABLE_TABLE_ID")
 ALIASES = {
     "MISS": {"MISS", "OLE MISS", "OM", "REBELS"},
     "TA&M": {"TA&M", "TAMU", "TAAM"},
@@ -28,19 +28,18 @@ def fail(message: str) -> None:
     raise SystemExit(1)
 
 
-def require_env() -> tuple[str, str, str, str]:
+def require_env() -> tuple[str, str, str]:
     missing = [key for key in REQUIRED_ENV if not os.environ.get(key, "").strip()]
     if missing:
         fail("Missing or empty GitHub Actions secret(s): " + ", ".join(missing))
     token = os.environ["AIRTABLE_TOKEN"].strip()
     base_id = os.environ["AIRTABLE_BASE_ID"].strip()
     table_id = os.environ["AIRTABLE_TABLE_ID"].strip()
-    scraper_key = os.environ["WEBSCRAPING_AI_API_KEY"].strip()
     if not re.fullmatch(r"app[a-zA-Z0-9]+", base_id):
         fail("AIRTABLE_BASE_ID must start with 'app'.")
     if not re.fullmatch(r"tbl[a-zA-Z0-9]+", table_id):
         fail("AIRTABLE_TABLE_ID must start with 'tbl'.")
-    return token, base_id, table_id, scraper_key
+    return token, base_id, table_id
 
 
 def request_json(url: str, headers: dict | None = None, method: str = "GET", payload: dict | None = None) -> dict:
@@ -58,22 +57,23 @@ def request_json(url: str, headers: dict | None = None, method: str = "GET", pay
         fail(f"Non-JSON response from {urllib.parse.urlparse(url).netloc}")
 
 
-def scraper_json(target_url: str, api_key: str) -> dict:
-    params = urllib.parse.urlencode({
-        "api_key": api_key,
-        "url": target_url,
-        "js": "false",
-        "proxy": "datacenter",
-    })
-    payload = request_json(f"{SCRAPER_URL}?{params}", {"Accept": "application/json"})
-    if isinstance(payload, str):
+def espn_json(url: str) -> dict:
+    """Fetch an ESPN scoreboard directly (public JSON). Retries transient failures; fails loudly otherwise."""
+    last = ""
+    for attempt in range(3):
+        req = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": "signal-desk-bim-grader"})
         try:
-            payload = json.loads(payload)
-        except json.JSONDecodeError:
-            fail("WebScraping.AI returned text rather than ESPN JSON.")
-    if not isinstance(payload, dict):
-        fail("WebScraping.AI response did not contain a JSON object.")
-    return payload
+            with urllib.request.urlopen(req, timeout=45) as response:
+                payload = json.loads(response.read().decode())
+            if isinstance(payload, dict) and "events" in payload:
+                return payload
+            last = "response had no 'events' list"
+        except urllib.error.HTTPError as exc:
+            last = f"HTTP {exc.code}"
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+            last = f"{type(exc).__name__}: {exc}"
+        time.sleep(2 * (attempt + 1))
+    fail(f"ESPN scoreboard fetch failed for {urllib.parse.urlparse(url).path}: {last}")
 
 
 def norm(value: str) -> str:
@@ -92,8 +92,8 @@ def parse_game(value: str) -> tuple[str, str] | None:
     return (parts[0], parts[1]) if len(parts) == 2 and all(parts) else None
 
 
-def espn_finals(url: str, api_key: str) -> list[dict]:
-    payload = scraper_json(url, api_key)
+def espn_finals(url: str) -> list[dict]:
+    payload = espn_json(url)
     finals = []
     for event in payload.get("events", []):
         if not ((event.get("status") or {}).get("type") or {}).get("completed"):
@@ -151,8 +151,8 @@ def write_summary(lines: list[str]) -> None:
 
 
 def main() -> None:
-    token, base_id, table_id, scraper_key = require_env()
-    finals = espn_finals(ESPN_NFL, scraper_key) + espn_finals(ESPN_CFB, scraper_key)
+    token, base_id, table_id = require_env()
+    finals = espn_finals(ESPN_NFL) + espn_finals(ESPN_CFB)
     open_records = list_open_records(base_id, table_id, token)
     updated, unmatched = 0, []
     for record in open_records:
@@ -167,13 +167,13 @@ def main() -> None:
         if not match:
             continue
         note = (fields.get("CLV note") or "").rstrip()
-        if "Auto-graded from ESPN via WebScraping.AI." not in note:
-            note = (note + " Auto-graded from ESPN via WebScraping.AI.").strip()
+        if "Auto-graded from ESPN." not in note and "Auto-graded from ESPN via WebScraping.AI." not in note:
+            note = (note + " Auto-graded from ESPN.").strip()
         update_record(base_id, table_id, record["id"], token, match["result"], note)
         print(f"graded {game} -> {match['result']}")
         updated += 1
     summary = [
-        "Score source: ESPN via WebScraping.AI",
+        "Score source: ESPN scoreboard JSON (direct)",
         f"ESPN finals found: {len(finals)}",
         f"Ungraded Airtable records scanned: {len(open_records)}",
         f"Records auto-graded: {updated}",
