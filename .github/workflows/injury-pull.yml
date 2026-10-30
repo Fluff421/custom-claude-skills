@@ -1,0 +1,52 @@
+name: NCAAF Injury Pull (Signal Desk)
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Write Injury Notes to Airtable (true) or dry run (false)"
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - signal-desk/injury_pull.py
+      - .github/workflows/injury-pull.yml
+  schedule:
+    - cron: "40 */3 * * 3-6"   # Wed-Sat every 3 hours (UTC)
+    - cron: "40 14 * * 0-2"    # Sun-Tue once a day
+
+permissions:
+  contents: read
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      LEDGER_TABLE_ID: ${{ vars.LEDGER_TABLE_ID }}
+      INJURY_SNAPSHOT_PATH: injury_snapshot.json
+      # Dry run unless: manual dispatch with live=true, or a scheduled run with the repo variable INJURY_PULL_LIVE=true.
+      INJURY_PULL_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.INJURY_PULL_LIVE == 'true')) && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate configuration
+        shell: bash
+        run: |
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID; do
+            if [ -z "${!key}" ]; then echo "::error::Missing secret $key"; exit 1; fi
+          done
+          echo "Mode: INJURY_PULL_LIVE=${INJURY_PULL_LIVE}"
+      - name: Pull Covers and DraftEdge, merge, write Injury Notes
+        run: python signal-desk/injury_pull.py
+      - name: Keep the parsed snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: injury-snapshot
+          path: injury_snapshot.json
+          if-no-files-found: ignore
+          retention-days: 14
