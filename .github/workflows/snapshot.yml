@@ -13,12 +13,12 @@ on:
       - signal-desk/ops_export.py
       - .github/workflows/snapshot.yml
   schedule:
-    # 8:15 AM America/Chicago year-round. GitHub cron is UTC only, so both
-    # candidates are scheduled (13:15 UTC = 8:15 CDT, 14:15 UTC = 8:15 CST) and
+    # 8:17 AM America/Chicago year-round. GitHub cron is UTC only, so both
+    # candidates are scheduled (13:17 UTC = 8:17 CDT, 14:17 UTC = 8:17 CST) and
     # the "Time gate" step lets only the one that lands at 8 AM Central proceed.
-    # Runs after close-grade's 8:12 tick so overnight grades are included.
-    - cron: "15 13 * * *"
-    - cron: "15 14 * * *"
+    # Runs after close-grade's 7:37 tick so overnight grades are included.
+    - cron: "17 13 * * *"
+    - cron: "17 14 * * *"
 
 permissions:
   contents: write
@@ -37,7 +37,7 @@ jobs:
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
       SNAPSHOT_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.SNAPSHOT_LIVE == 'true')) && '1' || '0' }}
     steps:
-      - name: Time gate (8:15 AM Central for scheduled runs)
+      - name: Time gate (8:17 AM Central for scheduled runs)
         id: gate
         shell: bash
         env:
@@ -46,12 +46,12 @@ jobs:
           # Pick the cron slot by today's Central offset, not the wall clock,
           # so a late-starting GitHub run is not skipped.
           offset=$(TZ=America/Chicago date +%z)
-          if [ "$offset" = "-0500" ]; then want="15 13 * * *"; else want="15 14 * * *"; fi
+          if [ "$offset" = "-0500" ]; then want="17 13 * * *"; else want="17 14 * * *"; fi
           if [ "${{ github.event_name }}" != "schedule" ] || [ "$FIRED" = "$want" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping: slot '$FIRED' is not 8:15 AM Central today (offset $offset)."
+            echo "Skipping: slot '$FIRED' is not 8:17 AM Central today (offset $offset)."
           fi
       - uses: actions/checkout@v4
         if: steps.gate.outputs.run == 'true'
