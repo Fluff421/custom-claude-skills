@@ -1,0 +1,10 @@
+league,game,team,player,status,source_url,retrieved_at_utc,verified_or_assumed,espn_event_id,report_type,report_status,position,notes
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Aaron Banks,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,G,practice=Full Participation in Practice
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Anthony Campbell,Questionable,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,DT,Ankle; practice=Limited Participation in Practice
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Brenton Cox Jr.,Questionable,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,Quadricep; practice=Limited Participation in Practice
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Zaire Franklin,Out,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,Shin; practice=Did Not Participate In Practice
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Travis Glover,Out,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,G,Knee; practice=Did Not Participate In Practice
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Matthew Golden,Questionable,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,WR,"Shoulder, Foot; practice=Limited Participation in Practice"
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Sean Rhyan,Out,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,C,Ankle; practice=Did Not Participate In Practice
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Benjamin St-Juste,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,CB,practice=Full Participation in Practice
+NFL,Carolina Panthers at Green Bay Packers,Green Bay Packers,Devonte Wyatt,Questionable,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,DT,Ankle; practice=Limited Participation in Practice
