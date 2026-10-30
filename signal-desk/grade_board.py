@@ -2,6 +2,7 @@
 """Write completed ESPN football scores to Airtable BIM Weekly Board (direct ESPN JSON, no scraper)."""
 from __future__ import annotations
 
+import datetime as dt
 import json
 import os
 import re
@@ -13,6 +14,7 @@ import urllib.request
 
 ESPN_NFL = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 ESPN_CFB = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300"
+LOOKBACK_DAYS = 10  # board rows have no date we rely on, so search recent finals day by day
 REQUIRED_ENV = ("AIRTABLE_TOKEN", "AIRTABLE_BASE_ID", "AIRTABLE_TABLE_ID")
 ALIASES = {
     "MISS": {"MISS", "OLE MISS", "OM", "REBELS"},
@@ -92,6 +94,20 @@ def parse_game(value: str) -> tuple[str, str] | None:
     return (parts[0], parts[1]) if len(parts) == 2 and all(parts) else None
 
 
+def lookback_dates(today: dt.date | None = None) -> list[str]:
+    today = today or dt.datetime.now(dt.timezone(dt.timedelta(hours=-6))).date()  # US Central (approx.), fine for a 10-day window
+    return [(today - dt.timedelta(days=n)).strftime("%Y%m%d") for n in range(LOOKBACK_DAYS)]
+
+
+def espn_finals_window(url: str) -> list[dict]:
+    """Finals for each of the last LOOKBACK_DAYS days (the bare scoreboard only shows ESPN's current window)."""
+    sep = "&" if "?" in url else "?"
+    finals: list[dict] = []
+    for day in lookback_dates():
+        finals.extend(espn_finals(f"{url}{sep}dates={day}"))
+    return finals
+
+
 def espn_finals(url: str) -> list[dict]:
     payload = espn_json(url)
     finals = []
@@ -152,9 +168,9 @@ def write_summary(lines: list[str]) -> None:
 
 def main() -> None:
     token, base_id, table_id = require_env()
-    finals = espn_finals(ESPN_NFL) + espn_finals(ESPN_CFB)
+    finals = espn_finals_window(ESPN_NFL) + espn_finals_window(ESPN_CFB)
     open_records = list_open_records(base_id, table_id, token)
-    updated, unmatched = 0, []
+    updated, unmatched, ambiguous = 0, [], []
     for record in open_records:
         fields = record.get("fields") or {}
         game = fields.get("Game", "")
@@ -163,9 +179,13 @@ def main() -> None:
             unmatched.append(game or record["id"])
             continue
         away, home = parsed
-        match = next((item for item in finals if same_team(away, item["away"]) and same_team(home, item["home"])), None)
-        if not match:
+        matches = [item for item in finals if same_team(away, item["away"]) and same_team(home, item["home"])]
+        if not matches:
             continue
+        if len({item["result"] for item in matches}) > 1:  # same matchup played twice in the window
+            ambiguous.append(game)
+            continue
+        match = matches[0]
         note = (fields.get("CLV note") or "").rstrip()
         if "Auto-graded from ESPN." not in note and "Auto-graded from ESPN via WebScraping.AI." not in note:
             note = (note + " Auto-graded from ESPN.").strip()
@@ -174,10 +194,12 @@ def main() -> None:
         updated += 1
     summary = [
         "Score source: ESPN scoreboard JSON (direct)",
-        f"ESPN finals found: {len(finals)}",
+        f"ESPN finals found (last {LOOKBACK_DAYS} days): {len(finals)}",
         f"Ungraded Airtable records scanned: {len(open_records)}",
         f"Records auto-graded: {updated}",
     ]
+    if ambiguous:
+        summary.append("Skipped (same matchup twice in the window, grade by hand): " + ", ".join(ambiguous[:20]))
     if unmatched:
         summary.append("Invalid board labels skipped: " + ", ".join(unmatched[:20]))
     for line in summary:
