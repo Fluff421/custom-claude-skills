@@ -7,6 +7,10 @@ on:
         description: "Write picks to Airtable (true) or dry run (false)"
         type: boolean
         default: false
+      reprice:
+        description: "Also re-price/withdraw stale pending auto picks (only applies when live is true)"
+        type: boolean
+        default: false
   pull_request:
     paths:
       - signal-desk/picks.py
@@ -23,6 +27,7 @@ jobs:
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      REPRICE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.reprice == true) || (github.event_name == 'schedule' && vars.REPRICE_LIVE == 'true')) && '1' || '0' }}
       PICKS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.PICKS_LIVE == 'true')) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
