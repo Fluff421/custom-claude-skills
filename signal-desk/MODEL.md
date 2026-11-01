@@ -73,6 +73,22 @@ adj_edge              = adj_model_home_margin - Vegas Implied Home Margin
 - Learning: `Factor Scale Injury` / `Factor Scale Situational` in Model Parameters scale the whole group
   (default 1.0). The scales are learned from graded games, shrunk toward 1.0, only above the minimums.
 
+### Factor learning (`factor_learning.py`, called by `calibrate.py`)
+
+Run daily from graded picks with final scores. Everything is gated by 30 graded games (and, for the
+scales, 10 games where the factor was non-zero) and reported in the calibrate log even when not applied.
+
+- Market blend `k`: regress (actual margin - line) on (model margin - line). k near 0 means the line
+  already contains what the model knows. A weak prior (0.3 +/- 0.3) is combined with the data and clipped to [0, 1].
+  In live factor mode the edge is multiplied by k, so a small k removes most picks.
+- Factor scales: regress (actual margin - model margin) on the prior injury and situational points, each
+  shrunk toward 1.0 (prior sd 0.5), clipped to [0, 1.5].
+- Scorecard: margin RMSE and ATS direction for base vs adjusted vs the line on the same games.
+  `ready_for_review` only means the adjusted model beat base by 0.25 points of margin error on 30+ games;
+  it never switches anything on.
+- Outputs go to Model Parameters (`Factor Scorecard`, `Market Blend K`, `Factor Scale Injury`,
+  `Factor Scale Situational`) only when `FACTORS_LEARN_LIVE=true` and the fields exist.
+
 ## Who writes what
 
 | Script | Schedule (UTC) | Writes |
