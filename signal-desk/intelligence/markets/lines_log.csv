@@ -1,0 +1,9 @@
+ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,ml_away,spread_odds_home,spread_odds_away,over_odds,under_odds,open_margin_line
+2026-11-01T22:26:33+00:00,rec3JZXbJtERAGQs5,401873034,NFL,New England Patriots @ Miami Dolphins,2026-11-01,DraftKings,-7.0,41.5,275,-345,-110.0,-110.0,-108.0,-112.0,-7.0
+2026-11-01T22:26:33+00:00,rec4N23ynnp1ti60s,401873035,NFL,Philadelphia Eagles @ Washington Commanders,2026-11-01,DraftKings,6.0,40.5,-270,220,-112.0,-108.0,-110.0,-110.0,-2.5
+2026-11-01T22:26:33+00:00,rec67iuU19XZINd0s,401873036,NFL,Chicago Bears @ Seattle Seahawks,2026-11-02,DraftKings,3.0,46.5,-166,140,-115.0,-105.0,-110.0,-110.0,4.5
+2026-11-01T22:26:33+00:00,recLZPInRGPUoxvQY,401873031,NFL,Tennessee Titans @ Cincinnati Bengals,2026-11-01,DraftKings,13.5,45.5,-950,625,-115.0,-105.0,-115.0,-105.0,6.5
+2026-11-01T22:26:33+00:00,recMMekFJkW3EgnJp,401873033,NFL,Kansas City Chiefs @ Denver Broncos,2026-11-01,DraftKings,1.5,41.5,-115,-105,100.0,-120.0,-112.0,-108.0,1.5
+2026-11-01T22:26:33+00:00,recXp3YqdIlvPVinU,401873024,NFL,Arizona Cardinals @ Dallas Cowboys,2026-11-01,DraftKings,7.0,54.5,-340,270,-118.0,-102.0,-108.0,-112.0,10.5
+2026-11-01T22:26:33+00:00,recZz5q4Ikwbzu1kK,401873026,NFL,Baltimore Ravens @ Buffalo Bills,2026-11-01,DraftKings,3.0,54.5,-162,136,-115.0,-105.0,-115.0,-105.0,2.5
+2026-11-01T22:26:33+00:00,recs5m00bZJMQlxqa,401873032,NFL,Los Angeles Chargers @ Los Angeles Rams,2026-11-01,DraftKings,6.5,45.5,-278,225,-110.0,-110.0,-115.0,-105.0,3.5
