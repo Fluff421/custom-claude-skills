@@ -21,8 +21,9 @@ import json
 import re
 
 import situational as sit
+import weather as wx
 
-FACTOR_VERSION = 2
+FACTOR_VERSION = 3
 
 # --- prior point values: spread points lost when a typical STARTER at the position is out -------------
 # Assumptions, not measurements. League-specific. See MODEL.md "Factors".
@@ -121,7 +122,8 @@ def lookahead_side(note: str | None) -> dict:
     return {"home": "Home side may look ahead" in n, "away": "Away side may look ahead" in n}
 
 
-def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, scale_situ: float = 1.0) -> dict | None:
+def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, scale_situ: float = 1.0,
+            scales: dict | None = None) -> dict | None:
     """Shadow factors for one ledger row. None if the row lacks FPI or a line.
 
     Sign convention matches the ledger: margins are home minus away, so a positive adjustment favors home.
@@ -149,14 +151,19 @@ def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, 
     pts = LOOKAHEAD_POINTS.get(league, 0.0)
     la_raw = (pts if la["away"] else 0.0) - (pts if la["home"] else 0.0)
     sp = sit.situational_points(fields, league)
-    situ_raw = la_raw + sp["rest"] + sp["travel"] + sp["revenge"]
-    situ_adj = situ_raw * scale_situ
+    sev = wx.sev_from_note(fields.get("Weather Note"))
+    w_raw = wx.weather_points(model, sev)
+    # per-factor scales; look-ahead falls back to the legacy single situational scale
+    sc = {"lookahead": scale_situ, "rest": 1.0, "travel": 1.0, "revenge": 1.0, "weather": 1.0, **(scales or {})}
+    parts = {"lookahead": la_raw, "rest": sp["rest"], "travel": sp["travel"], "revenge": sp["revenge"], "weather": w_raw}
+    situ_raw = sum(parts.values())
+    situ_adj = sum(parts[k] * sc[k] for k in parts)
     adj_model = model + inj_adj + situ_adj
     detail = {
         "v": FACTOR_VERSION, "at": now_iso, "inj_parsed": inj["parsed"],
         "home_inj_pts": round(h_pts, 2), "away_inj_pts": round(a_pts, 2), "home_by_pos": h_det, "away_by_pos": a_det,
         "home_qb_listed": any(e["pos"] == "QB" for e in inj["home"]), "away_qb_listed": any(e["pos"] == "QB" for e in inj["away"]),
-        "lookahead": la, "situ_points": pts, "situ_raw": round(situ_raw, 2), "situ_parts": {"lookahead": round(la_raw, 2), **sp},
+        "lookahead": la, "situ_points": pts, "situ_raw": round(situ_raw, 2), "situ_parts": {k: round(v, 2) for k, v in parts.items()}, "weather_sev": sev, "scales": sc,
         "qb_feed": qbf, "weather": fields.get("Weather Note") or "", "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
         "note": "prior weights, unverified; see MODEL.md Factors",
     }

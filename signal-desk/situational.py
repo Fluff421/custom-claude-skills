@@ -154,13 +154,13 @@ def qb_note(rows: list[dict], home_name: str, away_name: str, norm) -> str:
     parts = []
     for side, team in (("HOME", home_name), ("AWAY", away_name)):
         for r in rows:
-            if norm(r.get("team", "")) != norm(team) or (r.get("verified") or "").strip().lower() != "verified":
+            if norm(r.get("team", "")) != norm(team) or (r.get("verified") or "").strip().lower() not in ("verified", "auto_espn"):
                 continue
             label = {"starter_out": "OUT", "starter_questionable": "QUESTIONABLE", "starter_playing": "PLAYING"}.get(
                 (r.get("classification") or "").strip())
             if label:
                 rep = f" -> {r['replacement']}" if r.get("replacement") else ""
-                parts.append(f"{side} QB {label} {r.get('starter', '?')}{rep} [verified {r.get('source_date', '?')}]")
+                parts.append(f"{side} QB {label} {r.get('starter', '?')}{rep} [{(r.get('verified') or '').strip().lower().replace('_', ' ')} {r.get('source_date', '?')}]")
                 break
     return " | ".join(parts)
 

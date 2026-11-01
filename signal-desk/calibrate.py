@@ -152,7 +152,11 @@ def main() -> None:
             if fsd.get("ok"):
                 fields["Factor Scale Injury"] = fsd["scale_inj"]
                 if "scale_situ" in fsd:
-                    fields["Factor Scale Situational"] = fsd["scale_situ"]
+                    fields["Factor Scale Situational"] = fsd["scale_situ"]  # look-ahead scale (legacy field name)
+                for k, fld in (("rest", "Factor Scale Rest"), ("travel", "Factor Scale Travel"),
+                               ("revenge", "Factor Scale Revenge"), ("weather", "Factor Scale Weather")):
+                    if f"scale_{k}" in fsd:
+                        fields[fld] = fsd[f"scale_{k}"]
         fields["Graded Picks"] = len(fs)
         fields["Last Calibrated"] = now
         fields["Notes"] = "Auto-calibrated by calibrate.py"

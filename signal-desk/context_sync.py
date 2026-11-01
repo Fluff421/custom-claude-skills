@@ -17,6 +17,8 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
 import situational as sit
+import qb_nfl
+import weather as wxm
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 LOOKAHEAD_GAP = 8.0
@@ -153,7 +155,11 @@ def main() -> None:
         fpi = es.load_fpi_index(league, key)  # keyed by ESPN team id
         schedules: dict[str, list[dict]] = {}
         prev_sched: dict[str, list[dict]] = {}
-        qb_rows = load_qb_feed(league)
+        geo_cache: dict = {}
+        fc_cache: dict = {}
+        qb_rows = load_qb_feed(league)          # Grok-verified rows first, so they win over automatic ones
+        nfl_inj = es.load_nfl_injuries(key) if league == "NFL" else {}
+        qb_done: set[str] = set()
         for r in lrows:
             f = r["fields"]
             hit = es.match_event(r, events)
@@ -185,6 +191,15 @@ def main() -> None:
                     new[f"{label} Next Opponent"] = s["next"]
                 sides[label] = s
                 ids[label] = tid
+                if league == "NFL" and tid not in qb_done:
+                    qb_done.add(tid)
+                    try:
+                        depth = es.parse_json(es.scrape(f"{es.ESPN}/nfl/teams/{tid}/depthcharts", key))
+                        tname = (team or {}).get("displayName", "")
+                        qb_rows.append(qb_nfl.team_row(tname, label.lower(), depth, nfl_inj.get(es.norm(tname), []),
+                                                       es.norm, now.strftime("%Y-%m-%d")))
+                    except Exception as exc:  # noqa: BLE001
+                        es.warn(f"NFL QB depth chart for {(team or {}).get('displayName')} failed: {exc}")
             # rest days, travel, revenge, weather (situational context; priors scaled by the learning loop)
             try:
                 for label in ("Home", "Away"):
@@ -209,7 +224,12 @@ def main() -> None:
                         if why:
                             flags.append(f"{label} revenge ({why})")
                 new["Revenge Note"] = "; ".join(flags) if flags else "none"
-                wn = sit.weather_note(ev.get("weather") or comp0.get("weather"), venue)
+                wn = wxm.forecast_note((venue.get("address") or {}).get("city", ""), vstate or "", kickoff, now,
+                                       bool(venue.get("indoor")), lambda u: es.parse_json(es.http_get(u, {"User-Agent": "signal-desk"})),
+                                       geo_cache, fc_cache)
+                if not wn:  # beyond the forecast window or lookup failed: keep ESPN's plain note (no severity, so no effect)
+                    wn = sit.weather_note(ev.get("weather") or comp0.get("weather"), venue)
+                    wn = (wn + " | no severity") if wn else ""
                 if wn:
                     new["Weather Note"] = wn
             except Exception as exc:  # noqa: BLE001
