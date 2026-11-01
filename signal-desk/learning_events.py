@@ -27,6 +27,14 @@ def event(league: str, market: str, setting: str, old, new, evidence: str, sampl
             "old": "" if old is None else old, "new": new, "evidence": evidence, "sample_size": sample_size, "source": source}
 
 
+def ensure_header(path: str | None = None) -> None:
+    path = path or PATH
+    if not os.path.exists(path) or os.path.getsize(path) == 0:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", newline="", encoding="utf-8") as fh:
+            csv.DictWriter(fh, fieldnames=COLS).writeheader()
+
+
 def append(events: list[dict], path: str | None = None) -> int:
     if not events:
         return 0

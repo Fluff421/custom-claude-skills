@@ -162,10 +162,12 @@ def main() -> None:
         os.makedirs(os.path.dirname(SCORE_PATH), exist_ok=True)
         with open(SCORE_PATH, "w", encoding="utf-8") as fh:
             json.dump({"generated": today, "scorecards": cards, "notes": notes}, fh, indent=1)
-        if events:
+        if events or not os.path.exists(PARAMS_PATH):
             with open(PARAMS_PATH, "w", encoding="utf-8") as fh:
                 json.dump(new, fh, indent=1, sort_keys=True)
-            le.append(events)
+            if events:
+                le.append(events)
+        le.ensure_header()
 
 
 if __name__ == "__main__":
