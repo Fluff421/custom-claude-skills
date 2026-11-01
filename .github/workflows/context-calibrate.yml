@@ -21,10 +21,12 @@ permissions:
 jobs:
   context:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
       WEBSCRAPING_AI_API_KEY: ${{ secrets.WEBSCRAPING_AI_API_KEY }}
+      GITHUB_TOKEN: ${{ github.token }}
       CONTEXT_SYNC_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.CONTEXT_SYNC_LIVE == 'true')) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4

@@ -89,6 +89,27 @@ scales, 10 games where the factor was non-zero) and reported in the calibrate lo
 - Outputs go to Model Parameters (`Factor Scorecard`, `Market Blend K`, `Factor Scale Injury`,
   `Factor Scale Situational`) only when `FACTORS_LEARN_LIVE=true` and the fields exist.
 
+### Situational context and starter checks (`situational.py`, filled by `context_sync.py`)
+
+Written daily to the Ledger for upcoming games; read by `factors.py` (shadow by default).
+
+| Field | Source | Prior (spread pts, unvalidated) |
+|---|---|---|
+| Home/Away Rest Days | ESPN team schedules, Central calendar days since last completed game | bye (12+ days) +0.5 NFL / +0.6 NCAAF; short (5 or fewer) -0.7 NFL / -0.6 NCAAF |
+| Travel Note | team home state (most common home-venue state) to venue state, state centroids | 1000+ mi -0.3, 2000+ mi -0.5, 2+ time zones -0.2 more. Crude on purpose |
+| Revenge Note | ESPN schedules this and last season | lost the most recent meeting: +0.3 |
+| Weather Note | ESPN event weather | LOG ONLY. Never enters any number until CLV shows a benefit |
+| QB Starter Note | Grok feed `qb_starters.csv`, `verified` rows only | OUT replaces any QB injury entry at full QB value, QUESTIONABLE 0.25, PLAYING 0 |
+
+Rest, travel, revenge and look-ahead are summed (`situ_raw`) and share ONE learned scale (`Factor Scale Situational`).
+Per-factor parts are stored in `Factor Detail` so a later review can split them.
+
+### Pick in every game
+
+Every game with FPI and a line gets a pick so the learning loop sees all of them. Below the Lean threshold the pick is a
+paper tracking pick: tier `No Play`, 0 units, never a bet. If no Splash line exists yet it is priced off the ESPN line and
+labelled so; it is re-priced when the Splash line arrives. Max and Strong stay paper with the unit cap in force.
+
 ## Who writes what
 
 | Script | Schedule (UTC) | Writes |

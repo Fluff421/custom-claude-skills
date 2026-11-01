@@ -48,8 +48,11 @@ def game_rows(fs: list[dict]) -> list[dict]:
             d = json.loads(f.get("Factor Detail") or "")
             row["inj"] = float(d["away_inj_pts"]) - float(d["home_inj_pts"])
             la = d.get("lookahead") or {}
-            pts = float(d.get("situ_points", 0.0))
-            row["situ"] = (pts if la.get("away") else 0.0) - (pts if la.get("home") else 0.0)
+            if d.get("situ_raw") is not None:  # v2: look-ahead + rest + travel + revenge, unscaled
+                row["situ"] = float(d["situ_raw"])
+            else:
+                pts = float(d.get("situ_points", 0.0))
+                row["situ"] = (pts if la.get("away") else 0.0) - (pts if la.get("home") else 0.0)
             row["parsed"] = bool(d.get("inj_parsed"))
         except (ValueError, KeyError, TypeError):
             pass

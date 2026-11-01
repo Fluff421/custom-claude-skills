@@ -134,7 +134,7 @@ def pick_line_text(team: str, vegas_home_margin: float, home: bool) -> str:
     return f"{team} {sign}{abs(line):g} (spread)"
 
 
-def evaluate(f: dict, p: dict, counts: dict, now: str) -> tuple[dict | None, float, str, float, float]:
+def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> tuple[dict | None, float, str, float, float]:
     """Price one row. Returns (fields or None if below Lean, edge, tier, prob, units)."""
     hfa = f.get("HFA")
     if hfa is None:
@@ -151,23 +151,24 @@ def evaluate(f: dict, p: dict, counts: dict, now: str) -> tuple[dict | None, flo
                 edge = edge * p["market_k"]
             factor_note = f" | adj (inj {x['inj_adj']:+.1f}, situ {x['situ_adj']:+.1f})"
     ae = abs(edge)
-    if ae < p["lean"]:
-        return None, edge, "", 0.0, 0.0
     league = f.get("League", "")
-    tier = "Max Play" if ae >= p["max"] else ("Strong Play" if ae >= p["strong"] else "Lean")
+    # Every game gets a pick so the learning loop sees all of them. Below Lean it is a paper
+    # tracking pick: tier "No Play", 0 units, never counted as a bet.
+    tracking = ae < p["lean"]
+    tier = "No Play" if tracking else ("Max Play" if ae >= p["max"] else ("Strong Play" if ae >= p["strong"] else "Lean"))
     prob = win_prob(edge, p["sigma"])
     mult = float(p["multipliers"].get(tier, 1.0))
     prob = min(0.95, max(0.50, prob * mult))
-    home_pick = edge > 0
-    units = capped_units(p["units"][tier], league, tier, counts)
+    home_pick = edge >= 0 if tracking else edge > 0
+    units = 0.0 if tracking else capped_units(p["units"][tier], league, tier, counts)
     new = {
         "Sharp-Sheet Tier": tier,
         "Sharp-Sheet Est. Win Prob %": round(prob, 4),
         "Sharp-Sheet Suggested Units": units,
         "Recommended Side": pick_line_text(f["Home Team"] if home_pick else f["Away Team"], vegas, home_pick),
         "Sharp-Sheet Sportsbook": AUTO_BOOK,
-        "Sharp-Sheet Data Completeness": f"Auto pick {now} | FPI+line ok | edge {edge:+.1f} | "
-                                         f"injuries: NFL auto, NCAAF auto (secondary){factor_note}",
+        "Sharp-Sheet Data Completeness": f"{'Tracking pick (paper, 0u)' if tracking else 'Auto pick'} {now} | FPI+line ok | edge {edge:+.1f} | "
+                                         f"injuries: NFL auto, NCAAF auto (secondary){factor_note}{line_note}",
     }
     return new, edge, tier, prob, units
 
@@ -246,10 +247,15 @@ def main() -> None:
         if f.get("Home FPI") is None or f.get("Away FPI") is None:
             skipped["no fpi"] += 1
             continue
+        line_note = ""
         if f.get("Vegas Implied Home Margin") is None:
-            skipped["no line"] += 1
-            continue
-        new, edge, tier, prob, units = evaluate(f, params[league], counts, now)
+            if f.get("ESPN Spread (Home)") is None:
+                skipped["no line"] += 1
+                continue
+            # no Splash line yet: price the paper tracking pick off the ESPN consensus line, labelled as such
+            f = {**f, "Vegas Implied Home Margin": -float(f["ESPN Spread (Home)"])}
+            line_note = " | priced off ESPN line (no Splash line)"
+        new, edge, tier, prob, units = evaluate(f, params[league], counts, now, line_note)
         if new is None:
             skipped["below threshold"] += 1
             continue
