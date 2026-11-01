@@ -12,6 +12,7 @@ on:
       - signal-desk/snapshot.py
       - signal-desk/ops_export.py
       - signal-desk/intelligence_report.py
+      - signal-desk/markets.py
       - .github/workflows/snapshot.yml
   schedule:
     # 8:17 AM America/Chicago year-round. GitHub cron is UTC only, so both
@@ -81,6 +82,9 @@ jobs:
       - name: Export graded picks and ops health (reads Airtable and Actions logs)
         if: steps.gate.outputs.run == 'true'
         run: python signal-desk/ops_export.py
+      - name: Capture lines and prices for every market (timestamped line log) and price every bet
+        if: steps.gate.outputs.run == 'true'
+        run: python signal-desk/markets.py run
       - name: Build the daily intelligence report (read-only; picks, results, learning state)
         if: steps.gate.outputs.run == 'true'
         run: python signal-desk/intelligence_report.py
@@ -88,7 +92,7 @@ jobs:
         if: ${{ steps.gate.outputs.run == 'true' && env.SNAPSHOT_LIVE == '1' }}
         shell: bash
         run: |
-          FILES="signal-desk/LEDGER.md signal-desk/data/snapshot.json signal-desk/data/graded_picks.csv signal-desk/data/ops_status.json signal-desk/intelligence/latest.md signal-desk/intelligence/learning_log.csv signal-desk/intelligence/data"
+          FILES="signal-desk/LEDGER.md signal-desk/data/snapshot.json signal-desk/data/graded_picks.csv signal-desk/data/ops_status.json signal-desk/intelligence/latest.md signal-desk/intelligence/learning_state.csv signal-desk/intelligence/markets signal-desk/intelligence/data"
           git add -N $FILES 2>/dev/null || true
           if git diff --quiet -- $FILES; then
             echo "No change to commit."

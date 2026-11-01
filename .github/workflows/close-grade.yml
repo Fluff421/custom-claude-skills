@@ -10,13 +10,18 @@ on:
   pull_request:
     paths:
       - signal-desk/close_grade.py
+      - signal-desk/markets.py
       - signal-desk/espn_sync.py
       - .github/workflows/close-grade.yml
   schedule:
     - cron: "37 * * * *"
 
 permissions:
-  contents: read
+  contents: write   # data-only commit of graded market picks
+
+concurrency:
+  group: signal-desk-close-grade
+  cancel-in-progress: false
 
 jobs:
   grade:
@@ -25,6 +30,7 @@ jobs:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
       WEBSCRAPING_AI_API_KEY: ${{ secrets.WEBSCRAPING_AI_API_KEY }}
+      MARKETS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.MARKETS_LIVE == 'true')) && '1' || '0' }}
       CLOSE_GRADE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.CLOSE_GRADE_LIVE == 'true')) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
@@ -47,3 +53,8 @@ jobs:
           echo "Configuration present. Mode: CLOSE_GRADE_LIVE=${CLOSE_GRADE_LIVE}"
       - name: Capture closing lines and grade finished games
         run: python signal-desk/close_grade.py
+      - name: Grade every market (spread, total, moneyline, teaser legs, teasers, parlay legs, parlays)
+        run: python signal-desk/markets.py grade
+      - name: Commit graded market picks (data only)
+        if: ${{ env.MARKETS_LIVE == '1' }}
+        run: bash .github/scripts/commit_data.sh "Signal Desk market grades $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/markets/picks_log.csv

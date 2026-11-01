@@ -1,8 +1,0 @@
-logged_at,record_id,game,date,league,user_team,user_side,user_line,splash_line_in_ledger,model_pick,model_tier,model_units,adjusted_model_side,matched
-2026-11-01 21:26Z,recZz5q4Ikwbzu1kK,Baltimore Ravens @ Buffalo Bills,2026-11-01,NFL,Baltimore Ravens,away,-3.0,3.0,Buffalo Bills -3 (spread),Lean,0.5,,no
-2026-11-01 21:42Z,recXp3YqdIlvPVinU,Arizona Cardinals @ Dallas Cowboys,2026-11-01,NFL,Dallas Cowboys,home,-1.0,-7.0,Dallas Cowboys -7 (spread),Lean,0.5,,yes
-2026-11-01 21:42Z,recLZPInRGPUoxvQY,Tennessee Titans @ Cincinnati Bengals,2026-11-01,NFL,Cincinnati Bengals,home,-6.5,-11.5,Cincinnati Bengals -11.5 (spread),No Play,0,,yes
-2026-11-01 21:42Z,recZz5q4Ikwbzu1kK,Baltimore Ravens @ Buffalo Bills,2026-11-01,NFL,Buffalo Bills,home,-3.0,-3.0,Buffalo Bills -3 (spread),Lean,0.5,,yes
-2026-11-01 21:42Z,recs5m00bZJMQlxqa,Los Angeles Chargers @ Los Angeles Rams,2026-11-01,NFL,Los Angeles Rams,home,-0.5,-6.5,Los Angeles Rams -6.5 (spread),Lean,0.5,home,yes
-2026-11-01 21:42Z,rec3JZXbJtERAGQs5,New England Patriots @ Miami Dolphins,2026-11-01,NFL,New England Patriots,away,-1.0,-7.0,New England Patriots -7 (spread),No Play,0,home,yes
-2026-11-01 21:42Z,recMMekFJkW3EgnJp,Kansas City Chiefs @ Denver Broncos,2026-11-01,NFL,Kansas City Chiefs,away,4.5,-1.5,Denver Broncos +1.5 (spread),Lean,0.5,home,no

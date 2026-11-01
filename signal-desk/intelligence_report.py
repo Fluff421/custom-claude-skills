@@ -4,7 +4,8 @@
 Read-only against Airtable. Writes, into the repo:
   intelligence/latest.md                 human-readable daily report
   intelligence/data/YYYY-MM-DD.json      every data point behind the report
-  intelligence/learning_log.csv          one row per league per day: what the learner currently believes (trend over time)
+  intelligence/learning_state.csv        one row per league per day: what the spread learner currently believes (trend over time)
+  intelligence/learning_log.csv          change log: every automatic change (market, setting, old, new, evidence, sample size)
 It never writes Airtable, picks, or Splash fields. All picks are paper picks.
 """
 from __future__ import annotations
@@ -243,24 +244,84 @@ def md_table(headers: list[str], rows: list[list]) -> str:
 
 
 def user_vs_model(graded_by_gid: dict) -> list[dict]:
+    """Owner's Splash picks, graded against the LOCKED line, with the model repriced at that line (see splash_compare.py)."""
     path = os.path.join(OUT, "splash_picks_log.csv")
     if not os.path.exists(path):
         return []
-    out = []
+    import splash_compare as sc
     with open(path, newline="", encoding="utf-8") as fh:
-        for r in csv.DictReader(fh):
-            f = graded_by_gid.get(r.get("record_id"))
-            row = {**r, "user_result": "pending", "model_result": "pending"}
-            if f and f.get("Actual Home Margin") is not None:
-                actual = float(f["Actual Home Margin"])
-                try:
-                    ish = r["user_side"] == "home"
-                    row["user_result"] = {"Won": "Win", "Lost": "Loss", "Push": "Push"}[cg.grade_spread_pick(actual, float(r["user_line"]), ish)]
-                except (KeyError, ValueError):
-                    pass
-                row["model_result"] = f.get("Grade") or "pending"
-            out.append(row)
+        rows = list(csv.DictReader(fh))
+    return sc.grade_log(rows, graded_by_gid)
+
+
+def _model_result(r: dict, game: dict | None) -> str:
+    """What the model's own side at the locked line would have done (same market, same line)."""
+    side = r.get("model_side_lock")
+    if not side or not game or game.get("Home Score") is None or r.get("market") in ("teaser_leg", "other"):
+        return "pending"
+    import markets as mk
+    try:
+        line = float(r["locked_line"])
+    except (TypeError, ValueError):
+        return "pending"
+    if r["market"] == "total":
+        return mk.grade_leg("total", side, line, game["Home Score"], game["Away Score"])
+    if r["market"] == "moneyline":
+        return mk.grade_leg("moneyline", side, 0, game["Home Score"], game["Away Score"])
+    mline = line if side == r.get("side") else -line
+    return mk.grade_leg("spread", side, mline, game["Home Score"], game["Away Score"])
+
+
+def by_market_summary(splash: list[dict], games_by_id: dict) -> list[dict]:
+    """Owner vs model by market, graded at locked lines (legs of tickets counted under their own market)."""
+    out = {}
+    for r in splash:
+        if r["leg_result"] not in ("Win", "Loss", "Push"):
+            continue
+        m = out.setdefault(r["market"], {"market": r["market"], "n": 0, "you_w": 0, "you_l": 0, "model_w": 0, "model_l": 0, "against": 0})
+        m["n"] += 1
+        m["you_w"] += r["leg_result"] == "Win"
+        m["you_l"] += r["leg_result"] == "Loss"
+        mr = _model_result(r, games_by_id.get(r.get("record_id")))
+        m["model_w"] += mr == "Win"
+        m["model_l"] += mr == "Loss"
+        m["against"] += r.get("matched") == "no"
+    return list(out.values())
+
+
+def timing_table(splash: list[dict]) -> list[dict]:
+    """Does locking earlier or later in the week help? Buckets by days from lock to kickoff."""
+    out = []
+    for name, lo, hi in (("5+ days before", 5, 99), ("3-4 days before", 3, 4), ("0-2 days before", 0, 2)):
+        sub = []
+        for r in splash:
+            try:
+                d = int(r.get("lead_days"))
+            except (TypeError, ValueError):
+                continue
+            if lo <= d <= hi and r.get("movement_for_you") not in ("", None):
+                sub.append(r)
+        dec = [r for r in sub if r["leg_result"] in ("Win", "Loss")]
+        mv = [float(r["movement_for_you"]) for r in sub]
+        out.append({"bucket": name, "n": len(sub), "avg_move_for_you": round(sum(mv) / len(mv), 2) if mv else None,
+                    "graded": len(dec), "win_rate": round(sum(r["leg_result"] == "Win" for r in dec) / len(dec), 3) if dec else None})
     return out
+
+
+def market_section() -> dict:
+    """Everything the markets engine wrote to the repo (picks_latest.json, scorecards.json, change log)."""
+    import learning_events as le
+    doc = {"latest": None, "scorecards": {}, "changes": [], "notes": []}
+    for key, name in (("latest", "picks_latest.json"), ("scorecards", "scorecards.json")):
+        p = os.path.join(OUT, "markets", name)
+        if os.path.exists(p):
+            with open(p, encoding="utf-8") as fh:
+                v = json.load(fh)
+            doc[key] = v if key == "latest" else v.get("scorecards", {})
+            if key == "scorecards":
+                doc["notes"] = v.get("notes", [])
+    doc["changes"] = le.read()[-25:]
+    return doc
 
 
 def main() -> None:
@@ -297,12 +358,17 @@ def main() -> None:
     }
     by_id = {f["_id"]: f for f in games}
     data["splash_vs_model"] = user_vs_model(by_id)
+    for r in data["splash_vs_model"]:
+        r["model_result"] = _model_result(r, by_id.get(r.get("record_id")))
+    data["splash_by_market"] = by_market_summary(data["splash_vs_model"], by_id)
+    data["splash_timing"] = timing_table(data["splash_vs_model"])
+    data["markets"] = market_section()
 
     os.makedirs(os.path.join(OUT, "data"), exist_ok=True)
     with open(os.path.join(OUT, "data", f"{today.isoformat()}.json"), "w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=1, default=str)
     # learning log: one row per league per day
-    path = os.path.join(OUT, "learning_log.csv")
+    path = os.path.join(OUT, "learning_state.csv")
     cols = ["date", "league", "graded", "graded_with_factor_record", "brier", "sigma", "market_k", "scale_injury", "scale_lookahead",
             "scale_rest", "scale_travel", "scale_revenge", "scale_weather"]
     rows = []
@@ -317,6 +383,44 @@ def main() -> None:
     with open(os.path.join(OUT, "latest.md"), "w", encoding="utf-8") as fh:
         fh.write(render(data))
     print(f"Report {today}: {len(best)} best bets, {len(tracking)} tracking picks, {len(recent)} recent closed, {len(graded)} graded overall")
+
+
+def render_markets(m: dict) -> list[str]:
+    L = ["", "## Every bet type (paper)", ""]
+    latest = m.get("latest")
+    if latest:
+        rows = []
+        for g in latest.get("games", []):
+            if g.get("frozen"):
+                continue
+            for pk in g.get("picks", []):
+                if pk["market"] in ("total", "moneyline") and pk["tier"] != "No Play":
+                    rows.append([g["game"], pk["market"], pk["selection"], f"{float(pk['prob']):.0%}", pk["tier"], pk["units"]])
+        L.append("Lean-or-better totals and moneylines (spreads are in the table above). Every game also has a tracking pick in every market in `intelligence/markets/picks_latest.md`.")
+        L.append("")
+        L.append(md_table(["Game", "Market", "Pick", "Prob", "Tier", "Units"], rows) if rows else "No Lean-or-better totals or moneylines right now.")
+        for lg, cb in (latest.get("combos") or {}).items():
+            for kind in ("parlay", "teaser"):
+                for c in cb.get(kind, [])[:3]:
+                    L.append(f"- {lg} {kind}: " + " + ".join(x["selection"] for x in c["legs"]) +
+                             f" | model {c['prob']:.1%}, needs {c['break_even_price']:+g} to break even, edge {c['edge'] * 100:+.1f}%, {c['tier']}")
+    else:
+        L.append("The markets engine has not produced a pricing file yet.")
+    cards = (m.get("scorecards") or {}).get("ALL", {})
+    L += ["", "## Results and learning by market", ""]
+    if cards:
+        L.append(md_table(["Market", "W-L-P", "Win rate", "Units", "Avg CLV", "Brier"],
+                          [[k, f"{v['wins']}-{v['losses']}-{v['pushes']}", v["win_rate"], v["units"], v["avg_clv"], v["brier"]] for k, v in cards.items()]))
+        L.append("")
+        L.append("Tuning only starts at 30 graded picks per league and market; tier tables need 20 per tier.")
+    else:
+        L.append("No graded results by market yet. Totals, moneylines, legs, teasers and parlays are being logged and will be graded as games finish.")
+    for n in m.get("notes", [])[:8]:
+        L.append(f"- {n}")
+    ch = m.get("changes") or []
+    L += ["", "## Automatic changes (change log)", ""]
+    L += [f"- {c['date']} {c['league']} {c['market']}: {c['setting']} {c['old']} -> {c['new']} ({c['evidence']}; n={c['sample_size']})" for c in ch[-10:]] or ["No automatic changes logged yet."]
+    return L
 
 
 def render(d: dict) -> str:
@@ -352,10 +456,27 @@ def render(d: dict) -> str:
     L += ["", "## What changes automatically, and how close each change is", "",
           md_table(["League", "Setting", "Now", "Gate", "Progress", "Rule"], [[a["league"], a["setting"], a["now"], a["gate"], a["progress"], a["rule"]] for a in d["automatic_changes"]]),
           "", "## Data gaps right now", ""] + [f"- {g}" for g in d["data_gaps"]]
+    L += render_markets(d.get("markets") or {})
     if d["splash_vs_model"]:
-        L += ["", "## Your Splash picks vs the model", "",
-              md_table(["Logged", "Game", "Your pick", "Model pick", "Matched", "Your result", "Model result"],
-                       [[r.get("logged_at"), r.get("game"), f"{r.get('user_team')} {r.get('user_line')}", r.get("model_pick"), r.get("matched"), r["user_result"], r["model_result"]] for r in d["splash_vs_model"]])]
+        L += ["", "## Your Splash picks vs the model (locked lines)", "",
+              "Each pick is graded against the line you locked, not the early-week import. A gap between the two is line movement.", "",
+              md_table(["Logged", "Game", "Type", "Pick (locked)", "Early line", "Moved for you", "Model at lock", "Your result", "Model result"],
+                       [[r.get("logged_at"), r.get("game"), r.get("ticket_type", "") + "/" + r.get("market", ""),
+                         f"{r.get('team')} {r.get('locked_line')}", r.get("imported_line"), r.get("movement_for_you"),
+                         f"{r.get('model_side_lock', '')} {r.get('model_tier_lock', '')}".strip(), r["leg_result"],
+                         r.get("model_result", "pending")] for r in d["splash_vs_model"]])]
+        tk = {}
+        for r in d["splash_vs_model"]:
+            if r.get("ticket_type") in ("teaser", "parlay") and r.get("ticket_id") not in tk:
+                tk[r["ticket_id"]] = r
+        if tk:
+            L += ["", "Your teasers and parlays: " + "; ".join(f"{r['ticket_type']} {r['logged_at']} -> {r['ticket_result']} (model {r.get('ticket_prob') or 'n/a'} vs break-even {r.get('ticket_break_even') or 'n/a'})" for r in tk.values())]
+        if d.get("splash_by_market"):
+            L += ["", "By market:", "", md_table(["Market", "Graded", "You W-L", "Model W-L at your line", "Went against model"],
+                                              [[m["market"], m["n"], f"{m['you_w']}-{m['you_l']}", f"{m['model_w']}-{m['model_l']}", m["against"]] for m in d["splash_by_market"]])]
+        if any(t["n"] for t in d.get("splash_timing", [])):
+            L += ["", "Timing (when in the week you locked), small samples are noise until about 30 graded:", "",
+                  md_table(["Locked", "Picks", "Avg move for you", "Graded", "Win rate"], [[t["bucket"], t["n"], t["avg_move_for_you"], t["graded"], t["win_rate"]] for t in d["splash_timing"]])]
     L += ["", "## Data points to consider adding", "", "See `signal-desk/intelligence/ROADMAP.md` (kept current by the daily review).", ""]
     return "\n".join(L)
 
