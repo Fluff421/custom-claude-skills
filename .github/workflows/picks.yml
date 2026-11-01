@@ -14,12 +14,17 @@ on:
   pull_request:
     paths:
       - signal-desk/picks.py
+      - signal-desk/markets.py
       - .github/workflows/picks.yml
   schedule:
     - cron: "47 */3 * * *"
 
 permissions:
-  contents: read
+  contents: write   # data-only commits (markets files) to main; Airtable writes are unchanged
+
+concurrency:
+  group: signal-desk-picks
+  cancel-in-progress: false
 
 jobs:
   picks:
@@ -30,6 +35,7 @@ jobs:
       REPRICE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.reprice == true) || (github.event_name == 'schedule' && vars.REPRICE_LIVE == 'true')) && '1' || '0' }}
       FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
       FACTORS_SHADOW_LIVE: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.FACTORS_SHADOW_LIVE == 'true' && '1' || '0' }}
+      MARKETS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.MARKETS_LIVE == 'true')) && '1' || '0' }}
       PICKS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.PICKS_LIVE == 'true')) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
@@ -52,3 +58,8 @@ jobs:
           echo "Configuration present. Mode: PICKS_LIVE=${PICKS_LIVE}"
       - name: Generate picks
         run: python signal-desk/picks.py
+      - name: Price every market (totals, moneylines, teasers, parlays, alternate lines) and refresh lines
+        run: python signal-desk/markets.py run
+      - name: Commit market pricing and line log (data only)
+        if: ${{ env.MARKETS_LIVE == '1' }}
+        run: bash .github/scripts/commit_data.sh "Signal Desk markets $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/markets

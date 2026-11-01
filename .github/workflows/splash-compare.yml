@@ -1,14 +1,19 @@
 name: Splash picks vs model (Signal Desk)
 
-# Manual only. Paste the user's Splash picks (one per line, or separated by semicolons), e.g.
-#   Alabama -7.5; Ohio State +3; Kansas State PK
-# Compares them with the model's suggestions and logs the comparison in the repo.
-# Read-only against Airtable: it never writes Splash fields or results.
+# Manual only. Paste the owner's Splash picks at the LOCKED line (one per line, or separated by semicolons):
+#   spreads  Alabama -7.5; Ohio State +3; Kansas State PK
+#   totals   Baltimore at Buffalo Over 45.5
+#   moneyline  Buffalo ML -180
+#   Teaser: Alabama -1.5, Over 45.5 Baltimore at Buffalo      (base locked lines; add "teased" to a leg to paste the teased number)
+#   Parlay: Alabama -7.5, Buffalo ML -180, Under 50 Auburn at LSU
+#   Other: Alabama alt -3.5 at +150
+# The pasted line is the official locked line. The ledger holds the early-week import; the gap is line movement.
+# Games already started or finished are still logged and graded. Read-only against Airtable.
 on:
   workflow_dispatch:
     inputs:
       picks:
-        description: "Splash picks, one per line or separated by semicolons: Team -3.5"
+        description: "Splash picks at the locked line, one per line or separated by semicolons (see file header for every format)"
         required: true
         type: string
 
@@ -36,10 +41,4 @@ jobs:
       - name: Commit the comparison and log
         shell: bash
         run: |
-          git config user.name "signal-desk-bot"
-          git config user.email "signal-desk-bot@users.noreply.github.com"
-          git add signal-desk/intelligence/splash_picks signal-desk/intelligence/splash_picks_log.csv
-          if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
-          git commit -m "Splash picks vs model $(date -u +%F-%H%M) (auto)"
-          git pull --rebase -q origin main
-          git push
+          bash .github/scripts/commit_data.sh "Splash picks vs model $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/splash_picks signal-desk/intelligence/splash_picks_log.csv

@@ -85,6 +85,15 @@ def summarize(games: list[dict], after: dt.datetime | None = None) -> dict:
     return {"last": last, "streak": streak, "next": nxt, "next_name": future[0]["opp_name"] if future else None,
             "next_id": future[0].get("opp_id") if future else None}
 
+def scoring_stats(games: list[dict]) -> dict:
+    """Season points for / against per game from completed games (feeds the totals market)."""
+    done = [g for g in games if g["completed"] and g["me"].get("score") is not None and g["opp"].get("score") is not None]
+    if not done:
+        return {"pf": None, "pa": None, "n": 0}
+    n = len(done)
+    return {"pf": round(sum(_score(g["me"]) for g in done) / n, 2), "pa": round(sum(_score(g["opp"]) for g in done) / n, 2), "n": n}
+
+
 def home_state(games: list[dict]) -> str | None:
     """A team's home state = the most common venue state of its non-neutral home games."""
     from collections import Counter
@@ -200,6 +209,9 @@ def main() -> None:
                                                        es.norm, now.strftime("%Y-%m-%d")))
                     except Exception as exc:  # noqa: BLE001
                         es.warn(f"NFL QB depth chart for {(team or {}).get('displayName')} failed: {exc}")
+            if len(ids) == 2 and os.environ.get("SCORING_DETAIL_LIVE", "").lower() == "true":
+                new["Scoring Detail"] = json.dumps({"home": scoring_stats(schedules[ids["Home"]]),
+                                                    "away": scoring_stats(schedules[ids["Away"]])})
             # rest days, travel, revenge, weather (situational context; priors scaled by the learning loop)
             try:
                 for label in ("Home", "Away"):

@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import learning_events as le
 import math
 import os
 import sys
@@ -80,7 +81,7 @@ def main() -> None:
             break
     params_by_league = {r["fields"].get("League", ""): r for r in param_rows}
 
-    patches, creates, report = [], [], []
+    patches, creates, report, events = [], [], [], []
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     for league, fs in sorted(by_league.items()):
         if not league:
@@ -157,6 +158,25 @@ def main() -> None:
                                ("revenge", "Factor Scale Revenge"), ("weather", "Factor Scale Weather")):
                     if f"scale_{k}" in fsd:
                         fields[fld] = fsd[f"scale_{k}"]
+        old_f = params_by_league.get(league, {}).get("fields", {})
+        why = f"{len(fs)} graded spread picks"
+        for setting, key, n in (("Sigma", "Sigma", len(edges)), ("Market Blend K", "Market Blend K", mb.get("n", len(fs))),
+                                ("Factor Scale Injury", "Factor Scale Injury", fsd.get("n", len(fs))),
+                                ("Factor Scale Situational", "Factor Scale Situational", fsd.get("n", len(fs))),
+                                ("Factor Scale Rest", "Factor Scale Rest", fsd.get("n", len(fs))),
+                                ("Factor Scale Travel", "Factor Scale Travel", fsd.get("n", len(fs))),
+                                ("Factor Scale Revenge", "Factor Scale Revenge", fsd.get("n", len(fs))),
+                                ("Factor Scale Weather", "Factor Scale Weather", fsd.get("n", len(fs)))):
+            if key in fields and le.moved(old_f.get(key), fields[key]):
+                events.append(le.event(league, "spread", setting, old_f.get(key), fields[key], why + "; Brier-based fit", n, "calibrate.py", now[:10]))
+        try:
+            oldm = json.loads(old_f.get("Tier Multipliers") or "{}")
+        except ValueError:
+            oldm = {}
+        for tier, val in mult.items():
+            if le.moved(oldm.get(tier), val):
+                events.append(le.event(league, "spread", f"Tier multiplier {tier}", oldm.get(tier), val,
+                                       "actual win rate / predicted for this tier (needs 20+ picks)", sum(1 for f in fs if f.get("Sharp-Sheet Tier") == tier), "calibrate.py", now[:10]))
         fields["Graded Picks"] = len(fs)
         fields["Last Calibrated"] = now
         fields["Notes"] = "Auto-calibrated by calibrate.py"
@@ -168,7 +188,9 @@ def main() -> None:
         report.extend(lines)
 
     mode = "LIVE" if live else "DRY RUN"
+    report.extend(f"CHANGE {e['league']} spread {e['setting']}: {e['old']} -> {e['new']} (n={e['sample_size']})" for e in events)
     if live:
+        le.append(events)   # change log (repo file; the workflow commits it)
         if patches:
             es.http_get(f"https://api.airtable.com/v0/{base}/{PARAMS}", es.at_headers(token), "PATCH",
                         {"records": patches, "typecast": True})

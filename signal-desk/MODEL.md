@@ -175,3 +175,31 @@ Below those counts the calibrator reports but changes nothing.
 10 graded picks, all NCAAF: Lean 3-5, Strong Play 0-2, Max Play 0 graded.
 Every tier is below the 20-pick minimum, so no parameter has been tuned yet.
 Judge the model by CLV and calibration before win rate.
+
+## Every bet type (added Nov 2026)
+
+All of this is paper. Spreads and sides, totals, moneylines and parlays are the primary markets; 6-point teasers and other bets (alternate lines) are priced, ranked and tracked every cycle at secondary priority. `markets.py` prices every game in every market (a game with no edge gets tier No Play at 0 units, so it is still tracked and graded).
+
+| Market | Projection | Edge | Tier |
+|---|---|---|---|
+| Spread | existing model (picks.py, unchanged) | model margin vs line | existing tiers |
+| Total | line + k_total x (team-scoring total - line), plus weather, QB and injury points when FACTOR_MODE is live (shadow otherwise) | projected total minus line, in points | NFL 1.5 / 3 / 4.5, NCAAF 2.5 / 4.5 / 6.5 points |
+| Moneyline | win probability from the market-blended margin (k from Model Parameters), normal with league sigma | model probability minus the break-even of the DraftKings price | 3 / 6 / 9 points |
+| Teaser leg | same blended margin or total, with key-number weighting around 3 and 7 (NFL stronger than NCAAF); legs crossing 3 and 7 are flagged | leg win probability (qualifies at 70% or better) | combination edge |
+| Teaser | best 2 and 3 leg combinations from different games | joint probability minus break-even of the reference payout (2 legs -120, 3 legs +160, 4 legs +300; the contest's table decides) | 2 / 5 / 8 points |
+| Parlay | Lean-or-better legs across spread, total, moneyline; Gaussian copula with same-game correlation (spread and moneyline on one game are never combined) | joint probability minus break-even of the multiplied leg prices (-110 assumed when no price is known) | 2 / 5 / 8 points |
+
+Numbers above are priors, not results. They are assumptions until each market has 30 graded picks. Moneyline and totals use the line as the starting point because the model has so far shown little information beyond the market (see the market blend in the learning state).
+
+Lines: ESPN's core odds feed (DraftKings pregame) is read every pick cycle and appended to `intelligence/markets/lines_log.csv` only when the number or price changes. When the book's in-progress odds appear, picks for that game freeze. Closing line value for spreads and totals uses the last logged pregame line.
+
+Learning per market: `market_learning.py` writes scorecards (win rate, units, CLV, Brier, calibration, tier and factor performance) and may tune a per-market probability shrink only with 30 or more graded picks for that league and market, a real Brier gain, and at most a 0.15 step per run. Spread settings stay with `calibrate.py` and `factor_learning.py`. Every automatic change, from any of them, is one row in `intelligence/learning_log.csv` (date, league, market, setting, old, new, evidence, sample size, source).
+
+## Splash lines and the locked line
+
+Splash lines move until the pick is made. The ledger's `Vegas Implied Home Margin` and `Over/Under Line` are early-week imports. The line the owner pastes with a pick is the locked line and is the official number. A gap between the two is line movement (or the 6-point adjustment on a teaser), never bad data.
+
+- The log (`intelligence/splash_picks_log.csv`) keeps both: `imported_line` and `locked_line`, with `locked_at`, `movement_for_you` (positive = a better number for the owner), `lead_days` (days from lock to kickoff), and for teaser legs `base_line` and `teased_line`.
+- Splash picks are graded only against the locked line. The model is repriced at the locked line and at the imported line; `side_changed` shows when the model would have switched sides.
+- Locked lines stay in the repo log. Nothing about Splash is written to Airtable, so no new Ledger field was added for it.
+- Timing: the report compares movement and results by how early in the week the pick was locked, with a small-sample warning.
