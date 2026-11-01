@@ -43,6 +43,36 @@ p = clamp(p * tier multiplier, 0.50, 0.95)
 
 Sigma and tier multipliers come from Model Parameters when present.
 
+## Factors: injuries and situation (shadow mode, `factors.py`)
+
+The base model above ignores injuries and situation. The market prices them and FPI mostly does not, so
+part of an "edge" can be the market knowing something the model does not. `factors.py` measures that gap
+without changing any pick:
+
+```
+adj_model_home_margin = model_home_margin + inj_adj + situ_adj
+adj_edge              = adj_model_home_margin - Vegas Implied Home Margin
+```
+
+- Injuries: parsed from `Injury Notes` (ESPN notes for NFL, the injury-pull notes for NCAAF). Each listed
+  player counts for spread points = position value x status weight (Out 1.0, Doubtful 0.75, Questionable
+  0.25, Probable 0.05). Non-QB entries are discounted (x0.6) because lists mix starters and backups; a
+  Covers-only entry older than 10 days is discounted (x0.3). One team's total is capped (NFL 9, NCAAF 8).
+  A blank or unparseable note adds nothing and is never treated as healthy (counted as "without a usable note").
+- Situation: only the look-ahead flag is used today (0.5 NFL / 1.0 NCAAF points against the flagged team).
+  Rest days, short weeks, travel, revenge and weather are not yet inputs. Weather stays log-only.
+- The point values are PRIOR ASSUMPTIONS, not measurements.
+- Shadow mode (default): `picks.py` writes `Inj Adj (Home Pts)`, `Situ Adj (Home Pts)`, `Adj Model Home Margin`,
+  `Adj Edge`, `Factor Detail` (JSON, includes features and weights version) on unplayed, un-closed games. Tiers,
+  sides, probabilities and units still come from the base model. Writes need `FACTORS_SHADOW_LIVE=true`
+  and the five ledger fields to exist.
+- Live mode (`FACTOR_MODE=live`) makes picks use the adjusted edge. Do not enable until the graded
+  sample supports it (calibrate.py reports baseline vs adjusted Brier, log loss and CLV; minimum 30 graded
+  rows per league with usable injury notes, adjusted model better on out-of-sample margin error). A human
+  sets the variable; no job promotes itself.
+- Learning: `Factor Scale Injury` / `Factor Scale Situational` in Model Parameters scale the whole group
+  (default 1.0). The scales are learned from graded games, shrunk toward 1.0, only above the minimums.
+
 ## Who writes what
 
 | Script | Schedule (UTC) | Writes |

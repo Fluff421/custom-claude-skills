@@ -36,12 +36,16 @@ import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
+import factors as fx
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 AUTO_BOOK = "Splash Sports (auto)"
 SAMPLE_MIN = int(os.environ.get("UNIT_CAP_SAMPLE_MIN", "20"))
 UNIT_CAP = float(os.environ.get("UNIT_CAP", "1.0"))
 PARAMS = "tblTqY4CnU08ce1s9"
+# Injury/situational factors: "shadow" (default) records adjusted numbers but picks use the base model;
+# "live" makes picks use the adjusted edge. Never set live until MODEL.md criteria are met.
+FACTOR_MODE = os.environ.get("FACTOR_MODE", "shadow").strip().lower()
 DEFAULTS = {
     "sigma": {"NCAAF": 14.0, "NFL": 13.5},
     "lean": 1.0, "strong": 2.5, "max": 4.0,
@@ -76,11 +80,14 @@ def load_params(token: str) -> dict[str, dict]:
                       "Strong Play": float(f.get("Units Strong") or DEFAULTS["units"]["Strong Play"]),
                       "Max Play": float(f.get("Units Max") or DEFAULTS["units"]["Max Play"])},
             "multipliers": mult,
+            "scale_inj": float(f.get("Factor Scale Injury") or 1.0),
+            "scale_situ": float(f.get("Factor Scale Situational") or 1.0),
         }
     for lg in ("NCAAF", "NFL"):
         out.setdefault(lg, {"sigma": DEFAULTS["sigma"][lg], "lean": DEFAULTS["lean"],
                             "strong": DEFAULTS["strong"], "max": DEFAULTS["max"],
-                            "units": dict(DEFAULTS["units"]), "multipliers": {}})
+                            "units": dict(DEFAULTS["units"]), "multipliers": {},
+                            "scale_inj": 1.0, "scale_situ": 1.0})
     return out
 
 
@@ -134,6 +141,12 @@ def evaluate(f: dict, p: dict, counts: dict, now: str) -> tuple[dict | None, flo
     model = float(f["Home FPI"]) - float(f["Away FPI"]) + float(hfa)
     vegas = float(f["Vegas Implied Home Margin"])
     edge = model - vegas
+    factor_note = ""
+    if FACTOR_MODE == "live":
+        x = fx.compute(f, central_today(), now, p.get("scale_inj", 1.0), p.get("scale_situ", 1.0))
+        if x is not None:
+            edge = x["adj_edge"]
+            factor_note = f" | adj (inj {x['inj_adj']:+.1f}, situ {x['situ_adj']:+.1f})"
     ae = abs(edge)
     if ae < p["lean"]:
         return None, edge, "", 0.0, 0.0
@@ -151,7 +164,7 @@ def evaluate(f: dict, p: dict, counts: dict, now: str) -> tuple[dict | None, flo
         "Recommended Side": pick_line_text(f["Home Team"] if home_pick else f["Away Team"], vegas, home_pick),
         "Sharp-Sheet Sportsbook": AUTO_BOOK,
         "Sharp-Sheet Data Completeness": f"Auto pick {now} | FPI+line ok | edge {edge:+.1f} | "
-                                         f"injuries: NFL auto, NCAAF auto (secondary)",
+                                         f"injuries: NFL auto, NCAAF auto (secondary){factor_note}",
     }
     return new, edge, tier, prob, units
 
@@ -241,6 +254,31 @@ def main() -> None:
         report.append(f"{f.get('Game')}: {tier} {new['Recommended Side']} "
                       f"(edge {edge:+.1f}, p {prob:.1%}, {units:g}u)")
 
+    # Shadow factors: record adjusted numbers for every unplayed, un-closed game (never changes a pick in shadow mode)
+    shadow_live = live and os.environ.get("FACTORS_SHADOW_LIVE", "0").strip() == "1"
+    shadow, shadow_unparsed = {}, 0
+    for r in rows:
+        f = r["fields"]
+        if (f.get("Grade") not in (None, "Pending") or f.get("Closing Spread (Home)") is not None
+                or f.get("Home Score") is not None or f.get("League") not in params):
+            continue
+        p = params[f["League"]]
+        x = fx.compute(f, today, now, p.get("scale_inj", 1.0), p.get("scale_situ", 1.0))
+        if x is None:
+            continue
+        shadow_unparsed += 0 if x["detail"]["inj_parsed"] else 1
+        new_s = {"Inj Adj (Home Pts)": x["inj_adj"], "Situ Adj (Home Pts)": x["situ_adj"],
+                 "Adj Model Home Margin": x["adj_model"], "Adj Edge": x["adj_edge"]}
+        if any(f.get(k) != v for k, v in new_s.items()) or not f.get("Factor Detail"):
+            new_s["Factor Detail"] = x["detail_json"]
+            shadow[r["id"]] = new_s
+    if shadow_live and shadow:
+        by_id = {u["id"]: u for u in updates}
+        for rid, fields in shadow.items():
+            if rid in by_id:
+                by_id[rid]["fields"].update(fields)
+            else:
+                updates.append({"id": rid, "fields": fields})
     mode = "LIVE" if live else "DRY RUN"
     if live and updates:
         es.at_patch(base, LEDGER, token, updates)
@@ -248,6 +286,8 @@ def main() -> None:
     lines = [f"Mode: {mode}", f"New picks: {len(report)}", f"Units re-capped: {len(recapped)}",
              f"Re-price ({'LIVE' if reprice_live else 'report only'}): {len(repriced)} re-priced, "
              f"{len(withdrawn)} withdrawn, {len(stale_today)} stale but dated today or earlier (not changed)",
+             f"Factors ({FACTOR_MODE}; shadow writes {'LIVE' if shadow_live else 'report only'}): "
+             f"{len(shadow)} rows to update, {shadow_unparsed} without a usable Injury Notes (not treated as healthy)",
              f"Skipped: {skipped}",
              f"Unit cap {UNIT_CAP:g}u until {SAMPLE_MIN} graded per tier. Graded so far: {cap_note}"]
     lines += report[:60] + recapped[:60]

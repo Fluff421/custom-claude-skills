@@ -28,6 +28,8 @@ jobs:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
       REPRICE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.reprice == true) || (github.event_name == 'schedule' && vars.REPRICE_LIVE == 'true')) && '1' || '0' }}
+      FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
+      FACTORS_SHADOW_LIVE: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.FACTORS_SHADOW_LIVE == 'true' && '1' || '0' }}
       PICKS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.PICKS_LIVE == 'true')) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
