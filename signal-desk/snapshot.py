@@ -141,11 +141,14 @@ def main() -> None:
         fh.write(md)
     with open(OUT_JSON, "w", encoding="utf-8") as fh:
         fh.write(json.dumps(snap, indent=1) + "\n")
+    mode = "LIVE" if os.environ.get("SNAPSHOT_LIVE", "0").strip() == "1" else "DRY RUN"
+    lines = [f"Mode: {mode}", f"Graded picks: {total}", f"Snapshot date: {today}"]
     print(md)
+    print("\n".join(lines))
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if path:
         with open(path, "a", encoding="utf-8") as fh:
-            fh.write("## Snapshot\n\n" + md + "\n")
+            fh.write("## Snapshot\n\n" + "\n".join(lines) + "\n\n" + md + "\n")
 
 
 if __name__ == "__main__":

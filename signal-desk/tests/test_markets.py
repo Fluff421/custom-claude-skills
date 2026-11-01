@@ -251,3 +251,18 @@ class Learning(unittest.TestCase):
         le.append([le.event("NFL", "total", "k", 0.3, 0.2, "ev", 31, "t", "2026-11-01")], p)
         self.assertEqual(le.read(p)[0]["sample_size"], "31")
         self.assertFalse(le.moved(0.30, 0.305))
+
+
+class OpsFixTests(unittest.TestCase):
+    def test_ensure_header_creates_log(self):
+        import tempfile
+        import learning_events as le
+        p = os.path.join(tempfile.mkdtemp(), "learning_log.csv")
+        le.ensure_header(p)
+        self.assertTrue(open(p).read().startswith("date,league,market"))
+
+    def test_parse_log_reads_bim_summary_lines(self):
+        import ops_export
+        info = ops_export.parse_log("Mode: LIVE\nRows updated: 2\n")
+        self.assertEqual(info["mode"], "LIVE")
+        self.assertEqual(info["rows_updated"], 2)

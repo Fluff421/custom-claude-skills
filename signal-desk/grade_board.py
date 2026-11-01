@@ -193,6 +193,8 @@ def main() -> None:
         print(f"graded {game} -> {match['result']}")
         updated += 1
     summary = [
+        "Mode: LIVE",
+        f"Rows updated: {updated}",
         "Score source: ESPN scoreboard JSON (direct)",
         f"ESPN finals found (last {LOOKBACK_DAYS} days): {len(finals)}",
         f"Ungraded Airtable records scanned: {len(open_records)}",

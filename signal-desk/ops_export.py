@@ -44,6 +44,7 @@ WORKFLOWS = {  # workflow file -> label
     "close-grade.yml": "Close & Grade",
     "context-calibrate.yml": "Context & Calibrate",
     "snapshot.yml": "Snapshot",
+    "grade-bim-board.yml": "BIM Grader",
 }
 # Scheduled-run expectations. GitHub drops or delays cron runs under load (seen Oct 30: ESPN Sync,
 # Snapshot and Calibrate scheduled runs never fired), so a success conclusion on old runs is not
@@ -54,6 +55,7 @@ SCHEDULE_EXPECT = {
     "close-grade.yml": ("Close & Grade", 1, 4),
     "context-calibrate.yml": ("Context & Calibrate", 24, 30),
     "snapshot.yml": ("Snapshot", 24, 30),
+    "grade-bim-board.yml": ("BIM Grader", 2, 6),  # Sun, Mon, Thu, Fri, Sat only; see schedule_health()
     "injury-pull.yml": ("NCAAF Injury Pull", 3, 7),  # Wed-Sat; Sun-Tue is daily, see schedule_health()
 }
 LOOKBACK_HOURS = 36
@@ -306,6 +308,10 @@ def schedule_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
             gap = 30
             entry["max_gap_h"] = gap
             entry["note"] = "Sun-Tue schedule is once a day"
+        if fname == "grade-bim-board.yml" and now.weekday() not in (6, 0, 3, 4, 5):  # Sun, Mon, Thu, Fri, Sat run
+            gap = 60
+            entry["max_gap_h"] = gap
+            entry["note"] = "Tue and Wed have no scheduled runs"
         try:
             runs = gh_json(f"/repos/{repo}/actions/workflows/{fname}/runs?per_page=30&event=schedule", token)
         except Exception as exc:  # noqa: BLE001

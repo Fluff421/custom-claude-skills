@@ -112,7 +112,10 @@ def meetings_vs(opp_id: str, *schedules: list[dict]) -> list[dict]:
     return sorted(out, key=lambda m: m["date"])
 
 
-GH_FEED = "https://api.github.com/repos/Fluff421/custom-claude-skills/contents/signal-desk/research/feed/{d}?ref=research/grok-feed"
+GH_FEEDS = [  # tried in order; a missing folder just means nothing has been published yet
+    "https://api.github.com/repos/Fluff421/custom-claude-skills/contents/signal-desk/intelligence/grok_notes/{d}?ref=main",
+    "https://api.github.com/repos/Fluff421/custom-claude-skills/contents/signal-desk/research/feed/{d}?ref=research/grok-feed",
+]
 
 
 def load_qb_feed(league: str) -> list[dict]:
@@ -123,16 +126,22 @@ def load_qb_feed(league: str) -> list[dict]:
     if os.environ.get("GITHUB_TOKEN"):
         hdr["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     rows: list[dict] = []
-    try:
-        days = json.loads(es.http_get(GH_FEED.format(d=f"availability_{league.lower()}"), hdr))
-        dirs = sorted((d["name"] for d in days if d.get("type") == "dir"), reverse=True)[:3]
-        for d in dirs:
-            listing = json.loads(es.http_get(GH_FEED.format(d=f"availability_{league.lower()}/{d}"), hdr))
-            for fobj in listing:
-                if fobj["name"] == "qb_starters.csv":
-                    rows += list(csv.DictReader(io.StringIO(es.http_get(fobj["download_url"], {"User-Agent": "signal-desk"}))))
-    except Exception as exc:  # noqa: BLE001
-        es.warn(f"{league} QB feed not read: {exc}")
+    for tmpl in GH_FEEDS:
+        try:
+            days = json.loads(es.http_get(tmpl.format(d=f"availability_{league.lower()}"), hdr))
+            dirs = sorted((d["name"] for d in days if d.get("type") == "dir"), reverse=True)[:3]
+            for d in dirs:
+                listing = json.loads(es.http_get(tmpl.format(d=f"availability_{league.lower()}/{d}"), hdr))
+                for fobj in listing:
+                    if fobj["name"] == "qb_starters.csv":
+                        rows += list(csv.DictReader(io.StringIO(es.http_get(fobj["download_url"], {"User-Agent": "signal-desk"}))))
+        except Exception as exc:  # noqa: BLE001
+            if "HTTP 404" in str(exc):
+                print(f"INFO {league} QB feed folder not published yet ({tmpl.split('/contents/')[1].split('{')[0]}); using ESPN depth chart and injury report")
+            else:
+                es.warn(f"{league} QB feed not read: {exc}")
+        if rows:
+            break
     return rows
 
 
