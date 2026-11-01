@@ -30,6 +30,7 @@ jobs:
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
       SPLASH_PICKS: ${{ inputs.picks }}
     steps:
       - uses: actions/checkout@v4
