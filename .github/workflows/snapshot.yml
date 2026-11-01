@@ -37,6 +37,7 @@ jobs:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       GITHUB_TOKEN: ${{ github.token }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
       SNAPSHOT_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.SNAPSHOT_LIVE == 'true')) && '1' || '0' }}
     steps:
       - name: Time gate (8:17 AM Central for scheduled runs)
