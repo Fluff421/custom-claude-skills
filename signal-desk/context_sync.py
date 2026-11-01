@@ -16,13 +16,16 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
+import situational as sit
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 LOOKAHEAD_GAP = 8.0
 
 
-def team_schedule(league: str, team_id: str, key: str) -> list[dict]:
+def team_schedule(league: str, team_id: str, key: str, season: int | None = None) -> list[dict]:
     url = f"{es.ESPN}/{'nfl' if league == 'NFL' else 'college-football'}/teams/{team_id}/schedule"
+    if season:
+        url += f"?season={season}"
     payload = es.parse_json(es.scrape(url, key))
     out = []
     for ev in payload.get("events", []):
@@ -46,6 +49,8 @@ def team_schedule(league: str, team_id: str, key: str) -> list[dict]:
             "date": when, "state": status.get("state"), "completed": status.get("completed", False),
             "me": side, "opp": opp, "opp_name": ((opp or {}).get("team") or {}).get("displayName", "?"),
             "opp_id": str(((opp or {}).get("team") or {}).get("id") or ""),
+            "home_away": side.get("homeAway"), "neutral": bool(comp.get("neutralSite")),
+            "venue_state": ((((comp.get("venue") or {}).get("address")) or {}).get("state")),
         })
     return sorted(out, key=lambda g: g["date"])
 
@@ -78,6 +83,47 @@ def summarize(games: list[dict], after: dt.datetime | None = None) -> dict:
     return {"last": last, "streak": streak, "next": nxt, "next_name": future[0]["opp_name"] if future else None,
             "next_id": future[0].get("opp_id") if future else None}
 
+def home_state(games: list[dict]) -> str | None:
+    """A team's home state = the most common venue state of its non-neutral home games."""
+    from collections import Counter
+    c = Counter(g["venue_state"] for g in games if g.get("home_away") == "home" and not g.get("neutral") and g.get("venue_state"))
+    return c.most_common(1)[0][0] if c else None
+
+
+def meetings_vs(opp_id: str, *schedules: list[dict]) -> list[dict]:
+    """Completed games against one opponent across the given schedules, oldest first."""
+    out = []
+    for games in schedules:
+        for g in games:
+            if g["completed"] and g.get("opp_id") == opp_id and g["me"].get("score") is not None:
+                my, op = _score(g["me"]), _score(g["opp"])
+                out.append({"date": g["date"].strftime("%Y-%m-%d"), "won": my > op, "score": f"{my:g}-{op:g}"})
+    return sorted(out, key=lambda m: m["date"])
+
+
+GH_FEED = "https://api.github.com/repos/Fluff421/custom-claude-skills/contents/signal-desk/research/feed/{d}?ref=research/grok-feed"
+
+
+def load_qb_feed(league: str) -> list[dict]:
+    """Verified quarterback starter rows from the Grok research feed (newest date first). Never raises."""
+    import csv
+    import io
+    hdr = {"User-Agent": "signal-desk", "Accept": "application/vnd.github+json"}
+    if os.environ.get("GITHUB_TOKEN"):
+        hdr["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
+    rows: list[dict] = []
+    try:
+        days = json.loads(es.http_get(GH_FEED.format(d=f"availability_{league.lower()}"), hdr))
+        dirs = sorted((d["name"] for d in days if d.get("type") == "dir"), reverse=True)[:3]
+        for d in dirs:
+            listing = json.loads(es.http_get(GH_FEED.format(d=f"availability_{league.lower()}/{d}"), hdr))
+            for fobj in listing:
+                if fobj["name"] == "qb_starters.csv":
+                    rows += list(csv.DictReader(io.StringIO(es.http_get(fobj["download_url"], {"User-Agent": "signal-desk"}))))
+    except Exception as exc:  # noqa: BLE001
+        es.warn(f"{league} QB feed not read: {exc}")
+    return rows
+
 
 def main() -> None:
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
@@ -106,6 +152,8 @@ def main() -> None:
             continue
         fpi = es.load_fpi_index(league, key)  # keyed by ESPN team id
         schedules: dict[str, list[dict]] = {}
+        prev_sched: dict[str, list[dict]] = {}
+        qb_rows = load_qb_feed(league)
         for r in lrows:
             f = r["fields"]
             hit = es.match_event(r, events)
@@ -117,7 +165,11 @@ def main() -> None:
                 kickoff = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
             except Exception:  # noqa: BLE001
                 kickoff = None
-            new, sides = {}, {}
+            new, sides, ids = {}, {}, {}
+            comp0 = (ev.get("competitions") or [{}])[0]
+            venue = comp0.get("venue") or {}
+            vstate = (venue.get("address") or {}).get("state")
+            neutral = bool(comp0.get("neutralSite"))
             for label, team in (("Home", home_t), ("Away", away_t)):
                 tid = str((team or {}).get("id") or "")
                 if not tid:
@@ -132,6 +184,39 @@ def main() -> None:
                 if s["next"]:
                     new[f"{label} Next Opponent"] = s["next"]
                 sides[label] = s
+                ids[label] = tid
+            # rest days, travel, revenge, weather (situational context; priors scaled by the learning loop)
+            try:
+                for label in ("Home", "Away"):
+                    if label in ids:
+                        d = sit.rest_days(schedules[ids[label]], kickoff)
+                        if d is not None:
+                            new[f"{label} Rest Days"] = d
+                tr = {}
+                for label in ("Home", "Away"):
+                    if label in ids:
+                        hs = home_state(schedules[ids[label]])
+                        tr[label] = sit.travel(hs, vstate) if (label == "Away" or neutral) else {"mi": 0, "tz": 0}
+                if tr.get("Away") or tr.get("Home"):
+                    new["Travel Note"] = sit.travel_note(tr.get("Away"), tr.get("Home"))
+                flags = []
+                if len(ids) == 2:
+                    for label, other in (("Home", "Away"), ("Away", "Home")):
+                        tid = ids[label]
+                        if tid not in prev_sched:
+                            prev_sched[tid] = team_schedule(league, tid, key, season=(kickoff or now).year - 1)
+                        why = sit.revenge_flag(meetings_vs(ids[other], prev_sched[tid], schedules[tid]))
+                        if why:
+                            flags.append(f"{label} revenge ({why})")
+                new["Revenge Note"] = "; ".join(flags) if flags else "none"
+                wn = sit.weather_note(ev.get("weather") or comp0.get("weather"), venue)
+                if wn:
+                    new["Weather Note"] = wn
+            except Exception as exc:  # noqa: BLE001
+                es.warn(f"{f.get('Game')}: situational context skipped: {exc}")
+            qn = sit.qb_note(qb_rows, f.get("Home Team", ""), f.get("Away Team", ""), es.norm)
+            if qn:
+                new["QB Starter Note"] = qn
             # look-ahead: next opponent much stronger than today's opponent
             notes = []
             for label, opp_fpi_field, opp_side in (("Home", "Away FPI", "Away"), ("Away", "Home FPI", "Home")):

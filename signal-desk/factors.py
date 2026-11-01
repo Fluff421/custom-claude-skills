@@ -20,7 +20,9 @@ import datetime as dt
 import json
 import re
 
-FACTOR_VERSION = 1
+import situational as sit
+
+FACTOR_VERSION = 2
 
 # --- prior point values: spread points lost when a typical STARTER at the position is out -------------
 # Assumptions, not measurements. League-specific. See MODEL.md "Factors".
@@ -132,18 +134,30 @@ def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, 
         return None
     league = fields.get("League", "NCAAF")
     inj = parse_injuries(fields.get("Injury Notes"), today)
+    # Verified quarterback starter checks (Grok feed) replace whatever the injury list says about that QB
+    qbf = sit.qb_fractions(fields.get("QB Starter Note"))
+    for side in ("home", "away"):
+        if side in qbf:
+            inj[side] = [e for e in inj[side] if e["pos"] != "QB"]
+            if qbf[side] > 0:
+                inj[side].append({"name": "QB (starter check)", "pos": "QB", "status": "out", "weight": qbf[side], "stale": False})
+    inj["parsed"] = inj["parsed"] or bool(qbf)
     h_pts, h_det = team_points(inj["home"], league)
     a_pts, a_det = team_points(inj["away"], league)
     inj_adj = (a_pts - h_pts) * scale_inj  # away injuries help home, home injuries hurt home
     la = lookahead_side(fields.get("Look-Ahead Note"))
     pts = LOOKAHEAD_POINTS.get(league, 0.0)
-    situ_adj = ((pts if la["away"] else 0.0) - (pts if la["home"] else 0.0)) * scale_situ
+    la_raw = (pts if la["away"] else 0.0) - (pts if la["home"] else 0.0)
+    sp = sit.situational_points(fields, league)
+    situ_raw = la_raw + sp["rest"] + sp["travel"] + sp["revenge"]
+    situ_adj = situ_raw * scale_situ
     adj_model = model + inj_adj + situ_adj
     detail = {
         "v": FACTOR_VERSION, "at": now_iso, "inj_parsed": inj["parsed"],
         "home_inj_pts": round(h_pts, 2), "away_inj_pts": round(a_pts, 2), "home_by_pos": h_det, "away_by_pos": a_det,
         "home_qb_listed": any(e["pos"] == "QB" for e in inj["home"]), "away_qb_listed": any(e["pos"] == "QB" for e in inj["away"]),
-        "lookahead": la, "situ_points": pts, "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
+        "lookahead": la, "situ_points": pts, "situ_raw": round(situ_raw, 2), "situ_parts": {"lookahead": round(la_raw, 2), **sp},
+        "qb_feed": qbf, "weather": fields.get("Weather Note") or "", "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
         "note": "prior weights, unverified; see MODEL.md Factors",
     }
     return {
