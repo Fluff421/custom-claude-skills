@@ -48,11 +48,12 @@ def game_rows(fs: list[dict]) -> list[dict]:
             d = json.loads(f.get("Factor Detail") or "")
             row["inj"] = float(d["away_inj_pts"]) - float(d["home_inj_pts"])
             la = d.get("lookahead") or {}
-            if d.get("situ_raw") is not None:  # v2: look-ahead + rest + travel + revenge, unscaled
-                row["situ"] = float(d["situ_raw"])
+            if d.get("situ_parts"):  # v2+: per-factor unscaled points (look-ahead, rest, travel, revenge, weather)
+                row["parts"] = {k: float(v) for k, v in d["situ_parts"].items()}
             else:
                 pts = float(d.get("situ_points", 0.0))
-                row["situ"] = (pts if la.get("away") else 0.0) - (pts if la.get("home") else 0.0)
+                row["parts"] = {"lookahead": (pts if la.get("away") else 0.0) - (pts if la.get("home") else 0.0)}
+            row["situ"] = sum(row["parts"].values())
             row["parsed"] = bool(d.get("inj_parsed"))
         except (ValueError, KeyError, TypeError):
             pass
@@ -84,25 +85,57 @@ def market_blend(rows: list[dict]) -> dict:
             "k": round(min(1.0, max(0.0, p["post"])), 3), "k_post_sd": round(p["post_sd"], 3)}
 
 
+FACTOR_KEYS = ("lookahead", "rest", "travel", "revenge", "weather")
+
+
+def _solve(a: list[list[float]], b: list[float]) -> list[float]:
+    """Gaussian elimination with partial pivoting (small systems)."""
+    n = len(b)
+    m = [row[:] + [b[i]] for i, row in enumerate(a)]
+    for c in range(n):
+        p = max(range(c, n), key=lambda r: abs(m[r][c]))
+        m[c], m[p] = m[p], m[c]
+        for r in range(c + 1, n):
+            f = m[r][c] / m[c][c]
+            for k in range(c, n + 1):
+                m[r][k] -= f * m[c][k]
+    x = [0.0] * n
+    for i in range(n - 1, -1, -1):
+        x[i] = (m[i][n] - sum(m[i][j] * x[j] for j in range(i + 1, n))) / m[i][i]
+    return x
+
+
+def _inverse_diag(a: list[list[float]]) -> list[float]:
+    n = len(a)
+    out = []
+    for j in range(n):
+        e = [1.0 if i == j else 0.0 for i in range(n)]
+        out.append(_solve(a, e)[j])
+    return out
+
+
 def factor_scales(rows: list[dict]) -> dict:
+    """Joint ridge, one scale per factor (injury plus each situational factor), each shrunk toward 1.0.
+    A situational factor is only fitted when it was non-zero in at least MIN_NONZERO_SITU games; the others keep their prior."""
     use = [r for r in rows if r.get("inj") is not None and r.get("parsed")]
     n = len(use)
     if n < MIN_GAMES:
         return {"ok": False, "n": n, "why": f"need {MIN_GAMES} games with usable factor records, have {n}"}
     nz_inj = sum(1 for r in use if abs(r["inj"]) > 0.25)
-    nz_situ = sum(1 for r in use if abs(r["situ"] or 0.0) > 0.0)
-    y = [r["actual"] - r["model"] for r in use]
-    x1 = [r["inj"] for r in use]
-    x2 = [r["situ"] or 0.0 for r in use]
-    use_situ = nz_situ >= MIN_NONZERO_SITU
     if nz_inj < MIN_NONZERO_INJ:
         return {"ok": False, "n": n, "why": f"injury adjustment non-zero in {nz_inj} games, need {MIN_NONZERO_INJ}"}
-    # joint ridge toward prior mean 1.0 (2 variables, closed form); situ dropped if too few non-zero games
-    cols = [x1, x2] if use_situ else [x1]
+    y = [r["actual"] - r["model"] for r in use]
+    names, cols, nz = ["inj"], [[r["inj"] for r in use]], {"inj": nz_inj}
+    for k in FACTOR_KEYS:
+        col = [(r.get("parts") or {}).get(k, 0.0) for r in use]
+        cnt = sum(1 for v in col if abs(v) > 0.0)
+        nz[k] = cnt
+        if cnt >= MIN_NONZERO_SITU:
+            names.append(k)
+            cols.append(col)
     k = len(cols)
     a = [[sum(ci * cj for ci, cj in zip(cols[i], cols[j])) for j in range(k)] for i in range(k)]
     b = [sum(ci * yi for ci, yi in zip(cols[i], y)) for i in range(k)]
-    # first pass for residual variance
     sol = [b[i] / a[i][i] if a[i][i] > 0 else 0.0 for i in range(k)]
     res = [yi - sum(sol[i] * cols[i][t] for i in range(k)) for t, yi in enumerate(y)]
     var = max(1.0, sum(e * e for e in res) / max(1, n - k))
@@ -110,18 +143,16 @@ def factor_scales(rows: list[dict]) -> dict:
     for i in range(k):
         a[i][i] += lam
         b[i] += lam * SCALE_PRIOR_MEAN
-    if k == 1:
-        s = [b[0] / a[0][0]]
-        sd = [math.sqrt(var / a[0][0])]
-    else:
-        det = a[0][0] * a[1][1] - a[0][1] * a[1][0]
-        s = [(b[0] * a[1][1] - a[0][1] * b[1]) / det, (a[0][0] * b[1] - a[1][0] * b[0]) / det]
-        sd = [math.sqrt(var * a[1][1] / det), math.sqrt(var * a[0][0] / det)]
+    s = _solve(a, b)
+    sd = [math.sqrt(var * v) for v in _inverse_diag(a)]
     lo, hi = SCALE_RANGE
-    out = {"ok": True, "n": n, "nonzero_inj": nz_inj, "nonzero_situ": nz_situ,
-           "scale_inj": round(min(hi, max(lo, s[0])), 3), "scale_inj_sd": round(sd[0], 3)}
-    if use_situ:
-        out.update(scale_situ=round(min(hi, max(lo, s[1])), 3), scale_situ_sd=round(sd[1], 3))
+    out = {"ok": True, "n": n, "nonzero": nz, "nonzero_inj": nz_inj, "fitted": names}
+    for nm, sv, sdv in zip(names, s, sd):
+        key = "inj" if nm == "inj" else nm
+        out[f"scale_{key}"] = round(min(hi, max(lo, sv)), 3)
+        out[f"scale_{key}_sd"] = round(sdv, 3)
+    if "scale_lookahead" in out:  # legacy name used by picks.py / Model Parameters
+        out["scale_situ"], out["scale_situ_sd"] = out["scale_lookahead"], out["scale_lookahead_sd"]
     return out
 
 
@@ -159,9 +190,13 @@ def summary_text(league: str, mb: dict, fs_: dict, sc: dict, now: str) -> str:
     lines = [f"{league} factor scorecard {now} (shadow; picks unchanged)"]
     lines.append("market blend: " + (f"k={mb['k']} (raw {mb['k_raw']} +/- {mb['k_raw_se']}, n={mb['n']}); 0 = line already has what the model knows"
                                       if mb.get("ok") else mb.get("why", "n/a")))
-    lines.append("factor scales: " + (f"injury {fs_['scale_inj']} (sd {fs_['scale_inj_sd']})"
-                                      + (f", situational {fs_['scale_situ']} (sd {fs_['scale_situ_sd']})" if "scale_situ" in fs_ else ", situational not enough data")
-                                      + f", n={fs_['n']}" if fs_.get("ok") else fs_.get("why", "n/a")))
+    if fs_.get("ok"):
+        parts = [f"{k} {fs_['scale_' + k]} (sd {fs_['scale_' + k + '_sd']})" for k in ["inj"] + list(FACTOR_KEYS) if f"scale_{k}" in fs_]
+        skipped = [k for k in FACTOR_KEYS if f"scale_{k}" not in fs_]
+        lines.append("factor scales: " + ", ".join(parts) + f", n={fs_['n']}"
+                     + (f"; not enough non-zero games yet: {', '.join(skipped)}" if skipped else ""))
+    else:
+        lines.append("factor scales: " + fs_.get("why", "n/a"))
     if sc.get("n"):
         lines.append(f"margin RMSE base {sc['rmse_base']} vs adjusted {sc['rmse_adjusted']} vs line {sc['rmse_line']} (n={sc['n']}); "
                      f"ATS base {sc['ats_base']} vs adjusted {sc['ats_adjusted']} (n={sc['ats_n']})")

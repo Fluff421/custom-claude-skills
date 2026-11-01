@@ -110,6 +110,22 @@ Every game with FPI and a line gets a pick so the learning loop sees all of them
 paper tracking pick: tier `No Play`, 0 units, never a bet. If no Splash line exists yet it is priced off the ESPN line and
 labelled so; it is re-priced when the Splash line arrives. Max and Strong stay paper with the unit cap in force.
 
+### Per-factor learning, NFL quarterback checks, weather (v3)
+
+- Per-factor scales: `calibrate.py` fits one scale each for injury, look-ahead, rest, travel, revenge and weather in a single
+  ridge regression (each shrunk toward 1.0, clipped to [0, 1.5]). A situational factor is only fitted once it was non-zero in 10+
+  graded games; until then it keeps its prior (scale 1.0). Stored in Model Parameters: `Factor Scale Injury`, `Factor Scale Situational`
+  (= look-ahead, legacy name), `Factor Scale Rest`, `Factor Scale Travel`, `Factor Scale Revenge`, `Factor Scale Weather`.
+  A learned scale near 0 switches that factor off; the scorecard reports whether the whole adjusted model beats base.
+- NFL quarterback checks (`qb_nfl.py`): ESPN depth chart QB1 plus the injury report. Out/IR = starter_out, Doubtful/Questionable =
+  starter_questionable, otherwise starter_playing. A listed BACKUP no longer charges full starter points (before, any listed QB did).
+  Rows are labelled `auto_espn`; Grok-verified rows win when both exist. The depth chart can lag a benching.
+- Weather (`weather.py`): Open-Meteo forecast at kickoff (worst wind, precipitation chance, snow, cold in the 3 hours after kickoff),
+  geocoded from the venue city. Severity 0 to 1 (wind 20+ mph = 1.0, 15+ = 0.6, snow 0.7, rain 60%+ 0.4, cold 0.15 to 0.3); indoor = 0.
+  The adjusted margin shrinks toward zero by 10% x severity, capped at 1.5 points. Prior only; the learned weather scale
+  governs it. Beyond the 6.5-day forecast window the note is blank (unknown is never treated as clear). Totals are not touched.
+  Like every factor it affects picks only when `FACTOR_MODE=live`, which stays a human decision.
+
 ## Who writes what
 
 | Script | Schedule (UTC) | Writes |
