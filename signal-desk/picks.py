@@ -82,12 +82,13 @@ def load_params(token: str) -> dict[str, dict]:
             "multipliers": mult,
             "scale_inj": float(f.get("Factor Scale Injury") or 1.0),
             "scale_situ": float(f.get("Factor Scale Situational") or 1.0),
+            "market_k": float(f["Market Blend K"]) if f.get("Market Blend K") is not None else None,
         }
     for lg in ("NCAAF", "NFL"):
         out.setdefault(lg, {"sigma": DEFAULTS["sigma"][lg], "lean": DEFAULTS["lean"],
                             "strong": DEFAULTS["strong"], "max": DEFAULTS["max"],
                             "units": dict(DEFAULTS["units"]), "multipliers": {},
-                            "scale_inj": 1.0, "scale_situ": 1.0})
+                            "scale_inj": 1.0, "scale_situ": 1.0, "market_k": None})
     return out
 
 
@@ -146,6 +147,8 @@ def evaluate(f: dict, p: dict, counts: dict, now: str) -> tuple[dict | None, flo
         x = fx.compute(f, central_today(), now, p.get("scale_inj", 1.0), p.get("scale_situ", 1.0))
         if x is not None:
             edge = x["adj_edge"]
+            if p.get("market_k") is not None:  # shrink toward the line by the learned market blend
+                edge = edge * p["market_k"]
             factor_note = f" | adj (inj {x['inj_adj']:+.1f}, situ {x['situ_adj']:+.1f})"
     ae = abs(edge)
     if ae < p["lean"]:

@@ -143,7 +143,7 @@ def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, 
         "v": FACTOR_VERSION, "at": now_iso, "inj_parsed": inj["parsed"],
         "home_inj_pts": round(h_pts, 2), "away_inj_pts": round(a_pts, 2), "home_by_pos": h_det, "away_by_pos": a_det,
         "home_qb_listed": any(e["pos"] == "QB" for e in inj["home"]), "away_qb_listed": any(e["pos"] == "QB" for e in inj["away"]),
-        "lookahead": la, "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
+        "lookahead": la, "situ_points": pts, "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
         "note": "prior weights, unverified; see MODEL.md Factors",
     }
     return {

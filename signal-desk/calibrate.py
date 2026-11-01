@@ -24,6 +24,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
+import factor_learning as fl
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 PARAMS = "tblTqY4CnU08ce1s9"
@@ -45,6 +46,8 @@ def main() -> None:
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip()
     es.AIRTABLE_BASE = base
     live = os.environ.get("CALIBRATE_LIVE", "0").strip() == "1"
+    # new Model Parameters fields (Factor Scorecard, Market Blend K, Factor Scale Injury/Situational) must exist first
+    learn_live = live and os.environ.get("FACTORS_LEARN_LIVE", "0").strip() == "1"
     if not (token and base):
         raise SystemExit("ERROR: AIRTABLE_TOKEN and AIRTABLE_BASE_ID must be set.")
 
@@ -137,6 +140,19 @@ def main() -> None:
             cur = params_by_league.get(league, {}).get("fields", {}).get("Sigma")
             lines.append(f"sigma: best {best} (current {cur}) from {len(edges)} edges")
             fields["Sigma"] = best
+        # factor learning (shadow): market blend, factor scales, scorecard. Below the minimums nothing is applied.
+        grows = fl.game_rows(fs)
+        mb, fsd, sc = fl.market_blend(grows), fl.factor_scales(grows), fl.scorecard(grows)
+        card = fl.summary_text(league, mb, fsd, sc, now[:10])
+        lines.extend(card.split("\n")[1:])
+        if learn_live:
+            fields["Factor Scorecard"] = card
+            if mb.get("ok"):
+                fields["Market Blend K"] = mb["k"]
+            if fsd.get("ok"):
+                fields["Factor Scale Injury"] = fsd["scale_inj"]
+                if "scale_situ" in fsd:
+                    fields["Factor Scale Situational"] = fsd["scale_situ"]
         fields["Graded Picks"] = len(fs)
         fields["Last Calibrated"] = now
         fields["Notes"] = "Auto-calibrated by calibrate.py"
