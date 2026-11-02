@@ -837,6 +837,11 @@ def cmd_run() -> None:
     graded = grade_picks(games, picks_rows, lines_rows, now)
     write_csv(os.path.join(OUT, "lines_log.csv"), LINE_COLS, lines_rows)
     write_csv(os.path.join(OUT, "picks_log.csv"), PICK_COLS, sorted(picks_rows.values(), key=lambda r: (r.get("date", ""), r["pick_id"])))
+    import prediction_log as plog  # append-only provenance log; never rewritten
+    ppath = os.path.join(OUT, "predictions_log.csv")
+    lp = {lg: load_params(lg, params.get(lg)) for lg in {r.get("league", "") for r in picks_rows.values()} if lg}
+    appended = plog.append(ppath, plog.build_rows(picks_rows, now, {f["_id"]: f for f in games}, lp, params, plog.read_last(ppath)))
+    print(f"Prediction log: {appended} new rows appended")
     with open(os.path.join(OUT, "picks_latest.json"), "w", encoding="utf-8") as fh:
         json.dump(doc, fh, indent=1, default=str)
     with open(os.path.join(OUT, "picks_latest.md"), "w", encoding="utf-8") as fh:
