@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-02T20:39:11.000Z"
+   "updated": "2026-11-02T23:07:20.000Z"
   },
   "NFL": {
    "forward": {
@@ -132,7 +132,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-02T20:39:11.000Z"
+   "updated": "2026-11-02T23:07:20.000Z"
   }
  },
  "sigma": {
@@ -140,7 +140,7 @@
    "n_eff": 2377.8,
    "n_ledger": 55,
    "raw": 14.94,
-   "reason": "current 20 outside 12.0-18.0; reset to learned value",
+   "reason": "moved toward learned 14.94 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": true,
@@ -169,13 +169,13 @@
    },
    "sigma": 14.94,
    "target": 14.94,
-   "updated": "2026-11-02T20:39:11.000Z"
+   "updated": "2026-11-02T23:07:20.000Z"
   },
   "NFL": {
    "n_eff": 681.9,
    "n_ledger": 13,
    "raw": 12.39,
-   "reason": "current None outside 10.0-15.0; reset to learned value",
+   "reason": "moved toward learned 12.40 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": false,
@@ -204,7 +204,7 @@
    },
    "sigma": 12.4,
    "target": 12.4,
-   "updated": "2026-11-02T20:39:11.000Z"
+   "updated": "2026-11-02T23:07:20.000Z"
   }
  }
 }
