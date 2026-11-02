@@ -16,6 +16,7 @@ on:
       - signal-desk/picks.py
       - signal-desk/markets.py
       - signal-desk/sigma_learning.py
+      - signal-desk/clv_learning.py
       - .github/workflows/picks.yml
   schedule:
     - cron: "47 */3 * * *"

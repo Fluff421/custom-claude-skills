@@ -38,6 +38,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
 import factors as fx
 import sigma_learning as sg
+import clv_learning as cl
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 AUTO_BOOK = "Splash Sports (auto)"
@@ -57,6 +58,10 @@ DEFAULTS = {
 
 # Learned context multipliers for sigma (calibrate.py writes intelligence/learning_params.json)
 SIGMA_SEGMENTS = {lg: v.get("segments", {}) for lg, v in (sg.read_params().get("sigma") or {}).items()}
+# CLV learning (calibrate.py): unit gate per tier (live) and predicted-CLV model (shadow unless CLV_TIER_MODE=live)
+CLV_PARAMS = sg.read_params().get("clv") or {}
+CLV_TIER_MODE = os.environ.get("CLV_TIER_MODE", "shadow").strip().lower()
+LAST_CLV: dict = {}
 
 
 def load_params(token: str) -> dict[str, dict]:
@@ -122,9 +127,11 @@ def graded_counts(base: str, token: str) -> dict[tuple[str, str], int]:
 
 
 def capped_units(base_units: float, league: str, tier: str, counts: dict) -> float:
-    if counts.get((league, tier), 0) < SAMPLE_MIN:
-        return min(base_units, UNIT_CAP)
-    return base_units
+    """Units are earned with closing-line value: full units only when the tier's realized CLV is positive by more
+    than one standard error over 20+ graded picks; 0.5u if its mean CLV is zero or negative; otherwise the 1.0u cap."""
+    gate = (CLV_PARAMS.get(league) or {}).get("gate")
+    units, _status = cl.gated_units(base_units, tier, gate, min(base_units, UNIT_CAP))
+    return units
 
 
 def win_prob(edge: float, sigma: float) -> float:
@@ -150,6 +157,7 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     model = float(f["Home FPI"]) - float(f["Away FPI"]) + float(hfa)
     vegas = float(f["Vegas Implied Home Margin"])
     edge = model - vegas
+    raw_edge = edge
     factor_note = ""
     x = None
     if FACTOR_MODE == "live":
@@ -172,6 +180,16 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     mult = float(p["multipliers"].get(tier, 1.0))
     prob = min(0.95, max(0.50, prob * mult))
     home_pick = edge >= 0 if tracking else edge > 0
+    # predicted CLV: how far the line should move toward our side before close (injuries, situations, FPI edge)
+    cmodel = (CLV_PARAMS.get(league) or {}).get("model")
+    pred = cl.predict(cmodel, raw_edge, (x or {}).get("detail"), 1 if home_pick else -1)
+    ctier = cl.clv_tier(pred)
+    if CLV_TIER_MODE == "live" and (cmodel or {}).get("ok") and ((CLV_PARAMS.get(league) or {}).get("forward") or {}).get("ready"):
+        tier, tracking = ctier, ctier == "No Play"
+    factor_note += f" | pCLV {pred:+.2f} (CLV tier {ctier}, {'live' if CLV_TIER_MODE == 'live' else 'shadow'})"
+    LAST_CLV.clear()
+    LAST_CLV.update({"league": league, "edge_tier": tier, "edge": round(edge, 2), "pred_clv": pred, "clv_tier": ctier,
+                     "model_n": (cmodel or {}).get("n", 0)})
     units = 0.0 if tracking else capped_units(p["units"][tier], league, tier, counts)
     new = {
         "Sharp-Sheet Tier": tier,
@@ -206,6 +224,7 @@ def main() -> None:
     rows = es.at_list(base, LEDGER, token)  # Date > yesterday, Record Type Game
     updates, report, skipped = [], [], {"no line": 0, "no fpi": 0, "already picked": 0, "below threshold": 0}
     recapped, repriced, withdrawn, stale_today = [], [], [], []
+    shadow_clv: list[dict] = []
     reprice_live = live and os.environ.get("REPRICE_LIVE", "0").strip() == "1"
     today = central_today()
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%MZ")
@@ -272,6 +291,8 @@ def main() -> None:
             skipped["below threshold"] += 1
             continue
         updates.append({"id": r["id"], "fields": new})
+        shadow_clv.append({**LAST_CLV, "ts": now, "record_id": r["id"], "game": f.get("Game", ""),
+                           "side": new["Recommended Side"]})
         report.append(f"{f.get('Game')}: {tier} {new['Recommended Side']} "
                       f"(edge {edge:+.1f}, p {prob:.1%}, {units:g}u)")
 
@@ -303,6 +324,8 @@ def main() -> None:
     mode = "LIVE" if live else "DRY RUN"
     if live and updates:
         es.at_patch(base, LEDGER, token, updates)
+    if live and shadow_clv:
+        cl.append_shadow(shadow_clv)   # append-only; the picks workflow commits intelligence/markets
     cap_note = "; ".join(f"{lg} {t}: {n}" for (lg, t), n in sorted(counts.items())) or "none"
     lines = [f"Mode: {mode}", f"New picks: {len(report)}", f"Units re-capped: {len(recapped)}",
              f"Re-price ({'LIVE' if reprice_live else 'report only'}): {len(repriced)} re-priced, "
@@ -310,7 +333,11 @@ def main() -> None:
              f"Factors ({FACTOR_MODE}; shadow writes {'LIVE' if shadow_live else 'report only'}): "
              f"{len(shadow)} rows to update, {shadow_unparsed} without a usable Injury Notes (not treated as healthy)",
              f"Skipped: {skipped}",
-             f"Unit cap {UNIT_CAP:g}u until {SAMPLE_MIN} graded per tier. Graded so far: {cap_note}"]
+             f"Unit cap {UNIT_CAP:g}u until {SAMPLE_MIN} graded per tier. Graded so far: {cap_note}",
+             "CLV unit gate: " + ("; ".join(f"{lg} {t}: {g['status']} (n={g['n']}, mean {g['mean']})"
+                                             for lg, v in sorted(CLV_PARAMS.items()) for t, g in (v.get("gate") or {}).items())
+                                   or "not learned yet (1.0u cap applies)"),
+             f"CLV tier mode: {CLV_TIER_MODE}; {len(shadow_clv)} predicted-CLV rows to log"]
     lines += report[:60] + recapped[:60]
     lines += [f"RE-PRICE {x}" for x in repriced] + [f"WITHDRAW {x}" for x in withdrawn] + [f"STALE-TODAY {x}" for x in stale_today]
     print("\n".join(lines))

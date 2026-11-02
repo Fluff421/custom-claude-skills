@@ -27,6 +27,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
 import factor_learning as fl
 import sigma_learning as sg
+import clv_learning as cl
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 PARAMS = "tblTqY4CnU08ce1s9"
@@ -84,6 +85,7 @@ def main() -> None:
 
     patches, creates, report, events = [], [], [], []
     sigma_out: dict = {}
+    clv_out: dict = {}
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     for league, fs in sorted(by_league.items()):
         if not league:
@@ -135,6 +137,22 @@ def main() -> None:
             lines.append(f"  sigma segment {name}: x{seg['mult']} (n={seg['n']}, {'applied' if seg['applied'] else 'below ' + str(sg.SEG_MIN) + ', stays 1.0'})")
         fields["Sigma"] = sl["sigma"]
         sigma_out[league] = {**sl, "updated": now}
+        # CLV: units are earned with realized closing-line value; predicted-CLV model and its forward check (shadow)
+        gate = cl.unit_gate(fs)
+        for tier, g in gate.items():
+            lines.append(f"CLV gate {tier}: n={g['n']}, mean {g['mean']}, se {g['se']} -> {g['status']}")
+        cm = cl.fit(fs, league)
+        lines.append(f"Predicted-CLV model: {cm['note']}; coef {json.dumps(cm['coef'])}; history prior {json.dumps(cm['history'])}")
+        fwd = cl.forward_check({r["id"]: float(r["fields"]["Sharp-Sheet CLV Points"]) for r in graded
+                                if r["fields"].get("League") == league and r["fields"].get("Sharp-Sheet CLV Points") is not None})
+        lines.append(f"Predicted-CLV forward check: n={fwd['n']}, corr {fwd['corr']}, 90% low {fwd['lo90']}, "
+                     f"promotion {'criteria met, needs owner approval' if fwd['ready'] else 'not yet (needs ' + str(cl.PROMOTE_MIN) + '+ and low > 0)'}")
+        old_clv = ((sg.read_params().get("clv") or {}).get(league) or {}).get("gate") or {}
+        for tier, g in gate.items():
+            if (old_clv.get(tier) or {}).get("status", "unproven") != g["status"]:
+                events.append(le.event(league, "spread", f"CLV unit gate {tier}", (old_clv.get(tier) or {}).get("status", "unproven"),
+                                       g["status"], f"mean CLV {g['mean']} se {g['se']}", g["n"], "calibrate.py", now[:10]))
+        clv_out[league] = {"gate": gate, "model": cm, "forward": fwd, "updated": now}
         # factor learning (shadow): market blend, factor scales, scorecard. Below the minimums nothing is applied.
         grows = fl.game_rows(fs)
         mb, fsd, sc = fl.market_blend(grows), fl.factor_scales(grows), fl.scorecard(grows)
@@ -191,6 +209,8 @@ def main() -> None:
         le.append(events)   # change log (repo file; the workflow commits it)
         if sigma_out:
             sg.write_params({"sigma": sigma_out})  # repo file read by picks.py and markets.py; the workflow commits it
+        if clv_out:
+            sg.write_params({"clv": clv_out})      # CLV unit gate (live) and predicted-CLV model (shadow) for picks.py
         if patches:
             es.http_get(f"https://api.airtable.com/v0/{base}/{PARAMS}", es.at_headers(token), "PATCH",
                         {"records": patches, "typecast": True})

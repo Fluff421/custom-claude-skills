@@ -25,10 +25,46 @@ edge              = model_home_margin - Vegas Implied Home Margin   (Splash line
 | Strong Play | >= 2.5 | 1.5 |
 | Max Play | >= 4.0 | 3.0 |
 
-Sample-size cap: until a league/tier has 20 graded picks, suggested units are
-capped at 1.0 (Lean stays 0.5). The cap also trims pending auto picks that have
-no closing line yet. Override with the `UNIT_CAP` and `UNIT_CAP_SAMPLE_MIN`
-environment variables.
+Units are earned with closing-line value, not edge size (owner-approved 2026-11-02). FPI-only spread edges have
+not held up against closing lines (see `intelligence/validation/sigma_walk_forward.md`), so a tier gets its full
+units only when its own picks have beaten the close. `calibrate.py` runs `clv_learning.unit_gate` each day for
+every league and tier, using graded picks that have Sharp-Sheet CLV Points:
+
+| Status | Rule | Units |
+|---|---|---|
+| earned | 20+ picks and mean CLV minus 1 standard error > 0 | the tier's full units |
+| not earning | 20+ picks and mean CLV <= 0 | capped at 0.5 |
+| unproven | anything else | capped at 1.0 (`UNIT_CAP`), so Lean stays 0.5 |
+
+The status is stored in `intelligence/learning_params.json` (`clv.<league>.gate`), and each change is logged in
+`learning_log.csv`. The cap also trims pending auto picks that have no closing line yet. On 2026-11-01 every tier
+was unproven. The best was NCAAF Strong, at +1.36 over 11 picks; NCAAF Lean was +0.06 over 33 (SE 0.27) and NCAAF
+Max −0.27 over 11.
+
+### Predicted CLV: moving before the market (shadow)
+
+The aim is to price what the market has not priced yet: injuries, quarterback news, rest, travel, look-ahead,
+revenge and weather. If those factors carry information, the line should move toward our side before the close.
+`clv_learning.fit` learns how far, per league:
+
+    predicted CLV = b_edge * FPI edge toward our side + b_inj * injury points toward our side
+                    + sum of b_j * situational points toward our side (look-ahead, rest, travel, revenge, weather)
+
+- **Priors.** The prior for b_edge is past seasons' open-to-close movement toward FPI (`data/history`): NCAAF
+  0.083 and NFL 0.20 per point. Its prior SD equals its mean, because ESPN's saved projection is from game day
+  and so overstates it. Each factor beta starts at 0 with SD 0.3 points per point.
+- **Gates.** The model is fitted only on 30+ graded picks with CLV, and a factor only with 10 non-zero games.
+  Below those, it uses the edge prior alone. On the first fit, NCAAF learned b_edge 0.037 from 47 picks: FPI edges
+  moved the Splash-to-close line much less than history suggested. NFL has 6 picks and uses the prior.
+- **CLV tiers.** Predicted CLV of 0.25 or more is Lean, 0.5 Strong and 1.0 Max. These cut-offs are priors.
+- **Logging.** Every new pick records its prediction in Sharp-Sheet Data Completeness (`pCLV +0.31 (CLV tier Lean,
+  shadow)`). It is also appended once to `intelligence/markets/clv_shadow.csv`, which is append-only and
+  committed by the picks workflow.
+- **Forward check.** Each day, `calibrate.py` scores the first logged prediction for each pick against its
+  realized CLV.
+- **Promotion.** CLV tiers replace edge tiers only with `CLV_TIER_MODE=live` and a forward check that passes. That
+  needs 30+ picks and a positive correlation whose 90% lower bound is above 0, plus owner approval. Until then,
+  edge sets the tier and CLV sets the units.
 
 Games below 1.0 get no pick. Thresholds and units can be overridden per league
 in the Airtable Model Parameters table (`Threshold Lean/Strong/Max`,
