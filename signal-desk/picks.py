@@ -37,6 +37,7 @@ import urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
 import factors as fx
+import sigma_learning as sg
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 AUTO_BOOK = "Splash Sports (auto)"
@@ -47,11 +48,15 @@ PARAMS = "tblTqY4CnU08ce1s9"
 # "live" makes picks use the adjusted edge. Never set live until MODEL.md criteria are met.
 FACTOR_MODE = os.environ.get("FACTOR_MODE", "shadow").strip().lower()
 DEFAULTS = {
-    "sigma": {"NCAAF": 14.0, "NFL": 13.5},
+    "sigma": dict(sg.PRIOR),  # NCAAF 15.0, NFL 12.5 (owner-approved); Model Parameters Sigma overrides
     "lean": 1.0, "strong": 2.5, "max": 4.0,
     "units": {"Lean": 0.5, "Strong Play": 1.5, "Max Play": 3.0},
     "multipliers": {},
 }
+
+
+# Learned context multipliers for sigma (calibrate.py writes intelligence/learning_params.json)
+SIGMA_SEGMENTS = {lg: v.get("segments", {}) for lg, v in (sg.read_params().get("sigma") or {}).items()}
 
 
 def load_params(token: str) -> dict[str, dict]:
@@ -72,7 +77,7 @@ def load_params(token: str) -> dict[str, dict]:
             except ValueError:
                 pass
         out[lg] = {
-            "sigma": float(f.get("Sigma") or DEFAULTS["sigma"].get(lg, 14.0)),
+            "sigma": sg.clean(lg, f.get("Sigma")),
             "lean": float(f.get("Threshold Lean") or DEFAULTS["lean"]),
             "strong": float(f.get("Threshold Strong") or DEFAULTS["strong"]),
             "max": float(f.get("Threshold Max") or DEFAULTS["max"]),
@@ -146,6 +151,7 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     vegas = float(f["Vegas Implied Home Margin"])
     edge = model - vegas
     factor_note = ""
+    x = None
     if FACTOR_MODE == "live":
         x = fx.compute(f, central_today(), now, p.get("scale_inj", 1.0), p.get("scale_situ", 1.0), p.get("scales"))
         if x is not None:
@@ -159,7 +165,10 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     # tracking pick: tier "No Play", 0 units, never counted as a bet.
     tracking = ae < p["lean"]
     tier = "No Play" if tracking else ("Max Play" if ae >= p["max"] else ("Strong Play" if ae >= p["strong"] else "Lean"))
-    prob = win_prob(edge, p["sigma"])
+    sigma, seg_used = sg.sigma_for(p["sigma"], vegas, (x or {}).get("detail"), SIGMA_SEGMENTS.get(league))
+    prob = win_prob(edge, sigma)
+    if seg_used:
+        factor_note += f" | sigma {sigma:.1f} ({', '.join(seg_used)})"
     mult = float(p["multipliers"].get(tier, 1.0))
     prob = min(0.95, max(0.50, prob * mult))
     home_pick = edge >= 0 if tracking else edge > 0

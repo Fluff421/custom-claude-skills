@@ -11,6 +11,7 @@ on:
     paths:
       - signal-desk/context_sync.py
       - signal-desk/calibrate.py
+      - signal-desk/sigma_learning.py
       - signal-desk/market_learning.py
       - signal-desk/learning_events.py
       - .github/workflows/context-calibrate.yml
@@ -90,4 +91,4 @@ jobs:
           if [ "$MARKET_LEARN_LIVE" = "1" ]; then python signal-desk/market_learning.py --live; else python signal-desk/market_learning.py; fi
       - name: Commit change log, market settings and scorecards (data only)
         if: ${{ env.MARKET_LEARN_LIVE == '1' || env.CALIBRATE_LIVE == '1' }}
-        run: bash .github/scripts/commit_data.sh "Signal Desk learning $(date -u +%F) (auto)" signal-desk/intelligence/learning_log.csv signal-desk/intelligence/market_params.json signal-desk/intelligence/markets/scorecards.json
+        run: bash .github/scripts/commit_data.sh "Signal Desk learning $(date -u +%F) (auto)" signal-desk/intelligence/learning_log.csv signal-desk/intelligence/learning_params.json signal-desk/intelligence/market_params.json signal-desk/intelligence/markets/scorecards.json

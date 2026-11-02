@@ -37,11 +37,34 @@ in the Airtable Model Parameters table (`Threshold Lean/Strong/Max`,
 ## Win probability
 
 ```
-p = Normal CDF(abs(edge) / sigma)        sigma: NCAAF 14.0, NFL 13.5
+p = Normal CDF(abs(edge) / sigma)        sigma: learned, prior NCAAF 15.0, NFL 12.5 (see Learned sigma)
 p = clamp(p * tier multiplier, 0.50, 0.95)
 ```
 
 Sigma and tier multipliers come from Model Parameters when present.
+
+### Learned sigma (since 2026-11-02, owner-approved)
+
+All engines now use one sigma. `picks.py` (Ledger spread picks) and `markets.py` (spreads, moneylines, teasers,
+alternate lines) both read Model Parameters `Sigma`. A stored value outside the approved range (NCAAF 12-18,
+NFL 10-15, such as the old 20) is ignored in favor of the prior.
+
+`calibrate.py` learns sigma daily in `sigma_learning.py`:
+
+1. **Base sigma.** It takes the recency-weighted residual SD of (actual margin − line). The data is past seasons'
+   closing lines from `data/history` (weight 0.5 per season back) plus every graded Ledger game against its locked
+   Splash line. This is shrunk toward the prior (NCAAF 15.0, NFL 12.5) using 100 pseudo-games. Each run moves it
+   at most 0.5, except that a value outside the range is reset. The first estimate is NCAAF 14.94 (n_eff 2,378)
+   and NFL 12.42 (n_eff 679).
+2. **Context multipliers.** Some games carry more uncertainty: injury-heavy games (3+ combined injury points),
+   quarterback uncertainty (QB listed or starter feed), bad weather (severity ≥ 0.5) and big spreads (>14). Each
+   segment gets its own multiplier: segment SD / base SD, shrunk toward 1.0 (50 pseudo-games) and kept within
+   0.85-1.25. It is applied only after 30 games in that segment, which come from the Factor Detail on graded games.
+3. **Records.** Results go to Model Parameters `Sigma` and to `intelligence/learning_params.json`, which holds the
+   segments. Every move is logged in `learning_log.csv`. Picks that use a multiplier show it in
+   Sharp-Sheet Data Completeness, for example `sigma 16.4 (weather x1.09)`.
+
+The old Brier grid search (8-20) was removed. On uninformative edges, it drove sigma to the top of its range.
 
 ### Where sigma and k actually come from (verified 2026-11-01)
 
