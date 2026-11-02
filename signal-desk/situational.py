@@ -165,6 +165,32 @@ def qb_note(rows: list[dict], home_name: str, away_name: str, norm) -> str:
     return " | ".join(parts)
 
 
+_QB_PART = re.compile(r"^(HOME|AWAY) QB (OUT|QUESTIONABLE) (.+?)(?: -> .+?)? \[")
+_PRICED = re.compile(r"(HOME|AWAY) QB [^|]*?\[priced: ([^\]]+)\]")
+
+
+def annotate_priced(note: str, passers: dict, norm) -> str:
+    """Tag OUT/QUESTIONABLE sides whose listed starter did not lead the team in passing last game.
+
+    `passers` is {"home": ("Name", "YYYY-MM-DD")} for the team's last completed game. If someone else led
+    in passing, the absence was already public when the current line was set, so the line has priced it.
+    """
+    parts = []
+    for part in (note or "").split(" | "):
+        m = _QB_PART.match(part)
+        if m and "[priced:" not in part:
+            pas = passers.get(m.group(1).lower())
+            if pas and pas[0] and norm(pas[0]) != norm(m.group(3)):
+                part = f"{part} [priced: {pas[0]} led passing {pas[1]}]"
+        parts.append(part)
+    return " | ".join(p for p in parts if p)
+
+
+def qb_priced(note: str | None) -> dict:
+    """{'home': 'Tanner McKee led passing 2026-11-01'} for sides whose absence the line already reflects."""
+    return {side.lower(): why for side, why in _PRICED.findall(note or "")}
+
+
 def qb_fractions(note: str | None) -> dict:
     """{'home': 1.0, 'away': 0.0} for sides the feed spoke about (absent = no information)."""
     out = {}

@@ -212,6 +212,14 @@ labelled so; it is re-priced when the Splash line arrives. Max and Strong stay p
   - Only one listed QB per team counts, the one most likely to miss, at backup value: 0.5 × status weight.
   - The pick is capped at Lean, with "QB unverified … capped at Lean" in Sharp-Sheet Data Completeness.
   - Once the starter check arrives, it sets the QB value, and re-pricing applies the full tier.
+- Quarterback absences the line already reflects (factors v5, 2026-11-02). A starter listed OUT or QUESTIONABLE used
+  to add full QB points every week he was out. On 2026-11-02 that made Max Plays of Giants @ Eagles (Hurts out since
+  Week 6, McKee had started three games) and Jaguars @ Ravens (Lamar hurt in the previous game; the line was set after).
+  Now `context_sync.py` reads the team's last completed game box score from ESPN. If someone other than the listed
+  starter led the team in pass attempts, the note gets `[priced: <name> led passing <date>]` and the QB adds 0 points
+  to the spread and the total. A new absence (the starter led in passing last game) still counts in full, but any pick
+  it is part of is capped at Lean ("new QB absence … capped at Lean") until QB-adjusted picks have a closing-line record.
+  `QB_OUT_NEW_CAP=off` removes the cap. If the box-score fetch fails, the absence is treated as new, so the cap applies.
 - Weather (`weather.py`): Open-Meteo forecast at kickoff (worst wind, precipitation chance, snow, cold in the 3 hours after kickoff),
   geocoded from the venue city. Severity 0 to 1 (wind 20+ mph = 1.0, 15+ = 0.6, snow 0.7, rain 60%+ 0.4, cold 0.15 to 0.3); indoor = 0.
   The adjusted margin shrinks toward zero by 10% x severity, capped at 1.5 points. Prior only; the learned weather scale
