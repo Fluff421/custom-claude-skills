@@ -27,6 +27,9 @@ import os
 import random
 import re
 import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import sigma_learning as sg  # noqa: E402
 from statistics import NormalDist
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -41,10 +44,10 @@ MARKETS = ("spread", "total", "moneyline", "teaser_leg", "teaser", "parlay_leg",
 
 # --- priors. Every number here is an assumption until market_learning.py has enough graded results. ---------------
 DEFAULTS = {
-    "NFL": {"sigma_margin": 13.5, "sigma_total": 10.0, "k_margin": 0.3, "k_total": 0.3, "league_team_pts": 22.5,
+    "NFL": {"sigma_margin": 12.5, "sigma_total": 10.0, "k_margin": 0.3, "k_total": 0.3, "league_team_pts": 22.5,
             "lean_total": 1.5, "strong_total": 3.0, "max_total": 4.5,
             "total_weather_pts": 3.0, "total_qb_out_pts": 1.5, "total_injury_pts": 0.15},
-    "NCAAF": {"sigma_margin": 16.5, "sigma_total": 13.0, "k_margin": 0.3, "k_total": 0.3, "league_team_pts": 28.0,
+    "NCAAF": {"sigma_margin": 15.0, "sigma_total": 13.0, "k_margin": 0.3, "k_total": 0.3, "league_team_pts": 28.0,
               "lean_total": 2.5, "strong_total": 4.5, "max_total": 6.5,
               "total_weather_pts": 3.5, "total_qb_out_pts": 2.0, "total_injury_pts": 0.2},
 }
@@ -105,7 +108,11 @@ def load_params(league: str, model_params_fields: dict | None = None, path: str 
     mp = model_params_fields or {}
     if mp.get("Market Blend K") is not None:
         p["k_margin"] = float(mp["Market Blend K"])
-    p["spread_sigma"] = float(mp.get("Sigma") or p["sigma_margin"])
+    # One sigma source: Model Parameters Sigma (learned by calibrate.py) drives every margin-based market here,
+    # the same value picks.py uses. The default above is only the fallback.
+    if mp.get("Sigma") is not None:
+        p["sigma_margin"] = sg.clean(league, mp["Sigma"])
+    p["spread_sigma"] = p["sigma_margin"]
     return p
 
 
@@ -266,11 +273,21 @@ def shrink_prob(prob: float, market: str, p: dict) -> float:
     return 0.5 + s * (prob - 0.5)
 
 
+def game_sigma(f: dict, proj: dict, p: dict) -> float:
+    """League sigma (one source with picks.py) times learned context multipliers for this game."""
+    try:
+        detail = json.loads(f.get("Factor Detail") or "")
+    except (TypeError, ValueError):
+        detail = None
+    segs = ((sg.read_params().get("sigma") or {}).get(proj.get("league") or f.get("League") or "") or {}).get("segments")
+    return sg.sigma_for(p["sigma_margin"], proj.get("line"), detail, segs)[0]
+
+
 def moneyline_pick(f: dict, proj: dict, odds: dict | None, p: dict) -> dict | None:
     M = proj.get("blend_margin")
     if M is None:
         return None
-    sigma = p["sigma_margin"]
+    sigma = game_sigma(f, proj, p)
     ph = shrink_prob(ND.cdf(M / sigma), "moneyline", p)
     hp, ap, est = ml_prices(odds, proj.get("line"), sigma)
     eh, ea = ph - be_prob(hp), (1 - ph) - be_prob(ap)
@@ -327,7 +344,7 @@ def teaser_leg(f: dict, proj: dict, kind: str, p: dict, team_side: str | None = 
         M, line = proj.get("blend_margin"), proj.get("line")
         if M is None or line is None:
             return None
-        sigma = p["sigma_margin"]
+        sigma = game_sigma(f, proj, p)
         options = []
         for home in ((team_side == "home"),) if team_side else (True, False):
             mean_team = M if home else -M
@@ -679,7 +696,7 @@ def run(games: list[dict], mparams: dict, today: dt.date, odds_lookup, lines_row
             for shift in (-3, 3):
                 for home in (True, False):
                     base = (-proj["line"] if home else proj["line"]) + shift
-                    win, push = cover(proj["blend_margin"] if home else -proj["blend_margin"], base, p["sigma_margin"], league)
+                    win, push = cover(proj["blend_margin"] if home else -proj["blend_margin"], base, game_sigma(f, proj, p), league)
                     alt.append({"team": f.get("Home Team") if home else f.get("Away Team"), "line": base, "prob": round(win, 4)})
         doc_games.append({"game_id": gid, "game": label, "league": league, "date": date, "frozen": frozen, "line": proj.get("line"),
                           "total_line": proj.get("total_line"), "model_margin": proj.get("model_margin"), "blend_margin": proj.get("blend_margin"),

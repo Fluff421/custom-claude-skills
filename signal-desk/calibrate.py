@@ -7,8 +7,8 @@ Daily. Reads every graded pick row, computes per league:
   - Tier hit rates (Lean / Strong Play / Max Play) with shrinkage multipliers
     (actual rate / expected rate, clamped to [0.7, 1.3]) once a tier has 20+
     graded picks - the Calibration Log's existing 20-pick rule
-  - Sigma auto-tuning: grid-searches sigma over the historical edges to minimize
-    Brier score (applied only with 30+ graded picks per league)
+  - Sigma: learned residual SD of (actual margin - line) from history plus graded games, shrunk to the
+    approved prior (NCAAF 15, NFL 12.5), step-limited, with context multipliers (sigma_learning.py)
 
 Results are upserted into the Model Parameters table, which the pick engine
 (picks.py) reads - closing the learning loop. Never touches picks or results.
@@ -26,6 +26,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es
 import factor_learning as fl
+import sigma_learning as sg
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 PARAMS = "tblTqY4CnU08ce1s9"
@@ -82,6 +83,7 @@ def main() -> None:
     params_by_league = {r["fields"].get("League", ""): r for r in param_rows}
 
     patches, creates, report, events = [], [], [], []
+    sigma_out: dict = {}
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     for league, fs in sorted(by_league.items()):
         if not league:
@@ -123,24 +125,16 @@ def main() -> None:
                     lines.append(f"  multiplier -> {mult[tier]:.2f}")
         if mult:
             fields["Tier Multipliers"] = json.dumps(mult)
-        # sigma tuning: recompute prob from stored edge components, grid-search sigma
-        edges = []
-        for f in fs:
-            if f.get("Grade") not in ("Win", "Loss") or None in (f.get("Home FPI"), f.get("Away FPI"),
-                                                               f.get("Vegas Implied Home Margin")):
-                continue
-            hfa = f.get("HFA")
-            if hfa is None:
-                hfa = 2.5 if league == "NCAAF" else 2.0
-            model = float(f["Home FPI"]) - float(f["Away FPI"]) + float(hfa)
-            edges.append((abs(model - float(f["Vegas Implied Home Margin"])), 1.0 if f["Grade"] == "Win" else 0.0))
-        if len(edges) >= 30:
-            def brier_sigma(sig):
-                return sum((0.5 * (1 + math.erf(e / (sig * math.sqrt(2)))) - y) ** 2 for e, y in edges) / len(edges)
-            best = min((round(s, 1) for s in [x / 2 for x in range(16, 41)]), key=brier_sigma)
-            cur = params_by_league.get(league, {}).get("fields", {}).get("Sigma")
-            lines.append(f"sigma: best {best} (current {cur}) from {len(edges)} edges")
-            fields["Sigma"] = best
+        # sigma: learned residual SD (history closing lines + graded Ledger games), shrunk to the approved prior,
+        # step-limited, with context multipliers (injuries, QB, weather, big spread). See sigma_learning.py.
+        cur = params_by_league.get(league, {}).get("fields", {}).get("Sigma")
+        sl = sg.learn(league, fs, cur, int(now[:4]))
+        lines.append(f"sigma: {cur} -> {sl['sigma']} (raw residual SD {sl['raw']}, target {sl.get('target')}, "
+                     f"n_eff {sl['n_eff']}, ledger games {sl.get('n_ledger', 0)}; {sl['reason']})")
+        for name, seg in sl["segments"].items():
+            lines.append(f"  sigma segment {name}: x{seg['mult']} (n={seg['n']}, {'applied' if seg['applied'] else 'below ' + str(sg.SEG_MIN) + ', stays 1.0'})")
+        fields["Sigma"] = sl["sigma"]
+        sigma_out[league] = {**sl, "updated": now}
         # factor learning (shadow): market blend, factor scales, scorecard. Below the minimums nothing is applied.
         grows = fl.game_rows(fs)
         mb, fsd, sc = fl.market_blend(grows), fl.factor_scales(grows), fl.scorecard(grows)
@@ -160,7 +154,7 @@ def main() -> None:
                         fields[fld] = fsd[f"scale_{k}"]
         old_f = params_by_league.get(league, {}).get("fields", {})
         why = f"{len(fs)} graded spread picks"
-        for setting, key, n in (("Sigma", "Sigma", len(edges)), ("Market Blend K", "Market Blend K", mb.get("n", len(fs))),
+        for setting, key, n in (("Sigma", "Sigma", int(sl["n_eff"])), ("Market Blend K", "Market Blend K", mb.get("n", len(fs))),
                                 ("Factor Scale Injury", "Factor Scale Injury", fsd.get("n", len(fs))),
                                 ("Factor Scale Situational", "Factor Scale Situational", fsd.get("n", len(fs))),
                                 ("Factor Scale Rest", "Factor Scale Rest", fsd.get("n", len(fs))),
@@ -168,7 +162,9 @@ def main() -> None:
                                 ("Factor Scale Revenge", "Factor Scale Revenge", fsd.get("n", len(fs))),
                                 ("Factor Scale Weather", "Factor Scale Weather", fsd.get("n", len(fs)))):
             if key in fields and le.moved(old_f.get(key), fields[key]):
-                events.append(le.event(league, "spread", setting, old_f.get(key), fields[key], why + "; Brier-based fit", n, "calibrate.py", now[:10]))
+                events.append(le.event(league, "spread", setting, old_f.get(key), fields[key],
+                                      why + ("; learned residual SD, shrunk to prior, step-limited" if key == "Sigma" else "; Brier-based fit"),
+                                      n, "calibrate.py", now[:10]))
         try:
             oldm = json.loads(old_f.get("Tier Multipliers") or "{}")
         except ValueError:
@@ -189,8 +185,12 @@ def main() -> None:
 
     mode = "LIVE" if live else "DRY RUN"
     report.extend(f"CHANGE {e['league']} spread {e['setting']}: {e['old']} -> {e['new']} (n={e['sample_size']})" for e in events)
+    if sigma_out:
+        report.append("learning_params.json sigma -> " + json.dumps({k: {"sigma": v["sigma"], "segments": {n: x["mult"] for n, x in v["segments"].items()}} for k, v in sigma_out.items()}))
     if live:
         le.append(events)   # change log (repo file; the workflow commits it)
+        if sigma_out:
+            sg.write_params({"sigma": sigma_out})  # repo file read by picks.py and markets.py; the workflow commits it
         if patches:
             es.http_get(f"https://api.airtable.com/v0/{base}/{PARAMS}", es.at_headers(token), "PATCH",
                         {"records": patches, "typecast": True})
