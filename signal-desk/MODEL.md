@@ -205,6 +205,13 @@ labelled so; it is re-priced when the Splash line arrives. Max and Strong stay p
 - NFL quarterback checks (`qb_nfl.py`): ESPN depth chart QB1 plus the injury report. Out/IR = starter_out, Doubtful/Questionable =
   starter_questionable, otherwise starter_playing. A listed BACKUP no longer charges full starter points (before, any listed QB did).
   Rows are labelled `auto_espn`; Grok-verified rows win when both exist. The depth chart can lag a benching.
+- Quarterbacks without a starter check (factors v4, 2026-11-02). A row can be priced before the daily context run
+  adds its `QB Starter Note`; new weeks' rows are created overnight. NCAAF also has no automatic depth check. In
+  that gap, listed QBs used to count 4.0 (NFL) or 3.5 (NCAAF) points each and stacked: on 2026-11-02, two Browns
+  third- and fourth-stringers were counted as 8 points and made a Max Play. Now:
+  - Only one listed QB per team counts, the one most likely to miss, at backup value: 0.5 × status weight.
+  - The pick is capped at Lean, with "QB unverified … capped at Lean" in Sharp-Sheet Data Completeness.
+  - Once the starter check arrives, it sets the QB value, and re-pricing applies the full tier.
 - Weather (`weather.py`): Open-Meteo forecast at kickoff (worst wind, precipitation chance, snow, cold in the 3 hours after kickoff),
   geocoded from the venue city. Severity 0 to 1 (wind 20+ mph = 1.0, 15+ = 0.6, snow 0.7, rain 60%+ 0.4, cold 0.15 to 0.3); indoor = 0.
   The adjusted margin shrinks toward zero by 10% x severity, capped at 1.5 points. Prior only; the learned weather scale

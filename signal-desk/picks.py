@@ -173,6 +173,12 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     # tracking pick: tier "No Play", 0 units, never counted as a bet.
     tracking = ae < p["lean"]
     tier = "No Play" if tracking else ("Max Play" if ae >= p["max"] else ("Strong Play" if ae >= p["strong"] else "Lean"))
+    # a quarterback listed on the injury report without a starter check (depth chart or Grok) is low-confidence
+    # information either way: cap the pick at Lean until the check arrives; re-pricing then sets the full tier
+    qb_unv = ((x or {}).get("detail") or {}).get("qb_unverified") or {}
+    if qb_unv and tier in ("Strong Play", "Max Play"):
+        factor_note += f" | QB unverified ({', '.join(f'{k} {v}' for k, v in sorted(qb_unv.items()))}): {tier} capped at Lean"
+        tier = "Lean"
     sigma, seg_used = sg.sigma_for(p["sigma"], vegas, (x or {}).get("detail"), SIGMA_SEGMENTS.get(league))
     prob = win_prob(edge, sigma)
     if seg_used:

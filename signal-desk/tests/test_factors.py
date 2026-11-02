@@ -76,3 +76,48 @@ class Compute(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class UnverifiedQB(unittest.TestCase):
+    TODAY = __import__("datetime").date(2026, 11, 2)
+    BASE = {"League": "NFL", "Home FPI": 0.0, "Away FPI": 0.0, "HFA": 2.0, "Vegas Implied Home Margin": 2.0}
+
+    def run_(self, note, qb_note=None):
+        import factors as fx
+        return fx.compute({**self.BASE, "Injury Notes": note, "QB Starter Note": qb_note}, self.TODAY, "now")["detail"]
+
+    def test_two_backups_count_once_at_backup_value(self):
+        d = self.run_("AWAY: A One (QB) Out; B Two (QB) Out | HOME: none listed")
+        self.assertAlmostEqual(d["away_inj_pts"], 0.5)
+        self.assertEqual(d["away_by_pos"], {"QB": 0.5})
+        self.assertIn("away", d["qb_unverified"])
+
+    def test_starter_check_still_gives_full_value(self):
+        d = self.run_("AWAY: A One (QB) Out; B Two (QB) Out | HOME: none listed",
+                      "AWAY QB OUT A One [auto espn 2026-11-02]")
+        self.assertGreaterEqual(d["away_inj_pts"], 3.5)
+        self.assertEqual(d["qb_unverified"], {})
+
+    def test_backup_listed_starter_playing_is_zero(self):
+        d = self.run_("AWAY: B Two (QB) Out | HOME: none listed", "AWAY QB PLAYING A One [auto espn 2026-11-02]")
+        self.assertEqual(d["away_inj_pts"], 0.0)
+
+
+class UnverifiedQBCap(unittest.TestCase):
+    def test_pick_capped_at_lean_without_starter_check(self):
+        import picks
+        old = picks.FACTOR_MODE
+        picks.FACTOR_MODE = "live"
+        try:
+            p = {"sigma": 12.5, "lean": 1.0, "strong": 2.5, "max": 4.0,
+                 "units": {"Lean": 0.5, "Strong Play": 1.5, "Max Play": 3.0}, "multipliers": {}}
+            f = {"League": "NFL", "Home Team": "H", "Away Team": "A", "Home FPI": 8.0, "Away FPI": 0.0, "HFA": 2.0,
+                 "Vegas Implied Home Margin": 0.0, "Injury Notes": "AWAY: B Two (QB) Out | HOME: none listed"}
+            new, edge, tier, prob, units = picks.evaluate(f, p, {}, "now")
+            self.assertEqual(tier, "Lean")
+            self.assertIn("QB unverified (away B Two): Max Play capped at Lean", new["Sharp-Sheet Data Completeness"])
+            new, edge, tier, prob, units = picks.evaluate({**f, "QB Starter Note": "AWAY QB PLAYING A One [auto espn 2026-11-02]"},
+                                                          p, {}, "now")
+            self.assertEqual(tier, "Max Play")
+        finally:
+            picks.FACTOR_MODE = old
