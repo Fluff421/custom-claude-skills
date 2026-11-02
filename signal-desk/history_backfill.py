@@ -88,6 +88,30 @@ def enrich(g: dict) -> dict:
     return g
 
 
+def refresh(season: int) -> None:
+    """Append newly completed games to an existing season file. Rows already captured are never re-fetched or
+    rewritten, so their FPI projection and line stay as first recorded (ESPN keeps editing old predictors)."""
+    for league in LEAGUES:
+        path = os.path.join(OUT, f"{league.lower()}_{season}.csv")
+        have = []
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as fh:
+                have = list(csv.DictReader(fh))
+        ids = {r["event_id"] for r in have}
+        new = [g for g in games(league, season) if g["event_id"] not in ids]
+        with cf.ThreadPoolExecutor(12) as ex:
+            rows = list(ex.map(enrich, new))
+        rows.sort(key=lambda r: (r["kickoff_utc"] or "", r["event_id"]))
+        exists = os.path.exists(path) and os.path.getsize(path) > 0
+        with open(path, "a" if exists else "w", newline="", encoding="utf-8") as fh:
+            w = csv.DictWriter(fh, fieldnames=COLS, extrasaction="ignore")
+            if not exists:
+                w.writeheader()
+            w.writerows(rows)
+        last = max([r.get("kickoff_utc") or "" for r in have + rows] or [""])
+        print(f"{league} {season}: {len(have)} kept, {len(rows)} new finals appended; latest kickoff {last}", flush=True)
+
+
 def main(seasons: list[int]) -> None:
     os.makedirs(OUT, exist_ok=True)
     for season in seasons:
@@ -110,4 +134,9 @@ def main(seasons: list[int]) -> None:
 
 
 if __name__ == "__main__":
-    main([int(a) for a in sys.argv[1:]] or [2022, 2023, 2024, 2025])
+    args = sys.argv[1:]
+    if args and args[0] == "--refresh":  # e.g. python history_backfill.py --refresh 2026
+        for a in args[1:] or ["2026"]:
+            refresh(int(a))
+    else:
+        main([int(a) for a in args] or [2022, 2023, 2024, 2025])
