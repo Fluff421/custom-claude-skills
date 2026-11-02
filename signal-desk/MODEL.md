@@ -43,6 +43,32 @@ p = clamp(p * tier multiplier, 0.50, 0.95)
 
 Sigma and tier multipliers come from Model Parameters when present.
 
+### Where sigma and k actually come from (verified 2026-11-01)
+
+The 14.0 and 13.5 above are only the code defaults. Three spread-probability paths are live today, and they
+don't all use the same sigma:
+
+| Path | Edge used | Sigma used (NCAAF / NFL) |
+|---|---|---|
+| `picks.py` Ledger spread pick (`Sharp-Sheet Est. Win Prob %`) | raw edge = model margin minus line. k is applied only when `FACTOR_MODE=live` | Model Parameters `Sigma` (20 / default 13.5) |
+| `markets.py` spread, moneyline and teaser | blended margin = line + k × (model − line) | `sigma_margin` default (16.5 / 13.5). `spread_sigma` is computed from Model Parameters but never used |
+| Documentation (this file) | raw edge | 14.0 / 13.5 |
+
+**k is a margin blend, not a probability blend.** `markets.py` uses blended margin = line + k × (model − line).
+`picks.py` (live factor mode only) uses edge × k. These two are the same thing. The calibrator fits k by
+regressing (actual margin − line) on (model margin − line). NCAAF k = 0.162 is provisional: the raw estimate
+is −0.559 ± 0.686 (n = 47), and the stored value is a prior-shrunk number, so it hasn't been validated
+out of sample. NFL has no fitted k and uses the 0.3 prior.
+
+**NCAAF sigma = 20 is a grid boundary, not an optimum.** `calibrate.py` searches 8.0 to 20.0. On the 47 graded
+NCAAF spread picks, in-sample Brier keeps falling as sigma rises (14 → 0.2757, 20 → 0.2663, 50 → 0.2555,
+coin flip → 0.2500). The learner is driving the probabilities toward 50%, which means the raw edge has shown no
+predictive value yet. 38 of the 47 picks are from one slate (2026-10-31), so the sample is also highly correlated.
+
+Every prediction from `markets.py` is now also written to `intelligence/markets/predictions_log.csv`. That file is
+append-only and records model_version, config_hash, data cutoff, sigma_version, k_version, event_id and an
+explicit event_definition, so later analysis can tell which configuration produced each number.
+
 ## Factors: injuries and situation (shadow mode, `factors.py`)
 
 The base model above ignores injuries and situation. The market prices them and FPI mostly does not, so
