@@ -8,3 +8,5 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-01T22:26:33+00:00,recZz5q4Ikwbzu1kK,401873026,NFL,Baltimore Ravens @ Buffalo Bills,2026-11-01,DraftKings,3.0,54.5,-162,136,-115.0,-105.0,-115.0,-105.0,2.5
 2026-11-01T22:26:33+00:00,recs5m00bZJMQlxqa,401873032,NFL,Los Angeles Chargers @ Los Angeles Rams,2026-11-01,DraftKings,6.5,45.5,-278,225,-110.0,-110.0,-115.0,-105.0,3.5
 2026-11-01T22:57:38+00:00,rec4N23ynnp1ti60s,401873035,NFL,Philadelphia Eagles @ Washington Commanders,2026-11-01,DraftKings,6.0,40.5,-278,225,-112.0,-108.0,-110.0,-110.0,-2.5
+2026-11-02T02:46:08+00:00,rec4N23ynnp1ti60s,401873035,NFL,Philadelphia Eagles @ Washington Commanders,2026-11-01,DraftKings,5.5,40.5,-250,205,-110.0,-110.0,-120.0,100.0,-2.5
+2026-11-02T02:46:08+00:00,rec67iuU19XZINd0s,401873036,NFL,Chicago Bears @ Seattle Seahawks,2026-11-02,DraftKings,3.0,46.5,-170,142,-118.0,-102.0,-110.0,-110.0,4.5
