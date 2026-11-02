@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T18:47:20+00:00",
+ "generated_at": "2026-11-02T19:46:59+00:00",
  "date": "2026-11-02",
  "games": [
   {
@@ -920,10 +920,10 @@
    "league": "NFL",
    "date": "2026-11-02",
    "frozen": false,
-   "line": 3.0,
+   "line": 3.5,
    "total_line": 46.5,
-   "model_margin": 2.5,
-   "blend_margin": 2.61,
+   "model_margin": 2.5999999999999996,
+   "blend_margin": 2.99,
    "proj_total": 45.5115,
    "factors": [
     "travel +0.5 to home",
@@ -940,10 +940,10 @@
      "side": "away",
      "team": "Chicago Bears",
      "line": 3.0,
-     "price": 100.0,
-     "proj": 2.5,
+     "price": -118.0,
+     "proj": 2.5999999999999996,
      "prob": 0.5148,
-     "edge": -1.3,
+     "edge": -1.2,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -975,15 +975,15 @@
      "side": "away",
      "team": "Chicago Bears",
      "line": 0.0,
-     "price": 142.0,
+     "price": 145.0,
      "price_estimated": false,
-     "proj": 2.61,
-     "prob": 0.4173,
-     "edge": 0.0041,
+     "proj": 2.99,
+     "prob": 0.4055,
+     "edge": -0.0027,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Chicago Bears ML +142",
+     "selection": "Chicago Bears ML +145",
      "game_id": "rec67iuU19XZINd0s",
      "game": "Chicago Bears @ Seattle Seahawks",
      "priority": "primary",
@@ -996,15 +996,15 @@
      "kind": "spread",
      "side": "away",
      "team": "Chicago Bears",
-     "base_line": 3.0,
-     "line": 9.0,
+     "base_line": 3.5,
+     "line": 9.5,
      "price": 0.0,
-     "prob": 0.7057,
-     "push": 0.0249,
+     "prob": 0.7208,
+     "push": 0,
      "crosses": [
       7
      ],
-     "selection": "Chicago Bears +3 -> +9 (crosses 7)",
+     "selection": "Chicago Bears +3.5 -> +9.5 (crosses 7)",
      "game_id": "rec67iuU19XZINd0s",
      "game": "Chicago Bears @ Seattle Seahawks",
      "priority": "secondary",
@@ -1032,23 +1032,23 @@
    "alt_spreads": [
     {
      "team": "Seattle Seahawks",
-     "line": -6.0,
-     "prob": 0.3601
+     "line": -6.5,
+     "prob": 0.3711
     },
     {
      "team": "Chicago Bears",
-     "line": 0.0,
-     "prob": 0.4074
+     "line": 0.5,
+     "prob": 0.4238
     },
     {
      "team": "Seattle Seahawks",
-     "line": 0.0,
-     "prob": 0.5649
+     "line": -0.5,
+     "prob": 0.5762
     },
     {
      "team": "Chicago Bears",
-     "line": 6.0,
-     "prob": 0.6057
+     "line": 6.5,
+     "prob": 0.6289
     }
    ]
   },
@@ -1060,14 +1060,14 @@
    "frozen": false,
    "line": -7.0,
    "total_line": 50.5,
-   "model_margin": -7.199999999999999,
-   "blend_margin": -7.63,
-   "proj_total": 49.8685,
+   "model_margin": -7.5,
+   "blend_margin": -7.03,
+   "proj_total": 50.2555,
    "factors": [
-    "injuries: home -3.06, away -1.15"
+    "injuries: home -0.6, away -1.03"
    ],
    "total_factor_why": [
-    "injuries -0.6"
+    "injuries -0.2"
    ],
    "picks": [
     {
@@ -1076,12 +1076,12 @@
      "team": "Detroit Lions",
      "line": -7.0,
      "price": -110.0,
-     "proj": -7.199999999999999,
-     "prob": 0.5618,
-     "edge": -2.1,
+     "proj": -7.5,
+     "prob": 0.5032,
+     "edge": -0.1,
      "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
+     "tier": "No Play",
+     "units": 0.0,
      "selection": "Detroit Lions -7 (spread)",
      "game_id": "rec68l7QbJFDv1SXf",
      "game": "Detroit Lions @ Miami Dolphins",
@@ -1093,9 +1093,9 @@
      "side": "under",
      "line": 50.5,
      "price": -115.0,
-     "proj": 49.87,
-     "prob": 0.5252,
-     "edge": 0.63,
+     "proj": 50.26,
+     "prob": 0.5098,
+     "edge": 0.24,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -1112,12 +1112,12 @@
      "line": 0.0,
      "price": 295.0,
      "price_estimated": false,
-     "proj": -7.63,
-     "prob": 0.2708,
-     "edge": 0.0176,
+     "proj": -7.03,
+     "prob": 0.2869,
+     "edge": 0.0338,
      "edge_unit": "prob",
-     "tier": "No Play",
-     "units": 0.0,
+     "tier": "Lean",
+     "units": 0.5,
      "selection": "Miami Dolphins ML +295",
      "game_id": "rec68l7QbJFDv1SXf",
      "game": "Detroit Lions @ Miami Dolphins",
@@ -1129,17 +1129,15 @@
     {
      "market": "teaser_leg",
      "kind": "spread",
-     "side": "away",
-     "team": "Detroit Lions",
-     "base_line": -7.0,
-     "line": -1.0,
+     "side": "home",
+     "team": "Miami Dolphins",
+     "base_line": 7.0,
+     "line": 13.0,
      "price": 0.0,
-     "prob": 0.6816,
-     "push": 0.0262,
-     "crosses": [
-      3
-     ],
-     "selection": "Detroit Lions -7 -> -1 (crosses 3)",
+     "prob": 0.696,
+     "push": 0.0256,
+     "crosses": [],
+     "selection": "Miami Dolphins +7 -> +13",
      "game_id": "rec68l7QbJFDv1SXf",
      "game": "Detroit Lions @ Miami Dolphins",
      "priority": "secondary",
@@ -1153,7 +1151,7 @@
      "base_line": 50.5,
      "line": 56.5,
      "price": 0.0,
-     "prob": 0.7464,
+     "prob": 0.7338,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 50.5 -> 56.5",
@@ -1168,22 +1166,22 @@
     {
      "team": "Miami Dolphins",
      "line": 4.0,
-     "prob": 0.3952
+     "prob": 0.4131
     },
     {
      "team": "Detroit Lions",
      "line": -10.0,
-     "prob": 0.3753
+     "prob": 0.3577
     },
     {
      "team": "Miami Dolphins",
      "line": 10.0,
-     "prob": 0.5894
+     "prob": 0.6075
     },
     {
      "team": "Detroit Lions",
      "line": -4.0,
-     "prob": 0.5745
+     "prob": 0.5563
     }
    ]
   },
@@ -1589,14 +1587,14 @@
    "frozen": false,
    "line": 10.0,
    "total_line": 46.5,
-   "model_margin": 10.2,
+   "model_margin": 9.6,
    "blend_margin": 10.03,
-   "proj_total": 45.633,
+   "proj_total": 46.131,
    "factors": [
-    "injuries: home -2.96, away -2.82"
+    "injuries: home -0.96, away -1.5"
    ],
    "total_factor_why": [
-    "injuries -0.9"
+    "injuries -0.4"
    ],
    "picks": [
     {
@@ -1605,7 +1603,7 @@
      "team": "Kansas City Chiefs",
      "line": -9.5,
      "price": -108.0,
-     "proj": 10.2,
+     "proj": 9.6,
      "prob": 0.5191,
      "edge": 0.6,
      "edge_unit": "pts",
@@ -1622,9 +1620,9 @@
      "side": "under",
      "line": 46.5,
      "price": -115.0,
-     "proj": 45.63,
-     "prob": 0.5345,
-     "edge": 0.87,
+     "proj": 46.13,
+     "prob": 0.5147,
+     "edge": 0.37,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -1639,15 +1637,15 @@
      "side": "away",
      "team": "New York Jets",
      "line": 0.0,
-     "price": 380.0,
+     "price": 370.0,
      "price_estimated": false,
      "proj": 10.03,
      "prob": 0.2112,
-     "edge": 0.0028,
+     "edge": -0.0016,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "New York Jets ML +380",
+     "selection": "New York Jets ML +370",
      "game_id": "rec9cADXnbgcTxlCh",
      "game": "New York Jets @ Kansas City Chiefs",
      "priority": "primary",
@@ -1680,7 +1678,7 @@
      "base_line": 46.5,
      "line": 52.5,
      "price": 0.0,
-     "prob": 0.7539,
+     "prob": 0.7379,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 46.5 -> 52.5",
@@ -2629,42 +2627,42 @@
    "frozen": false,
    "line": 11.5,
    "total_line": 44.5,
-   "model_margin": 11.2,
-   "blend_margin": 11.44,
-   "proj_total": 43.924,
+   "model_margin": 10.399999999999999,
+   "blend_margin": 11.05,
+   "proj_total": 43.999,
    "factors": [
-    "injuries: home -1.87, away -1.97"
+    "injuries: home -1.87, away -1.47"
    ],
    "total_factor_why": [
-    "injuries -0.6"
+    "injuries -0.5"
    ],
    "picks": [
     {
      "market": "spread",
-     "side": "home",
-     "team": "Seattle Seahawks",
-     "line": -10.5,
+     "side": "away",
+     "team": "Arizona Cardinals",
+     "line": 10.5,
      "price": -110.0,
-     "proj": 11.2,
-     "prob": 0.5255,
-     "edge": 0.8,
+     "proj": 10.399999999999999,
+     "prob": 0.516,
+     "edge": -0.5,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Seattle Seahawks -10.5 (spread)",
+     "selection": "Arizona Cardinals +10.5 (spread)",
      "game_id": "recDLm706ogm3QMC0",
      "game": "Arizona Cardinals @ Seattle Seahawks",
      "priority": "primary",
-     "pro_favorite": true
+     "pro_favorite": false
     },
     {
      "market": "total",
      "side": "under",
      "line": 44.5,
      "price": -110.0,
-     "proj": 43.92,
-     "prob": 0.523,
-     "edge": 0.58,
+     "proj": 44.0,
+     "prob": 0.52,
+     "edge": 0.5,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -2681,9 +2679,9 @@
      "line": 0.0,
      "price": 500.0,
      "price_estimated": false,
-     "proj": 11.44,
-     "prob": 0.18,
-     "edge": 0.0134,
+     "proj": 11.05,
+     "prob": 0.1883,
+     "edge": 0.0217,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -2703,7 +2701,7 @@
      "base_line": 11.5,
      "line": 17.5,
      "price": 0.0,
-     "prob": 0.7132,
+     "prob": 0.7237,
      "push": 0,
      "crosses": [],
      "selection": "Arizona Cardinals +11.5 -> +17.5",
@@ -2720,7 +2718,7 @@
      "base_line": 44.5,
      "line": 50.5,
      "price": 0.0,
-     "prob": 0.7446,
+     "prob": 0.7422,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 44.5 -> 50.5",
@@ -2735,22 +2733,22 @@
     {
      "team": "Seattle Seahawks",
      "line": -14.5,
-     "prob": 0.3711
+     "prob": 0.3595
     },
     {
      "team": "Arizona Cardinals",
      "line": 8.5,
-     "prob": 0.4426
+     "prob": 0.4547
     },
     {
      "team": "Seattle Seahawks",
      "line": -8.5,
-     "prob": 0.5574
+     "prob": 0.5453
     },
     {
      "team": "Arizona Cardinals",
      "line": 14.5,
-     "prob": 0.6289
+     "prob": 0.6405
     }
    ]
   },
@@ -2773,7 +2771,7 @@
      "side": "away",
      "team": "Central Michigan",
      "line": 1.5,
-     "price": -105.0,
+     "price": -110.0,
      "proj": -1.5000000000000018,
      "prob": 0.5097,
      "edge": -3,
@@ -2805,22 +2803,22 @@
     },
     {
      "market": "moneyline",
-     "side": "away",
-     "team": "Central Michigan",
+     "side": "home",
+     "team": "Eastern Michigan",
      "line": 0.0,
-     "price": 105.0,
+     "price": -120.0,
      "price_estimated": false,
      "proj": 1.01,
-     "prob": 0.4731,
-     "edge": -0.0148,
+     "prob": 0.5269,
+     "edge": -0.0185,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Central Michigan ML +105",
+     "selection": "Eastern Michigan ML -120",
      "game_id": "recDnQgkfdQ9I1dOr",
      "game": "Central Michigan @ Eastern Michigan",
      "priority": "primary",
-     "pro_favorite": false
+     "pro_favorite": true
     }
    ],
    "teaser_legs": [
@@ -3676,14 +3674,14 @@
    "frozen": false,
    "line": -3.0,
    "total_line": 51.5,
-   "model_margin": -6.5,
-   "blend_margin": -3.9299999999999997,
-   "proj_total": 50.7725,
+   "model_margin": -7.699999999999999,
+   "blend_margin": -4.890000000000001,
+   "proj_total": 51.0455,
    "factors": [
-    "injuries: home -2.24, away -2.61"
+    "injuries: home -2.34, away -0.69"
    ],
    "total_factor_why": [
-    "injuries -0.7"
+    "injuries -0.5"
    ],
    "picks": [
     {
@@ -3692,12 +3690,12 @@
      "team": "Cincinnati Bengals",
      "line": -3.5,
      "price": -118.0,
-     "proj": -6.5,
-     "prob": 0.5824,
-     "edge": -2.6,
+     "proj": -7.699999999999999,
+     "prob": 0.6787,
+     "edge": -5.8,
      "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
+     "tier": "Max Play",
+     "units": 1.0,
      "selection": "Cincinnati Bengals -3.5 (spread)",
      "game_id": "recHDkxCBaZIlSwOr",
      "game": "Cincinnati Bengals @ Atlanta Falcons",
@@ -3709,9 +3707,9 @@
      "side": "under",
      "line": 51.5,
      "price": -115.0,
-     "proj": 50.77,
-     "prob": 0.529,
-     "edge": 0.73,
+     "proj": 51.05,
+     "prob": 0.5181,
+     "edge": 0.45,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -3728,9 +3726,9 @@
      "line": 0.0,
      "price": -166.0,
      "price_estimated": false,
-     "proj": -3.93,
-     "prob": 0.6234,
-     "edge": -0.0007,
+     "proj": -4.89,
+     "prob": 0.6522,
+     "edge": 0.0281,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -3750,8 +3748,8 @@
      "base_line": -3.0,
      "line": 3.0,
      "price": 0.0,
-     "prob": 0.6841,
-     "push": 0.0463,
+     "prob": 0.7096,
+     "push": 0.0443,
      "crosses": [
       3
      ],
@@ -3769,7 +3767,7 @@
      "base_line": 51.5,
      "line": 57.5,
      "price": 0.0,
-     "prob": 0.7494,
+     "prob": 0.7407,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 51.5 -> 57.5",
@@ -3784,22 +3782,22 @@
     {
      "team": "Atlanta Falcons",
      "line": 0.0,
-     "prob": 0.3689
+     "prob": 0.3416
     },
     {
      "team": "Cincinnati Bengals",
      "line": -6.0,
-     "prob": 0.3985
+     "prob": 0.4271
     },
     {
      "team": "Atlanta Falcons",
      "line": 6.0,
-     "prob": 0.5664
+     "prob": 0.5374
     },
     {
      "team": "Cincinnati Bengals",
      "line": 0.0,
-     "prob": 0.6041
+     "prob": 0.632
     }
    ]
   },
@@ -4202,14 +4200,14 @@
    "frozen": false,
    "line": -2.5,
    "total_line": 46.5,
-   "model_margin": -0.8999999999999999,
-   "blend_margin": -1.9300000000000002,
-   "proj_total": 45.6825,
+   "model_margin": -1.9999999999999996,
+   "blend_margin": -1.81,
+   "proj_total": 46.1625,
    "factors": [
-    "injuries: home -2.57, away -2.88"
+    "injuries: home -0.21, away -2.04"
    ],
    "total_factor_why": [
-    "injuries -0.8"
+    "injuries -0.3"
    ],
    "picks": [
     {
@@ -4218,9 +4216,9 @@
      "team": "Minnesota Vikings",
      "line": 3.0,
      "price": -102.0,
-     "proj": -0.8999999999999999,
+     "proj": -1.9999999999999996,
      "prob": 0.5761,
-     "edge": 2.4,
+     "edge": 2.8,
      "edge_unit": "pts",
      "tier": "Lean",
      "units": 0.5,
@@ -4235,9 +4233,9 @@
      "side": "under",
      "line": 46.5,
      "price": -110.0,
-     "proj": 45.68,
-     "prob": 0.5326,
-     "edge": 0.82,
+     "proj": 46.16,
+     "prob": 0.5135,
+     "edge": 0.34,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -4254,9 +4252,9 @@
      "line": 0.0,
      "price": 130.0,
      "price_estimated": false,
-     "proj": -1.93,
-     "prob": 0.4386,
-     "edge": 0.0039,
+     "proj": -1.81,
+     "prob": 0.4424,
+     "edge": 0.0077,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -4276,7 +4274,7 @@
      "base_line": 2.5,
      "line": 8.5,
      "price": 0.0,
-     "prob": 0.7234,
+     "prob": 0.7265,
      "push": 0,
      "crosses": [
       3,
@@ -4296,7 +4294,7 @@
      "base_line": 46.5,
      "line": 52.5,
      "price": 0.0,
-     "prob": 0.7523,
+     "prob": 0.7369,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 46.5 -> 52.5",
@@ -4311,22 +4309,22 @@
     {
      "team": "Minnesota Vikings",
      "line": -0.5,
-     "prob": 0.4276
+     "prob": 0.4312
     },
     {
      "team": "Buffalo Bills",
      "line": -5.5,
-     "prob": 0.3745
+     "prob": 0.371
     },
     {
      "team": "Minnesota Vikings",
      "line": 5.5,
-     "prob": 0.6255
+     "prob": 0.629
     },
     {
      "team": "Buffalo Bills",
      "line": 0.5,
-     "prob": 0.5724
+     "prob": 0.5688
     }
    ]
   },
@@ -4470,45 +4468,45 @@
    "frozen": false,
    "line": -5.5,
    "total_line": 47.5,
-   "model_margin": -4.7,
-   "blend_margin": -5.32,
-   "proj_total": 45.658,
+   "model_margin": -4.699999999999999,
+   "blend_margin": -5.53,
+   "proj_total": 47.1805,
    "factors": [
-    "injuries: home -6.24, away -6.04"
+    "injuries: home -1.53, away -0.6"
    ],
    "total_factor_why": [
-    "injuries -1.8"
+    "injuries -0.3"
    ],
    "picks": [
     {
      "market": "spread",
-     "side": "home",
-     "team": "Washington Commanders",
-     "line": 5.5,
+     "side": "away",
+     "team": "Los Angeles Rams",
+     "line": -5.5,
      "price": -110.0,
-     "proj": -4.7,
-     "prob": 0.5177,
-     "edge": 0.6,
+     "proj": -4.699999999999999,
+     "prob": 0.5032,
+     "edge": -0.1,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Washington Commanders +5.5 (spread)",
+     "selection": "Los Angeles Rams -5.5 (spread)",
      "game_id": "recKcedkU5YFxiAJf",
      "game": "Los Angeles Rams @ Washington Commanders",
      "priority": "primary",
-     "pro_favorite": false
+     "pro_favorite": true
     },
     {
      "market": "total",
      "side": "under",
      "line": 47.5,
      "price": -108.0,
-     "proj": 45.66,
-     "prob": 0.5731,
-     "edge": 1.84,
+     "proj": 47.18,
+     "prob": 0.5127,
+     "edge": 0.32,
      "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
+     "tier": "No Play",
+     "units": 0.0,
      "selection": "Under 47.5",
      "game_id": "recKcedkU5YFxiAJf",
      "game": "Los Angeles Rams @ Washington Commanders",
@@ -4522,9 +4520,9 @@
      "line": 0.0,
      "price": -218.0,
      "price_estimated": false,
-     "proj": -5.32,
-     "prob": 0.6648,
-     "edge": -0.0207,
+     "proj": -5.53,
+     "prob": 0.6709,
+     "edge": -0.0146,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -4544,7 +4542,7 @@
      "base_line": 5.5,
      "line": 11.5,
      "price": 0.0,
-     "prob": 0.7164,
+     "prob": 0.7108,
      "push": 0,
      "crosses": [
       7
@@ -4563,7 +4561,7 @@
      "base_line": 47.5,
      "line": 53.5,
      "price": 0.0,
-     "prob": 0.7835,
+     "prob": 0.7363,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 47.5 -> 53.5",
@@ -4578,22 +4576,22 @@
     {
      "team": "Washington Commanders",
      "line": 2.5,
-     "prob": 0.4114
+     "prob": 0.4051
     },
     {
      "team": "Los Angeles Rams",
      "line": -8.5,
-     "prob": 0.3699
+     "prob": 0.376
     },
     {
      "team": "Washington Commanders",
      "line": 8.5,
-     "prob": 0.6301
+     "prob": 0.624
     },
     {
      "team": "Los Angeles Rams",
      "line": -2.5,
-     "prob": 0.5886
+     "prob": 0.5949
     }
    ]
   },
@@ -5026,7 +5024,7 @@
      "market": "total",
      "side": "over",
      "line": 71.5,
-     "price": -108.0,
+     "price": -115.0,
      "proj": 71.5,
      "prob": 0.5,
      "edge": 0.0,
@@ -5649,14 +5647,14 @@
    "frozen": false,
    "line": -6.0,
    "total_line": 51.5,
-   "model_margin": -1.4,
+   "model_margin": -2.0999999999999996,
    "blend_margin": -4.8,
-   "proj_total": 50.7335,
+   "proj_total": 51.1595,
    "factors": [
-    "injuries: home -2.84, away -2.27"
+    "injuries: home -1.08, away -1.19"
    ],
    "total_factor_why": [
-    "injuries -0.8"
+    "injuries -0.3"
    ],
    "picks": [
     {
@@ -5665,12 +5663,12 @@
      "team": "Indianapolis Colts",
      "line": 5.5,
      "price": -112.0,
-     "proj": -1.4,
+     "proj": -2.0999999999999996,
      "prob": 0.6103,
      "edge": 3.5,
      "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
+     "tier": "Strong Play",
+     "units": 1.0,
      "selection": "Indianapolis Colts +5.5 (spread)",
      "game_id": "recV124oMwCNWjV8V",
      "game": "Dallas Cowboys @ Indianapolis Colts",
@@ -5682,9 +5680,9 @@
      "side": "under",
      "line": 51.5,
      "price": -110.0,
-     "proj": 50.73,
-     "prob": 0.5305,
-     "edge": 0.77,
+     "proj": 51.16,
+     "prob": 0.5136,
+     "edge": 0.34,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -5699,15 +5697,15 @@
      "side": "home",
      "team": "Indianapolis Colts",
      "line": 0.0,
-     "price": 210.0,
+     "price": 215.0,
      "price_estimated": false,
      "proj": -4.8,
      "prob": 0.3505,
-     "edge": 0.0279,
+     "edge": 0.033,
      "edge_unit": "prob",
-     "tier": "No Play",
-     "units": 0.0,
-     "selection": "Indianapolis Colts ML +210",
+     "tier": "Lean",
+     "units": 0.5,
+     "selection": "Indianapolis Colts ML +215",
      "game_id": "recV124oMwCNWjV8V",
      "game": "Dallas Cowboys @ Indianapolis Colts",
      "priority": "primary",
@@ -5742,7 +5740,7 @@
      "base_line": 51.5,
      "line": 57.5,
      "price": 0.0,
-     "prob": 0.7507,
+     "prob": 0.737,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 51.5 -> 57.5",
@@ -5915,14 +5913,14 @@
    "frozen": false,
    "line": 3.0,
    "total_line": 47.5,
-   "model_margin": 2.6999999999999997,
-   "blend_margin": 3.0300000000000002,
-   "proj_total": 46.6945,
+   "model_margin": 2.8,
+   "blend_margin": 3.54,
+   "proj_total": 46.93,
    "factors": [
-    "injuries: home -2.49, away -2.88"
+    "injuries: home -0.92, away -2.88"
    ],
    "total_factor_why": [
-    "injuries -0.8"
+    "injuries -0.6"
    ],
    "picks": [
     {
@@ -5931,12 +5929,12 @@
      "team": "New England Patriots",
      "line": -2.5,
      "price": -105.0,
-     "proj": 2.6999999999999997,
-     "prob": 0.5191,
-     "edge": 0.6,
+     "proj": 2.8,
+     "prob": 0.573,
+     "edge": 2.3,
      "edge_unit": "pts",
-     "tier": "No Play",
-     "units": 0.0,
+     "tier": "Lean",
+     "units": 0.5,
      "selection": "New England Patriots -2.5 (spread)",
      "game_id": "recXCjQiLeySLkyov",
      "game": "Green Bay Packers @ New England Patriots",
@@ -5948,9 +5946,9 @@
      "side": "under",
      "line": 47.5,
      "price": -118.0,
-     "proj": 46.69,
-     "prob": 0.5321,
-     "edge": 0.81,
+     "proj": 46.93,
+     "prob": 0.5227,
+     "edge": 0.57,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -5967,9 +5965,9 @@
      "line": 0.0,
      "price": -155.0,
      "price_estimated": false,
-     "proj": 3.03,
-     "prob": 0.5958,
-     "edge": -0.0121,
+     "proj": 3.54,
+     "prob": 0.6115,
+     "edge": 0.0036,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -5989,8 +5987,8 @@
      "base_line": 3.0,
      "line": 9.0,
      "price": 0.0,
-     "prob": 0.6945,
-     "push": 0.0253,
+     "prob": 0.6806,
+     "push": 0.0258,
      "crosses": [
       7
      ],
@@ -6008,7 +6006,7 @@
      "base_line": 47.5,
      "line": 53.5,
      "price": 0.0,
-     "prob": 0.7519,
+     "prob": 0.7444,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 47.5 -> 53.5",
@@ -6023,22 +6021,22 @@
     {
      "team": "New England Patriots",
      "line": -6.0,
-     "prob": 0.3722
+     "prob": 0.3871
     },
     {
      "team": "Green Bay Packers",
      "line": 0.0,
-     "prob": 0.395
+     "prob": 0.3801
     },
     {
      "team": "New England Patriots",
      "line": 0.0,
-     "prob": 0.5774
+     "prob": 0.5926
     },
     {
      "team": "Green Bay Packers",
      "line": 6.0,
-     "prob": 0.5933
+     "prob": 0.5781
     }
    ]
   },
@@ -6049,10 +6047,10 @@
    "date": "2026-11-07",
    "frozen": false,
    "line": 7.0,
-   "total_line": 48.5,
+   "total_line": 47.5,
    "model_margin": 11.3,
    "blend_margin": 7.6966,
-   "proj_total": 48.5,
+   "proj_total": 47.5,
    "factors": [],
    "total_factor_why": [],
    "picks": [
@@ -6061,7 +6059,7 @@
      "side": "home",
      "team": "Ohio State",
      "line": -7.5,
-     "price": -112.0,
+     "price": -115.0,
      "proj": 11.3,
      "prob": 0.5123,
      "edge": 3.8,
@@ -6077,15 +6075,15 @@
     {
      "market": "total",
      "side": "over",
-     "line": 48.5,
-     "price": -105.0,
-     "proj": 48.5,
+     "line": 47.5,
+     "price": -112.0,
+     "proj": 47.5,
      "prob": 0.5,
      "edge": 0.0,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Over 48.5",
+     "selection": "Over 47.5",
      "game_id": "recXfS8cwoeMyKJmT",
      "game": "Oregon @ Ohio State",
      "priority": "primary",
@@ -6136,13 +6134,13 @@
      "market": "teaser_leg",
      "kind": "total",
      "side": "over",
-     "base_line": 48.5,
-     "line": 42.5,
+     "base_line": 47.5,
+     "line": 41.5,
      "price": 0.0,
      "prob": 0.6778,
      "push": 0.0,
      "crosses": [],
-     "selection": "Over 48.5 -> 42.5",
+     "selection": "Over 47.5 -> 41.5",
      "game_id": "recXfS8cwoeMyKJmT",
      "game": "Oregon @ Ohio State",
      "priority": "secondary",
@@ -6181,45 +6179,45 @@
    "frozen": false,
    "line": -3.0,
    "total_line": 43.5,
-   "model_margin": -1.7999999999999998,
-   "blend_margin": -2.64,
-   "proj_total": 41.6205,
+   "model_margin": -2.8,
+   "blend_margin": -3.6,
+   "proj_total": 43.0065,
    "factors": [
-    "injuries: home -6.25, away -6.28"
+    "injuries: home -2.75, away -0.54"
    ],
    "total_factor_why": [
-    "injuries -1.9"
+    "injuries -0.5"
    ],
    "picks": [
     {
      "market": "spread",
-     "side": "home",
-     "team": "Carolina Panthers",
-     "line": 2.5,
-     "price": -118.0,
-     "proj": -1.7999999999999998,
-     "prob": 0.5207,
-     "edge": 0.7,
+     "side": "away",
+     "team": "Denver Broncos",
+     "line": -2.5,
+     "price": -102.0,
+     "proj": -2.8,
+     "prob": 0.5793,
+     "edge": -2.5,
      "edge_unit": "pts",
-     "tier": "No Play",
-     "units": 0.0,
-     "selection": "Carolina Panthers +2.5 (spread)",
+     "tier": "Lean",
+     "units": 0.5,
+     "selection": "Denver Broncos -2.5 (spread)",
      "game_id": "recXyYRH9AMMQg1pZ",
      "game": "Denver Broncos @ Carolina Panthers",
      "priority": "primary",
-     "pro_favorite": false
+     "pro_favorite": true
     },
     {
      "market": "total",
      "side": "under",
      "line": 43.5,
      "price": -105.0,
-     "proj": 41.62,
-     "prob": 0.5745,
-     "edge": 1.88,
+     "proj": 43.01,
+     "prob": 0.5197,
+     "edge": 0.49,
      "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
+     "tier": "No Play",
+     "units": 0.0,
      "selection": "Under 43.5",
      "game_id": "recXyYRH9AMMQg1pZ",
      "game": "Denver Broncos @ Carolina Panthers",
@@ -6233,9 +6231,9 @@
      "line": 0.0,
      "price": -148.0,
      "price_estimated": false,
-     "proj": -2.64,
-     "prob": 0.5836,
-     "edge": -0.0131,
+     "proj": -3.6,
+     "prob": 0.6133,
+     "edge": 0.0166,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -6255,8 +6253,8 @@
      "base_line": 3.0,
      "line": 9.0,
      "price": 0.0,
-     "prob": 0.7049,
-     "push": 0.0249,
+     "prob": 0.6789,
+     "push": 0.0259,
      "crosses": [
       7
      ],
@@ -6274,7 +6272,7 @@
      "base_line": 43.5,
      "line": 49.5,
      "price": 0.0,
-     "prob": 0.7846,
+     "prob": 0.7419,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 43.5 -> 49.5",
@@ -6289,22 +6287,22 @@
     {
      "team": "Carolina Panthers",
      "line": 0.0,
-     "prob": 0.4065
+     "prob": 0.3784
     },
     {
      "team": "Denver Broncos",
      "line": -6.0,
-     "prob": 0.361
+     "prob": 0.3888
     },
     {
      "team": "Carolina Panthers",
      "line": 6.0,
-     "prob": 0.6048
+     "prob": 0.5763
     },
     {
      "team": "Denver Broncos",
      "line": 0.0,
-     "prob": 0.5658
+     "prob": 0.5944
     }
    ]
   },
@@ -6456,7 +6454,7 @@
      "side": "home",
      "team": "Northwestern",
      "line": -1.5,
-     "price": -105.0,
+     "price": -115.0,
      "proj": 2.0999999999999996,
      "prob": 0.5019,
      "edge": 0.6,
@@ -6473,7 +6471,7 @@
      "market": "total",
      "side": "over",
      "line": 44.5,
-     "price": -110.0,
+     "price": -115.0,
      "proj": 44.5,
      "prob": 0.5,
      "edge": 0.0,
@@ -6491,15 +6489,15 @@
      "side": "home",
      "team": "Northwestern",
      "line": 0.0,
-     "price": -130.0,
+     "price": -135.0,
      "price_estimated": false,
      "proj": 2.44,
      "prob": 0.5645,
-     "edge": -0.0007,
+     "edge": -0.01,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Northwestern ML -130",
+     "selection": "Northwestern ML -135",
      "game_id": "recaTeAozPvUdSdK1",
      "game": "Iowa @ Northwestern",
      "priority": "primary",
@@ -6708,14 +6706,14 @@
    "frozen": false,
    "line": 9.5,
    "total_line": 51.5,
-   "model_margin": 10.8,
-   "blend_margin": 10.64,
-   "proj_total": 50.906,
+   "model_margin": 10.6,
+   "blend_margin": 9.65,
+   "proj_total": 51.377,
    "factors": [
-    "injuries: home -0.73, away -3.23"
+    "injuries: home -0.73, away -0.09"
    ],
    "total_factor_why": [
-    "injuries -0.6"
+    "injuries -0.1"
    ],
    "picks": [
     {
@@ -6724,12 +6722,12 @@
      "team": "San Francisco 49ers",
      "line": -9.5,
      "price": -110.0,
-     "proj": 10.8,
-     "prob": 0.6194,
-     "edge": 3.8,
+     "proj": 10.6,
+     "prob": 0.516,
+     "edge": 0.5,
      "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
+     "tier": "No Play",
+     "units": 0.0,
      "selection": "San Francisco 49ers -9.5 (spread)",
      "game_id": "recdkQkR4GMOnknyU",
      "game": "Las Vegas Raiders @ San Francisco 49ers",
@@ -6741,9 +6739,9 @@
      "side": "under",
      "line": 51.5,
      "price": -110.0,
-     "proj": 50.91,
-     "prob": 0.5237,
-     "edge": 0.59,
+     "proj": 51.38,
+     "prob": 0.5049,
+     "edge": 0.12,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -6760,9 +6758,9 @@
      "line": 0.0,
      "price": 380.0,
      "price_estimated": false,
-     "proj": 10.64,
-     "prob": 0.1973,
-     "edge": -0.011,
+     "proj": 9.65,
+     "prob": 0.2201,
+     "edge": 0.0117,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -6777,17 +6775,15 @@
     {
      "market": "teaser_leg",
      "kind": "spread",
-     "side": "home",
-     "team": "San Francisco 49ers",
-     "base_line": -9.5,
-     "line": -3.5,
+     "side": "away",
+     "team": "Las Vegas Raiders",
+     "base_line": 9.5,
+     "line": 15.5,
      "price": 0.0,
-     "prob": 0.6906,
+     "prob": 0.7076,
      "push": 0,
-     "crosses": [
-      7
-     ],
-     "selection": "San Francisco 49ers -9.5 -> -3.5 (crosses 7)",
+     "crosses": [],
+     "selection": "Las Vegas Raiders +9.5 -> +15.5",
      "game_id": "recdkQkR4GMOnknyU",
      "game": "Las Vegas Raiders @ San Francisco 49ers",
      "priority": "secondary",
@@ -6801,7 +6797,7 @@
      "base_line": 51.5,
      "line": 57.5,
      "price": 0.0,
-     "prob": 0.7452,
+     "prob": 0.7298,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 51.5 -> 57.5",
@@ -6816,22 +6812,22 @@
     {
      "team": "San Francisco 49ers",
      "line": -12.5,
-     "prob": 0.4095
+     "prob": 0.3794
     },
     {
      "team": "Las Vegas Raiders",
      "line": 6.5,
-     "prob": 0.3973
+     "prob": 0.4272
     },
     {
      "team": "San Francisco 49ers",
      "line": -6.5,
-     "prob": 0.6027
+     "prob": 0.5728
     },
     {
      "team": "Las Vegas Raiders",
      "line": 12.5,
-     "prob": 0.5905
+     "prob": 0.6206
     }
    ]
   },
@@ -6841,10 +6837,10 @@
    "league": "NCAAF",
    "date": "2026-11-07",
    "frozen": false,
-   "line": 16.5,
+   "line": 17.5,
    "total_line": 63.5,
    "model_margin": 17.700000000000003,
-   "blend_margin": 16.694399999999998,
+   "blend_margin": 17.5324,
    "proj_total": 63.5,
    "factors": [],
    "total_factor_why": [],
@@ -6854,7 +6850,7 @@
      "side": "home",
      "team": "Texas Tech",
      "line": -17.5,
-     "price": -115.0,
+     "price": -102.0,
      "proj": 17.700000000000003,
      "prob": 0.5006,
      "edge": 0.2,
@@ -6886,22 +6882,22 @@
     },
     {
      "market": "moneyline",
-     "side": "away",
-     "team": "West Virginia",
+     "side": "home",
+     "team": "Texas Tech",
      "line": 0.0,
-     "price": 600.0,
+     "price": -900.0,
      "price_estimated": false,
-     "proj": 16.69,
-     "prob": 0.1329,
-     "edge": -0.01,
+     "proj": 17.53,
+     "prob": 0.8788,
+     "edge": -0.0212,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "West Virginia ML +600",
+     "selection": "Texas Tech ML -900",
      "game_id": "rece5hELl1wgkG6Ca",
      "game": "West Virginia @ Texas Tech",
      "priority": "primary",
-     "pro_favorite": false
+     "pro_favorite": true
     }
    ],
    "teaser_legs": [
@@ -6910,13 +6906,13 @@
      "kind": "spread",
      "side": "away",
      "team": "West Virginia",
-     "base_line": 16.5,
-     "line": 22.5,
+     "base_line": 17.5,
+     "line": 23.5,
      "price": 0.0,
-     "prob": 0.6616,
+     "prob": 0.665,
      "push": 0,
      "crosses": [],
-     "selection": "West Virginia +16.5 -> +22.5",
+     "selection": "West Virginia +17.5 -> +23.5",
      "game_id": "rece5hELl1wgkG6Ca",
      "game": "West Virginia @ Texas Tech",
      "priority": "secondary",
@@ -6944,23 +6940,23 @@
    "alt_spreads": [
     {
      "team": "Texas Tech",
-     "line": -19.5,
-     "prob": 0.4125
+     "line": -20.5,
+     "prob": 0.409
     },
     {
      "team": "West Virginia",
-     "line": 13.5,
-     "prob": 0.4288
+     "line": 14.5,
+     "prob": 0.4359
     },
     {
      "team": "Texas Tech",
-     "line": -13.5,
-     "prob": 0.5712
+     "line": -14.5,
+     "prob": 0.5641
     },
     {
      "team": "West Virginia",
-     "line": 19.5,
-     "prob": 0.5875
+     "line": 20.5,
+     "prob": 0.591
     }
    ]
   },
@@ -7099,10 +7095,10 @@
    "league": "NCAAF",
    "date": "2026-11-07",
    "frozen": false,
-   "line": -3.5,
+   "line": -4.0,
    "total_line": 62.5,
    "model_margin": -3.3,
-   "blend_margin": -3.4676,
+   "blend_margin": -3.8866,
    "proj_total": 62.5,
    "factors": [],
    "total_factor_why": [],
@@ -7112,7 +7108,7 @@
      "side": "home",
      "team": "Kansas State",
      "line": 3.5,
-     "price": -105.0,
+     "price": -108.0,
      "proj": -3.3,
      "prob": 0.5006,
      "edge": 0.2,
@@ -7147,15 +7143,15 @@
      "side": "home",
      "team": "Kansas State",
      "line": 0.0,
-     "price": 154.0,
+     "price": 160.0,
      "price_estimated": false,
-     "proj": -3.47,
-     "prob": 0.4086,
-     "edge": 0.0149,
+     "proj": -3.89,
+     "prob": 0.3978,
+     "edge": 0.0132,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Kansas State ML +154",
+     "selection": "Kansas State ML +160",
      "game_id": "recgXctB5ohceR5v3",
      "game": "Oklahoma State @ Kansas State",
      "priority": "primary",
@@ -7168,15 +7164,15 @@
      "kind": "spread",
      "side": "home",
      "team": "Kansas State",
-     "base_line": 3.5,
-     "line": 9.5,
+     "base_line": 4.0,
+     "line": 10.0,
      "price": 0.0,
-     "prob": 0.6652,
-     "push": 0,
+     "prob": 0.6551,
+     "push": 0.0268,
      "crosses": [
       7
      ],
-     "selection": "Kansas State +3.5 -> +9.5 (crosses 7)",
+     "selection": "Kansas State +4 -> +10 (crosses 7)",
      "game_id": "recgXctB5ohceR5v3",
      "game": "Oklahoma State @ Kansas State",
      "priority": "secondary",
@@ -7204,23 +7200,23 @@
    "alt_spreads": [
     {
      "team": "Kansas State",
-     "line": 0.5,
-     "prob": 0.4228
+     "line": 1.0,
+     "prob": 0.4121
     },
     {
      "team": "Oklahoma State",
-     "line": -6.5,
-     "prob": 0.4148
+     "line": -7.0,
+     "prob": 0.3932
     },
     {
      "team": "Kansas State",
-     "line": 6.5,
-     "prob": 0.5852
+     "line": 7.0,
+     "prob": 0.5745
     },
     {
      "team": "Oklahoma State",
-     "line": -0.5,
-     "prob": 0.5772
+     "line": -1.0,
+     "prob": 0.563
     }
    ]
   },
@@ -7668,15 +7664,15 @@
      "side": "away",
      "team": "Oklahoma",
      "line": 0.0,
-     "price": 210.0,
+     "price": 195.0,
      "price_estimated": false,
      "proj": 5.72,
      "prob": 0.3514,
-     "edge": 0.0288,
+     "edge": 0.0124,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Oklahoma ML +210",
+     "selection": "Oklahoma ML +195",
      "game_id": "recjkwnzvofKSLnzV",
      "game": "Oklahoma @ Florida",
      "priority": "primary",
@@ -8147,14 +8143,14 @@
    "frozen": false,
    "line": 2.5,
    "total_line": 43.5,
-   "model_margin": 3.0999999999999996,
-   "blend_margin": 3.13,
-   "proj_total": 43.158,
+   "model_margin": 3.8999999999999995,
+   "blend_margin": 2.8,
+   "proj_total": 43.44,
    "factors": [
-    "injuries: home -0.4, away -1.88"
+    "injuries: home -0.4, away -0.0"
    ],
    "total_factor_why": [
-    "injuries -0.3"
+    "injuries -0.1"
    ],
    "picks": [
     {
@@ -8163,9 +8159,9 @@
      "team": "New Orleans Saints",
      "line": -2.5,
      "price": -112.0,
-     "proj": 3.0999999999999996,
+     "proj": 3.8999999999999995,
      "prob": 0.5667,
-     "edge": 2.1,
+     "edge": 1,
      "edge_unit": "pts",
      "tier": "Lean",
      "units": 0.5,
@@ -8180,9 +8176,9 @@
      "side": "under",
      "line": 43.5,
      "price": -112.0,
-     "proj": 43.16,
-     "prob": 0.5136,
-     "edge": 0.34,
+     "proj": 43.44,
+     "prob": 0.5024,
+     "edge": 0.06,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -8199,9 +8195,9 @@
      "line": 0.0,
      "price": -135.0,
      "price_estimated": false,
-     "proj": 3.13,
-     "prob": 0.5989,
-     "edge": 0.0244,
+     "proj": 2.8,
+     "prob": 0.5886,
+     "edge": 0.0142,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -8221,7 +8217,7 @@
      "base_line": -2.5,
      "line": 3.5,
      "price": 0.0,
-     "prob": 0.71,
+     "prob": 0.7014,
      "push": 0,
      "crosses": [
       3
@@ -8240,7 +8236,7 @@
      "base_line": 43.5,
      "line": 49.5,
      "price": 0.0,
-     "prob": 0.737,
+     "prob": 0.7277,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 43.5 -> 49.5",
@@ -8255,22 +8251,22 @@
     {
      "team": "New Orleans Saints",
      "line": -5.5,
-     "prob": 0.4097
+     "prob": 0.3999
     },
     {
      "team": "Cleveland Browns",
      "line": -0.5,
-     "prob": 0.3921
+     "prob": 0.4018
     },
     {
      "team": "New Orleans Saints",
      "line": 0.5,
-     "prob": 0.6079
+     "prob": 0.5982
     },
     {
      "team": "Cleveland Browns",
      "line": 5.5,
-     "prob": 0.5903
+     "prob": 0.6001
     }
    ]
   },
@@ -8671,14 +8667,14 @@
    "frozen": false,
    "line": 5.5,
    "total_line": 47.5,
-   "model_margin": 4.1,
-   "blend_margin": 5.65,
-   "proj_total": 47.0815,
+   "model_margin": 3.5,
+   "blend_margin": 4.99,
+   "proj_total": 47.3245,
    "factors": [
-    "injuries: home -0.45, away -2.34"
+    "injuries: home -0.45, away -0.72"
    ],
    "total_factor_why": [
-    "injuries -0.4"
+    "injuries -0.2"
    ],
    "picks": [
     {
@@ -8687,12 +8683,12 @@
      "team": "Tampa Bay Buccaneers",
      "line": 6.5,
      "price": -108.0,
-     "proj": 4.1,
-     "prob": 0.5148,
-     "edge": -0.5,
+     "proj": 3.5,
+     "prob": 0.5855,
+     "edge": -2.7,
      "edge_unit": "pts",
-     "tier": "No Play",
-     "units": 0.0,
+     "tier": "Strong Play",
+     "units": 1.0,
      "selection": "Tampa Bay Buccaneers +6.5 (spread)",
      "game_id": "recn4eMltluLCqzUN",
      "game": "Tampa Bay Buccaneers @ Chicago Bears",
@@ -8704,9 +8700,9 @@
      "side": "under",
      "line": 47.5,
      "price": -118.0,
-     "proj": 47.08,
-     "prob": 0.5167,
-     "edge": 0.42,
+     "proj": 47.32,
+     "prob": 0.507,
+     "edge": 0.18,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -8723,9 +8719,9 @@
      "line": 0.0,
      "price": 195.0,
      "price_estimated": false,
-     "proj": 5.65,
-     "prob": 0.3256,
-     "edge": -0.0133,
+     "proj": 4.99,
+     "prob": 0.3449,
+     "edge": 0.0059,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -8745,7 +8741,7 @@
      "base_line": 5.5,
      "line": 11.5,
      "price": 0.0,
-     "prob": 0.7076,
+     "prob": 0.725,
      "push": 0,
      "crosses": [
       7
@@ -8764,7 +8760,7 @@
      "base_line": 47.5,
      "line": 53.5,
      "price": 0.0,
-     "prob": 0.7395,
+     "prob": 0.7316,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 47.5 -> 53.5",
@@ -8779,22 +8775,22 @@
     {
      "team": "Chicago Bears",
      "line": -8.5,
-     "prob": 0.3795
+     "prob": 0.3603
     },
     {
      "team": "Tampa Bay Buccaneers",
      "line": 2.5,
-     "prob": 0.4016
+     "prob": 0.4212
     },
     {
      "team": "Chicago Bears",
      "line": -2.5,
-     "prob": 0.5984
+     "prob": 0.5788
     },
     {
      "team": "Tampa Bay Buccaneers",
      "line": 8.5,
-     "prob": 0.6205
+     "prob": 0.6397
     }
    ]
   },
@@ -9066,14 +9062,14 @@
    "frozen": false,
    "line": -3.5,
    "total_line": 39.5,
-   "model_margin": 0.5999999999999996,
-   "blend_margin": -2.93,
-   "proj_total": 39.041,
+   "model_margin": 0.0,
+   "blend_margin": -2.96,
+   "proj_total": 39.113,
    "factors": [
-    "injuries: home -2.61, away -0.45"
+    "injuries: home -2.13, away -0.45"
    ],
    "total_factor_why": [
-    "injuries -0.5"
+    "injuries -0.4"
    ],
    "picks": [
     {
@@ -9082,9 +9078,9 @@
      "team": "Philadelphia Eagles",
      "line": 2.5,
      "price": -118.0,
-     "proj": 0.5999999999999996,
+     "proj": 0.0,
      "prob": 0.5266,
-     "edge": 0.9,
+     "edge": 0.8,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -9099,9 +9095,9 @@
      "side": "under",
      "line": 39.5,
      "price": -102.0,
-     "proj": 39.04,
-     "prob": 0.5183,
-     "edge": 0.46,
+     "proj": 39.11,
+     "prob": 0.5154,
+     "edge": 0.39,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -9118,9 +9114,9 @@
      "line": 0.0,
      "price": 142.0,
      "price_estimated": false,
-     "proj": -2.93,
-     "prob": 0.4073,
-     "edge": -0.0059,
+     "proj": -2.96,
+     "prob": 0.4064,
+     "edge": -0.0068,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
@@ -9140,7 +9136,7 @@
      "base_line": 3.5,
      "line": 9.5,
      "price": 0.0,
-     "prob": 0.7224,
+     "prob": 0.7216,
      "push": 0,
      "crosses": [
       7
@@ -9159,7 +9155,7 @@
      "base_line": 39.5,
      "line": 45.5,
      "price": 0.0,
-     "prob": 0.7408,
+     "prob": 0.7385,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 39.5 -> 45.5",
@@ -9174,22 +9170,22 @@
     {
      "team": "Philadelphia Eagles",
      "line": 0.5,
-     "prob": 0.4256
+     "prob": 0.4247
     },
     {
      "team": "New York Giants",
      "line": -6.5,
-     "prob": 0.3693
+     "prob": 0.3702
     },
     {
      "team": "Philadelphia Eagles",
      "line": 6.5,
-     "prob": 0.6307
+     "prob": 0.6298
     },
     {
      "team": "New York Giants",
      "line": -0.5,
-     "prob": 0.5744
+     "prob": 0.5753
     }
    ]
   },
@@ -9722,11 +9718,11 @@
    "frozen": false,
    "line": -4.5,
    "total_line": 40.5,
-   "model_margin": -1.6,
-   "blend_margin": -4.26,
-   "proj_total": 40.065,
+   "model_margin": -1.7000000000000002,
+   "blend_margin": -4.17,
+   "proj_total": 40.137,
    "factors": [
-    "injuries: home -2.52, away -0.38"
+    "injuries: home -2.04, away -0.38"
    ],
    "total_factor_why": [
     "injuries -0.4"
@@ -9734,30 +9730,30 @@
    "picks": [
     {
      "market": "spread",
-     "side": "away",
-     "team": "Houston Texans",
-     "line": -3.5,
-     "price": -115.0,
-     "proj": -1.6,
-     "prob": 0.5059,
-     "edge": -0.2,
+     "side": "home",
+     "team": "Los Angeles Chargers",
+     "line": 3.5,
+     "price": -105.0,
+     "proj": -1.7000000000000002,
+     "prob": 0.5032,
+     "edge": 0.1,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Houston Texans -3.5 (spread)",
+     "selection": "Los Angeles Chargers +3.5 (spread)",
      "game_id": "recxQHHmVubfGwQBo",
      "game": "Houston Texans @ Los Angeles Chargers",
      "priority": "primary",
-     "pro_favorite": true
+     "pro_favorite": false
     },
     {
      "market": "total",
      "side": "under",
      "line": 40.5,
      "price": -108.0,
-     "proj": 40.06,
-     "prob": 0.5173,
-     "edge": 0.44,
+     "proj": 40.14,
+     "prob": 0.5145,
+     "edge": 0.36,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -9772,15 +9768,15 @@
      "side": "home",
      "team": "Los Angeles Chargers",
      "line": 0.0,
-     "price": 170.0,
+     "price": 180.0,
      "price_estimated": false,
-     "proj": -4.26,
-     "prob": 0.3666,
-     "edge": -0.0037,
+     "proj": -4.17,
+     "prob": 0.3693,
+     "edge": 0.0122,
      "edge_unit": "prob",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Los Angeles Chargers ML +170",
+     "selection": "Los Angeles Chargers ML +180",
      "game_id": "recxQHHmVubfGwQBo",
      "game": "Houston Texans @ Los Angeles Chargers",
      "priority": "primary",
@@ -9796,7 +9792,7 @@
      "base_line": 4.5,
      "line": 10.5,
      "price": 0.0,
-     "prob": 0.719,
+     "prob": 0.7213,
      "push": 0,
      "crosses": [
       7
@@ -9815,7 +9811,7 @@
      "base_line": 40.5,
      "line": 46.5,
      "price": 0.0,
-     "prob": 0.7401,
+     "prob": 0.7377,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 40.5 -> 46.5",
@@ -9830,22 +9826,22 @@
     {
      "team": "Los Angeles Chargers",
      "line": 1.5,
-     "prob": 0.4151
+     "prob": 0.4178
     },
     {
      "team": "Houston Texans",
      "line": -7.5,
-     "prob": 0.3667
+     "prob": 0.3641
     },
     {
      "team": "Los Angeles Chargers",
      "line": 7.5,
-     "prob": 0.6333
+     "prob": 0.6359
     },
     {
      "team": "Houston Texans",
      "line": -1.5,
-     "prob": 0.5849
+     "prob": 0.5822
     }
    ]
   },
@@ -9857,42 +9853,42 @@
    "frozen": false,
    "line": -8.5,
    "total_line": 43.5,
-   "model_margin": 0.3999999999999999,
-   "blend_margin": -5.859999999999999,
-   "proj_total": 42.84,
+   "model_margin": -8.2,
+   "blend_margin": -8.5,
+   "proj_total": 43.11,
    "factors": [
-    "injuries: home -2.27, away -2.13"
+    "injuries: home -1.43, away -1.17"
    ],
    "total_factor_why": [
-    "injuries -0.7"
+    "injuries -0.4"
    ],
    "picks": [
     {
      "market": "spread",
-     "side": "home",
-     "team": "Baltimore Ravens",
-     "line": 7.5,
-     "price": -115.0,
-     "proj": 0.3999999999999999,
-     "prob": 0.5295,
-     "edge": 7.8,
+     "side": "away",
+     "team": "Jacksonville Jaguars",
+     "line": -7.5,
+     "price": -105.0,
+     "proj": -8.2,
+     "prob": 0.5319,
+     "edge": -1,
      "edge_unit": "pts",
      "tier": "Lean",
      "units": 0.5,
-     "selection": "Baltimore Ravens +7.5 (spread)",
+     "selection": "Jacksonville Jaguars -7.5 (spread)",
      "game_id": "recxxiQBTGT35ug5w",
      "game": "Jacksonville Jaguars @ Baltimore Ravens",
      "priority": "primary",
-     "pro_favorite": false
+     "pro_favorite": true
     },
     {
      "market": "total",
      "side": "under",
      "line": 43.5,
      "price": -115.0,
-     "proj": 42.84,
-     "prob": 0.5263,
-     "edge": 0.66,
+     "proj": 43.11,
+     "prob": 0.5156,
+     "edge": 0.39,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
@@ -9909,12 +9905,12 @@
      "line": 0.0,
      "price": 330.0,
      "price_estimated": false,
-     "proj": -5.86,
-     "prob": 0.3196,
-     "edge": 0.087,
+     "proj": -8.5,
+     "prob": 0.2483,
+     "edge": 0.0157,
      "edge_unit": "prob",
-     "tier": "Strong Play",
-     "units": 1.0,
+     "tier": "No Play",
+     "units": 0.0,
      "selection": "Baltimore Ravens ML +330",
      "game_id": "recxxiQBTGT35ug5w",
      "game": "Jacksonville Jaguars @ Baltimore Ravens",
@@ -9931,7 +9927,7 @@
      "base_line": 8.5,
      "line": 14.5,
      "price": 0.0,
-     "prob": 0.7792,
+     "prob": 0.7129,
      "push": 0,
      "crosses": [],
      "selection": "Baltimore Ravens +8.5 -> +14.5",
@@ -9948,7 +9944,7 @@
      "base_line": 43.5,
      "line": 49.5,
      "price": 0.0,
-     "prob": 0.7473,
+     "prob": 0.7386,
      "push": 0.0,
      "crosses": [],
      "selection": "Under 43.5 -> 49.5",
@@ -9963,22 +9959,22 @@
     {
      "team": "Baltimore Ravens",
      "line": 5.5,
-     "prob": 0.5078
+     "prob": 0.4271
     },
     {
      "team": "Jacksonville Jaguars",
      "line": -11.5,
-     "prob": 0.2981
+     "prob": 0.3731
     },
     {
      "team": "Baltimore Ravens",
      "line": 11.5,
-     "prob": 0.7019
+     "prob": 0.6269
     },
     {
      "team": "Jacksonville Jaguars",
      "line": -5.5,
-     "prob": 0.4922
+     "prob": 0.5729
     }
    ]
   },
@@ -10296,6 +10292,18 @@
      "market": "parlay",
      "legs": [
       {
+       "game_id": "recHDkxCBaZIlSwOr",
+       "market_kind": "spread",
+       "side": "away",
+       "prob": 0.6787,
+       "price": -118.0,
+       "pro_favorite": true,
+       "selection": "Cincinnati Bengals -3.5 (spread)",
+       "game": "Cincinnati Bengals @ Atlanta Falcons",
+       "line": -3.5,
+       "grade_market": "spread"
+      },
+      {
        "game_id": "recV124oMwCNWjV8V",
        "market_kind": "spread",
        "side": "home",
@@ -10306,26 +10314,14 @@
        "game": "Dallas Cowboys @ Indianapolis Colts",
        "line": 5.5,
        "grade_market": "spread"
-      },
-      {
-       "game_id": "recdkQkR4GMOnknyU",
-       "market_kind": "spread",
-       "side": "home",
-       "prob": 0.6194,
-       "price": -110.0,
-       "pro_favorite": true,
-       "selection": "San Francisco 49ers -9.5 (spread)",
-       "game": "Las Vegas Raiders @ San Francisco 49ers",
-       "line": -9.5,
-       "grade_market": "spread"
       }
      ],
      "n_legs": 2,
-     "prob": 0.378,
-     "price": 261,
-     "break_even_prob": 0.2767,
-     "break_even_price": 261,
-     "edge": 0.1013,
+     "prob": 0.4142,
+     "price": 250,
+     "break_even_prob": 0.286,
+     "break_even_price": 250,
+     "edge": 0.1282,
      "edge_unit": "prob",
      "tier": "Max Play",
      "units": 0.5,
@@ -10335,75 +10331,36 @@
      "market": "parlay",
      "legs": [
       {
-       "game_id": "recJKj5lfFFyrx6fY",
+       "game_id": "recHDkxCBaZIlSwOr",
        "market_kind": "spread",
-       "side": "home",
-       "prob": 0.5761,
-       "price": -102.0,
-       "pro_favorite": false,
-       "selection": "Minnesota Vikings +3 (spread)",
-       "game": "Buffalo Bills @ Minnesota Vikings",
-       "line": 3.0,
+       "side": "away",
+       "prob": 0.6787,
+       "price": -118.0,
+       "pro_favorite": true,
+       "selection": "Cincinnati Bengals -3.5 (spread)",
+       "game": "Cincinnati Bengals @ Atlanta Falcons",
+       "line": -3.5,
        "grade_market": "spread"
       },
-      {
-       "game_id": "recdkQkR4GMOnknyU",
-       "market_kind": "spread",
-       "side": "home",
-       "prob": 0.6194,
-       "price": -110.0,
-       "pro_favorite": true,
-       "selection": "San Francisco 49ers -9.5 (spread)",
-       "game": "Las Vegas Raiders @ San Francisco 49ers",
-       "line": -9.5,
-       "grade_market": "spread"
-      }
-     ],
-     "n_legs": 2,
-     "prob": 0.3568,
-     "price": 278,
-     "break_even_prob": 0.2645,
-     "break_even_price": 278,
-     "edge": 0.0923,
-     "edge_unit": "prob",
-     "tier": "Max Play",
-     "units": 0.5,
-     "same_game": false
-    },
-    {
-     "market": "parlay",
-     "legs": [
       {
        "game_id": "recXyYRH9AMMQg1pZ",
-       "market_kind": "total",
-       "side": "under",
-       "prob": 0.5745,
-       "price": -105.0,
-       "pro_favorite": false,
-       "selection": "Under 43.5",
-       "game": "Denver Broncos @ Carolina Panthers",
-       "line": 43.5,
-       "grade_market": "total"
-      },
-      {
-       "game_id": "recdkQkR4GMOnknyU",
        "market_kind": "spread",
-       "side": "home",
-       "prob": 0.6194,
-       "price": -110.0,
+       "side": "away",
+       "prob": 0.5793,
+       "price": -102.0,
        "pro_favorite": true,
-       "selection": "San Francisco 49ers -9.5 (spread)",
-       "game": "Las Vegas Raiders @ San Francisco 49ers",
-       "line": -9.5,
+       "selection": "Denver Broncos -2.5 (spread)",
+       "game": "Denver Broncos @ Carolina Panthers",
+       "line": -2.5,
        "grade_market": "spread"
       }
      ],
      "n_legs": 2,
-     "prob": 0.3558,
-     "price": 273,
-     "break_even_prob": 0.2683,
-     "break_even_price": 273,
-     "edge": 0.0876,
+     "prob": 0.3932,
+     "price": 266,
+     "break_even_prob": 0.2733,
+     "break_even_price": 266,
+     "edge": 0.1198,
      "edge_unit": "prob",
      "tier": "Max Play",
      "units": 0.5,
@@ -10412,6 +10369,18 @@
     {
      "market": "parlay",
      "legs": [
+      {
+       "game_id": "recHDkxCBaZIlSwOr",
+       "market_kind": "spread",
+       "side": "away",
+       "prob": 0.6787,
+       "price": -118.0,
+       "pro_favorite": true,
+       "selection": "Cincinnati Bengals -3.5 (spread)",
+       "game": "Cincinnati Bengals @ Atlanta Falcons",
+       "line": -3.5,
+       "grade_market": "spread"
+      },
       {
        "game_id": "recJKj5lfFFyrx6fY",
        "market_kind": "spread",
@@ -10423,26 +10392,14 @@
        "game": "Buffalo Bills @ Minnesota Vikings",
        "line": 3.0,
        "grade_market": "spread"
-      },
-      {
-       "game_id": "recV124oMwCNWjV8V",
-       "market_kind": "spread",
-       "side": "home",
-       "prob": 0.6103,
-       "price": -112.0,
-       "pro_favorite": false,
-       "selection": "Indianapolis Colts +5.5 (spread)",
-       "game": "Dallas Cowboys @ Indianapolis Colts",
-       "line": 5.5,
-       "grade_market": "spread"
       }
      ],
      "n_legs": 2,
-     "prob": 0.3516,
-     "price": 275,
-     "break_even_prob": 0.2668,
-     "break_even_price": 275,
-     "edge": 0.0848,
+     "prob": 0.391,
+     "price": 266,
+     "break_even_prob": 0.2733,
+     "break_even_price": 266,
+     "edge": 0.1177,
      "edge_unit": "prob",
      "tier": "Max Play",
      "units": 0.5,
@@ -10452,36 +10409,75 @@
      "market": "parlay",
      "legs": [
       {
-       "game_id": "recKcedkU5YFxiAJf",
-       "market_kind": "total",
-       "side": "under",
-       "prob": 0.5731,
-       "price": -108.0,
-       "pro_favorite": false,
-       "selection": "Under 47.5",
-       "game": "Los Angeles Rams @ Washington Commanders",
-       "line": 47.5,
-       "grade_market": "total"
+       "game_id": "recHDkxCBaZIlSwOr",
+       "market_kind": "spread",
+       "side": "away",
+       "prob": 0.6787,
+       "price": -118.0,
+       "pro_favorite": true,
+       "selection": "Cincinnati Bengals -3.5 (spread)",
+       "game": "Cincinnati Bengals @ Atlanta Falcons",
+       "line": -3.5,
+       "grade_market": "spread"
       },
       {
-       "game_id": "recdkQkR4GMOnknyU",
+       "game_id": "recn4eMltluLCqzUN",
        "market_kind": "spread",
-       "side": "home",
-       "prob": 0.6194,
-       "price": -110.0,
-       "pro_favorite": true,
-       "selection": "San Francisco 49ers -9.5 (spread)",
-       "game": "Las Vegas Raiders @ San Francisco 49ers",
-       "line": -9.5,
+       "side": "away",
+       "prob": 0.5855,
+       "price": -108.0,
+       "pro_favorite": false,
+       "selection": "Tampa Bay Buccaneers +6.5 (spread)",
+       "game": "Tampa Bay Buccaneers @ Chicago Bears",
+       "line": 6.5,
        "grade_market": "spread"
       }
      ],
      "n_legs": 2,
-     "prob": 0.355,
-     "price": 268,
-     "break_even_prob": 0.272,
-     "break_even_price": 268,
-     "edge": 0.083,
+     "prob": 0.3974,
+     "price": 256,
+     "break_even_prob": 0.2811,
+     "break_even_price": 256,
+     "edge": 0.1163,
+     "edge_unit": "prob",
+     "tier": "Max Play",
+     "units": 0.5,
+     "same_game": false
+    },
+    {
+     "market": "parlay",
+     "legs": [
+      {
+       "game_id": "recHDkxCBaZIlSwOr",
+       "market_kind": "spread",
+       "side": "away",
+       "prob": 0.6787,
+       "price": -118.0,
+       "pro_favorite": true,
+       "selection": "Cincinnati Bengals -3.5 (spread)",
+       "game": "Cincinnati Bengals @ Atlanta Falcons",
+       "line": -3.5,
+       "grade_market": "spread"
+      },
+      {
+       "game_id": "recXCjQiLeySLkyov",
+       "market_kind": "spread",
+       "side": "home",
+       "prob": 0.573,
+       "price": -105.0,
+       "pro_favorite": true,
+       "selection": "New England Patriots -2.5 (spread)",
+       "game": "Green Bay Packers @ New England Patriots",
+       "line": -2.5,
+       "grade_market": "spread"
+      }
+     ],
+     "n_legs": 2,
+     "prob": 0.3889,
+     "price": 261,
+     "break_even_prob": 0.2772,
+     "break_even_price": 261,
+     "edge": 0.1117,
      "edge_unit": "prob",
      "tier": "Max Play",
      "units": 0.5,
@@ -10493,90 +10489,62 @@
      "market": "teaser",
      "legs": [
       {
-       "game_id": "recXyYRH9AMMQg1pZ",
+       "game_id": "rec67iuU19XZINd0s",
        "market_kind": "total",
        "side": "under",
-       "prob": 0.7846,
+       "prob": 0.7577,
        "price": null,
        "pro_favorite": false,
-       "selection": "Under 43.5 -> 49.5",
-       "game": "Denver Broncos @ Carolina Panthers",
-       "line": 49.5,
+       "selection": "Under 46.5 -> 52.5",
+       "game": "Chicago Bears @ Seattle Seahawks",
+       "line": 52.5,
        "grade_market": "teaser_leg",
        "kind": "total",
-       "base_line": 43.5
+       "base_line": 46.5
       },
       {
-       "game_id": "recKcedkU5YFxiAJf",
+       "game_id": "recXCjQiLeySLkyov",
        "market_kind": "total",
        "side": "under",
-       "prob": 0.7835,
+       "prob": 0.7444,
        "price": null,
        "pro_favorite": false,
        "selection": "Under 47.5 -> 53.5",
-       "game": "Los Angeles Rams @ Washington Commanders",
+       "game": "Green Bay Packers @ New England Patriots",
        "line": 53.5,
        "grade_market": "teaser_leg",
        "kind": "total",
        "base_line": 47.5
       },
       {
-       "game_id": "recxxiQBTGT35ug5w",
-       "market_kind": "spread",
-       "side": "home",
-       "prob": 0.7792,
+       "game_id": "recDLm706ogm3QMC0",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.7422,
        "price": null,
        "pro_favorite": false,
-       "selection": "Baltimore Ravens +8.5 -> +14.5",
-       "game": "Jacksonville Jaguars @ Baltimore Ravens",
-       "line": 14.5,
+       "selection": "Under 44.5 -> 50.5",
+       "game": "Arizona Cardinals @ Seattle Seahawks",
+       "line": 50.5,
        "grade_market": "teaser_leg",
-       "kind": "spread",
-       "base_line": 8.5
+       "kind": "total",
+       "base_line": 44.5
       }
      ],
      "n_legs": 3,
-     "prob": 0.479,
+     "prob": 0.4186,
      "price": 160.0,
      "break_even_prob": 0.3846,
      "break_even_price": 160,
-     "edge": 0.0944,
+     "edge": 0.034,
      "edge_unit": "prob",
-     "tier": "Max Play",
-     "units": 0.5,
+     "tier": "Lean",
+     "units": 0.25,
      "same_game": false
     },
     {
      "market": "teaser",
      "legs": [
-      {
-       "game_id": "recXyYRH9AMMQg1pZ",
-       "market_kind": "total",
-       "side": "under",
-       "prob": 0.7846,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Under 43.5 -> 49.5",
-       "game": "Denver Broncos @ Carolina Panthers",
-       "line": 49.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 43.5
-      },
-      {
-       "game_id": "recKcedkU5YFxiAJf",
-       "market_kind": "total",
-       "side": "under",
-       "prob": 0.7835,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Under 47.5 -> 53.5",
-       "game": "Los Angeles Rams @ Washington Commanders",
-       "line": 53.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 47.5
-      },
       {
        "game_id": "rec67iuU19XZINd0s",
        "market_kind": "total",
@@ -10590,84 +10558,26 @@
        "grade_market": "teaser_leg",
        "kind": "total",
        "base_line": 46.5
-      }
-     ],
-     "n_legs": 3,
-     "prob": 0.4658,
-     "price": 160.0,
-     "break_even_prob": 0.3846,
-     "break_even_price": 160,
-     "edge": 0.0812,
-     "edge_unit": "prob",
-     "tier": "Max Play",
-     "units": 0.5,
-     "same_game": false
-    },
-    {
-     "market": "teaser",
-     "legs": [
-      {
-       "game_id": "recXyYRH9AMMQg1pZ",
-       "market_kind": "total",
-       "side": "under",
-       "prob": 0.7846,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Under 43.5 -> 49.5",
-       "game": "Denver Broncos @ Carolina Panthers",
-       "line": 49.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 43.5
       },
       {
-       "game_id": "recKcedkU5YFxiAJf",
+       "game_id": "recXCjQiLeySLkyov",
        "market_kind": "total",
        "side": "under",
-       "prob": 0.7835,
+       "prob": 0.7444,
        "price": null,
        "pro_favorite": false,
        "selection": "Under 47.5 -> 53.5",
-       "game": "Los Angeles Rams @ Washington Commanders",
+       "game": "Green Bay Packers @ New England Patriots",
        "line": 53.5,
        "grade_market": "teaser_leg",
        "kind": "total",
        "base_line": 47.5
       },
       {
-       "game_id": "rec9cADXnbgcTxlCh",
-       "market_kind": "total",
-       "side": "under",
-       "prob": 0.7539,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Under 46.5 -> 52.5",
-       "game": "New York Jets @ Kansas City Chiefs",
-       "line": 52.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 46.5
-      }
-     ],
-     "n_legs": 3,
-     "prob": 0.4634,
-     "price": 160.0,
-     "break_even_prob": 0.3846,
-     "break_even_price": 160,
-     "edge": 0.0788,
-     "edge_unit": "prob",
-     "tier": "Strong Play",
-     "units": 0.5,
-     "same_game": false
-    },
-    {
-     "market": "teaser",
-     "legs": [
-      {
        "game_id": "recXyYRH9AMMQg1pZ",
        "market_kind": "total",
        "side": "under",
-       "prob": 0.7846,
+       "prob": 0.7419,
        "price": null,
        "pro_favorite": false,
        "selection": "Under 43.5 -> 49.5",
@@ -10676,21 +10586,22 @@
        "grade_market": "teaser_leg",
        "kind": "total",
        "base_line": 43.5
-      },
-      {
-       "game_id": "recxxiQBTGT35ug5w",
-       "market_kind": "spread",
-       "side": "home",
-       "prob": 0.7792,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Baltimore Ravens +8.5 -> +14.5",
-       "game": "Jacksonville Jaguars @ Baltimore Ravens",
-       "line": 14.5,
-       "grade_market": "teaser_leg",
-       "kind": "spread",
-       "base_line": 8.5
-      },
+      }
+     ],
+     "n_legs": 3,
+     "prob": 0.4185,
+     "price": 160.0,
+     "break_even_prob": 0.3846,
+     "break_even_price": 160,
+     "edge": 0.0338,
+     "edge_unit": "prob",
+     "tier": "Lean",
+     "units": 0.25,
+     "same_game": false
+    },
+    {
+     "market": "teaser",
+     "legs": [
       {
        "game_id": "rec67iuU19XZINd0s",
        "market_kind": "total",
@@ -10704,50 +10615,50 @@
        "grade_market": "teaser_leg",
        "kind": "total",
        "base_line": 46.5
-      }
-     ],
-     "n_legs": 3,
-     "prob": 0.4632,
-     "price": 160.0,
-     "break_even_prob": 0.3846,
-     "break_even_price": 160,
-     "edge": 0.0786,
-     "edge_unit": "prob",
-     "tier": "Strong Play",
-     "units": 0.5,
-     "same_game": false
-    },
-    {
-     "market": "teaser",
-     "legs": [
+      },
       {
-       "game_id": "recKcedkU5YFxiAJf",
+       "game_id": "recXCjQiLeySLkyov",
        "market_kind": "total",
        "side": "under",
-       "prob": 0.7835,
+       "prob": 0.7444,
        "price": null,
        "pro_favorite": false,
        "selection": "Under 47.5 -> 53.5",
-       "game": "Los Angeles Rams @ Washington Commanders",
+       "game": "Green Bay Packers @ New England Patriots",
        "line": 53.5,
        "grade_market": "teaser_leg",
        "kind": "total",
        "base_line": 47.5
       },
       {
-       "game_id": "recxxiQBTGT35ug5w",
-       "market_kind": "spread",
-       "side": "home",
-       "prob": 0.7792,
+       "game_id": "recHDkxCBaZIlSwOr",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.7407,
        "price": null,
        "pro_favorite": false,
-       "selection": "Baltimore Ravens +8.5 -> +14.5",
-       "game": "Jacksonville Jaguars @ Baltimore Ravens",
-       "line": 14.5,
+       "selection": "Under 51.5 -> 57.5",
+       "game": "Cincinnati Bengals @ Atlanta Falcons",
+       "line": 57.5,
        "grade_market": "teaser_leg",
-       "kind": "spread",
-       "base_line": 8.5
-      },
+       "kind": "total",
+       "base_line": 51.5
+      }
+     ],
+     "n_legs": 3,
+     "prob": 0.4178,
+     "price": 160.0,
+     "break_even_prob": 0.3846,
+     "break_even_price": 160,
+     "edge": 0.0332,
+     "edge_unit": "prob",
+     "tier": "Lean",
+     "units": 0.25,
+     "same_game": false
+    },
+    {
+     "market": "teaser",
+     "legs": [
       {
        "game_id": "rec67iuU19XZINd0s",
        "market_kind": "total",
@@ -10761,17 +10672,102 @@
        "grade_market": "teaser_leg",
        "kind": "total",
        "base_line": 46.5
+      },
+      {
+       "game_id": "recDLm706ogm3QMC0",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.7422,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Under 44.5 -> 50.5",
+       "game": "Arizona Cardinals @ Seattle Seahawks",
+       "line": 50.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 44.5
+      },
+      {
+       "game_id": "recXyYRH9AMMQg1pZ",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.7419,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Under 43.5 -> 49.5",
+       "game": "Denver Broncos @ Carolina Panthers",
+       "line": 49.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 43.5
       }
      ],
      "n_legs": 3,
-     "prob": 0.4626,
+     "prob": 0.4172,
      "price": 160.0,
      "break_even_prob": 0.3846,
      "break_even_price": 160,
-     "edge": 0.078,
+     "edge": 0.0326,
      "edge_unit": "prob",
-     "tier": "Strong Play",
-     "units": 0.5,
+     "tier": "Lean",
+     "units": 0.25,
+     "same_game": false
+    },
+    {
+     "market": "teaser",
+     "legs": [
+      {
+       "game_id": "rec67iuU19XZINd0s",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.7577,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Under 46.5 -> 52.5",
+       "game": "Chicago Bears @ Seattle Seahawks",
+       "line": 52.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 46.5
+      },
+      {
+       "game_id": "recXCjQiLeySLkyov",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.7444,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Under 47.5 -> 53.5",
+       "game": "Green Bay Packers @ New England Patriots",
+       "line": 53.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 47.5
+      },
+      {
+       "game_id": "recxxiQBTGT35ug5w",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.7386,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Under 43.5 -> 49.5",
+       "game": "Jacksonville Jaguars @ Baltimore Ravens",
+       "line": 49.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 43.5
+      }
+     ],
+     "n_legs": 3,
+     "prob": 0.4166,
+     "price": 160.0,
+     "break_even_prob": 0.3846,
+     "break_even_price": 160,
+     "edge": 0.032,
+     "edge_unit": "prob",
+     "tier": "Lean",
+     "units": 0.25,
      "same_game": false
     }
    ]
