@@ -12,6 +12,7 @@ on:
       - signal-desk/context_sync.py
       - signal-desk/calibrate.py
       - signal-desk/sigma_learning.py
+      - signal-desk/clv_learning.py
       - signal-desk/market_learning.py
       - signal-desk/learning_events.py
       - .github/workflows/context-calibrate.yml
