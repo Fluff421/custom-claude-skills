@@ -23,7 +23,10 @@ import re
 import situational as sit
 import weather as wx
 
-FACTOR_VERSION = 4
+FACTOR_VERSION = 5
+# v5: a starter listed OUT/QUESTIONABLE whose team already played without him (someone else led in passing last
+# game, tagged "[priced: ...]" by context_sync) adds no QB points: the line set after that game has priced it.
+# New absences still count, and picks they push above Lean are capped at Lean (picks.py, markets.py).
 
 # --- prior point values: spread points lost when a typical STARTER at the position is out -------------
 # Assumptions, not measurements. League-specific. See MODEL.md "Factors".
@@ -144,10 +147,13 @@ def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, 
     inj = parse_injuries(fields.get("Injury Notes"), today)
     # Verified quarterback starter checks (Grok feed) replace whatever the injury list says about that QB
     qbf = sit.qb_fractions(fields.get("QB Starter Note"))
+    # an absence the line already reflects (someone else led the team in passing last game) adds no points
+    priced = sit.qb_priced(fields.get("QB Starter Note"))
+    qb_out_new = {sd: v for sd, v in qbf.items() if v > 0 and sd not in priced}
     for side in ("home", "away"):
         if side in qbf:
             inj[side] = [e for e in inj[side] if e["pos"] != "QB"]
-            if qbf[side] > 0:
+            if side in qb_out_new:
                 inj[side].append({"name": "QB (starter check)", "pos": "QB", "status": "out", "weight": qbf[side], "stale": False})
         else:  # no starter check: at most one listed QB per team, valued as a backup
             qbs = [e for e in inj[side] if e["pos"] == "QB"]
@@ -175,7 +181,7 @@ def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, 
         "home_inj_pts": round(h_pts, 2), "away_inj_pts": round(a_pts, 2), "home_by_pos": h_det, "away_by_pos": a_det,
         "home_qb_listed": any(e["pos"] == "QB" for e in inj["home"]), "away_qb_listed": any(e["pos"] == "QB" for e in inj["away"]),
         "lookahead": la, "situ_points": pts, "situ_raw": round(situ_raw, 2), "situ_parts": {k: round(v, 2) for k, v in parts.items()}, "weather_sev": sev, "scales": sc,
-        "qb_feed": qbf, "qb_unverified": {sd: next(e["name"] for e in inj[sd] if e.get("unverified"))
+        "qb_feed": qbf, "qb_priced": priced, "qb_out_new": qb_out_new, "qb_unverified": {sd: next(e["name"] for e in inj[sd] if e.get("unverified"))
                                            for sd in ("home", "away") if any(e.get("unverified") for e in inj[sd])}, "weather": fields.get("Weather Note") or "", "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
         "note": "prior weights, unverified; see MODEL.md Factors",
     }

@@ -62,6 +62,7 @@ SIGMA_SEGMENTS = {lg: v.get("segments", {}) for lg, v in (sg.read_params().get("
 CLV_PARAMS = sg.read_params().get("clv") or {}
 CLV_TIER_MODE = os.environ.get("CLV_TIER_MODE", "shadow").strip().lower()
 LAST_CLV: dict = {}
+QB_OUT_NEW_CAP = os.environ.get("QB_OUT_NEW_CAP", "lean").strip().lower() != "off"
 
 
 def load_params(token: str) -> dict[str, dict]:
@@ -178,6 +179,13 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     qb_unv = ((x or {}).get("detail") or {}).get("qb_unverified") or {}
     if qb_unv and tier in ("Strong Play", "Max Play"):
         factor_note += f" | QB unverified ({', '.join(f'{k} {v}' for k, v in sorted(qb_unv.items()))}): {tier} capped at Lean"
+        tier = "Lean"
+    # a NEW quarterback absence (the team has not yet played without him) adds full QB points, but whether the
+    # line has already moved on the news is unknown and QB-adjusted picks have no closing-line record yet:
+    # cap at Lean (QB_OUT_NEW_CAP=off disables)
+    qb_new = ((x or {}).get("detail") or {}).get("qb_out_new") or {}
+    if qb_new and QB_OUT_NEW_CAP and tier in ("Strong Play", "Max Play"):
+        factor_note += f" | new QB absence ({', '.join(sorted(qb_new))}): {tier} capped at Lean"
         tier = "Lean"
     sigma, seg_used = sg.sigma_for(p["sigma"], vegas, (x or {}).get("detail"), SIGMA_SEGMENTS.get(league))
     prob = win_prob(edge, sigma)

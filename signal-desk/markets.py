@@ -30,6 +30,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sigma_learning as sg  # noqa: E402
+import situational as sit  # noqa: E402
 from statistics import NormalDist
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -163,7 +164,10 @@ def total_factor_points(f: dict, p: dict) -> tuple[float, list[str]]:
         pts += w
         why.append(f"weather {w:+.1f}")
     qb = f.get("QB Starter Note") or ""
+    priced = sit.qb_priced(qb)  # absences the line already reflects add nothing
     for side in ("HOME", "AWAY"):
+        if side.lower() in priced:
+            continue
         if f"{side} QB OUT" in qb:
             pts -= p["total_qb_out_pts"]
             why.append(f"{side.lower()} QB out {-p['total_qb_out_pts']:+.1f}")
@@ -197,6 +201,14 @@ def cover(mean_team: float, line: float, sigma: float, league: str) -> tuple[flo
 
 def tier_for(edge: float, lean: float, strong: float, mx: float) -> str:
     return "Max Play" if edge >= mx else "Strong Play" if edge >= strong else "Lean" if edge >= lean else "No Play"
+
+
+def qb_new_cap(tier: str, f: dict) -> str:
+    """Same rule as picks.py: a new quarterback absence keeps the pick at Lean or below."""
+    if tier in ("Strong Play", "Max Play") and (_detail(f).get("qb_out_new") or {}) and \
+            os.environ.get("QB_OUT_NEW_CAP", "lean").strip().lower() != "off":
+        return "Lean"
+    return tier
 
 
 def project_game(f: dict, odds: dict | None, p: dict, factor_live: bool = False) -> dict:
@@ -293,7 +305,7 @@ def moneyline_pick(f: dict, proj: dict, odds: dict | None, p: dict) -> dict | No
     eh, ea = ph - be_prob(hp), (1 - ph) - be_prob(ap)
     home = eh >= ea
     edge, prob, price = (eh, ph, hp) if home else (ea, 1 - ph, ap)
-    tier = tier_for(edge, p["lean_ml"], p["strong_ml"], p["max_ml"])
+    tier = qb_new_cap(tier_for(edge, p["lean_ml"], p["strong_ml"], p["max_ml"]), f)
     team = f.get("Home Team") if home else f.get("Away Team")
     return {"market": "moneyline", "side": "home" if home else "away", "team": team, "line": 0.0, "price": price,
             "price_estimated": est, "proj": round(M, 2), "prob": round(prob, 4), "edge": round(edge, 4), "edge_unit": "prob",
@@ -309,7 +321,7 @@ def total_pick(f: dict, proj: dict, odds: dict | None, p: dict) -> dict | None:
     over = T >= L
     prob = shrink_prob(ND.cdf((T - L) / sigma) if over else ND.cdf((L - T) / sigma), "total", p)
     edge = abs(T - L)
-    tier = tier_for(edge, p["lean_total"], p["strong_total"], p["max_total"])
+    tier = qb_new_cap(tier_for(edge, p["lean_total"], p["strong_total"], p["max_total"]), f)
     price = PARLAY_LEG_PRICE
     if odds:
         price = odds.get("over_odds" if over else "under_odds") or price

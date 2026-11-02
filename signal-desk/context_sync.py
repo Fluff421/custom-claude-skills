@@ -22,6 +22,7 @@ import weather as wxm
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 LOOKAHEAD_GAP = 8.0
+CENTRAL = __import__("zoneinfo").ZoneInfo("America/Chicago")
 
 
 def team_schedule(league: str, team_id: str, key: str, season: int | None = None) -> list[dict]:
@@ -48,13 +49,53 @@ def team_schedule(league: str, team_id: str, key: str, season: int | None = None
         except Exception:  # noqa: BLE001
             continue
         out.append({
-            "date": when, "state": status.get("state"), "completed": status.get("completed", False),
+            "id": str(ev.get("id") or ""), "date": when, "state": status.get("state"), "completed": status.get("completed", False),
             "me": side, "opp": opp, "opp_name": ((opp or {}).get("team") or {}).get("displayName", "?"),
             "opp_id": str(((opp or {}).get("team") or {}).get("id") or ""),
             "home_away": side.get("homeAway"), "neutral": bool(comp.get("neutralSite")),
             "venue_state": ((((comp.get("venue") or {}).get("address")) or {}).get("state")),
         })
     return sorted(out, key=lambda g: g["date"])
+
+
+def leading_passer(summary: dict, team_id: str) -> str:
+    """Name of the team's leader in pass attempts in an ESPN game summary ("" if not found)."""
+    best, best_att = "", -1
+    for tp in ((summary.get("boxscore") or {}).get("players") or []):
+        if str((tp.get("team") or {}).get("id")) != str(team_id):
+            continue
+        for st in tp.get("statistics") or []:
+            if st.get("name") != "passing":
+                continue
+            labels = [str(x).upper() for x in st.get("labels") or []]
+            i = labels.index("C/ATT") if "C/ATT" in labels else 0
+            for a in st.get("athletes") or []:
+                try:
+                    att = int(str((a.get("stats") or [])[i]).split("/")[1])
+                except (IndexError, ValueError):
+                    continue
+                name = ((a.get("athlete") or {}).get("displayName") or "").strip()
+                if name and name.lower() != "team" and att > best_att:
+                    best, best_att = name, att
+    return best
+
+
+def last_game_passer(league: str, schedule: list[dict], before, key: str, cache: dict, team_id: str) -> tuple[str, str] | None:
+    """(leading passer, date) of the team's last completed game before `before`; None if unknown."""
+    if team_id in cache:
+        return cache[team_id]
+    done = [g for g in schedule if g.get("completed") and g.get("id") and (before is None or g["date"] < before)]
+    res = None
+    if done:
+        g = done[-1]
+        try:
+            summ = es.parse_json(es.scrape(f"{es.ESPN}/{'nfl' if league == 'NFL' else 'college-football'}/summary?event={g['id']}", key))
+            name = leading_passer(summ, team_id)
+            res = (name, g["date"].astimezone(CENTRAL).strftime("%Y-%m-%d")) if name else None
+        except Exception as exc:  # noqa: BLE001
+            es.warn(f"last-game passer for team {team_id} failed: {exc}")
+    cache[team_id] = res
+    return res
 
 
 def _score(side) -> float:
@@ -178,6 +219,7 @@ def main() -> None:
         qb_rows = load_qb_feed(league)          # Grok-verified rows first, so they win over automatic ones
         nfl_inj = es.load_nfl_injuries(key) if league == "NFL" else {}
         qb_done: set[str] = set()
+        passer_cache: dict = {}
         for r in lrows:
             f = r["fields"]
             hit = es.match_event(r, events)
@@ -256,6 +298,16 @@ def main() -> None:
             except Exception as exc:  # noqa: BLE001
                 es.warn(f"{f.get('Game')}: situational context skipped: {exc}")
             qn = sit.qb_note(qb_rows, f.get("Home Team", ""), f.get("Away Team", ""), es.norm)
+            if qn and (" QB OUT " in qn or " QB QUESTIONABLE " in qn):
+                # already priced? someone other than the listed starter led the team in passing last game
+                passers = {}
+                for label in ("Home", "Away"):
+                    if f"{label.upper()} QB OUT" in qn or f"{label.upper()} QB QUESTIONABLE" in qn:
+                        if label in ids:
+                            pas = last_game_passer(league, schedules[ids[label]], kickoff, key, passer_cache, ids[label])
+                            if pas:
+                                passers[label.lower()] = pas
+                qn = sit.annotate_priced(qn, passers, es.norm)
             if qn:
                 new["QB Starter Note"] = qn
             # look-ahead: next opponent much stronger than today's opponent
