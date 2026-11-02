@@ -14,7 +14,9 @@ import urllib.request
 
 ESPN_NFL = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 ESPN_CFB = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&limit=300"
-LOOKBACK_DAYS = 10  # board rows have no date we rely on, so search recent finals day by day
+LOOKBACK_DAYS = 10  # recent finals, day by day; older rows are also searched on their own Kickoff date
+KICKOFF_PAD_DAYS = 1  # ESPN files late kickoffs under the Eastern date; search the day before and after too
+DRY_RUN = os.environ.get("BIM_GRADE_DRY_RUN", "0").strip() == "1"  # print what would be written, write nothing
 REQUIRED_ENV = ("AIRTABLE_TOKEN", "AIRTABLE_BASE_ID", "AIRTABLE_TABLE_ID")
 ALIASES = {
     "MISS": {"MISS", "OLE MISS", "OM", "REBELS"},
@@ -22,6 +24,11 @@ ALIASES = {
     "M-OH": {"M-OH", "MIAOH", "MIAMI OH"},
     "WSH": {"WSH", "WAS"},
     "LV": {"LV", "LVRA"},
+    # board label -> ESPN college abbreviation (found on the stuck Sept 19 rows)
+    "GAST": {"GAST", "GSU", "GA ST"},
+    "NCSU": {"NCSU", "NCST"},
+    "RUTG": {"RUTG", "RUT"},
+    "MER": {"MER", "MERC"},
 }
 
 
@@ -99,11 +106,22 @@ def lookback_dates(today: dt.date | None = None) -> list[str]:
     return [(today - dt.timedelta(days=n)).strftime("%Y%m%d") for n in range(LOOKBACK_DAYS)]
 
 
-def espn_finals_window(url: str) -> list[dict]:
-    """Finals for each of the last LOOKBACK_DAYS days (the bare scoreboard only shows ESPN's current window)."""
+def kickoff_dates(fields: dict) -> list[str]:
+    """ESPN date keys (YYYYMMDD) to search for one board row, from Kickoff UTC or the Kickoff text."""
+    raw = (fields.get("Kickoff UTC") or fields.get("Kickoff") or "").strip()
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if not m:
+        return []
+    day = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    return [(day + dt.timedelta(days=n)).strftime("%Y%m%d") for n in range(-KICKOFF_PAD_DAYS, KICKOFF_PAD_DAYS + 1)]
+
+
+def espn_finals_window(url: str, extra_dates: set[str] | None = None) -> list[dict]:
+    """Finals for each of the last LOOKBACK_DAYS days plus any row-specific kickoff dates
+    (the bare scoreboard only shows ESPN's current window, so older rows need their own date)."""
     sep = "&" if "?" in url else "?"
     finals: list[dict] = []
-    for day in lookback_dates():
+    for day in sorted(set(lookback_dates()) | (extra_dates or set())):
         finals.extend(espn_finals(f"{url}{sep}dates={day}"))
     return finals
 
@@ -136,9 +154,12 @@ def airtable_headers(token: str) -> dict:
     return {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
 
+OPEN_FORMULA = "AND({Status}!='Graded',{Status}!='No bet',{Result}='',{Game}!='No bet',{Game}!='')"
+
+
 def list_open_records(base_id: str, table_id: str, token: str) -> list[dict]:
     records, offset = [], None
-    formula = urllib.parse.quote("AND({Status}!='Graded',{Result}='',{Game}!='No bet',{Game}!='')")
+    formula = urllib.parse.quote(OPEN_FORMULA)  # Status 'No bet' rows are skipped picks, not games to grade
     table = urllib.parse.quote(table_id, safe="")
     while True:
         url = f"https://api.airtable.com/v0/{base_id}/{table}?filterByFormula={formula}&pageSize=100"
@@ -166,11 +187,23 @@ def write_summary(lines: list[str]) -> None:
             handle.write("## BIM score grader\n\n" + "\n".join(f"- {line}" for line in lines) + "\n")
 
 
+def league_finals(fields: dict, nfl: list[dict], cfb: list[dict]) -> list[dict]:
+    """Match a row only against its own league's finals; rows with no League search both."""
+    league = (fields.get("League") or "").strip().upper()
+    return nfl if league == "NFL" else cfb if league == "NCAAF" else nfl + cfb
+
+
 def main() -> None:
     token, base_id, table_id = require_env()
-    finals = espn_finals_window(ESPN_NFL) + espn_finals_window(ESPN_CFB)
     open_records = list_open_records(base_id, table_id, token)
-    updated, unmatched, ambiguous = 0, [], []
+    dates = {"NFL": set(), "NCAAF": set()}
+    for record in open_records:
+        fields = record.get("fields") or {}
+        for key in (["NFL"] if fields.get("League") == "NFL" else ["NCAAF"] if fields.get("League") == "NCAAF" else ["NFL", "NCAAF"]):
+            dates[key].update(kickoff_dates(fields))
+    nfl, cfb = espn_finals_window(ESPN_NFL, dates["NFL"]), espn_finals_window(ESPN_CFB, dates["NCAAF"])
+    finals = nfl + cfb
+    updated, unmatched, ambiguous, unfound = 0, [], [], []
     for record in open_records:
         fields = record.get("fields") or {}
         game = fields.get("Game", "")
@@ -179,8 +212,10 @@ def main() -> None:
             unmatched.append(game or record["id"])
             continue
         away, home = parsed
-        matches = [item for item in finals if same_team(away, item["away"]) and same_team(home, item["home"])]
+        pool = league_finals(fields, nfl, cfb)
+        matches = [item for item in pool if same_team(away, item["away"]) and same_team(home, item["home"])]
         if not matches:
+            unfound.append(game)
             continue
         if len({item["result"] for item in matches}) > 1:  # same matchup played twice in the window
             ambiguous.append(game)
@@ -189,17 +224,22 @@ def main() -> None:
         note = (fields.get("CLV note") or "").rstrip()
         if "Auto-graded from ESPN." not in note and "Auto-graded from ESPN via WebScraping.AI." not in note:
             note = (note + " Auto-graded from ESPN.").strip()
-        update_record(base_id, table_id, record["id"], token, match["result"], note)
-        print(f"graded {game} -> {match['result']}")
+        if DRY_RUN:
+            print(f"DRY RUN would grade {record['id']} {game} -> {match['result']}")
+        else:
+            update_record(base_id, table_id, record["id"], token, match["result"], note)
+            print(f"graded {game} -> {match['result']}")
         updated += 1
     summary = [
-        "Mode: LIVE",
-        f"Rows updated: {updated}",
+        "Mode: " + ("DRY RUN (no writes)" if DRY_RUN else "LIVE"),
+        f"Rows updated: {0 if DRY_RUN else updated}",
         "Score source: ESPN scoreboard JSON (direct)",
-        f"ESPN finals found (last {LOOKBACK_DAYS} days): {len(finals)}",
+        f"ESPN finals found (last {LOOKBACK_DAYS} days + {len(dates['NFL'] | dates['NCAAF'])} kickoff dates): {len(finals)}",
         f"Ungraded Airtable records scanned: {len(open_records)}",
         f"Records auto-graded: {updated}",
     ]
+    if unfound:
+        summary.append("No ESPN final found yet (check alias or date): " + ", ".join(unfound[:20]))
     if ambiguous:
         summary.append("Skipped (same matchup twice in the window, grade by hand): " + ", ".join(ambiguous[:20]))
     if unmatched:
