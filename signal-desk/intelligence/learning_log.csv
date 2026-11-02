@@ -1,1 +1,3 @@
 date,league,market,setting,old,new,evidence,sample_size,source
+2026-11-02,NCAAF,spread,Sigma,20,14.94,"55 graded spread picks; learned residual SD, shrunk to prior, step-limited",2377,calibrate.py
+2026-11-02,NFL,spread,Sigma,,12.4,"13 graded spread picks; learned residual SD, shrunk to prior, step-limited",681,calibrate.py

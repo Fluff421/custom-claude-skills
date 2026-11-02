@@ -1,0 +1,210 @@
+{
+ "clv": {
+  "NCAAF": {
+   "forward": {
+    "corr": null,
+    "lo90": null,
+    "n": 0,
+    "ready": false
+   },
+   "gate": {
+    "Lean": {
+     "mean": 0.061,
+     "n": 33,
+     "se": 0.269,
+     "status": "unproven"
+    },
+    "Max Play": {
+     "mean": -0.273,
+     "n": 11,
+     "se": 0.246,
+     "status": "unproven"
+    },
+    "Strong Play": {
+     "mean": 1.364,
+     "n": 11,
+     "se": 0.588,
+     "status": "unproven"
+    }
+   },
+   "model": {
+    "coef": {
+     "edge": 0.0372,
+     "inj": 0.0,
+     "lookahead": 0.0,
+     "rest": 0.0,
+     "revenge": 0.0,
+     "travel": 0.0,
+     "weather": 0.0
+    },
+    "history": {
+     "n": 2189,
+     "se": 0.0116,
+     "slope": 0.0832
+    },
+    "n": 47,
+    "noise_sd": 1.644,
+    "nonzero": {
+     "edge": 47,
+     "inj": 0,
+     "lookahead": 0,
+     "rest": 0,
+     "revenge": 0,
+     "travel": 0,
+     "weather": 0
+    },
+    "note": "fitted on 47 graded picks; active features: edge",
+    "ok": true,
+    "prior": {
+     "edge": 0.0832,
+     "inj": 0.0,
+     "lookahead": 0.0,
+     "rest": 0.0,
+     "revenge": 0.0,
+     "travel": 0.0,
+     "weather": 0.0
+    }
+   },
+   "updated": "2026-11-02T20:39:11.000Z"
+  },
+  "NFL": {
+   "forward": {
+    "corr": null,
+    "lo90": null,
+    "n": 0,
+    "ready": false
+   },
+   "gate": {
+    "Lean": {
+     "mean": 0.438,
+     "n": 8,
+     "se": 0.383,
+     "status": "unproven"
+    },
+    "Max Play": {
+     "mean": null,
+     "n": 0,
+     "se": null,
+     "status": "unproven"
+    },
+    "Strong Play": {
+     "mean": -0.75,
+     "n": 2,
+     "se": 0.25,
+     "status": "unproven"
+    }
+   },
+   "model": {
+    "coef": {
+     "edge": 0.2008,
+     "inj": 0.0,
+     "lookahead": 0.0,
+     "rest": 0.0,
+     "revenge": 0.0,
+     "travel": 0.0,
+     "weather": 0.0
+    },
+    "history": {
+     "n": 554,
+     "se": 0.0335,
+     "slope": 0.2008
+    },
+    "n": 13,
+    "noise_sd": null,
+    "nonzero": {
+     "edge": 13,
+     "inj": 4,
+     "lookahead": 2,
+     "rest": 1,
+     "revenge": 1,
+     "travel": 0,
+     "weather": 0
+    },
+    "note": "13 graded picks with CLV (< 30); using the history prior on edge only",
+    "ok": false,
+    "prior": {
+     "edge": 0.2008,
+     "inj": 0.0,
+     "lookahead": 0.0,
+     "rest": 0.0,
+     "revenge": 0.0,
+     "travel": 0.0,
+     "weather": 0.0
+    }
+   },
+   "updated": "2026-11-02T20:39:11.000Z"
+  }
+ },
+ "sigma": {
+  "NCAAF": {
+   "n_eff": 2377.8,
+   "n_ledger": 55,
+   "raw": 14.94,
+   "reason": "current 20 outside 12.0-18.0; reset to learned value",
+   "segments": {
+    "big_spread": {
+     "applied": true,
+     "mult": 1.001,
+     "n": 1514,
+     "sd": 14.95
+    },
+    "injury_heavy": {
+     "applied": false,
+     "mult": 1.0,
+     "n": 0,
+     "sd": null
+    },
+    "qb_uncertain": {
+     "applied": false,
+     "mult": 1.0,
+     "n": 0,
+     "sd": null
+    },
+    "weather": {
+     "applied": false,
+     "mult": 1.0,
+     "n": 0,
+     "sd": null
+    }
+   },
+   "sigma": 14.94,
+   "target": 14.94,
+   "updated": "2026-11-02T20:39:11.000Z"
+  },
+  "NFL": {
+   "n_eff": 681.9,
+   "n_ledger": 13,
+   "raw": 12.39,
+   "reason": "current None outside 10.0-15.0; reset to learned value",
+   "segments": {
+    "big_spread": {
+     "applied": false,
+     "mult": 1.0,
+     "n": 19,
+     "sd": null
+    },
+    "injury_heavy": {
+     "applied": false,
+     "mult": 1.0,
+     "n": 1,
+     "sd": null
+    },
+    "qb_uncertain": {
+     "applied": false,
+     "mult": 1.0,
+     "n": 0,
+     "sd": null
+    },
+    "weather": {
+     "applied": false,
+     "mult": 1.0,
+     "n": 0,
+     "sd": null
+    }
+   },
+   "sigma": 12.4,
+   "target": 12.4,
+   "updated": "2026-11-02T20:39:11.000Z"
+  }
+ }
+}
