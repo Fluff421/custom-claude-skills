@@ -23,7 +23,7 @@ import re
 import situational as sit
 import weather as wx
 
-FACTOR_VERSION = 3
+FACTOR_VERSION = 4
 
 # --- prior point values: spread points lost when a typical STARTER at the position is out -------------
 # Assumptions, not measurements. League-specific. See MODEL.md "Factors".
@@ -35,8 +35,11 @@ TEAM_CAP = {"NFL": 9.0, "NCAAF": 8.0}  # most a single team's injury list can mo
 # Probability the player misses the game, by reported status.
 STATUS_WEIGHT = {"out": 1.0, "ir": 1.0, "doubtful": 0.75, "questionable": 0.25, "dtd": 0.2, "probable": 0.05}
 # Lists include backups and depth players we cannot tell apart from starters. Non-QB listings are
-# discounted for that; QBs are not (a listed QB is checked separately by the starter-check feed).
+# discounted for that. A listed QB gets the starter value only through the starter-check feed (ESPN depth chart
+# or Grok, `QB Starter Note`). Without a check for that team, only the most likely-to-miss listed QB counts, at
+# backup value: injury lists name backups and long-term IR quarterbacks, and they used to stack at 4 points each.
 NON_QB_STARTER_PROB = 0.6
+QB_UNVERIFIED_POINTS = {"NFL": 0.5, "NCAAF": 0.5}
 STALE_DAYS = 10          # aggregator-only entry older than this is mostly stale
 STALE_DISCOUNT = 0.3
 LOOKAHEAD_POINTS = {"NFL": 0.5, "NCAAF": 1.0}  # prior: points lost by the team flagged as looking ahead
@@ -108,7 +111,10 @@ def team_points(entries: list[dict], league: str) -> tuple[float, dict]:
     table = POS_POINTS.get(league, POS_POINTS["NCAAF"])
     total, detail = 0.0, {}
     for e in entries:
-        pts = table[e["pos"]] * e["weight"] * (1.0 if e["pos"] == "QB" else NON_QB_STARTER_PROB)
+        if e["pos"] == "QB" and e.get("unverified"):
+            pts = QB_UNVERIFIED_POINTS.get(league, 0.5) * e["weight"]
+        else:
+            pts = table[e["pos"]] * e["weight"] * (1.0 if e["pos"] == "QB" else NON_QB_STARTER_PROB)
         if e["stale"]:
             pts *= STALE_DISCOUNT
         total += pts
@@ -143,6 +149,11 @@ def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, 
             inj[side] = [e for e in inj[side] if e["pos"] != "QB"]
             if qbf[side] > 0:
                 inj[side].append({"name": "QB (starter check)", "pos": "QB", "status": "out", "weight": qbf[side], "stale": False})
+        else:  # no starter check: at most one listed QB per team, valued as a backup
+            qbs = [e for e in inj[side] if e["pos"] == "QB"]
+            if qbs:
+                keep = max(qbs, key=lambda e: e["weight"] * (STALE_DISCOUNT if e["stale"] else 1.0))
+                inj[side] = [e for e in inj[side] if e["pos"] != "QB"] + [{**keep, "unverified": True}]
     inj["parsed"] = inj["parsed"] or bool(qbf)
     h_pts, h_det = team_points(inj["home"], league)
     a_pts, a_det = team_points(inj["away"], league)
@@ -164,7 +175,8 @@ def compute(fields: dict, today: dt.date, now_iso: str, scale_inj: float = 1.0, 
         "home_inj_pts": round(h_pts, 2), "away_inj_pts": round(a_pts, 2), "home_by_pos": h_det, "away_by_pos": a_det,
         "home_qb_listed": any(e["pos"] == "QB" for e in inj["home"]), "away_qb_listed": any(e["pos"] == "QB" for e in inj["away"]),
         "lookahead": la, "situ_points": pts, "situ_raw": round(situ_raw, 2), "situ_parts": {k: round(v, 2) for k, v in parts.items()}, "weather_sev": sev, "scales": sc,
-        "qb_feed": qbf, "weather": fields.get("Weather Note") or "", "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
+        "qb_feed": qbf, "qb_unverified": {sd: next(e["name"] for e in inj[sd] if e.get("unverified"))
+                                           for sd in ("home", "away") if any(e.get("unverified") for e in inj[sd])}, "weather": fields.get("Weather Note") or "", "scale_inj": scale_inj, "scale_situ": scale_situ, "model": round(model, 2), "vegas": vegas,
         "note": "prior weights, unverified; see MODEL.md Factors",
     }
     return {
