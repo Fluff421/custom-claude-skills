@@ -202,3 +202,14 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-02T22:49:44+00:00,recn4eMltluLCqzUN,401873050,NFL,Tampa Bay Buccaneers @ Chicago Bears,2026-11-08,Draft Kings,4.5,47.5,-225,185,-112.0,-108.0,100.0,-120.0,3.5
 2026-11-02T22:49:44+00:00,recpV04pDIm5n9D0B,401873044,NFL,New York Giants @ Philadelphia Eagles,2026-11-08,Draft Kings,-3.5,40.5,142,-170,-118.0,-102.0,-102.0,-118.0,5.5
 2026-11-02T22:49:44+00:00,recxxiQBTGT35ug5w,401873037,NFL,Jacksonville Jaguars @ Baltimore Ravens,2026-11-05,Draft Kings,-8.5,42.5,310,-395,-115.0,-105.0,-115.0,-105.0,4.5
+2026-11-02T23:24:37+00:00,rec68l7QbJFDv1SXf,401873042,NFL,Detroit Lions @ Miami Dolphins,2026-11-08,Draft Kings,-7.0,50.5,285,-360,-112.0,-108.0,-105.0,-115.0,-6.5
+2026-11-02T23:24:37+00:00,rec9cADXnbgcTxlCh,401873045,NFL,New York Jets @ Kansas City Chiefs,2026-11-08,Draft Kings,9.5,46.5,-485,370,-112.0,-108.0,-110.0,-110.0,9.5
+2026-11-02T23:24:37+00:00,recDLm706ogm3QMC0,401873048,NFL,Arizona Cardinals @ Seattle Seahawks,2026-11-08,Draft Kings,11.5,44.5,-800,550,-110.0,-110.0,-110.0,-110.0,13.5
+2026-11-02T23:24:37+00:00,recHDkxCBaZIlSwOr,401873038,NFL,Cincinnati Bengals @ Atlanta Falcons,2026-11-08,Draft Kings,-3.0,52.5,140,-166,-105.0,-115.0,-102.0,-118.0,-4.5
+2026-11-02T23:24:37+00:00,recJzdY7k6kSwOEpL,401871076,NCAAF,Western Kentucky @ Middle Tennessee,2026-11-07,Draft Kings,1.5,53.5,-112,-108,-105.0,-115.0,-108.0,-112.0,1.5
+2026-11-02T23:24:37+00:00,recKcedkU5YFxiAJf,401873043,NFL,Los Angeles Rams @ Washington Commanders,2026-11-08,Draft Kings,-5.5,47.5,185,-225,-108.0,-112.0,-112.0,-108.0,-4.5
+2026-11-02T23:24:37+00:00,recV124oMwCNWjV8V,401873040,NFL,Dallas Cowboys @ Indianapolis Colts,2026-11-08,Draft Kings,-6.0,51.5,220,-270,-110.0,-110.0,-110.0,-110.0,-1.5
+2026-11-02T23:24:37+00:00,recXCjQiLeySLkyov,401873049,NFL,Green Bay Packers @ New England Patriots,2026-11-08,Draft Kings,3.0,46.5,-155,130,-105.0,-115.0,-115.0,-105.0,1.5
+2026-11-02T23:24:37+00:00,recdkQkR4GMOnknyU,401873047,NFL,Las Vegas Raiders @ San Francisco 49ers,2026-11-08,Draft Kings,10.0,51.5,-550,410,-108.0,-112.0,-115.0,-105.0,8.5
+2026-11-02T23:24:37+00:00,recn4eMltluLCqzUN,401873050,NFL,Tampa Bay Buccaneers @ Chicago Bears,2026-11-08,Draft Kings,4.5,47.5,-225,185,-115.0,-105.0,100.0,-120.0,3.5
+2026-11-02T23:24:37+00:00,recxxiQBTGT35ug5w,401873037,NFL,Jacksonville Jaguars @ Baltimore Ravens,2026-11-05,Draft Kings,-8.5,42.5,320,-410,-115.0,-105.0,-115.0,-105.0,4.5
