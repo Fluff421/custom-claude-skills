@@ -1,45 +1,33 @@
-# Injury and Quarterback Notes — 2026-11-01
+# Injury and Quarterback Starter Notes — 2026-11-01
+Checked ~9:45 PM CST 2026-11-01. Confirmed facts only; unconfirmed where noted. Sources and times included.
 
-Checked: 2026-11-01 ~23:15 UTC. Confirmed facts only. Sources noted. Unconfirmed marked. Paper picks only; no advice.
+## Philadelphia Eagles @ Washington Commanders (SNF, Nov 1 ~8:20 PM ET)
+- **Away (PHI) QB:** Tanner McKee (confirmed starter; Jalen Hurts on IR for season due to blood clots in lungs, out indefinitely). Source: multiple reports including PhillyVoice, NBC Sports Philly inactives; checked 2026-11-01 ~21:00 CST. Backup: Cole Payton / Joe Milton available.
+- **Home (WAS) QB:** Jayden Daniels (confirmed starter, full practice all week, no game designation). Source: Commanders injury reports, SI, Hogs Haven; checked 2026-11-01. Backup Marcus Mariota available (returned from knee).
+- **Key injuries PHI:** WR DeVonta Smith OUT (hamstring), WR Dontayvion Wicks OUT (ankle), WR Britain Covey OUT (knee), LB Jihaad Campbell OUT (hamstring/quad), CB Jonathan Jones OUT (hamstring). RB Saquon Barkley ACTIVE (hamstring, limited practice). Source: Eagles inactives, thesportswire.net, CBS; 2026-11-01.
+- **Key injuries WAS:** DT Daron Payne OUT (foot, season-ending fracture), DT Javon Kinlaw OUT (knee). Source: Commanders inactives, Commanders Wire; 2026-11-01.
+- **Weather:** ~52°F, clear, light wind ~4 mph, 0% precip. Source: footballdb.com weather; checked 2026-11-01.
+- **Market effects:** PHI backup QB (McKee) and missing top WRs lowers PHI scoring expectation (total ↓, spreads toward WAS, ML toward WAS). WAS missing starting DTs weakens pass rush (slight total ↑, spread toward PHI). Net: lower total likely; spread/ML favor WAS relative to pre-injury.
 
-## Philadelphia Eagles @ Washington Commanders (SNF, 2026-11-01 8:20 PM ET, Northwest Stadium)
+## Chicago Bears @ Seattle Seahawks (MNF, Nov 2 ~8:15 PM ET)
+- **Away (CHI) QB:** Caleb Williams (confirmed starter; no significant injury). Source: depth charts, ESPN, FOX; checked 2026-11-01.
+- **Home (SEA) QB:** Sam Darnold (confirmed starter; Drew Lock questionable elbow but not expected to start). Source: injury reports, ESPN; checked 2026-11-01.
+- **Key injuries CHI:** RB Kyle Monangai OUT (thumb/toe). LB D'Marco Jackson questionable (ankle), DB Malik Muhammad questionable (toe). Source: sharpfootballanalysis, thesportswire, FOX; 2026-11-01.
+- **Key injuries SEA:** OT Charles Cross OUT (ankle), WR Rashid Shaheed OUT (knee), RB Velus Jones Jr. OUT (hamstring). LB Uchenna Nwosu Doubtful (ankle). RB Zach Charbonnet returning. Source: Field Gulls, spokesman.com, FOX; 2026-11-01.
+- **Weather:** ~51°F, cloudy, light wind 1-4 mph, 0% precip. Source: mysportsweather, NWS, footballdb; checked 2026-11-01.
+- **Market effects:** SEA missing starting LT and WR lowers SEA scoring and protection (total ↓, spread toward CHI, ML toward CHI). CHI missing backup RB minor. Net: lower total; slight edge to CHI on spread/ML.
 
-**Starting QBs**  
-- Home (WAS): Jayden Daniels — confirmed starter, full practice all week, no game designation. Source: Commanders.com injury report / team announcements, checked ~23:00 UTC.  
-- Away (PHI): Tanner McKee — confirmed starter (Jalen Hurts on IR for season with blood clots). Source: Eagles Wire / team reports, checked ~23:00 UTC.
+## Jacksonville Jaguars @ Baltimore Ravens (TNF, Nov 5)
+- **Away (JAX) QB:** Trevor Lawrence (confirmed starter; played full role in Week 8 win vs IND, 10/14 210 yds 3 TD). Source: game logs, Rotowire, CBS; checked 2026-11-01. No current significant injury designation found.
+- **Home (BAL) QB:** Unconfirmed. Lamar Jackson OUT (thumb injury on first play vs Bills, will undergo surgery and placed on IR, miss at least 4 games, potentially season-ending per coach Minter). Tyler Huntley OUT in game (toe), status uncertain for Thursday (MRI reported). Joe Fagnano played remainder of Bills game (undrafted rookie). Source: Ravens official, CBS, Athletic, Reuters; 2026-11-01 post-game. Depth may be added.
+- **Key injuries:** BAL multiple OL/S out from prior; JAX minor from recent. Specific Thursday designations not yet fully posted.
+- **Weather:** Indoor or mild expected; unconfirmed specific.
+- **Market effects:** BAL losing elite QB Jackson (and possibly Huntley) to backup/emergency significantly lowers BAL scoring and competitiveness (total ↓↓, spread/ML strongly toward JAX). QB out lowers total as well as moving spread and moneyline.
 
-**Key injuries**  
-- PHI OUT: WR DeVonta Smith (hamstring), WR Dontayvion Wicks (ankle), WR Britain Covey (knee), LB Jihaad Campbell (hamstring/quad), CB Jonathan Jones (hamstring). CB Jakorian Bennett (knee) questionable. RB Saquon Barkley (hamstring/back) no designation, expected to play (returned to limited practice Friday). Source: NFL.com / Eagles final injury report / PhillyVoice, checked ~23:00 UTC.  
-- WAS OUT: DT Javon Kinlaw (knee), DT Daron Payne (foot), DT Jer'Zhan Newton (pectoral). QUESTIONABLE: TE John Bates (shoulder), WR Treylon Burks (foot). Source: Commanders.com / NFL.com / AP, checked ~23:00 UTC.
+## Other NFL games (Nov 1 remaining or recent closed; status for next slate)
+Many Sunday games completed. Notable: Ravens lost both QBs in-game vs Bills (see above). Other starters largely confirmed as expected where games played. For Week 9+ games (Nov 8+), official reports begin Wed Nov 4; current designations unconfirmed beyond prior.
 
-**Weather**  
-Landover, MD: ~11°C (52°F), wind ~7 mph, no precipitation, mostly clear. Source: forecast data, checked 2026-11-01 23:15 UTC. No material scoring impact.
+## NCAAF games (Nov 3–8)
+62 games listed. Detailed official conference availability reports and team announcements for most midweek and early weekend games not fully available or sparse as of check. Key starters largely expected per recent form; no widespread confirmed major QB changes found in quick scans of Covers/DraftEdge-style sources. Unconfirmed for specific injury impacts. Weather generally mild/fall conditions; no extreme scoring-altering weather widely reported for this window.
 
-**Market effects**  
-- Spread: Eagles missing multiple WRs (Smith/Wicks out) and LB depth lowers their passing efficiency and defensive flexibility; Barkley playing helps run game. Commanders missing interior DL (Kinlaw/Payne/Newton) softens their run defense. Net: slight lean toward Commanders on spread relative to model (model has PHI +5.5).  
-- Total: Multiple skill-position outs on both sides (especially Eagles WRs) and depleted Commanders DL tend to suppress scoring; mild weather no help. Lowers total.  
-- Moneyline: Same QB continuity (McKee vs Daniels); injury profile favors Commanders slightly on ML.
-
-## Chicago Bears @ Seattle Seahawks (MNF, 2026-11-02 8:15 PM ET, Lumen Field)
-
-**Starting QBs**  
-- Home (SEA): Sam Darnold — confirmed starter. Backup Drew Lock (right elbow) questionable. Source: Seahawks.com injury report, checked ~23:00 UTC.  
-- Away (CHI): Caleb Williams — confirmed starter, no designation. Source: Bears.com / Bears Wire, checked ~23:00 UTC.
-
-**Key injuries**  
-- CHI OUT: RB Kyle Monangai (thumb/toe). QUESTIONABLE: LB D'Marco Jackson (ankle), CB Malik Muhammad (toe). Source: Bears.com official injury report, checked ~23:00 UTC.  
-- SEA OUT: OT Charles Cross (ankle), WR Rashid Shaheed (knee), RB Velus Jones Jr. (hamstring). DOUBTFUL: LB/EDGE Uchenna Nwosu (ankle). QUESTIONABLE: G Anthony Bradford (knee), QB Drew Lock (elbow), LB Patrick O'Connell (toe), DT Brandon Pili (back). Zach Charbonnet (RB, ACL recovery) expected to play / make season debut. Source: Seahawks.com official report / team news, checked ~23:00 UTC.
-
-**Weather**  
-Seattle: ~10°C (50°F), cloudy, wind ~5 mph, no precipitation. Source: forecast data, checked 2026-11-01 23:15 UTC. No material scoring impact (dome? Lumen Field is outdoor but mild conditions).
-
-**Market effects**  
-- Spread: Seahawks missing starting LT Cross and pass-rush help (Nwosu doubtful) plus WR Shaheed out softens their edge; Bears missing backup RB Monangai but starters intact. Slight lean toward Bears on spread relative to model (model has CHI +3).  
-- Total: Outs at OT, WR, and EDGE on Seattle plus Bears RB depth out tend to lower scoring environment. Lowers total.  
-- Moneyline: QB continuity both sides; Seattle OL and pass-rush issues slightly favor Bears on ML.
-
-## Notes on completed games (for change tracking)
-
-- Baltimore Ravens @ Buffalo Bills (final): Model had Lamar Jackson OUT → Tyler Huntley. Reality: Jackson started, injured right thumb on first play, ruled out; Huntley also injured (toe); emergency QB Joe Fagnano finished. Jackson to have surgery, expected on IR (possibly season-ending). Source: Ravens Wire / NFL.com / team reports, checked ~23:00 UTC. Status changed from model assumption; game already complete.
-
-No other QB starter changes identified for remaining games. NCAAF availability reports for next-week games (MAC midweek) not yet posted; unconfirmed. No prior grok_notes file existed.
+**Notes:** All model picks paper only. Splash gaps are line movement. Factor mode live; zero records expected until priced games finish.
