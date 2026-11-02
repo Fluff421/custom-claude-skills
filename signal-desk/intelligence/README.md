@@ -11,3 +11,6 @@ Everything the betting intelligence system learns and reports, kept in the repo 
 - `ROADMAP.md`: data points to add next.
 
 All picks are paper picks. Nothing here writes Splash fields or past results.
+
+## Asking for picks
+See [ASK_SIGNAL_DESK.md](../ASK_SIGNAL_DESK.md) for a one-line prompt that works in any chat.
