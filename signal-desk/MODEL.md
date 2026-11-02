@@ -50,11 +50,11 @@ don't all use the same sigma:
 
 | Path | Edge used | Sigma used (NCAAF / NFL) |
 |---|---|---|
-| `picks.py` Ledger spread pick (`Sharp-Sheet Est. Win Prob %`) | raw edge = model margin minus line. k is applied only when `FACTOR_MODE=live` | Model Parameters `Sigma` (20 / default 13.5) |
+| `picks.py` Ledger spread pick (`Sharp-Sheet Est. Win Prob %`) | factor-adjusted edge × k, because `FACTOR_MODE=live` since 2026-11-01 22:57 UTC. Before that it was the raw edge (model margin minus line), so tiers before and after that time use different edges | Model Parameters `Sigma` (20 / default 13.5) |
 | `markets.py` spread, moneyline and teaser | blended margin = line + k × (model − line) | `sigma_margin` default (16.5 / 13.5). `spread_sigma` is computed from Model Parameters but never used |
 | Documentation (this file) | raw edge | 14.0 / 13.5 |
 
-**k is a margin blend, not a probability blend.** `markets.py` uses blended margin = line + k × (model − line).
+**k is a margin blend, not a probability blend.** The calibrator still fits sigma on the raw edge, while live picks are priced on the factor-adjusted edge × k, so the fitted sigma describes a different quantity from the one it prices. `markets.py` uses blended margin = line + k × (model − line).
 `picks.py` (live factor mode only) uses edge × k. These two are the same thing. The calibrator fits k by
 regressing (actual margin − line) on (model margin − line). NCAAF k = 0.162 is provisional: the raw estimate
 is −0.559 ± 0.686 (n = 47), and the stored value is a prior-shrunk number, so it hasn't been validated
