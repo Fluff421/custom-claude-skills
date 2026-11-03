@@ -1,2 +1,2 @@
-status,league,date,games_covered,qb_rows_written,verified_rows,unverified_rows,unknown_rows,notes
-complete,ncaaf,2026-11-02,7 priority matchups,14,3,11,11,"Priority ranked/Power 4 focus only. Full midweek reports expected Wed-Fri. Ohio State Sayin OUT and Notre Dame Bowen OUT are the two verified high-impact items."
+status,note
+no_full_coverage,Volume limited; see qb_starters.csv and _selfreview.md for covered games
