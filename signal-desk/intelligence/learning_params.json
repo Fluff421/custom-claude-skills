@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-02T23:07:20.000Z"
+   "updated": "2026-11-03T20:58:57.000Z"
   },
   "NFL": {
    "forward": {
@@ -109,18 +109,18 @@
      "se": 0.0335,
      "slope": 0.2008
     },
-    "n": 13,
+    "n": 14,
     "noise_sd": null,
     "nonzero": {
-     "edge": 13,
-     "inj": 4,
+     "edge": 14,
+     "inj": 5,
      "lookahead": 2,
      "rest": 1,
      "revenge": 1,
-     "travel": 0,
+     "travel": 1,
      "weather": 0
     },
-    "note": "13 graded picks with CLV (< 30); using the history prior on edge only",
+    "note": "14 graded picks with CLV (< 30); using the history prior on edge only",
     "ok": false,
     "prior": {
      "edge": 0.2008,
@@ -132,7 +132,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-02T23:07:20.000Z"
+   "updated": "2026-11-03T20:58:57.000Z"
   }
  },
  "sigma": {
@@ -169,13 +169,13 @@
    },
    "sigma": 14.94,
    "target": 14.94,
-   "updated": "2026-11-02T23:07:20.000Z"
+   "updated": "2026-11-03T20:58:57.000Z"
   },
   "NFL": {
-   "n_eff": 681.9,
-   "n_ledger": 13,
-   "raw": 12.39,
-   "reason": "moved toward learned 12.40 (max step 0.5)",
+   "n_eff": 682.4,
+   "n_ledger": 14,
+   "raw": 12.41,
+   "reason": "moved toward learned 12.42 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": false,
@@ -202,9 +202,9 @@
      "sd": null
     }
    },
-   "sigma": 12.4,
-   "target": 12.4,
-   "updated": "2026-11-02T23:07:20.000Z"
+   "sigma": 12.42,
+   "target": 12.42,
+   "updated": "2026-11-03T20:58:57.000Z"
   }
  }
 }
