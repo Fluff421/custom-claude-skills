@@ -213,3 +213,17 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-02T23:24:37+00:00,recdkQkR4GMOnknyU,401873047,NFL,Las Vegas Raiders @ San Francisco 49ers,2026-11-08,Draft Kings,10.0,51.5,-550,410,-108.0,-112.0,-115.0,-105.0,8.5
 2026-11-02T23:24:37+00:00,recn4eMltluLCqzUN,401873050,NFL,Tampa Bay Buccaneers @ Chicago Bears,2026-11-08,Draft Kings,4.5,47.5,-225,185,-115.0,-105.0,100.0,-120.0,3.5
 2026-11-02T23:24:37+00:00,recxxiQBTGT35ug5w,401873037,NFL,Jacksonville Jaguars @ Baltimore Ravens,2026-11-05,Draft Kings,-8.5,42.5,320,-410,-115.0,-105.0,-115.0,-105.0,4.5
+2026-11-03T03:04:48+00:00,rec4c0Xp3J7P283GB,401856742,NCAAF,Vanderbilt @ Mississippi State,2026-11-07,Draft Kings,3.0,48.5,-155,130,-110.0,-110.0,-102.0,-118.0,3.0
+2026-11-03T03:04:48+00:00,rec67iuU19XZINd0s,401873036,NFL,Chicago Bears @ Seattle Seahawks,2026-11-02,Draft Kings,3.0,46.5,-166,140,-120.0,100.0,-108.0,-112.0,4.5
+2026-11-03T03:04:48+00:00,recCPXyItdfAeZqCL,401858517,NCAAF,Rutgers @ Wisconsin,2026-11-07,Draft Kings,17.5,45.5,-900,600,-102.0,-118.0,-112.0,-108.0,16.5
+2026-11-03T03:04:48+00:00,recCTiUACkvgvJJoP,401864535,NCAAF,Wyoming @ UNLV,2026-11-07,Draft Kings,6.0,48.5,-230,190,-110.0,-110.0,-105.0,-115.0,8.5
+2026-11-03T03:04:48+00:00,recHDkxCBaZIlSwOr,401873038,NFL,Cincinnati Bengals @ Atlanta Falcons,2026-11-08,Draft Kings,-3.0,52.5,136,-162,-105.0,-115.0,-102.0,-118.0,-4.5
+2026-11-03T03:04:48+00:00,recJKj5lfFFyrx6fY,401873051,NFL,Buffalo Bills @ Minnesota Vikings,2026-11-09,Draft Kings,-3.5,46.5,154,-185,-118.0,-102.0,-105.0,-115.0,-3.0
+2026-11-03T03:04:48+00:00,recKcedkU5YFxiAJf,401873043,NFL,Los Angeles Rams @ Washington Commanders,2026-11-08,Draft Kings,-5.5,47.5,190,-230,-108.0,-112.0,-112.0,-108.0,-4.5
+2026-11-03T03:04:48+00:00,recPlZC45FsGApnen,401860912,NCAAF,Texas State @ Oregon State,2026-11-07,Draft Kings,6.5,72.5,-250,205,-112.0,-108.0,-108.0,-112.0,8.5
+2026-11-03T03:04:48+00:00,recXCjQiLeySLkyov,401873049,NFL,Green Bay Packers @ New England Patriots,2026-11-08,Draft Kings,3.0,46.5,-155,130,-108.0,-112.0,-115.0,-105.0,1.5
+2026-11-03T03:04:48+00:00,reciDPYpCMh5BSCAC,401871073,NCAAF,Delaware @ Kennesaw State,2026-11-07,Draft Kings,-2.5,55.5,110,-130,-110.0,-110.0,-115.0,-105.0,-3.0
+2026-11-03T03:04:48+00:00,reciqTp5pnwPXQLhW,401856855,NCAAF,TCU @ Arizona,2026-11-06,Draft Kings,8.5,42.5,-340,270,-112.0,-108.0,-115.0,-105.0,9.5
+2026-11-03T03:04:48+00:00,recma6xKWmNS7mr0B,401866453,NCAAF,Ohio @ Akron,2026-11-03,Draft Kings,-14.0,51.5,400,-535,-112.0,-108.0,-102.0,-118.0,-12.5
+2026-11-03T03:04:48+00:00,recpV04pDIm5n9D0B,401873044,NFL,New York Giants @ Philadelphia Eagles,2026-11-08,Draft Kings,-3.5,40.5,142,-170,-118.0,-102.0,-105.0,-115.0,5.5
+2026-11-03T03:04:48+00:00,recxxiQBTGT35ug5w,401873037,NFL,Jacksonville Jaguars @ Baltimore Ravens,2026-11-05,Draft Kings,-8.5,42.5,350,-455,-105.0,-115.0,-105.0,-115.0,4.5
