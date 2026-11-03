@@ -1,44 +1,43 @@
-# Signal Desk intelligence report, 2026-11-02
+# Signal Desk intelligence report, 2026-11-03
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
-Overall graded picks: 31-37 (Brier 0.2681).
+Overall graded picks: 32-37 (Brier 0.2676).
 
 ## Upcoming best bets (Lean and above)
 
 | Game | Date | Tier | Pick | Units | Win prob | Adj edge |
 |---|---|---|---|---|---|---|
-| Cincinnati Bengals @ Atlanta Falcons | 2026-11-08 | Max Play | Cincinnati Bengals -3.5 (spread) | 1 | 67.9% | -5.8 |
-| Dallas Cowboys @ Indianapolis Colts | 2026-11-08 | Max Play | Indianapolis Colts +5.5 (spread) | 1 | 62.6% | 4 |
-| New York Giants @ Philadelphia Eagles | 2026-11-08 | Max Play | New York Giants -2.5 (spread) | 1 | 62.6% | -4 |
-| Jacksonville Jaguars @ Baltimore Ravens | 2026-11-05 | Max Play | Jacksonville Jaguars -7.5 (spread) | 1 | 64.2% | -4.5 |
-| Vanderbilt @ Mississippi State | 2026-11-07 | Lean | Mississippi State -2.5 (spread) | 0.5 | 50.0% | 6.9 |
-| Tampa Bay Buccaneers @ Chicago Bears | 2026-11-08 | Lean | Tampa Bay Buccaneers +6.5 (spread) | 0.5 | 57.0% | -2.2 |
-| Cleveland Browns @ New Orleans Saints | 2026-11-08 | Lean | New Orleans Saints -2.5 (spread) | 0.5 | 56.7% | 1.5 |
-| Las Vegas Raiders @ San Francisco 49ers | 2026-11-08 | Lean | San Francisco 49ers -9.5 (spread) | 0.5 | 53.2% | 1 |
-| Buffalo Bills @ Minnesota Vikings | 2026-11-09 | Lean | Minnesota Vikings +3 (spread) | 0.5 | 57.6% | 2 |
-| Los Angeles Rams @ Washington Commanders | 2026-11-08 | Lean | Washington Commanders +5.5 (spread) | 0.5 | 53.5% | 1.1 |
-| Green Bay Packers @ New England Patriots | 2026-11-08 | Lean | New England Patriots -2.5 (spread) | 0.5 | 57.3% | 2.3 |
-| Denver Broncos @ Carolina Panthers | 2026-11-08 | Lean | Denver Broncos -2.5 (spread) | 0.5 | 57.9% | -1.5 |
-- Cincinnati Bengals @ Atlanta Falcons: model margin -7.7 vs line -3.5 (base edge -4.2); injuries: home loses 2.34 pts, away loses 0.69 pts; weather: indoor | sev=0.00
-- Dallas Cowboys @ Indianapolis Colts: model margin -2.1 vs line -5.5 (base edge +3.4); injuries: home loses 1.08 pts, away loses 1.19 pts; look-ahead +0.5 pts to home; weather: indoor | sev=0.00
-- New York Giants @ Philadelphia Eagles: model margin +0.0 vs line -2.5 (base edge +2.5); injuries: home loses 6.13 pts, away loses 0.45 pts; rest -0.5 pts to home; revenge -0.3 pts to home; QB: HOME QB OUT Jalen Hurts -> Tanner McKee [verified 2026-11-02] | AWAY QB PLAYING J.J. McCarthy [verified 2026-11-02]; weather: 57F, wind 5mph, precip 6% | sev=0.00 | open-meteo
-- Jacksonville Jaguars @ Baltimore Ravens: model margin -8.2 vs line -7.5 (base edge -0.7); injuries: home loses 4.93 pts, away loses 1.17 pts; QB: HOME QB OUT Lamar Jackson -> Tyler Huntley [verified 2026-11-02] | AWAY QB PLAYING Trevor Lawrence [auto espn 2026-11-02]; weather: 66F, wind 3mph, precip 42% | sev=0.00 | open-meteo
-- Vanderbilt @ Mississippi State: model margin +10.0 vs line +2.5 (base edge +7.5); rest -0.6 pts to home; weather: 61F, wind 7mph, precip 0% | sev=0.00 | open-meteo
-- Tampa Bay Buccaneers @ Chicago Bears: model margin +3.5 vs line +6.5 (base edge -3.0); injuries: home loses 0.45 pts, away loses 0.72 pts; rest +0.5 pts to home; weather: 46F, 36 | no severity
-- Cleveland Browns @ New Orleans Saints: model margin +3.9 vs line +2.5 (base edge +1.4); injuries: home loses 0.4 pts, away loses 0.0 pts; rest +0.5 pts to home; weather: indoor | sev=0.00
-- Las Vegas Raiders @ San Francisco 49ers: model margin +10.6 vs line +9.5 (base edge +1.1); injuries: home loses 0.73 pts, away loses 0.09 pts; rest +0.5 pts to home; weather: 76F, wind 5mph, precip 0% | sev=0.00 | open-meteo
-- Buffalo Bills @ Minnesota Vikings: model margin -2.0 vs line -3.0 (base edge +1.0); injuries: home loses 1.09 pts, away loses 2.04 pts; QB: HOME QB QUESTIONABLE Kyler Murray -> Carson Wentz [auto espn 2026-11-02] | AWAY QB PLAYING Josh Allen [auto espn 2026-11-02]; weather: indoor | sev=0.00
-- Los Angeles Rams @ Washington Commanders: model margin -4.7 vs line -5.5 (base edge +0.8); injuries: home loses 1.03 pts, away loses 0.6 pts; travel +0.7 pts to home; weather: 61F, wind 8mph, precip 4% | sev=0.00 | open-meteo
-- Green Bay Packers @ New England Patriots: model margin +2.8 vs line +2.5 (base edge +0.3); injuries: home loses 0.92 pts, away loses 2.88 pts; weather: 46F, wind 4mph, precip 10% | sev=0.00 | open-meteo
-- Denver Broncos @ Carolina Panthers: model margin -2.8 vs line -2.5 (base edge -0.3); injuries: home loses 2.25 pts, away loses 0.54 pts; travel +0.5 pts to home; weather: 70F, wind 9mph, precip 9% | sev=0.00 | open-meteo
+| Cincinnati Bengals @ Atlanta Falcons | 2026-11-08 | Max Play | Cincinnati Bengals -3 (spread) | 1 | 68.9% | -6.1 |
+| Dallas Cowboys @ Indianapolis Colts | 2026-11-08 | Max Play | Indianapolis Colts +5.5 (spread) | 1 | 62.6% | 4.2 |
+| Houston Texans @ Los Angeles Chargers | 2026-11-08 | Strong Play | Los Angeles Chargers +4.5 (spread) | 1 | 59.2% | 2.9 |
+| Cleveland Browns @ New Orleans Saints | 2026-11-08 | Strong Play | New Orleans Saints -1.5 (spread) | 1 | 58.3% | 2.6 |
+| Vanderbilt @ Mississippi State | 2026-11-07 | Lean | Mississippi State -2.5 (spread) | 0.5 | 50.0% | 6.6 |
+| New York Giants @ Philadelphia Eagles | 2026-11-08 | Lean | Philadelphia Eagles +3 (spread) | 0.5 | 56.4% | 2 |
+| Tampa Bay Buccaneers @ Chicago Bears | 2026-11-08 | Lean | Tampa Bay Buccaneers +6.5 (spread) | 0.5 | 55.1% | -1.6 |
+| Jacksonville Jaguars @ Baltimore Ravens | 2026-11-05 | Lean | Baltimore Ravens +9.5 (spread) | 0.5 | 56.4% | 2 |
+| Los Angeles Rams @ Washington Commanders | 2026-11-08 | Lean | Washington Commanders +5.5 (spread) | 0.5 | 53.5% | 2.1 |
+| Detroit Lions @ Miami Dolphins | 2026-11-08 | Lean | Miami Dolphins +7 (spread) | 0.5 | 54.2% | 1.3 |
+| Arizona Cardinals @ Seattle Seahawks | 2026-11-08 | Lean | Seattle Seahawks -10.5 (spread) | 0.5 | 53.8% | 1.2 |
+- Cincinnati Bengals @ Atlanta Falcons: model margin -7.7 vs line -3.0 (base edge -4.7); injuries: home loses 1.67 pts, away loses 0.3 pts; weather: indoor | sev=0.00
+- Dallas Cowboys @ Indianapolis Colts: model margin -2.1 vs line -5.5 (base edge +3.4); injuries: home loses 1.08 pts, away loses 1.33 pts; look-ahead +0.5 pts to home; weather: indoor | sev=0.00
+- Houston Texans @ Los Angeles Chargers: model margin -1.8 vs line -4.5 (base edge +2.7); injuries: home loses 0.51 pts, away loses 0.38 pts; rest -0.5 pts to home; travel +0.5 pts to home; revenge +0.3 pts to home; weather: 79F, wind 8mph, precip 0% | sev=0.00 | open-meteo
+- Cleveland Browns @ New Orleans Saints: model margin +4.0 vs line +1.5 (base edge +2.5); injuries: home loses 0.4 pts, away loses 0.0 pts; rest +0.5 pts to home; weather: indoor | sev=0.00
+- Vanderbilt @ Mississippi State: model margin +10.0 vs line +2.5 (base edge +7.5); injuries: home loses 0.33 pts, away loses 0.03 pts; rest -0.6 pts to home; weather: 68F, 4 | no severity
+- New York Giants @ Philadelphia Eagles: model margin -0.1 vs line -3.0 (base edge +2.9); injuries: home loses 0.6 pts, away loses 0.45 pts; rest -0.5 pts to home; revenge -0.3 pts to home; QB: HOME QB OUT Jalen Hurts -> Tanner McKee [verified 2026-11-02] [priced: Tanner McKee led passing 2026-11-01] | AWAY QB PLAYING J.J. McCarthy [verified 2026-11-02]; weather: 60F, 7 | no severity
+- Tampa Bay Buccaneers @ Chicago Bears: model margin +4.4 vs line +6.5 (base edge -2.1); injuries: home loses 0.41 pts, away loses 0.36 pts; rest +0.5 pts to home; weather: 48F, 36 | no severity
+- Jacksonville Jaguars @ Baltimore Ravens: model margin -8.3 vs line -9.5 (base edge +1.2); injuries: home loses 0.56 pts, away loses 1.35 pts; QB: HOME QB OUT Lamar Jackson -> Tyler Huntley [verified 2026-11-02] [priced: Joe Fagnano led passing 2026-11-01] | AWAY QB PLAYING Trevor Lawrence [auto espn 2026-11-02]; weather: 64F, 38 | no severity
+- Los Angeles Rams @ Washington Commanders: model margin -4.7 vs line -5.5 (base edge +0.8); injuries: home loses 0.82 pts, away loses 1.42 pts; travel +0.7 pts to home; QB: HOME QB PLAYING Jayden Daniels [auto espn 2026-11-02] | AWAY QB QUESTIONABLE Matthew Stafford -> Stetson Bennett IV [auto espn 2026-11-02]; weather: 61F, wind 8mph, precip 3% | sev=0.00 | open-meteo
+- Detroit Lions @ Miami Dolphins: model margin -7.5 vs line -7.0 (base edge -0.5); injuries: home loses 0.24 pts, away loses 1.21 pts; travel +0.3 pts to home; look-ahead +0.5 pts to home; weather: 84F, 13 | no severity
+- Arizona Cardinals @ Seattle Seahawks: model margin +10.5 vs line +10.5 (base edge +0.0); injuries: home loses 0.61 pts, away loses 1.33 pts; rest +0.5 pts to home; travel +0.3 pts to home; revenge -0.3 pts to home; weather: 54F, wind 5mph, precip 43% | sev=0.00 | open-meteo
 
-Tracking picks (paper, 0u): 66. Examples: Texas A&M @ South Carolina -> Texas A&M +7.5 (spread); Louisiana-Monroe @ Arkansas State -> Arkansas State -14.5 (spread); Texas @ Missouri -> Texas -2.5 (spread); Wyoming @ UNLV -> UNLV -7.5 (spread); Ball State @ UMass -> UMass -3.5 (spread); North Carolina @ UConn -> North Carolina -7.5 (spread)
+Tracking picks (paper, 0u): 66. Examples: Wyoming @ UNLV -> UNLV -6.5 (spread); Texas A&M @ South Carolina -> Texas A&M +7.5 (spread); North Carolina @ UConn -> North Carolina -6.5 (spread); Louisiana-Monroe @ Arkansas State -> Arkansas State -14.5 (spread); Texas @ Missouri -> Texas -2.5 (spread); Ball State @ UMass -> UMass -3.5 (spread)
 
 ## Recently closed (last 7 days)
 
 | Game | Tier | Pick | Result | Final home margin | Model | Line | CLV |
 |---|---|---|---|---|---|---|---|
+| Chicago Bears @ Seattle Seahawks | No Play | Chicago Bears +3 (spread) | Win | -17 | 2.6 | 3 | 0 |
 | New England Patriots @ Miami Dolphins | No Play | New England Patriots -7 (spread) | Loss | -5 | -7.6 | -7 | 0 |
 | Philadelphia Eagles @ Washington Commanders | Lean | Philadelphia Eagles +5.5 (spread) | Loss | 17 | 4.5 | 5.5 | -0.5 |
 | Atlanta Falcons @ Tampa Bay Buccaneers | Strong Play | Tampa Bay Buccaneers -2.5 (spread) | Win | 16 | 6.3 | 2.5 | -1 |
@@ -68,9 +67,9 @@ Tracking picks (paper, 0u): 66. Examples: Texas A&M @ South Carolina -> Texas A&
 | Oklahoma State @ Iowa State | Lean | Iowa State +9.5 (spread) | Win | 2 | -6.8 | -9.5 | -0.5 |
 | UConn @ Air Force | Lean | Air Force -1.5 (spread) | Win | 9 | 2.5 | 1.5 | -3 |
 | Arizona State @ BYU | Lean | BYU -16.5 (spread) | Loss | 7 | 17.6 | 16.5 | 1 |
-| Washington @ Nebraska | Max Play | Nebraska -7.5 (spread) | Loss | -7 | 14.9 | 7.5 | 0 |
 
 ### Why each result happened
+- Chicago Bears @ Seattle Seahawks (Win): final home margin -17: model missed by 19.6, line missed by 20.0 (the model was closer); adjusted margin +1.8 (closer than base model); factors that pointed the right way: injuries -1.3; factors that pointed the wrong way: travel +0.5; pick covered by +20.0 points
 - New England Patriots @ Miami Dolphins (Loss): final home margin -5: model missed by 2.6, line missed by 2.0 (the line was closer); adjusted margin -6.8 (closer than base model); factors that pointed the right way: injuries +0.3, lookahead +0.5; pick covered by -2.0 points
 - Philadelphia Eagles @ Washington Commanders (Loss): final home margin +17: model missed by 12.5, line missed by 11.5 (the line was closer); adjusted margin +5.6 (closer than base model); factors that pointed the right way: injuries +0.8, rest +0.5, revenge +0.3; factors that pointed the wrong way: lookahead -0.5; pick covered by -11.5 points
 - Atlanta Falcons @ Tampa Bay Buccaneers (Win): final home margin +16: model missed by 9.7, line missed by 13.5 (the model was closer); no factor record (game predates shadow factors); pick covered by +13.5 points
@@ -100,7 +99,6 @@ Tracking picks (paper, 0u): 66. Examples: Texas A&M @ South Carolina -> Texas A&
 - Oklahoma State @ Iowa State (Win): final home margin +2: model missed by 8.8, line missed by 11.5 (the model was closer); no factor record (game predates shadow factors); pick covered by +11.5 points
 - UConn @ Air Force (Win): final home margin +9: model missed by 6.5, line missed by 7.5 (the model was closer); no factor record (game predates shadow factors); pick covered by +7.5 points
 - Arizona State @ BYU (Loss): final home margin +7: model missed by 10.6, line missed by 9.5 (the line was closer); no factor record (game predates shadow factors); pick covered by -9.5 points
-- Washington @ Nebraska (Loss): final home margin -7: model missed by 21.9, line missed by 14.5 (the line was closer); no factor record (game predates shadow factors); pick covered by -14.5 points
 
 ## How accurate the system has been
 
@@ -111,17 +109,17 @@ Tracking picks (paper, 0u): 66. Examples: Texas A&M @ South Carolina -> Texas A&
 | NCAAF | Lean | 17 | 16 | 0.515 | 0.249 | 0.06 | 33 |
 | NFL | Strong Play | 1 | 1 | 0.5 | 0.2402 | -0.75 | 2 |
 | NFL | Lean | 5 | 3 | 0.625 | 0.2431 | 0.44 | 8 |
-| NFL | No Play | 1 | 2 | 0.333 | 0.2544 | 0.67 | 3 |
+| NFL | No Play | 2 | 2 | 0.5 | 0.2497 | 0.5 | 4 |
 | ALL | Max Play | 4 | 7 | 0.364 | 0.3148 | -0.27 | 11 |
 | ALL | Strong Play | 4 | 9 | 0.308 | 0.2954 | 1.04 | 13 |
 | ALL | Lean | 22 | 19 | 0.537 | 0.2479 | 0.13 | 41 |
-| ALL | No Play | 1 | 2 | 0.333 | 0.2544 | 0.67 | 3 |
+| ALL | No Play | 2 | 2 | 0.5 | 0.2497 | 0.5 | 4 |
 
 By size of base edge:
 
 | Edge | W | L | Hit |
 |---|---|---|---|
-| 0-1 | 1 | 3 | 0.25 |
+| 0-1 | 2 | 3 | 0.4 |
 | 1-2.5 | 18 | 12 | 0.6 |
 | 2.5-4 | 5 | 11 | 0.312 |
 | 4-6 | 3 | 2 | 0.6 |
@@ -129,18 +127,18 @@ By size of base edge:
 
 ## What the learner currently believes
 
-- NFL: sigma 12.4, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 13 (4 with factor records); last calibrated 2026-11-02T20:39:11.000Z
-- NCAAF: sigma 14.94, market k 0.162, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 55 (0 with factor records); last calibrated 2026-11-02T20:39:11.000Z
+- NFL: sigma 12.4, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 14 (5 with factor records); last calibrated 2026-11-02T23:23:37.000Z
+- NCAAF: sigma 14.94, market k 0.162, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 55 (0 with factor records); last calibrated 2026-11-02T23:23:37.000Z
 
 ## What changes automatically, and how close each change is
 
 | League | Setting | Now | Gate | Progress | Rule |
 |---|---|---|---|---|---|
-| NFL | Sigma (win-probability spread) | 12.4 | >= 30 graded | 13/30 | daily grid search; picks the sigma with the best Brier score |
+| NFL | Sigma (win-probability spread) | 12.4 | >= 30 graded | 14/30 | daily grid search; picks the sigma with the best Brier score |
 | NFL | Tier win-probability multipliers | none | >= 20 graded per tier | Lean 8/20, Strong Play 2/20, Max Play 0/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
 | NFL | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 8/20, Strong Play 2/20, Max Play 0/20 | stays capped; Strong and Max remain paper picks regardless |
-| NFL | Market blend k (does the model add to the line) |  | >= 30 graded with scores | 13/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
-| NFL | Factor scales (injury, look-ahead, rest, travel, revenge, weather) | {'scale_injury': None, 'scale_lookahead': None, 'scale_rest': None, 'scale_travel': None, 'scale_revenge': None, 'scale_weather': None} | >= 30 graded with a factor record; each factor needs 10 non-zero games | 4/30 | joint ridge regression toward 1.0; 0 switches the factor off |
+| NFL | Market blend k (does the model add to the line) |  | >= 30 graded with scores | 14/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
+| NFL | Factor scales (injury, look-ahead, rest, travel, revenge, weather) | {'scale_injury': None, 'scale_lookahead': None, 'scale_rest': None, 'scale_travel': None, 'scale_revenge': None, 'scale_weather': None} | >= 30 graded with a factor record; each factor needs 10 non-zero games | 5/30 | joint ridge regression toward 1.0; 0 switches the factor off |
 | NCAAF | Sigma (win-probability spread) | 14.94 | >= 30 graded | 55/30 | daily grid search; picks the sigma with the best Brier score |
 | NCAAF | Tier win-probability multipliers | {"Lean": 0.95} | >= 20 graded per tier | Lean 33/20, Strong Play 11/20, Max Play 11/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
 | NCAAF | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 33/20, Strong Play 11/20, Max Play 11/20 | stays capped; Strong and Max remain paper picks regardless |
@@ -149,8 +147,6 @@ By size of base edge:
 
 ## Data gaps right now
 
-- 62 upcoming games have no injury notes
-- 2 games inside the forecast window have no weather note
 - NCAAF quarterback checks cover 1 of 62 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
@@ -160,30 +156,30 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Texas A&M @ South Carolina | moneyline | Texas A&M ML +235 | 34% | Lean | 0.5 |
-| South Florida @ East Carolina | total | Over 39.5 | 58% | Lean | 0.5 |
-| Detroit Lions @ Miami Dolphins | total | Under 50.5 | 57% | Lean | 0.5 |
-| Detroit Lions @ Miami Dolphins | moneyline | Miami Dolphins ML +295 | 29% | Lean | 0.5 |
+| Detroit Lions @ Miami Dolphins | moneyline | Miami Dolphins ML +295 | 30% | Lean | 0.5 |
 | Air Force @ Army | total | Over 45.5 | 59% | Lean | 0.5 |
 | New York Jets @ Kansas City Chiefs | total | Under 46.5 | 57% | Lean | 0.5 |
-| UTSA @ Florida Atlantic | total | Under 72.5 | 58% | Lean | 0.5 |
-| UCLA @ Minnesota | total | Over 39.5 | 59% | Lean | 0.5 |
-| Cincinnati Bengals @ Atlanta Falcons | total | Under 52.5 | 58% | Lean | 0.5 |
-| New Mexico @ Nevada | total | Over 38.5 | 59% | Lean | 0.5 |
-| Dallas Cowboys @ Indianapolis Colts | moneyline | Indianapolis Colts ML +215 | 35% | Lean | 0.5 |
-| Green Bay Packers @ New England Patriots | total | Under 47.5 | 57% | Lean | 0.5 |
-| Oklahoma @ Florida | total | Over 45.5 | 58% | Lean | 0.5 |
-- NCAAF parlay: Over 45.5 + Over 38.5 | model 35.0%, needs +264 to break even, edge +7.6%, Strong Play
-- NCAAF parlay: Over 39.5 + Over 38.5 | model 34.9%, needs +264 to break even, edge +7.4%, Strong Play
-- NCAAF parlay: Under 72.5 + Over 38.5 | model 34.6%, needs +264 to break even, edge +7.1%, Strong Play
-- NCAAF teaser: Over 38.5 -> 32.5 + Over 45.5 -> 39.5 + Over 39.5 -> 33.5 | model 43.0%, needs +160 to break even, edge +4.5%, Lean
-- NCAAF teaser: Over 38.5 -> 32.5 + Over 45.5 -> 39.5 + Under 72.5 -> 78.5 | model 42.7%, needs +160 to break even, edge +4.3%, Lean
-- NCAAF teaser: Over 38.5 -> 32.5 + Over 39.5 -> 33.5 + Under 72.5 -> 78.5 | model 42.6%, needs +160 to break even, edge +4.2%, Lean
-- NFL parlay: Cincinnati Bengals -3.5 (spread) + Jacksonville Jaguars -7.5 (spread) | model 43.5%, needs +265 to break even, edge +16.2%, Max Play
-- NFL parlay: Cincinnati Bengals -3.5 (spread) + New York Giants -2.5 (spread) | model 42.5%, needs +270 to break even, edge +15.5%, Max Play
-- NFL parlay: New York Giants -2.5 (spread) + Jacksonville Jaguars -7.5 (spread) | model 40.2%, needs +287 to break even, edge +14.3%, Max Play
-- NFL teaser: Under 52.5 -> 58.5 + Under 50.5 -> 56.5 + Under 46.5 -> 52.5 | model 48.4%, needs +160 to break even, edge +10.0%, Max Play
-- NFL teaser: Under 52.5 -> 58.5 + Under 50.5 -> 56.5 + Under 47.5 -> 53.5 | model 48.4%, needs +160 to break even, edge +10.0%, Max Play
-- NFL teaser: Under 52.5 -> 58.5 + Under 46.5 -> 52.5 + Under 47.5 -> 53.5 | model 48.4%, needs +160 to break even, edge +9.9%, Max Play
+| UTSA @ Florida Atlantic | total | Under 73.5 | 59% | Lean | 0.5 |
+| UCLA @ Minnesota | total | Over 39.5 | 58% | Lean | 0.5 |
+| Cincinnati Bengals @ Atlanta Falcons | total | Under 52.5 | 57% | Lean | 0.5 |
+| Cincinnati Bengals @ Atlanta Falcons | moneyline | Cincinnati Bengals ML -162 | 65% | Lean | 0.5 |
+| New Mexico @ Nevada | total | Over 37.5 | 60% | Lean | 0.5 |
+| Dallas Cowboys @ Indianapolis Colts | moneyline | Indianapolis Colts ML +225 | 36% | Lean | 0.5 |
+| Oklahoma State @ Kansas State | total | Under 61.5 | 59% | Lean | 0.5 |
+| Oklahoma State @ Kansas State | moneyline | Kansas State ML +180 | 39% | Lean | 0.5 |
+| Oklahoma @ Florida | total | Over 44.5 | 58% | Lean | 0.5 |
+- NCAAF parlay: Over 37.5 + Under 61.5 | model 35.1%, needs +287 to break even, edge +9.3%, Max Play
+- NCAAF parlay: Over 45.5 + Over 37.5 | model 35.3%, needs +278 to break even, edge +8.9%, Max Play
+- NCAAF parlay: Over 39.5 + Over 37.5 | model 34.9%, needs +278 to break even, edge +8.5%, Max Play
+- NCAAF teaser: Over 37.5 -> 31.5 + Under 73.5 -> 79.5 + Over 45.5 -> 39.5 | model 43.4%, needs +160 to break even, edge +4.9%, Lean
+- NCAAF teaser: Over 37.5 -> 31.5 + Under 73.5 -> 79.5 + Under 61.5 -> 67.5 | model 43.3%, needs +160 to break even, edge +4.8%, Lean
+- NCAAF teaser: Over 37.5 -> 31.5 + Under 73.5 -> 79.5 + Over 44.5 -> 38.5 | model 43.2%, needs +160 to break even, edge +4.7%, Lean
+- NFL parlay: Cincinnati Bengals -3 (spread) + Indianapolis Colts +5.5 (spread) | model 43.1%, needs +261 to break even, edge +15.5%, Max Play
+- NFL parlay: Cincinnati Bengals -3 (spread) + Los Angeles Chargers +4.5 (spread) | model 40.8%, needs +270 to break even, edge +13.7%, Max Play
+- NFL parlay: Cincinnati Bengals -3 (spread) + New Orleans Saints -1.5 (spread) | model 40.2%, needs +261 to break even, edge +12.5%, Max Play
+- NFL teaser: Under 52.5 -> 58.5 + Under 46.5 -> 52.5 + Over 39.5 -> 33.5 | model 46.8%, needs +160 to break even, edge +8.3%, Max Play
+- NFL teaser: Under 52.5 -> 58.5 + Under 46.5 -> 52.5 + Over 40.5 -> 34.5 | model 46.6%, needs +160 to break even, edge +8.1%, Max Play
+- NFL teaser: Under 52.5 -> 58.5 + Under 46.5 -> 52.5 + Under 46.5 -> 52.5 | model 46.5%, needs +160 to break even, edge +8.0%, Strong Play
 
 ## Results and learning by market
 

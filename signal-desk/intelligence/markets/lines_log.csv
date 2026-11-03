@@ -283,3 +283,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-03T19:49:48+00:00,recxxiQBTGT35ug5w,401873037,NFL,Jacksonville Jaguars @ Baltimore Ravens,2026-11-05,Draft Kings,-10.0,40.5,390,-520,-110.0,-110.0,-112.0,-108.0,4.5
 2026-11-03T19:49:48+00:00,recybXt6GvWdiQV7l,401856745,NCAAF,Kentucky @ Tennessee,2026-11-07,Draft Kings,6.5,50.5,-238,195,-115.0,-105.0,-110.0,-110.0,6.0
 2026-11-03T19:49:48+00:00,reczdmkBTkmGumcii,401858288,NCAAF,Virginia Tech @ SMU,2026-11-06,Draft Kings,6.0,56.5,-225,185,-110.0,-110.0,-108.0,-112.0,7.5
+2026-11-03T20:31:41+00:00,rec9cADXnbgcTxlCh,401873045,NFL,New York Jets @ Kansas City Chiefs,2026-11-08,Draft Kings,9.5,46.5,-500,380,-115.0,-105.0,-115.0,-105.0,9.5
+2026-11-03T20:31:41+00:00,rec9pTpNJouaLNrav,401862817,NCAAF,UTSA @ Florida Atlantic,2026-11-05,Draft Kings,-7.0,73.5,215,-265,-115.0,-105.0,-105.0,-115.0,-6.5
+2026-11-03T20:31:41+00:00,recLJM8fpCaOpA8zN,401866454,NCAAF,Buffalo @ Miami (OH),2026-11-03,Draft Kings,6.0,45.5,-245,200,-112.0,-108.0,-105.0,-115.0,6.5
+2026-11-03T20:31:41+00:00,recUB0go0CjohJlGK,401866457,NCAAF,Toledo @ Sacramento State,2026-11-04,Draft Kings,-25.5,52.5,1300,-2800,-112.0,-108.0,-115.0,-105.0,-26.5
+2026-11-03T20:31:41+00:00,recdkQkR4GMOnknyU,401873047,NFL,Las Vegas Raiders @ San Francisco 49ers,2026-11-08,Draft Kings,10.0,51.5,-550,410,-108.0,-112.0,-120.0,100.0,8.5
+2026-11-03T20:31:41+00:00,recmWYUd82Eu9eW53,401873039,NFL,Cleveland Browns @ New Orleans Saints,2026-11-08,Draft Kings,1.5,42.5,-120,100,-110.0,-110.0,-118.0,-102.0,3.5
+2026-11-03T20:31:41+00:00,recma6xKWmNS7mr0B,401866453,NCAAF,Ohio @ Akron,2026-11-03,Draft Kings,-13.5,51.5,410,-550,-108.0,-112.0,-112.0,-108.0,-12.5
+2026-11-03T20:31:41+00:00,recxQHHmVubfGwQBo,401873046,NFL,Houston Texans @ Los Angeles Chargers,2026-11-08,Draft Kings,-4.5,40.5,170,-205,-105.0,-115.0,-118.0,-102.0,1.5
+2026-11-03T20:31:41+00:00,recxxiQBTGT35ug5w,401873037,NFL,Jacksonville Jaguars @ Baltimore Ravens,2026-11-05,Draft Kings,-10.0,40.5,400,-535,-110.0,-110.0,-112.0,-108.0,4.5
