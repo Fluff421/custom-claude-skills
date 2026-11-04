@@ -55,6 +55,8 @@ jobs:
         run: python signal-desk/close_grade.py
       - name: Grade every market (spread, total, moneyline, teaser legs, teasers, parlay legs, parlays)
         run: python signal-desk/markets.py grade
+      - name: Repair market CLV on graded spread and total rows (idempotent, close and CLV only)
+        run: python signal-desk/markets.py reclv --write
       - name: Commit graded market picks (data only)
         if: ${{ env.MARKETS_LIVE == '1' }}
         run: bash .github/scripts/commit_data.sh "Signal Desk market grades $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/markets/picks_log.csv
