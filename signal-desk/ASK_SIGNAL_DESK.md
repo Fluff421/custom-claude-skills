@@ -66,7 +66,7 @@ Fields include Game, League, Date, Home/Away Team, FPI values, Model Home Margin
 - Docs: `MODEL.md` (model spec, current rules), `LEDGER.md`, `intelligence/README.md`, `intelligence/ROADMAP.md`, `research/SOURCES.md`.
 
 ## Workflows (GitHub Actions, UTC)
-ESPN Sync :27 every 3h; Pick Engine :47 every 3h (also markets); Close & Grade :37 hourly; NCAAF Injury Pull :33 every 3h Wed-Sat, 14:33 Sun-Tue; Context & Calibrate 13:43 daily (market learning, learning_log); Snapshot 13:17/14:17 gated to 8:17 AM Central; BIM grader :27 every 2h Sun, Mon, Thu, Fri, Sat; Splash compare manual dispatch.
+ESPN Sync :27 every 3h; Pick Engine :47 every 3h and right after each successful Context & Calibrate run (also markets); Close & Grade :37 hourly; NCAAF Injury Pull :33 every 3h Wed-Sat, 14:33 Sun-Tue; Context & Calibrate 13:43 daily (market learning, learning_log); Snapshot 13:17/14:17 gated to 8:17 AM Central; BIM grader :27 every 2h Sun, Mon, Thu, Fri, Sat; Splash compare manual dispatch.
 Repo variables control live writes (for example FACTOR_MODE=live, MARKETS_LIVE, MARKET_LEARN_LIVE, REPRICE_LIVE). Do not change them; ask the user.
 
 ## Perplexity automations (user account)
