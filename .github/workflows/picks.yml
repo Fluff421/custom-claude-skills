@@ -20,6 +20,11 @@ on:
       - .github/workflows/picks.yml
   schedule:
     - cron: "47 */3 * * *"
+  # Re-price right after Context & Calibrate finishes, so new QB and injury notes it writes
+  # reach the picks without waiting for the next 3-hourly slot (GitHub often delays that slot by hours).
+  workflow_run:
+    workflows: ["Context & Calibrate (Signal Desk)"]
+    types: [completed]
 
 permissions:
   contents: write   # data-only commits (markets files) to main; Airtable writes are unchanged
@@ -30,15 +35,22 @@ concurrency:
 
 jobs:
   picks:
+    # A chained run happens only after a successful Context run on main that was scheduled or dispatched
+    # (never after a pull-request check or a failed run). It then behaves exactly like a scheduled run.
+    if: >-
+      ${{ github.event_name != 'workflow_run' ||
+          (github.event.workflow_run.conclusion == 'success' &&
+           github.event.workflow_run.head_branch == 'main' &&
+           (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_dispatch')) }}
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
-      REPRICE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.reprice == true) || (github.event_name == 'schedule' && vars.REPRICE_LIVE == 'true')) && '1' || '0' }}
+      REPRICE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.reprice == true) || ((github.event_name == 'schedule' || github.event_name == 'workflow_run') && vars.REPRICE_LIVE == 'true')) && '1' || '0' }}
       FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
-      FACTORS_SHADOW_LIVE: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.FACTORS_SHADOW_LIVE == 'true' && '1' || '0' }}
-      MARKETS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.MARKETS_LIVE == 'true')) && '1' || '0' }}
-      PICKS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.PICKS_LIVE == 'true')) && '1' || '0' }}
+      FACTORS_SHADOW_LIVE: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_run') && vars.FACTORS_SHADOW_LIVE == 'true' && '1' || '0' }}
+      MARKETS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || ((github.event_name == 'schedule' || github.event_name == 'workflow_run') && vars.MARKETS_LIVE == 'true')) && '1' || '0' }}
+      PICKS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || ((github.event_name == 'schedule' || github.event_name == 'workflow_run') && vars.PICKS_LIVE == 'true')) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
