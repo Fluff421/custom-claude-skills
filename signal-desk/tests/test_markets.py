@@ -197,6 +197,46 @@ class Cycle(unittest.TestCase):
         self.assertEqual(picks["total:recG1"]["line"], before["line"])
 
 
+class MarketClose(unittest.TestCase):
+    NOTE = "Closing captured 2026-11-03 23:39Z (pre-kickoff), ESPN/DraftKings."
+    LINES = [{"record_id": "recG1", "ts": "2026-11-03T20:31:41+00:00", "home_margin_line": "6.0", "total": "45.5"},
+             {"record_id": "recG1", "ts": "2026-11-04T01:40:14+00:00", "home_margin_line": "6.5", "total": "46.5"}]
+
+    def test_in_progress_rows_are_not_logged(self):
+        rows = mk.log_lines([], [{"record_id": "r", "home_margin_line": 6.5, "total": 45.5, "ts": "t1", "in_progress": True}])
+        self.assertEqual(rows, [])
+
+    def test_ledger_close_wins_for_spreads_with_side_sign(self):
+        g = game(**{"Closing Spread (Home)": -7, "Line Source Note": self.NOTE})
+        self.assertEqual(mk.market_close("spread", "away", g, self.LINES), (7, "ledger_close"))
+        self.assertEqual(mk.market_close("spread", "home", g, self.LINES), (-7, "ledger_close"))
+        # Buffalo +6.5 against a 7 close is -0.5; Akron +12.5 against a 13.5 close is -1.0
+        self.assertEqual(mk.clv_points("spread", "away", 6.5, 7), -0.5)
+        self.assertEqual(mk.clv_points("spread", "home", 12.5, 13.5), -1.0)
+
+    def test_totals_use_last_row_before_capture(self):
+        g = game(**{"Line Source Note": self.NOTE})
+        self.assertEqual(mk.market_close("total", "over", g, self.LINES), (45.5, "lines_log_pre_close"))
+        # spread fallback when the Ledger close is blank: home margin 6.0 -> home close -6.0
+        self.assertEqual(mk.market_close("spread", "home", g, self.LINES)[0], -6.0)
+
+    def test_blank_beats_wrong(self):
+        g = game(**{"Line Source Note": "Closing captured 2026-11-01 16:54Z (pre-kickoff)"})
+        lines = [{"record_id": "recG1", "ts": "2026-11-01T22:26:33+00:00", "home_margin_line": "3.0", "total": "54.5"}]
+        self.assertEqual(mk.market_close("total", "under", g, lines), (None, "no_valid_close"))
+
+    def test_regrade_only_touches_close_and_clv(self):
+        g = game(**{"Closing Spread (Home)": -7, "Line Source Note": self.NOTE, "Home Score": 20, "Away Score": 24})
+        row = {"pick_id": "spread:recG1", "game_ids": "recG1", "market": "spread", "side": "away", "line": "6.5",
+               "result": "Win", "units_won": "1.0", "close_line": "6.5", "clv": "0.0"}
+        picks = {"spread:recG1": dict(row)}
+        ch = mk.regrade_clv([g], picks, self.LINES)
+        self.assertEqual(len(ch), 1)
+        self.assertEqual((picks["spread:recG1"]["close_line"], picks["spread:recG1"]["clv"]), (7, -0.5))
+        self.assertEqual((picks["spread:recG1"]["result"], picks["spread:recG1"]["units_won"]), ("Win", "1.0"))
+        self.assertEqual(mk.regrade_clv([g], picks, self.LINES), [])
+
+
 if __name__ == "__main__":
     unittest.main()
 

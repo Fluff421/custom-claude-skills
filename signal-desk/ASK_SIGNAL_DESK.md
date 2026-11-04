@@ -46,7 +46,7 @@ Each answer should also report what the system learned: read `intelligence/learn
 
 ## Picks and markets
 - `intelligence/markets/picks_latest.json`: per game `game, league, date, frozen, line (Splash), total_line, model_margin, blend_margin, proj_total, factors[], total_factor_why[], picks[] (market, side, selection, line, price, price_estimated, prob, edge, edge_unit, tier, units), teaser_legs[], alt_spreads[]`; top-level `combos` (parlays by league), `generated_at`, `date`. Window is today through 7 days.
-- `intelligence/markets/picks_latest.md`: table form. `picks_log.csv`: every priced pick with results once graded. `lines_log.csv`: ESPN/DraftKings line history (movement and CLV). `scorecards.json`: per league and market record and Brier. `market_params.json`: learned per-market settings.
+- `intelligence/markets/picks_latest.md`: table form. `picks_log.csv`: every priced pick with results once graded. `lines_log.csv`: ESPN/DraftKings line history (movement and CLV). Market CLV close: spreads use the Ledger's Closing Spread (Home); totals use the last lines_log row at or before the Ledger's pre-kickoff close capture. Rows logged once live odds appear are skipped, and CLV stays blank when no valid pre-game close exists. `scorecards.json`: per league and market record and Brier. `market_params.json`: learned per-market settings.
 - `intelligence/latest.md` and `intelligence/data/YYYY-MM-DD.json`: daily intelligence report (record, calibration, best bets, by-market sections, factor evidence).
 
 ## Learning

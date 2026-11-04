@@ -598,11 +598,88 @@ def log_lines(rows: list[dict], new: list[dict]) -> list[dict]:
         last[r["record_id"]] = r
     keys = ("home_margin_line", "total", "ml_home", "ml_away", "spread_odds_home", "spread_odds_away", "over_odds", "under_odds")
     for n in new:
+        if n.get("in_progress"):
+            continue  # once ESPN shows live odds the pre-game item carries the opener; never log it as a close
         prev = last.get(n["record_id"])
         if prev is None or any(str(prev.get(k) or "") != str(n.get(k) if n.get(k) is not None else "") for k in keys):
             rows.append({k: ("" if n.get(k) is None else n.get(k)) for k in LINE_COLS})
             last[n["record_id"]] = rows[-1]
     return rows
+
+
+_CAPTURE_RE = re.compile(r"Closing captured (\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})Z \(pre-kickoff\)")
+
+
+def _ts(v):
+    try:
+        t = dt.datetime.fromisoformat(str(v).replace("Z", "+00:00"))
+        return t if t.tzinfo else t.replace(tzinfo=dt.timezone.utc)
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def close_cutoff(g: dict):
+    """Pre-kickoff close-capture time from the Ledger note (Close & Grade), or None."""
+    m = _CAPTURE_RE.findall(g.get("Line Source Note") or "")
+    if not m:
+        return None
+    d, hm = m[-1]
+    return dt.datetime.fromisoformat(f"{d}T{hm}:59+00:00")
+
+
+def market_close(market: str, side: str, g: dict, game_lines: list[dict]):
+    """Closing number for a spread/total pick, in pick-side terms. Returns (close, source) or (None, reason).
+
+    Spread: the Ledger's Closing Spread (Home) first (the same close the unit gate uses);
+    home close = cs, away close = -cs. Otherwise, and for totals, the last lines_log row at or
+    before the Ledger's pre-kickoff capture time. Blank beats wrong: no valid row -> None.
+    """
+    if market == "spread":
+        cs = _num(g.get("Closing Spread (Home)"))
+        if cs is not None:
+            return (cs if side == "home" else -cs), "ledger_close"
+    cut = close_cutoff(g)
+    rows = [r for r in game_lines if not str(r.get("in_progress", "")).strip().lower() in ("1", "true")]
+    if cut is not None:
+        rows = [r for r in rows if (_ts(r.get("ts")) or cut) <= cut]
+    for r in reversed(rows):
+        if market == "total":
+            tot = _num(r.get("total"))
+            if tot is not None:
+                return tot, "lines_log_pre_close" if cut else "lines_log_last"
+        else:
+            ml_ = _num(r.get("home_margin_line"))
+            if ml_ is not None:
+                return (-ml_ if side == "home" else ml_), "lines_log_pre_close" if cut else "lines_log_last"
+    return None, "no_valid_close"
+
+
+def lines_by_game(rows: list[dict]) -> dict:
+    out: dict[str, list[dict]] = {}
+    for r in rows:
+        out.setdefault(r["record_id"], []).append(r)
+    return out
+
+
+def regrade_clv(games: list[dict], picks_rows: dict, lines_rows: list[dict]) -> list[dict]:
+    """One-time repair: recompute close_line/clv on graded spread/total rows. Result and units are untouched."""
+    by_id, bg, changes = {g["_id"]: g for g in games}, lines_by_game(lines_rows), []
+    for r in picks_rows.values():
+        if r.get("market") not in ("spread", "total") or r.get("result") not in ("Win", "Loss", "Push"):
+            continue
+        gid = (r.get("game_ids") or "").split("+")[0]
+        g = by_id.get(gid)
+        if g is None:
+            continue
+        close, src = market_close(r["market"], r.get("side"), g, bg.get(gid, []))
+        clv = clv_points(r["market"], r.get("side"), _num(r.get("line")), close) if close is not None else None
+        new_c, new_v = ("" if close is None else close), ("" if clv is None else clv)
+        if str(r.get("close_line", "")) != str(new_c) or str(r.get("clv", "")) != str(new_v):
+            changes.append({"pick_id": r["pick_id"], "game": r.get("game"), "market": r["market"], "side": r.get("side"),
+                            "line": r.get("line"), "old_close": r.get("close_line", ""), "old_clv": r.get("clv", ""),
+                            "new_close": new_c, "new_clv": new_v, "source": src})
+            r["close_line"], r["clv"] = new_c, new_v
+    return changes
 
 
 def last_lines(rows: list[dict]) -> dict:
@@ -771,7 +848,7 @@ def freeze_started(games: list[dict], picks_rows: dict, lines_rows: list[dict]) 
 
 def grade_picks(games: list[dict], picks_rows: dict, lines_rows: list[dict], now: str) -> int:
     by_id = {g["_id"]: g for g in games}
-    last = last_lines(lines_rows)
+    bg = lines_by_game(lines_rows)
     n = 0
     for r in picks_rows.values():
         if r.get("result") in ("Win", "Loss", "Push", "retired"):
@@ -788,14 +865,7 @@ def grade_picks(games: list[dict], picks_rows: dict, lines_rows: list[dict], now
             r["result"] = res
             r["units_won"] = units_won(res, _num(r.get("units")) or 0.0, price) if m != "teaser_leg" else ""
             if m in ("spread", "total"):
-                ll = last.get(gids[0])
-                close = None
-                if ll:
-                    ml_, tot = _num(ll.get("home_margin_line")), _num(ll.get("total"))
-                    if m == "total":
-                        close = tot
-                    elif ml_ is not None:
-                        close = -ml_ if r.get("side") == "home" else ml_
+                close, _src = market_close(m, r.get("side"), g, bg.get(gids[0], []))
                 if close is not None:
                     r["close_line"], r["clv"] = close, clv_points(m, r.get("side"), _num(r.get("line")), close)
         elif m in ("parlay", "teaser"):
@@ -891,5 +961,21 @@ def cmd_grade() -> None:
     print(f"Markets graded: {n} picks")
 
 
+def cmd_reclv() -> None:
+    """Report-only by default; pass --write to update picks_log.csv."""
+    games, _, _ = _fetch_ledger()
+    lines_rows = read_csv(os.path.join(OUT, "lines_log.csv"))
+    picks_rows = {r["pick_id"]: r for r in read_csv(os.path.join(OUT, "picks_log.csv"))}
+    changes = regrade_clv(games, picks_rows, lines_rows)
+    for c in changes:
+        print(f"{c['game']} {c['market']} {c['side']} {c['line']}: close {c['old_close']!s} -> {c['new_close']!s}, "
+              f"CLV {c['old_clv']!s} -> {c['new_clv']!s} ({c['source']})")
+    if "--write" in sys.argv:
+        write_csv(os.path.join(OUT, "picks_log.csv"), PICK_COLS, sorted(picks_rows.values(), key=lambda r: (r.get("date", ""), r["pick_id"])))
+        print(f"CLV regrade: {len(changes)} rows rewritten")
+    else:
+        print(f"CLV regrade dry run: {len(changes)} rows would change (pass --write to apply)")
+
+
 if __name__ == "__main__":
-    {"run": cmd_run, "grade": cmd_grade}.get(sys.argv[1] if len(sys.argv) > 1 else "run", cmd_run)()
+    {"run": cmd_run, "grade": cmd_grade, "reclv": cmd_reclv}.get(sys.argv[1] if len(sys.argv) > 1 else "run", cmd_run)()
