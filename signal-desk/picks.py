@@ -62,6 +62,7 @@ SIGMA_SEGMENTS = {lg: v.get("segments", {}) for lg, v in (sg.read_params().get("
 CLV_PARAMS = sg.read_params().get("clv") or {}
 CLV_TIER_MODE = os.environ.get("CLV_TIER_MODE", "shadow").strip().lower()
 LAST_CLV: dict = {}
+PROB_DRIFT = float(os.environ.get("PROB_DRIFT", "0.005"))  # re-price when win prob moves this much (0.5 pts)
 QB_OUT_NEW_CAP = os.environ.get("QB_OUT_NEW_CAP", "lean").strip().lower() != "off"
 
 
@@ -217,6 +218,46 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     return new, edge, tier, prob, units
 
 
+def reprice_reasons(f: dict, new_f: dict | None, tier_n) -> list[str]:
+    """Why a pending auto pick needs re-pricing. Empty list = keep the saved numbers."""
+    if new_f is None:
+        return ["below Lean"]
+    out = []
+    if new_f["Recommended Side"] != f.get("Recommended Side", ""):
+        out.append("side")
+    if tier_n != f.get("Sharp-Sheet Tier"):
+        out.append("tier")
+    p0 = f.get("Sharp-Sheet Est. Win Prob %")
+    if p0 is None or abs(float(new_f["Sharp-Sheet Est. Win Prob %"]) - float(p0)) >= PROB_DRIFT - 1e-9:
+        out.append("prob")
+    u0 = f.get("Sharp-Sheet Suggested Units")
+    if u0 is None or abs(float(new_f["Sharp-Sheet Suggested Units"]) - float(u0)) > 1e-9:
+        out.append("units")
+    return out
+
+
+def kickoff_state(f: dict, events_for, now_utc: dt.datetime):
+    """(open, note) for a game dated today: open only while ESPN says 'pre' and kickoff is still ahead.
+    Unknown kickoff -> closed (old behaviour: leave the saved pick alone)."""
+    league = f.get("League", "")
+    try:
+        events = events_for(league)
+    except Exception as exc:  # noqa: BLE001
+        return False, f"kickoff unknown ({exc})"
+    m = es.match_event({"fields": f}, events)
+    if not m:
+        return False, "kickoff unknown (no ESPN match)"
+    ev = m[0]
+    state = ((ev.get("status") or {}).get("type") or {}).get("state")
+    try:
+        ko = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
+    except Exception:  # noqa: BLE001
+        return False, "kickoff unknown (no date)"
+    if state != "pre" or ko <= now_utc:
+        return False, f"frozen at kickoff {ko.strftime('%H:%MZ')} (state {state})"
+    return True, f"kickoff {ko.strftime('%H:%MZ')}"
+
+
 def central_today() -> dt.date:
     try:
         from zoneinfo import ZoneInfo
@@ -241,7 +282,16 @@ def main() -> None:
     shadow_clv: list[dict] = []
     reprice_live = live and os.environ.get("REPRICE_LIVE", "0").strip() == "1"
     today = central_today()
-    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%MZ")
+    now_utc = dt.datetime.now(dt.timezone.utc)
+    now = now_utc.strftime("%Y-%m-%d %H:%MZ")
+    _ev_cache: dict[str, list[dict]] = {}
+
+    def events_for(league: str) -> list[dict]:
+        if league not in _ev_cache:  # ESPN scoreboard JSON is fetched directly (no scraper call)
+            days = [today, today + dt.timedelta(days=1)]
+            _ev_cache[league] = es.espn_events(league, [d.strftime("%Y%m%d") for d in days],
+                                               os.environ.get("WEBSCRAPING_AI_API_KEY", ""))
+        return _ev_cache[league]
     for r in rows:
         f = r["fields"]
         if f.get("Sharp-Sheet Tier"):
@@ -255,11 +305,14 @@ def main() -> None:
                     and f.get("Away FPI") is not None and f.get("Vegas Implied Home Margin") is not None):
                 new_f, edge0, tier_n, _prob, _u = evaluate(f, params[lg0], counts, now)
                 old_side = f.get("Recommended Side", "")
-                changed = (new_f is None) or new_f["Recommended Side"] != old_side or tier_n != tier0
-                if changed:
-                    if f["Date"][:10] <= today.isoformat():
+                reasons = reprice_reasons(f, new_f, tier_n)
+                if reasons:
+                    game_day, ko_note = f["Date"][:10] <= today.isoformat(), ""
+                    if game_day:
+                        is_open, ko_note = kickoff_state(f, events_for, now_utc)
+                    if game_day and not is_open:
                         stale_today.append(f"{f.get('Game')}: {tier0} {old_side} vs now "
-                                           f"{(new_f or {}).get('Recommended Side', 'no pick')} (game date {f['Date'][:10]}, left unchanged)")
+                                           f"{(new_f or {}).get('Recommended Side', 'no pick')} ({'/'.join(reasons)}; {ko_note}, left unchanged)")
                     elif new_f is None:
                         withdrawn.append(f"{f.get('Game')}: withdraw {tier0} {old_side} (edge now {edge0:+.1f}, below Lean)")
                         updates_r = {"Sharp-Sheet Tier": None, "Sharp-Sheet Est. Win Prob %": None,
@@ -271,9 +324,15 @@ def main() -> None:
                             updates.append({"id": r["id"], "fields": updates_r})
                         continue
                     else:
+                        p0, u0 = f.get("Sharp-Sheet Est. Win Prob %"), f.get("Sharp-Sheet Suggested Units")
+                        delta = (f"p {float(p0):.1%} -> {new_f['Sharp-Sheet Est. Win Prob %']:.1%}" if p0 is not None
+                                 else f"p {new_f['Sharp-Sheet Est. Win Prob %']:.1%}")
+                        delta += f", {u0 if u0 is not None else '-'}u -> {new_f['Sharp-Sheet Suggested Units']:g}u"
                         repriced.append(f"{f.get('Game')}: {tier0} {old_side} -> {tier_n} {new_f['Recommended Side']} "
-                                        f"(edge {edge0:+.1f})")
-                        new_f["Sharp-Sheet Data Completeness"] = (f"Auto pick re-priced {now} | edge {edge0:+.1f} | "
+                                        f"(edge {edge0:+.1f}; {delta}; {'/'.join(reasons)}{'; ' + ko_note if ko_note else ''})")
+                        new_f["Sharp-Sheet Data Completeness"] = (f"Auto pick re-priced {now} ({'/'.join(reasons)}) | edge {edge0:+.1f} | "
+                                                                  f"was {tier0} {old_side} {float(p0):.1%} {u0}u" if p0 is not None else
+                                                                  f"Auto pick re-priced {now} ({'/'.join(reasons)}) | edge {edge0:+.1f} | "
                                                                   f"was {tier0} {old_side}")
                         if reprice_live:
                             updates.append({"id": r["id"], "fields": new_f})
@@ -343,7 +402,7 @@ def main() -> None:
     cap_note = "; ".join(f"{lg} {t}: {n}" for (lg, t), n in sorted(counts.items())) or "none"
     lines = [f"Mode: {mode}", f"New picks: {len(report)}", f"Units re-capped: {len(recapped)}",
              f"Re-price ({'LIVE' if reprice_live else 'report only'}): {len(repriced)} re-priced, "
-             f"{len(withdrawn)} withdrawn, {len(stale_today)} stale but dated today or earlier (not changed)",
+             f"{len(withdrawn)} withdrawn, {len(stale_today)} frozen at or past kickoff, or kickoff unknown (not changed)",
              f"Factors ({FACTOR_MODE}; shadow writes {'LIVE' if shadow_live else 'report only'}): "
              f"{len(shadow)} rows to update, {shadow_unparsed} without a usable Injury Notes (not treated as healthy)",
              f"Skipped: {skipped}",
