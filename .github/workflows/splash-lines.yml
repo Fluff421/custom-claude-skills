@@ -1,0 +1,54 @@
+name: Splash line history (Signal Desk)
+
+# Manual only. Paste a File 1 Splash line dump (raw JSON, or "gz:" + base64 of gzipped JSON when it is too long).
+# Validates the dump, matches it to the ledger, and appends every game to intelligence/splash_lines_log.csv with
+# movement vs the previous snapshot and the early-week import, the sportsbook line at that time, key numbers crossed,
+# an injury-note fingerprint and a possible-reason hint. Never writes to Airtable; the ledger keeps the early import.
+on:
+  workflow_dispatch:
+    inputs:
+      dump:
+        description: "File 1 Splash line dump: raw JSON or gz:<base64>"
+        required: true
+        type: string
+      pricecheck:
+        description: "Run the pick-time check at the new lines afterward"
+        required: false
+        default: true
+        type: boolean
+      allow_stale:
+        description: "Accept a dump older than 24 hours (history backfill only)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signal-desk-splash-lines
+  cancel-in-progress: false
+
+jobs:
+  log:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
+      SPLASH_LINES_DUMP: ${{ inputs.dump }}
+      SPLASH_ALLOW_STALE: ${{ inputs.allow_stale && '1' || '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Log the Splash lines
+        run: python signal-desk/splash_lines.py
+      - name: Pick-time check at the new lines
+        if: ${{ inputs.pricecheck }}
+        run: python signal-desk/splash_pricecheck.py
+      - name: Commit the line history
+        shell: bash
+        run: |
+          bash .github/scripts/commit_data.sh "Splash line snapshot $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/splash_lines signal-desk/intelligence/splash_lines_log.csv signal-desk/intelligence/splash_pricecheck

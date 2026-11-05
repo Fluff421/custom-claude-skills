@@ -237,6 +237,8 @@ labelled so; it is re-priced when the Splash line arrives. Max and Strong stay p
 | `calibrate.py` | 13:30 daily | Model Parameters only |
 | `snapshot.py` | 8:15 AM Central daily | `LEDGER.md`, `data/snapshot.json` (read-only on Airtable) |
 | `ops_export.py` | same job | `data/graded_picks.csv`, `data/ops_status.json`: row-level ledger health and per-workflow health read from run logs (a "success" run with HTTP 402 or all games unmatched is reported as degraded); also flags upcoming games where the hand-entered Splash line differs from the ESPN spread by 3 or more points |
+| `splash_lines.py` | manual (`splash-lines.yml`) | `intelligence/splash_lines_log.csv`, `intelligence/splash_lines/` (raw dumps and movement reports). Read-only on Airtable. |
+| `splash_pricecheck.py` | manual (`splash-pricecheck.yml`, or after a line dump) | `intelligence/splash_pricecheck/` (pick-time check). Read-only on Airtable. |
 
 `picks.py` and `close_grade.py` are the only scripts allowed to write
 Sharp-Sheet or Grade fields. Nothing automated writes the Splash line.
@@ -302,4 +304,18 @@ Splash lines move until the pick is made. The ledger's `Vegas Implied Home Margi
 - The log (`intelligence/splash_picks_log.csv`) keeps both: `imported_line` and `locked_line`, with `locked_at`, `movement_for_you` (positive = a better number for the owner), `lead_days` (days from lock to kickoff), and for teaser legs `base_line` and `teased_line`.
 - Splash picks are graded only against the locked line. The model is repriced at the locked line and at the imported line; `side_changed` shows when the model would have switched sides.
 - Locked lines stay in the repo log. Nothing about Splash is written to Airtable, so no new Ledger field was added for it.
+
+### Line history and the pick-time check
+
+Splash has no feed, so the owner's File 1 line dumps are the only record of how Splash lines move during the week.
+
+- `splash_lines.py` (workflow `splash-lines.yml`, input `dump` as raw JSON or `gz:` + base64) validates a dump, matches each game to the ledger, and appends one row per game to `intelligence/splash_lines_log.csv`. The first snapshot of a week is `early_import`; every later one is `movement` with a running `movement_seq`.
+- Each row stores the Splash spread (as home margin), total and moneylines, the move since the previous snapshot and since the early import, the side the line moved toward, the sportsbook line from `markets/lines_log.csv` at that moment, key numbers crossed, an injury-note fingerprint (so a move can be tied to news), the model's view, a `move_hint` and a blank `owner_note`.
+- `move_hint` is a hypothesis for discussion, never a conclusion: "followed the sportsbook move", "caught up toward the sportsbook line" or "Splash-only move".
+- A game-count mismatch is accepted only when every game missing since the previous snapshot is already final.
+- Each movement report ends with "what movement has meant so far": for finished games, how often the side the line moved toward covered the early line. Small samples are labeled; nothing feeds calibration until the sample is large.
+- `splash_pricecheck.py` (workflow `splash-pricecheck.yml`, optional `games` filter) reprices every upcoming game at the newest logged Splash line for spread, total, moneyline and 6-point teaser legs, and lists every tier or side change versus the early import. It warns when the newest snapshot is over 12 hours old. Run it right before picking on Splash.
+- The ledger keeps the early-week import. Later dumps are never written to Airtable.
+
+History: the week of 2026-11-02 was seeded from the owner's 2026-11-01 8:13 PM CST paste (early import), 2026-11-03 1:18 PM CST paste (movement 1) and 2026-11-04 4:32 PM CST File 1 dump (movement 2). The Nov 3 paste had overwritten the ledger; on 2026-11-04 the owner had the Nov 1 lines restored so movement is measured from the true opening line.
 - Timing: the report compares movement and results by how early in the week the pick was locked, with a small-sample warning.

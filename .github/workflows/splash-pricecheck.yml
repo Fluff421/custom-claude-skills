@@ -1,0 +1,40 @@
+name: Splash pick-time check (Signal Desk)
+
+# Manual only. Reprices every upcoming game at the newest Splash line in intelligence/splash_lines_log.csv
+# (spread, total, moneyline and 6-point teaser legs) and shows what changed versus the early-week import.
+# Run it right before picking on Splash. Read-only against Airtable; paper picks only.
+on:
+  workflow_dispatch:
+    inputs:
+      games:
+        description: "Optional: comma-separated team names to limit the check (blank = all upcoming games)"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signal-desk-splash-pricecheck
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
+      SPLASH_CHECK_GAMES: ${{ inputs.games }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Pick-time check
+        run: python signal-desk/splash_pricecheck.py
+      - name: Commit the check
+        shell: bash
+        run: |
+          bash .github/scripts/commit_data.sh "Splash pick-time check $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/splash_pricecheck
