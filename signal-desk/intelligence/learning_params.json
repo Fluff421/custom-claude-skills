@@ -29,7 +29,7 @@
    },
    "model": {
     "coef": {
-     "edge": 0.0355,
+     "edge": 0.0379,
      "inj": 0.0,
      "lookahead": 0.0,
      "rest": 0.0,
@@ -42,18 +42,18 @@
      "se": 0.0116,
      "slope": 0.0832
     },
-    "n": 49,
-    "noise_sd": 1.622,
+    "n": 52,
+    "noise_sd": 1.639,
     "nonzero": {
-     "edge": 49,
-     "inj": 1,
-     "lookahead": 1,
-     "rest": 0,
-     "revenge": 1,
-     "travel": 0,
+     "edge": 52,
+     "inj": 4,
+     "lookahead": 4,
+     "rest": 2,
+     "revenge": 2,
+     "travel": 1,
      "weather": 0
     },
-    "note": "fitted on 49 graded picks; active features: edge",
+    "note": "fitted on 52 graded picks; active features: edge",
     "ok": true,
     "prior": {
      "edge": 0.0832,
@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-04T21:01:41.000Z"
+   "updated": "2026-11-05T21:22:04.000Z"
   },
   "NFL": {
    "forward": {
@@ -132,21 +132,21 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-04T21:01:41.000Z"
+   "updated": "2026-11-05T21:22:04.000Z"
   }
  },
  "sigma": {
   "NCAAF": {
-   "n_eff": 2379.2,
-   "n_ledger": 57,
-   "raw": 14.93,
-   "reason": "moved toward learned 14.93 (max step 0.5)",
+   "n_eff": 2381.2,
+   "n_ledger": 60,
+   "raw": 14.95,
+   "reason": "moved toward learned 14.95 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": true,
      "mult": 1.001,
-     "n": 1514,
-     "sd": 14.95
+     "n": 1515,
+     "sd": 14.97
     },
     "injury_heavy": {
      "applied": false,
@@ -157,7 +157,7 @@
     "qb_uncertain": {
      "applied": false,
      "mult": 1.0,
-     "n": 1,
+     "n": 3,
      "sd": null
     },
     "weather": {
@@ -167,9 +167,9 @@
      "sd": null
     }
    },
-   "sigma": 14.93,
-   "target": 14.93,
-   "updated": "2026-11-04T21:01:41.000Z"
+   "sigma": 14.95,
+   "target": 14.95,
+   "updated": "2026-11-05T21:22:04.000Z"
   },
   "NFL": {
    "n_eff": 682.4,
@@ -204,7 +204,7 @@
    },
    "sigma": 12.42,
    "target": 12.42,
-   "updated": "2026-11-04T21:01:41.000Z"
+   "updated": "2026-11-05T21:22:04.000Z"
   }
  }
 }
