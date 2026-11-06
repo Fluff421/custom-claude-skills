@@ -10,12 +10,13 @@ on:
   pull_request:
     paths:
       - signal-desk/injury_pull.py
+      - signal-desk/college_availability.py
       - signal-desk/producer_health.py
       - .github/workflows/injury-pull.yml
       - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "33 */3 * * 3-6"   # Wed-Sat every 3 hours (UTC)
-    - cron: "33 14 * * 0-2"    # Sun-Tue once a day
+    - cron: "33 12 * * 0-2"    # Sun-Tue once daily, before Snapshot in CST and CDT
 
 permissions:
   contents: read
@@ -29,6 +30,7 @@ jobs:
   pull:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
@@ -48,7 +50,7 @@ jobs:
             if [ -z "${!key}" ]; then echo "::error::Missing secret $key"; exit 1; fi
           done
           echo "Mode: INJURY_PULL_LIVE=${INJURY_PULL_LIVE}"
-      - name: Pull Covers and DraftEdge, merge, write Injury Notes
+      - name: Validate injury sources and write managed Injury Notes
         run: python signal-desk/injury_pull.py
       - name: Keep the parsed snapshot
         if: always()

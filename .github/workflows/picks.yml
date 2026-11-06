@@ -21,10 +21,10 @@ on:
       - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "47 */3 * * *"
-  # Re-price right after Context & Calibrate finishes, so new QB and injury notes it writes
+  # Re-price after Context or the injury producer finishes, so changed QB/injury inputs
   # reach the picks without waiting for the next 3-hourly slot (GitHub often delays that slot by hours).
   workflow_run:
-    workflows: ["Context & Calibrate (Signal Desk)"]
+    workflows: ["Context & Calibrate (Signal Desk)", "NCAAF Injury Pull (Signal Desk)"]
     types: [completed]
 
 permissions:
@@ -41,7 +41,7 @@ jobs:
       contents: read
     uses: ./.github/workflows/signal-desk-ci.yml
   picks:
-    # A chained run happens only after a successful Context run on main that was scheduled or dispatched
+    # A chained run happens only after a successful source run on main that was scheduled or dispatched
     # (never after a pull-request check or a failed run). It then behaves exactly like a scheduled run.
     if: >-
       ${{ github.event_name != 'pull_request' && (github.event_name != 'workflow_run' ||

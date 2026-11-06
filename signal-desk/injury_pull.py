@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""NCAAF injury pull for the Signal Desk Ledger (no scraping API, no AI).
+"""NCAAF injury pull for the Signal Desk Ledger (direct public reads).
 
-Fetches two public pages directly (Covers and DraftEdge), parses every team's entries, merges them
-per upcoming NCAAF ledger game and writes ONLY the `Injury Notes` field.
+Uses Covers plus a timestamped secondary source for pending NCAAF games. A full-coverage
+conference-report snapshot can replace DraftEdge when its publication metadata is missing.
+Writes ONLY the `Injury Notes` field.
 
 Safety rules:
 - Dry run by default (INJURY_PULL_LIVE=1 to write).
-- Only NCAAF rows. Never touches Splash, picks, grades, or any field except `Injury Notes`.
+- Only pending, non-past NCAAF rows. Never touches Splash, picks, grades, or any other field.
 - Only overwrites a blank note or one that starts with "[Injuries " (this job's own stamp or the
   earlier manual one). Any other hand-written note is left alone.
 - Health gates: a source with too few teams/entries is treated as failed and left out of the note.
@@ -26,6 +27,7 @@ import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import espn_sync as es  # noqa: E402
+import college_availability as availability  # noqa: E402
 
 COVERS_URL = "https://www.covers.com/sport/football/ncaaf/injuries"
 DRAFTEDGE_URL = "https://draftedge.com/cfb/college-football-injury-report/"
@@ -54,6 +56,16 @@ def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
     with urllib.request.urlopen(req, timeout=60) as r:
         return r.read().decode("utf-8", "replace")
+
+
+def fetch_kickoff(url: str) -> str:
+    if not url.startswith(availability.ROOT + "/"):
+        raise ValueError("unexpected availability-report host")
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+    with urllib.request.urlopen(req, timeout=20) as response:
+        if not response.url.startswith(availability.ROOT + "/"):
+            raise ValueError("availability source redirected outside its verified host")
+        return response.read().decode("utf-8", "replace")
 
 
 def clean(s: str) -> str:
@@ -148,9 +160,20 @@ def parse_draftedge(page: str, schools: list[str] | None = None) -> tuple[dict[s
 
 
 # ---------- matching ----------
+def team_key(name: str) -> str:
+    value = es.norm(LEDGER_ALIASES.get(es.norm(name), name))
+    value = {"appstate": "appalachianst", "appalchianst": "appalachianst",
+             "uconn": "connecticut", "umass": "massachusetts", "ucf": "centralflorida",
+             "usf": "southflorida", "lsu": "louisianast", "usc": "southerncalifornia",
+             "ulmonroe": "louisianamonroe", "ulm": "louisianamonroe",
+             "fiu": "floridainternational",
+             "pitt": "pittsburgh", "miamifl": "miami"}.get(value, value)
+    return value.replace("state", "st")
+
+
 def find_team(ledger_name: str, source: dict, ledger_names: set[str] | None = None) -> str | None:
-    key = LEDGER_ALIASES.get(es.norm(ledger_name), es.norm(ledger_name))
-    hits = [t for t in source if es.norm(t) == key]
+    key = team_key(ledger_name)
+    hits = [t for t in source if team_key(t) == key]
     return hits[0] if hits else None
 
 
@@ -160,6 +183,8 @@ def pos_rank(pos: str) -> int:
 
 
 def pkey(e: dict) -> str:
+    if e.get("src") == "K":
+        return es.norm(e["player"]) + "|" + e["pos"]
     parts = es.norm(e["player"].replace(".", " ")).split()
     n = re.sub(r"[^a-z]", "", e["player"].lower().split()[-1]) if e["player"].split() else ""
     return n + "|" + (e["player"].strip()[:1].lower())
@@ -171,14 +196,17 @@ def merge_team(entries: list[dict]) -> list[str]:
         by.setdefault(pkey(e), []).append(e)
     merged = []
     for group in by.values():
+        k = next((e for e in group if e["src"] == "K"), None)
         d = next((e for e in group if e["src"] == "D"), None)
         c = next((e for e in group if e["src"] == "C"), None)
-        main = d or c
+        main = k or d or c
         label = f"{main['player']} {main['pos']} {STATUS_ABBR.get(main['status'], main['status'].upper())}"
         inj = main["injury"] or (c or {}).get("injury", "")
         if inj:
             label += f" ({inj})"
-        if d and c:
+        if k:
+            label += " [K]"
+        elif d and c:
             label += " [both"
             label += f"; Covers {STATUS_ABBR.get(c['status'], c['status'])} {c['date']}]" if c["status"] != d["status"] else "]"
         elif c:
@@ -194,12 +222,13 @@ def merge_team(entries: list[dict]) -> list[str]:
 
 
 def build_note(away: str, home: str, cov, de, cov_ok: bool, de_ok: bool, ledger_names: set[str], de_stamp: str,
-               cov_latest: str) -> tuple[str, list[str]]:
+               cov_latest: str, secondary_provider="DraftEdge") -> tuple[str, list[str]]:
     miss = []
     parts = []
     for label, name in (("AWAY", away), ("HOME", home)):
         entries = []
-        for ok, src in ((cov_ok, cov), (de_ok, de)):
+        sources = ((de_ok, de),) if secondary_provider == "Kickoff Status" else ((cov_ok, cov), (de_ok, de))
+        for ok, src in sources:
             if ok:
                 t = find_team(name, src, ledger_names)
                 if t is None:
@@ -208,17 +237,20 @@ def build_note(away: str, home: str, cov, de, cov_ok: bool, de_ok: bool, ledger_
                 else:
                     entries += src[t]
         parts.append(f"{label} {name}: " + ("; ".join(merge_team(entries)) if entries else "none listed (not a clean bill)"))
-    used = [s for s, ok in (("Covers (latest entry " + cov_latest + ")", cov_ok), ("DraftEdge (updated " + de_stamp + ")", de_ok)) if ok]
-    down = [s for s, ok in (("Covers", cov_ok), ("DraftEdge", de_ok)) if not ok]
+    used = [s for s, ok in (("Covers cross-check (latest entry " + cov_latest + ")", cov_ok),
+                           (secondary_provider + " (updated " + de_stamp + ")", de_ok)) if ok]
+    down = [s for s, ok in (("Covers", cov_ok), (secondary_provider, de_ok)) if not ok]
     head = "[Injuries AUTO | SECONDARY, unverified] " + " + ".join(used)
     if down:
         head += f". UNAVAILABLE: {', '.join(down)}"
-    head += ". C=Covers, D=DraftEdge, dates are Covers entry dates. Blank is not healthy."
+    head += ". C=Covers, D=DraftEdge, K=conference-report snapshot; Covers dates are entry dates. Blank is not healthy."
     return head + " " + " | ".join(parts), miss
 
 
 def main() -> None:
     import producer_health as ph
+    WARNINGS.clear()
+    UNRECOGNISED.clear()
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip()
     table = os.environ.get("LEDGER_TABLE_ID", "").strip() or LEDGER_DEFAULT
@@ -240,12 +272,10 @@ def main() -> None:
         de_ok = n >= MIN_DRAFTEDGE_ENTRIES and bool(de_stamp)
         if n < MIN_DRAFTEDGE_ENTRIES:
             de_error = f"DraftEdge parsed only {n} entries (< {MIN_DRAFTEDGE_ENTRIES}); treated as failed"
-            warn(de_error)
         elif not de_stamp:
             de_error = f"DraftEdge parsed {n} entries but source updated-at is missing; freshness unverifiable; treated as failed"
-            warn(de_error)
     except Exception as exc:  # noqa: BLE001
-        warn(f"DraftEdge fetch/parse failed: {exc}")
+        de_error = f"DraftEdge fetch/parse failed: {exc}"
     cov_latest = ""
     if cov_ok:
         yr = dt.date.today().year
@@ -257,8 +287,23 @@ def main() -> None:
                 except ValueError:
                     pass
         cov_latest = max(ds).strftime("%b %d") if ds else "unknown"
-    rows = [r for r in es.at_list(base, table, token) if r["fields"].get("League") == "NCAAF"]
+    now = dt.datetime.now(dt.timezone.utc)
+    today = now.astimezone(availability.ZoneInfo("America/Chicago")).date().isoformat()
+    rows = [r for r in es.at_list(base, table, token) if r["fields"].get("League") == "NCAAF"
+            and r["fields"].get("Grade", "Pending") in ("", "Pending")
+            and str(r["fields"].get("Date") or today)[:10] >= today]
     expected_rows = len(rows)
+    raw_de, raw_de_stamp, raw_de_ok = de, de_stamp, de_ok
+    secondary_provider, replacement = "DraftEdge", {}
+    if expected_rows and not de_ok:
+        try:
+            de, de_stamp, replacement = availability.load(rows, fetch_kickoff, now, team_key)
+            de_ok, secondary_provider = True, "Kickoff Status"
+            print(f"INFO: {de_error}; replaced by timestamped full-coverage Kickoff Status reports.")
+        except Exception as exc:
+            replacement = getattr(exc, "coverage", {})
+            de_error += f"; timestamped replacement unavailable: {exc}"
+            warn(de_error)
     ledger_names = {r["fields"].get(k, "") for r in rows for k in ("Home Team", "Away Team")} - {""}
     updates, report, skipped = [], [], []
     if not (cov_ok or de_ok):
@@ -267,7 +312,7 @@ def main() -> None:
     for r in rows:
         f = r["fields"]
         note, miss = build_note(f.get("Away Team", ""), f.get("Home Team", ""), cov, de, cov_ok, de_ok, ledger_names,
-                                de_stamp, cov_latest)
+                                de_stamp, cov_latest, secondary_provider)
         for m in miss:
             warn(f"{f.get('Game')}: {m}")
         cur = (f.get("Injury Notes") or "").strip()
@@ -283,7 +328,9 @@ def main() -> None:
         print(f"Note: {len(UNRECOGNISED)} DraftEdge teams not in Covers list (mostly FCS): " + ", ".join(sorted(UNRECOGNISED))[:300])
     lines = [f"Mode: {'LIVE' if live else 'DRY RUN'}",
              f"Covers: {'ok' if cov_ok else 'FAILED'} ({len(cov)} teams, latest entry {cov_latest or 'n/a'})",
-             f"DraftEdge: {'ok' if de_ok else 'FAILED'} ({sum(len(v) for v in de.values())} entries, updated {de_stamp or 'n/a'})",
+             f"{secondary_provider}: {'ok' if de_ok else 'FAILED'} ({sum(len(v) for v in de.values())} entries, updated {de_stamp or 'n/a'})",
+             f"Replacement games expected: {replacement.get('expected_games', 0)}",
+             f"Replacement games covered: {replacement.get('covered_games', 0)}",
              f"NCAAF ledger rows scanned: {len(rows)}", f"Notes to write: {len(updates)}"]
     lines += [f"Skipped: {s}" for s in skipped] + [f"WARNING: {w}" for w in WARNINGS] + report[:60]
     print("\n".join(lines))
@@ -297,9 +344,12 @@ def main() -> None:
     if out:
         with open(out, "w", encoding="utf-8") as fh:
             json.dump({"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-                       "sources": {"covers": cov_ok, "draftedge": de_ok}, "expected_rows": expected_rows,
+                       "sources": {"covers": cov_ok, "draftedge": raw_de_ok,
+                                   "kickoff_status": secondary_provider == "Kickoff Status" and de_ok}, "expected_rows": expected_rows,
                        "status": "degraded" if expected_rows and not (cov_ok and de_ok) else "ok",
-                       "covers": cov, "draftedge": de, "draftedge_updated": de_stamp}, fh)
+                       "covers": cov, "draftedge": raw_de, "draftedge_updated": raw_de_stamp,
+                       "secondary": de, "secondary_provider": secondary_provider,
+                       "secondary_updated": de_stamp, "replacement": replacement}, fh)
     ph.finish("injury_pull", [de_error if name == "DraftEdge" else f"{name} unavailable or invalid" for name, ok in
               (("Covers", cov_ok), ("DraftEdge", de_ok)) if expected_rows and not ok],
               no_games=not expected_rows)
