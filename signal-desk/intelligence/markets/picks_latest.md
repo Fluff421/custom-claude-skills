@@ -148,7 +148,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Duke @ NC State | total | Over 51.5 | 51% | +0.4 pts | No Play | 0 |
 | Duke @ NC State | moneyline | NC State ML +158 | 38% | -1.2% | No Play | 0 |
 | UCF @ Kansas | spread | Kansas -2.5 (spread) | 51% | +1.5 pts | No Play | 0 |
-| UCF @ Kansas | total | Over 47.5 | 56% | +1.9 pts | No Play | 0 |
+| UCF @ Kansas | total | Over 48.5 | 55% | +1.6 pts | No Play | 0 |
 | UCF @ Kansas | moneyline | Kansas ML -160 | 59% | -2.1% | No Play | 0 |
 | Michigan State @ Michigan | spread | Michigan State +13.5 (spread) | 51% | -2.6 pts | No Play | 0 |
 | Michigan State @ Michigan | total | Over 39.5 | 55% | +1.8 pts | No Play | 0 |
