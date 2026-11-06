@@ -55,6 +55,8 @@ def validate(root, now, narrative_hours=4, grade_hours=2, board_hours=12, pricec
     if digest and hashlib.sha256(md.encode()).hexdigest() != digest:
         errors.append("narrative: Markdown content does not match JSON provenance")
     fresh("narrative", narrative.get("generated_at"), narrative_hours)
+    snapshot = read("data/snapshot.json", True)
+    fresh("snapshot", snapshot.get("generated_at"), 26)
 
     board = read("intelligence/splash_lines/latest.md")
     match = re.search(r"(\d{4}-\d\d-\d\d \d\d:\d\d:\d\d) (CST|CDT)", board.split("\n", 1)[0])
@@ -93,14 +95,20 @@ def validate(root, now, narrative_hours=4, grade_hours=2, board_hours=12, pricec
     except (ValueError, KeyError, TypeError) as exc:
         errors.append(f"close_grade: no verifiable run ({exc})")
     # A recent success label alone is not proof of clean coverage.
-    for wf in ops.get("workflow_health", []):
-        if wf.get("file") not in ("injury-pull.yml", "espn-sync.yml", "picks.yml", "context-calibrate.yml"):
-            continue
+    workflows = {wf.get("file"): wf for wf in ops.get("workflow_health", [])}
+    injury_hours = 4 if now.astimezone(CENTRAL).weekday() in (2, 3, 4, 5) else 26
+    for name, max_age in (("injury-pull.yml", injury_hours), ("espn-sync.yml", 4),
+                          ("picks.yml", 4), ("context-calibrate.yml", 26)):
+        wf = workflows.get(name, {})
         candidates = [r for r in wf.get("runs", []) if r.get("event") != "pull_request"]
-        if candidates:
-            latest = max(candidates, key=lambda r: timestamp(r.get("created_at")))
-            if latest.get("conclusion") != "success" or latest.get("health") != "ok":
-                errors.append(f"{wf['file']}: latest producer run is not healthy")
+        if not candidates:
+            errors.append(f"{name}: required producer evidence is missing")
+            continue
+        latest = max(candidates, key=lambda r: timestamp(r.get("created_at")))
+        fresh(name, latest.get("created_at"), max_age)
+        if (latest.get("conclusion") != "success" or latest.get("health") != "ok"
+                or latest.get("summary", {}).get("mode") != "LIVE"):
+            errors.append(f"{name}: latest producer run is not healthy, successful and LIVE")
     health_path = root / "data/producer_health/markets.json"
     if health_path.exists():
         health = read("data/producer_health/markets.json", True)

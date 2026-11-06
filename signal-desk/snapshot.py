@@ -129,7 +129,8 @@ def main() -> None:
         weeks = {k: old.get(k) for k in weeks}
     except (OSError, ValueError):
         pass
-    snap = {"date": today, **weeks, "ledger": summary["ledger"],
+    snap = {"date": today, "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+            **weeks, "ledger": summary["ledger"],
             "tiers": {k: {**{x: v[x] for x in ("hits", "misses", "pushes")},
                           "avg_clv": round(sum(v["clv"]) / len(v["clv"]), 2) if v["clv"] else None}
                       for k, v in summary["tiers"].items()},

@@ -282,13 +282,14 @@ def workflow_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
     for fname, label in WORKFLOWS.items():
         entry: dict = {"workflow": label, "file": fname, "runs": []}
         try:
-            runs = gh_json(f"/repos/{repo}/actions/workflows/{fname}/runs?per_page=30&status=completed", token)
+            runs = gh_json(f"/repos/{repo}/actions/workflows/{fname}/runs?per_page=30&status=completed&branch=main", token)
         except Exception as exc:  # noqa: BLE001
             entry["error"] = f"could not list runs: {exc}"
             out.append(entry)
             continue
+        accepted_events = ("schedule", "workflow_dispatch", "workflow_run") if fname == "picks.yml" else ("schedule", "workflow_dispatch")
         picked = [r for r in runs.get("workflow_runs", [])
-                  if r["event"] in ("schedule", "workflow_dispatch")
+                  if r["event"] in accepted_events and r.get("head_branch") == "main"
                   and dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) >= since][:RUNS_PER_WORKFLOW]
         for r in picked:
             info = None

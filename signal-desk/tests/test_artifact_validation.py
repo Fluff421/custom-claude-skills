@@ -17,6 +17,7 @@ class Readiness(unittest.TestCase):
         self.write("intelligence/latest.json", {"date": "2026-11-06", "generated_at": "2026-11-06T13:45:00Z"})
         self.write("intelligence/data/2026-11-06.json", {"date": "2026-11-06", "generated_at": "2026-11-06T13:45:00Z"})
         self.write("intelligence/latest.md", "# Signal Desk 2026-11-06\n\nPaper picks.")
+        self.write("data/snapshot.json", {"generated_at": "2026-11-06T13:40:00Z"})
         self.write("intelligence/splash_lines/latest.md", "# Splash line snapshot (2026-11-06 07:16:00 CST)\n\nOne game.")
         self.write("intelligence/splash_pricecheck/latest.md", "# Price check\n\nOne game.")
         self.write("intelligence/splash_pricecheck/latest.json", {
@@ -24,7 +25,40 @@ class Readiness(unittest.TestCase):
         self.write("data/ops_status.json", {
             "generated_at_utc": "2026-11-06T13:40:00Z", "workflow_health": [{
                 "file": "close-grade.yml", "runs": [{"created_at": "2026-11-06T13:37:00Z",
-                "event": "schedule", "conclusion": "success", "health": "ok", "summary": {"mode": "LIVE"}}]}]})
+                "event": "schedule", "conclusion": "success", "health": "ok", "summary": {"mode": "LIVE"}}]}] + [
+                    {"file": name, "runs": [{"created_at": "2026-11-06T13:30:00Z",
+                     "event": "schedule", "conclusion": "success", "health": "ok", "summary": {"mode": "LIVE"}}]}
+                    for name in ("espn-sync.yml", "picks.yml", "context-calibrate.yml", "injury-pull.yml")]})
+
+    def test_missing_required_producer_evidence_fails_closed(self):
+        ops = json.loads((self.root / "data/ops_status.json").read_text())
+        ops["workflow_health"] = [w for w in ops["workflow_health"] if w["file"] != "espn-sync.yml"]
+        self.write("data/ops_status.json", ops)
+        result, report = self.run_gate()
+        self.assertEqual(result.returncode, 1)
+        self.assertTrue(any("espn-sync.yml" in e for e in report["errors"]))
+
+    def test_stale_healthy_producer_does_not_pass(self):
+        ops = json.loads((self.root / "data/ops_status.json").read_text())
+        next(w for w in ops["workflow_health"] if w["file"] == "espn-sync.yml")["runs"][0]["created_at"] = "2026-11-06T10:00:00Z"
+        self.write("data/ops_status.json", ops)
+        result, report = self.run_gate()
+        self.assertEqual(result.returncode, 1)
+        self.assertTrue(any("espn-sync.yml: age" in e for e in report["errors"]))
+
+    def test_successful_dry_run_is_not_production_evidence(self):
+        ops = json.loads((self.root / "data/ops_status.json").read_text())
+        next(w for w in ops["workflow_health"] if w["file"] == "picks.yml")["runs"][0]["summary"]["mode"] = "DRY RUN"
+        self.write("data/ops_status.json", ops)
+        result, report = self.run_gate()
+        self.assertEqual(result.returncode, 1)
+        self.assertTrue(any("picks.yml: latest producer" in e for e in report["errors"]))
+
+    def test_missing_snapshot_generation_evidence_fails_closed(self):
+        self.write("data/snapshot.json", {"date": "2026-11-06"})
+        result, report = self.run_gate()
+        self.assertEqual(result.returncode, 1)
+        self.assertTrue(any("snapshot:" in e for e in report["errors"]))
 
     def write(self, name, value):
         p = self.root / name
