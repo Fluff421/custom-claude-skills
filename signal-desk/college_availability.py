@@ -75,9 +75,10 @@ def game_report(page, path, now, key):
                 raise ValueError(f"{path}: incomplete player row")
             player = text(re.sub(r'<span\b[^>]*class=["\']num["\'][^>]*>.*?</span>', "", cells[0], flags=re.S))
             pos, status = text(cells[1]), text(cells[2]).lower()
-            status = {"gtd": "questionable", "game-time decision": "questionable"}.get(status, status)
+            status = {"gtd": "questionable", "game-time decision": "questionable",
+                      "not listed": "available"}.get(status, status)
             if not player or not pos or status not in ("out", "doubtful", "questionable", "probable", "available"):
-                raise ValueError(f"{path}: unrecognized player/position/status")
+                raise ValueError(f"{path}: unrecognized player/position/status: {player!r}/{pos!r}/{status!r}")
             observed += 1
             if status != "available":
                 entries.append({"player": player, "pos": pos, "status": status,

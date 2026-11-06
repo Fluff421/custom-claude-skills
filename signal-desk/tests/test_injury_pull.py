@@ -101,6 +101,7 @@ class DraftEdgeContracts(unittest.TestCase):
             lambda page: page.replace(">Questionable</span>", ">Maybe</span>"),
             lambda page: page.replace('startDate":"', 'startDate":"2001-01-01'),
             lambda page: page.replace("latest official report posted", "No report yet"),
+            lambda page: page.replace("<td>QB</td>", "<td></td>"),
         ]
         for transform in transforms:
             with self.subTest(transform=transform):
@@ -139,6 +140,12 @@ class DraftEdgeContracts(unittest.TestCase):
             replacement=True, source_names=("UL Monroe", "FIU"))
         self.assertEqual(code, 0)
         self.assertEqual(snapshot["replacement"]["covered_games"], 1)
+
+    def test_publisher_defined_not_listed_status_is_available_not_an_injury(self):
+        code, _, snapshot = self.run_injury_command([self.future_row()], replacement=True,
+            transform=lambda page: page.replace(">Available</td>", ">Not listed</td>"))
+        self.assertEqual(code, 0)
+        self.assertNotIn("Available Example", str(snapshot["secondary"]))
 
     def test_utc_event_crossing_midnight_matches_pacific_schedule_date(self):
         row = self.future_row()
