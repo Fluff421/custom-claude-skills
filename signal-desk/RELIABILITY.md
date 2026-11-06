@@ -1,6 +1,6 @@
 # Signal Desk Reliability Review and Implementation
 
-The reliability recommendations are sound with corrections to paths, evidence requirements and producer coordination. These changes are prepared for review, not activation: they do not merge to main, change secrets or enable live modes. No live workflow dispatch or Airtable write is part of this implementation.
+The reliability recommendations are sound with corrections to paths, evidence requirements and producer coordination. The owner authorized production deployment on November 6, 2026, and [PR #51](https://github.com/Fluff421/custom-claude-skills/pull/51) was merged. Production validation remains separate from deployment: no healthy result may be inferred from a merge or green CI, and secrets, existing live-mode settings and paper-pick gates remain unchanged.
 
 ## Capabilities and scope
 
@@ -33,7 +33,9 @@ The DraftEdge parser now accepts the observed card layout and the legacy table l
 | Canonical price check | `intelligence/splash_pricecheck/latest.md` and `.json`; generation age under 4 hours |
 | Underlying price-check quotes | Age reconstructed from generation time and snapshot age; under 12 hours |
 | Operational evidence | `data/ops_status.json` generated under 4 hours ago |
-| Known producer degradation | Fail if available operational evidence records an unhealthy upstream run or market-feed failure |
+| Required producer evidence | ESPN/picks under 4 hours, Context under 26 hours; injury under 4 hours Wed–Sat, 26 hours otherwise. Missing, unhealthy, unsuccessful or non-LIVE evidence fails |
+| Snapshot export | Explicit generation timestamp under 26 hours; a checkout or file modification time is not evidence |
+| Known producer degradation | Fail if operational evidence records an unhealthy upstream run or market-feed failure |
 
 The 4-hour narrative and market warning policy is intentionally retained rather than silently relaxed to the proposed 12 hours. Board freshness uses the stricter end of the proposed 12–24-hour range. The limits can be explicitly overridden through named CLI options; changing them is a policy decision, not a way to conceal stale evidence.
 
@@ -67,7 +69,7 @@ Successful no-change runs remain valid. Source record dates, checked-at times, r
 
 ## Producer coordination
 
-| Workflow | Proposed review-branch schedule, America/Chicago |
+| Workflow | Deployed schedule, America/Chicago |
 | --- | --- |
 | Context & Calibrate | 06:13, with UTC offset selection |
 | Close & Grade | Existing hourly cadence at minute 37, unchanged |
@@ -95,11 +97,11 @@ Imported-to-locked differences remain line movement, not bad data. This implemen
 
 Review and merge the branch only after inspecting the code, deterministic tests and workflow validation. Keep current live-mode variables unchanged. Inspect the first actual producer outputs, failure diagnostics and heartbeat before relying on the new checks.
 
-The external briefing automation has deliberately not been modified ahead of a merge. Repository checks alone cannot force an external consumer to obey the gate. After merge and a successful producer run, the consumer must receive this integration instruction:
+The existing 08:30 Central briefing instructions now require a read-only validation against current main. Its schedule, destination and notification settings are preserved. Its ten sections remain intact, but an unavailable or failed gate blocks current recommendations:
 
-> Before generating the daily briefing, check the current main checkout and refresh operational evidence read-only. Run `python signal-desk/validate_artifacts.py` and inspect its exit status, JSON errors and warnings. If the command is unavailable, fails, or reports `ready: false`, issue a health-only update identifying failed checks; do not present actionable selections from unvalidated artifacts. If it passes, carry all freshness warnings into the existing paper-pick briefing and separately evaluate all promotion gates. Do not write to Airtable, modify workflow variables or dispatch live workflows.
+> Before generating the daily briefing, obtain a fresh current-main checkout. Run `python signal-desk/validate_artifacts.py --root signal-desk` and inspect its exit status, JSON errors and warnings. Corroborate it with the latest production readiness execution and artifact. If the command is unavailable, fails, or reports `ready: false`, open with NOT READY and identify failed checks; preserve the ten sections with historical/unavailable labels and withhold current recommendations. If it passes, carry freshness warnings into the paper-pick briefing and separately evaluate all promotion gates. Do not write to Airtable, modify workflow variables or dispatch workflows from the briefing.
 
-The 08:23 readiness workflow supplies an additional observable check, not a claim that the existing external consumer has already been wired to it. A delayed or missing readiness execution is not evidence of health.
+The 08:23 readiness workflow supplies an additional observable check. A delayed or missing readiness execution is not evidence of health. Health evidence now includes chained main-branch pick refreshes after Context & Calibrate, while excluding non-main runs. Production injury validation remains blocked when DraftEdge does not publish a source update timestamp; the check must not substitute fetch time or declare the source healthy.
 
 ## Verification
 
@@ -111,4 +113,4 @@ python -m unittest discover -s tests -v
 
 The tests cover missing and stale artifacts, degraded success states, invalid metadata, JSON/Markdown pairing, source-age preservation, heartbeat change semantics, feature/sigma refresh, real-versus-estimated prices and conservative close provenance. Workflow syntax and Python compilation should also be checked before merge. Passing offline checks does not establish live feed health or restore the three-day promotion requirement.
 
-Local verification on November 6, 2026: all 186 deterministic tests passed, Python compilation passed, and nine workflow files passed syntax and expression validation. The pre-change baseline was 168 passing tests. Existing resource warnings from older tests are unrelated to the new checks; the deliberate unavailable-source test also exercises the nonzero error path.
+Local verification on November 6, 2026: all 191 deterministic tests passed, Python compilation passed, and workflow syntax and expression validation passed. The pre-change baseline was 168 passing tests. Existing resource warnings from older tests are unrelated to the new checks; the deliberate unavailable-source test also exercises the nonzero error path. Added regressions prove that missing required producers, stale healthy runs, successful dry runs and missing Snapshot generation evidence cannot pass; chained main-branch pick refreshes are recognized.
