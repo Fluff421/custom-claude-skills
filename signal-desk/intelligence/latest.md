@@ -13,7 +13,7 @@ Overall graded picks: 38-39 (Brier 0.2654).
 | Vanderbilt @ Mississippi State | 2026-11-07 | Lean | Mississippi State -2.5 (spread) | 0.5 | 50.3% | 6.2 |
 | Arizona Cardinals @ Seattle Seahawks | 2026-11-08 | Lean | Arizona Cardinals +10.5 (spread) | 0.5 | 74.0% | -8 |
 | New York Giants @ Philadelphia Eagles | 2026-11-08 | Lean | Philadelphia Eagles +2.5 (spread) | 0.5 | 57.0% | 2.2 |
-| Cleveland Browns @ New Orleans Saints | 2026-11-08 | Lean | New Orleans Saints -2.5 (spread) | 0.5 | 62.3% | 3.9 |
+| Cleveland Browns @ New Orleans Saints | 2026-11-08 | Lean | New Orleans Saints -2.5 (spread) | 0.5 | 61.7% | 3.7 |
 | Tampa Bay Buccaneers @ Chicago Bears | 2026-11-08 | Lean | Tampa Bay Buccaneers +6.5 (spread) | 0.5 | 56.4% | -2 |
 | Houston Texans @ Los Angeles Chargers | 2026-11-08 | Lean | Los Angeles Chargers +3.5 (spread) | 0.5 | 55.1% | 1.6 |
 | Los Angeles Rams @ Washington Commanders | 2026-11-08 | Lean | Washington Commanders +5.5 (spread) | 0.5 | 55.8% | 1.8 |
@@ -22,7 +22,7 @@ Overall graded picks: 38-39 (Brier 0.2654).
 - Vanderbilt @ Mississippi State: model margin +9.9 vs line +2.5 (base edge +7.4); injuries: home loses 0.33 pts, away loses 0.03 pts; rest -0.6 pts to home; weather -0.2 pts to home; weather: 55F, wind 10mph, precip 0% | sev=0.25 | open-meteo
 - Arizona Cardinals @ Seattle Seahawks: model margin +5.5 vs line +10.5 (base edge -5.0); injuries: home loses 4.6 pts, away loses 1.59 pts; travel +0.3 pts to home; revenge -0.3 pts to home; QB: HOME QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-06] | AWAY QB PLAYING Gardner Minshew II [auto espn 2026-11-06]; weather: 57F, 18 | no severity
 - New York Giants @ Philadelphia Eagles: model margin +0.4 vs line -2.5 (base edge +2.9); injuries: home loses 0.52 pts, away loses 0.67 pts; rest -0.5 pts to home; revenge -0.3 pts to home; weather: 60F, 2 | no severity
-- Cleveland Browns @ New Orleans Saints: model margin +4.7 vs line +2.5 (base edge +2.2); injuries: home loses 0.45 pts, away loses 1.65 pts; rest +0.5 pts to home; QB: HOME QB PLAYING Tyler Shough [auto espn 2026-11-06] | AWAY QB QUESTIONABLE Deshaun Watson -> Shedeur Sanders [auto espn 2026-11-06]; weather: indoor | sev=0.00
+- Cleveland Browns @ New Orleans Saints: model margin +4.7 vs line +2.5 (base edge +2.2); injuries: home loses 0.67 pts, away loses 1.65 pts; rest +0.5 pts to home; QB: HOME QB PLAYING Tyler Shough [auto espn 2026-11-06] | AWAY QB QUESTIONABLE Deshaun Watson -> Shedeur Sanders [auto espn 2026-11-06]; weather: indoor | sev=0.00
 - Tampa Bay Buccaneers @ Chicago Bears: model margin +4.4 vs line +6.5 (base edge -2.1); injuries: home loses 0.46 pts, away loses 0.57 pts; weather: 53F, wind 9mph, precip 0% | sev=0.00 | open-meteo
 - Houston Texans @ Los Angeles Chargers: model margin -1.8 vs line -3.5 (base edge +1.7); injuries: home loses 0.84 pts, away loses 0.39 pts; rest -0.5 pts to home; travel +0.5 pts to home; revenge +0.3 pts to home; weather: 81F, wind 7mph, precip 0% | sev=0.00 | open-meteo
 - Los Angeles Rams @ Washington Commanders: model margin -4.7 vs line -5.5 (base edge +0.8); injuries: home loses 0.55 pts, away loses 0.82 pts; travel +0.7 pts to home; weather: 62F, wind 10mph, precip 0% | sev=0.00 | open-meteo
@@ -152,29 +152,27 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Detroit Lions @ Miami Dolphins | moneyline | Miami Dolphins ML +285 | 29% | Lean | 0.5 |
 | Air Force @ Army | total | Over 44.5 | 60% | Lean | 0.5 |
-| New York Jets @ Kansas City Chiefs | total | Under 48.5 | 56% | Lean | 0.5 |
-| Arizona Cardinals @ Seattle Seahawks | moneyline | Arizona Cardinals ML +350 | 29% | Lean | 0.5 |
+| New York Jets @ Kansas City Chiefs | total | Under 48.5 | 57% | Lean | 0.5 |
+| Arizona Cardinals @ Seattle Seahawks | moneyline | Arizona Cardinals ML +360 | 29% | Lean | 0.5 |
 | UCLA @ Minnesota | total | Over 38.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Atlanta Falcons | total | Under 52.5 | 57% | Lean | 0.5 |
 | New Mexico @ Nevada | total | Over 38.5 | 59% | Lean | 0.5 |
-| Texas State @ Oregon State | total | Under 70.5 | 62% | Lean | 0.5 |
-| Dallas Cowboys @ Indianapolis Colts | moneyline | Indianapolis Colts ML +205 | 36% | Lean | 0.5 |
+| Texas State @ Oregon State | total | Under 71.5 | 63% | Lean | 0.5 |
 | Green Bay Packers @ New England Patriots | total | Under 44.5 | 56% | Lean | 0.5 |
 | New York Giants @ Philadelphia Eagles | total | Over 38.5 | 56% | Lean | 0.5 |
-- NCAAF parlay: Over 44.5 + Under 70.5 | model 36.9%, needs +271 to break even, edge +9.9%, Max Play
-- NCAAF parlay: Over 38.5 + Under 70.5 | model 36.6%, needs +271 to break even, edge +9.6%, Max Play
-- NCAAF parlay: Over 38.5 + Under 70.5 | model 36.6%, needs +260 to break even, edge +8.8%, Max Play
-- NCAAF teaser: Under 70.5 -> 76.5 + Over 44.5 -> 38.5 + Over 38.5 -> 32.5 | model 44.6%, needs +160 to break even, edge +6.2%, Strong Play
-- NCAAF teaser: Under 70.5 -> 76.5 + Over 44.5 -> 38.5 + Over 38.5 -> 32.5 | model 44.6%, needs +160 to break even, edge +6.1%, Strong Play
-- NCAAF teaser: Under 70.5 -> 76.5 + Over 38.5 -> 32.5 + Over 38.5 -> 32.5 | model 44.4%, needs +160 to break even, edge +5.9%, Strong Play
-- NFL parlay: Arizona Cardinals +10.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 48.8%, needs +253 to break even, edge +20.4%, Max Play
+- NCAAF parlay: Over 44.5 + Under 71.5 | model 37.4%, needs +265 to break even, edge +10.0%, Max Play
+- NCAAF parlay: Over 38.5 + Under 71.5 | model 37.1%, needs +265 to break even, edge +9.7%, Max Play
+- NCAAF parlay: Over 38.5 + Under 71.5 | model 37.1%, needs +254 to break even, edge +8.9%, Max Play
+- NCAAF teaser: Under 71.5 -> 77.5 + Over 44.5 -> 38.5 + Over 38.5 -> 32.5 | model 45.0%, needs +160 to break even, edge +6.5%, Strong Play
+- NCAAF teaser: Under 71.5 -> 77.5 + Over 44.5 -> 38.5 + Over 38.5 -> 32.5 | model 45.0%, needs +160 to break even, edge +6.5%, Strong Play
+- NCAAF teaser: Under 71.5 -> 77.5 + Over 38.5 -> 32.5 + Over 38.5 -> 32.5 | model 44.8%, needs +160 to break even, edge +6.3%, Strong Play
+- NFL parlay: Arizona Cardinals +10.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 48.8%, needs +250 to break even, edge +20.2%, Max Play
 - NFL parlay: Arizona Cardinals +10.5 (spread) + Indianapolis Colts +5.5 (spread) | model 46.4%, needs +257 to break even, edge +18.3%, Max Play
-- NFL parlay: Arizona Cardinals +10.5 (spread) + New Orleans Saints -2.5 (spread) | model 46.1%, needs +257 to break even, edge +18.1%, Max Play
-- NFL teaser: Under 52.5 -> 58.5 + Over 38.5 -> 32.5 + Under 48.5 -> 54.5 | model 47.1%, needs +160 to break even, edge +8.7%, Max Play
+- NFL parlay: Arizona Cardinals +10.5 (spread) + New Orleans Saints -2.5 (spread) | model 45.7%, needs +257 to break even, edge +17.6%, Max Play
+- NFL teaser: Under 52.5 -> 58.5 + Under 48.5 -> 54.5 + Over 38.5 -> 32.5 | model 47.3%, needs +160 to break even, edge +8.8%, Max Play
+- NFL teaser: Under 52.5 -> 58.5 + Under 48.5 -> 54.5 + Under 44.5 -> 50.5 | model 47.1%, needs +160 to break even, edge +8.7%, Max Play
 - NFL teaser: Under 52.5 -> 58.5 + Over 38.5 -> 32.5 + Under 44.5 -> 50.5 | model 47.0%, needs +160 to break even, edge +8.6%, Max Play
-- NFL teaser: Under 52.5 -> 58.5 + Under 48.5 -> 54.5 + Under 44.5 -> 50.5 | model 46.9%, needs +160 to break even, edge +8.5%, Max Play
 
 ## Results and learning by market
 
