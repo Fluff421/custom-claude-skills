@@ -295,8 +295,16 @@ def workflow_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
             out.append(entry)
             continue
         accepted_events = ("schedule", "workflow_dispatch", "workflow_run") if fname == "picks.yml" else ("schedule", "workflow_dispatch")
+        # A guarded completion-triggered workflow may execute no producer at all.
+        # Retain that observation, but do not replace actual producer evidence.
+        skipped_chains = [r for r in runs.get("workflow_runs", [])
+                          if fname == "picks.yml" and r.get("event") == "workflow_run"
+                          and r.get("conclusion") == "skipped" and r.get("head_branch") == "main"]
+        entry["skipped_chains"] = [{"run_id": r["id"], "url": r["html_url"],
+                                    "created_at": r["created_at"]} for r in skipped_chains]
         picked = [r for r in runs.get("workflow_runs", [])
                   if r["event"] in accepted_events and r.get("head_branch") == "main"
+                  and r not in skipped_chains
                   and dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) >= since][:RUNS_PER_WORKFLOW]
         for r in picked:
             info = None
