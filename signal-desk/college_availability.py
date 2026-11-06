@@ -8,6 +8,12 @@ from zoneinfo import ZoneInfo
 
 ROOT = "https://kickoffstatus.com"
 
+class CoverageError(ValueError):
+    def __init__(self, coverage):
+        self.coverage = coverage
+        super().__init__(f"verified {coverage['covered_games']}/{coverage['expected_games']} games; "
+                         + "; ".join(coverage["failures"]))
+
 
 def text(value):
     return html.unescape(re.sub(r"<[^>]+>", "", value)).strip()
@@ -111,17 +117,27 @@ def load(rows, fetch, now, key):
     if not paths or len(paths) > 80:
         raise ValueError("missing or excessive current game-report links")
     def read(path):
-        return game_report(fetch(ROOT + path), path, now, key)
+        try:
+            return game_report(fetch(ROOT + path), path, now, key)
+        except Exception as exc:
+            return f"{path}: {exc}"
     with ThreadPoolExecutor(max_workers=2) as pool:
         reports = list(pool.map(read, paths))
-    games = {}
-    for identity, teams, meta in reports:
+    games, failures = {}, []
+    for report in reports:
+        if isinstance(report, str):
+            failures.append(report)
+            continue
+        identity, teams, meta = report
         if identity in games:
             raise ValueError(f"duplicate report for {identity}")
         games[identity] = (teams, meta)
     missing = expected - games.keys()
     if missing:
-        raise ValueError(f"missing expected game coverage: {sorted(missing)}")
+        raise CoverageError({"provider": "Kickoff Status", "expected_games": len(expected),
+                             "covered_games": len(expected & games.keys()),
+                             "source_snapshot_at": stamp, "failures": failures,
+                             "reports": [meta for _, meta in games.values()]})
     teams, metadata = {}, []
     for identity in sorted(expected):
         observed, meta = games[identity]

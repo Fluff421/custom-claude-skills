@@ -104,9 +104,12 @@ class DraftEdgeContracts(unittest.TestCase):
         ]
         for transform in transforms:
             with self.subTest(transform=transform):
-                code, health, _ = self.run_injury_command([self.future_row()], replacement=True, transform=transform)
+                code, health, snapshot = self.run_injury_command([self.future_row()], replacement=True, transform=transform)
                 self.assertEqual(code, 1)
                 self.assertEqual(health["status"], "degraded")
+                self.assertFalse(snapshot["sources"]["kickoff_status"])
+                self.assertEqual(snapshot["replacement"]["expected_games"], 1)
+                self.assertEqual(snapshot["replacement"]["covered_games"], 0)
 
     def test_stale_source_timestamp_is_not_replaced_with_fetch_time(self):
         old = (ip.dt.datetime.now(ip.dt.timezone.utc) - ip.dt.timedelta(days=2)).isoformat()

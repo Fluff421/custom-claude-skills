@@ -301,6 +301,7 @@ def main() -> None:
             de_ok, secondary_provider = True, "Kickoff Status"
             print(f"INFO: {de_error}; replaced by timestamped full-coverage Kickoff Status reports.")
         except Exception as exc:
+            replacement = getattr(exc, "coverage", {})
             de_error += f"; timestamped replacement unavailable: {exc}"
             warn(de_error)
     ledger_names = {r["fields"].get(k, "") for r in rows for k in ("Home Team", "Away Team")} - {""}
@@ -344,7 +345,7 @@ def main() -> None:
         with open(out, "w", encoding="utf-8") as fh:
             json.dump({"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
                        "sources": {"covers": cov_ok, "draftedge": raw_de_ok,
-                                   "kickoff_status": bool(replacement)}, "expected_rows": expected_rows,
+                                   "kickoff_status": secondary_provider == "Kickoff Status" and de_ok}, "expected_rows": expected_rows,
                        "status": "degraded" if expected_rows and not (cov_ok and de_ok) else "ok",
                        "covers": cov, "draftedge": raw_de, "draftedge_updated": raw_de_stamp,
                        "secondary": de, "secondary_provider": secondary_provider,
