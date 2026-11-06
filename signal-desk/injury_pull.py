@@ -165,6 +165,8 @@ def team_key(name: str) -> str:
     value = {"appstate": "appalachianst", "appalchianst": "appalachianst",
              "uconn": "connecticut", "umass": "massachusetts", "ucf": "centralflorida",
              "usf": "southflorida", "lsu": "louisianast", "usc": "southerncalifornia",
+             "ulmonroe": "louisianamonroe", "ulm": "louisianamonroe",
+             "fiu": "floridainternational",
              "pitt": "pittsburgh", "miamifl": "miami"}.get(value, value)
     return value.replace("state", "st")
 

@@ -46,6 +46,9 @@ def game_report(page, path, now, key):
     pair = (key(event["awayTeam"]["name"]), key(event["homeTeam"]["name"]))
     if not all(pair) or pair[0] == pair[1]:
         raise ValueError(f"{path}: invalid team identity")
+    report_label = re.search(r'<p\b[^>]*class=["\']qa-asof["\'][^>]*>(.*?)</p>', page, re.S | re.I)
+    if not report_label or not re.search(r"latest official report.*?posted", text(report_label[1]), re.I):
+        raise ValueError(f"{path}: official availability report not published")
     if '<div class="teams2">' not in page:
         raise ValueError(f"{path}: missing official team reports")
     official = page.split('<div class="teams2">', 1)[1]
@@ -78,7 +81,8 @@ def game_report(page, path, now, key):
         teams[team] = entries
     if set(teams) != set(pair):
         raise ValueError(f"{path}: partial team coverage")
-    return (date, *pair), teams, {"url": ROOT + path, "source_snapshot_at": stamp}
+    return (date, *pair), teams, {"url": ROOT + path, "source_snapshot_at": stamp,
+                                "official_report_label": text(report_label[1])}
 
 
 def load(rows, fetch, now, key):

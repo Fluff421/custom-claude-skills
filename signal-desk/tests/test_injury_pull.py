@@ -38,7 +38,7 @@ class DraftEdgeContracts(unittest.TestCase):
         for page in ("", "<html>Access denied</html>", "<article data-status='out'>No team or player</article>"):
             self.assertEqual(ip.parse_draftedge(page, ["SMU"]), ({}, ""))
 
-    def run_injury_command(self, rows, replacement=False, transform=None, live=False, extra_index=""):
+    def run_injury_command(self, rows, replacement=False, transform=None, live=False, extra_index="", source_names=None):
         page = (FIXTURES / "draftedge_cards.html").read_text(encoding="utf-8")
         covers = "".join(f'<a id="{i}"></a><section><div class="covers-CoversMatchups-teamName">'
                          f'{team}<br>Mascot</div></section>' for i, team in enumerate(("SMU", "Virginia Tech")))
@@ -51,6 +51,9 @@ class DraftEdgeContracts(unittest.TestCase):
                  '<span class="nm">Virginia Tech</span><span class="nm">@ SMU</span></a>'
                  + extra_index +
                  f'Data last refreshed <time datetime="{stamp}">Refresh</time>')
+        if source_names:
+            for old, new in zip(("Virginia Tech", "SMU"), source_names):
+                report, index = report.replace(old, new), index.replace(old, new)
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             env = {"AIRTABLE_TOKEN": "fixture-token", "AIRTABLE_BASE_ID": "fixture-base", "INJURY_PULL_LIVE": "1" if live else "0",
@@ -97,6 +100,7 @@ class DraftEdgeContracts(unittest.TestCase):
             lambda page: page.replace('href="/teams/smu/"', 'href="/ignored/"'),
             lambda page: page.replace(">Questionable</span>", ">Maybe</span>"),
             lambda page: page.replace('startDate":"', 'startDate":"2001-01-01'),
+            lambda page: page.replace("latest official report posted", "No report yet"),
         ]
         for transform in transforms:
             with self.subTest(transform=transform):
@@ -125,6 +129,13 @@ class DraftEdgeContracts(unittest.TestCase):
                      '<span class="nm">Other</span><span class="nm">@ Unrelated</span></a>')
         code, _, _ = self.run_injury_command([self.future_row()], replacement=True, extra_index=unrelated)
         self.assertEqual(code, 0)
+
+    def test_published_school_aliases_match_without_fuzzy_team_substitution(self):
+        code, _, snapshot = self.run_injury_command([self.future_row(
+            **{"Away Team": "Louisiana-Monroe", "Home Team": "Florida International"})],
+            replacement=True, source_names=("UL Monroe", "FIU"))
+        self.assertEqual(code, 0)
+        self.assertEqual(snapshot["replacement"]["covered_games"], 1)
 
     def test_utc_event_crossing_midnight_matches_pacific_schedule_date(self):
         row = self.future_row()
