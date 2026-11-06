@@ -4,3 +4,5 @@ date,league,market,setting,old,new,evidence,sample_size,source
 2026-11-03,NFL,spread,Sigma,12.4,12.42,"14 graded spread picks; learned residual SD, shrunk to prior, step-limited",682,calibrate.py
 2026-11-05,NCAAF,spread,Sigma,14.93,14.95,"60 graded spread picks; learned residual SD, shrunk to prior, step-limited",2381,calibrate.py
 2026-11-05,NCAAF,spread,Market Blend K,0.161,0.197,60 graded spread picks; Brier-based fit,52,calibrate.py
+2026-11-06,NCAAF,spread,Sigma,14.95,14.98,"62 graded spread picks; learned residual SD, shrunk to prior, step-limited",2382,calibrate.py
+2026-11-06,NCAAF,spread,Market Blend K,0.197,0.181,62 graded spread picks; Brier-based fit,54,calibrate.py
