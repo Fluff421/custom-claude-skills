@@ -11,6 +11,38 @@ import ops_export as ops
 
 
 class ObservationHealth(unittest.TestCase):
+    def observe_picks(self, runs):
+        archive = io.BytesIO()
+        with zipfile.ZipFile(archive, "w") as z:
+            z.writestr("1_picks.txt", "Mode: LIVE\nNew picks: 0\n")
+        with patch.object(ops, "gh_json", return_value={"workflow_runs": runs}), \
+                patch.object(ops, "gh_logs_zip", return_value=archive.getvalue()):
+            health = ops.workflow_health("example/repo", "test-token",
+                                         dt.datetime(2026, 11, 6, 14, tzinfo=dt.timezone.utc))
+        return next(w for w in health if w["file"] == "picks.yml")
+
+    def test_skipped_chain_is_observed_but_not_misreported_as_a_producer(self):
+        base = {"event": "workflow_run", "head_branch": "main", "html_url": "https://github.com/example/run"}
+        skipped = dict(base, id=2, created_at="2026-11-06T13:40:00Z", conclusion="skipped")
+        healthy = dict(base, id=1, created_at="2026-11-06T13:30:00Z", conclusion="success")
+        observed = self.observe_picks([skipped, healthy])
+        self.assertEqual(observed["latest_health"], "ok")
+        self.assertEqual([r["run_id"] for r in observed["runs"]], [1])
+        self.assertEqual(observed["skipped_chains"][0]["run_id"], 2)
+        self.assertEqual(self.observe_picks([skipped])["latest_health"], "no_runs_in_window")
+
+    def test_actual_failed_or_scheduled_skipped_run_still_supersedes_success(self):
+        base = {"event": "workflow_run", "head_branch": "main", "html_url": "https://github.com/example/run"}
+        healthy = dict(base, id=1, created_at="2026-11-06T13:30:00Z", conclusion="success")
+        for event, conclusion in (("workflow_run", "failure"), ("schedule", "skipped"),
+                                  ("workflow_dispatch", "skipped"), ("workflow_run", "cancelled")):
+            with self.subTest(event=event, conclusion=conclusion):
+                failed = dict(base, id=2, created_at="2026-11-06T13:40:00Z",
+                              event=event, conclusion=conclusion)
+                observed = self.observe_picks([failed, healthy])
+                self.assertNotEqual(observed["latest_health"], "ok")
+                self.assertEqual(observed["runs"][0]["run_id"], 2)
+
     def test_successful_injury_log_with_partial_replacement_coverage_is_degraded(self):
         info = ops.parse_log("Mode: LIVE\nReplacement games expected: 2\nReplacement games covered: 1\n")
         state, reasons = ops.judge("NCAAF Injury Pull", "success", info)
