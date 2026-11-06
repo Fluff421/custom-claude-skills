@@ -103,6 +103,35 @@ def canon_de(full: str, schools: list[str]) -> str | None:
 def parse_draftedge(page: str, schools: list[str] | None = None) -> tuple[dict[str, list[dict]], str]:
     upd = re.search(r"updated-time\">\s*([^<]+?)\s*<", page)
     teams: dict[str, list[dict]] = {}
+    # The provider now uses team sections/player cards. Keep legacy tables below.
+    # A transport checked-at time must never impersonate a source updated-at time.
+    def blocks(tag: str, css: str, text: str):
+        classes = rf"""\bclass\s*=\s*["'](?:[^"']*\s)?{re.escape(css)}(?:\s[^"']*)?["']"""
+        return re.findall(rf"<{tag}\b((?=[^>]*{classes})[^>]*)>(.*?)</{tag}\s*>", text, re.S | re.I)
+
+    cards = blocks("section", "cfi-team", page)
+    if cards:
+        for _, section in cards:
+            names = blocks("h2", "cfi-team__name", section)
+            full = clean(names[0][1]) if names else ""
+            team = canon_de(full, schools) if schools else full
+            if not team:
+                if full:
+                    UNRECOGNISED.add(full)
+                continue
+            for attrs, body in blocks("article", "cfi-player", section):
+                matched = re.search(r"""data-status\s*=\s*["']([^"']+)["']""", attrs, re.I)
+                status = matched.group(1).strip().lower() if matched else ""
+                values = [blocks("span", css, body) for css in ("cfi-player__name", "cfi-pos", "cfi-injury")]
+                player, pos, injury = (clean(parts[0][1]) if parts else "" for parts in values)
+                if not player or not pos or status not in STATUS_RANK:
+                    continue
+                teams.setdefault(team, []).append({
+                    "player": player, "pos": pos, "status": status,
+                    "injury": "" if injury.lower() in ("undisclosed", "unknown", "n/a", "-") else injury,
+                    "date": "", "src": "D",
+                })
+        return teams, (upd.group(1) if upd else "")
     for tr in re.findall(r'<tr data-status="[^"]*">(.*?)</tr>', page, re.S):
         tds = re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)
         if len(tds) < 5:
@@ -189,6 +218,7 @@ def build_note(away: str, home: str, cov, de, cov_ok: bool, de_ok: bool, ledger_
 
 
 def main() -> None:
+    import producer_health as ph
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip()
     table = os.environ.get("LEDGER_TABLE_ID", "").strip() or LEDGER_DEFAULT
@@ -196,6 +226,7 @@ def main() -> None:
     if not (token and base):
         raise SystemExit("ERROR: AIRTABLE_TOKEN and AIRTABLE_BASE_ID must be set.")
     cov, de, de_stamp, cov_ok, de_ok = {}, {}, "", False, False
+    de_error = "DraftEdge fetch/parse failed"
     try:
         cov = parse_covers(fetch(COVERS_URL))
         cov_ok = len(cov) >= MIN_COVERS_TEAMS
@@ -207,8 +238,12 @@ def main() -> None:
         de, de_stamp = parse_draftedge(fetch(DRAFTEDGE_URL), list(cov) if cov_ok else None)
         n = sum(len(v) for v in de.values())
         de_ok = n >= MIN_DRAFTEDGE_ENTRIES and bool(de_stamp)
-        if not de_ok:
-            warn(f"DraftEdge parsed {n} entries / stamp '{de_stamp}'; treated as failed.")
+        if n < MIN_DRAFTEDGE_ENTRIES:
+            de_error = f"DraftEdge parsed only {n} entries (< {MIN_DRAFTEDGE_ENTRIES}); treated as failed"
+            warn(de_error)
+        elif not de_stamp:
+            de_error = f"DraftEdge parsed {n} entries but source updated-at is missing; freshness unverifiable; treated as failed"
+            warn(de_error)
     except Exception as exc:  # noqa: BLE001
         warn(f"DraftEdge fetch/parse failed: {exc}")
     cov_latest = ""
@@ -223,6 +258,7 @@ def main() -> None:
                     pass
         cov_latest = max(ds).strftime("%b %d") if ds else "unknown"
     rows = [r for r in es.at_list(base, table, token) if r["fields"].get("League") == "NCAAF"]
+    expected_rows = len(rows)
     ledger_names = {r["fields"].get(k, "") for r in rows for k in ("Home Team", "Away Team")} - {""}
     updates, report, skipped = [], [], []
     if not (cov_ok or de_ok):
@@ -260,9 +296,13 @@ def main() -> None:
     out = os.environ.get("INJURY_SNAPSHOT_PATH")
     if out:
         with open(out, "w", encoding="utf-8") as fh:
-            json.dump({"covers": cov, "draftedge": de, "draftedge_updated": de_stamp}, fh)
-    if WARNINGS and not (cov_ok or de_ok):
-        sys.exit(1)
+            json.dump({"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+                       "sources": {"covers": cov_ok, "draftedge": de_ok}, "expected_rows": expected_rows,
+                       "status": "degraded" if expected_rows and not (cov_ok and de_ok) else "ok",
+                       "covers": cov, "draftedge": de, "draftedge_updated": de_stamp}, fh)
+    ph.finish("injury_pull", [de_error if name == "DraftEdge" else f"{name} unavailable or invalid" for name, ok in
+              (("Covers", cov_ok), ("DraftEdge", de_ok)) if expected_rows and not ok],
+              no_games=not expected_rows)
 
 
 if __name__ == "__main__":

@@ -10,15 +10,23 @@ on:
   pull_request:
     paths:
       - signal-desk/espn_sync.py
+      - signal-desk/producer_health.py
       - .github/workflows/espn-sync.yml
+      - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "27 */3 * * *"
 
 permissions:
-  contents: read
+  contents: write   # observation heartbeat only; no new Airtable fields
 
 jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/signal-desk-ci.yml
   sync:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
@@ -48,3 +56,13 @@ jobs:
           echo "Base ID secret resolved: ${AIRTABLE_BASE_ID:+present}"
       - name: Sync ESPN data into the Signal Desk Ledger
         run: python signal-desk/espn_sync.py
+      - name: Commit observation heartbeat
+        if: ${{ env.ESPN_SYNC_LIVE == '1' }}
+        run: bash .github/scripts/commit_data.sh "Signal Desk ESPN checked $(date -u +%F-%H%M)" signal-desk/data/source_heartbeats.json
+      - name: Preserve observation heartbeat
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: espn-observation-heartbeat
+          path: signal-desk/data/source_heartbeats.json
+          if-no-files-found: warn

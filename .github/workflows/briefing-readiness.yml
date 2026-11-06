@@ -1,0 +1,61 @@
+name: Briefing Readiness (Signal Desk)
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - signal-desk/validate_artifacts.py
+      - .github/workflows/briefing-readiness.yml
+  schedule:
+    # 8:23 AM Central; this checks readiness, it does not produce missing reports or quotes.
+    - cron: "23 13 * * *"
+    - cron: "23 14 * * *"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Select Central schedule slot
+        id: gate
+        env:
+          FIRED: ${{ github.event.schedule }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          offset=$(TZ=America/Chicago date +%z)
+          if [ "$offset" = "-0500" ]; then want="23 13 * * *"; else want="23 14 * * *"; fi
+          if [ "$EVENT" != "schedule" ] || [ "$FIRED" = "$want" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: "3.11"
+      - name: Refresh read-only operational evidence
+        if: steps.gate.outputs.run == 'true' && github.event_name != 'pull_request'
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+          AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python signal-desk/ops_export.py
+      - name: Evaluate readiness without changing source artifacts
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' && github.event_name != 'pull_request' }}
+        run: python signal-desk/validate_artifacts.py --output signal-desk/data/artifact_validation.json
+      - name: Test gate behavior offline for pull requests
+        if: steps.gate.outputs.run == 'true' && github.event_name == 'pull_request'
+        run: python -m unittest discover -s signal-desk/tests -p test_artifact_validation.py -v
+      - name: Keep validation evidence, including failures
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' && github.event_name != 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: briefing-readiness
+          path: signal-desk/data/artifact_validation.json
+          if-no-files-found: warn

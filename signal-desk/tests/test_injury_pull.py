@@ -1,0 +1,77 @@
+from pathlib import Path
+from contextlib import redirect_stderr, redirect_stdout
+import io
+import json
+import os
+import sys
+import tempfile
+import unittest
+from unittest.mock import patch
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import injury_pull as ip
+import producer_health as ph
+
+FIXTURES = Path(__file__).parent / "fixtures"
+
+
+class DraftEdgeContracts(unittest.TestCase):
+    def test_current_team_cards_parse_without_inventing_update_time(self):
+        page = (FIXTURES / "draftedge_cards.html").read_text(encoding="utf-8")
+        teams, stamp = ip.parse_draftedge(page, ["SMU", "Virginia Tech"])
+        self.assertEqual(stamp, "")
+        self.assertEqual(sum(map(len, teams.values())), 2)
+        self.assertEqual(teams["SMU"], [{"player": "Dramekco Green", "pos": "RB", "status": "out",
+                                        "injury": "Hand", "date": "", "src": "D"}])
+        self.assertEqual(teams["Virginia Tech"][0]["status"], "questionable")
+        self.assertEqual(teams["Virginia Tech"][0]["injury"], "")
+
+    def test_legacy_table_and_explicit_source_timestamp_still_parse(self):
+        page = '''<span class="updated-time">October 30, 2026 11:56 AM</span>
+        <tr data-status="out"><td>A Player</td><td>QB</td><td>SMU Mustangs</td>
+        <td>Out</td><td>Foot</td></tr>'''
+        teams, stamp = ip.parse_draftedge(page, ["SMU"])
+        self.assertEqual(stamp, "October 30, 2026 11:56 AM")
+        self.assertEqual(teams["SMU"][0]["injury"], "Foot")
+
+    def test_empty_or_unrecognized_html_is_not_coverage(self):
+        for page in ("", "<html>Access denied</html>", "<article data-status='out'>No team or player</article>"):
+            self.assertEqual(ip.parse_draftedge(page, ["SMU"]), ({}, ""))
+
+    def run_injury_command(self, rows):
+        page = (FIXTURES / "draftedge_cards.html").read_text(encoding="utf-8")
+        covers = "".join(f'<a id="{i}"></a><section><div class="covers-CoversMatchups-teamName">'
+                         f'{team}<br>Mascot</div></section>' for i, team in enumerate(("SMU", "Virginia Tech")))
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            env = {"AIRTABLE_TOKEN": "fixture-token", "AIRTABLE_BASE_ID": "fixture-base", "INJURY_PULL_LIVE": "0",
+                   "INJURY_SNAPSHOT_PATH": str(root / "snapshot.json")}
+            with (patch.dict(os.environ, env, clear=True), patch.object(ph, "DATA", root),
+                  patch.object(ip, "MIN_COVERS_TEAMS", 2), patch.object(ip, "MIN_DRAFTEDGE_ENTRIES", 2),
+                  patch.object(ip, "fetch", side_effect=lambda url: covers if url == ip.COVERS_URL else page),
+                  patch.object(ip.es, "at_list", return_value=rows), patch.object(ip.es, "at_patch") as writes,
+                  redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO())):
+                code = 0
+                try:
+                    ip.main()
+                except SystemExit as exc:
+                    code = exc.code
+                writes.assert_not_called()
+            health = json.loads((root / "producer_health/injury_pull.json").read_text())
+            snapshot = json.loads((root / "snapshot.json").read_text())
+            return code, health, snapshot
+
+    def test_missing_source_timestamp_still_fails_after_card_parser_is_fixed(self):
+        rows = [{"id": "fixture", "fields": {"League": "NCAAF", "Home Team": "SMU",
+                                           "Away Team": "Virginia Tech", "Game": "Fixture game"}}]
+        code, health, snapshot = self.run_injury_command(rows)
+        self.assertEqual(code, 1)
+        self.assertEqual(health["status"], "degraded")
+        self.assertIn("source updated-at", health["errors"][0])
+        self.assertEqual(sum(map(len, snapshot["draftedge"].values())), 2)
+        self.assertEqual(snapshot["draftedge_updated"], "")
+
+    def test_no_upcoming_games_is_not_a_feed_dropout(self):
+        code, health, _ = self.run_injury_command([])
+        self.assertEqual(code, 0)
+        self.assertEqual(health["status"], "no_games")

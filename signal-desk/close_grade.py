@@ -128,6 +128,7 @@ def append_note(existing: str | None, line: str) -> str:
 
 # ---------- main ----------
 def main() -> None:
+    import producer_health as ph
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip() or os.environ.get("SIGNAL_DESK_BASE_ID", "").strip()
     es.AIRTABLE_BASE = base
@@ -140,6 +141,7 @@ def main() -> None:
     rows = at_list_all(LEDGER, token,
                        "AND({Record Type}='Game',IS_AFTER({Date},DATEADD(TODAY(),-4,'days')))")
     report: list[str] = []
+    feed_errors: list[str] = []
     ledger_patches: list[dict] = []
     graded_margins: dict[str, dict] = {}  # "awaynorm@homenorm" -> grading info for pool legs
 
@@ -157,15 +159,18 @@ def main() -> None:
             events = es.espn_events(league, query_dates, key)
         except Exception as exc:  # noqa: BLE001
             es.warn(f"{league} scoreboard fetch failed: {exc}")
+            feed_errors.append(f"{league} scoreboard fetch failed")
             continue
         by_event = {str(ev.get("id")): ev for ev in events}
         for r in lrows:
             f = r["fields"]
             if not f.get("ESPN Event ID") or str(f.get("ESPN Event ID")) not in by_event:
+                feed_errors.append(f"{league}: missing event for {r['id']}")
                 continue
             ev = by_event[str(f["ESPN Event ID"])]
             c = es.competitors(ev)
             if not c["home"] or not c["away"]:
+                feed_errors.append(f"{league}: incomplete competitors for {r['id']}")
                 continue
             state = ((ev.get("status") or {}).get("type") or {}).get("state")
             completed = ((ev.get("status") or {}).get("type") or {}).get("completed", False)
@@ -204,9 +209,10 @@ def main() -> None:
                 for side in c["comp"].get("competitors", []):
                     if side.get("homeAway") in ("home", "away"):
                         scores[side["homeAway"]] = side.get("score")
-                if scores.get("home") is None:
+                if scores.get("home") is None or scores.get("away") is None:
+                    feed_errors.append(f"{league}: incomplete final score for {r['id']}")
                     continue
-                hs, aw = float(scores["home"]), float(scores.get("away") or 0)
+                hs, aw = float(scores["home"]), float(scores["away"])
                 margin = hs - aw
                 new = {"Home Score": hs, "Away Score": aw, "Actual Home Margin": margin}
                 notes = [f"Final (ESPN auto-grade {now.strftime('%Y-%m-%d %H:%MZ')}): event {ev.get('id')}."]
@@ -427,6 +433,7 @@ def main() -> None:
     if path:
         with open(path, "a", encoding="utf-8") as fh:
             fh.write("## Close & grade\n\n" + "\n".join(f"- {x}" for x in lines) + "\n")
+    ph.finish("close_grade", feed_errors, no_games=not by_league)
 
 
 if __name__ == "__main__":

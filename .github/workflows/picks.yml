@@ -18,6 +18,7 @@ on:
       - signal-desk/sigma_learning.py
       - signal-desk/clv_learning.py
       - .github/workflows/picks.yml
+      - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "47 */3 * * *"
   # Re-price right after Context & Calibrate finishes, so new QB and injury notes it writes
@@ -30,18 +31,23 @@ permissions:
   contents: write   # data-only commits (markets files) to main; Airtable writes are unchanged
 
 concurrency:
-  group: signal-desk-picks
+  group: ${{ github.event_name == 'pull_request' && format('signal-desk-picks-pr-{0}', github.event.pull_request.number) || 'signal-desk-picks' }}
   cancel-in-progress: false
 
 jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/signal-desk-ci.yml
   picks:
     # A chained run happens only after a successful Context run on main that was scheduled or dispatched
     # (never after a pull-request check or a failed run). It then behaves exactly like a scheduled run.
     if: >-
-      ${{ github.event_name != 'workflow_run' ||
+      ${{ github.event_name != 'pull_request' && (github.event_name != 'workflow_run' ||
           (github.event.workflow_run.conclusion == 'success' &&
            github.event.workflow_run.head_branch == 'main' &&
-           (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_dispatch')) }}
+           (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_dispatch'))) }}
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}

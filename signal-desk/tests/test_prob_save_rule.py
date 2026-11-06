@@ -17,6 +17,17 @@ def new(prob=0.7657, units=0.5, side="Arizona Cardinals +10.5"):
 
 
 class Reasons(unittest.TestCase):
+    def test_sigma_and_feature_changes_refresh_even_below_probability_threshold(self):
+        f = {"League": "NFL", "Home Team": "Dallas Cowboys", "Away Team": "Arizona Cardinals",
+             "Home FPI": 1, "Away FPI": 0, "Vegas Implied Home Margin": 3}
+        p = {**picks.DEFAULTS, "sigma": 12.5}
+        saved = picks.evaluate(f, p, {}, "2026-11-06 14:00Z")[0]
+        for fields, params in ((f, {**p, "sigma": 12.51}), ({**f, "Weather Note": "new forecast"}, p)):
+            candidate = picks.evaluate(fields, params, {}, "2026-11-06 15:00Z")[0]
+            self.assertIn("features", picks.reprice_reasons(saved, candidate, saved["Sharp-Sheet Tier"]))
+        candidate = picks.evaluate({**f, "ESPN Pulled At": "2026-11-06T15:00Z"}, p, {}, "2026-11-06 15:00Z")[0]
+        self.assertEqual(picks.reprice_reasons(saved, candidate, saved["Sharp-Sheet Tier"]), [])
+
     def test_no_change_keeps_saved_pick(self):
         self.assertEqual(picks.reprice_reasons(SAVED, new(0.7680), "Lean"), [])  # 0.23 pts: under the drift
 
