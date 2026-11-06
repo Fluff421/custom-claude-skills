@@ -42,6 +42,7 @@ WORKFLOWS = {  # workflow file -> label
     "espn-sync.yml": "ESPN Sync",
     "picks.yml": "Pick Engine",
     "close-grade.yml": "Close & Grade",
+    "injury-pull.yml": "NCAAF Injury Pull",
     "context-calibrate.yml": "Context & Calibrate",
     "snapshot.yml": "Snapshot",
     "grade-bim-board.yml": "BIM Grader",
@@ -50,18 +51,18 @@ WORKFLOWS = {  # workflow file -> label
 # Snapshot and Calibrate scheduled runs never fired), so a success conclusion on old runs is not
 # proof the schedule is alive. max_gap_h is the longest quiet period tolerated before "missed".
 SCHEDULE_EXPECT = {
-    "espn-sync.yml": ("ESPN Sync", 3, 7),
-    "picks.yml": ("Pick Engine", 3, 7),
-    "close-grade.yml": ("Close & Grade", 1, 4),
-    "context-calibrate.yml": ("Context & Calibrate", 24, 30),
-    "snapshot.yml": ("Snapshot", 24, 30),
+    "espn-sync.yml": ("ESPN Sync", 3, 4),
+    "picks.yml": ("Pick Engine", 3, 4),
+    "close-grade.yml": ("Close & Grade", 1, 2),
+    "context-calibrate.yml": ("Context & Calibrate", 24, 26),
+    "snapshot.yml": ("Snapshot", 24, 26),
     "grade-bim-board.yml": ("BIM Grader", 2, 6),  # Sun, Mon, Thu, Fri, Sat only; see schedule_health()
-    "injury-pull.yml": ("NCAAF Injury Pull", 3, 7),  # Wed-Sat; Sun-Tue is daily, see schedule_health()
+    "injury-pull.yml": ("NCAAF Injury Pull", 3, 4),  # Wed-Sat; Sun-Tue is daily, see schedule_health()
 }
 LOOKBACK_HOURS = 36
 RUNS_PER_WORKFLOW = 4
-SPLASH_GAP_FLAG = 3.0  # points; Splash line has no timestamp, so a big gap vs ESPN is the staleness/typo signal
-STALE_HOURS = 6
+SPLASH_GAP_FLAG = 3.0  # market-comparison review signal, never automatic proof of bad data
+STALE_HOURS = 4
 LEAN_THRESHOLD = 1.0
 CAP = 25  # max game names listed per category
 
@@ -103,8 +104,14 @@ def write_graded_csv(rows: list[dict]) -> int:
     return len(rows)
 
 
-def row_health(rows: list[dict], today: dt.date, now: dt.datetime) -> dict:
+def row_health(rows: list[dict], today: dt.date, now: dt.datetime, heartbeats=None) -> dict:
     """Ledger checks. Date is a date (no kickoff time), so 'past' means before today (Central)."""
+    if heartbeats is None:
+        try:
+            with open(os.path.join(HERE, "data", "source_heartbeats.json"), encoding="utf-8") as fh:
+                heartbeats = json.load(fh).get("records", {})
+        except (OSError, ValueError):
+            heartbeats = {}
     cats: dict[str, list[str]] = {k: [] for k in (
         "upcoming_no_espn_event_id", "upcoming_no_fpi", "upcoming_no_splash_line",
         "upcoming_no_espn_line", "upcoming_splash_vs_espn_gap", "upcoming_edge_over_lean_but_no_pick", "upcoming_espn_data_stale",
@@ -136,10 +143,17 @@ def row_health(rows: list[dict], today: dt.date, now: dt.datetime) -> dict:
             if edge is not None and abs(float(edge)) >= LEAN_THRESHOLD and not f.get("Sharp-Sheet Tier"):
                 cats["upcoming_edge_over_lean_but_no_pick"].append(name)
             pulled = f.get("ESPN Pulled At")
-            if pulled:
+            beat = heartbeats.get(r["id"], {})
+            if beat.get("event_id") == str(f.get("ESPN Event ID")):
+                pulled = beat.get("checked_at") or pulled
+            try:
+                if not pulled:
+                    raise ValueError("missing observation timestamp")
                 age = (now - dt.datetime.fromisoformat(pulled.replace("Z", "+00:00"))).total_seconds() / 3600
-                if age > STALE_HOURS:
+                if age >= STALE_HOURS or age < -5 / 60:
                     cats["upcoming_espn_data_stale"].append(f"{name} ({age:.0f} h)")
+            except (ValueError, TypeError):
+                cats["upcoming_espn_data_stale"].append(f"{name} (missing/invalid checked-at)")
         else:
             past += 1
             has_score = f.get("Home Score") is not None and f.get("Away Score") is not None
@@ -154,7 +168,8 @@ def row_health(rows: list[dict], today: dt.date, now: dt.datetime) -> dict:
             "note": "Date has no kickoff time; 'before today' is by Central calendar date. "
                     "Postponed/cancelled games appear under past_date_no_score. "
                     "Splash line = 'Vegas Implied Home Margin' (entered by hand, no timestamp); "
-                    "upcoming_splash_vs_espn_gap flags |Splash + ESPN spread| >= 3 points as a possible stale or mistyped line."}
+                    "upcoming_splash_vs_espn_gap flags |Splash + ESPN spread| >= 3 points for review: "
+                    "movement or differently timed observations, not proof of bad data. Imported-to-locked gaps are line movement."}
 
 
 # ---------- GitHub Actions ----------
@@ -238,6 +253,10 @@ def judge(label: str, conclusion: str, info: dict | None) -> tuple[str, list[str
     if info is None:
         return "unknown", ["log not readable; conclusion=success is not proof of health"]
     why = []
+    source_failure = label == "NCAAF Injury Pull" and any(
+        re.search(r"fetch/parse failed|treated as failed|parsed only", w, re.I) for w in info["warnings"])
+    if source_failure:
+        why.append("required injury source unavailable or invalid")
     if info["error_lines"]:
         why.append("error lines in log")
     for k, n in info["http_errors"].items():
@@ -253,7 +272,7 @@ def judge(label: str, conclusion: str, info: dict | None) -> tuple[str, list[str
             why.append("stale FPI warning")
     if "mode" not in info:
         why.append("no summary lines found in log")
-    severe = bool(info["error_lines"] or info["http_errors"]) or any(w.startswith("all ") for w in why)
+    severe = source_failure or bool(info["error_lines"] or info["http_errors"]) or any(w.startswith("all ") for w in why)
     return ("degraded" if severe else ("warn" if why else "ok")), why
 
 
@@ -305,7 +324,7 @@ def schedule_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
         entry: dict = {"workflow": label, "file": fname, "expected_every_h": every_h, "max_gap_h": max_gap_h}
         gap = max_gap_h
         if fname == "injury-pull.yml" and now.weekday() not in (2, 3, 4, 5):  # Wed-Sat are weekday 2-5
-            gap = 30
+            gap = 26
             entry["max_gap_h"] = gap
             entry["note"] = "Sun-Tue schedule is once a day"
         if fname == "grade-bim-board.yml" and now.weekday() not in (6, 0, 3, 4, 5):  # Sun, Mon, Thu, Fri, Sat run

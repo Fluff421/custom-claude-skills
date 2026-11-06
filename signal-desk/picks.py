@@ -28,9 +28,11 @@ graded rows and games dated today or earlier are never touched.
 from __future__ import annotations
 
 import datetime as dt
+import hashlib
 import math
 import json
 import os
+import re
 import sys
 import urllib.parse
 
@@ -206,6 +208,16 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
     LAST_CLV.update({"league": league, "edge_tier": tier, "edge": round(edge, 2), "pred_clv": pred, "clv_tier": ctier,
                      "model_n": (cmodel or {}).get("n", 0)})
     units = 0.0 if tracking else capped_units(p["units"][tier], league, tier, counts)
+    # Persist in an existing text field: no new Airtable schema or live-mode change.
+    feature_keys = ("League", "Date", "Home Team", "Away Team", "Home FPI", "Away FPI", "HFA",
+                    "Vegas Implied Home Margin", "Injury Notes", "QB Starter Note", "Weather Note",
+                    "Home Rest Days", "Away Rest Days", "Travel Note", "Revenge Note", "Look-Ahead Note")
+    fingerprint = hashlib.sha256(json.dumps({
+        "fields": {k: f.get(k) for k in feature_keys}, "params": p,
+        "factor_version": fx.FACTOR_VERSION, "factor_mode": FACTOR_MODE, "clv_mode": CLV_TIER_MODE,
+        "segments": SIGMA_SEGMENTS.get(league), "clv": CLV_PARAMS.get(league),
+        "factor_date": central_today().isoformat() if FACTOR_MODE == "live" else None,
+    }, sort_keys=True, default=str).encode()).hexdigest()
     new = {
         "Sharp-Sheet Tier": tier,
         "Sharp-Sheet Est. Win Prob %": round(prob, 4),
@@ -213,7 +225,7 @@ def evaluate(f: dict, p: dict, counts: dict, now: str, line_note: str = "") -> t
         "Recommended Side": pick_line_text(f["Home Team"] if home_pick else f["Away Team"], vegas, home_pick),
         "Sharp-Sheet Sportsbook": AUTO_BOOK,
         "Sharp-Sheet Data Completeness": f"{'Tracking pick (paper, 0u)' if tracking else 'Auto pick'} {now} | FPI+line ok | edge {edge:+.1f} | "
-                                         f"injuries: NFL auto, NCAAF auto (secondary){factor_note}{line_note}",
+                                         f"injuries: NFL auto, NCAAF auto (secondary){factor_note}{line_note} | features:{fingerprint}",
     }
     return new, edge, tier, prob, units
 
@@ -233,6 +245,10 @@ def reprice_reasons(f: dict, new_f: dict | None, tier_n) -> list[str]:
     u0 = f.get("Sharp-Sheet Suggested Units")
     if u0 is None or abs(float(new_f["Sharp-Sheet Suggested Units"]) - float(u0)) > 1e-9:
         out.append("units")
+    old_hash = re.findall(r"\bfeatures:([0-9a-f]{64})\b", f.get("Sharp-Sheet Data Completeness") or "")
+    new_hash = re.findall(r"\bfeatures:([0-9a-f]{64})\b", new_f.get("Sharp-Sheet Data Completeness") or "")
+    if new_hash and new_hash != old_hash:
+        out.append("features")
     return out
 
 
@@ -330,10 +346,13 @@ def main() -> None:
                         delta += f", {u0 if u0 is not None else '-'}u -> {new_f['Sharp-Sheet Suggested Units']:g}u"
                         repriced.append(f"{f.get('Game')}: {tier0} {old_side} -> {tier_n} {new_f['Recommended Side']} "
                                         f"(edge {edge0:+.1f}; {delta}; {'/'.join(reasons)}{'; ' + ko_note if ko_note else ''})")
+                        feature_note = re.search(r"\bfeatures:[0-9a-f]{64}\b", new_f["Sharp-Sheet Data Completeness"])
                         new_f["Sharp-Sheet Data Completeness"] = (f"Auto pick re-priced {now} ({'/'.join(reasons)}) | edge {edge0:+.1f} | "
                                                                   f"was {tier0} {old_side} {float(p0):.1%} {u0}u" if p0 is not None else
                                                                   f"Auto pick re-priced {now} ({'/'.join(reasons)}) | edge {edge0:+.1f} | "
                                                                   f"was {tier0} {old_side}")
+                        if feature_note:
+                            new_f["Sharp-Sheet Data Completeness"] += " | " + feature_note.group()
                         if reprice_live:
                             updates.append({"id": r["id"], "fields": new_f})
                         continue

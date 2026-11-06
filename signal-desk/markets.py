@@ -306,9 +306,13 @@ def moneyline_pick(f: dict, proj: dict, odds: dict | None, p: dict) -> dict | No
     home = eh >= ea
     edge, prob, price = (eh, ph, hp) if home else (ea, 1 - ph, ap)
     tier = qb_new_cap(tier_for(edge, p["lean_ml"], p["strong_ml"], p["max_ml"]), f)
+    if est:
+        tier = "No Play"  # Synthetic prices are research only, never an actionable quote.
     team = f.get("Home Team") if home else f.get("Away Team")
     return {"market": "moneyline", "side": "home" if home else "away", "team": team, "line": 0.0, "price": price,
             "price_estimated": est, "proj": round(M, 2), "prob": round(prob, 4), "edge": round(edge, 4), "edge_unit": "prob",
+            "price_source": "estimated" if est else (odds or {}).get("provider", "provider quote"),
+            "quote_captured_at": (odds or {}).get("captured_at_utc"), "quote_snapshot_id": (odds or {}).get("snapshot_id"),
             "tier": tier, "units": _units(tier, p),
             "selection": f"{team} ML {price:+g}" + (" (price estimated from the line)" if est else "")}
 
@@ -620,7 +624,10 @@ def _ts(v):
 
 def close_cutoff(g: dict):
     """Pre-kickoff close-capture time from the Ledger note (Close & Grade), or None."""
-    m = _CAPTURE_RE.findall(g.get("Line Source Note") or "")
+    note = g.get("Line Source Note") or ""
+    # A later live capture must not inherit the provenance of an earlier pregame capture.
+    last = note.rsplit("Closing captured ", 1)[-1]
+    m = _CAPTURE_RE.findall("Closing captured " + last) if "Closing captured " in note else []
     if not m:
         return None
     d, hm = m[-1]
@@ -634,14 +641,16 @@ def market_close(market: str, side: str, g: dict, game_lines: list[dict]):
     home close = cs, away close = -cs. Otherwise, and for totals, the last lines_log row at or
     before the Ledger's pre-kickoff capture time. Blank beats wrong: no valid row -> None.
     """
+    cut = close_cutoff(g)
+    if cut is None:
+        return None, "no_pregame_close_evidence"
     if market == "spread":
         cs = _num(g.get("Closing Spread (Home)"))
         if cs is not None:
             return (cs if side == "home" else -cs), "ledger_close"
-    cut = close_cutoff(g)
     rows = [r for r in game_lines if not str(r.get("in_progress", "")).strip().lower() in ("1", "true")]
-    if cut is not None:
-        rows = [r for r in rows if (_ts(r.get("ts")) or cut) <= cut]
+    rows = [r for r in rows if _ts(r.get("ts")) is not None and _ts(r["ts"]) <= cut]
+    rows.sort(key=lambda r: _ts(r["ts"]))
     for r in reversed(rows):
         if market == "total":
             tot = _num(r.get("total"))
@@ -718,9 +727,13 @@ def fetch_odds(f: dict) -> dict | None:
     import espn_sync as es
     eid = f.get("ESPN Event ID")
     if not eid:
+        es.warn(f"{f.get('Game')}: missing ESPN Event ID for market coverage")
         return None
     try:
-        return parse_odds(json.loads(es.http_get(CORE.format(lg=_league_slug(f.get("League")), eid=eid))))
+        odds = parse_odds(json.loads(es.http_get(CORE.format(lg=_league_slug(f.get("League")), eid=eid))))
+        if not odds or all(odds.get(k) is None for k in ("home_margin_line", "total", "ml_home", "ml_away")):
+            es.warn(f"{f.get('Game')}: odds feed has no usable market")
+        return odds
     except Exception as exc:  # noqa: BLE001
         es.warn(f"{f.get('Game')}: odds fetch failed: {exc}")
         return None
@@ -746,8 +759,26 @@ def game_label(f: dict) -> str:
     return f.get("Game") or f"{f.get('Away Team')} @ {f.get('Home Team')}"
 
 
+def splash_moneyline_quote(f, rows, now):
+    """Fresh supplied quotes only, with known future kickoff. Never mutate the Ledger."""
+    clock = _ts(now)
+    matches = [r for r in rows if r.get("record_id") == f.get("_id") and _ts(r.get("captured_at_utc"))]
+    if not matches or clock is None or f.get("Home Score") is not None:
+        return None
+    row = max(matches, key=lambda r: _ts(r["captured_at_utc"]))
+    captured = _ts(row["captured_at_utc"])
+    age = (clock - captured).total_seconds() / 3600
+    home, away, line, kickoff_h = (_num(row.get(k)) for k in ("home_ml", "away_ml", "home_margin", "hours_to_kickoff"))
+    if (not 0 <= age < 4 or kickoff_h is None or not age < kickoff_h
+            or line is None or home is None or away is None or abs(home) < 100 or abs(away) < 100
+            or any(not math.isfinite(v) for v in (home, away, line, kickoff_h))):
+        return None
+    return {"ml_home": home, "ml_away": away, "home_margin_line": line, "provider": "Splash File 1",
+            "captured_at_utc": row["captured_at_utc"], "snapshot_id": row.get("snapshot_id")}
+
+
 def run(games: list[dict], mparams: dict, today: dt.date, odds_lookup, lines_rows: list[dict], picks_rows: dict,
-        factor_live: bool, now: str) -> dict:
+        factor_live: bool, now: str, splash_rows=None) -> dict:
     """One full cycle over the ledger. `odds_lookup(f)` returns parsed odds or None. Returns the latest-picks document."""
     horizon = (today + dt.timedelta(days=7)).isoformat()
     window = [f for f in games if today.isoformat() <= (f.get("Date") or "")[:10] <= horizon and f.get("Home Team")]
@@ -767,7 +798,9 @@ def run(games: list[dict], mparams: dict, today: dt.date, odds_lookup, lines_row
         proj = project_game(f, odds, p, factor_live)
         gid, label, date = f["_id"], game_label(f), (f.get("Date") or "")[:10]
         picks = []
-        for pk in (spread_pick_from_ledger(f, proj, odds, p), total_pick(f, proj, odds, p), moneyline_pick(f, proj, odds, p)):
+        ml_odds = splash_moneyline_quote(f, splash_rows or [], now) or odds
+        ml_proj = project_game(f, ml_odds, p, factor_live) if ml_odds is not odds else proj
+        for pk in (spread_pick_from_ledger(f, proj, odds, p), total_pick(f, proj, odds, p), moneyline_pick(f, ml_proj, ml_odds, p)):
             if pk:
                 pk["game_id"], pk["game"], pk["priority"] = gid, label, "primary"
                 line = proj.get("line")
@@ -931,7 +964,9 @@ def cmd_run() -> None:
             time.sleep(0.15)
         return cache[f["_id"]]
     freeze_started(games, picks_rows, lines_rows)
-    doc = run(games, params, today, lookup, lines_rows, picks_rows, os.environ.get("FACTOR_MODE", "").lower() == "live", now)
+    splash_rows = read_csv(os.path.join(os.path.dirname(OUT), "splash_lines_log.csv"))
+    doc = run(games, params, today, lookup, lines_rows, picks_rows, os.environ.get("FACTOR_MODE", "").lower() == "live", now,
+              splash_rows=splash_rows)
     lines_rows = log_lines(lines_rows, doc.pop("new_lines"))
     graded = grade_picks(games, picks_rows, lines_rows, now)
     write_csv(os.path.join(OUT, "lines_log.csv"), LINE_COLS, lines_rows)
@@ -948,6 +983,8 @@ def cmd_run() -> None:
     print(f"Markets: {len(doc['games'])} games priced, {len(picks_rows)} picks tracked, {graded} newly graded, {len(lines_rows)} line rows")
     for w in es.WARNINGS[:5]:
         print("WARNING:", w)
+    import producer_health as ph
+    ph.finish("markets", list(es.WARNINGS), no_games=not doc["games"])
 
 
 def cmd_grade() -> None:

@@ -189,6 +189,7 @@ def build_note(away: str, home: str, cov, de, cov_ok: bool, de_ok: bool, ledger_
 
 
 def main() -> None:
+    import producer_health as ph
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip()
     table = os.environ.get("LEDGER_TABLE_ID", "").strip() or LEDGER_DEFAULT
@@ -223,6 +224,7 @@ def main() -> None:
                     pass
         cov_latest = max(ds).strftime("%b %d") if ds else "unknown"
     rows = [r for r in es.at_list(base, table, token) if r["fields"].get("League") == "NCAAF"]
+    expected_rows = len(rows)
     ledger_names = {r["fields"].get(k, "") for r in rows for k in ("Home Team", "Away Team")} - {""}
     updates, report, skipped = [], [], []
     if not (cov_ok or de_ok):
@@ -260,9 +262,13 @@ def main() -> None:
     out = os.environ.get("INJURY_SNAPSHOT_PATH")
     if out:
         with open(out, "w", encoding="utf-8") as fh:
-            json.dump({"covers": cov, "draftedge": de, "draftedge_updated": de_stamp}, fh)
-    if WARNINGS and not (cov_ok or de_ok):
-        sys.exit(1)
+            json.dump({"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+                       "sources": {"covers": cov_ok, "draftedge": de_ok}, "expected_rows": expected_rows,
+                       "status": "degraded" if expected_rows and not (cov_ok and de_ok) else "ok",
+                       "covers": cov, "draftedge": de, "draftedge_updated": de_stamp}, fh)
+    ph.finish("injury_pull", [f"{name} unavailable or invalid" for name, ok in
+              (("Covers", cov_ok), ("DraftEdge", de_ok)) if expected_rows and not ok],
+              no_games=not expected_rows)
 
 
 if __name__ == "__main__":

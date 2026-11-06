@@ -13,14 +13,15 @@ on:
       - signal-desk/ops_export.py
       - signal-desk/intelligence_report.py
       - signal-desk/markets.py
+      - signal-desk/validate_artifacts.py
+      - signal-desk/producer_health.py
       - .github/workflows/snapshot.yml
   schedule:
-    # 8:17 AM America/Chicago year-round. GitHub cron is UTC only, so both
-    # candidates are scheduled (13:17 UTC = 8:17 CDT, 14:17 UTC = 8:17 CST) and
-    # the "Time gate" step lets only the one that lands at 8 AM Central proceed.
+    # 7:47 AM Central, leaving 43 minutes before the 8:30 briefing.
+    # Offset-based selection still admits delayed starts; readiness is checked separately.
     # Runs after close-grade's 7:37 tick so overnight grades are included.
-    - cron: "17 13 * * *"
-    - cron: "17 14 * * *"
+    - cron: "47 12 * * *"
+    - cron: "47 13 * * *"
 
 permissions:
   contents: write
@@ -40,7 +41,7 @@ jobs:
       FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
       SNAPSHOT_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.SNAPSHOT_LIVE == 'true')) && '1' || '0' }}
     steps:
-      - name: Time gate (8:17 AM Central for scheduled runs)
+      - name: Time gate (7:47 AM Central for scheduled runs)
         id: gate
         shell: bash
         env:
@@ -49,12 +50,12 @@ jobs:
           # Pick the cron slot by today's Central offset, not the wall clock,
           # so a late-starting GitHub run is not skipped.
           offset=$(TZ=America/Chicago date +%z)
-          if [ "$offset" = "-0500" ]; then want="17 13 * * *"; else want="17 14 * * *"; fi
+          if [ "$offset" = "-0500" ]; then want="47 12 * * *"; else want="47 13 * * *"; fi
           if [ "${{ github.event_name }}" != "schedule" ] || [ "$FIRED" = "$want" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Skipping: slot '$FIRED' is not 8:17 AM Central today (offset $offset)."
+            echo "Skipping: slot '$FIRED' is not 7:47 AM Central today (offset $offset)."
           fi
       - uses: actions/checkout@v4
         if: steps.gate.outputs.run == 'true'
@@ -63,6 +64,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Validate configuration
+        id: config
         if: steps.gate.outputs.run == 'true'
         shell: bash
         run: |
@@ -89,18 +91,20 @@ jobs:
       - name: Build the daily intelligence report (read-only; picks, results, learning state)
         if: steps.gate.outputs.run == 'true'
         run: python signal-desk/intelligence_report.py
+      - name: Validate briefing readiness (failure remains visible)
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' && steps.config.outcome == 'success' }}
+        run: python signal-desk/validate_artifacts.py --output signal-desk/data/artifact_validation.json
+      - name: Preserve readiness diagnostics
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: signal-desk-readiness
+          path: signal-desk/data/artifact_validation.json
+          if-no-files-found: warn
       - name: Commit snapshot
-        if: ${{ steps.gate.outputs.run == 'true' && env.SNAPSHOT_LIVE == '1' }}
+        # Publish diagnostics and any valid outputs even if readiness failed; never mask the red job.
+        if: ${{ !cancelled() && steps.gate.outputs.run == 'true' && steps.config.outcome == 'success' && env.SNAPSHOT_LIVE == '1' }}
         shell: bash
         run: |
-          FILES="signal-desk/LEDGER.md signal-desk/data/snapshot.json signal-desk/data/graded_picks.csv signal-desk/data/ops_status.json signal-desk/intelligence/latest.md signal-desk/intelligence/learning_state.csv signal-desk/intelligence/markets signal-desk/intelligence/data"
-          git add -N $FILES 2>/dev/null || true
-          if git diff --quiet -- $FILES; then
-            echo "No change to commit."
-            exit 0
-          fi
-          git config user.name "signal-desk-bot"
-          git config user.email "signal-desk-bot@users.noreply.github.com"
-          git add $FILES
-          git commit -m "Signal Desk snapshot $(date -u +%F) (auto, from Airtable)"
-          git push
+          bash .github/scripts/commit_data.sh "Signal Desk snapshot $(date -u +%F) (auto, readiness checked)" \
+            signal-desk/LEDGER.md signal-desk/data signal-desk/intelligence

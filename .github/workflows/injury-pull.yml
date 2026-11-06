@@ -10,6 +10,7 @@ on:
   pull_request:
     paths:
       - signal-desk/injury_pull.py
+      - signal-desk/producer_health.py
       - .github/workflows/injury-pull.yml
   schedule:
     - cron: "33 */3 * * 3-6"   # Wed-Sat every 3 hours (UTC)
@@ -47,6 +48,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: injury-snapshot
-          path: injury_snapshot.json
+          path: |
+            injury_snapshot.json
+            signal-desk/data/producer_health/injury_pull.json
           if-no-files-found: ignore
           retention-days: 14

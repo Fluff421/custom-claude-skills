@@ -12,6 +12,7 @@ on:
       - signal-desk/close_grade.py
       - signal-desk/markets.py
       - signal-desk/espn_sync.py
+      - signal-desk/producer_health.py
       - .github/workflows/close-grade.yml
   schedule:
     - cron: "37 * * * *"
@@ -60,3 +61,10 @@ jobs:
       - name: Commit graded market picks (data only)
         if: ${{ env.MARKETS_LIVE == '1' }}
         run: bash .github/scripts/commit_data.sh "Signal Desk market grades $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/markets/picks_log.csv
+      - name: Preserve grading coverage diagnostics
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: close-grade-health
+          path: signal-desk/data/producer_health/close_grade.json
+          if-no-files-found: warn

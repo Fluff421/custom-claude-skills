@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import csv
 import datetime as dt
+import hashlib
 import json
 import math
 import os
@@ -363,9 +364,12 @@ def main() -> None:
     data["splash_by_market"] = by_market_summary(data["splash_vs_model"], by_id)
     data["splash_timing"] = timing_table(data["splash_vs_model"])
     data["markets"] = market_section()
+    data["narrative_sha256"] = hashlib.sha256(render(data).encode("utf-8")).hexdigest()
 
     os.makedirs(os.path.join(OUT, "data"), exist_ok=True)
     with open(os.path.join(OUT, "data", f"{today.isoformat()}.json"), "w", encoding="utf-8") as fh:
+        json.dump(data, fh, indent=1, default=str)
+    with open(os.path.join(OUT, "latest.json"), "w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=1, default=str)
     # learning log: one row per league per day
     path = os.path.join(OUT, "learning_state.csv")

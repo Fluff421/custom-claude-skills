@@ -17,13 +17,34 @@ on:
       - signal-desk/learning_events.py
       - .github/workflows/context-calibrate.yml
   schedule:
-    - cron: "43 13 * * *"
+    # 6:13 AM Central, before grading, Snapshot and briefing evaluation.
+    - cron: "13 11 * * *"
+    - cron: "13 12 * * *"
 
 permissions:
   contents: read
 
 jobs:
+  time_gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+    steps:
+      - id: gate
+        env:
+          FIRED: ${{ github.event.schedule }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          offset=$(TZ=America/Chicago date +%z)
+          if [ "$offset" = "-0500" ]; then want="13 11 * * *"; else want="13 12 * * *"; fi
+          if [ "$EVENT" != "schedule" ] || [ "$FIRED" = "$want" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
   context:
+    needs: time_gate
+    if: needs.time_gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:

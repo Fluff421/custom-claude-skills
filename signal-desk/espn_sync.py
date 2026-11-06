@@ -449,6 +449,7 @@ def close(a, b) -> bool:
 
 
 def main() -> None:
+    import producer_health as ph
     token = os.environ.get("AIRTABLE_TOKEN", "").strip()
     base = os.environ.get("AIRTABLE_BASE_ID", "").strip()
     table = os.environ.get("LEDGER_TABLE_ID", "").strip() or LEDGER_DEFAULT
@@ -461,7 +462,7 @@ def main() -> None:
     except RuntimeError as exc:
         raise SystemExit(f"ERROR reading ledger {table} in {base}. The secrets may point at a different base: {exc}")
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-    updates, report, unmatched = [], [], []
+    updates, report, unmatched, observations = [], [], [], []
     by_league: dict[str, list[dict]] = {}
     for r in rows:
         by_league.setdefault(r["fields"].get("League", ""), []).append(r)
@@ -523,12 +524,14 @@ def main() -> None:
             diff = {k: v for k, v in new.items() if k == "ESPN Pulled At" or not same(k, v)}
             if len(diff) == 1:
                 diff.pop("ESPN Pulled At", None)
+            observations.append((r["id"], str(ev.get("id")), bool(diff)))
             if diff:
                 updates.append({"id": r["id"], "fields": diff})
                 report.append(f"{f.get('Game')}: " + ", ".join(k for k in diff if k != "ESPN Pulled At"))
     mode = "LIVE" if live else "DRY RUN"
     if live and updates:
         at_patch(base, table, token, updates)
+    ph.record_checks(observations, now)
     lines = [f"Mode: {mode}", f"Ledger rows scanned: {len(rows)}", f"Rows with changes: {len(updates)}",
              f"ESPN fetches: {DIRECT_STATS['direct']} direct, {DIRECT_STATS['scraper']} via scraper"]
     lines += [f"Unmatched to ESPN: {len(unmatched)} - " + "; ".join(unmatched[:25])] if unmatched else []

@@ -145,6 +145,8 @@ class Projections(unittest.TestCase):
         self.assertIn(pk["side"], ("home", "away"))
         self.assertFalse(pk["price_estimated"])
         self.assertTrue(mk.moneyline_pick(f, proj, None, P)["price_estimated"])
+        estimated = mk.moneyline_pick(f, {**proj, "blend_margin": 30}, None, P)
+        self.assertEqual((estimated["tier"], estimated["units"]), ("No Play", 0))
 
     def test_every_game_gets_every_market_even_no_play(self):
         f = game()
@@ -199,6 +201,24 @@ class Cycle(unittest.TestCase):
 
 class MarketClose(unittest.TestCase):
     NOTE = "Closing captured 2026-11-03 23:39Z (pre-kickoff), ESPN/DraftKings."
+
+    def test_fresh_splash_moneylines_replace_estimates_without_changing_ledger_line(self):
+        f = game(**{"Vegas Implied Home Margin": 3})
+        quote = {"record_id": "recG1", "captured_at_utc": "2026-11-01T12:00:00Z",
+                 "hours_to_kickoff": "8", "home_ml": "-150", "away_ml": "130", "home_margin": "3.5",
+                 "snapshot_id": "SPL-test"}
+        doc = mk.run([f], {}, dt.date(2026, 11, 1), lambda _: None, [], {}, False,
+                     "2026-11-01T13:00:00Z", splash_rows=[quote])
+        pick = next(p for p in doc["games"][0]["picks"] if p["market"] == "moneyline")
+        self.assertFalse(pick["price_estimated"])
+        self.assertIn(pick["price"], (-150, 130))
+        self.assertEqual(pick["price_source"], "Splash File 1")
+        self.assertEqual(f["Vegas Implied Home Margin"], 3)
+        stale = mk.run([f], {}, dt.date(2026, 11, 1), lambda _: None, [], {}, False,
+                       "2026-11-01T17:00:00Z", splash_rows=[quote])
+        pick = next(p for p in stale["games"][0]["picks"] if p["market"] == "moneyline")
+        self.assertTrue(pick["price_estimated"])
+        self.assertEqual(pick["units"], 0)
     LINES = [{"record_id": "recG1", "ts": "2026-11-03T20:31:41+00:00", "home_margin_line": "6.0", "total": "45.5"},
              {"record_id": "recG1", "ts": "2026-11-04T01:40:14+00:00", "home_margin_line": "6.5", "total": "46.5"}]
 
@@ -224,6 +244,12 @@ class MarketClose(unittest.TestCase):
         g = game(**{"Line Source Note": "Closing captured 2026-11-01 16:54Z (pre-kickoff)"})
         lines = [{"record_id": "recG1", "ts": "2026-11-01T22:26:33+00:00", "home_margin_line": "3.0", "total": "54.5"}]
         self.assertEqual(mk.market_close("total", "under", g, lines), (None, "no_valid_close"))
+        self.assertIsNone(mk.market_close("spread", "home", game(**{"Closing Spread (Home)": -7}), self.LINES)[0])
+        self.assertIsNone(mk.market_close("total", "over", game(), self.LINES)[0])
+        self.assertIsNone(mk.market_close("total", "over", g, [{"ts": "bad", "total": 44}])[0])
+        mixed = game(**{"Closing Spread (Home)": -7,
+                        "Line Source Note": self.NOTE + "\nClosing captured 2026-11-04 01:00Z (live)."})
+        self.assertIsNone(mk.market_close("spread", "home", mixed, self.LINES)[0])
 
     def test_regrade_only_touches_close_and_clv(self):
         g = game(**{"Closing Spread (Home)": -7, "Line Source Note": self.NOTE, "Home Score": 20, "Away Score": 24})
