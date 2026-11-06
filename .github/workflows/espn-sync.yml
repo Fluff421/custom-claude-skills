@@ -12,6 +12,7 @@ on:
       - signal-desk/espn_sync.py
       - signal-desk/producer_health.py
       - .github/workflows/espn-sync.yml
+      - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "27 */3 * * *"
 
@@ -19,7 +20,13 @@ permissions:
   contents: write   # observation heartbeat only; no new Airtable fields
 
 jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/signal-desk-ci.yml
   sync:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}

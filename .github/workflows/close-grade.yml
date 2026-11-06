@@ -14,6 +14,7 @@ on:
       - signal-desk/espn_sync.py
       - signal-desk/producer_health.py
       - .github/workflows/close-grade.yml
+      - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "37 * * * *"
 
@@ -21,11 +22,17 @@ permissions:
   contents: write   # data-only commit of graded market picks
 
 concurrency:
-  group: signal-desk-close-grade
+  group: ${{ github.event_name == 'pull_request' && format('signal-desk-close-grade-pr-{0}', github.event.pull_request.number) || 'signal-desk-close-grade' }}
   cancel-in-progress: false
 
 jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/signal-desk-ci.yml
   grade:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}

@@ -16,6 +16,7 @@ on:
       - signal-desk/market_learning.py
       - signal-desk/learning_events.py
       - .github/workflows/context-calibrate.yml
+      - .github/workflows/signal-desk-ci.yml
   schedule:
     # 6:13 AM Central, before grading, Snapshot and briefing evaluation.
     - cron: "13 11 * * *"
@@ -25,7 +26,13 @@ permissions:
   contents: read
 
 jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/signal-desk-ci.yml
   time_gate:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     outputs:
       run: ${{ steps.gate.outputs.run }}

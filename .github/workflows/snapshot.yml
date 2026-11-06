@@ -16,6 +16,7 @@ on:
       - signal-desk/validate_artifacts.py
       - signal-desk/producer_health.py
       - .github/workflows/snapshot.yml
+      - .github/workflows/signal-desk-ci.yml
   schedule:
     # 7:47 AM Central, leaving 43 minutes before the 8:30 briefing.
     # Offset-based selection still admits delayed starts; readiness is checked separately.
@@ -28,11 +29,17 @@ permissions:
   actions: read
 
 concurrency:
-  group: signal-desk-snapshot
+  group: ${{ github.event_name == 'pull_request' && format('signal-desk-snapshot-pr-{0}', github.event.pull_request.number) || 'signal-desk-snapshot' }}
   cancel-in-progress: false
 
 jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/signal-desk-ci.yml
   snapshot:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}

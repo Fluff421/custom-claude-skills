@@ -12,6 +12,7 @@ on:
       - signal-desk/injury_pull.py
       - signal-desk/producer_health.py
       - .github/workflows/injury-pull.yml
+      - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "33 */3 * * 3-6"   # Wed-Sat every 3 hours (UTC)
     - cron: "33 14 * * 0-2"    # Sun-Tue once a day
@@ -20,7 +21,13 @@ permissions:
   contents: read
 
 jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+    uses: ./.github/workflows/signal-desk-ci.yml
   pull:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}

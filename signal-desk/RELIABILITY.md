@@ -9,6 +9,16 @@ The reliability recommendations are sound with corrections to paths, evidence re
 - **External scheduling:** No verified control of Grok's external schedule was established. Moving its monitor is not a substitute for repairing the actual producers.
 - **Splash quotes:** File 1 contains owner-supplied Splash quotes as of its capture time. These are not a direct live Splash connection or a promise that the quote is still available.
 
+## Pull-request validation versus production health
+
+PR #51's initial failures exposed two different concerns: deterministic code validation was calling live services and checking current production freshness, while DraftEdge had replaced its table rows with team/player cards. PR checks must verify the code without requiring today's production data to be healthy.
+
+The six producer workflows now route pull requests to a shared offline-contract workflow, with read-only repository permissions, no inherited service secrets and no external feed/database calls. Their production jobs do not execute on pull requests. Existing production concurrency groups are preserved; PR-specific groups prevent review checks from queuing behind or delaying production jobs.
+
+Scheduled and manual producer/readiness runs retain their actual live-data checks and nonzero failures. A green pull-request check is not a claim of clean feed coverage, fresh grading or three healthy days.
+
+The DraftEdge parser now accepts the observed card layout and the legacy table layout. Regression fixtures cover nested team names, attribute order, incomplete cards, empty responses, missing source timestamps and genuine no-game windows. A read-only replay of the [November 6 provider page](https://draftedge.com/cfb/college-football-injury-report/) parsed 401 entries across 134 teams, but no source updated-at timestamp was published. That missing timestamp remains an explicit production-health failure rather than being replaced with the fetch time.
+
 ## Readiness policy
 
 `validate_artifacts.py` is a standard-library-only, read-only check unless `--output` is supplied for a diagnostic JSON file. Missing, empty, malformed, future-dated or stale required metadata fails closed with exit code 1. Checkout modification times are never treated as source freshness.
@@ -101,4 +111,4 @@ python -m unittest discover -s tests -v
 
 The tests cover missing and stale artifacts, degraded success states, invalid metadata, JSON/Markdown pairing, source-age preservation, heartbeat change semantics, feature/sigma refresh, real-versus-estimated prices and conservative close provenance. Workflow syntax and Python compilation should also be checked before merge. Passing offline checks does not establish live feed health or restore the three-day promotion requirement.
 
-Local verification on November 6, 2026: all 181 deterministic tests passed, Python compilation passed, and all six changed/new workflow files passed syntax and expression validation. The pre-change baseline was 168 passing tests. Existing resource warnings from older tests are unrelated to the new checks; the deliberate unavailable-source test also exercises the nonzero error path.
+Local verification on November 6, 2026: all 186 deterministic tests passed, Python compilation passed, and nine workflow files passed syntax and expression validation. The pre-change baseline was 168 passing tests. Existing resource warnings from older tests are unrelated to the new checks; the deliberate unavailable-source test also exercises the nonzero error path.
