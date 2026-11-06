@@ -11,6 +11,12 @@ import ops_export as ops
 
 
 class ObservationHealth(unittest.TestCase):
+    def test_successful_injury_log_with_partial_replacement_coverage_is_degraded(self):
+        info = ops.parse_log("Mode: LIVE\nReplacement games expected: 2\nReplacement games covered: 1\n")
+        state, reasons = ops.judge("NCAAF Injury Pull", "success", info)
+        self.assertEqual(state, "degraded")
+        self.assertIn("replacement injury coverage is incomplete", reasons)
+
     def test_chained_main_pick_refresh_counts_as_production_evidence(self):
         archive = io.BytesIO()
         with zipfile.ZipFile(archive, "w") as z:

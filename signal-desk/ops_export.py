@@ -217,6 +217,8 @@ PATTERNS = {
     "leg_patches": re.compile(r"^Leg patches: (\d+)"),
     "calibration_upserts": re.compile(r"^Calibration upserts: (\d+)"),
     "rows_updated": re.compile(r"^Rows updated: (\d+)"),
+    "injury_games_expected": re.compile(r"^Replacement games expected: (\d+)"),
+    "injury_games_covered": re.compile(r"^Replacement games covered: (\d+)"),
 }
 
 
@@ -257,6 +259,11 @@ def judge(label: str, conclusion: str, info: dict | None) -> tuple[str, list[str
         re.search(r"fetch/parse failed|treated as failed|parsed only", w, re.I) for w in info["warnings"])
     if source_failure:
         why.append("required injury source unavailable or invalid")
+    incomplete_injuries = (label == "NCAAF Injury Pull"
+                           and info.get("injury_games_expected", 0) > 0
+                           and info.get("injury_games_covered") != info["injury_games_expected"])
+    if incomplete_injuries:
+        why.append("replacement injury coverage is incomplete")
     if info["error_lines"]:
         why.append("error lines in log")
     for k, n in info["http_errors"].items():
@@ -272,7 +279,7 @@ def judge(label: str, conclusion: str, info: dict | None) -> tuple[str, list[str
             why.append("stale FPI warning")
     if "mode" not in info:
         why.append("no summary lines found in log")
-    severe = source_failure or bool(info["error_lines"] or info["http_errors"]) or any(w.startswith("all ") for w in why)
+    severe = source_failure or incomplete_injuries or bool(info["error_lines"] or info["http_errors"]) or any(w.startswith("all ") for w in why)
     return ("degraded" if severe else ("warn" if why else "ok")), why
 
 
