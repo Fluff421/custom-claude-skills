@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-06T16:25:38.590574+00:00",
- "snapshot_age_hours": 0.2,
+ "generated_at": "2026-11-06T19:06:34.780350+00:00",
+ "snapshot_age_hours": 2.8,
  "games": [
   {
    "game": "Nebraska @ Illinois",
@@ -2205,7 +2205,7 @@
    },
    "moneyline": {
     "pick": "Texas A&M ML +202",
-    "tier": "Lean",
+    "tier": "No Play",
     "prob": 0.3468,
     "edge": 0.0157,
     "model_ml_side": "away"
@@ -2440,7 +2440,7 @@
    },
    "moneyline": {
     "pick": "Mississippi State ML -146",
-    "tier": "Lean",
+    "tier": "No Play",
     "prob": 0.6166,
     "edge": 0.0231,
     "model_ml_side": "home"
@@ -2602,8 +2602,8 @@
     "pick": "Arizona Cardinals +8.5",
     "side": "away",
     "tier": "Lean",
-    "prob": 0.7135,
-    "edge": -7.0,
+    "prob": 0.6855,
+    "edge": -6.0,
     "proj": 5.5,
     "import_side": "away",
     "import_tier": "Lean",
@@ -2628,7 +2628,7 @@
    },
    "moneyline": {
     "pick": "Arizona Cardinals ML +350",
-    "tier": "Lean",
+    "tier": "No Play",
     "prob": 0.2663,
     "edge": 0.0441,
     "model_ml_side": "away"
@@ -2649,8 +2649,8 @@
     "pick": "Cincinnati Bengals -3",
     "side": "away",
     "tier": "Max Play",
-    "prob": 0.6711,
-    "edge": -5.5,
+    "prob": 0.674,
+    "edge": -5.6,
     "proj": -7.699999999999999,
     "import_side": "away",
     "import_tier": "Max Play",
@@ -2675,7 +2675,7 @@
    },
    "moneyline": {
     "pick": "Cincinnati Bengals ML -164",
-    "tier": "Lean",
+    "tier": "No Play",
     "prob": 0.6554,
     "edge": 0.0342,
     "model_ml_side": "away"
@@ -2743,8 +2743,8 @@
     "pick": "Indianapolis Colts +5.5",
     "side": "home",
     "tier": "Max Play",
-    "prob": 0.6384,
-    "edge": 4.4,
+    "prob": 0.6263,
+    "edge": 4.0,
     "proj": -2.0,
     "import_side": "home",
     "import_tier": "Max Play",
@@ -2769,7 +2769,7 @@
    },
    "moneyline": {
     "pick": "Indianapolis Colts ML +205",
-    "tier": "Lean",
+    "tier": "No Play",
     "prob": 0.369,
     "edge": 0.0412,
     "model_ml_side": "home"
@@ -2881,17 +2881,17 @@
    "import_home_margin": 2.5,
    "import_total": 47.5,
    "spread": {
-    "pick": "New England Patriots -3",
-    "side": "home",
+    "pick": "Green Bay Packers +3",
+    "side": "away",
     "tier": "No Play",
-    "prob": 0.5064,
-    "edge": 0.2,
+    "prob": 0.5096,
+    "edge": -0.3,
     "proj": 2.9,
     "import_side": "home",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "New England Patriots +3 (teased)",
-     "prob": 0.6612
+     "pick": "Green Bay Packers +9 (teased)",
+     "prob": 0.6947
     }
    },
    "total": {
@@ -3116,17 +3116,17 @@
    "import_home_margin": 9.5,
    "import_total": 46.5,
    "spread": {
-    "pick": "New York Jets +9.5",
-    "side": "away",
+    "pick": "Kansas City Chiefs -9.5",
+    "side": "home",
     "tier": "No Play",
-    "prob": 0.5128,
-    "edge": -0.4,
+    "prob": 0.5064,
+    "edge": 0.2,
     "proj": 9.4,
-    "import_side": "away",
+    "import_side": "home",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "New York Jets +15.5 (teased)",
-     "prob": 0.716
+     "pick": "Kansas City Chiefs -3.5 (teased)",
+     "prob": 0.6566
     }
    },
    "total": {
@@ -3166,8 +3166,8 @@
     "pick": "Tampa Bay Buccaneers +6.5",
     "side": "away",
     "tier": "Lean",
-    "prob": 0.5671,
-    "edge": -2.1,
+    "prob": 0.564,
+    "edge": -2.0,
     "proj": 4.4,
     "import_side": "away",
     "import_tier": "Lean",
