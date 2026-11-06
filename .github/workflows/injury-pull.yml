@@ -16,7 +16,7 @@ on:
       - .github/workflows/signal-desk-ci.yml
   schedule:
     - cron: "33 */3 * * 3-6"   # Wed-Sat every 3 hours (UTC)
-    - cron: "33 14 * * 0-2"    # Sun-Tue once a day
+    - cron: "33 12 * * 0-2"    # Sun-Tue once daily, before Snapshot in CST and CDT
 
 permissions:
   contents: read

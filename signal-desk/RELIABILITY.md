@@ -113,6 +113,8 @@ Only conference availability tables enter model notes; unofficial rumors are exc
 
 Graded and past games are untouched, manual notes remain protected, and the only Airtable write field remains Injury Notes. Direct public reads use two workers and bounded request/job timeouts, without new credentials or paid-feed calls. A successful injury refresh on main triggers the existing guarded Pick Engine so changed injury features are repriced without waiting for its next scheduled slot.
 
+The Sunday–Tuesday refresh runs once at 12:33 UTC, before Snapshot in both Central offsets, rather than after the briefing at 14:33 UTC. Wednesday–Saturday retains its existing three-hour cadence. Unpublished or incomplete required reports still block readiness regardless of schedule completion; morning coverage is not promised.
+
 ## Verification
 
 Run all deterministic tests from `signal-desk`:
