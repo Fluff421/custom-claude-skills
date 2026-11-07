@@ -1,0 +1,1 @@
+NFL games expected ~14 for Nov 5-9. QB rows written: 4 (partial coverage due to volume). Unknown/unverified: most other games not fully opened this run. Corrected matchups: Giants @ Eagles, Jets @ Chiefs. Ohio State check: Sayin appears active from scoreboard.

@@ -1,0 +1,9 @@
+league,game,team,player,status,source_url,retrieved_at_utc,verified_or_assumed,espn_event_id,report_type,report_status,position,notes
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Bobby Brown III,Questionable,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,DT,Hand; practice=Full Participation in Practice
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Jalen Coker,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,WR,practice=Full Participation in Practice
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Akayleb Evans,Out,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,CB,"Triceps, Knee; practice=Did Not Participate In Practice"
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Ryan Fitzgerald,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,K,practice=Full Participation in Practice
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Damien Lewis,Out,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,G,Knee; practice=Did Not Participate In Practice
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Jaelan Phillips,Out,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,Hamstring; practice=Did Not Participate In Practice
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Torricelli Simpkins III,Out,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,G,Ankle; practice=Did Not Participate In Practice
+NFL,Carolina Panthers at Green Bay Packers,Carolina Panthers,Bryce Young,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,QB,practice=Full Participation in Practice

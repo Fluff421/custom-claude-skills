@@ -1,0 +1,7 @@
+league,game,team,player,status,source_url,retrieved_at_utc,verified_or_assumed,espn_event_id,report_type,report_status,position,notes
+NFL,Tennessee Titans at Cincinnati Bengals,Cincinnati Bengals,Jonathan Allen,Limited Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,DT,practice=Limited Participation in Practice
+NFL,Tennessee Titans at Cincinnati Bengals,Cincinnati Bengals,Jordan Battle,Limited Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,S,practice=Limited Participation in Practice
+NFL,Tennessee Titans at Cincinnati Bengals,Cincinnati Bengals,Ja'Marr Chase,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,WR,practice=Full Participation in Practice
+NFL,Tennessee Titans at Cincinnati Bengals,Cincinnati Bengals,Kyle Dugger,Did Not Participate In Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,S,practice=Did Not Participate In Practice
+NFL,Tennessee Titans at Cincinnati Bengals,Cincinnati Bengals,Joe Giles-Harris,Did Not Participate In Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,practice=Did Not Participate In Practice
+NFL,Tennessee Titans at Cincinnati Bengals,Cincinnati Bengals,B.J. Hill,Limited Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,DT,practice=Limited Participation in Practice
