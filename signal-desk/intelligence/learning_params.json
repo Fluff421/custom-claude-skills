@@ -29,8 +29,8 @@
    },
    "model": {
     "coef": {
-     "edge": 0.0385,
-     "inj": 0.0,
+     "edge": 0.0384,
+     "inj": 0.1016,
      "lookahead": 0.0,
      "rest": 0.0,
      "revenge": 0.0,
@@ -42,18 +42,18 @@
      "se": 0.0116,
      "slope": 0.0832
     },
-    "n": 54,
-    "noise_sd": 1.617,
+    "n": 59,
+    "noise_sd": 1.581,
     "nonzero": {
-     "edge": 54,
-     "inj": 6,
-     "lookahead": 5,
-     "rest": 4,
-     "revenge": 2,
-     "travel": 2,
+     "edge": 59,
+     "inj": 11,
+     "lookahead": 7,
+     "rest": 5,
+     "revenge": 3,
+     "travel": 3,
      "weather": 0
     },
-    "note": "fitted on 54 graded picks; active features: edge",
+    "note": "fitted on 59 graded picks; active features: edge, inj",
     "ok": true,
     "prior": {
      "edge": 0.0832,
@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-06T19:34:57.000Z"
+   "updated": "2026-11-07T18:19:14.000Z"
   },
   "NFL": {
    "forward": {
@@ -132,15 +132,15 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-06T19:34:57.000Z"
+   "updated": "2026-11-07T18:19:14.000Z"
   }
  },
  "sigma": {
   "NCAAF": {
-   "n_eff": 2382.6,
-   "n_ledger": 62,
+   "n_eff": 2386.1,
+   "n_ledger": 67,
    "raw": 14.97,
-   "reason": "moved toward learned 14.98 (max step 0.5)",
+   "reason": "moved toward learned 14.97 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": true,
@@ -157,7 +157,7 @@
     "qb_uncertain": {
      "applied": false,
      "mult": 1.0,
-     "n": 4,
+     "n": 5,
      "sd": null
     },
     "weather": {
@@ -167,9 +167,9 @@
      "sd": null
     }
    },
-   "sigma": 14.98,
-   "target": 14.98,
-   "updated": "2026-11-06T19:34:57.000Z"
+   "sigma": 14.97,
+   "target": 14.97,
+   "updated": "2026-11-07T18:19:14.000Z"
   },
   "NFL": {
    "n_eff": 682.9,
@@ -204,7 +204,7 @@
    },
    "sigma": 12.43,
    "target": 12.43,
-   "updated": "2026-11-06T19:34:57.000Z"
+   "updated": "2026-11-07T18:19:14.000Z"
   }
  }
 }
