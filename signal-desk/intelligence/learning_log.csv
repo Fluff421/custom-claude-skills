@@ -6,3 +6,13 @@ date,league,market,setting,old,new,evidence,sample_size,source
 2026-11-05,NCAAF,spread,Market Blend K,0.161,0.197,60 graded spread picks; Brier-based fit,52,calibrate.py
 2026-11-06,NCAAF,spread,Sigma,14.95,14.98,"62 graded spread picks; learned residual SD, shrunk to prior, step-limited",2382,calibrate.py
 2026-11-06,NCAAF,spread,Market Blend K,0.197,0.181,62 graded spread picks; Brier-based fit,54,calibrate.py
+2026-11-08,NCAAF,spread,Sigma,14.97,15.01,"117 graded spread picks; learned residual SD, shrunk to prior, step-limited",2421,calibrate.py
+2026-11-08,NCAAF,spread,Market Blend K,0.182,0.145,117 graded spread picks; Brier-based fit,109,calibrate.py
+2026-11-08,NCAAF,spread,Factor Scale Injury,,1.02,117 graded spread picks; Brier-based fit,60,calibrate.py
+2026-11-08,NCAAF,spread,Factor Scale Situational,,1.09,117 graded spread picks; Brier-based fit,60,calibrate.py
+2026-11-08,NCAAF,spread,Factor Scale Rest,,0.99,117 graded spread picks; Brier-based fit,60,calibrate.py
+2026-11-08,NCAAF,spread,Factor Scale Travel,,0.99,117 graded spread picks; Brier-based fit,60,calibrate.py
+2026-11-08,NCAAF,spread,Factor Scale Revenge,,0.988,117 graded spread picks; Brier-based fit,60,calibrate.py
+2026-11-08,NCAAF,spread,Tier multiplier Lean,0.95,0.924,actual win rate / predicted for this tier (needs 20+ picks),34,calibrate.py
+2026-11-08,NCAAF,total,probability shrink,1.0,0.85,Brier 0.2593 -> gain 0.0069 at shrink 0.3,62,market_learning.py
+2026-11-08,NCAAF,teaser_leg,probability shrink,1.0,0.85,Brier 0.2507 -> gain 0.0094 at shrink 0.5,124,market_learning.py

@@ -9,9 +9,9 @@
    },
    "gate": {
     "Lean": {
-     "mean": 0.061,
-     "n": 33,
-     "se": 0.269,
+     "mean": 0.059,
+     "n": 34,
+     "se": 0.261,
      "status": "unproven"
     },
     "Max Play": {
@@ -29,12 +29,12 @@
    },
    "model": {
     "coef": {
-     "edge": 0.0384,
-     "inj": 0.1016,
-     "lookahead": 0.0,
-     "rest": 0.0,
-     "revenge": 0.0,
-     "travel": 0.0,
+     "edge": 0.0059,
+     "inj": 0.1405,
+     "lookahead": 0.2793,
+     "rest": 0.1016,
+     "revenge": 0.0449,
+     "travel": 0.1197,
      "weather": 0.0
     },
     "history": {
@@ -42,18 +42,18 @@
      "se": 0.0116,
      "slope": 0.0832
     },
-    "n": 59,
-    "noise_sd": 1.581,
+    "n": 109,
+    "noise_sd": 1.745,
     "nonzero": {
-     "edge": 59,
-     "inj": 11,
-     "lookahead": 7,
-     "rest": 5,
-     "revenge": 3,
-     "travel": 3,
-     "weather": 0
+     "edge": 109,
+     "inj": 58,
+     "lookahead": 26,
+     "rest": 16,
+     "revenge": 33,
+     "travel": 17,
+     "weather": 3
     },
-    "note": "fitted on 59 graded picks; active features: edge, inj",
+    "note": "fitted on 109 graded picks; active features: edge, inj, lookahead, rest, travel, revenge",
     "ok": true,
     "prior": {
      "edge": 0.0832,
@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-07T18:19:14.000Z"
+   "updated": "2026-11-08T17:57:55.000Z"
   },
   "NFL": {
    "forward": {
@@ -132,21 +132,21 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-07T18:19:14.000Z"
+   "updated": "2026-11-08T17:57:55.000Z"
   }
  },
  "sigma": {
   "NCAAF": {
-   "n_eff": 2386.1,
-   "n_ledger": 67,
-   "raw": 14.97,
-   "reason": "moved toward learned 14.97 (max step 0.5)",
+   "n_eff": 2421.6,
+   "n_ledger": 117,
+   "raw": 15.01,
+   "reason": "moved toward learned 15.01 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": true,
-     "mult": 1.0,
-     "n": 1516,
-     "sd": 14.97
+     "mult": 0.995,
+     "n": 1524,
+     "sd": 14.93
     },
     "injury_heavy": {
      "applied": false,
@@ -155,10 +155,10 @@
      "sd": null
     },
     "qb_uncertain": {
-     "applied": false,
-     "mult": 1.0,
-     "n": 5,
-     "sd": null
+     "applied": true,
+     "mult": 1.002,
+     "n": 31,
+     "sd": 15.1
     },
     "weather": {
      "applied": false,
@@ -167,9 +167,9 @@
      "sd": null
     }
    },
-   "sigma": 14.97,
-   "target": 14.97,
-   "updated": "2026-11-07T18:19:14.000Z"
+   "sigma": 15.01,
+   "target": 15.01,
+   "updated": "2026-11-08T17:57:55.000Z"
   },
   "NFL": {
    "n_eff": 682.9,
@@ -204,7 +204,7 @@
    },
    "sigma": 12.43,
    "target": 12.43,
-   "updated": "2026-11-07T18:19:14.000Z"
+   "updated": "2026-11-08T17:57:55.000Z"
   }
  }
 }
