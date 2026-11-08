@@ -1,0 +1,56 @@
+name: Splash picks inbox (Signal Desk)
+
+# Runs when a new .txt file is committed to the inbox folder.
+# File content = the same "picks" text that splash-compare.yml takes (one ticket per line).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "signal-desk/intelligence/splash_picks/inbox/*.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signal-desk-splash-compare
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Compare each new inbox file once
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="${{ github.event.before }}"
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then BASE="HEAD~1"; fi
+          DIR=signal-desk/intelligence/splash_picks
+          mkdir -p "$DIR/processed"
+          FILES=$(git diff --name-only --diff-filter=A "$BASE" HEAD -- "$DIR/inbox/*.txt" || true)
+          if [ -z "$FILES" ]; then echo "No new inbox files."; exit 0; fi
+          for f in $FILES; do
+            name=$(basename "$f")
+            if [ -e "$DIR/processed/$name" ]; then
+              echo "::warning::$name was already processed; skipping to avoid a duplicate."
+              git rm -q "$f"
+              continue
+            fi
+            SPLASH_PICKS="$(cat "$f")" python signal-desk/splash_compare.py
+            git mv "$f" "$DIR/processed/$name"
+          done
+      - name: Commit the comparison and log
+        shell: bash
+        run: |
+          bash .github/scripts/commit_data.sh "Splash picks inbox $(date -u +%F-%H%M) (auto)" \
+            signal-desk/intelligence/splash_picks signal-desk/intelligence/splash_picks_log.csv
