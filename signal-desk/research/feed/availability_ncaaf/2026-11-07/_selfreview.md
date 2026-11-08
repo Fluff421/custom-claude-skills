@@ -1,4 +1,11 @@
-Games expected: all NCAAF Nov 3-9 (approx 100+). QB rows written: 8 (focused on Oregon @ Ohio State priority and sample Power 4).
-Unknown: 4. Unverified: 6. Reason: volume limit; prioritized Saturday ranked/Power 4 and Ohio State confirmation. Full list of Saturday games not covered: see ESPN schedule page opened.
-Ohio State: Julian Sayin starter_out, replacement Luke Fahey confirmed by multiple sources dated this week including coach statements. ESPN depth and Ourlads list Fahey as QB1.
-No official source disagreements noted for covered games.
+# Self-review 2026-11-07 NCAAF QB availability
+
+Games expected (next 8 days + catch-up Nov 3-9): many (dozens on Sat Nov 7 + midweek)
+QB rows written: 10
+Unknown rows: 6
+Unverified rows: 6
+Verified rows: 2 (Oregon @ Ohio State both teams)
+
+Ohio State re-checked: Julian Sayin still out, Luke Fahey starting (Dispatch Nov 3 + game box).
+
+Volume limited: prioritized ranked/Power 4. Many Saturday games not fully covered (e.g. full SEC, ACC, Big 12, Big Ten slates beyond listed). See conference files for placeholders.
