@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-08T17:57:55.000Z"
+   "updated": "2026-11-09T22:18:28.000Z"
   },
   "NFL": {
    "forward": {
@@ -76,21 +76,21 @@
    },
    "gate": {
     "Lean": {
-     "mean": 0.5,
-     "n": 9,
-     "se": 0.344,
+     "mean": 0.469,
+     "n": 16,
+     "se": 0.272,
      "status": "unproven"
     },
     "Max Play": {
-     "mean": null,
-     "n": 0,
+     "mean": -0.5,
+     "n": 1,
      "se": null,
      "status": "unproven"
     },
     "Strong Play": {
-     "mean": -0.75,
-     "n": 2,
-     "se": 0.25,
+     "mean": -0.167,
+     "n": 3,
+     "se": 0.601,
      "status": "unproven"
     }
    },
@@ -109,18 +109,18 @@
      "se": 0.0335,
      "slope": 0.2008
     },
-    "n": 15,
+    "n": 28,
     "noise_sd": null,
     "nonzero": {
-     "edge": 15,
-     "inj": 6,
-     "lookahead": 2,
-     "rest": 1,
-     "revenge": 1,
-     "travel": 1,
-     "weather": 0
+     "edge": 28,
+     "inj": 19,
+     "lookahead": 4,
+     "rest": 5,
+     "revenge": 4,
+     "travel": 6,
+     "weather": 1
     },
-    "note": "15 graded picks with CLV (< 30); using the history prior on edge only",
+    "note": "28 graded picks with CLV (< 30); using the history prior on edge only",
     "ok": false,
     "prior": {
      "edge": 0.2008,
@@ -132,7 +132,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-08T17:57:55.000Z"
+   "updated": "2026-11-09T22:18:28.000Z"
   }
  },
  "sigma": {
@@ -169,13 +169,13 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-08T17:57:55.000Z"
+   "updated": "2026-11-09T22:18:28.000Z"
   },
   "NFL": {
-   "n_eff": 682.9,
-   "n_ledger": 15,
-   "raw": 12.42,
-   "reason": "moved toward learned 12.43 (max step 0.5)",
+   "n_eff": 689.2,
+   "n_ledger": 28,
+   "raw": 12.36,
+   "reason": "moved toward learned 12.37 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": false,
@@ -186,13 +186,13 @@
     "injury_heavy": {
      "applied": false,
      "mult": 1.0,
-     "n": 1,
+     "n": 6,
      "sd": null
     },
     "qb_uncertain": {
      "applied": false,
      "mult": 1.0,
-     "n": 1,
+     "n": 3,
      "sd": null
     },
     "weather": {
@@ -202,9 +202,9 @@
      "sd": null
     }
    },
-   "sigma": 12.43,
-   "target": 12.43,
-   "updated": "2026-11-08T17:57:55.000Z"
+   "sigma": 12.37,
+   "target": 12.37,
+   "updated": "2026-11-09T22:18:28.000Z"
   }
  }
 }

@@ -1,8 +1,13 @@
 {
  "NCAAF": {
   "shrink": {
-   "teaser_leg": 0.85,
-   "total": 0.85
+   "teaser_leg": 0.7,
+   "total": 0.7
+  }
+ },
+ "NFL": {
+  "shrink": {
+   "teaser_leg": 1.15
   }
  }
 }

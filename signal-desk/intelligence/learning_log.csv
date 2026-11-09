@@ -16,3 +16,7 @@ date,league,market,setting,old,new,evidence,sample_size,source
 2026-11-08,NCAAF,spread,Tier multiplier Lean,0.95,0.924,actual win rate / predicted for this tier (needs 20+ picks),34,calibrate.py
 2026-11-08,NCAAF,total,probability shrink,1.0,0.85,Brier 0.2593 -> gain 0.0069 at shrink 0.3,62,market_learning.py
 2026-11-08,NCAAF,teaser_leg,probability shrink,1.0,0.85,Brier 0.2507 -> gain 0.0094 at shrink 0.5,124,market_learning.py
+2026-11-09,NFL,spread,Sigma,12.43,12.37,"28 graded spread picks; learned residual SD, shrunk to prior, step-limited",689,calibrate.py
+2026-11-09,NCAAF,total,probability shrink,0.85,0.7,Brier 0.2577 -> gain 0.0053 at shrink 0.3,62,market_learning.py
+2026-11-09,NCAAF,teaser_leg,probability shrink,0.85,0.7,Brier 0.246 -> gain 0.0047 at shrink 0.5,124,market_learning.py
+2026-11-09,NFL,teaser_leg,probability shrink,1.0,1.15,Brier 0.1742 -> gain 0.002 at shrink 1.2,38,market_learning.py
