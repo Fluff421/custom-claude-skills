@@ -1,0 +1,70 @@
+{
+  "schema": "signal-desk.splash-picks.v1",
+  "source": "Splash Sports Picks",
+  "page_type": "pending",
+  "date_code": "SPL-P-20261108-1601",
+  "extracted_at_central": "2026-11-08 16:01:00 CST",
+  "extracted_at_utc": "2026-11-08T22:01:00Z",
+  "page_url": "https://contests.app.splashsports.com/shares/contests/contest_01M1C39WSS065P66ECQE7T30HT/pending",
+  "coverage": {"oldest_settled": null, "newest_settled": null},
+  "ticket_count": 3,
+  "warnings": [],
+  "tickets": [
+    {
+      "source": "Splash Sports Picks",
+      "date_code": "SPL-P-20261108-1601",
+      "ticket_id": "2026-11-08 16:01 | Over 39.5 (ARI @ SEA)",
+      "ticket_type": "parlay",
+      "contest_name": "Gus’ Staredown Showdown 26’",
+      "entry_name": "Player",
+      "placed_at_central": null,
+      "locked_at_central": null,
+      "stake": "15 units",
+      "potential_payout": null,
+      "payout_multiplier": "+700",
+      "ticket_result": null,
+      "legs": [
+        {"league": "NFL", "away_team": "ARI", "home_team": "SEA", "market": "total", "selection": "Over 39.5", "line": 39.5, "base_line": null, "teased_line": null, "price": 100, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null},
+        {"league": "NFL", "away_team": "HOU", "home_team": "LAC", "market": "total", "selection": "Under 40.5", "line": 40.5, "base_line": null, "teased_line": null, "price": 100, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null},
+        {"league": "NFL", "away_team": "GB", "home_team": "NE", "market": "total", "selection": "Over 44.5", "line": 44.5, "base_line": null, "teased_line": null, "price": 100, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null}
+      ]
+    },
+    {
+      "source": "Splash Sports Picks",
+      "date_code": "SPL-P-20261108-1601",
+      "ticket_id": "2026-11-08 16:01 | Texans +0.5 (@ Chargers)",
+      "ticket_type": "teaser",
+      "contest_name": "Gus’ Staredown Showdown 26’",
+      "entry_name": "Player",
+      "placed_at_central": null,
+      "locked_at_central": null,
+      "stake": "25 units",
+      "potential_payout": null,
+      "payout_multiplier": "+180",
+      "ticket_result": null,
+      "legs": [
+        {"league": "NFL", "away_team": "Texans", "home_team": "Chargers", "market": "spread", "selection": "Texans +0.5", "line": 0.5, "base_line": null, "teased_line": 0.5, "price": null, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null},
+        {"league": "NFL", "away_team": "Raiders", "home_team": "49ers", "market": "spread", "selection": "49ers -3.5", "line": -3.5, "base_line": null, "teased_line": -3.5, "price": null, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null},
+        {"league": "NFL", "away_team": "LV", "home_team": "SF", "market": "total", "selection": "Over 45.5", "line": 45.5, "base_line": null, "teased_line": null, "price": null, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null}
+      ]
+    },
+    {
+      "source": "Splash Sports Picks",
+      "date_code": "SPL-P-20261108-1601",
+      "ticket_id": "2026-11-08 16:01 | Patriots -3 (vs Packers)",
+      "ticket_type": "parlay",
+      "contest_name": "Gus’ Staredown Showdown 26’",
+      "entry_name": "Player",
+      "placed_at_central": null,
+      "locked_at_central": null,
+      "stake": "25 units",
+      "potential_payout": null,
+      "payout_multiplier": "+300",
+      "ticket_result": null,
+      "legs": [
+        {"league": "NFL", "away_team": "Packers", "home_team": "Patriots", "market": "spread", "selection": "Patriots -3", "line": -3.0, "base_line": null, "teased_line": null, "price": 100, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null},
+        {"league": "NFL", "away_team": "Cardinals", "home_team": "Seahawks", "market": "spread", "selection": "Cardinals +8.5", "line": 8.5, "base_line": null, "teased_line": null, "price": 100, "kickoff_central": null, "kickoff_tz": "CST", "leg_result": null, "final_score": null}
+      ]
+    }
+  ]
+}
