@@ -44,6 +44,19 @@ class Imports(unittest.TestCase):
     def test_valid_lines(self):
         self.assertEqual(self.plan(lines())["expected_rows"], 1)
 
+    def test_four_hours_is_warning_not_line_rejection_limit(self):
+        for hours, warning in ((4, False), (4.01, True), (24, True)):
+            with self.subTest(hours=hours):
+                d = lines()
+                d["extracted_at_utc"] = (NOW - dt.timedelta(hours=hours)).isoformat()
+                result = self.plan(d)
+                self.assertEqual(result["expected_rows"], 1)
+                self.assertEqual(bool(result["freshness_warning"]), warning)
+        d = lines()
+        d["extracted_at_utc"] = (NOW - dt.timedelta(hours=24, seconds=1)).isoformat()
+        with self.assertRaisesRegex(si.Rejected, "24 hours"):
+            self.plan(d)
+
     def test_count_mismatch_stays_rejected_after_old_games_final(self):
         d = lines()
         d["game_count"] = {"NFL": 16, "NCAAF": 63}
