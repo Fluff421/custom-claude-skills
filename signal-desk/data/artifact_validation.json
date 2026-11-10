@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-09T23:11:02.738616+00:00",
-  "central_date": "2026-11-09",
-  "ready": false,
+  "checked_at": "2026-11-10T20:38:19.049092+00:00",
+  "central_date": "2026-11-10",
+  "ready": true,
   "policy": {
     "narrative_hours": 4,
     "grade_hours": 2,
@@ -14,52 +14,50 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.009,
+      "age_hours": 0.013,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 31.017,
+      "age_hours": 4.405,
       "max_age_hours": 12
     },
     "pricecheck": {
-      "age_hours": 30.729,
+      "age_hours": 0.915,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 31.029,
+      "age_hours": 4.405,
       "max_age_hours": 12
     },
     "ops_export": {
-      "age_hours": 0.009,
+      "age_hours": 0.013,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 3.147,
+      "age_hours": 0.649,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
-      "age_hours": 0.548,
+      "age_hours": 0.709,
       "max_age_hours": 26
     },
     "espn-sync.yml": {
-      "age_hours": 0.584,
+      "age_hours": 3.456,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 0.479,
+      "age_hours": 0.703,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 0.888,
+      "age_hours": 0.956,
       "max_age_hours": 26
     }
   },
-  "errors": [
-    "splash_board: age 31.02h outside [0, 12)h (5m clock tolerance)",
-    "pricecheck: age 30.73h outside [0, 4)h (5m clock tolerance)",
-    "pricecheck_underlying_quotes: age 31.03h outside [0, 12)h (5m clock tolerance)",
-    "close_grade: age 3.15h outside [0, 2)h (5m clock tolerance)"
+  "errors": [],
+  "warnings": [
+    "splash_board: 4.41h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 4.41h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
-  "warnings": [],
   "paper_picks_only": true
 }

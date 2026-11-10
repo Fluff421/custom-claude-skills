@@ -1,26 +1,39 @@
 {
- "date": "2026-11-09",
- "generated_at": "2026-11-09T23:11:02+00:00",
- "upcoming_best": [
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T20:38:18+00:00",
+ "upcoming_best": [],
+ "upcoming_tracking": [],
+ "recent_closed": [
   {
    "game": "Buffalo Bills @ Minnesota Vikings",
    "date": "2026-11-09",
    "league": "NFL",
    "tier": "Lean",
    "pick": "Buffalo Bills -3 (spread)",
+   "grade": "Win",
    "units": 0.5,
    "prob": 0.6237,
-   "adj_edge": -3.9,
-   "why": [
-    "model margin -3.2 vs line -3.0 (base edge -0.2)",
-    "injuries: home loses 4.57 pts, away loses 0.84 pts",
-    "QB: HOME QB OUT Kyler Murray -> Carson Wentz [verified 2026-11-08] | AWAY QB PLAYING Josh Allen [verified 2026-11-08]",
-    "weather: indoor | sev=0.00"
-   ]
-  }
- ],
- "upcoming_tracking": [],
- "recent_closed": [
+   "clv": 0.5,
+   "actual_home_margin": -17,
+   "model_margin": -3.2,
+   "line_margin": -3,
+   "closing_spread_home": 3.5,
+   "notes": [
+    "final home margin -17: model missed by 13.8, line missed by 14.0 (the model was closer)",
+    "adjusted margin -6.9 (closer than base model)",
+    "factors that pointed the right way: injuries -3.7",
+    "pick covered by +14.0 points"
+   ],
+   "model_error": -13.8,
+   "line_error": -14.0,
+   "closer": "the model",
+   "adjusted_margin": -6.9,
+   "factors_helped": [
+    "injuries -3.7"
+   ],
+   "factors_hurt": [],
+   "cover_margin": 14.0
+  },
   {
    "game": "Detroit Lions @ Miami Dolphins",
    "date": "2026-11-08",
@@ -2459,39 +2472,6 @@
     "injuries -0.3"
    ],
    "cover_margin": 4.5
-  },
-  {
-   "game": "Chicago Bears @ Seattle Seahawks",
-   "date": "2026-11-02",
-   "league": "NFL",
-   "tier": "No Play",
-   "pick": "Chicago Bears +3 (spread)",
-   "grade": "Win",
-   "units": 0,
-   "prob": 0.5148,
-   "clv": 0,
-   "actual_home_margin": -17,
-   "model_margin": 2.6,
-   "line_margin": 3,
-   "closing_spread_home": -3,
-   "notes": [
-    "final home margin -17: model missed by 19.6, line missed by 20.0 (the model was closer)",
-    "adjusted margin +1.8 (closer than base model)",
-    "factors that pointed the right way: injuries -1.3",
-    "factors that pointed the wrong way: travel +0.5",
-    "pick covered by +20.0 points"
-   ],
-   "model_error": -19.6,
-   "line_error": -20.0,
-   "closer": "the model",
-   "adjusted_margin": 1.8,
-   "factors_helped": [
-    "injuries -1.3"
-   ],
-   "factors_hurt": [
-    "travel +0.5"
-   ],
-   "cover_margin": 20.0
   }
  ],
  "tiers": [
@@ -2564,13 +2544,13 @@
   {
    "league": "NFL",
    "tier": "Lean",
-   "wins": 7,
+   "wins": 8,
    "losses": 9,
    "pushes": 0,
-   "hit": 0.438,
-   "brier": 0.2873,
+   "hit": 0.471,
+   "brier": 0.2787,
    "avg_clv": 0.47,
-   "n": 16
+   "n": 17
   },
   {
    "league": "NFL",
@@ -2608,13 +2588,13 @@
   {
    "league": "ALL",
    "tier": "Lean",
-   "wins": 24,
+   "wins": 25,
    "losses": 26,
    "pushes": 0,
-   "hit": 0.48,
-   "brier": 0.2614,
-   "avg_clv": 0.19,
-   "n": 50
+   "hit": 0.49,
+   "brier": 0.259,
+   "avg_clv": 0.2,
+   "n": 51
   },
   {
    "league": "ALL",
@@ -2631,9 +2611,9 @@
  "edge_buckets": [
   {
    "edge": "0-1",
-   "wins": 16,
+   "wins": 17,
    "losses": 14,
-   "hit": 0.533
+   "hit": 0.548
   },
   {
    "edge": "1-2.5",
@@ -2663,7 +2643,7 @@
  "learning": [
   {
    "league": "NFL",
-   "sigma": 12.37,
+   "sigma": 12.38,
    "lean": null,
    "strong": null,
    "max": null,
@@ -2675,11 +2655,11 @@
    "scale_travel": null,
    "scale_revenge": null,
    "scale_weather": null,
-   "graded": 28,
-   "graded_with_factor_record": 19,
-   "brier": 0.2614,
-   "last_calibrated": "2026-11-09T22:18:28.000Z",
-   "scorecard": "NFL factor scorecard 2026-11-09 (shadow; picks unchanged)\nmarket blend: need 30 graded games with scores, have 28\nfactor scales: need 30 games with usable factor records, have 19\nmargin RMSE base 10.88 vs adjusted 11.09 vs line 10.8 (n=19); ATS base 0.526 vs adjusted 0.632 (n=19)"
+   "graded": 29,
+   "graded_with_factor_record": 20,
+   "brier": 0.2573,
+   "last_calibrated": "2026-11-10T19:41:21.000Z",
+   "scorecard": "NFL factor scorecard 2026-11-10 (shadow; picks unchanged)\nmarket blend: need 30 graded games with scores, have 29\nfactor scales: need 30 games with usable factor records, have 20\nmargin RMSE base 11.05 vs adjusted 11.04 vs line 10.98 (n=20); ATS base 0.55 vs adjusted 0.65 (n=20)"
   },
   {
    "league": "NCAAF",
@@ -2698,17 +2678,17 @@
    "graded": 117,
    "graded_with_factor_record": 62,
    "brier": 0.2612,
-   "last_calibrated": "2026-11-09T22:18:28.000Z",
-   "scorecard": "NCAAF factor scorecard 2026-11-09 (shadow; picks unchanged)\nmarket blend: k=0.145 (raw -0.351 +/- 0.538, n=109); 0 = line already has what the model knows\nfactor scales: inj 1.02 (sd 0.499), lookahead 1.09 (sd 0.495), rest 0.99 (sd 0.499), travel 0.99 (sd 0.499), revenge 0.988 (sd 0.499), n=60; not enough non-zero games yet: weather\nmargin RMSE base 16.95 vs adjusted 16.83 vs line 16.74 (n=60); ATS base 0.5 vs adjusted 0.5 (n=60)"
+   "last_calibrated": "2026-11-10T19:41:21.000Z",
+   "scorecard": "NCAAF factor scorecard 2026-11-10 (shadow; picks unchanged)\nmarket blend: k=0.145 (raw -0.351 +/- 0.538, n=109); 0 = line already has what the model knows\nfactor scales: inj 1.02 (sd 0.499), lookahead 1.09 (sd 0.495), rest 0.99 (sd 0.499), travel 0.99 (sd 0.499), revenge 0.988 (sd 0.499), n=60; not enough non-zero games yet: weather\nmargin RMSE base 16.95 vs adjusted 16.83 vs line 16.74 (n=60); ATS base 0.5 vs adjusted 0.5 (n=60)"
   }
  ],
  "automatic_changes": [
   {
    "league": "NFL",
    "setting": "Sigma (win-probability spread)",
-   "now": 12.37,
+   "now": 12.38,
    "gate": ">= 30 graded",
-   "progress": "28/30",
+   "progress": "29/30",
    "rule": "daily grid search; picks the sigma with the best Brier score"
   },
   {
@@ -2716,7 +2696,7 @@
    "setting": "Tier win-probability multipliers",
    "now": "none",
    "gate": ">= 20 graded per tier",
-   "progress": "Lean 16/20, Strong Play 3/20, Max Play 1/20",
+   "progress": "Lean 17/20, Strong Play 3/20, Max Play 1/20",
    "rule": "actual hit rate divided by predicted, clipped 0.7 to 1.3"
   },
   {
@@ -2724,7 +2704,7 @@
    "setting": "Unit cap (1.0u) on Strong/Max",
    "now": "capped",
    "gate": ">= 20 graded per tier",
-   "progress": "Lean 16/20, Strong Play 3/20, Max Play 1/20",
+   "progress": "Lean 17/20, Strong Play 3/20, Max Play 1/20",
    "rule": "stays capped; Strong and Max remain paper picks regardless"
   },
   {
@@ -2732,7 +2712,7 @@
    "setting": "Market blend k (does the model add to the line)",
    "now": null,
    "gate": ">= 30 graded with scores",
-   "progress": "28/30",
+   "progress": "29/30",
    "rule": "regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior"
   },
   {
@@ -2747,7 +2727,7 @@
     "scale_weather": null
    },
    "gate": ">= 30 graded with a factor record; each factor needs 10 non-zero games",
-   "progress": "19/30",
+   "progress": "20/30",
    "rule": "joint ridge regression toward 1.0; 0 switches the factor off"
   },
   {
@@ -2798,12 +2778,14 @@
    "rule": "joint ridge regression toward 1.0; 0 switches the factor off"
   }
  ],
- "data_gaps": [],
+ "data_gaps": [
+  "no upcoming games in the ledger"
+ ],
  "overall": {
-  "graded": 145,
-  "wins": 70,
+  "graded": 146,
+  "wins": 71,
   "losses": 75,
-  "brier": 0.2613
+  "brier": 0.2605
  },
  "splash_vs_model": [
   {
@@ -2839,6 +2821,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Dallas Cowboys -1",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -2876,6 +2861,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Cincinnati Bengals -6.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -2913,6 +2901,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Buffalo Bills -3",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -2950,6 +2941,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Los Angeles Rams -0.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -2987,6 +2981,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "New England Patriots -1",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3024,6 +3021,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Kansas City Chiefs +4.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3061,6 +3061,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Indianapolis Colts +16.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3098,6 +3101,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Detroit Lions +2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3135,6 +3141,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Cleveland Browns +9.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3172,6 +3181,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Las Vegas Raiders +1.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
@@ -3209,6 +3221,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Tampa Bay Buccaneers -2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3246,6 +3261,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Memphis -5.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
@@ -3283,6 +3301,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Iowa State +9.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3320,6 +3341,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "USC +6.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
@@ -3357,6 +3381,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "North Carolina +14.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
@@ -3394,6 +3421,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Northwestern +3.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3431,6 +3461,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Georgia -11.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3468,6 +3501,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Kansas +6.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
@@ -3505,6 +3541,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Arizona +3.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -3542,6 +3581,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Iowa -1.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3579,6 +3621,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Ole Miss -10.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
@@ -3616,6 +3661,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Green Bay Packers -3.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3653,6 +3701,9 @@
    "ticket_prob": "",
    "ticket_break_even": "",
    "text": "Washington Commanders -5.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -3690,6 +3741,9 @@
    "ticket_prob": "0.081",
    "ticket_break_even": "0.0753",
    "text": "Parlay: Jacksonville Jaguars -9.5, Under 57.5 James Madison at Southern Miss, Under 72.5 UTSA at Florida Atlantic, UTSA -6.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3727,6 +3781,9 @@
    "ticket_prob": "0.081",
    "ticket_break_even": "0.0753",
    "text": "Parlay: Jacksonville Jaguars -9.5, Under 57.5 James Madison at Southern Miss, Under 72.5 UTSA at Florida Atlantic, UTSA -6.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3764,6 +3821,9 @@
    "ticket_prob": "0.081",
    "ticket_break_even": "0.0753",
    "text": "Parlay: Jacksonville Jaguars -9.5, Under 57.5 James Madison at Southern Miss, Under 72.5 UTSA at Florida Atlantic, UTSA -6.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3801,6 +3861,9 @@
    "ticket_prob": "0.081",
    "ticket_break_even": "0.0753",
    "text": "Parlay: Jacksonville Jaguars -9.5, Under 57.5 James Madison at Southern Miss, Under 72.5 UTSA at Florida Atlantic, UTSA -6.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3838,6 +3901,9 @@
    "ticket_prob": "0.0756",
    "ticket_break_even": "0.0753",
    "text": "Parlay: New York Jets at Kansas City Chiefs Under 47.5, New York Giants at Philadelphia Eagles Over 38.5, Los Angeles Rams at Washington Commanders Over 47.5, Denver Broncos at Carolina Panthers Over 44.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -3875,6 +3941,9 @@
    "ticket_prob": "0.0756",
    "ticket_break_even": "0.0753",
    "text": "Parlay: New York Jets at Kansas City Chiefs Under 47.5, New York Giants at Philadelphia Eagles Over 38.5, Los Angeles Rams at Washington Commanders Over 47.5, Denver Broncos at Carolina Panthers Over 44.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -3912,6 +3981,9 @@
    "ticket_prob": "0.0756",
    "ticket_break_even": "0.0753",
    "text": "Parlay: New York Jets at Kansas City Chiefs Under 47.5, New York Giants at Philadelphia Eagles Over 38.5, Los Angeles Rams at Washington Commanders Over 47.5, Denver Broncos at Carolina Panthers Over 44.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -3949,6 +4021,9 @@
    "ticket_prob": "0.0756",
    "ticket_break_even": "0.0753",
    "text": "Parlay: New York Jets at Kansas City Chiefs Under 47.5, New York Giants at Philadelphia Eagles Over 38.5, Los Angeles Rams at Washington Commanders Over 47.5, Denver Broncos at Carolina Panthers Over 44.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -3986,6 +4061,9 @@
    "ticket_prob": "0.3155",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Detroit Lions -0.5 teased, Detroit Lions at Miami Dolphins Over 43.5 teased, Dallas Cowboys at Indianapolis Colts Over 45.5 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "pending"
@@ -4023,6 +4101,9 @@
    "ticket_prob": "0.3155",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Detroit Lions -0.5 teased, Detroit Lions at Miami Dolphins Over 43.5 teased, Dallas Cowboys at Indianapolis Colts Over 45.5 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "pending"
@@ -4060,6 +4141,9 @@
    "ticket_prob": "0.3155",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Detroit Lions -0.5 teased, Detroit Lions at Miami Dolphins Over 43.5 teased, Dallas Cowboys at Indianapolis Colts Over 45.5 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "pending"
@@ -4097,6 +4181,9 @@
    "ticket_prob": "0.3197",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Carolina Panthers +8.5 teased, New Orleans Saints +3 teased, New York Giants +3 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "pending"
@@ -4134,6 +4221,9 @@
    "ticket_prob": "0.3197",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Carolina Panthers +8.5 teased, New Orleans Saints +3 teased, New York Giants +3 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "pending"
@@ -4171,6 +4261,9 @@
    "ticket_prob": "0.3197",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Carolina Panthers +8.5 teased, New Orleans Saints +3 teased, New York Giants +3 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "pending"
@@ -4208,6 +4301,9 @@
    "ticket_prob": "0.1528",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Los Angeles Rams -4.5, New York Jets +9.5, Dallas Cowboys -4.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4245,6 +4341,9 @@
    "ticket_prob": "0.1528",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Los Angeles Rams -4.5, New York Jets +9.5, Dallas Cowboys -4.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4282,6 +4381,9 @@
    "ticket_prob": "0.1528",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Los Angeles Rams -4.5, New York Jets +9.5, Dallas Cowboys -4.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4319,6 +4421,9 @@
    "ticket_prob": "0.1008",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Arizona Cardinals at Seattle Seahawks Over 39.5, Houston Texans at Los Angeles Chargers Under 40.5, Green Bay Packers at New England Patriots Over 44.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4356,6 +4461,9 @@
    "ticket_prob": "0.1008",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Arizona Cardinals at Seattle Seahawks Over 39.5, Houston Texans at Los Angeles Chargers Under 40.5, Green Bay Packers at New England Patriots Over 44.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4393,6 +4501,9 @@
    "ticket_prob": "0.1008",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Arizona Cardinals at Seattle Seahawks Over 39.5, Houston Texans at Los Angeles Chargers Under 40.5, Green Bay Packers at New England Patriots Over 44.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4430,6 +4541,9 @@
    "ticket_prob": "0.2928",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Houston Texans +0.5 teased, San Francisco 49ers -3.5 teased, Las Vegas Raiders at San Francisco 49ers Over 45.5 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "pending"
@@ -4467,6 +4581,9 @@
    "ticket_prob": "0.2928",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Houston Texans +0.5 teased, San Francisco 49ers -3.5 teased, Las Vegas Raiders at San Francisco 49ers Over 45.5 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "pending"
@@ -4504,6 +4621,9 @@
    "ticket_prob": "0.2928",
    "ticket_break_even": "0.3846",
    "text": "Teaser: Houston Texans +0.5 teased, San Francisco 49ers -3.5 teased, Las Vegas Raiders at San Francisco 49ers Over 45.5 teased",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "pending"
@@ -4541,6 +4661,9 @@
    "ticket_prob": "0.3918",
    "ticket_break_even": "0.2744",
    "text": "Parlay: New England Patriots -3, Arizona Cardinals +8.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4578,6 +4701,9 @@
    "ticket_prob": "0.3918",
    "ticket_break_even": "0.2744",
    "text": "Parlay: New England Patriots -3, Arizona Cardinals +8.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4615,6 +4741,9 @@
    "ticket_prob": "0.2634",
    "ticket_break_even": "0.2744",
    "text": "Parlay: Miami (FL) +7.5, Ole Miss +3.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4652,6 +4781,9 @@
    "ticket_prob": "0.2634",
    "ticket_break_even": "0.2744",
    "text": "Parlay: Miami (FL) +7.5, Ole Miss +3.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4689,6 +4821,9 @@
    "ticket_prob": "0.1288",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Iowa -1.5, Florida -5.5, Tennessee -5.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4726,6 +4861,9 @@
    "ticket_prob": "0.1288",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Iowa -1.5, Florida -5.5, Tennessee -5.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4763,6 +4901,9 @@
    "ticket_prob": "0.1288",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Iowa -1.5, Florida -5.5, Tennessee -5.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4800,6 +4941,9 @@
    "ticket_prob": "0.1396",
    "ticket_break_even": "0.1437",
    "text": "Parlay: LSU -6.5, Oregon +7.5, Vanderbilt +2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4837,6 +4981,9 @@
    "ticket_prob": "0.1396",
    "ticket_break_even": "0.1437",
    "text": "Parlay: LSU -6.5, Oregon +7.5, Vanderbilt +2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4874,6 +5021,9 @@
    "ticket_prob": "0.1396",
    "ticket_break_even": "0.1437",
    "text": "Parlay: LSU -6.5, Oregon +7.5, Vanderbilt +2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4911,6 +5061,9 @@
    "ticket_prob": "0.1361",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Washington -2.5, Cincinnati +10.5, Oregon +7.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -4948,6 +5101,9 @@
    "ticket_prob": "0.1361",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Washington -2.5, Cincinnati +10.5, Oregon +7.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -4985,6 +5141,9 @@
    "ticket_prob": "0.1361",
    "ticket_break_even": "0.1437",
    "text": "Parlay: Washington -2.5, Cincinnati +10.5, Oregon +7.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -5022,6 +5181,9 @@
    "ticket_prob": "0.2613",
    "ticket_break_even": "0.2744",
    "text": "Parlay: BYU +4.5, Missouri +2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -5059,6 +5221,9 @@
    "ticket_prob": "0.2613",
    "ticket_break_even": "0.2744",
    "text": "Parlay: BYU +4.5, Missouri +2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -5096,6 +5261,9 @@
    "ticket_prob": "0.2539",
    "ticket_break_even": "0.2744",
    "text": "Parlay: UCLA -4.5, Clemson -2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -5133,6 +5301,9 @@
    "ticket_prob": "0.2539",
    "ticket_break_even": "0.2744",
    "text": "Parlay: UCLA -4.5, Clemson -2.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
@@ -5170,6 +5341,9 @@
    "ticket_prob": "0.0646",
    "ticket_break_even": "0.0753",
    "text": "Parlay: South Florida +2.5, Nebraska -4.5, Arizona -7.5, New Mexico -10.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -5207,6 +5381,9 @@
    "ticket_prob": "0.0646",
    "ticket_break_even": "0.0753",
    "text": "Parlay: South Florida +2.5, Nebraska -4.5, Arizona -7.5, New Mexico -10.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Loss"
@@ -5244,6 +5421,9 @@
    "ticket_prob": "0.0646",
    "ticket_break_even": "0.0753",
    "text": "Parlay: South Florida +2.5, Nebraska -4.5, Arizona -7.5, New Mexico -10.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Loss",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -5281,6 +5461,9 @@
    "ticket_prob": "0.0646",
    "ticket_break_even": "0.0753",
    "text": "Parlay: South Florida +2.5, Nebraska -4.5, Arizona -7.5, New Mexico -10.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Loss",
    "model_result": "Win"
@@ -5318,6 +5501,9 @@
    "ticket_prob": "0.2415",
    "ticket_break_even": "0.2744",
    "text": "Parlay: Tampa Bay Buccaneers +6.5, Tampa Bay Buccaneers at Chicago Bears Over 47.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Win"
@@ -5355,18 +5541,61 @@
    "ticket_prob": "0.2415",
    "ticket_break_even": "0.2744",
    "text": "Parlay: Tampa Bay Buccaneers +6.5, Tampa Bay Buccaneers at Chicago Bears Over 47.5",
+   "reference_origin": "",
+   "ledger_record_id": "",
+   "model_status": "",
    "leg_result": "Win",
    "ticket_result": "Win",
    "model_result": "Loss"
+  },
+  {
+   "logged_at": "2026-11-10 19:59Z",
+   "locked_at": "2026-11-10 19:59Z",
+   "ticket_id": "splash-f24fca0dd83dad01dee65cce",
+   "ticket_type": "single",
+   "ticket_legs": "1",
+   "market": "spread",
+   "team": "Buffalo Bills",
+   "side": "away",
+   "game": "Buffalo Bills @ Minnesota Vikings",
+   "record_id": "recJKj5lfFFyrx6fY",
+   "date": "2026-11-09",
+   "league": "NFL",
+   "imported_line": "-3.0",
+   "locked_line": "-3.0",
+   "base_line": "",
+   "teased_line": "",
+   "price": "",
+   "movement_for_you": "0.0",
+   "lead_days": "-1",
+   "model_side_import": "away",
+   "model_tier_import": "Lean",
+   "model_side_lock": "away",
+   "model_tier_lock": "Lean",
+   "model_prob_lock": "0.6236",
+   "model_edge_lock": "-3.9",
+   "model_proj_lock": "-3.2",
+   "side_changed": "no",
+   "matched": "yes",
+   "status": "final",
+   "ticket_prob": "",
+   "ticket_break_even": "",
+   "text": "Buffalo Bills -3",
+   "reference_origin": "airtable",
+   "ledger_record_id": "recJKj5lfFFyrx6fY",
+   "model_status": "",
+   "leg_result": "Win",
+   "ticket_result": "Win",
+   "model_result": "Win"
   }
  ],
  "splash_by_market": [
   {
    "market": "spread",
-   "n": 50,
-   "you_w": 31,
+   "n": 51,
+   "you_w": 32,
    "you_l": 19,
-   "model_w": 26,
+   "model_w": 27,
    "model_l": 24,
    "against": 23
   },
@@ -5414,210 +5643,23 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-09T23:11:01+00:00",
-   "date": "2026-11-09",
-   "games": [
-    {
-     "game_id": "recJKj5lfFFyrx6fY",
-     "game": "Buffalo Bills @ Minnesota Vikings",
-     "league": "NFL",
-     "date": "2026-11-09",
-     "frozen": false,
-     "line": -3.5,
-     "total_line": 45.5,
-     "model_margin": -3.2,
-     "blend_margin": -4.52,
-     "proj_total": 43.2947,
-     "factors": [
-      "injuries: home -4.57, away -0.84",
-      "QB: HOME QB OUT Kyler Murray -> Carson Wentz [verified 2026-11-08] | AWAY QB PLAYING Josh Allen [verified 2026-11-08]",
-      "weather: indoor | sev=0.00"
-     ],
-     "total_factor_why": [
-      "home QB out -1.5",
-      "injuries -0.8"
-     ],
-     "picks": [
-      {
-       "market": "spread",
-       "side": "away",
-       "team": "Buffalo Bills",
-       "line": -3.0,
-       "price": -105.0,
-       "proj": -3.2,
-       "prob": 0.6237,
-       "edge": -3.9,
-       "edge_unit": "pts",
-       "tier": "Lean",
-       "units": 0.5,
-       "selection": "Buffalo Bills -3 (spread)",
-       "game_id": "recJKj5lfFFyrx6fY",
-       "game": "Buffalo Bills @ Minnesota Vikings",
-       "priority": "primary",
-       "pro_favorite": true
-      },
-      {
-       "market": "total",
-       "side": "under",
-       "line": 45.5,
-       "price": -110.0,
-       "proj": 43.29,
-       "prob": 0.5873,
-       "edge": 2.21,
-       "edge_unit": "pts",
-       "tier": "Lean",
-       "units": 0.5,
-       "selection": "Under 45.5",
-       "game_id": "recJKj5lfFFyrx6fY",
-       "game": "Buffalo Bills @ Minnesota Vikings",
-       "priority": "primary",
-       "pro_favorite": false
-      },
-      {
-       "market": "moneyline",
-       "side": "home",
-       "team": "Minnesota Vikings",
-       "line": 0.0,
-       "price": 164.0,
-       "price_estimated": false,
-       "proj": -4.52,
-       "prob": 0.3574,
-       "edge": -0.0214,
-       "edge_unit": "prob",
-       "price_source": "DraftKings",
-       "quote_captured_at": null,
-       "quote_snapshot_id": null,
-       "tier": "No Play",
-       "units": 0.0,
-       "selection": "Minnesota Vikings ML +164",
-       "game_id": "recJKj5lfFFyrx6fY",
-       "game": "Buffalo Bills @ Minnesota Vikings",
-       "priority": "primary",
-       "pro_favorite": false
-      }
-     ],
-     "teaser_legs": [
-      {
-       "market": "teaser_leg",
-       "kind": "spread",
-       "side": "away",
-       "team": "Buffalo Bills",
-       "base_line": -3.5,
-       "line": 2.5,
-       "price": 0.0,
-       "prob": 0.7321,
-       "push": 0,
-       "crosses": [
-        3
-       ],
-       "selection": "Buffalo Bills -3.5 -> +2.5 (crosses 3)",
-       "game_id": "recJKj5lfFFyrx6fY",
-       "game": "Buffalo Bills @ Minnesota Vikings",
-       "priority": "secondary",
-       "tier": "No Play",
-       "units": 0.0
-      },
-      {
-       "market": "teaser_leg",
-       "kind": "total",
-       "side": "under",
-       "base_line": 45.5,
-       "line": 51.5,
-       "price": 0.0,
-       "prob": 0.8381,
-       "push": 0.0,
-       "crosses": [],
-       "selection": "Under 45.5 -> 51.5",
-       "game_id": "recJKj5lfFFyrx6fY",
-       "game": "Buffalo Bills @ Minnesota Vikings",
-       "priority": "secondary",
-       "tier": "No Play",
-       "units": 0.0
-      }
-     ],
-     "alt_spreads": [
-      {
-       "team": "Minnesota Vikings",
-       "line": 0.5,
-       "prob": 0.3774
-      },
-      {
-       "team": "Buffalo Bills",
-       "line": -6.5,
-       "prob": 0.4154
-      },
-      {
-       "team": "Minnesota Vikings",
-       "line": 6.5,
-       "prob": 0.5846
-      },
-      {
-       "team": "Buffalo Bills",
-       "line": -0.5,
-       "prob": 0.6226
-      }
-     ]
-    }
-   ],
-   "combos": {
-    "NFL": {
-     "parlay": [
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recJKj5lfFFyrx6fY",
-         "market_kind": "spread",
-         "side": "away",
-         "prob": 0.6237,
-         "price": -105.0,
-         "pro_favorite": true,
-         "selection": "Buffalo Bills -3 (spread)",
-         "game": "Buffalo Bills @ Minnesota Vikings",
-         "line": -3.0,
-         "grade_market": "spread"
-        },
-        {
-         "game_id": "recJKj5lfFFyrx6fY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.5873,
-         "price": -110.0,
-         "pro_favorite": false,
-         "selection": "Under 45.5",
-         "game": "Buffalo Bills @ Minnesota Vikings",
-         "line": 45.5,
-         "grade_market": "total"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.352,
-       "price": 273,
-       "break_even_prob": 0.2683,
-       "break_even_price": 273,
-       "edge": 0.0837,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": true
-      }
-     ],
-     "teaser": []
-    }
-   }
+   "generated_at": "2026-11-10T20:38:16+00:00",
+   "date": "2026-11-10",
+   "games": [],
+   "combos": {}
   },
   "scorecards": {
    "ALL": {
     "spread": {
-     "n": 81,
-     "wins": 38,
+     "n": 82,
+     "wins": 39,
      "losses": 43,
      "pushes": 0,
-     "win_rate": 0.469,
-     "units": -1.38,
+     "win_rate": 0.476,
+     "units": -0.91,
      "avg_clv": 0.12,
      "n_clv": 72,
-     "brier": 0.2563,
+     "brier": 0.2549,
      "calibration": [
       {
        "bucket": "50%-55%",
@@ -5633,9 +5675,9 @@
       },
       {
        "bucket": "60%-70%",
-       "n": 3,
-       "predicted": 0.64,
-       "actual": 0.667
+       "n": 4,
+       "predicted": 0.636,
+       "actual": 0.75
       },
       {
        "bucket": "70%-100%",
@@ -5652,9 +5694,9 @@
        "enough": false
       },
       "Lean": {
-       "n": 12,
-       "win_rate": 0.25,
-       "units": -3.13,
+       "n": 13,
+       "win_rate": 0.308,
+       "units": -2.65,
        "enough": false
       },
       "No Play": {
@@ -5666,59 +5708,59 @@
      },
      "factors": {
       "weather": {
-       "n_with": 81,
-       "win_rate_with": 0.469,
+       "n_with": 82,
+       "win_rate_with": 0.476,
        "win_rate_without": null,
        "enough": true
       },
       "qb": {
-       "n_with": 20,
-       "win_rate_with": 0.35,
+       "n_with": 21,
+       "win_rate_with": 0.381,
        "win_rate_without": 0.508,
        "enough": false
       },
       "injuries": {
-       "n_with": 75,
-       "win_rate_with": 0.48,
+       "n_with": 76,
+       "win_rate_with": 0.487,
        "win_rate_without": 0.333,
        "enough": true
       },
       "rest": {
        "n_with": 21,
        "win_rate_with": 0.286,
-       "win_rate_without": 0.533,
+       "win_rate_without": 0.541,
        "enough": false
       },
       "travel": {
        "n_with": 23,
        "win_rate_with": 0.348,
-       "win_rate_without": 0.517,
+       "win_rate_without": 0.525,
        "enough": false
       },
       "revenge": {
        "n_with": 37,
        "win_rate_with": 0.432,
-       "win_rate_without": 0.5,
+       "win_rate_without": 0.511,
        "enough": true
       },
       "look-ahead": {
        "n_with": 29,
        "win_rate_with": 0.621,
-       "win_rate_without": 0.385,
+       "win_rate_without": 0.396,
        "enough": false
       }
      }
     },
     "total": {
-     "n": 81,
-     "wins": 38,
+     "n": 82,
+     "wins": 39,
      "losses": 43,
      "pushes": 0,
-     "win_rate": 0.469,
-     "units": 1.7,
+     "win_rate": 0.476,
+     "units": 2.16,
      "avg_clv": -0.01,
      "n_clv": 69,
-     "brier": 0.2542,
+     "brier": 0.2531,
      "calibration": [
       {
        "bucket": "50%-55%",
@@ -5728,9 +5770,9 @@
       },
       {
        "bucket": "55%-60%",
-       "n": 24,
+       "n": 25,
        "predicted": 0.566,
-       "actual": 0.458
+       "actual": 0.48
       },
       {
        "bucket": "60%-70%",
@@ -5741,9 +5783,9 @@
      ],
      "tiers": {
       "Lean": {
-       "n": 8,
-       "win_rate": 0.75,
-       "units": 1.7,
+       "n": 9,
+       "win_rate": 0.778,
+       "units": 2.16,
        "enough": false
       },
       "No Play": {
@@ -5755,65 +5797,65 @@
      },
      "factors": {
       "weather": {
-       "n_with": 81,
-       "win_rate_with": 0.469,
+       "n_with": 82,
+       "win_rate_with": 0.476,
        "win_rate_without": null,
        "enough": true
       },
       "qb": {
-       "n_with": 20,
-       "win_rate_with": 0.75,
+       "n_with": 21,
+       "win_rate_with": 0.762,
        "win_rate_without": 0.377,
        "enough": false
       },
       "injuries": {
-       "n_with": 75,
-       "win_rate_with": 0.44,
+       "n_with": 76,
+       "win_rate_with": 0.447,
        "win_rate_without": 0.833,
        "enough": true
       },
       "rest": {
        "n_with": 21,
        "win_rate_with": 0.286,
-       "win_rate_without": 0.533,
+       "win_rate_without": 0.541,
        "enough": false
       },
       "travel": {
        "n_with": 23,
        "win_rate_with": 0.609,
-       "win_rate_without": 0.414,
+       "win_rate_without": 0.424,
        "enough": false
       },
       "revenge": {
        "n_with": 37,
        "win_rate_with": 0.351,
-       "win_rate_without": 0.568,
+       "win_rate_without": 0.578,
        "enough": true
       },
       "look-ahead": {
        "n_with": 29,
        "win_rate_with": 0.414,
-       "win_rate_without": 0.5,
+       "win_rate_without": 0.509,
        "enough": false
       }
      }
     },
     "moneyline": {
-     "n": 81,
+     "n": 82,
      "wins": 30,
-     "losses": 51,
+     "losses": 52,
      "pushes": 0,
-     "win_rate": 0.37,
+     "win_rate": 0.366,
      "units": -1.0,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.1924,
+     "brier": 0.1916,
      "calibration": [
       {
        "bucket": "0%-45%",
-       "n": 63,
-       "predicted": 0.306,
-       "actual": 0.27
+       "n": 64,
+       "predicted": 0.307,
+       "actual": 0.266
       },
       {
        "bucket": "45%-50%",
@@ -5854,67 +5896,67 @@
        "enough": false
       },
       "No Play": {
-       "n": 79,
-       "win_rate": 0.38,
+       "n": 80,
+       "win_rate": 0.375,
        "units": 0,
        "enough": true
       }
      },
      "factors": {
       "weather": {
-       "n_with": 81,
-       "win_rate_with": 0.37,
+       "n_with": 82,
+       "win_rate_with": 0.366,
        "win_rate_without": null,
        "enough": true
       },
       "qb": {
-       "n_with": 20,
-       "win_rate_with": 0.3,
+       "n_with": 21,
+       "win_rate_with": 0.286,
        "win_rate_without": 0.393,
        "enough": false
       },
       "injuries": {
-       "n_with": 75,
-       "win_rate_with": 0.347,
+       "n_with": 76,
+       "win_rate_with": 0.342,
        "win_rate_without": 0.667,
        "enough": true
       },
       "rest": {
        "n_with": 21,
        "win_rate_with": 0.333,
-       "win_rate_without": 0.383,
+       "win_rate_without": 0.377,
        "enough": false
       },
       "travel": {
        "n_with": 23,
        "win_rate_with": 0.522,
-       "win_rate_without": 0.31,
+       "win_rate_without": 0.305,
        "enough": false
       },
       "revenge": {
        "n_with": 37,
        "win_rate_with": 0.351,
-       "win_rate_without": 0.386,
+       "win_rate_without": 0.378,
        "enough": true
       },
       "look-ahead": {
        "n_with": 29,
        "win_rate_with": 0.379,
-       "win_rate_without": 0.365,
+       "win_rate_without": 0.358,
        "enough": false
       }
      }
     },
     "teaser_leg": {
-     "n": 162,
-     "wins": 103,
+     "n": 164,
+     "wins": 105,
      "losses": 59,
      "pushes": 0,
-     "win_rate": 0.636,
+     "win_rate": 0.64,
      "units": null,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.2328,
+     "brier": 0.2305,
      "calibration": [
       {
        "bucket": "60%-70%",
@@ -5924,60 +5966,60 @@
       },
       {
        "bucket": "70%-100%",
-       "n": 71,
-       "predicted": 0.73,
-       "actual": 0.69
+       "n": 73,
+       "predicted": 0.732,
+       "actual": 0.699
       }
      ],
      "tiers": {
       "No Play": {
-       "n": 162,
-       "win_rate": 0.636,
+       "n": 164,
+       "win_rate": 0.64,
        "units": 0,
        "enough": true
       }
      },
      "factors": {
       "weather": {
-       "n_with": 162,
-       "win_rate_with": 0.636,
+       "n_with": 164,
+       "win_rate_with": 0.64,
        "win_rate_without": null,
        "enough": true
       },
       "qb": {
-       "n_with": 40,
-       "win_rate_with": 0.75,
+       "n_with": 42,
+       "win_rate_with": 0.762,
        "win_rate_without": 0.598,
        "enough": true
       },
       "injuries": {
-       "n_with": 150,
-       "win_rate_with": 0.64,
+       "n_with": 152,
+       "win_rate_with": 0.645,
        "win_rate_without": 0.583,
        "enough": true
       },
       "rest": {
        "n_with": 42,
        "win_rate_with": 0.5,
-       "win_rate_without": 0.683,
+       "win_rate_without": 0.689,
        "enough": true
       },
       "travel": {
        "n_with": 46,
        "win_rate_with": 0.761,
-       "win_rate_without": 0.586,
+       "win_rate_without": 0.593,
        "enough": true
       },
       "revenge": {
        "n_with": 74,
        "win_rate_with": 0.541,
-       "win_rate_without": 0.716,
+       "win_rate_without": 0.722,
        "enough": true
       },
       "look-ahead": {
        "n_with": 58,
        "win_rate_with": 0.569,
-       "win_rate_without": 0.673,
+       "win_rate_without": 0.679,
        "enough": true
       }
      }
@@ -6029,15 +6071,15 @@
      "factors": {}
     },
     "parlay_leg": {
-     "n": 40,
-     "wins": 19,
+     "n": 42,
+     "wins": 21,
      "losses": 21,
      "pushes": 0,
-     "win_rate": 0.475,
+     "win_rate": 0.5,
      "units": null,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.2974,
+     "brier": 0.2906,
      "calibration": [
       {
        "bucket": "50%-55%",
@@ -6047,15 +6089,15 @@
       },
       {
        "bucket": "55%-60%",
-       "n": 16,
-       "predicted": 0.573,
-       "actual": 0.688
+       "n": 17,
+       "predicted": 0.574,
+       "actual": 0.706
       },
       {
        "bucket": "60%-70%",
-       "n": 8,
+       "n": 9,
        "predicted": 0.624,
-       "actual": 0.875
+       "actual": 0.889
       },
       {
        "bucket": "70%-100%",
@@ -6068,21 +6110,21 @@
      "factors": {}
     },
     "parlay": {
-     "n": 18,
-     "wins": 2,
+     "n": 19,
+     "wins": 3,
      "losses": 16,
      "pushes": 0,
-     "win_rate": 0.111,
-     "units": -2.92,
+     "win_rate": 0.158,
+     "units": -1.56,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.1653,
+     "brier": 0.1787,
      "calibration": [
       {
        "bucket": "0%-45%",
-       "n": 14,
-       "predicted": 0.306,
-       "actual": 0.143
+       "n": 15,
+       "predicted": 0.309,
+       "actual": 0.2
       },
       {
        "bucket": "45%-50%",
@@ -6099,9 +6141,9 @@
      ],
      "tiers": {
       "Max Play": {
-       "n": 8,
-       "win_rate": 0.125,
-       "units": -2.23,
+       "n": 9,
+       "win_rate": 0.222,
+       "units": -0.86,
        "enough": false
       },
       "Strong Play": {
@@ -6593,15 +6635,15 @@
    },
    "NFL": {
     "spread": {
-     "n": 19,
-     "wins": 7,
+     "n": 20,
+     "wins": 8,
      "losses": 12,
      "pushes": 0,
-     "win_rate": 0.368,
-     "units": -0.88,
+     "win_rate": 0.4,
+     "units": -0.41,
      "avg_clv": 0.41,
      "n_clv": 16,
-     "brier": 0.2757,
+     "brier": 0.269,
      "calibration": [
       {
        "bucket": "50%-55%",
@@ -6617,9 +6659,9 @@
       },
       {
        "bucket": "60%-70%",
-       "n": 3,
-       "predicted": 0.64,
-       "actual": 0.667
+       "n": 4,
+       "predicted": 0.636,
+       "actual": 0.75
       },
       {
        "bucket": "70%-100%",
@@ -6636,9 +6678,9 @@
        "enough": false
       },
       "Lean": {
-       "n": 11,
-       "win_rate": 0.273,
-       "units": -2.63,
+       "n": 12,
+       "win_rate": 0.333,
+       "units": -2.15,
        "enough": false
       },
       "No Play": {
@@ -6650,59 +6692,59 @@
      },
      "factors": {
       "weather": {
-       "n_with": 19,
-       "win_rate_with": 0.368,
+       "n_with": 20,
+       "win_rate_with": 0.4,
        "win_rate_without": null,
        "enough": false
       },
       "qb": {
-       "n_with": 19,
-       "win_rate_with": 0.368,
+       "n_with": 20,
+       "win_rate_with": 0.4,
        "win_rate_without": null,
        "enough": false
       },
       "injuries": {
-       "n_with": 16,
-       "win_rate_with": 0.375,
+       "n_with": 17,
+       "win_rate_with": 0.412,
        "win_rate_without": 0.333,
        "enough": false
       },
       "rest": {
        "n_with": 5,
        "win_rate_with": 0.2,
-       "win_rate_without": 0.429,
+       "win_rate_without": 0.467,
        "enough": false
       },
       "travel": {
        "n_with": 6,
        "win_rate_with": 0.167,
-       "win_rate_without": 0.462,
+       "win_rate_without": 0.5,
        "enough": false
       },
       "revenge": {
        "n_with": 4,
        "win_rate_with": 0.0,
-       "win_rate_without": 0.467,
+       "win_rate_without": 0.5,
        "enough": false
       },
       "look-ahead": {
        "n_with": 3,
        "win_rate_with": 0.333,
-       "win_rate_without": 0.375,
+       "win_rate_without": 0.412,
        "enough": false
       }
      }
     },
     "total": {
-     "n": 19,
-     "wins": 14,
+     "n": 20,
+     "wins": 15,
      "losses": 5,
      "pushes": 0,
-     "win_rate": 0.737,
-     "units": 1.37,
+     "win_rate": 0.75,
+     "units": 1.82,
      "avg_clv": 0.0,
      "n_clv": 13,
-     "brier": 0.2374,
+     "brier": 0.2341,
      "calibration": [
       {
        "bucket": "50%-55%",
@@ -6712,16 +6754,16 @@
       },
       {
        "bucket": "55%-60%",
-       "n": 6,
-       "predicted": 0.562,
-       "actual": 0.833
+       "n": 7,
+       "predicted": 0.566,
+       "actual": 0.857
       }
      ],
      "tiers": {
       "Lean": {
-       "n": 3,
+       "n": 4,
        "win_rate": 1.0,
-       "units": 1.37,
+       "units": 1.82,
        "enough": false
       },
       "No Play": {
@@ -6733,65 +6775,65 @@
      },
      "factors": {
       "weather": {
-       "n_with": 19,
-       "win_rate_with": 0.737,
+       "n_with": 20,
+       "win_rate_with": 0.75,
        "win_rate_without": null,
        "enough": false
       },
       "qb": {
-       "n_with": 19,
-       "win_rate_with": 0.737,
+       "n_with": 20,
+       "win_rate_with": 0.75,
        "win_rate_without": null,
        "enough": false
       },
       "injuries": {
-       "n_with": 16,
-       "win_rate_with": 0.688,
+       "n_with": 17,
+       "win_rate_with": 0.706,
        "win_rate_without": 1.0,
        "enough": false
       },
       "rest": {
        "n_with": 5,
        "win_rate_with": 0.6,
-       "win_rate_without": 0.786,
+       "win_rate_without": 0.8,
        "enough": false
       },
       "travel": {
        "n_with": 6,
        "win_rate_with": 0.833,
-       "win_rate_without": 0.692,
+       "win_rate_without": 0.714,
        "enough": false
       },
       "revenge": {
        "n_with": 4,
        "win_rate_with": 0.75,
-       "win_rate_without": 0.733,
+       "win_rate_without": 0.75,
        "enough": false
       },
       "look-ahead": {
        "n_with": 3,
        "win_rate_with": 1.0,
-       "win_rate_without": 0.688,
+       "win_rate_without": 0.706,
        "enough": false
       }
      }
     },
     "moneyline": {
-     "n": 19,
+     "n": 20,
      "wins": 5,
-     "losses": 14,
+     "losses": 15,
      "pushes": 0,
-     "win_rate": 0.263,
+     "win_rate": 0.25,
      "units": -1.0,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.1559,
+     "brier": 0.1545,
      "calibration": [
       {
        "bucket": "0%-45%",
-       "n": 15,
-       "predicted": 0.315,
-       "actual": 0.133
+       "n": 16,
+       "predicted": 0.318,
+       "actual": 0.125
       },
       {
        "bucket": "55%-60%",
@@ -6814,67 +6856,67 @@
        "enough": false
       },
       "No Play": {
-       "n": 17,
-       "win_rate": 0.294,
+       "n": 18,
+       "win_rate": 0.278,
        "units": 0,
        "enough": false
       }
      },
      "factors": {
       "weather": {
-       "n_with": 19,
-       "win_rate_with": 0.263,
+       "n_with": 20,
+       "win_rate_with": 0.25,
        "win_rate_without": null,
        "enough": false
       },
       "qb": {
-       "n_with": 19,
-       "win_rate_with": 0.263,
+       "n_with": 20,
+       "win_rate_with": 0.25,
        "win_rate_without": null,
        "enough": false
       },
       "injuries": {
-       "n_with": 16,
-       "win_rate_with": 0.25,
+       "n_with": 17,
+       "win_rate_with": 0.235,
        "win_rate_without": 0.333,
        "enough": false
       },
       "rest": {
        "n_with": 5,
        "win_rate_with": 0.2,
-       "win_rate_without": 0.286,
+       "win_rate_without": 0.267,
        "enough": false
       },
       "travel": {
        "n_with": 6,
        "win_rate_with": 0.333,
-       "win_rate_without": 0.231,
+       "win_rate_without": 0.214,
        "enough": false
       },
       "revenge": {
        "n_with": 4,
        "win_rate_with": 0.0,
-       "win_rate_without": 0.333,
+       "win_rate_without": 0.312,
        "enough": false
       },
       "look-ahead": {
        "n_with": 3,
        "win_rate_with": 0.0,
-       "win_rate_without": 0.312,
+       "win_rate_without": 0.294,
        "enough": false
       }
      }
     },
     "teaser_leg": {
-     "n": 38,
-     "wins": 29,
+     "n": 40,
+     "wins": 31,
      "losses": 9,
      "pushes": 0,
-     "win_rate": 0.763,
+     "win_rate": 0.775,
      "units": null,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.1742,
+     "brier": 0.168,
      "calibration": [
       {
        "bucket": "60%-70%",
@@ -6884,60 +6926,60 @@
       },
       {
        "bucket": "70%-100%",
-       "n": 34,
-       "predicted": 0.738,
-       "actual": 0.824
+       "n": 36,
+       "predicted": 0.74,
+       "actual": 0.833
       }
      ],
      "tiers": {
       "No Play": {
-       "n": 38,
-       "win_rate": 0.763,
+       "n": 40,
+       "win_rate": 0.775,
        "units": 0,
        "enough": true
       }
      },
      "factors": {
       "weather": {
-       "n_with": 38,
-       "win_rate_with": 0.763,
+       "n_with": 40,
+       "win_rate_with": 0.775,
        "win_rate_without": null,
        "enough": true
       },
       "qb": {
-       "n_with": 38,
-       "win_rate_with": 0.763,
+       "n_with": 40,
+       "win_rate_with": 0.775,
        "win_rate_without": null,
        "enough": true
       },
       "injuries": {
-       "n_with": 32,
-       "win_rate_with": 0.781,
+       "n_with": 34,
+       "win_rate_with": 0.794,
        "win_rate_without": 0.667,
        "enough": true
       },
       "rest": {
        "n_with": 10,
        "win_rate_with": 0.6,
-       "win_rate_without": 0.821,
+       "win_rate_without": 0.833,
        "enough": false
       },
       "travel": {
        "n_with": 12,
        "win_rate_with": 0.917,
-       "win_rate_without": 0.692,
+       "win_rate_without": 0.714,
        "enough": false
       },
       "revenge": {
        "n_with": 8,
        "win_rate_with": 0.625,
-       "win_rate_without": 0.8,
+       "win_rate_without": 0.812,
        "enough": false
       },
       "look-ahead": {
        "n_with": 6,
        "win_rate_with": 0.833,
-       "win_rate_without": 0.75,
+       "win_rate_without": 0.765,
        "enough": false
       }
      }
@@ -6989,15 +7031,15 @@
      "factors": {}
     },
     "parlay_leg": {
-     "n": 26,
-     "wins": 9,
+     "n": 28,
+     "wins": 11,
      "losses": 17,
      "pushes": 0,
-     "win_rate": 0.346,
+     "win_rate": 0.393,
      "units": null,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.3533,
+     "brier": 0.3392,
      "calibration": [
       {
        "bucket": "50%-55%",
@@ -7007,15 +7049,15 @@
       },
       {
        "bucket": "55%-60%",
-       "n": 10,
-       "predicted": 0.564,
-       "actual": 0.6
+       "n": 11,
+       "predicted": 0.566,
+       "actual": 0.636
       },
       {
        "bucket": "60%-70%",
-       "n": 3,
-       "predicted": 0.64,
-       "actual": 0.667
+       "n": 4,
+       "predicted": 0.636,
+       "actual": 0.75
       },
       {
        "bucket": "70%-100%",
@@ -7028,21 +7070,21 @@
      "factors": {}
     },
     "parlay": {
-     "n": 12,
-     "wins": 0,
+     "n": 13,
+     "wins": 1,
      "losses": 12,
      "pushes": 0,
-     "win_rate": 0.0,
-     "units": -4.5,
+     "win_rate": 0.077,
+     "units": -3.13,
      "avg_clv": null,
      "n_clv": 0,
-     "brier": 0.1584,
+     "brier": 0.1785,
      "calibration": [
       {
        "bucket": "0%-45%",
-       "n": 8,
-       "predicted": 0.32,
-       "actual": 0.0
+       "n": 9,
+       "predicted": 0.323,
+       "actual": 0.111
       },
       {
        "bucket": "45%-50%",
@@ -7059,9 +7101,9 @@
      ],
      "tiers": {
       "Max Play": {
-       "n": 7,
-       "win_rate": 0.0,
-       "units": -3.5,
+       "n": 8,
+       "win_rate": 0.125,
+       "units": -2.13,
        "enough": false
       },
       "Lean": {
@@ -7312,16 +7354,38 @@
     "evidence": "Brier 0.1742 -> gain 0.002 at shrink 1.2",
     "sample_size": "38",
     "source": "market_learning.py"
+   },
+   {
+    "date": "2026-11-10",
+    "league": "NFL",
+    "market": "spread",
+    "setting": "Sigma",
+    "old": "12.37",
+    "new": "12.38",
+    "evidence": "29 graded spread picks; learned residual SD, shrunk to prior, step-limited",
+    "sample_size": "689",
+    "source": "calibrate.py"
+   },
+   {
+    "date": "2026-11-10",
+    "league": "NCAAF",
+    "market": "total",
+    "setting": "probability shrink",
+    "old": "0.7",
+    "new": "0.55",
+    "evidence": "Brier 0.2561 -> gain 0.0037 at shrink 0.3",
+    "sample_size": "62",
+    "source": "market_learning.py"
    }
   ],
   "notes": [
    "NCAAF moneyline: n=62, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)",
-   "NCAAF total: n=62, shrink 0.85 -> 0.7 (applied; best 0.3, Brier gain 0.0053)",
-   "NCAAF teaser_leg: n=124, shrink 0.85 -> 0.7 (applied; best 0.5, Brier gain 0.0047)",
-   "NFL moneyline: 19 graded, need 30 before tuning",
-   "NFL total: 19 graded, need 30 before tuning",
-   "NFL teaser_leg: n=38, shrink 1.0 -> 1.15 (applied; best 1.2, Brier gain 0.002)"
+   "NCAAF total: n=62, shrink 0.7 -> 0.55 (applied; best 0.3, Brier gain 0.0037)",
+   "NCAAF teaser_leg: n=124, shrink 0.7 -> 0.7 (no meaningful gain; best 0.5, Brier gain 0.0016)",
+   "NFL moneyline: 20 graded, need 30 before tuning",
+   "NFL total: 20 graded, need 30 before tuning",
+   "NFL teaser_leg: n=40, shrink 1.15 -> 1.15 (no meaningful gain; best 1.25, Brier gain 0.0003)"
   ]
  },
- "narrative_sha256": "c4196e74921e3403f6acde3ef994bed39faa041a3414609497a631050eed6bd6"
+ "narrative_sha256": "21c9dfcc90c028f3dae586360332b3a3adeb0255752b493b8d2dba3da8a5e77f"
 }

@@ -1,15 +1,12 @@
-# Signal Desk intelligence report, 2026-11-09
+# Signal Desk intelligence report, 2026-11-10
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
-Overall graded picks: 70-75 (Brier 0.2613).
+Overall graded picks: 71-75 (Brier 0.2605).
 
 ## Upcoming best bets (Lean and above)
 
-| Game | Date | Tier | Pick | Units | Win prob | Adj edge |
-|---|---|---|---|---|---|---|
-| Buffalo Bills @ Minnesota Vikings | 2026-11-09 | Lean | Buffalo Bills -3 (spread) | 0.5 | 62.4% | -3.9 |
-- Buffalo Bills @ Minnesota Vikings: model margin -3.2 vs line -3.0 (base edge -0.2); injuries: home loses 4.57 pts, away loses 0.84 pts; QB: HOME QB OUT Kyler Murray -> Carson Wentz [verified 2026-11-08] | AWAY QB PLAYING Josh Allen [verified 2026-11-08]; weather: indoor | sev=0.00
+No Lean-or-better picks right now.
 
 Tracking picks (paper, 0u): 0. Examples: 
 
@@ -17,6 +14,7 @@ Tracking picks (paper, 0u): 0. Examples:
 
 | Game | Tier | Pick | Result | Final home margin | Model | Line | CLV |
 |---|---|---|---|---|---|---|---|
+| Buffalo Bills @ Minnesota Vikings | Lean | Buffalo Bills -3 (spread) | Win | -17 | -3.2 | -3 | 0.5 |
 | Detroit Lions @ Miami Dolphins | Lean | Miami Dolphins +7 (spread) | Loss | -10 | -7.4 | -7 | 0.5 |
 | New York Jets @ Kansas City Chiefs | No Play | Kansas City Chiefs -9.5 (spread) | Win | 23 | 9.4 | 9.5 | 0 |
 | Arizona Cardinals @ Seattle Seahawks | Lean | Arizona Cardinals +10.5 (spread) | Loss | 14 | 5.5 | 10.5 | 2 |
@@ -46,9 +44,9 @@ Tracking picks (paper, 0u): 0. Examples:
 | Wyoming @ UNLV | No Play | UNLV -7.5 (spread) | Loss | -6 | 11.9 | 7.5 | -4 |
 | Louisiana-Monroe @ Arkansas State | No Play | Arkansas State -14.5 (spread) | Loss | -2 | 19.2 | 14.5 | 0 |
 | Missouri State @ Florida International | No Play | Florida International -3.5 (spread) | Loss | 3 | 4.3 | 3.5 | 1 |
-| UCLA @ Minnesota | No Play | Minnesota +6.5 (spread) | Loss | -14 | -6.9 | -6.5 | 3 |
 
 ### Why each result happened
+- Buffalo Bills @ Minnesota Vikings (Win): final home margin -17: model missed by 13.8, line missed by 14.0 (the model was closer); adjusted margin -6.9 (closer than base model); factors that pointed the right way: injuries -3.7; pick covered by +14.0 points
 - Detroit Lions @ Miami Dolphins (Loss): final home margin -10: model missed by 2.6, line missed by 3.0 (the model was closer); adjusted margin -5.5 (farther than base model); factors that pointed the wrong way: injuries +1.1, lookahead +0.5, travel +0.3; pick covered by -3.0 points
 - New York Jets @ Kansas City Chiefs (Win): final home margin +23: model missed by 13.6, line missed by 13.5 (the line was closer); adjusted margin +9.6 (closer than base model); factors that pointed the right way: injuries +0.2; pick covered by +13.5 points
 - Arizona Cardinals @ Seattle Seahawks (Loss): final home margin +14: model missed by 8.5, line missed by 3.5 (the line was closer); adjusted margin +0.2 (farther than base model); factors that pointed the right way: travel +0.3; factors that pointed the wrong way: injuries -5.1, revenge -0.3, weather -0.1; pick covered by -3.5 points
@@ -78,7 +76,6 @@ Tracking picks (paper, 0u): 0. Examples:
 - Wyoming @ UNLV (Loss): final home margin -6: model missed by 17.9, line missed by 13.5 (the line was closer); adjusted margin +10.2 (closer than base model); factors that pointed the right way: lookahead -1.0, rest -0.6, revenge -0.3; factors that pointed the wrong way: injuries +0.2; pick covered by -13.5 points
 - Louisiana-Monroe @ Arkansas State (Loss): final home margin -2: model missed by 21.2, line missed by 16.5 (the line was closer); adjusted margin +19.1 (closer than base model); factors that pointed the right way: lookahead -1.0; factors that pointed the wrong way: rest +0.6, revenge +0.3; pick covered by -16.5 points
 - Missouri State @ Florida International (Loss): final home margin +3: model missed by 1.3, line missed by 0.5 (the line was closer); adjusted margin +4.6 (farther than base model); factors that pointed the wrong way: revenge +0.3; pick covered by -0.5 points
-- UCLA @ Minnesota (Loss): final home margin -14: model missed by 7.1, line missed by 7.5 (the model was closer); adjusted margin -6.0 (farther than base model); factors that pointed the wrong way: injuries +0.4, travel +0.5; pick covered by -7.5 points
 
 ## How accurate the system has been
 
@@ -90,18 +87,18 @@ Tracking picks (paper, 0u): 0. Examples:
 | NCAAF | No Play | 31 | 30 | 0.508 | 0.2503 | -0.08 | 61 |
 | NFL | Max Play | 1 | 0 | 1.0 | 0.1265 | -0.5 | 1 |
 | NFL | Strong Play | 2 | 1 | 0.667 | 0.2075 | -0.17 | 3 |
-| NFL | Lean | 7 | 9 | 0.438 | 0.2873 | 0.47 | 16 |
+| NFL | Lean | 8 | 9 | 0.471 | 0.2787 | 0.47 | 17 |
 | NFL | No Play | 5 | 3 | 0.625 | 0.2467 | 0.12 | 8 |
 | ALL | Max Play | 5 | 7 | 0.417 | 0.2991 | -0.29 | 12 |
 | ALL | Strong Play | 5 | 9 | 0.357 | 0.2845 | 1.04 | 14 |
-| ALL | Lean | 24 | 26 | 0.48 | 0.2614 | 0.19 | 50 |
+| ALL | Lean | 25 | 26 | 0.49 | 0.259 | 0.2 | 51 |
 | ALL | No Play | 36 | 33 | 0.522 | 0.2499 | -0.06 | 69 |
 
 By size of base edge:
 
 | Edge | W | L | Hit |
 |---|---|---|---|
-| 0-1 | 16 | 14 | 0.533 |
+| 0-1 | 17 | 14 | 0.548 |
 | 1-2.5 | 29 | 26 | 0.527 |
 | 2.5-4 | 14 | 18 | 0.438 |
 | 4-6 | 7 | 7 | 0.5 |
@@ -109,18 +106,18 @@ By size of base edge:
 
 ## What the learner currently believes
 
-- NFL: sigma 12.37, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 28 (19 with factor records); last calibrated 2026-11-09T22:18:28.000Z
-- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 117 (62 with factor records); last calibrated 2026-11-09T22:18:28.000Z
+- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 29 (20 with factor records); last calibrated 2026-11-10T19:41:21.000Z
+- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 117 (62 with factor records); last calibrated 2026-11-10T19:41:21.000Z
 
 ## What changes automatically, and how close each change is
 
 | League | Setting | Now | Gate | Progress | Rule |
 |---|---|---|---|---|---|
-| NFL | Sigma (win-probability spread) | 12.37 | >= 30 graded | 28/30 | daily grid search; picks the sigma with the best Brier score |
-| NFL | Tier win-probability multipliers | none | >= 20 graded per tier | Lean 16/20, Strong Play 3/20, Max Play 1/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
-| NFL | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 16/20, Strong Play 3/20, Max Play 1/20 | stays capped; Strong and Max remain paper picks regardless |
-| NFL | Market blend k (does the model add to the line) |  | >= 30 graded with scores | 28/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
-| NFL | Factor scales (injury, look-ahead, rest, travel, revenge, weather) | {'scale_injury': None, 'scale_lookahead': None, 'scale_rest': None, 'scale_travel': None, 'scale_revenge': None, 'scale_weather': None} | >= 30 graded with a factor record; each factor needs 10 non-zero games | 19/30 | joint ridge regression toward 1.0; 0 switches the factor off |
+| NFL | Sigma (win-probability spread) | 12.38 | >= 30 graded | 29/30 | daily grid search; picks the sigma with the best Brier score |
+| NFL | Tier win-probability multipliers | none | >= 20 graded per tier | Lean 17/20, Strong Play 3/20, Max Play 1/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
+| NFL | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 17/20, Strong Play 3/20, Max Play 1/20 | stays capped; Strong and Max remain paper picks regardless |
+| NFL | Market blend k (does the model add to the line) |  | >= 30 graded with scores | 29/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
+| NFL | Factor scales (injury, look-ahead, rest, travel, revenge, weather) | {'scale_injury': None, 'scale_lookahead': None, 'scale_rest': None, 'scale_travel': None, 'scale_revenge': None, 'scale_weather': None} | >= 30 graded with a factor record; each factor needs 10 non-zero games | 20/30 | joint ridge regression toward 1.0; 0 switches the factor off |
 | NCAAF | Sigma (win-probability spread) | 15.01 | >= 30 graded | 117/30 | daily grid search; picks the sigma with the best Brier score |
 | NCAAF | Tier win-probability multipliers | {"Lean": 0.924} | >= 20 graded per tier | Lean 34/20, Strong Play 11/20, Max Play 11/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
 | NCAAF | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 34/20, Strong Play 11/20, Max Play 11/20 | stays capped; Strong and Max remain paper picks regardless |
@@ -129,40 +126,36 @@ By size of base edge:
 
 ## Data gaps right now
 
+- no upcoming games in the ledger
 
 ## Every bet type (paper)
 
 Lean-or-better totals and moneylines (spreads are in the table above). Every game also has a tracking pick in every market in `intelligence/markets/picks_latest.md`.
 
-| Game | Market | Pick | Prob | Tier | Units |
-|---|---|---|---|---|---|
-| Buffalo Bills @ Minnesota Vikings | total | Under 45.5 | 59% | Lean | 0.5 |
-- NFL parlay: Buffalo Bills -3 (spread) + Under 45.5 | model 35.2%, needs +273 to break even, edge +8.4%, Max Play
+No Lean-or-better totals or moneylines right now.
 
 ## Results and learning by market
 
 | Market | W-L-P | Win rate | Units | Avg CLV | Brier |
 |---|---|---|---|---|---|
-| spread | 38-43-0 | 0.469 | -1.38 | 0.12 | 0.2563 |
-| total | 38-43-0 | 0.469 | 1.7 | -0.01 | 0.2542 |
-| moneyline | 30-51-0 | 0.37 | -1.0 |  | 0.1924 |
-| teaser_leg | 103-59-0 | 0.636 |  |  | 0.2328 |
+| spread | 39-43-0 | 0.476 | -0.91 | 0.12 | 0.2549 |
+| total | 39-43-0 | 0.476 | 2.16 | -0.01 | 0.2531 |
+| moneyline | 30-52-0 | 0.366 | -1.0 |  | 0.1916 |
+| teaser_leg | 105-59-0 | 0.64 |  |  | 0.2305 |
 | teaser | 15-9-0 | 0.625 | 6.1 |  | 0.2701 |
-| parlay_leg | 19-21-0 | 0.475 |  |  | 0.2974 |
-| parlay | 2-16-0 | 0.111 | -2.92 |  | 0.1653 |
+| parlay_leg | 21-21-0 | 0.5 |  |  | 0.2906 |
+| parlay | 3-16-0 | 0.158 | -1.56 |  | 0.1787 |
 
 Tuning only starts at 30 graded picks per league and market; tier tables need 20 per tier.
 - NCAAF moneyline: n=62, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)
-- NCAAF total: n=62, shrink 0.85 -> 0.7 (applied; best 0.3, Brier gain 0.0053)
-- NCAAF teaser_leg: n=124, shrink 0.85 -> 0.7 (applied; best 0.5, Brier gain 0.0047)
-- NFL moneyline: 19 graded, need 30 before tuning
-- NFL total: 19 graded, need 30 before tuning
-- NFL teaser_leg: n=38, shrink 1.0 -> 1.15 (applied; best 1.2, Brier gain 0.002)
+- NCAAF total: n=62, shrink 0.7 -> 0.55 (applied; best 0.3, Brier gain 0.0037)
+- NCAAF teaser_leg: n=124, shrink 0.7 -> 0.7 (no meaningful gain; best 0.5, Brier gain 0.0016)
+- NFL moneyline: 20 graded, need 30 before tuning
+- NFL total: 20 graded, need 30 before tuning
+- NFL teaser_leg: n=40, shrink 1.15 -> 1.15 (no meaningful gain; best 1.25, Brier gain 0.0003)
 
 ## Automatic changes (change log)
 
-- 2026-11-08 NCAAF spread: Factor Scale Rest  -> 0.99 (117 graded spread picks; Brier-based fit; n=60)
-- 2026-11-08 NCAAF spread: Factor Scale Travel  -> 0.99 (117 graded spread picks; Brier-based fit; n=60)
 - 2026-11-08 NCAAF spread: Factor Scale Revenge  -> 0.988 (117 graded spread picks; Brier-based fit; n=60)
 - 2026-11-08 NCAAF spread: Tier multiplier Lean 0.95 -> 0.924 (actual win rate / predicted for this tier (needs 20+ picks); n=34)
 - 2026-11-08 NCAAF total: probability shrink 1.0 -> 0.85 (Brier 0.2593 -> gain 0.0069 at shrink 0.3; n=62)
@@ -171,6 +164,8 @@ Tuning only starts at 30 graded picks per league and market; tier tables need 20
 - 2026-11-09 NCAAF total: probability shrink 0.85 -> 0.7 (Brier 0.2577 -> gain 0.0053 at shrink 0.3; n=62)
 - 2026-11-09 NCAAF teaser_leg: probability shrink 0.85 -> 0.7 (Brier 0.246 -> gain 0.0047 at shrink 0.5; n=124)
 - 2026-11-09 NFL teaser_leg: probability shrink 1.0 -> 1.15 (Brier 0.1742 -> gain 0.002 at shrink 1.2; n=38)
+- 2026-11-10 NFL spread: Sigma 12.37 -> 12.38 (29 graded spread picks; learned residual SD, shrunk to prior, step-limited; n=689)
+- 2026-11-10 NCAAF total: probability shrink 0.7 -> 0.55 (Brier 0.2561 -> gain 0.0037 at shrink 0.3; n=62)
 
 ## Your Splash picks vs the model (locked lines)
 
@@ -247,6 +242,7 @@ Each pick is graded against the line you locked, not the early-week import. A ga
 | 2026-11-09 00:24Z | New Mexico @ Nevada | parlay/spread | New Mexico -10.5 | -10.5 | 0.0 | away No Play | Win | Win |
 | 2026-11-09 01:23Z | Tampa Bay Buccaneers @ Chicago Bears | parlay/spread | Tampa Bay Buccaneers 6.5 | 6.5 | 0.0 | away Lean | Win | Win |
 | 2026-11-09 01:23Z | Tampa Bay Buccaneers @ Chicago Bears | parlay/total | Tampa Bay Buccaneers / Chicago Bears 47.5 | 47.5 | 0.0 | under No Play | Win | Loss |
+| 2026-11-10 19:59Z | Buffalo Bills @ Minnesota Vikings | single/spread | Buffalo Bills -3.0 | -3.0 | 0.0 | away Lean | Win | Win |
 
 Your teasers and parlays: parlay 2026-11-05 02:53Z -> Loss (model 0.081 vs break-even 0.0753); parlay 2026-11-08 17:36Z -> Loss (model 0.0756 vs break-even 0.0753); teaser 2026-11-08 17:36Z -> Loss (model 0.3155 vs break-even 0.3846); teaser 2026-11-08 17:36Z -> Win (model 0.3197 vs break-even 0.3846); parlay 2026-11-08 17:36Z -> Loss (model 0.1528 vs break-even 0.1437); parlay 2026-11-09 00:07Z -> Loss (model 0.1008 vs break-even 0.1437); teaser 2026-11-09 00:07Z -> Win (model 0.2928 vs break-even 0.3846); parlay 2026-11-09 00:07Z -> Loss (model 0.3918 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.2634 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.1288 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.1396 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.1361 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.2613 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Win (model 0.2539 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.0646 vs break-even 0.0753); parlay 2026-11-09 01:23Z -> Win (model 0.2415 vs break-even 0.2744)
 
@@ -254,7 +250,7 @@ By market:
 
 | Market | Graded | You W-L | Model W-L at your line | Went against model |
 |---|---|---|---|---|
-| spread | 50 | 31-19 | 26-24 | 23 |
+| spread | 51 | 32-19 | 27-24 | 23 |
 | total | 10 | 4-6 | 5-5 | 5 |
 | teaser_leg | 9 | 8-1 | 0-0 | 0 |
 
