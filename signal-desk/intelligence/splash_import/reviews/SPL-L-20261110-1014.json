@@ -1,0 +1,16 @@
+{
+  "schema": "signal-desk.splash-review.v1",
+  "date_code": "SPL-L-20261110-1014",
+  "input_sha256": "d8d8dd759a1dbe1f37d202e498f59d898369bd9bc442c60adbd6e7b42dfd9d84",
+  "count_policy": "owner_confirms_complete_games_array",
+  "warning_resolutions": [
+    {
+      "warning": "Away/home team orientation established purely by 'at' format in source title (Away at Home), since explicit home/away badges are not displayed.",
+      "resolution": "Owner approves the explicit Away at Home source notation as orientation evidence. Preserve every observed team label and home_away_certain value; do not flip teams or lines."
+    },
+    {
+      "warning": "Game status not explicitly rendered on individual game cards beyond kickoff time and board filter settings.",
+      "resolution": "Status remains unknown and null. Owner approves recording the observed quotes and actual kickoffs without claiming an independently verified upcoming/live/final status."
+    }
+  ]
+}
