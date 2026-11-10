@@ -1,154 +1,91 @@
 # Splash Sports imports from regular chat
 
-This is the repository-only import path for the owner's native File 1 lines and File 2 picks JSON; it never writes to Airtable. The original inbox implementation was merged in [PR #58](https://github.com/Fluff421/custom-claude-skills/pull/58). The repository-schedule extension is installed only if current `main` contains `signal-desk/repo_schedule.py` and the importer calls it; a local or PR version is not deployment. Installed code, an active workflow, an available regular-chat write action, valid source data, game-reference coverage, model readiness, and a successful production receipt are separate checks.
+This is the authoritative intake contract for Signal Desk in `Fluff421/custom-claude-skills/signal-desk/`. Airtable base `appSfcG682952AQAv` is read-only for this import path. Native JSON intake, model readiness, and background Airtable writers are separate systems; an accepted import does not establish that recommendations are ready or that unrelated jobs are read-only.
 
-## Check chat access before requesting another dump
+## Deployment and scope
 
-Do this once in regular Perplexity Search, with GitHub selected before the first message. Do not attach another dump just to check access. [Perplexity's troubleshooting instructions](https://perplexity.ai/help-center/en/articles/2026091803-troubleshooting-the-github-connector) explain source selection and connector sessions.
+Read current main, not an earlier guide's status. Native intake requires `splash_import.py` and `.github/workflows/splash-json-inbox.yml`; repository-only references require `repo_schedule.py`; owner reviews and durable status require `splash_submission.py` and a workflow that watches `splash_import/reviews/*.json`. A branch, passing unit test, or saved inbox file is not production acceptance.
 
-```text
-Use the connected GitHub integration, not web search, for this check.
-Do not write anything and do not launch Computer.
-For Fluff421/custom-claude-skills, report:
-1. Whether this chat actually exposes a callable repository-file creation
-   or update action. Identify the action if available. A general GitHub
-   connection, repository read, or PR-label action is not proof.
-2. The current state of PR 58 and whether main contains
-   .github/workflows/splash-json-inbox.yml and signal-desk/splash_import.py.
-If the file-write action is unavailable, state that limitation and stop.
-Do not ask me for another Splash extraction to fix missing chat tools.
-```
+The import workflow uses Python and GitHub Actions, not Computer or a model API. Regular Search and connector limits still apply. This contract does not promise free service usage, a supported write action in every chat, or byte-exact transport where the chat cannot provide it.
 
-The source-selection check is not itself evidence that file writes are supported. [Perplexity's GitHub help](https://www.perplexity.ai/help-center/en/articles/12275669-github-connector-for-enterprise) documents actions generally, not the availability of this particular action in every chat.
+## Owner routine
 
-## The simple routine
+1. Run the owner-only line extractor in `SPLASH_EXTRACTION_LINES.md`, or the pick extractor in `SPLASH_EXTRACTION_PICKS.md`. Save the actual JSON, not the extraction instructions.
+2. Open regular Search with GitHub selected. Attach one original JSON and use the import prompt in `CHAT_PROMPTS.md`. Its import request is complete; no placeholder needs replacing.
+3. Review the exact repository, main branch, computed filename, full proposed content, public-data warning, and commit message. Approve that specific write. Imports are never blanket-authorized.
+4. The chat submits the unchanged approved JSON through a callable file-write action, preferably single-file `push_files` with literal UTF-8 content. It does not launch Computer, dispatch a workflow, or ask you to edit GitHub.
+5. Read the committed submission status and receipt. A rejection stays pending with its original file; the chat reports the first rejection reason and any other verified blockers. It does not re-upload the same source as a retry.
+6. If factual confirmation is needed, the chat prepares a separate checksum-bound review. Approve its exact content before its one write. The review triggers processing of the original pending source; raw JSON remains unchanged.
 
-- **Prepare**: Use your existing owner-run extraction to obtain the complete Splash JSON. Do not change counts, dates, lines, or results to make a file pass.
-- **Open regular Search**: Before the first message, select GitHub with the paperclip. Typing `@GitHub` alone does not select it, according to [Perplexity's troubleshooting instructions](https://perplexity.ai/help-center/en/articles/2026091803-troubleshooting-the-github-connector).
-- **Verify the action once**: Use the access check above before requesting a fresh extraction. Do not perform a write during this check. If the action is missing, report a transport limitation rather than a bad-file diagnosis.
-- **Submit**: Attach or paste one raw JSON file, followed by the import prompt below. Review the complete content, target path, branch, public-data warning, and commit message, then approve exactly one file write.
-- **Wait for the receipt**: Do not submit another file until this one's output commit is confirmed. The repository automation performs the import; no manual Actions form, compression, or workflow dispatch is needed for this path.
+File 2 does not always need a new File 1 first. Existing Ledger games or accepted repository references are sufficient. File 1 is needed first only for games absent from both.
 
-The processing workflow contains no Computer invocation or paid model API call. Regular-chat limits, connector permissions, and repository automation usage still apply; this is not a promise that every surrounding service is free.
+## What Search must and need not do
 
-## Copy-ready regular-chat prompt
+- **Access:** Run GitHub get_me when exposed; read current ASK_SIGNAL_DESK.md, this contract, and picks_latest.md. Discover the callable action schema. Distinguish tool exposure, successful reads, and an executed approved write.
+- **Source review:** Identify the actual JSON attachment, schema, date_code, timestamp, warnings, coverage, and obvious contradictions. Do not call an extraction-instructions Markdown file a dump. Complete source text must be available before proposing publication.
+- **Server authority:** The repository performs exact counts, hash computation, uniqueness/orientation checks, Ledger reads, duplicate detection, and generated-output checks. A Search environment's inability to execute Python or read Airtable is not itself a bad-dump diagnosis or a demand for another extraction.
+- **Byte fidelity:** Preserve original text and line endings when available. If exact original attachment bytes or their checksum cannot be verified, disclose that before approval. Never claim an original-attachment hash from the server's committed-file checksum alone. Stop if the transport cannot preserve the owner-approved content.
+- **Readiness:** Intake may proceed for validation and recording even when old recommendations are stale. Recommendation readiness is a separate gate; import success cannot satisfy missing ratings, fresh narratives, producer evidence, or requested-window coverage.
+- **Publication:** Show complete exact proposed contents, not merely a filename or summary. Warn that this PUBLIC repository reveals supplied contest links, entry names, stakes, payouts, tickets, and other raw details. Each approval covers one specifically described write only.
 
-```text
-Use only Fluff421/custom-claude-skills, under signal-desk/.
-Airtable base appSfcG682952AQAv remains read-only.
+For an assistant-authored commit, retain the user as author and end with the trailer `Co-authored-by: Perplexity <noreply@perplexity.ai>` exactly once. PRs and comments use the owner's required attribution footer. Never merge, change variables, write Airtable, or edit generated CSVs.
 
-I am supplying the owner's original Splash Sports JSON. Do not invent or
-change any dates, counts, teams, lines, teaser adjustments, or results.
-First verify that you can create one repository file from this regular
-chat; if that action is unavailable, say so and do not claim an import.
-Do not launch Computer, a Computer task, or a Computer automation.
+## Validation and observations
 
-Read the current main-branch signal-desk/SPLASH_IMPORT.md and importer.
-Check live deployment state, not a historical audit's deployment label.
-Check whether main includes signal-desk/repo_schedule.py and the importer
-uses it; a file on an unmerged branch is not an installed extension.
-Identify the schema and date_code.
-For File 1 use signal-desk.splash-lines.v1.
-For File 2 use signal-desk.splash-picks.v1.
+- **Freshness:** More than four hours old is a warning. Hard maximums are 24 hours for lines/completed extractions and 12 hours for pending extractions. Future timestamps beyond five minutes are rejected. Never relabel an old observation as fresh.
+- **Lines:** Supported schema/source; safe date_code; exact league counts; finite signed opposite spreads and total; actual Central kickoff and appropriate CST/CDT label; certain orientation for a new repository reference. Each game must be unique.
+- **Counts:** Build the games array first, then count its league tags. Preserve page widgets separately. A mismatch alone establishes neither which league tag is wrong nor that coverage is incomplete. A review can derive counts from the array only after the owner confirms the captured array is the intended complete board.
+- **Warnings:** Unresolved warnings still reject. Informational notes can live in `notes`; they must not conceal uncertainty about required observations. An exact warning and its explicit owner resolution can be preserved in a checksum-bound review without deleting anything from the original.
+- **Prices:** A displayed +100 is not automatically an extraction error. Preserve displayed odds exactly; do not replace a board-wide even-money price with -110. Missing spread/total leg prices may remain null. Moneylines require their actual valid American price.
+- **Matching:** League, date within one day, and both teams must identify one existing game, with correct orientation. Exact labels take priority. A partial word overlap in an unrelated matchup is not a complete game match. Viable ambiguous or reversed matches remain errors.
+- **Names:** Preserve observed nicknames. After the existing game is uniquely matched, a selection may expand only to the uniquely identifying team within that matched pair. Generated picks text uses the matched full names; no invented alias dictionary is used.
+- **Completed dates:** A completed leg can match by explicitly observed `game_date_central` when actual kickoff is unavailable. A checksum-bound review may supply an explicitly owner-confirmed matching date. Placement, settlement, extraction time, ticket IDs, and contest-year labels are not substitute game dates. Pending picks and File 1 still require actual kickoff. Date-only matching never creates new games or invents a kickoff.
+- **Teasers:** Preserve the explicitly observed final teased number; never fill a null teased_line. A missing base_line stays unknown in native intake, without reconstructed base-line movement or a probability requiring that unknown base. Legacy text handling remains separate.
+- **Duplicates:** Compare complete ticket type/game/market/side/number identity, including moneyline price. Skip whole previously recorded tickets. Changed source-ticket identity requires review. Count games, tickets, and legs separately.
+- **History:** Raw source, original metadata, early quotes and accepted reviews are immutable. New movement appends observations; it never repairs an earlier number. Reported owner settlement is metadata, not independently verified scoring or a saved pregame forecast.
 
-Review all independent blockers together before requesting new data.
-More than four hours old is a freshness warning, not automatic rejection.
-The hard age limit is 24 hours for lines or completed-pick extractions,
-and 12 hours for pending-pick extractions. Do not change timestamps.
-Count games by league from the actual games array and compare the header.
-A count mismatch does not prove a game's league tag is wrong. Ask the
-owner's extractor to verify the complete board and compute its header
-from the captured entries; do not patch this supplied file.
-Use a fresh read-only Ledger query to verify matching if available.
-A stale operations summary is not a current Ledger row export. If no
-current Ledger access exists, say matching is unverified, not zero.
-If the repository-schedule extension is installed, a valid File 1 can
-establish owner-source game references without existing Ledger rows.
-File 2 must match existing repository references or actual Ledger games;
-it cannot create unseen games. Require a unique league/date/both-team
-match with correct orientation. If the extension is not installed,
-missing Ledger games remain a separate deployment/schedule blocker.
-Do not create Ledger rows or describe repo-game: IDs as Airtable IDs.
-An accepted repository reference is not independent schedule verification
-and is not a model recommendation. Without verified model inputs, show
-unpriced and leave probabilities and recommendations absent.
+## Owner-review contract
 
-Only after the access, source, freshness, count, and matching checks pass,
-prepare exactly:
-signal-desk/intelligence/splash_import/inbox/<date_code>.json
-on branch main, with the raw JSON unchanged.
+Reviews live in `signal-desk/intelligence/splash_import/reviews/` with exactly the source JSON's filename. They are authorized only through approval of their exact contents. Supported schema is `signal-desk.splash-review.v1`; required fields are `date_code` and `input_sha256` bound to the original source bytes.
 
-Before the write, show the exact path, branch, complete file content,
-and proposed commit message. Warn that this public repo exposes raw
-contest links, entry names, stakes, payouts, and other supplied details.
-Ask for approval for this one write only. Do not use a different path
-or silently update an existing submission.
+Optional fields:
+- **count_policy:** Exactly `owner_confirms_complete_games_array`, for File 1 only. Derive effective counts; retain original counts in the receipt.
+- **warning_resolutions:** Array of objects containing exact `warning` text and nonblank `resolution`. Unlisted warnings remain blocking.
+- **completed_game_dates:** For completed picks only. Each object contains exactly `ticket_id`, zero-based `leg_index`, and `game_date_central` in YYYY-MM-DD format. It cannot inject kickoff, replace an observed date/time, or create a game.
 
-After approval, save that one file. Wait for repository processing.
-Confirm the successful processing commit, accepted receipt, raw-file
-checksum, new row count, duplicate skips, and exact game/date matches.
-Read the generated report. A saved input alone is not import completion.
-On rejection or failed processing, report the reason and stop.
+All other review changes reject. Reviews cannot change teams, league tags, lines, odds, teased values, ticket dates/IDs, extraction timestamps, results, or money. The importer applies permitted metadata resolutions only to a working copy, archives the original bytes, and saves the complete review and its SHA-256 in the receipt.
 
-This is an import request, not a picks-analysis request. General
-read-only analysis instructions do not authorize an import write.
-Only my separate approval of the exact file below authorizes that one
-GitHub write. No other repository or Airtable write is authorized.
-No Airtable writes, variable changes, result patches, or hand-edited CSVs.
-All picks are paper picks; verify against your Splash line before locking.
-```
+One owner push may contain one original inbox file, one review for an already-pending source, or the original and its same-code review together. Different source date_codes in one push reject. A review-only recovery never recreates or overwrites an accepted source.
 
-For a commit created by the assistant, retain the user's authorship and end the message with `Co-authored-by: Perplexity <noreply@perplexity.ai>` exactly once. Each import is a separate approval; approval of the implementation is not blanket approval to publish later dumps.
+## Repository-only coverage and model boundaries
 
-## What the new workflow does
+A validated File 1 may establish stable owner-source `repo-game:` references without creating Airtable rows. These are not independently verified schedules. File 2 only matches existing Ledger games/references. Later real Ledger bindings preserve identity and first quote.
 
-- **Accepted inputs**: One newly supplied JSON file per owner-authored push to `main`. Native lines and pending/completed picks use the same inbox.
-- **Validation**: Supported schema and exact source; safe date code; timezone-aware extraction timestamp; no unresolved warnings; finite numeric lines; parseable Central kickoff; seasonally correct Central timezone label if supplied; correct spread signs; exact per-league counts and unique games.
-- **Freshness**: Lines and completed-pick extractions must be at most 24 hours old; pending-pick extractions at most 12 hours old. Anything older than four hours is flagged even if still within its import limit.
-- **Extraction counts**: The owner-run extractor should build the complete `games` array first and compute `game_count` from its actual league tags. Page-wide counters may refer to another tab, filter, or slate; that is a reason to inspect the source, not to reclassify a game or fill in an unseen game. Do not assume the header or array is correct until the owner verifies coverage. A timestamp-only refresh is not a fresh extraction.
-- **Count exception**: Only an exact, per-league removal of already-finished games from the same prior slate can justify a smaller board. A previous week finishing cannot excuse unrelated header errors.
-- **Matching**: League, Central date within one day, and both teams must identify exactly one reference. Existing Ledger games are preferred for newly seen games. With the schedule extension installed, a validated File 1 can establish a repository reference when no Ledger game exists, but only with explicit certain home/away orientation. File 2 cannot establish unseen games. Ambiguous or reversed Ledger matches remain errors, not permission to fall back.
-- **Names and identity**: Exact names take priority; uniquely identifying short names and owner-supplied full-name expansions require the same dated, both-team match. Original source names, initial date, first quote, and `repo-game:` identity remain unchanged; observed expanded names are separate provenance. Names are never expanded from an invented team dictionary.
-- **Model readiness**: Repository references without finite verified Home/Away FPI inputs are `unpriced`, including spread, total, moneyline and teaser probabilities. They do not enter primary market recommendations or calibration cohorts. Available Ledger scores may grade the official recorded Splash line; an owner-reported settlement alone does not establish a result.
-- **Picks**: Full-name text conversion, explicit `Parlay:` and `Teaser:` lines, and `teased` suffixes are preserved. A null teased number is never inferred. Duplicate full tickets are skipped; changed source-ticket identities require review. Moneyline price is included in ticket identity.
-- **Preservation**: Raw input is archived byte-for-byte with a SHA-256 receipt. Supplied stake, payout, source ticket ID, and reported result stay in the receipt and raw file, not Airtable. Existing generated logs are updated only by the importer.
-- **Line history**: The first capture becomes an early snapshot; subsequent captures append movement instead of changing earlier rows. This does not fill blank Ledger fields.
-- **Reports**: A lines import produces a movement report and a current-line check. A picks import produces a comparison and an archived full-name text representation in `splash_picks/processed/`.
-- **Reconciliation**: A separate derived view grades existing paper legs using their recorded Splash lines and available Ledger scores. It refreshes after a successful Close & Grade run without rewriting immutable capture-status fields or importing owner-reported results as database facts.
-- **Visible failures**: Input validation, output-count discrepancies, commit errors, and rebase conflicts fail visibly. A successful local calculation is not the same as a committed production import.
+Missing verified finite Home/Away FPI means unpriced, including spread, total, moneyline, teaser, and combination recommendations. New references do not magically enter the primary market engine or calibration. Accepted lines do not repair this missing producer. Available Ledger scores may grade the official recorded Splash numbers in a separate derived reconciliation view.
 
-The old text inbox and manual workflows remain available. The new native-JSON route deliberately avoids requiring an intermediate owner-written text file; its text representation is produced after validation.
+## Reading acceptance and failures
 
-## Where to read the result
+Paths below are relative to signal-desk; form each filename from the actual JSON date_code rather than copying a placeholder.
 
-| Result | Repository path |
+| Item | Directory or file |
 |---|---|
-| Accepted receipt | `signal-desk/intelligence/splash_import/receipts/<date_code>.json` |
-| Archived inbox JSON | `signal-desk/intelligence/splash_import/processed/<date_code>.json` |
-| Current derived outcomes | `signal-desk/intelligence/splash_import/reconciliation/latest.json` |
-| Owner-source game references | `signal-desk/intelligence/splash_import/schedule.json` |
-| Lines raw input | `signal-desk/intelligence/splash_lines/raw/<date_code>.json` |
-| Lines movement report | `signal-desk/intelligence/splash_lines/<date_code>.md` |
-| Current-line check | `signal-desk/intelligence/splash_pricecheck/latest.md` and `latest.json` |
-| Picks raw input | `signal-desk/intelligence/splash_picks/raw/<date_code>.json` |
-| Picks text archive | `signal-desk/intelligence/splash_picks/processed/<date_code>.txt` |
-| Picks comparison | `signal-desk/intelligence/splash_picks/<date_code>.md` |
+| Pending source | intelligence/splash_import/inbox/ |
+| Owner review | intelligence/splash_import/reviews/ |
+| Submission status | intelligence/splash_import/status/ |
+| Accepted receipt | intelligence/splash_import/receipts/ |
+| Processed original | intelligence/splash_import/processed/ |
+| Line raw archive and report | intelligence/splash_lines/raw/ and intelligence/splash_lines/ |
+| Pick raw archive and report | intelligence/splash_picks/raw/ and intelligence/splash_picks/ |
+| Full-name generated picks text | intelligence/splash_picks/processed/ |
+| Reference catalogue | intelligence/splash_import/schedule.json |
+| Derived grading | intelligence/splash_import/reconciliation/latest.json |
 
-Read the receipt's `actual_new_rows`, duplicate list, SHA-256, `reference_matches`, and `airtable_writes: 0`, then verify that the receipt and outputs exist in the successful processing commit. Reference matches distinguish repository IDs from actual Ledger IDs and identify unpriced games. Ticket probabilities in a comparison are processing-time reconstructions, not proof of a saved pregame forecast; reference payout calculations are not a statement of actual contest winnings.
+Acceptance requires committed status=accepted, accepted receipt, checksum agreement with the committed input and raw archive, expected versus actual row counts, duplicate skips, exact reference origins/game dates/orientation, reports, and airtable_writes=0. Read related outputs at the same processing commit. A local replay, queued job, green unrelated run, or input save is not completion.
 
-## Important boundaries
+After accepted processing, `intelligence/splash_import/readiness_latest.json` contains an actual execution of the existing readiness validator, not an inferred pass. Read its checked_at, source_revision, errors and input_git_blobs. Those Git blob identities can be checked against the file identities returned by the GitHub connector without pretending Search ran Python. A fresh readiness decision about stale observations still fails; missing files, changed inputs, missing ratings or window coverage cannot be waived. The submission status's artifacts_ready flag reports that validator only; requested_window_coverage_checked remains false because intake does not establish recommendation coverage or verified model inputs.
 
-- **Missing Ledger games**: With the extension installed, valid File 1 data can establish repository-only references without creating Ledger rows. Without the extension, missing Ledger coverage remains a blocker. The existing ESPN sync enriches existing rows; waiting for it is not a schedule-creation solution.
-- **Read-only schedule boundary**: Repository references are owner-source import identities, not independent verification or Airtable records. Later unique Ledger matches retain the original repository ID and store the real `ledger_record_id` separately. Binding conflicts fail instead of switching IDs. Existing Ledger and repository identities remain available to historical grading without double-counting them during new matching.
-- **Read access still required**: This extension removes the requirement for pre-existing Ledger games, not the read configuration used to load current Ledger/model context. An unavailable Airtable read fails visibly; it is not silently treated as an empty table.
-- **Invalid dumps**: Derive the diagnosis from the newly attached file. Do not copy counts or dates from a historical report. Ask for source verification and a newly extracted complete file when header and body disagree; do not guess which field is wrong.
-- **Historical line discrepancies**: A guard in closing capture preserves a populated total going forward. It does not repair historical differences between saved early snapshots and current Ledger values.
-- **Existing scheduled prompts**: This guide does not establish their current state. The import workflow does not require a Computer automation run. Do not tell the owner to run one for each dump, or infer that a saved prompt changed merely because repository code changed.
-- **Surface availability**: If regular chat lacks the repository-file action, this exact chat-only path is not verified for that surface. Do not claim otherwise or ask the owner to paste credentials; decide a separately authorized ingestion route instead.
-- **Safety**: Do not put access tokens in JSON, workflow inputs, source code, or prompts. Public raw-file storage needs explicit owner approval every time.
+Rejected/failed processing restores pre-run generated files and publishes a failure status without an accepted receipt. The first error is not an exhaustive independent-blocker audit. A commit/push failure can leave no new status on main; report acceptance as unverified rather than manufacturing success. Keep pending originals for separately approved review; do not silently resubmit.
 
-## Deployment acceptance
+## Legacy route
 
-For a new extension, an approved push and separately approved PR come before the owner's review and merge. Check actual current main-branch files and workflow rather than repeating an obsolete deployment label. Then test the regular-chat file action without a write, verify the deployed reference route, submit one fresh valid owner dump with its own exact-file approval, and verify the resulting production commit and reports. A code test or accepted reference does not establish regular-chat write availability or model readiness.
-
-Keep Airtable read-only throughout. Do not declare the whole system ready until schedule coverage, data freshness, and the readiness gate also pass.
+The older owner-approved full-name text inbox remains legacy. Convert with explicit Parlay: or Teaser: labels and teased suffixes; never infer a null teased number. Native JSON is the preferred path and does not require an owner-written intermediate text file.

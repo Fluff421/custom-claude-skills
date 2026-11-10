@@ -7,7 +7,7 @@ Everything the betting intelligence system learns and reports, kept in the repo 
 - `learning_log.csv`: the change log. One row per automatic change: date, league, market, setting, old, new, evidence, sample size, source.
 - `markets/`: `picks_latest.md` and `.json` (every game, every market, teasers and parlays), `picks_log.csv` (every pick, tracked and graded by market), `lines_log.csv` (timestamped lines and prices, appended on change), `scorecards.json` (results and learning by market). `market_params.json` holds per-market settings.
 - `splash_picks_log.csv`: the owner's Splash picks for every bet type, with early-week line, locked line, movement and the model repriced at the locked line. Graded against the locked line only.
-- `splash_picks_log.csv` and `splash_picks/`: the user's Splash picks compared with the model, written by the manual Splash-compare workflow, graded in the daily report when games finish.
+- `splash_import/`: native owner JSON intake, checksum-bound reviews, durable submission status, accepted receipts, source references and separately executed readiness. Follow [SPLASH_IMPORT.md](../SPLASH_IMPORT.md); the older text/manual route is legacy. An accepted import is not model readiness or a historical pregame prediction.
 - `ROADMAP.md`: data points to add next.
 
 All picks are paper picks. Nothing here writes Splash fields or past results.

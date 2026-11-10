@@ -82,4 +82,6 @@ jobs:
         run: python signal-desk/markets.py run
       - name: Commit market pricing and line log (data only)
         if: ${{ env.MARKETS_LIVE == '1' }}
-        run: bash .github/scripts/commit_data.sh "Signal Desk markets $(date -u +%F-%H%M) (auto)" signal-desk/intelligence/markets
+        run: |
+          bash .github/scripts/commit_data.sh "Signal Desk markets $(date -u +%F-%H%M) (auto)" \
+            signal-desk/intelligence/markets signal-desk/data/producer_health/markets.json

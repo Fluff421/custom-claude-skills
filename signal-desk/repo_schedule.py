@@ -179,6 +179,10 @@ class RepositorySchedule:
     def match_details(self, ids):
         byid = {f["_id"]: f for f in self.games()}
         return [{"reference_id": rid,
+                 "league": byid[rid]["League"],
+                 "date_central": byid[rid]["Date"][:10],
+                 "away_team": byid[rid]["Away Team"],
+                 "home_team": byid[rid]["Home Team"],
                  "reference_origin": byid[rid].get("_reference_origin", "airtable"),
                  "ledger_record_id": byid[rid].get("_ledger_record_id")
                      if rid.startswith(PREFIX) else rid,

@@ -8,6 +8,7 @@ The workflow commits generated outputs and the input move in one data commit.
 from __future__ import annotations
 
 import collections
+import copy
 import csv
 import datetime as dt
 import hashlib
@@ -61,10 +62,22 @@ def central(value):
 
 def matching(g, games):
     """Exact names first, then a short name only if unique in this league/date window."""
-    date = central(g.get("kickoff_central")).date()
+    if g.get("kickoff_central") not in (None, ""):
+        kickoff = central(g["kickoff_central"])
+        date = kickoff.date()
+        need(g.get("game_date_central") in (None, "", date.isoformat()),
+             "game_date_central conflicts with the observed kickoff date")
+    else:
+        value = g.get("game_date_central")
+        need(isinstance(value, str) and re.fullmatch(r"\d{4}-\d\d-\d\d", value),
+             "a reliable Central game date is required; do not infer it from placement or settlement")
+        try:
+            date = dt.date.fromisoformat(value)
+        except ValueError:
+            raise Rejected("invalid Central game date") from None
     label = g.get("kickoff_tz")
     need(label in (None, "", "America/Chicago",
-                   central(g["kickoff_central"]).replace(tzinfo=ZoneInfo("America/Chicago")).tzname()),
+                   dt.datetime.combine(date, dt.time(12), ZoneInfo("America/Chicago")).tzname()),
          "kickoff_tz conflicts with the Central date")
     league = g.get("league")
     need(league in ("NFL", "NCAAF"), "league must be NFL or NCAAF")
@@ -76,21 +89,112 @@ def matching(g, games):
         need(isinstance(value, str) and value.strip(), "both team names are required")
         exact = [n for n in names if sl.norm(n) == sl.norm(value)]
         if exact:
-            return exact[0]
+            return exact
         tokens = sc._words(value)
-        short = [n for n in names if tokens and tokens <= sc._words(n)]
-        need(len(short) <= 1, f"{value}: ambiguous short team name in league/date window")
-        return short[0] if len(short) == 1 else None
+        return [n for n in names if tokens and tokens <= sc._words(n)]
 
-    away, home = resolve(g.get("away_team")), resolve(g.get("home_team"))
-    hits = [f for f in window if away and home and
-            {f.get("Home Team"), f.get("Away Team")} == {home, away}]
+    away_choices, home_choices = resolve(g.get("away_team")), resolve(g.get("home_team"))
+    hits = [f for f in window
+            if ((f.get("Home Team") in home_choices and f.get("Away Team") in away_choices)
+                or (f.get("Home Team") in away_choices and f.get("Away Team") in home_choices))]
     label = f"{g.get('away_team')} @ {g.get('home_team')} ({date})"
+    # An unrelated partial-name collision is not a game match. This permits
+    # File 1 to establish a genuinely absent BOTH-team pair without changing
+    # the strict ambiguity/orientation policy for any viable existing game.
+    need(hits, f"{label}: matches 0 Ledger rows; no rows created")
+    for value, choices in ((g["away_team"], away_choices), (g["home_team"], home_choices)):
+        need(len(choices) <= 1, f"{value}: ambiguous short team name in league/date window")
     need(len(hits) == 1, f"{label}: matches {len(hits)} Ledger rows; no rows created")
     f = hits[0]
+    home = home_choices[0]
     need(f["Home Team"] == home, f"{label}: reversed orientation; review Neutral Site, do not flip")
     need(g.get("home_away_certain") is not False, f"{label}: uncertain orientation")
     return f
+
+
+def reviewed_input(d, raw):
+    """Apply only an explicit, checksum-bound owner review, never mutate the raw.
+
+    A review is a separately approved repository file. Counts and resolutions
+    remain auditable; observations, ticket dates, source IDs, odds and lines
+    cannot be changed through this interface. Date-only matching is confined to
+    completed picks and never supplies or fabricates a kickoff time.
+    """
+    code = d.get("date_code", "")
+    need(isinstance(code, str) and re.fullmatch(r"SPL-[LPC]-\d{8}-\d{4}", code),
+         "unsafe or missing date_code")
+    path = HERE / "intelligence/splash_import/reviews" / (code + ".json")
+    if not path.exists():
+        return d, None
+    review_raw = path.read_bytes()
+    need(len(review_raw) <= 1_000_000, "owner review exceeds 1 MB")
+    review = json.loads(review_raw)
+    allowed = {"schema", "date_code", "input_sha256", "warning_resolutions",
+               "count_policy", "completed_game_dates"}
+    need(isinstance(review, dict) and set(review) <= allowed, "unsupported review changes")
+    need(review.get("schema") == "signal-desk.splash-review.v1", "unsupported review schema")
+    need(review.get("date_code") == code, "owner review date_code differs from source")
+    need(review.get("input_sha256") == hashlib.sha256(raw).hexdigest(),
+         "owner review checksum differs from original source bytes")
+    out = copy.deepcopy(d)
+    audit = copy.deepcopy(review)
+    audit["review_sha256"] = hashlib.sha256(review_raw).hexdigest()
+    audit["original_warnings"] = copy.deepcopy(d.get("warnings", []))
+    audit["raw_metadata_preserved"] = True
+    warnings = out.get("warnings", [])
+    need(isinstance(warnings, list) and all(isinstance(w, str) for w in warnings),
+         "warnings must be a list of strings")
+    resolutions = review.get("warning_resolutions", [])
+    need(isinstance(resolutions, list), "warning_resolutions must be a list")
+    resolved = set()
+    for item in resolutions:
+        need(isinstance(item, dict) and set(item) == {"warning", "resolution"}
+             and isinstance(item["resolution"], str) and item["resolution"].strip(),
+             "each warning resolution needs exact warning text and a nonblank resolution")
+        need(isinstance(item["warning"], str) and item["warning"] in warnings
+             and item["warning"] not in resolved, "warning resolution is unknown or duplicated")
+        resolved.add(item["warning"])
+    out["warnings"] = [w for w in warnings if w not in resolved]
+    if "count_policy" in review:
+        need(d.get("schema") == LINES
+             and review["count_policy"] == "owner_confirms_complete_games_array",
+             "unsupported review count_policy; owner must confirm the captured array is complete")
+        gl = d.get("games")
+        need(isinstance(gl, list) and gl and all(isinstance(g, dict)
+             and g.get("league") in ("NFL", "NCAAF") for g in gl), "invalid reviewed games array")
+        audit["original_game_count"] = copy.deepcopy(d.get("game_count"))
+        out["game_count"] = dict(collections.Counter(g["league"] for g in gl))
+        audit["effective_game_count"] = copy.deepcopy(out["game_count"])
+    if "completed_game_dates" in review:
+        need(d.get("schema") == PICKS and d.get("page_type") == "completed",
+             "completed_game_dates is only supported for completed picks")
+        dates = review["completed_game_dates"]
+        need(isinstance(dates, list), "completed_game_dates must be a list")
+        seen = set()
+        for item in dates:
+            need(isinstance(item, dict)
+                 and set(item) == {"ticket_id", "leg_index", "game_date_central"},
+                 "unsupported completed_game_dates fields; kickoff times cannot be injected")
+            tid, index, value = item["ticket_id"], item["leg_index"], item["game_date_central"]
+            need(isinstance(tid, str) and type(index) is int and index >= 0,
+                 "invalid completed_game_dates ticket identity")
+            need((tid, index) not in seen, "duplicate completed_game_dates leg")
+            seen.add((tid, index))
+            tickets = [t for t in out.get("tickets", []) if t.get("ticket_id") == tid]
+            need(len(tickets) == 1 and isinstance(tickets[0].get("legs"), list)
+                 and index < len(tickets[0]["legs"]), "completed_game_dates references an unknown leg")
+            leg = tickets[0]["legs"][index]
+            need(leg.get("kickoff_central") in (None, "")
+                 and leg.get("game_date_central") in (None, "", value),
+                 "completed_game_dates cannot replace an observed kickoff or game date")
+            need(isinstance(value, str) and re.fullmatch(r"\d{4}-\d\d-\d\d", value),
+                 "invalid completed_game_dates date")
+            try:
+                dt.date.fromisoformat(value)
+            except ValueError:
+                raise Rejected("invalid completed_game_dates date") from None
+            leg["game_date_central"] = value
+    return out, audit
 
 
 def signature(kind, rows):
@@ -166,6 +270,7 @@ def plan(d, games, previous, log, now, prior_sources=None, matcher=None):
                  f"game_count says {declared} but actual entries are {actual}; no values patched")
         ids = set()
         for g in gl:
+            central(g.get("kickoff_central"))
             need(g.get("source", d["source"]) == d["source"]
                  and g.get("date_code", code) == code, "game source/date_code conflicts with its dump")
             away, home = number(g.get("away_spread"), "away spread"), number(g.get("home_spread"), "home spread")
@@ -194,6 +299,8 @@ def plan(d, games, previous, log, now, prior_sources=None, matcher=None):
         need(typ != "single" or len(legs) == 1, "single ticket must have one leg")
         text, expected, chosen = [], [], []
         for leg in legs:
+            if d["page_type"] == "pending":
+                central(leg.get("kickoff_central"))
             f = resolve(leg, games)
             result["matches"].append(f["_id"])
             market = leg.get("market")
@@ -208,7 +315,11 @@ def plan(d, games, previous, log, now, prior_sources=None, matcher=None):
                 prefix = f"{f['Away Team']} at {f['Home Team']} {side.title()}"
             else:
                 selected = [n for n in (f["Away Team"], f["Home Team"]) if sl.norm(n) == sl.norm(selection)]
-                need(len(selected) == 1, "spread/moneyline selection must use the full team name")
+                if not selected:
+                    tokens = sc._words(selection) if isinstance(selection, str) else set()
+                    selected = [n for n in (f["Away Team"], f["Home Team"])
+                                if tokens and tokens <= sc._words(n)]
+                need(len(selected) == 1, "spread/moneyline selection must uniquely identify one matched team")
                 side = "home" if selected[0] == f["Home Team"] else "away"
                 prefix = selected[0]
             if market == "moneyline":
@@ -236,6 +347,8 @@ def plan(d, games, previous, log, now, prior_sources=None, matcher=None):
         need(len(parsed) == 1 and not bad and len(parsed[0]["legs"]) == len(legs), "converted picks are not losslessly parseable")
         for parsed_leg, leg in zip(parsed[0]["legs"], legs):
             parsed_leg["price"] = leg.get("price")
+            if typ == "teaser":
+                parsed_leg["observed_base_line"] = leg.get("base_line")
         key = signature(typ, expected)
         need(tid not in (prior_sources or {}) or prior_sources[tid] == key,
              "previously recorded source ticket_id has changed legs, lines, or moneyline price; owner review required")
@@ -290,7 +403,9 @@ def execute(path, check_only=False, now=None):
     import picks as pk
     raw = path.read_bytes()
     need(len(raw) <= 1_000_000, "input exceeds 1 MB")
-    d = json.loads(raw)
+    original = json.loads(raw)
+    need(isinstance(original, dict), "input must be a JSON object")
+    d, review = reviewed_input(original, raw)
     token, base, games, log = load_context()
     lines = sl.read_csv(sl.LOG)
     last = max((r.get("captured_at_utc", "") for r in lines), default="")
@@ -315,6 +430,9 @@ def execute(path, check_only=False, now=None):
         old = json.loads(receipt_path.read_text())
         need(old.get("input_sha256") == digest, "date_code already exists with different content; submit a new extraction")
         need(old.get("status") == "accepted", "previous receipt is not accepted")
+        need((old.get("owner_review") or {}).get("review_sha256")
+             == (review or {}).get("review_sha256"),
+             "accepted import owner review is immutable; no history or baseline rewrite")
         print(f"Already accepted {code}; no duplicate rows appended.")
         if not check_only:
             destination = path.parent.parent / "processed" / path.name
@@ -325,7 +443,7 @@ def execute(path, check_only=False, now=None):
     if check_only:
         return
     params = {r["fields"].get("League"): r["fields"] for r in ir.fetch(base, token, ir.PARAMS, "TRUE()")}
-    pricer = sc.make_pricer(pk.load_params(token), pk.graded_counts(base, token),
+    pricer = sc.make_pricer(pk.load_params(token, base), pk.graded_counts(base, token),
                             now.strftime("%Y-%m-%d %H:%MZ"), os.environ.get("FACTOR_MODE") == "live")
     new_rows, files = [], {}
     files[schedule_path] = json.dumps(catalog.state, indent=2, ensure_ascii=False, allow_nan=False) + "\n"
@@ -388,9 +506,10 @@ def execute(path, check_only=False, now=None):
     raw_path.write_bytes(raw)
     receipt = {k: v for k, v in p.items() if k != "tickets"}
     receipt.update({"status": "accepted", "processed_at_utc": now.isoformat(), "input_sha256": digest,
+                    "owner_review": review,
                     "actual_new_rows": len(new_rows), "airtable_writes": 0,
                     "assessment_note": "Processing-time reconstruction, not proof of a saved pregame forecast.",
-                    "ticket_metadata": d.get("tickets", []),
+                    "ticket_metadata": original.get("tickets", []),
                     "source_tickets": {item["source_ticket_id"]: item["fingerprint"]
                                        for item in p["tickets"] + p["duplicates"]},
                     "line_report": f"signal-desk/intelligence/splash_lines/{code}.md" if p["kind"] == "lines" else None,

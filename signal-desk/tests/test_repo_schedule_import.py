@@ -6,12 +6,14 @@ import json
 import pathlib
 import tempfile
 import unittest
+import hashlib
 from unittest import mock
 
 from test_splash_import import GAME, NOW, lines, picks
 import splash_import as si
 import intelligence_report as ir
 import picks as pk
+import splash_submission as ss
 
 
 class RepoScheduleImports(unittest.TestCase):
@@ -21,6 +23,7 @@ class RepoScheduleImports(unittest.TestCase):
         self.root = pathlib.Path(self.temp.name)
         self.ledger = []
         self.real_make_pricer = si.sc.make_pricer
+        self.real_load_params = pk.load_params
         self.pricer = mock.Mock(side_effect=AssertionError("unpriced game reached model"))
         self.stack = contextlib.ExitStack()
         self.addCleanup(self.stack.close)
@@ -81,6 +84,54 @@ class RepoScheduleImports(unittest.TestCase):
         self.assertNotIn("spread", check["games"][0])
         self.assertIn("unpriced", (self.root / "intelligence/splash_pricecheck/latest.md").read_text())
         self.pricer.assert_not_called()
+
+    def test_reviewed_submission_archives_original_and_keeps_readiness_separate(self):
+        d = self.line_dump()
+        d["game_count"] = {"NFL": 9}
+        d["warnings"] = ["Optional status unavailable"]
+        path = self.file(d)
+        raw = path.read_bytes()
+        review = {
+            "schema": "signal-desk.splash-review.v1", "date_code": d["date_code"],
+            "input_sha256": hashlib.sha256(raw).hexdigest(),
+            "count_policy": "owner_confirms_complete_games_array",
+            "warning_resolutions": [{"warning": d["warnings"][0],
+                                     "resolution": "Status remains unknown; kickoff is observed."}],
+        }
+        si.save_json(self.root / "intelligence/splash_import/reviews" / path.name, review)
+        self.assertEqual(ss.process(path, now=NOW), 0)
+        receipt = self.receipt(d)
+        self.assertEqual(receipt["actual_new_rows"], 1)
+        self.assertEqual(receipt["owner_review"]["original_game_count"], {"NFL": 9})
+        self.assertEqual((self.root / "intelligence/splash_lines/raw" / path.name).read_bytes(), raw)
+        status = json.loads((self.root / "intelligence/splash_import/status" / path.name).read_bytes())
+        self.assertEqual(status["status"], "accepted")
+        self.assertFalse(status["artifacts_ready"])
+        self.assertFalse(status["requested_window_coverage_checked"])
+        ready = json.loads((self.root / "intelligence/splash_import/readiness_latest.json").read_bytes())
+        self.assertFalse(ready["ready"])
+        self.assertIn("input_git_blobs", ready)
+
+    def test_accepted_owner_review_is_immutable(self):
+        d, _ = self.seed()
+        path = self.file(d)
+        review = {
+            "schema": "signal-desk.splash-review.v1", "date_code": d["date_code"],
+            "input_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+            "count_policy": "owner_confirms_complete_games_array",
+        }
+        si.save_json(self.root / "intelligence/splash_import/reviews" / path.name, review)
+        with self.assertRaisesRegex(si.Rejected, "owner review is immutable"):
+            si.execute(path, now=NOW)
+        self.assertEqual(len(si.sl.read_csv(si.sl.LOG)), 1)
+
+    def test_native_import_initializes_parameter_reader_without_running_pick_cli(self):
+        with mock.patch.object(pk, "load_params", side_effect=self.real_load_params), \
+                mock.patch.object(pk.es, "AIRTABLE_BASE", None, create=True), \
+                mock.patch.object(pk.es, "http_get", return_value='{"records": []}') as read:
+            self.seed()
+        self.assertEqual(read.call_count, 1)
+        self.assertIn("/base/" + pk.PARAMS, read.call_args.args[0])
 
     def test_check_only_and_invalid_count_do_not_create_schedule(self):
         d = self.line_dump()
@@ -168,6 +219,22 @@ class RepoScheduleImports(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "ambiguous short team"):
             si.execute(self.file(d), now=NOW)
         self.assertFalse((self.root / "intelligence/splash_import/schedule.json").exists())
+
+    def test_unrelated_overlapping_names_do_not_block_a_new_both_team_pair(self):
+        # These are synthetic schedule names. A partial word collision in an
+        # unrelated pairing is not a match for the newly observed game.
+        self.ledger = [
+            dict(GAME, _id="r2", League="NCAAF",
+                 **{"Away Team": "North Example", "Home Team": "First Opponent"}),
+            dict(GAME, _id="r3", League="NCAAF",
+                 **{"Away Team": "South Example", "Home Team": "Second Opponent"}),
+        ]
+        d = self.line_dump()
+        d["game_count"] = {"NCAAF": 1}
+        d["games"][0].update(league="NCAAF", away_team="Example", home_team="New Opponent")
+        si.execute(self.file(d), now=NOW)
+        self.assertEqual(self.receipt(d)["actual_new_rows"], 1)
+        self.assertEqual(self.receipt(d)["reference_matches"][0]["reference_origin"], "repository")
 
     def test_reader_adapter_preserves_repo_identity_without_double_match(self):
         _, rid = self.seed()

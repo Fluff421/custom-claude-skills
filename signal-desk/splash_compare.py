@@ -221,7 +221,7 @@ def make_pricer(params_by_league: dict | None, counts: dict | None, now: str, fa
 
 def teaser_leg_prob(f: dict, leg: dict, base: float, teased: float, side: str, p: dict, factor_live: bool = False) -> float | None:
     """Model probability that a teased leg wins (key-number aware for spreads)."""
-    if f.get("_model_status") == "unpriced":
+    if f.get("_model_status") == "unpriced" or base is None:
         return None
     if leg["market"] == "total":
         proj = mk.project_game(f, {"total": base}, p, factor_live)
@@ -272,7 +272,9 @@ def compare(tickets: list[dict], games: list[dict], now: str, pricer=None, today
                 # base = the locked line before the 6-point adjustment
                 if leg["teased"]:
                     teased = raw
-                    if leg["market"] == "spread":
+                    if "observed_base_line" in leg:
+                        base = leg["observed_base_line"]
+                    elif leg["market"] == "spread":
                         base = raw - mk.TEASER_PTS
                     else:
                         base = raw + mk.TEASER_PTS if leg["side"] == "over" else raw - mk.TEASER_PTS
@@ -297,7 +299,8 @@ def compare(tickets: list[dict], games: list[dict], now: str, pricer=None, today
             row.update({"team": team, "side": side, "game": f.get("Game"), "record_id": f["_id"], "date": (f.get("Date") or "")[:10],
                         "league": f.get("League"), "imported_line": imp, "locked_line": locked, "base_line": base, "teased_line": teased,
                         "price": leg.get("price") if leg.get("price") is not None else "", "matched": "pending", "status": status, "lead_days": lead,
-                        "movement_for_you": movement_for_you(leg["market"], side, imp, cmp_line)})
+                        "movement_for_you": ("" if t["type"] == "teaser" and base is None
+                                             else movement_for_you(leg["market"], side, imp, cmp_line))})
             row.update({"reference_origin": f.get("_reference_origin", "airtable"),
                         "ledger_record_id": f.get("_ledger_record_id") if f.get("_reference_origin") == "repository" else f["_id"],
                         "model_status": f.get("_model_status", "")})

@@ -1,12 +1,14 @@
 name: Splash JSON inbox (Signal Desk)
 
-# Exactly one owner-approved raw JSON file per submission. No dump compression,
+# Exactly one owner-approved raw source, optionally with its checksum-bound
+# review, per submission. No dump compression,
 # manual workflow form, result entry, or Airtable writes.
 on:
   push:
     branches: [main]
     paths:
       - "signal-desk/intelligence/splash_import/inbox/*.json"
+      - "signal-desk/intelligence/splash_import/reviews/*.json"
   workflow_run:
     workflows: ["Close & Grade (Signal Desk)"]
     types: [completed]
@@ -45,6 +47,8 @@ jobs:
         with:
           python-version: "3.11"
       - name: Validate and import the exact approved submission
+        id: process
+        continue-on-error: true
         shell: bash
         run: |
           set -euo pipefail
@@ -54,20 +58,23 @@ jobs:
           fi
           python - <<'PY'
           import os, pathlib, subprocess, sys
+          sys.path.insert(0, "signal-desk")
+          from splash_submission import admitted_paths
           before, after = os.environ["EVENT_BEFORE"], os.environ["EVENT_AFTER"]
           if not before or set(before) == {"0"}:
               raise SystemExit("Unsupported initial-repository event; submit one new file.")
           raw = subprocess.check_output([
               "git", "diff", "--name-only", "-z", "--diff-filter=AM", before, after,
-              "--", "signal-desk/intelligence/splash_import/inbox/*.json"])
+              "--", "signal-desk/intelligence/splash_import/inbox/*.json",
+              "signal-desk/intelligence/splash_import/reviews/*.json"])
           names = [n for n in raw.decode().split("\0") if n]
-          if len(names) != 1:
-              raise SystemExit("Submit exactly one owner-approved JSON file per commit.")
-          path = pathlib.Path(names[0])
-          expected = subprocess.check_output(["git", "show", after + ":" + names[0]])
-          if not path.exists() or path.read_bytes() != expected:
-              raise SystemExit("Input changed or was already processed since this event; no replay.")
-          subprocess.run([sys.executable, "signal-desk/splash_import.py", str(path)], check=True)
+          chosen = admitted_paths(names)
+          for name in names:
+              path = pathlib.Path(name)
+              expected = subprocess.check_output(["git", "show", after + ":" + name])
+              if not path.exists() or path.read_bytes() != expected:
+                  raise SystemExit("Input changed or was already processed since this event; no replay.")
+          subprocess.run([sys.executable, "signal-desk/splash_submission.py", str(chosen)], check=True)
           PY
       - name: Commit verified outputs or fail visibly
         shell: bash
@@ -90,6 +97,11 @@ jobs:
           # Unlike commit_data.sh, a rebase conflict MUST fail, not skip silently.
           git pull --rebase origin main
           git push origin HEAD:main
+      - name: Mark rejected or failed processing as unsuccessful
+        if: ${{ steps.process.outcome == 'failure' }}
+        run: |
+          echo "::error::Submission was not accepted. Read its committed status JSON; do not resubmit the raw source."
+          exit 1
       - name: Preserve import diagnostics
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
@@ -98,4 +110,5 @@ jobs:
           path: |
             signal-desk/intelligence/splash_import/receipts
             signal-desk/intelligence/splash_import/reconciliation
+            signal-desk/intelligence/splash_import/status
           if-no-files-found: ignore

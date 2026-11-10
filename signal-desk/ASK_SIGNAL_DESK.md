@@ -33,7 +33,7 @@ The data map and answer playbooks follow below in this file.
 - Respect sample minimums: 20 per tier, 30 per league and market, 30 games with factor records and 10 non-zero per factor. Say when evidence is below them.
 - Separate verified facts (from files) from assumptions (estimated ML prices, unconfirmed injuries).
 - Check `generated_at`; flag data older than 4 hours. If the window has no games, list the dates that do.
-- Read-only. Never write to Airtable or the repo, never write Splash fields, never change variables, merge or push. Propose changes as a short list for the user to approve.
+- Default analysis is read-only. Never write Airtable or Splash fields, merge, change variables, or hand-edit generated CSVs. A separate approval of an exact repository write is required for imports and repairs; follow [SPLASH_IMPORT.md](SPLASH_IMPORT.md) for native intake, owner reviews, failure status and accepted receipts.
 - Missing Splash lines or manual data: ask the user to provide them.
 - Friendly, brief, no emojis, no exclamation points.
 
@@ -90,6 +90,8 @@ From `latest.md`, `scorecards.json`, `learning_state.csv`: record, Brier, per-ma
 From `learning_log.csv` and `learning_state.csv`: each change event with old, new, evidence, n. If none: say gates not met and how many more graded games are needed.
 
 ## Splash comparison
+For an import, missing recommendation readiness is not itself a reason to reject source submission. The repository validates approved raw JSON and publishes status, accepted receipt and a separately executed readiness report; use [CHAT_PROMPTS.md](CHAT_PROMPTS.md) for the regular-Search procedure. Read `intelligence/splash_import/readiness_latest.json` if present, check age and matching input blob identities, and distinguish its actual repository execution from a validator this chat did not run. Missing or mismatched readiness evidence means recommendations remain unverified.
+
 From `splash_picks_log.csv` and latest `splash_picks/*.md`: your locked line vs imported vs model at lock, movement, side_changed, ticket probability vs break-even. Grade only at the locked line.
 
 ## Ops health

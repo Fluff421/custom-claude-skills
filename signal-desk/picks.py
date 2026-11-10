@@ -68,10 +68,13 @@ PROB_DRIFT = float(os.environ.get("PROB_DRIFT", "0.005"))  # re-price when win p
 QB_OUT_NEW_CAP = os.environ.get("QB_OUT_NEW_CAP", "lean").strip().lower() != "off"
 
 
-def load_params(token: str) -> dict[str, dict]:
+def load_params(token: str, base: str | None = None) -> dict[str, dict]:
     """Model Parameters rows keyed by league, with defaults for anything missing."""
     import json as _json
-    url = f"https://api.airtable.com/v0/{es.AIRTABLE_BASE}/{PARAMS}"
+    base = base or getattr(es, "AIRTABLE_BASE", None) or os.environ.get("AIRTABLE_BASE_ID", "").strip()
+    if not base:
+        raise ValueError("Airtable base is required to read model parameters")
+    url = f"https://api.airtable.com/v0/{base}/{PARAMS}"
     page = _json.loads(es.http_get(url, es.at_headers(token)))
     out = {}
     for r in page.get("records", []):
