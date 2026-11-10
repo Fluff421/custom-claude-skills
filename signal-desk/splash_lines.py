@@ -55,7 +55,8 @@ COLS = ["snapshot_id", "snapshot_kind", "movement_seq", "captured_at_central", "
         "d_margin_prev", "d_total_prev", "d_margin_early", "d_total_early", "moved_toward",
         "market_home_margin", "market_total", "market_ts", "market_d_margin_prev", "market_d_total_prev",
         "gap_vs_market_margin", "gap_vs_market_total", "key_numbers_crossed", "injury_hash", "injury_changed",
-        "model_spread_side", "model_spread_tier", "model_total_side", "model_total_tier", "move_hint", "owner_note"]
+        "model_spread_side", "model_spread_tier", "model_total_side", "model_total_tier", "move_hint", "owner_note",
+        "reference_origin", "ledger_record_id", "model_status"]
 
 
 # ---------------------------------------------------------------- parsing
@@ -350,7 +351,10 @@ def build_rows(d: dict, games: list[dict], prev_rows: list[dict], market_rows: l
                "gap_vs_market_total": "" if m_t is None or tot is None else round(tot - m_t, 2),
                "key_numbers_crossed": ", ".join(kx), "injury_hash": ih,
                "injury_changed": "" if not prev else ("yes" if prev.get("injury_hash", "") != ih and prev.get("injury_hash") is not None else "no"),
-               "owner_note": ""}
+               "owner_note": "",
+               "reference_origin": f.get("_reference_origin", "airtable"),
+               "ledger_record_id": f.get("_ledger_record_id") if f.get("_reference_origin") == "repository" else f["_id"],
+               "model_status": f.get("_model_status", "")}
         if with_model:
             row.update(model_view(picks_latest, f["_id"]))
         row["move_hint"] = hint(row)
@@ -423,18 +427,32 @@ def write_log(rows: list[dict]) -> None:
         w.writerows(sorted(keep + rows, key=lambda r: (r.get("captured_at_utc", ""), r.get("league", ""), r.get("date", ""), r.get("game", ""))))
 
 
+def with_repository_schedule(games, path=None, keep_ledger_aliases=False):
+    """Read-only context adapter; never creates a game or writes state."""
+    import pathlib
+    import repo_schedule as rs
+    from splash_import import matching
+    path = pathlib.Path(path) if path is not None else pathlib.Path(OUT) / "splash_import/schedule.json"
+    if not path.exists():
+        return games
+    catalog = rs.RepositorySchedule(rs.load(path), games, matching)
+    combined = catalog.games()
+    bound = {f.get("_ledger_record_id") for f in combined if f.get("_reference_origin") == "repository"}
+    return combined if keep_ledger_aliases else [f for f in combined if f["_id"] not in bound]
+
+
 def load_games() -> list[dict]:
     path = os.environ.get("LEDGER_JSON")
     if path:   # offline / tests: a JSON list of {"id", "fields"} records
         with open(path, encoding="utf-8") as fh:
-            return [r["fields"] | {"_id": r["id"]} for r in json.load(fh)]
+            return with_repository_schedule([r["fields"] | {"_id": r["id"]} for r in json.load(fh)])
     import espn_sync as es
     import intelligence_report as ir
     token, base = os.environ.get("AIRTABLE_TOKEN", "").strip(), os.environ.get("AIRTABLE_BASE_ID", "").strip()
     if not (token and base):
         raise SystemExit("ERROR: AIRTABLE_TOKEN and AIRTABLE_BASE_ID must be set (or LEDGER_JSON for offline use).")
     es.AIRTABLE_BASE = base
-    return [r["fields"] | {"_id": r["id"]} for r in ir.fetch(base, token, ir.LEDGER, "{Record Type}='Game'")]
+    return with_repository_schedule([r["fields"] | {"_id": r["id"]} for r in ir.fetch(base, token, ir.LEDGER, "{Record Type}='Game'")])
 
 
 def main() -> None:

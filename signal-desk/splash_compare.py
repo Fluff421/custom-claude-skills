@@ -35,7 +35,8 @@ OUT = os.path.join(HERE, "intelligence")
 LOG_COLS = ["logged_at", "locked_at", "ticket_id", "ticket_type", "ticket_legs", "market", "team", "side", "game", "record_id", "date", "league",
             "imported_line", "locked_line", "base_line", "teased_line", "price", "movement_for_you", "lead_days",
             "model_side_import", "model_tier_import", "model_side_lock", "model_tier_lock", "model_prob_lock", "model_edge_lock",
-            "model_proj_lock", "side_changed", "matched", "status", "ticket_prob", "ticket_break_even", "text"]
+            "model_proj_lock", "side_changed", "matched", "status", "ticket_prob", "ticket_break_even", "text",
+            "reference_origin", "ledger_record_id", "model_status"]
 
 NUM = r"[+-]?\d+(?:\.\d+)?"
 SPREAD = re.compile(rf"^(?P<team>[A-Za-z][A-Za-z0-9 .&'()\-]*?)\s+(?P<line>{NUM}|PK|pk|pick)(?:\s+\((?:spread)\))?\s*$")
@@ -180,6 +181,8 @@ def make_pricer(params_by_league: dict | None, counts: dict | None, now: str, fa
     import picks as pk
 
     def pricer(f: dict, market: str, side: str, line: float | None, price: float | None) -> dict:
+        if f.get("_model_status") == "unpriced":
+            return {}
         league = f.get("League") or "NCAAF"
         p = mk.load_params(league, (params_by_league or {}).get(league), None)
         if market == "spread":
@@ -218,6 +221,8 @@ def make_pricer(params_by_league: dict | None, counts: dict | None, now: str, fa
 
 def teaser_leg_prob(f: dict, leg: dict, base: float, teased: float, side: str, p: dict, factor_live: bool = False) -> float | None:
     """Model probability that a teased leg wins (key-number aware for spreads)."""
+    if f.get("_model_status") == "unpriced":
+        return None
     if leg["market"] == "total":
         proj = mk.project_game(f, {"total": base}, p, factor_live)
         T = proj.get("proj_total")
@@ -293,7 +298,12 @@ def compare(tickets: list[dict], games: list[dict], now: str, pricer=None, today
                         "league": f.get("League"), "imported_line": imp, "locked_line": locked, "base_line": base, "teased_line": teased,
                         "price": leg.get("price") if leg.get("price") is not None else "", "matched": "pending", "status": status, "lead_days": lead,
                         "movement_for_you": movement_for_you(leg["market"], side, imp, cmp_line)})
-            if pricer and t["type"] != "teaser":
+            row.update({"reference_origin": f.get("_reference_origin", "airtable"),
+                        "ledger_record_id": f.get("_ledger_record_id") if f.get("_reference_origin") == "repository" else f["_id"],
+                        "model_status": f.get("_model_status", "")})
+            if f.get("_model_status") == "unpriced":
+                row["matched"] = "unpriced"
+            elif pricer and t["type"] != "teaser":
                 at_lock = pricer(f, leg["market"], side, locked, leg.get("price")) or {}
                 at_imp = pricer(f, leg["market"], side, imp, leg.get("price")) if imp is not None and leg["market"] != "moneyline" else {}
                 row.update({"model_side_lock": at_lock.get("side", ""), "model_tier_lock": at_lock.get("tier", ""),
@@ -364,6 +374,9 @@ def render(rows: list[dict], unmatched: list[str], bad: list[str], passes: list[
          f"{len(rows)} legs compared at the line you locked: {agree} matched the model, {against} went against it. "
          "All model picks are paper picks. Line differences are normal line movement, not errors.", ""]
     from intelligence_report import md_table
+    unpriced = sum(r.get("model_status") == "unpriced" for r in rows)
+    if unpriced:
+        L += [f"{unpriced} recorded legs are unpriced: repository game references exist, but verified model inputs do not. No probability or recommendation is supplied for them.", ""]
     def fmt(r):
         if r["market"] == "teaser_leg":
             return f"{r.get('team')} {float(r['base_line']):+g} -> {float(r['teased_line']):+g}" if r.get("base_line") not in ("", None) else r.get("team")
@@ -375,7 +388,7 @@ def render(rows: list[dict], unmatched: list[str], bad: list[str], passes: list[
     L.append(md_table(["Game", "Type", "Your pick (locked)", "Early-week line", "Moved for you", "Model at lock", "Result"],
                       [[r.get("game"), r.get("ticket_type") + "/" + r["market"], fmt(r), r.get("imported_line", ""), r.get("movement_for_you", ""),
                         (f"{r.get('model_side_lock')} {r.get('model_tier_lock')}".strip() or ("prob " + str(r.get("model_prob_lock")) if r.get("model_prob_lock") else "")),
-                        {"yes": "matched", "no": "went against", "pending": r.get("status", ""), "unmatched": "no game found", "n/a": "tracked"}.get(r.get("matched"), "")]
+                        {"yes": "matched", "no": "went against", "pending": r.get("status", ""), "unpriced": "unpriced; " + r.get("status", ""), "unmatched": "no game found", "n/a": "tracked"}.get(r.get("matched"), "")]
                        for r in rows]))
     changed = [r for r in rows if r.get("side_changed") == "yes"]
     if changed:
@@ -394,6 +407,20 @@ def render(rows: list[dict], unmatched: list[str], bad: list[str], passes: list[
     return "\n".join(L) + "\n"
 
 
+def append_log(path, rows):
+    """Regenerate the CSV header when adding provenance columns, retaining rows."""
+    existing, extra = [], []
+    if os.path.exists(path):
+        with open(path, newline="", encoding="utf-8") as fh:
+            reader = csv.DictReader(fh)
+            extra = [k for k in (reader.fieldnames or []) if k not in LOG_COLS]
+            existing = list(reader)
+    with open(path, "w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=LOG_COLS + extra, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(existing + rows)
+
+
 def main() -> None:
     import espn_sync as es
     import intelligence_report as ir
@@ -407,6 +434,8 @@ def main() -> None:
         raise SystemExit("No readable picks in SPLASH_PICKS.")
     today = ir.central_today()
     games = [r["fields"] | {"_id": r["id"]} for r in ir.fetch(base, token, ir.LEDGER, "{Record Type}='Game'")]
+    import splash_lines as sl
+    games = sl.with_repository_schedule(games)
     params = {r["fields"].get("League"): r["fields"] for r in ir.fetch(base, token, ir.PARAMS, "TRUE()")}
     try:
         pp, counts = pk.load_params(token), pk.graded_counts(base, token)
@@ -424,12 +453,7 @@ def main() -> None:
     with open(os.path.join(OUT, "splash_picks", dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d-%H%M") + ".md"), "w", encoding="utf-8") as fh:
         fh.write(text)
     path = os.path.join(OUT, "splash_picks_log.csv")
-    new = not os.path.exists(path)
-    with open(path, "a", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=LOG_COLS, extrasaction="ignore")
-        if new:
-            w.writeheader()
-        w.writerows(rows)
+    append_log(path, rows)
     print(text)
 
 

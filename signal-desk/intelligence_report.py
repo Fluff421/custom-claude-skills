@@ -357,7 +357,10 @@ def main() -> None:
         "overall": {"graded": len(graded), "wins": sum(1 for f in graded if f["Grade"] == "Win"), "losses": sum(1 for f in graded if f["Grade"] == "Loss"),
                     "brier": brier(graded)},
     }
-    by_id = {f["_id"]: f for f in games}
+    import splash_lines as sl
+    # Adapt only Splash outcome contexts. Do not promote repository-only games
+    # into primary recommendations, factor calibration or Ledger metrics.
+    by_id = {f["_id"]: f for f in sl.with_repository_schedule(games, keep_ledger_aliases=True)}
     data["splash_vs_model"] = user_vs_model(by_id)
     for r in data["splash_vs_model"]:
         r["model_result"] = _model_result(r, by_id.get(r.get("record_id")))

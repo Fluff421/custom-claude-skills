@@ -22,6 +22,7 @@ from zoneinfo import ZoneInfo
 import splash_compare as sc
 import splash_lines as sl
 import splash_pricecheck as sp
+import repo_schedule as rs
 
 LINES = "signal-desk.splash-lines.v1"
 PICKS = "signal-desk.splash-picks.v1"
@@ -78,6 +79,7 @@ def matching(g, games):
             return exact[0]
         tokens = sc._words(value)
         short = [n for n in names if tokens and tokens <= sc._words(n)]
+        need(len(short) <= 1, f"{value}: ambiguous short team name in league/date window")
         return short[0] if len(short) == 1 else None
 
     away, home = resolve(g.get("away_team")), resolve(g.get("home_team"))
@@ -130,7 +132,8 @@ def finished_count_exception(d, games, previous):
                for lg in set(declared) | set(actual))
 
 
-def plan(d, games, previous, log, now, prior_sources=None):
+def plan(d, games, previous, log, now, prior_sources=None, matcher=None):
+    resolve = matcher or matching
     need(isinstance(d, dict) and d.get("schema") in (LINES, PICKS), "unsupported schema")
     kind = "lines" if d["schema"] == LINES else "picks"
     need(d.get("source") == ("Splash Sports Lines" if kind == "lines" else "Splash Sports Picks"),
@@ -168,7 +171,7 @@ def plan(d, games, previous, log, now, prior_sources=None):
             away, home = number(g.get("away_spread"), "away spread"), number(g.get("home_spread"), "home spread")
             need(away == -home, "away_spread must equal -home_spread")
             number(g.get("total"), "total")
-            f = matching(g, games)
+            f = resolve(g, games)
             need(f["_id"] not in ids, "duplicate game in dump")
             ids.add(f["_id"])
             result["matches"].append(f["_id"])
@@ -191,7 +194,8 @@ def plan(d, games, previous, log, now, prior_sources=None):
         need(typ != "single" or len(legs) == 1, "single ticket must have one leg")
         text, expected, chosen = [], [], []
         for leg in legs:
-            f = matching(leg, games)
+            f = resolve(leg, games)
+            result["matches"].append(f["_id"])
             market = leg.get("market")
             need(market in ("spread", "total", "moneyline"), "unsupported leg market")
             selection = leg.get("selection", "")
@@ -273,6 +277,11 @@ def load_context():
 
 def reconcile_only():
     _, _, games, log = load_context()
+    catalog = rs.RepositorySchedule(
+        rs.load(HERE / "intelligence/splash_import/schedule.json"), games, matching)
+    games = catalog.games()
+    if catalog.state["games"]:
+        save_json(HERE / "intelligence/splash_import/schedule.json", catalog.state)
     save_json(HERE / "intelligence/splash_import/reconciliation/latest.json", reconcile(games, log))
 
 
@@ -287,17 +296,21 @@ def execute(path, check_only=False, now=None):
     last = max((r.get("captured_at_utc", "") for r in lines), default="")
     previous = [r for r in lines if r.get("captured_at_utc") == last]
     now = now or dt.datetime.now(dt.timezone.utc)
+    digest = hashlib.sha256(raw).hexdigest()
+    schedule_path = HERE / "intelligence/splash_import/schedule.json"
+    catalog = rs.RepositorySchedule(rs.load(schedule_path), games, matching, dump=d, digest=digest)
     prior_sources = {}
     for prior in (HERE / "intelligence/splash_import/receipts").glob("*.json"):
         for source, fingerprint in json.loads(prior.read_text()).get("source_tickets", {}).items():
             need(source not in prior_sources or prior_sources[source] == fingerprint,
                  "receipt source ticket_id conflict; owner review required")
             prior_sources[source] = fingerprint
-    p = plan(d, games, previous, log, now, prior_sources)
+    p = plan(d, games, previous, log, now, prior_sources, matcher=catalog.resolve)
+    games = catalog.games()
+    p["reference_matches"] = catalog.match_details(p["matches"])
     code = p["date_code"]
     need(path.name == code + ".json", "filename must equal date_code.json")
     receipt_path = HERE / "intelligence/splash_import/receipts" / (code + ".json")
-    digest = hashlib.sha256(raw).hexdigest()
     if receipt_path.exists():
         old = json.loads(receipt_path.read_text())
         need(old.get("input_sha256") == digest, "date_code already exists with different content; submit a new extraction")
@@ -315,6 +328,7 @@ def execute(path, check_only=False, now=None):
     pricer = sc.make_pricer(pk.load_params(token), pk.graded_counts(base, token),
                             now.strftime("%Y-%m-%d %H:%MZ"), os.environ.get("FACTOR_MODE") == "live")
     new_rows, files = [], {}
+    files[schedule_path] = json.dumps(catalog.state, indent=2, ensure_ascii=False, allow_nan=False) + "\n"
     if p["kind"] == "picks":
         for item in p["tickets"]:
             rows, unmatched = sc.compare([item["ticket"]], item["games"], now.strftime("%Y-%m-%d %H:%MZ"),
@@ -345,7 +359,9 @@ def execute(path, check_only=False, now=None):
     else:
         need(not any(r.get("snapshot_id") == code for r in lines), "snapshot exists without an import receipt; manual review required")
         latest = json.loads(pathlib.Path(sl.PICKS_LATEST).read_text()) if pathlib.Path(sl.PICKS_LATEST).exists() else {}
-        new_rows, unmatched, flags = sl.build_rows(d, games, lines, sl.read_csv(sl.MARKET_LOG), latest)
+        matched_ids = set(p["matches"])
+        matched_games = [f for f in games if f["_id"] in matched_ids]
+        new_rows, unmatched, flags = sl.build_rows(d, matched_games, lines, sl.read_csv(sl.MARKET_LOG), latest)
         need(not unmatched and not flags and len(new_rows) == p["expected_rows"], "line generation did not match the validated batch")
         import io
         buff = io.StringIO(newline="")
@@ -353,7 +369,9 @@ def execute(path, check_only=False, now=None):
         writer.writeheader()
         writer.writerows(lines + new_rows)
         files[pathlib.Path(sl.LOG)] = buff.getvalue()
-        report = sl.render(d, new_rows, [], [], [], sl.movement_learning(lines + new_rows, {f["_id"]: f for f in games}))
+        unpriced = [f for f in matched_games if f.get("_model_status") == "unpriced"]
+        notes = [f"{len(unpriced)} repository-reference games are unpriced; no model forecast or independent schedule verification is implied."] if unpriced else []
+        report = sl.render(d, new_rows, [], [], notes, sl.movement_learning(lines + new_rows, {f["_id"]: f for f in games}))
         files[pathlib.Path(sl.DIR) / (code + ".md")] = report
         files[pathlib.Path(sl.DIR) / "latest.md"] = report
         results = [sp.check_game(f, r, pricer, params, os.environ.get("FACTOR_MODE") == "live")

@@ -1,6 +1,6 @@
 # Splash Sports imports from regular chat
 
-This is the repository-only import path for the owner's native File 1 lines and File 2 picks JSON; it never writes to Airtable. The implementation was merged in [PR #58](https://github.com/Fluff421/custom-claude-skills/pull/58). Installed code, an active workflow, an available regular-chat write action, valid source data, existing Ledger games, and a successful production receipt are separate checks. Do not describe the importer as merely proposed because an older report says so, or describe an import as complete merely because the code is installed.
+This is the repository-only import path for the owner's native File 1 lines and File 2 picks JSON; it never writes to Airtable. The original inbox implementation was merged in [PR #58](https://github.com/Fluff421/custom-claude-skills/pull/58). The repository-schedule extension is installed only if current `main` contains `signal-desk/repo_schedule.py` and the importer calls it; a local or PR version is not deployment. Installed code, an active workflow, an available regular-chat write action, valid source data, game-reference coverage, model readiness, and a successful production receipt are separate checks.
 
 ## Check chat access before requesting another dump
 
@@ -45,6 +45,8 @@ Do not launch Computer, a Computer task, or a Computer automation.
 
 Read the current main-branch signal-desk/SPLASH_IMPORT.md and importer.
 Check live deployment state, not a historical audit's deployment label.
+Check whether main includes signal-desk/repo_schedule.py and the importer
+uses it; a file on an unmerged branch is not an installed extension.
 Identify the schema and date_code.
 For File 1 use signal-desk.splash-lines.v1.
 For File 2 use signal-desk.splash-picks.v1.
@@ -60,9 +62,16 @@ from the captured entries; do not patch this supplied file.
 Use a fresh read-only Ledger query to verify matching if available.
 A stale operations summary is not a current Ledger row export. If no
 current Ledger access exists, say matching is unverified, not zero.
-Missing Ledger games cannot be fixed by resubmitting the same dump,
-running the existing sync, or waiting without a schedule-creation route.
-Do not create Ledger rows, invent record IDs, or waive matching.
+If the repository-schedule extension is installed, a valid File 1 can
+establish owner-source game references without existing Ledger rows.
+File 2 must match existing repository references or actual Ledger games;
+it cannot create unseen games. Require a unique league/date/both-team
+match with correct orientation. If the extension is not installed,
+missing Ledger games remain a separate deployment/schedule blocker.
+Do not create Ledger rows or describe repo-game: IDs as Airtable IDs.
+An accepted repository reference is not independent schedule verification
+and is not a model recommendation. Without verified model inputs, show
+unpriced and leave probabilities and recommendations absent.
 
 Only after the access, source, freshness, count, and matching checks pass,
 prepare exactly:
@@ -98,7 +107,9 @@ For a commit created by the assistant, retain the user's authorship and end the 
 - **Freshness**: Lines and completed-pick extractions must be at most 24 hours old; pending-pick extractions at most 12 hours old. Anything older than four hours is flagged even if still within its import limit.
 - **Extraction counts**: The owner-run extractor should build the complete `games` array first and compute `game_count` from its actual league tags. Page-wide counters may refer to another tab, filter, or slate; that is a reason to inspect the source, not to reclassify a game or fill in an unseen game. Do not assume the header or array is correct until the owner verifies coverage. A timestamp-only refresh is not a fresh extraction.
 - **Count exception**: Only an exact, per-league removal of already-finished games from the same prior slate can justify a smaller board. A previous week finishing cannot excuse unrelated header errors.
-- **Matching**: League, Central date within one day, and both teams must identify exactly one existing Ledger row. Exact names take priority; only uniquely identifying short names can resolve. Reversed or uncertain home/away orientation fails validation instead of silently flipping.
+- **Matching**: League, Central date within one day, and both teams must identify exactly one reference. Existing Ledger games are preferred for newly seen games. With the schedule extension installed, a validated File 1 can establish a repository reference when no Ledger game exists, but only with explicit certain home/away orientation. File 2 cannot establish unseen games. Ambiguous or reversed Ledger matches remain errors, not permission to fall back.
+- **Names and identity**: Exact names take priority; uniquely identifying short names and owner-supplied full-name expansions require the same dated, both-team match. Original source names, initial date, first quote, and `repo-game:` identity remain unchanged; observed expanded names are separate provenance. Names are never expanded from an invented team dictionary.
+- **Model readiness**: Repository references without finite verified Home/Away FPI inputs are `unpriced`, including spread, total, moneyline and teaser probabilities. They do not enter primary market recommendations or calibration cohorts. Available Ledger scores may grade the official recorded Splash line; an owner-reported settlement alone does not establish a result.
 - **Picks**: Full-name text conversion, explicit `Parlay:` and `Teaser:` lines, and `teased` suffixes are preserved. A null teased number is never inferred. Duplicate full tickets are skipped; changed source-ticket identities require review. Moneyline price is included in ticket identity.
 - **Preservation**: Raw input is archived byte-for-byte with a SHA-256 receipt. Supplied stake, payout, source ticket ID, and reported result stay in the receipt and raw file, not Airtable. Existing generated logs are updated only by the importer.
 - **Line history**: The first capture becomes an early snapshot; subsequent captures append movement instead of changing earlier rows. This does not fill blank Ledger fields.
@@ -115,6 +126,7 @@ The old text inbox and manual workflows remain available. The new native-JSON ro
 | Accepted receipt | `signal-desk/intelligence/splash_import/receipts/<date_code>.json` |
 | Archived inbox JSON | `signal-desk/intelligence/splash_import/processed/<date_code>.json` |
 | Current derived outcomes | `signal-desk/intelligence/splash_import/reconciliation/latest.json` |
+| Owner-source game references | `signal-desk/intelligence/splash_import/schedule.json` |
 | Lines raw input | `signal-desk/intelligence/splash_lines/raw/<date_code>.json` |
 | Lines movement report | `signal-desk/intelligence/splash_lines/<date_code>.md` |
 | Current-line check | `signal-desk/intelligence/splash_pricecheck/latest.md` and `latest.json` |
@@ -122,12 +134,13 @@ The old text inbox and manual workflows remain available. The new native-JSON ro
 | Picks text archive | `signal-desk/intelligence/splash_picks/processed/<date_code>.txt` |
 | Picks comparison | `signal-desk/intelligence/splash_picks/<date_code>.md` |
 
-Read the receipt's `actual_new_rows`, duplicate list, SHA-256, and `airtable_writes: 0`, then verify that the receipt and outputs exist in the successful processing commit. Ticket probabilities in a comparison are processing-time reconstructions, not proof of a saved pregame forecast; reference payout calculations are not a statement of actual contest winnings.
+Read the receipt's `actual_new_rows`, duplicate list, SHA-256, `reference_matches`, and `airtable_writes: 0`, then verify that the receipt and outputs exist in the successful processing commit. Reference matches distinguish repository IDs from actual Ledger IDs and identify unpriced games. Ticket probabilities in a comparison are processing-time reconstructions, not proof of a saved pregame forecast; reference payout calculations are not a statement of actual contest winnings.
 
 ## Important boundaries
 
-- **Missing Ledger games**: This route requires exactly one existing Ledger match per game and never creates Ledger rows. The existing ESPN sync enriches existing rows; it does not provision the next week's schedule. Report missing schedule coverage as a separate dependency, with the time and scope of the read. Do not send the owner through repeated extractions to fix it.
-- **Read-only schedule boundary**: Keeping Airtable read-only means an assistant cannot solve absent Ledger rows by creating them. Either an owner-managed schedule process must supply the existing Ledger rows, or a separately approved architectural change must add repository-only game identities and adapt their consumers. The second option is not implemented by this inbox and must never masquerade as Airtable matches.
+- **Missing Ledger games**: With the extension installed, valid File 1 data can establish repository-only references without creating Ledger rows. Without the extension, missing Ledger coverage remains a blocker. The existing ESPN sync enriches existing rows; waiting for it is not a schedule-creation solution.
+- **Read-only schedule boundary**: Repository references are owner-source import identities, not independent verification or Airtable records. Later unique Ledger matches retain the original repository ID and store the real `ledger_record_id` separately. Binding conflicts fail instead of switching IDs. Existing Ledger and repository identities remain available to historical grading without double-counting them during new matching.
+- **Read access still required**: This extension removes the requirement for pre-existing Ledger games, not the read configuration used to load current Ledger/model context. An unavailable Airtable read fails visibly; it is not silently treated as an empty table.
 - **Invalid dumps**: Derive the diagnosis from the newly attached file. Do not copy counts or dates from a historical report. Ask for source verification and a newly extracted complete file when header and body disagree; do not guess which field is wrong.
 - **Historical line discrepancies**: A guard in closing capture preserves a populated total going forward. It does not repair historical differences between saved early snapshots and current Ledger values.
 - **Existing scheduled prompts**: This guide does not establish their current state. The import workflow does not require a Computer automation run. Do not tell the owner to run one for each dump, or infer that a saved prompt changed merely because repository code changed.
@@ -136,6 +149,6 @@ Read the receipt's `actual_new_rows`, duplicate list, SHA-256, and `airtable_wri
 
 ## Deployment acceptance
 
-For a new implementation, an approved push and separately approved PR come before the owner's review and merge. For this installed implementation, check the actual current main-branch files and workflow rather than repeating an obsolete "not merged" statement. Then test the regular-chat file action without a write, verify existing schedule coverage, submit one fresh valid owner dump with its own exact-file approval, and verify the resulting production commit and reports.
+For a new extension, an approved push and separately approved PR come before the owner's review and merge. Check actual current main-branch files and workflow rather than repeating an obsolete deployment label. Then test the regular-chat file action without a write, verify the deployed reference route, submit one fresh valid owner dump with its own exact-file approval, and verify the resulting production commit and reports. A code test or accepted reference does not establish regular-chat write availability or model readiness.
 
 Keep Airtable read-only throughout. Do not declare the whole system ready until schedule coverage, data freshness, and the readiness gate also pass.
