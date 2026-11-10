@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-09T22:18:28.000Z"
+   "updated": "2026-11-10T19:41:21.000Z"
   },
   "NFL": {
    "forward": {
@@ -76,9 +76,9 @@
    },
    "gate": {
     "Lean": {
-     "mean": 0.469,
-     "n": 16,
-     "se": 0.272,
+     "mean": 0.471,
+     "n": 17,
+     "se": 0.255,
      "status": "unproven"
     },
     "Max Play": {
@@ -109,18 +109,18 @@
      "se": 0.0335,
      "slope": 0.2008
     },
-    "n": 28,
+    "n": 29,
     "noise_sd": null,
     "nonzero": {
-     "edge": 28,
-     "inj": 19,
+     "edge": 29,
+     "inj": 20,
      "lookahead": 4,
      "rest": 5,
      "revenge": 4,
      "travel": 6,
      "weather": 1
     },
-    "note": "28 graded picks with CLV (< 30); using the history prior on edge only",
+    "note": "29 graded picks with CLV (< 30); using the history prior on edge only",
     "ok": false,
     "prior": {
      "edge": 0.2008,
@@ -132,7 +132,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-09T22:18:28.000Z"
+   "updated": "2026-11-10T19:41:21.000Z"
   }
  },
  "sigma": {
@@ -169,13 +169,13 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-09T22:18:28.000Z"
+   "updated": "2026-11-10T19:41:21.000Z"
   },
   "NFL": {
-   "n_eff": 689.2,
-   "n_ledger": 28,
+   "n_eff": 689.8,
+   "n_ledger": 29,
    "raw": 12.36,
-   "reason": "moved toward learned 12.37 (max step 0.5)",
+   "reason": "moved toward learned 12.38 (max step 0.5)",
    "segments": {
     "big_spread": {
      "applied": false,
@@ -186,13 +186,13 @@
     "injury_heavy": {
      "applied": false,
      "mult": 1.0,
-     "n": 6,
+     "n": 7,
      "sd": null
     },
     "qb_uncertain": {
      "applied": false,
      "mult": 1.0,
-     "n": 3,
+     "n": 4,
      "sd": null
     },
     "weather": {
@@ -202,9 +202,9 @@
      "sd": null
     }
    },
-   "sigma": 12.37,
-   "target": 12.37,
-   "updated": "2026-11-09T22:18:28.000Z"
+   "sigma": 12.38,
+   "target": 12.38,
+   "updated": "2026-11-10T19:41:21.000Z"
   }
  }
 }
