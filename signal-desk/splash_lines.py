@@ -169,7 +169,8 @@ def validate(d: dict, games: list[dict], prev_rows: list[dict], now: dt.datetime
         present[g.get("league")] = present.get(g.get("league"), 0) + 1
     declared = d.get("game_count") or {}
     if any(int(declared.get(k, 0) or 0) != present.get(k, 0) for k in set(declared) | set(present)):
-        # Accept only when everything missing versus the previous snapshot is already final in the ledger.
+        # Only an arithmetically proven removal from the SAME slate is exempt.
+        # An unrelated prior week becoming final cannot justify extra new-week entries.
         by_id = {f["_id"]: f for f in games}
         now_ids = set()
         for g in gl:
@@ -178,11 +179,20 @@ def validate(d: dict, games: list[dict], prev_rows: list[dict], now: dt.datetime
                 now_ids.add(f["_id"])
         prev_ids = {r["record_id"] for r in prev_rows if r.get("record_id")}
         missing = [by_id.get(i) for i in prev_ids - now_ids]
-        not_final = [m for m in missing if not m or m.get("Home Score") is None]
-        if prev_rows and not not_final:
+        not_final = [m for m in missing if not m or m.get("Home Score") is None or m.get("Away Score") is None]
+        previous_counts, removed_counts = {}, {}
+        for r in prev_rows:
+            previous_counts[r.get("league")] = previous_counts.get(r.get("league"), 0) + 1
+        for m in missing:
+            if m:
+                removed_counts[m.get("League")] = removed_counts.get(m.get("League"), 0) + 1
+        leagues = set(declared) | set(present)
+        exact_gap = all(int(declared.get(k, 0) or 0) - present.get(k, 0) == removed_counts.get(k, 0) for k in leagues)
+        same_slate = previous_counts == declared and now_ids <= prev_ids and len(now_ids) == len(gl)
+        if missing and not not_final and same_slate and exact_gap:
             notes.append(f"game_count says {declared} but the dump has {present}. Every game missing since the previous snapshot is "
-                         f"already final ({', '.join(sorted(m.get('Game', '') for m in missing)) or 'none'}), so the gap is a count "
-                         "error or finished games Splash dropped; accepted.")
+                         f"already final ({', '.join(sorted(m.get('Game', '') for m in missing))}), and the per-league gap "
+                         "exactly equals finished games Splash dropped; accepted.")
         else:
             errors.append(f"game_count says {declared} but the dump has {present}, and the gap is not explained by finished games")
     return errors, notes

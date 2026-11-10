@@ -1,0 +1,101 @@
+name: Splash JSON inbox (Signal Desk)
+
+# Exactly one owner-approved raw JSON file per submission. No dump compression,
+# manual workflow form, result entry, or Airtable writes.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "signal-desk/intelligence/splash_import/inbox/*.json"
+  workflow_run:
+    workflows: ["Close & Grade (Signal Desk)"]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: signal-desk-splash-compare
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: >-
+      (github.event_name == 'push' && github.actor == github.repository_owner) ||
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
+      EVENT_KIND: ${{ github.event_name }}
+      EVENT_BEFORE: ${{ github.event.before }}
+      EVENT_AFTER: ${{ github.event.after }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate and import the exact approved submission
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_KIND" = workflow_run ]; then
+            python signal-desk/splash_import.py --reconcile
+            exit 0
+          fi
+          python - <<'PY'
+          import os, pathlib, subprocess, sys
+          before, after = os.environ["EVENT_BEFORE"], os.environ["EVENT_AFTER"]
+          if not before or set(before) == {"0"}:
+              raise SystemExit("Unsupported initial-repository event; submit one new file.")
+          raw = subprocess.check_output([
+              "git", "diff", "--name-only", "-z", "--diff-filter=AM", before, after,
+              "--", "signal-desk/intelligence/splash_import/inbox/*.json"])
+          names = [n for n in raw.decode().split("\0") if n]
+          if len(names) != 1:
+              raise SystemExit("Submit exactly one owner-approved JSON file per commit.")
+          path = pathlib.Path(names[0])
+          expected = subprocess.check_output(["git", "show", after + ":" + names[0]])
+          if not path.exists() or path.read_bytes() != expected:
+              raise SystemExit("Input changed or was already processed since this event; no replay.")
+          subprocess.run([sys.executable, "signal-desk/splash_import.py", str(path)], check=True)
+          PY
+      - name: Commit verified outputs or fail visibly
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name signal-desk-bot
+          git config user.email signal-desk-bot@users.noreply.github.com
+          git add signal-desk/intelligence/splash_import \
+            signal-desk/intelligence/splash_picks \
+            signal-desk/intelligence/splash_picks_log.csv \
+            signal-desk/intelligence/splash_lines \
+            signal-desk/intelligence/splash_lines_log.csv \
+            signal-desk/intelligence/splash_pricecheck
+          if git diff --cached --quiet; then
+            echo "No changes; nothing to commit."
+            exit 0
+          fi
+          git commit -m "Signal Desk Splash JSON import $(date -u +%F-%H%M)" \
+            -m "Co-authored-by: Perplexity <noreply@perplexity.ai>"
+          # Unlike commit_data.sh, a rebase conflict MUST fail, not skip silently.
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Preserve import diagnostics
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: splash-import-diagnostics
+          path: |
+            signal-desk/intelligence/splash_import/receipts
+            signal-desk/intelligence/splash_import/reconciliation
+          if-no-files-found: ignore

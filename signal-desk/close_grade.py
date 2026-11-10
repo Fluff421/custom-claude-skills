@@ -193,7 +193,7 @@ def main() -> None:
                     if spread is not None:
                         fav = "EVEN" if spread == 0 else (home_name if spread < 0 else away_name)
                         new = {"Closing Spread (Home)": spread, "Closing Favorite": fav}
-                        if total is not None:
+                        if total is not None and f.get("Over/Under Line") is None:
                             new["Over/Under Line"] = total
                         new["Line Source Note"] = append_note(
                             f.get("Line Source Note"),

@@ -88,10 +88,20 @@ class Validate(unittest.TestCase):
 
     def test_count_gap_explained_by_finished_games(self):
         prev, _, _ = sl.build_rows(D1, GAMES, [], [], {}, "early_import")
-        d = dict(D2, game_count={"NCAAF": 6, "NFL": 1})
+        d = dict(D2, game_count={"NCAAF": 3, "NFL": 1})
         errs, notes = sl.validate(d, GAMES, prev, NOW)
         self.assertEqual(errs, [])
         self.assertIn("Ohio @ Akron", notes[0])
+
+    def test_arbitrary_count_error_not_excused_by_finished_game(self):
+        prev, _, _ = sl.build_rows(D1, GAMES, [], [], {}, "early_import")
+        d = dict(D2, game_count={"NCAAF": 6, "NFL": 1})
+        self.assertTrue(sl.validate(d, GAMES, prev, NOW)[0])
+
+    def test_extra_entries_not_excused_by_finished_game(self):
+        prev, _, _ = sl.build_rows(D1, GAMES, [], [], {}, "early_import")
+        d = dict(D2, game_count={"NCAAF": 1, "NFL": 1})
+        self.assertTrue(sl.validate(d, GAMES, prev, NOW)[0])
 
     def test_count_gap_unexplained(self):
         d = dict(D2, game_count={"NCAAF": 6, "NFL": 1})
