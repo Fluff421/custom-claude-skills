@@ -1,0 +1,256 @@
+{
+  "schema": "signal-desk.splash-review.v1",
+  "date_code": "SPL-C-20261110-1139",
+  "input_sha256": "26294ad5489d8a318a772e3e5028f7d415506ef5f65c962df4e26fdff1178a60",
+  "warning_resolutions": [
+    {
+      "warning": "Game kickoff times are not shown on the history page and have been set to null.",
+      "resolution": "Owner confirms these completed tickets concern November 5–9, 2026 games. Use only the explicit completed_game_dates below to match existing Ledger games by league, date and both teams. Kickoff times remain null; do not use placement or settlement time as kickoff or rewrite the original 2025 metadata."
+    },
+    {
+      "warning": "Contest name 'Gus’ Staredown Showdown 26’' is derived from page title/header.",
+      "resolution": "Accept the contest name exactly as derived from the visible header. Preserve the original contest text and warning; this is not independent account or contest verification."
+    },
+    {
+      "warning": "League information is inferred from team names and sport context (NFL/NCAAF) as it is not explicitly labeled on the history page.",
+      "resolution": "Accept the supplied NFL/NCAAF classifications for these identified team pairs. The repository must still require unique matching against an existing game in that league and reject ambiguity or reversed orientation."
+    }
+  ],
+  "completed_game_dates": [
+    {
+      "ticket_id": "20251109-2336-Bills-at-Vikings-Bills--3",
+      "leg_index": 0,
+      "game_date_central": "2026-11-09"
+    },
+    {
+      "ticket_id": "20251108-2349-Buccaneers-at-Bears-Over-47.5-Buccaneers-at-Bears-Buccaneers-+6.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-2349-Buccaneers-at-Bears-Over-47.5-Buccaneers-at-Bears-Buccaneers-+6.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1930-Cardinals-at-Seahawks-Over-39.5-Texans-at-Chargers-Under-40.5-Packers-at-Patriots-Over-44.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1930-Cardinals-at-Seahawks-Over-39.5-Texans-at-Chargers-Under-40.5-Packers-at-Patriots-Over-44.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1930-Cardinals-at-Seahawks-Over-39.5-Texans-at-Chargers-Under-40.5-Packers-at-Patriots-Over-44.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1934-Raiders-at-49ers-49ers--3.5-Raiders-at-49ers-Over-45.5-Texans-at-Chargers-Texans-+0.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1934-Raiders-at-49ers-49ers--3.5-Raiders-at-49ers-Over-45.5-Texans-at-Chargers-Texans-+0.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1934-Raiders-at-49ers-49ers--3.5-Raiders-at-49ers-Over-45.5-Texans-at-Chargers-Texans-+0.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1930-Cardinals-at-Seahawks-Cardinals-+8.5-Packers-at-Patriots-Patriots--3",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1930-Cardinals-at-Seahawks-Cardinals-+8.5-Packers-at-Patriots-Patriots--3",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1620-Giants-at-Eagles-Over-38.5-Broncos-at-Panthers-Over-44.5-Jets-at-Chiefs-Under-47.5-Rams-at-Commanders-Over-47.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1620-Giants-at-Eagles-Over-38.5-Broncos-at-Panthers-Over-44.5-Jets-at-Chiefs-Under-47.5-Rams-at-Commanders-Over-47.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1620-Giants-at-Eagles-Over-38.5-Broncos-at-Panthers-Over-44.5-Jets-at-Chiefs-Under-47.5-Rams-at-Commanders-Over-47.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1620-Giants-at-Eagles-Over-38.5-Broncos-at-Panthers-Over-44.5-Jets-at-Chiefs-Under-47.5-Rams-at-Commanders-Over-47.5",
+      "leg_index": 3,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1600-Cowboys-at-Colts-Over-45.5-Lions-at-Dolphins-Lions--0.5-Lions-at-Dolphins-Over-43.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1600-Cowboys-at-Colts-Over-45.5-Lions-at-Dolphins-Lions--0.5-Lions-at-Dolphins-Over-43.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1600-Cowboys-at-Colts-Over-45.5-Lions-at-Dolphins-Lions--0.5-Lions-at-Dolphins-Over-43.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1638-Giants-at-Eagles-Giants-+3-Browns-at-Saints-Saints-+3-Broncos-at-Panthers-Panthers-+8.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1638-Giants-at-Eagles-Giants-+3-Browns-at-Saints-Saints-+3-Broncos-at-Panthers-Panthers-+8.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1638-Giants-at-Eagles-Giants-+3-Browns-at-Saints-Saints-+3-Broncos-at-Panthers-Panthers-+8.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1615-Cowboys-at-Colts-Cowboys--4.5-Jets-at-Chiefs-Jets-+9.5-Rams-at-Commanders-Rams--4.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1615-Cowboys-at-Colts-Cowboys--4.5-Jets-at-Chiefs-Jets-+9.5-Rams-at-Commanders-Rams--4.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251108-1615-Cowboys-at-Colts-Cowboys--4.5-Jets-at-Chiefs-Jets-+9.5-Rams-at-Commanders-Rams--4.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-08"
+    },
+    {
+      "ticket_id": "20251107-2320-Miami-(FL)-at-Notre-Dame-Miami-(FL)-+7.5-Georgia-at-Ole-Miss-Ole-Miss-+3.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-2320-Miami-(FL)-at-Notre-Dame-Miami-(FL)-+7.5-Georgia-at-Ole-Miss-Ole-Miss-+3.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-2310-Iowa-at-Northwestern-Iowa--1.5-Oklahoma-at-Florida-Florida--5.5-Kentucky-at-Tennessee-Tennessee--5.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-2310-Iowa-at-Northwestern-Iowa--1.5-Oklahoma-at-Florida-Florida--5.5-Kentucky-at-Tennessee-Tennessee--5.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-2310-Iowa-at-Northwestern-Iowa--1.5-Oklahoma-at-Florida-Florida--5.5-Kentucky-at-Tennessee-Tennessee--5.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1922-Alabama-at-LSU-LSU--6.5-Oregon-at-Ohio-State-Oregon-+7.5-Vanderbilt-at-Mississippi-State-Vanderbilt-+2.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1922-Alabama-at-LSU-LSU--6.5-Oregon-at-Ohio-State-Oregon-+7.5-Vanderbilt-at-Mississippi-State-Vanderbilt-+2.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1922-Alabama-at-LSU-LSU--6.5-Oregon-at-Ohio-State-Oregon-+7.5-Vanderbilt-at-Mississippi-State-Vanderbilt-+2.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1907-Penn-State-at-Washington-Washington--2.5-Cincinnati-at-Houston-Cincinnati-+10.5-Oregon-at-Ohio-State-Oregon-+7.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1907-Penn-State-at-Washington-Washington--2.5-Cincinnati-at-Houston-Cincinnati-+10.5-Oregon-at-Ohio-State-Oregon-+7.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1907-Penn-State-at-Washington-Washington--2.5-Cincinnati-at-Houston-Cincinnati-+10.5-Oregon-at-Ohio-State-Oregon-+7.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1537-BYU-at-Utah-BYU-+4.5-Texas-at-Missouri-Missouri-+2.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1537-BYU-at-Utah-BYU-+4.5-Texas-at-Missouri-Missouri-+2.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1557-UCLA-at-Minnesota-UCLA--4.5-Clemson-at-Syracuse-Clemson--2.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251107-1557-UCLA-at-Minnesota-UCLA--4.5-Clemson-at-Syracuse-Clemson--2.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-07"
+    },
+    {
+      "ticket_id": "20251106-2307-South-Florida-at-East-Carolina-South-Florida-+2.5-Nebraska-at-Illinois-Nebraska--4.5-TCU-at-Arizona-Arizona--7.5-New-Mexico-at-Nevada-New-Mexico--10.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-06"
+    },
+    {
+      "ticket_id": "20251106-2307-South-Florida-at-East-Carolina-South-Florida-+2.5-Nebraska-at-Illinois-Nebraska--4.5-TCU-at-Arizona-Arizona--7.5-New-Mexico-at-Nevada-New-Mexico--10.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-06"
+    },
+    {
+      "ticket_id": "20251106-2307-South-Florida-at-East-Carolina-South-Florida-+2.5-Nebraska-at-Illinois-Nebraska--4.5-TCU-at-Arizona-Arizona--7.5-New-Mexico-at-Nevada-New-Mexico--10.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-06"
+    },
+    {
+      "ticket_id": "20251106-2307-South-Florida-at-East-Carolina-South-Florida-+2.5-Nebraska-at-Illinois-Nebraska--4.5-TCU-at-Arizona-Arizona--7.5-New-Mexico-at-Nevada-New-Mexico--10.5",
+      "leg_index": 3,
+      "game_date_central": "2026-11-06"
+    },
+    {
+      "ticket_id": "20251105-2333-UTSA-at-Florida-Atlantic-Under-72.5-UTSA-at-Florida-Atlantic-UTSA--6.5-Jaguars-at-Ravens-Jaguars--9.5-James-Madison-at-Southern-Miss-Under-57.5",
+      "leg_index": 0,
+      "game_date_central": "2026-11-05"
+    },
+    {
+      "ticket_id": "20251105-2333-UTSA-at-Florida-Atlantic-Under-72.5-UTSA-at-Florida-Atlantic-UTSA--6.5-Jaguars-at-Ravens-Jaguars--9.5-James-Madison-at-Southern-Miss-Under-57.5",
+      "leg_index": 1,
+      "game_date_central": "2026-11-05"
+    },
+    {
+      "ticket_id": "20251105-2333-UTSA-at-Florida-Atlantic-Under-72.5-UTSA-at-Florida-Atlantic-UTSA--6.5-Jaguars-at-Ravens-Jaguars--9.5-James-Madison-at-Southern-Miss-Under-57.5",
+      "leg_index": 2,
+      "game_date_central": "2026-11-05"
+    },
+    {
+      "ticket_id": "20251105-2333-UTSA-at-Florida-Atlantic-Under-72.5-UTSA-at-Florida-Atlantic-UTSA--6.5-Jaguars-at-Ravens-Jaguars--9.5-James-Madison-at-Southern-Miss-Under-57.5",
+      "leg_index": 3,
+      "game_date_central": "2026-11-05"
+    }
+  ]
+}
