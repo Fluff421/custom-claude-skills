@@ -55,6 +55,12 @@ def check_game(f: dict, snap: dict, pricer, params_by_league: dict | None, facto
     out = {"game": f.get("Game"), "record_id": f["_id"], "league": league, "date": (f.get("Date") or "")[:10],
            "snapshot_id": snap.get("snapshot_id"), "captured_at_central": snap.get("captured_at_central"),
            "splash_home_margin": hm, "splash_total": tot, "import_home_margin": imp_m, "import_total": imp_t}
+    out.update({"reference_origin": f.get("_reference_origin", "airtable"),
+                "ledger_record_id": f.get("_ledger_record_id") if f.get("_reference_origin") == "repository" else f["_id"],
+                "model_status": f.get("_model_status", "")})
+    if f.get("_model_status") == "unpriced":
+        out["reason"] = "Repository schedule reference only; verified model inputs are unavailable."
+        return out
     home, away = f.get("Home Team"), f.get("Away Team")
     if hm is not None:
         now_s = pricer(f, "spread", "home", -hm, None) or {}
@@ -98,6 +104,11 @@ def render(results: list[dict], snap_age_h: float | None, now: str) -> str:
          "Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.", ""]
     if snap_age_h is not None and snap_age_h > STALE_H:
         L += [f"Warning: the newest Splash snapshot is {snap_age_h:.0f} hours old. Paste a fresh File 1 dump before relying on these numbers.", ""]
+    unpriced = [r for r in results if r.get("model_status") == "unpriced"]
+    if unpriced:
+        L += [f"{len(unpriced)} games are unpriced; stored owner lines are not model recommendations.", "",
+              md_table(["Game", "Date", "Reference", "Status"],
+                       [[r["game"], r["date"], r["record_id"], r["reason"]] for r in unpriced]), ""]
     def cell(x, k):
         v = (x or {}).get(k)
         return "" if v in (None, "") else v
