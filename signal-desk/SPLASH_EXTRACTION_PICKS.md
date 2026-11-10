@@ -64,7 +64,12 @@ reported ticket/leg outcomes and scores as source metadata, not as
 independently verified results or hypothetical calculated winnings.
 For pending tickets do not manufacture a final result.
 
-Return one original JSON object without Markdown fence/commentary:
+For this NEW capture, return one original UTF-8 JSON object on a single
+line, without indentation, a Markdown fence, commentary, BOM or terminal
+newline. Keep every whole ticket, leg and observed field; never drop
+observations to make the file smaller. This compact output rule does NOT
+authorize minifying, reserializing or changing an existing original.
+Use this structure:
 schema: "signal-desk.splash-picks.v1"
 source: "Splash Sports Picks"
 date_code: SPL-P-YYYYMMDD-HHMM for pending, SPL-C-YYYYMMDD-HHMM for completed

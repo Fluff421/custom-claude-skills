@@ -11,13 +11,23 @@ The import workflow uses Python and GitHub Actions, not Computer or a model API.
 ## Owner routine
 
 1. Run the owner-only line extractor in `SPLASH_EXTRACTION_LINES.md`, or the pick extractor in `SPLASH_EXTRACTION_PICKS.md`. Save the actual JSON, not the extraction instructions.
-2. Open regular Search with GitHub selected. Attach one original JSON and use the import prompt in `CHAT_PROMPTS.md`. Its import request is complete; no placeholder needs replacing.
+2. Open regular Search with GitHub selected. Use the literal preparation prompt in `CHAT_PROMPTS.md`, then paste the complete original JSON alone in the next message when it fits. Use an attachment only if its reader supplies complete exact content.
 3. Review the exact repository, main branch, computed filename, full proposed content, public-data warning, and commit message. Approve that specific write. Imports are never blanket-authorized.
 4. The chat submits the unchanged approved JSON through a callable file-write action, preferably single-file `push_files` with literal UTF-8 content. It does not launch Computer, dispatch a workflow, or ask you to edit GitHub.
 5. Read the committed submission status and receipt. A rejection stays pending with its original file; the chat reports the first rejection reason and any other verified blockers. It does not re-upload the same source as a retry.
 6. If factual confirmation is needed, the chat prepares a separate checksum-bound review. Approve its exact content before its one write. The review triggers processing of the original pending source; raw JSON remains unchanged.
 
 File 2 does not always need a new File 1 first. Existing Ledger games or accepted repository references are sufficient. File 1 is needed first only for games absent from both.
+
+## Transport gate
+
+The November 10, 2026 test succeeded for SPL-C-20261110-1139: a preparation-only message supplied the complete approved review, a second message supplied the complete 37,075-byte original, and Search's confirmation gate led to one approved two-file push. Read-back matched the original and review checksums, and production accepted one new row while skipping 16 duplicate tickets ([input commit](https://github.com/Fluff421/custom-claude-skills/commit/21d5f70cf588c11987822a7dd70f6208998d6164), [accepted status](https://raw.githubusercontent.com/Fluff421/custom-claude-skills/923f7284e6548d0d17773e2c0cc32e8ce094f930/signal-desk/intelligence/splash_import/status/SPL-C-20261110-1139.json)).
+
+This verifies that specific literal-text route, not every chat or source size. The attachment reader truncated File 1, and a one-message File 1 literal exceeded the observed 40,000-character input limit; those attempts made no Search write. Keep each complete message below that observed limit, including instructions. A separately staged review is not a separate write; all exact approved files must be available before the single push.
+
+Future extractors produce compact single-line JSON from the outset, without omitting observations. Existing originals retain their exact text and terminal-newline state. If a complete source still cannot fit or exact content is unavailable, stop; larger multipart-source assembly is untested. Never replace missing text with a preview, ellipsis, reconstructed data or an invented checksum.
+
+Show the complete payload and obtain exact owner approval before writing. If Search asks for a confirmation, it must cover that same approved payload only. A content or execution failure ends that attempt; a fallback or retry requires a new exact approval. Acceptance remains separate from recommendation readiness ([readiness at acceptance](https://raw.githubusercontent.com/Fluff421/custom-claude-skills/923f7284e6548d0d17773e2c0cc32e8ce094f930/signal-desk/intelligence/splash_import/readiness_latest.json)).
 
 ## What Search must and need not do
 

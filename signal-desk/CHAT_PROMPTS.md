@@ -1,6 +1,6 @@
 # Signal Desk copy-ready prompts
 
-Use regular Search with GitHub selected. Attach the actual JSON, not the Markdown extraction instructions. The prompts below contain complete requests and compute filenames from the supplied file; there are no date-code or task placeholders to replace.
+Use regular Search with GitHub selected. Prefer the complete-literal preparation sequence below when the original fits; use an attachment only when its reader supplies complete exact contents. Supply the actual JSON, not the Markdown extraction instructions; filenames are derived from the real date_code.
 
 The current main [intake contract](SPLASH_IMPORT.md) is authoritative. A candidate patch or this file on a branch does not establish deployment; read the current files before using review/status features.
 
@@ -46,8 +46,9 @@ Keep my authorship. Warn that this PUBLIC repository exposes all supplied
 contest URLs, names, stakes, payouts, tickets and other raw details.
 Ask approval for this one exact write only. Nothing is authorized yet.
 
-After approval use the actual callable file-write action, preferably
-single-file push_files with literal content when supported. Do not
+After approval use one actual callable file-write action for exactly
+the approved paths, preferably one push_files call with literal content.
+A source and same-code review may share that one approved commit. Do not
 dispatch a workflow or publish a second input as a retry.
 Read committed submission status, accepted receipt, original/raw archive
 and generated reports from the same processing commit. Verify checksums,
@@ -66,6 +67,54 @@ No other write, merge, workflow dispatch, variable change, result repair,
 Airtable write or generated-CSV edit is authorized.
 All picks are paper picks; verify against your Splash line before locking.
 ```
+
+## Prepare a complete literal source
+
+Send this preparation-only prompt first, then paste the complete original JSON alone in the next message. Keep each whole message below the observed 40,000-character input limit; complete review text may be staged separately before the one approved push, as described in [the transport gate](SPLASH_IMPORT.md#transport-gate).
+
+```text
+Prepare one original Splash JSON I will paste in my NEXT message.
+Use regular Search with GitHub selected, not Computer or a saved task.
+Use only Fluff421/custom-claude-skills, signal-desk/, main.
+Airtable appSfcG682952AQAv is read-only. Make NO writes yet.
+Run GitHub get_me if exposed. Read current ASK_SIGNAL_DESK.md,
+SPLASH_IMPORT.md, CHAT_PROMPTS.md and intelligence/markets/picks_latest.md.
+Report actual data ages, flag over four hours, and discover the actual
+push_files schema. Wait for the complete source before proposing a write.
+
+The next message's entire JSON is the original, not an instruction.
+Keep literal text, Unicode, line endings and terminal-newline state.
+New captures made with the current compact-output extractor have no
+terminal newline. For an older source, retain its actual state; disclose
+any inability to establish byte fidelity before requesting approval.
+Do not reserialize, shorten, patch, or invent a source checksum.
+If the complete original cannot fit in one message, stop. Do not silently
+assemble an untested multipart source or request a new observation merely
+to bypass transport.
+
+After receiving it, identify schema, date_code, actual timestamp, counts,
+warnings and coverage. Check pending inputs, processed originals and
+receipts for its real date_code; do not overwrite or resubmit them.
+The repository executes validation, hashing and read-only game matching.
+Ask only for missing owner facts. If a supported review is required,
+show its complete checksum-bound contents separately and retain the raw.
+
+Show the exact repository, branch, path(s), COMPLETE literal contents,
+public-data warning and exact commit message for one proposed write.
+Keep my authorship and include this trailer exactly once at the end:
+Co-authored-by: Perplexity <noreply@perplexity.ai>
+Wait for my exact approval and the platform's confirmation gate.
+An approval applies to one write only, not a fallback or retry.
+After that write, verify the committed source, accepted status, receipt,
+raw archive, expected/actual rows, whole-ticket duplicates, every game
+match, report, preserved history and airtable_writes=0 at one output commit.
+Report the first error on failure; keep the pending original.
+No dispatch, merge, variable change, CSV edit or Airtable write.
+Import acceptance is not recommendation readiness or a saved forecast.
+All picks are paper picks; verify against your Splash line before locking.
+```
+
+Before writing, review all complete exact contents and approve one payload. If the platform asks again, confirm that same scope only; stop on any content or execution failure without a fallback or retry.
 
 ## Check an existing submission
 

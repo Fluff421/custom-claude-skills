@@ -46,7 +46,12 @@ and flag discrepancies rather than fixing signs. Preserve displayed
 Use null for unavailable prices. Do not insert -110 or estimate a
 moneyline from a spread. Preserve unsupported extra markets separately.
 
-Return one original JSON object, without a Markdown fence or commentary:
+For this NEW capture, return one original UTF-8 JSON object on a single
+line, without indentation, a Markdown fence, commentary, BOM or terminal
+newline. Keep all observed fields and entries; never omit observations
+to make the file smaller. This compact output rule does NOT authorize
+minifying, reserializing or changing an already captured original.
+Use this structure:
 schema: "signal-desk.splash-lines.v1"
 source: "Splash Sports Lines"
 date_code: SPL-L-YYYYMMDD-HHMM from actual Central observation time
