@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-11-10T19:43:25.714677+00:00",
+  "generated_at_utc": "2026-11-10T20:00:04.745911+00:00",
   "note": "Ledger-derived outcomes at recorded Splash lines. Not a new owner result dump.",
-  "sample_size_legs": 69,
+  "sample_size_legs": 70,
   "leg_results": {
     "Loss": 26,
-    "Win": 43
+    "Win": 44
   },
   "stale_capture_status_count": 34,
   "legs": [
@@ -2489,6 +2489,43 @@
       "ticket_prob": "0.2415",
       "ticket_break_even": "0.2744",
       "text": "Parlay: Tampa Bay Buccaneers +6.5, Tampa Bay Buccaneers at Chicago Bears Over 47.5",
+      "leg_result": "Win",
+      "ticket_result": "Win"
+    },
+    {
+      "logged_at": "2026-11-10 19:59Z",
+      "locked_at": "2026-11-10 19:59Z",
+      "ticket_id": "splash-f24fca0dd83dad01dee65cce",
+      "ticket_type": "single",
+      "ticket_legs": 1,
+      "market": "spread",
+      "text": "Buffalo Bills -3",
+      "matched": "yes",
+      "status": "final",
+      "team": "Buffalo Bills",
+      "side": "away",
+      "game": "Buffalo Bills @ Minnesota Vikings",
+      "record_id": "recJKj5lfFFyrx6fY",
+      "date": "2026-11-09",
+      "league": "NFL",
+      "imported_line": -3.0,
+      "locked_line": -3.0,
+      "base_line": null,
+      "teased_line": null,
+      "price": "",
+      "lead_days": -1,
+      "movement_for_you": 0.0,
+      "reference_origin": "airtable",
+      "ledger_record_id": "recJKj5lfFFyrx6fY",
+      "model_status": "",
+      "model_side_lock": "away",
+      "model_tier_lock": "Lean",
+      "model_prob_lock": 0.6236,
+      "model_edge_lock": -3.9,
+      "model_proj_lock": -3.2,
+      "model_side_import": "away",
+      "model_tier_import": "Lean",
+      "side_changed": "no",
       "leg_result": "Win",
       "ticket_result": "Win"
     }
