@@ -41,6 +41,7 @@ import espn_sync as es
 import factors as fx
 import sigma_learning as sg
 import clv_learning as cl
+import line_source as lsrc
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 AUTO_BOOK = "Splash Sports (auto)"
@@ -115,7 +116,7 @@ def load_params(token: str, base: str | None = None) -> dict[str, dict]:
 def graded_counts(base: str, token: str) -> dict[tuple[str, str], int]:
     """Graded (Win/Loss/Push) pick counts by (league, tier) across all weeks."""
     formula = ("AND({Record Type}='Game',{Sharp-Sheet Tier},"
-               "OR({Grade}='Win',{Grade}='Loss',{Grade}='Push'))")
+               "OR({Grade}='Win',{Grade}='Loss',{Grade}='Push')" + lsrc.airtable_filter() + ")")
     counts: dict[tuple[str, str], int] = {}
     offset = None
     while True:
