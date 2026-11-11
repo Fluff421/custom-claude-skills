@@ -54,6 +54,7 @@ jobs:
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
       REPRICE_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.reprice == true) || ((github.event_name == 'schedule' || github.event_name == 'workflow_run') && vars.REPRICE_LIVE == 'true')) && '1' || '0' }}
       FACTOR_MODE: ${{ vars.FACTOR_MODE || 'shadow' }}
+      LEARN_LINE_SOURCE: ${{ vars.LEARN_LINE_SOURCE || 'all' }}
       FACTORS_SHADOW_LIVE: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'workflow_run') && vars.FACTORS_SHADOW_LIVE == 'true' && '1' || '0' }}
       MARKETS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || ((github.event_name == 'schedule' || github.event_name == 'workflow_run') && vars.MARKETS_LIVE == 'true')) && '1' || '0' }}
       PICKS_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || ((github.event_name == 'schedule' || github.event_name == 'workflow_run') && vars.PICKS_LIVE == 'true')) && '1' || '0' }}

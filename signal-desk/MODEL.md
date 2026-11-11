@@ -189,6 +189,24 @@ Written daily to the Ledger for upcoming games; read by `factors.py` (shadow by 
 Rest, travel, revenge and look-ahead are summed (`situ_raw`) and share ONE learned scale (`Factor Scale Situational`).
 Per-factor parts are stored in `Factor Detail` so a later review can split them.
 
+### Line-source report cards (`line_source.py`, called by `calibrate.py`)
+
+Each graded pick is classified by the line it was priced off. It is `espn` when Sharp-Sheet Data Completeness
+carries "priced off ESPN line (no Splash line)". Otherwise it is `splash` when Vegas Implied Home Margin is set,
+and `unknown` when neither applies. `calibrate.py` scores two separate report cards per league every day:
+W-L-P, hit rate, Brier, log loss, a calibration table, CLV mean and standard error, and per-tier records. They
+are printed in the calibrate log and stored in `learning_params.json` under `report_cards`. The cards are
+read-only and never change a pick.
+
+The repo variable `LEARN_LINE_SOURCE` chooses which picks feed the learning that sets tiers and units. That
+learning is the Brier and log loss written to Model Parameters, the tier multipliers, the CLV unit gate and the
+unit-cap counts in `picks.graded_counts`.
+- `all` (default): every graded pick. This is the current behaviour.
+- `splash`: Splash-priced picks only, so units are earned on the line the owner locks.
+
+Sigma, the predicted-CLV model and factor learning already skip rows without a Splash line, and are unchanged.
+A human sets the variable; nothing switches itself.
+
 ### Pick in every game
 
 Every game with FPI and a line gets a pick so the learning loop sees all of them. Below the Lean threshold the pick is a

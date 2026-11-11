@@ -89,6 +89,7 @@ jobs:
     permissions:
       contents: write   # data-only commit of the change log and per-market settings
     env:
+      LEARN_LINE_SOURCE: ${{ vars.LEARN_LINE_SOURCE || 'all' }}
       MARKET_LEARN_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.MARKET_LEARN_LIVE == 'true')) && '1' || '0' }}
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
       AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
@@ -112,7 +113,7 @@ jobs:
             echo "::error::Missing or empty GitHub Actions secret(s): ${missing[*]}"
             exit 1
           fi
-          echo "Configuration present. Mode: CALIBRATE_LIVE=${CALIBRATE_LIVE}"
+          echo "Configuration present. Mode: CALIBRATE_LIVE=${CALIBRATE_LIVE}, LEARN_LINE_SOURCE=${LEARN_LINE_SOURCE}"
       - name: Recalibrate model parameters
         run: python signal-desk/calibrate.py
       - name: Learn per market (totals, moneylines, teaser legs); dry run unless MARKET_LEARN_LIVE

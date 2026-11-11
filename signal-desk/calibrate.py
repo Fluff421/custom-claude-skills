@@ -28,6 +28,7 @@ import espn_sync as es
 import factor_learning as fl
 import sigma_learning as sg
 import clv_learning as cl
+import line_source as lsrc
 
 LEDGER = "tbl3tFHFhvyNMpksE"
 PARAMS = "tblTqY4CnU08ce1s9"
@@ -83,6 +84,8 @@ def main() -> None:
             break
     params_by_league = {r["fields"].get("League", ""): r for r in param_rows}
 
+    learn_src = lsrc.learn_mode()   # 'all' (default, unchanged) or 'splash'
+    cards_out: dict = {}
     patches, creates, report, events = [], [], [], []
     sigma_out: dict = {}
     clv_out: dict = {}
@@ -90,6 +93,11 @@ def main() -> None:
     for league, fs in sorted(by_league.items()):
         if not league:
             continue
+        # line-source report cards (read-only): ESPN-priced and Splash-priced picks scored separately
+        cards = lsrc.report_cards(fs)
+        cards_out[league] = {**cards, "learn_mode": learn_src, "updated": now}
+        card_lines = lsrc.summary_lines(league, cards, learn_src)
+        all_fs, fs = fs, lsrc.for_learning(fs, learn_src)   # live learning sample; 'all' keeps every row
         # metrics over rows that carry an estimated win probability
         ps, ys = [], []
         for f in fs:
@@ -97,7 +105,7 @@ def main() -> None:
                 continue
             ps.append(float(f["Sharp-Sheet Est. Win Prob %"]))
             ys.append(1.0 if f["Grade"] == "Win" else 0.0)
-        lines = [f"{league}: {len(fs)} graded picks ({len(ps)} with est. prob)"]
+        lines = [f"{league}: {len(fs)} graded picks ({len(ps)} with est. prob)"] + card_lines
         fields: dict = {}
         if len(ps) >= 5:
             br, ll = brier(ps, ys), log_loss(ps, ys)
@@ -130,7 +138,7 @@ def main() -> None:
         # sigma: learned residual SD (history closing lines + graded Ledger games), shrunk to the approved prior,
         # step-limited, with context multipliers (injuries, QB, weather, big spread). See sigma_learning.py.
         cur = params_by_league.get(league, {}).get("fields", {}).get("Sigma")
-        sl = sg.learn(league, fs, cur, int(now[:4]))
+        sl = sg.learn(league, all_fs, cur, int(now[:4]))   # skips rows without a Splash line itself
         lines.append(f"sigma: {cur} -> {sl['sigma']} (raw residual SD {sl['raw']}, target {sl.get('target')}, "
                      f"n_eff {sl['n_eff']}, ledger games {sl.get('n_ledger', 0)}; {sl['reason']})")
         for name, seg in sl["segments"].items():
@@ -141,7 +149,7 @@ def main() -> None:
         gate = cl.unit_gate(fs)
         for tier, g in gate.items():
             lines.append(f"CLV gate {tier}: n={g['n']}, mean {g['mean']}, se {g['se']} -> {g['status']}")
-        cm = cl.fit(fs, league)
+        cm = cl.fit(all_fs, league)   # training_rows needs a Splash line itself
         lines.append(f"Predicted-CLV model: {cm['note']}; coef {json.dumps(cm['coef'])}; history prior {json.dumps(cm['history'])}")
         fwd = cl.forward_check({r["id"]: float(r["fields"]["Sharp-Sheet CLV Points"]) for r in graded
                                 if r["fields"].get("League") == league and r["fields"].get("Sharp-Sheet CLV Points") is not None})
@@ -154,7 +162,7 @@ def main() -> None:
                                        g["status"], f"mean CLV {g['mean']} se {g['se']}", g["n"], "calibrate.py", now[:10]))
         clv_out[league] = {"gate": gate, "model": cm, "forward": fwd, "updated": now}
         # factor learning (shadow): market blend, factor scales, scorecard. Below the minimums nothing is applied.
-        grows = fl.game_rows(fs)
+        grows = fl.game_rows(all_fs)   # game_rows needs a Splash line itself
         mb, fsd, sc = fl.market_blend(grows), fl.factor_scales(grows), fl.scorecard(grows)
         card = fl.summary_text(league, mb, fsd, sc, now[:10])
         lines.extend(card.split("\n")[1:])
@@ -210,7 +218,9 @@ def main() -> None:
         if sigma_out:
             sg.write_params({"sigma": sigma_out})  # repo file read by picks.py and markets.py; the workflow commits it
         if clv_out:
-            sg.write_params({"clv": clv_out})      # CLV unit gate (live) and predicted-CLV model (shadow) for picks.py
+            sg.write_params({"clv": clv_out})
+        if cards_out:
+            sg.write_params({"report_cards": cards_out})  # read-only report cards, ESPN-line vs Splash-line      # CLV unit gate (live) and predicted-CLV model (shadow) for picks.py
         if patches:
             es.http_get(f"https://api.airtable.com/v0/{base}/{PARAMS}", es.at_headers(token), "PATCH",
                         {"records": patches, "typecast": True})
