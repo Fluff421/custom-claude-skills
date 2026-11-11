@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "scorecards": {
   "ALL": {
    "spread": {
@@ -1477,7 +1477,7 @@
  },
  "notes": [
   "NCAAF moneyline: n=62, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)",
-  "NCAAF total: n=62, shrink 0.7 -> 0.55 (applied; best 0.3, Brier gain 0.0037)",
+  "NCAAF total: n=62, shrink 0.55 -> 0.4 (applied; best 0.3, Brier gain 0.0023)",
   "NCAAF teaser_leg: n=124, shrink 0.7 -> 0.7 (no meaningful gain; best 0.5, Brier gain 0.0016)",
   "NFL moneyline: 20 graded, need 30 before tuning",
   "NFL total: 20 graded, need 30 before tuning",
