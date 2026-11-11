@@ -1,0 +1,63 @@
+name: Seed Ledger (Signal Desk)
+
+# Creates upcoming NFL and FBS Game rows in the Ledger (six structural fields only).
+# Runs at minute 17 every 3 hours, 10 minutes before ESPN Sync (minute 27), which fills ESPN data and FPI.
+# Dry run unless SEED_LEDGER_LIVE resolves to 1. Never commits to the repo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      live:
+        description: "Create rows in Airtable (true) or dry run (false)"
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - signal-desk/seed_ledger.py
+      - signal-desk/tests/test_seed_ledger.py
+      - .github/workflows/seed-ledger.yml
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: seed-ledger
+  cancel-in-progress: false
+
+jobs:
+  pull_request_checks:
+    if: github.event_name == 'pull_request'
+    uses: ./.github/workflows/signal-desk-ci.yml
+  seed:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    env:
+      AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+      AIRTABLE_BASE_ID: ${{ secrets.SIGNAL_DESK_BASE_ID || secrets.AIRTABLE_BASE_ID }}
+      LEDGER_TABLE_ID: ${{ vars.LEDGER_TABLE_ID }}
+      SEED_DAYS: ${{ vars.SEED_DAYS || '7' }}
+      SEED_MAX_CREATE: ${{ vars.SEED_MAX_CREATE || '120' }}
+      SEED_LEDGER_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.SEED_LEDGER_LIVE == 'true')) && '1' || '0' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate configuration
+        shell: bash
+        run: |
+          missing=()
+          for key in AIRTABLE_TOKEN AIRTABLE_BASE_ID; do
+            if [ -z "${!key}" ]; then
+              missing+=("$key")
+            fi
+          done
+          if [ ${#missing[@]} -gt 0 ]; then
+            echo "::error::Missing or empty GitHub Actions secret(s): ${missing[*]}"
+            exit 1
+          fi
+          echo "Configuration present. Mode: SEED_LEDGER_LIVE=${SEED_LEDGER_LIVE}, days ${SEED_DAYS}, cap ${SEED_MAX_CREATE}"
+      - name: Seed upcoming Game rows
+        run: python signal-desk/seed_ledger.py

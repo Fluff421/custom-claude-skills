@@ -207,6 +207,22 @@ unit-cap counts in `picks.graded_counts`.
 Sigma, the predicted-CLV model and factor learning already skip rows without a Splash line, and are unchanged.
 A human sets the variable; nothing switches itself.
 
+### Ledger seeding (`seed_ledger.py`, `seed-ledger.yml`)
+
+Nothing else creates weekly Game rows. `seed_ledger.py` runs at minute 17 every 3 hours, ten minutes before
+ESPN Sync. It reads ESPN's NFL and FBS scoreboards for Central dates from today through `SEED_DAYS` (7) ahead.
+It creates one row per not-yet-started game where both teams have an ESPN FPI value. That means NFL plus FBS;
+FCS opponents are listed and skipped, never guessed.
+- A game is skipped if a Ledger row already has its ESPN Event ID, or has the same league, a date within one day
+  and both teams. A reversed, non-neutral match is reported for review, never duplicated.
+- It writes only Record Type, League, Date, Game, Home Team and Away Team. NFL rows use ESPN's full name and
+  NCAAF rows the school name. It never writes a Splash line, FPI, an ESPN line, a tier or units.
+- The new rows are priced off the ESPN line as tracking picks until a Splash line is entered. They are scored on
+  the ESPN-line report card.
+- It is a dry run unless `SEED_LEDGER_LIVE=1`. A live run that would create more than `SEED_MAX_CREATE` (120)
+  rows writes nothing and fails.
+- It fetches ESPN JSON directly and never spends a WebScraping.AI call.
+
 ### Pick in every game
 
 Every game with FPI and a line gets a pick so the learning loop sees all of them. Below the Lean threshold the pick is a
