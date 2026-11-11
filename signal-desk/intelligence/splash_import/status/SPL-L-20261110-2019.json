@@ -1,0 +1,15 @@
+{
+  "schema": "signal-desk.splash-submission-status.v1",
+  "date_code": "SPL-L-20261110-2019",
+  "processed_at_utc": "2026-11-11T02:26:43.387052+00:00",
+  "airtable_writes": 0,
+  "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
+  "status": "accepted",
+  "receipt_path": "signal-desk/intelligence/splash_import/receipts/SPL-L-20261110-2019.json",
+  "receipt_sha256": "7f175d80612922cee1f45b4e7a624f16b9f1f68d1f72158d4e94c8ba0e5e2bad",
+  "expected_rows": 78,
+  "actual_new_rows": 78,
+  "duplicate_tickets": 0,
+  "artifacts_ready": false,
+  "requested_window_coverage_checked": false
+}
