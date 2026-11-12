@@ -314,6 +314,9 @@ def main() -> None:
             replacement = getattr(exc, "coverage", {})
             de_error += f"; timestamped replacement unavailable: {exc}"
             warn(de_error)
+    pending_games = {tuple(p[:3]): (p[3] if p[3] == availability.INDEPENDENT else
+                                    f"overdue since {p[3]}" if p[4] else f"not yet posted; expected {p[3]}")
+                     for p in replacement.get("pending_games", [])} if de_ok else {}
     ledger_names = {r["fields"].get(k, "") for r in rows for k in ("Home Team", "Away Team")} - {""}
     updates, report, skipped = [], [], []
     if not (cov_ok or de_ok):
@@ -321,9 +324,13 @@ def main() -> None:
         rows = []
     for r in rows:
         f = r["fields"]
+        identity = (str(f.get("Date") or "")[:10], team_key(f.get("Away Team", "")), team_key(f.get("Home Team", "")))
         if r["id"] in later_ids and (secondary_provider == "Kickoff Status" or not de_ok):
             note, miss = build_note(f.get("Away Team", ""), f.get("Home Team", ""), cov, {}, cov_ok, False, ledger_names,
                                     "", cov_latest, NOT_YET_DUE)
+        elif secondary_provider == "Kickoff Status" and identity in pending_games:
+            note, miss = build_note(f.get("Away Team", ""), f.get("Home Team", ""), cov, {}, cov_ok, False, ledger_names,
+                                    "", cov_latest, f"Official availability report ({pending_games[identity]})")
         else:
             note, miss = build_note(f.get("Away Team", ""), f.get("Home Team", ""), cov, de, cov_ok, de_ok, ledger_names,
                                     de_stamp, cov_latest, secondary_provider)
@@ -345,6 +352,9 @@ def main() -> None:
              f"{secondary_provider}: {'ok' if de_ok else 'FAILED'} ({sum(len(v) for v in de.values())} entries, updated {de_stamp or 'n/a'})",
              f"Replacement games expected: {replacement.get('expected_games', 0)}",
              f"Replacement games covered: {replacement.get('covered_games', 0)}",
+             f"Replacement games with official report not yet due: {sum(not p[4] for p in replacement.get('pending_games', []))}",
+             f"Replacement games with official report overdue: {sum(bool(p[4]) and p[3] != availability.INDEPENDENT for p in replacement.get('pending_games', []))}",
+             f"Replacement games with an independent program (no official report): {sum(p[3] == availability.INDEPENDENT for p in replacement.get('pending_games', []))}",
              f"NCAAF ledger rows scanned: {len(rows)}",
              f"Rows inside the {AVAILABILITY_LEAD_DAYS}-day secondary window: {len(due_rows)}; secondary not yet due: {len(later_ids)}",
              f"Notes to write: {len(updates)}"]

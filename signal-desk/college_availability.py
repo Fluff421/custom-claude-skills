@@ -15,6 +15,37 @@ class CoverageError(ValueError):
                          + "; ".join(coverage["failures"]))
 
 
+class PendingReport(ValueError):
+    """The conference has not posted this game's report yet. The source's own expected posting time
+    is kept so each game is labelled pending (not yet due) or overdue instead of failing the slate."""
+    def __init__(self, path, identity, expected_at, overdue):
+        self.identity, self.expected_at, self.overdue = identity, expected_at, overdue
+        state = "overdue since" if overdue else "not yet due; expected"
+        super().__init__(f"{path}: official availability report {state} {expected_at}")
+
+
+PACIFIC = ZoneInfo("America/Los_Angeles")
+INDEPENDENT = "none: independent program publishes no official report"
+DAYS = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+
+
+def expected_report_time(page, kickoff):
+    """Parse the source's notice ('Report expected: Thu 3:00 PM PT' or 'Usually posts game day
+    ~7:30 AM PT') into an aware time. A weekday means the latest such day on or before the
+    Pacific kickoff date; 'game day' means the Pacific kickoff date."""
+    plain = re.sub(r"\s+", " ", text(re.sub(r"<(script|style)\b.*?</\1>", "", page, flags=re.S | re.I)))
+    day = kickoff.astimezone(PACIFIC).date()
+    match = re.search(r"Report expected:\s*(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\w*\s+(\d{1,2}:\d{2}\s*[AP]M)\s*P[SD]?T\b", plain, re.I)
+    if match:
+        day -= dt.timedelta(days=(day.weekday() - DAYS.index(match[1][:3].title())) % 7)
+    else:
+        match = re.search(r"Usually posts (game day) ~?\s*(\d{1,2}:\d{2}\s*[AP]M)\s*P[SD]?T\b", plain, re.I)
+        if not match:
+            return None
+    clock = dt.datetime.strptime(match[2].replace(" ", "").upper(), "%I:%M%p").time()
+    return dt.datetime.combine(day, clock, PACIFIC)
+
+
 def text(value):
     return html.unescape(re.sub(r"<[^>]+>", "", value)).strip()
 
@@ -54,6 +85,12 @@ def game_report(page, path, now, key):
         raise ValueError(f"{path}: invalid team identity")
     report_label = re.search(r'<p\b[^>]*class=["\']qa-asof["\'][^>]*>(.*?)</p>', page, re.S | re.I)
     if not report_label or not re.search(r"latest official report.*?posted", text(report_label[1]), re.I):
+        expected_at = expected_report_time(page, kickoff)
+        if expected_at is not None:
+            raise PendingReport(path, (date, *pair), expected_at.isoformat(), now >= expected_at)
+        plain = re.sub(r"\s+", " ", text(re.sub(r"<(script|style)\b.*?</\1>", "", page, flags=re.S | re.I)))
+        if re.search(r"\bIndependent: no official report\b", plain):
+            raise PendingReport(path, (date, *pair), INDEPENDENT, True)
         raise ValueError(f"{path}: official availability report not published")
     if '<div class="teams2">' not in page:
         raise ValueError(f"{path}: missing official team reports")
@@ -120,12 +157,20 @@ def load(rows, fetch, now, key):
     def read(path):
         try:
             return game_report(fetch(ROOT + path), path, now, key)
+        except PendingReport as exc:
+            return exc
         except Exception as exc:
             return f"{path}: {exc}"
     with ThreadPoolExecutor(max_workers=2) as pool:
         reports = list(pool.map(read, paths))
-    games, failures = {}, []
+    games, failures, pending = {}, [], {}
     for report in reports:
+        if isinstance(report, PendingReport):
+            if report.identity in expected:
+                pending[report.identity] = (report.expected_at, report.overdue)
+            else:
+                failures.append(f"{report}: identity does not match the index")
+            continue
         if isinstance(report, str):
             failures.append(report)
             continue
@@ -133,14 +178,15 @@ def load(rows, fetch, now, key):
         if identity in games:
             raise ValueError(f"duplicate report for {identity}")
         games[identity] = (teams, meta)
-    missing = expected - games.keys()
+    missing = expected - games.keys() - pending.keys()
+    pending_rows = [[*identity, at, overdue] for identity, (at, overdue) in sorted(pending.items())]
     if missing:
         raise CoverageError({"provider": "Kickoff Status", "expected_games": len(expected),
-                             "covered_games": len(expected & games.keys()),
+                             "covered_games": len(expected & games.keys()), "pending_games": pending_rows,
                              "source_snapshot_at": stamp, "failures": failures,
                              "reports": [meta for _, meta in games.values()]})
     teams, metadata = {}, []
-    for identity in sorted(expected):
+    for identity in sorted(expected & games.keys()):
         observed, meta = games[identity]
         for team, entries in observed.items():
             if team in teams and teams[team] != entries:
@@ -148,4 +194,5 @@ def load(rows, fetch, now, key):
             teams[team] = entries
         metadata.append(meta)
     return teams, stamp, {"provider": "Kickoff Status", "expected_games": len(expected),
-                          "covered_games": len(expected), "reports": metadata}
+                          "covered_games": len(expected & games.keys()), "pending_games": pending_rows,
+                          "reports": metadata}
