@@ -44,6 +44,33 @@ class Imports(unittest.TestCase):
     def test_valid_lines(self):
         self.assertEqual(self.plan(lines())["expected_rows"], 1)
 
+    def test_established_feed_aliases_bind_remaining_college_games(self):
+        for away, home, ledger_away, ledger_home in (
+            ("Louisiana", "Louisiana-Monroe", "Louisiana", "UL Monroe"),
+            ("Duke", "Miami (FL)", "Duke", "Miami"),
+            ("Appalachian State", "Marshall", "App State", "Marshall"),
+        ):
+            with self.subTest(away=away, home=home):
+                g = {"league": "NCAAF", "away_team": away, "home_team": home,
+                     "kickoff_central": "2026-11-14 15:00", "home_away_certain": True}
+                f = {"_id": "college", "League": "NCAAF", "Date": "2026-11-14",
+                     "Away Team": ledger_away, "Home Team": ledger_home}
+                self.assertEqual(si.matching(g, [f])["_id"], "college")
+                with self.assertRaisesRegex(si.Rejected, "orientation"):
+                    si.matching(dict(g, away_team=home, home_team=away), [f])
+                with self.assertRaisesRegex(si.Rejected, "matches 2"):
+                    si.matching(g, [f, dict(f, _id="duplicate")])
+
+    def test_alias_does_not_bind_a_different_opponent_or_league(self):
+        g = {"league": "NCAAF", "away_team": "Duke", "home_team": "Miami (FL)",
+             "kickoff_central": "2026-11-14 15:00"}
+        f = {"_id": "college", "League": "NCAAF", "Date": "2026-11-14",
+             "Away Team": "Virginia", "Home Team": "Miami"}
+        for wrong in (f, dict(f, **{"League": "NFL", "Away Team": "Duke"}),
+                      dict(f, **{"Date": "2026-11-20", "Away Team": "Duke"})):
+            with self.subTest(wrong=wrong), self.assertRaisesRegex(si.Rejected, "matches 0"):
+                si.matching(g, [wrong])
+
     def test_four_hours_is_warning_not_line_rejection_limit(self):
         for hours, warning in ((4, False), (4.01, True), (24, True)):
             with self.subTest(hours=hours):

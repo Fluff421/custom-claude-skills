@@ -90,6 +90,16 @@ def matching(g, games):
         exact = [n for n in names if sl.norm(n) == sl.norm(value)]
         if exact:
             return exact
+        # Reuse the feed's existing, explicit team aliases. Do not invent
+        # abbreviations or use partial overlap to bind a different opponent.
+        # The league/date window, unique both-team match and orientation
+        # checks below remain mandatory.
+        import espn_sync as es
+        aliases = [n for n in names
+                   if es.ledger_matches(value, {es.norm(n)})
+                   or es.ledger_matches(n, {es.norm(value)})]
+        if aliases:
+            return aliases
         tokens = sc._words(value)
         return [n for n in names if tokens and tokens <= sc._words(n)]
 
