@@ -49,6 +49,18 @@ class ObservationHealth(unittest.TestCase):
         self.assertEqual(state, "degraded")
         self.assertIn("replacement injury coverage is incomplete", reasons)
 
+    def test_injury_games_labelled_by_source_schedule_are_accounted_for(self):
+        log = ("Mode: LIVE\nReplacement games expected: 61\nReplacement games covered: 4\n"
+               "Replacement games with official report not yet due: 34\n"
+               "Replacement games with official report overdue: 22\n"
+               "Replacement games with an independent program (no official report): 1\n")
+        state, reasons = ops.judge("NCAAF Injury Pull", "success", ops.parse_log(log))
+        self.assertEqual((state, reasons), ("ok", []))
+        short = log.replace("overdue: 22", "overdue: 21")
+        state, reasons = ops.judge("NCAAF Injury Pull", "success", ops.parse_log(short))
+        self.assertEqual(state, "degraded")
+        self.assertIn("replacement injury coverage is incomplete", reasons)
+
     def test_chained_main_pick_refresh_counts_as_production_evidence(self):
         archive = io.BytesIO()
         with zipfile.ZipFile(archive, "w") as z:
