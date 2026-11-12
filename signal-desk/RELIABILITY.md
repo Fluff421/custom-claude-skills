@@ -30,7 +30,7 @@ The DraftEdge parser now accepts the observed card layout and the legacy table l
 | Narrative pairing | New reports include a Markdown content digest in the JSON |
 | Close & Grade | Latest non-PR run started under 2 hours ago, successful, operationally healthy and LIVE |
 | Splash board | `intelligence/splash_lines/latest.md`, source capture age under 168 hours (7 days); Splash File 1 is a weekly, owner-discretion upload |
-| Canonical price check | `intelligence/splash_pricecheck/latest.md` and `.json`; generation age under 4 hours |
+| Canonical price check | `intelligence/splash_pricecheck/latest.md` and `.json`; generation age under 4 hours (Snapshot refreshes it before validating; a Snapshot push that conflicts with Pick Engine rebuilds from newest main and retries) |
 | Underlying price-check quotes | Age reconstructed from generation time and snapshot age; under 168 hours (7 days) |
 | Operational evidence | `data/ops_status.json` generated under 4 hours ago |
 | Required producer evidence | ESPN/picks under 4 hours, Context under 26 hours; injury under 4 hours Wed–Sat, 26 hours otherwise. Missing, unhealthy, unsuccessful or non-LIVE evidence fails |
