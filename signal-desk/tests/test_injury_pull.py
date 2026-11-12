@@ -112,6 +112,35 @@ class DraftEdgeContracts(unittest.TestCase):
                 self.assertEqual(snapshot["replacement"]["expected_games"], 1)
                 self.assertEqual(snapshot["replacement"]["covered_games"], 0)
 
+    def test_explicit_inline_position_resolves_same_player_blank_duplicate(self):
+        def malformed(page):
+            return page.replace(
+                '<tr><td>Alex Example <span class="num">#7</span></td><td>QB</td>',
+                '<tr><td>CJ Christian</td><td></td><td>Out</td></tr>'
+                '<tr><td>S CJ Christian</td><td></td>')
+        code, health, snapshot = self.run_injury_command(
+            [self.future_row()], replacement=True, transform=malformed)
+        self.assertEqual(code, 0)
+        self.assertEqual(health["status"], "ok")
+        entries = snapshot["secondary"][ip.team_key("Virginia Tech")]
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(entries[0]["player"], "CJ Christian")
+        self.assertEqual(entries[0]["pos"], "S")
+
+    def test_inline_position_cannot_resolve_conflicting_status_or_position(self):
+        for other in ('<td>S CJ Christian</td><td></td><td>Questionable</td>',
+                      '<td>CB CJ Christian</td><td></td><td>Out</td>'):
+            with self.subTest(other=other):
+                def malformed(page):
+                    return page.replace(
+                        '<tr><td>Alex Example <span class="num">#7</span></td><td>QB</td>',
+                        '<tr><td>CJ Christian</td><td></td><td>Out</td></tr>'
+                        '<tr>' + other + '</tr><tr><td>S CJ Christian</td><td></td>')
+                code, health, _ = self.run_injury_command(
+                    [self.future_row()], replacement=True, transform=malformed)
+                self.assertEqual(code, 1)
+                self.assertEqual(health["status"], "degraded")
+
     def test_stale_source_timestamp_is_not_replaced_with_fetch_time(self):
         old = (ip.dt.datetime.now(ip.dt.timezone.utc) - ip.dt.timedelta(days=2)).isoformat()
         import re
