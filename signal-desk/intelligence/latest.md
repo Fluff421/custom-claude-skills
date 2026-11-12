@@ -175,16 +175,16 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Texas Tech @ Oklahoma State | total | Under 72.5 | 53% | Lean | 0.5 |
 | Northwestern @ Ohio State | total | Over 44.5 | 53% | Lean | 0.5 |
 | Michigan @ Oregon | total | Over 38.5 | 54% | Lean | 0.5 |
-| Florida Atlantic @ Tulsa | total | Under 74.5 | 54% | Lean | 0.5 |
+| Florida Atlantic @ Tulsa | total | Under 73.5 | 54% | Lean | 0.5 |
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +253 to break even, edge +13.0%, Max Play
+- NFL parlay: Indianapolis Colts -3.5 (spread) + Washington Commanders +2.5 (spread) | model 40.5%, needs +261 to break even, edge +12.8%, Max Play
 - NFL parlay: Los Angeles Chargers +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 41.2%, needs +250 to break even, edge +12.6%, Max Play
-- NFL parlay: Dallas Cowboys +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 40.3%, needs +261 to break even, edge +12.6%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5 | model 57.0%, needs +160 to break even, edge +18.6%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Under 55.5 -> 61.5 | model 56.9%, needs +160 to break even, edge +18.4%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 55.5 -> 61.5 | model 56.8%, needs +160 to break even, edge +18.3%, Max Play
 - NCAAF parlay: Under 72.5 + Over 44.5 | model 28.3%, needs +287 to break even, edge +2.4%, Lean
-- NCAAF parlay: Over 44.5 + Under 74.5 | model 28.8%, needs +278 to break even, edge +2.3%, Lean
-- NCAAF parlay: Under 72.5 + Under 74.5 | model 28.8%, needs +273 to break even, edge +2.0%, No Play
+- NCAAF parlay: Over 44.5 + Under 73.5 | model 28.6%, needs +281 to break even, edge +2.4%, Lean
+- NCAAF parlay: Under 72.5 + Under 73.5 | model 28.6%, needs +276 to break even, edge +2.0%, Lean
 
 ## Results and learning by market
 
