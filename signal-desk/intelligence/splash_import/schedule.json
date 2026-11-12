@@ -232,6 +232,14 @@
           "kickoff_central": "2026-11-12 19:00",
           "away_team": "Memphis",
           "home_team": "South Florida"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-12 19:00",
+          "away_team": "Memphis",
+          "home_team": "South Florida"
         }
       ],
       "ledger_record_id": "recoAGDq8Oxz6jaig"
@@ -266,6 +274,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-12 19:15",
+          "away_team": "Commanders",
+          "home_team": "Giants"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-12 19:15",
           "away_team": "Commanders",
           "home_team": "Giants"
@@ -306,6 +322,14 @@
           "kickoff_central": "2026-11-12 20:00",
           "away_team": "Louisiana",
           "home_team": "Louisiana-Monroe"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-12 20:00",
+          "away_team": "Louisiana",
+          "home_team": "Louisiana-Monroe"
         }
       ],
       "ledger_record_id": null
@@ -340,6 +364,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-13 18:00",
+          "away_team": "Florida State",
+          "home_team": "Pittsburgh"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-13 18:00",
           "away_team": "Florida State",
           "home_team": "Pittsburgh"
@@ -380,6 +412,14 @@
           "kickoff_central": "2026-11-13 20:00",
           "away_team": "Illinois",
           "home_team": "UCLA"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-13 20:00",
+          "away_team": "Illinois",
+          "home_team": "UCLA"
         }
       ],
       "ledger_record_id": "recelvIXB5nNARazi"
@@ -414,6 +454,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-13 21:15",
+          "away_team": "Houston",
+          "home_team": "Colorado"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-13 21:15",
           "away_team": "Houston",
           "home_team": "Colorado"
@@ -454,6 +502,14 @@
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "Auburn",
           "home_team": "Mississippi State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "Auburn",
+          "home_team": "Mississippi State"
         }
       ],
       "ledger_record_id": "recKbHrLwPCq7K95c"
@@ -488,6 +544,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "Duke",
+          "home_team": "Miami (FL)"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "Duke",
           "home_team": "Miami (FL)"
@@ -528,6 +592,14 @@
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "Wisconsin",
           "home_team": "Maryland"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "Wisconsin",
+          "home_team": "Maryland"
         }
       ],
       "ledger_record_id": "rec4KXoPObfT4bFvb"
@@ -562,6 +634,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "Syracuse",
+          "home_team": "NC State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "Syracuse",
           "home_team": "NC State"
@@ -602,6 +682,14 @@
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "James Madison",
           "home_team": "UConn"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "James Madison",
+          "home_team": "UConn"
         }
       ],
       "ledger_record_id": "recLWqwVHwLGRt4sA"
@@ -636,6 +724,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "Cincinnati",
+          "home_team": "Iowa State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "Cincinnati",
           "home_team": "Iowa State"
@@ -676,6 +772,14 @@
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "Northwestern",
           "home_team": "Ohio State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "Northwestern",
+          "home_team": "Ohio State"
         }
       ],
       "ledger_record_id": "recXVCtaD9i4d3q7V"
@@ -710,6 +814,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 11:00",
+          "away_team": "Wake Forest",
+          "home_team": "SMU"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 11:00",
           "away_team": "Wake Forest",
           "home_team": "SMU"
@@ -750,6 +862,14 @@
           "kickoff_central": "2026-11-14 11:30",
           "away_team": "Georgia Tech",
           "home_team": "Clemson"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 11:30",
+          "away_team": "Georgia Tech",
+          "home_team": "Clemson"
         }
       ],
       "ledger_record_id": "rec9LE2B6ouTGvm8d"
@@ -784,6 +904,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 11:30",
+          "away_team": "Nebraska",
+          "home_team": "Rutgers"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 11:30",
           "away_team": "Nebraska",
           "home_team": "Rutgers"
@@ -824,6 +952,14 @@
           "kickoff_central": "2026-11-14 11:45",
           "away_team": "Alabama",
           "home_team": "Vanderbilt"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 11:45",
+          "away_team": "Alabama",
+          "home_team": "Vanderbilt"
         }
       ],
       "ledger_record_id": "reca4JdR5wi33Op0V"
@@ -858,6 +994,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 12:00",
+          "away_team": "East Carolina",
+          "home_team": "Charlotte"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 12:00",
           "away_team": "East Carolina",
           "home_team": "Charlotte"
@@ -898,6 +1042,14 @@
           "kickoff_central": "2026-11-14 12:00",
           "away_team": "Arkansas State",
           "home_team": "Coastal Carolina"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 12:00",
+          "away_team": "Arkansas State",
+          "home_team": "Coastal Carolina"
         }
       ],
       "ledger_record_id": "recwJUYhAtuhiQNKv"
@@ -932,6 +1084,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 12:00",
+          "away_team": "UAB",
+          "home_team": "Temple"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 12:00",
           "away_team": "UAB",
           "home_team": "Temple"
@@ -972,6 +1132,14 @@
           "kickoff_central": "2026-11-14 13:00",
           "away_team": "Tulane",
           "home_team": "Rice"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 13:00",
+          "away_team": "Tulane",
+          "home_team": "Rice"
         }
       ],
       "ledger_record_id": "recpmOiQq29MMNath"
@@ -1006,6 +1174,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 13:00",
+          "away_team": "Kansas State",
+          "home_team": "TCU"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 13:00",
           "away_team": "Kansas State",
           "home_team": "TCU"
@@ -1046,6 +1222,14 @@
           "kickoff_central": "2026-11-14 13:00",
           "away_team": "Kennesaw State",
           "home_team": "Sam Houston"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 13:00",
+          "away_team": "Kennesaw State",
+          "home_team": "Sam Houston"
         }
       ],
       "ledger_record_id": "recgn46XBe7WkElWB"
@@ -1080,6 +1264,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:00",
+          "away_team": "Tennessee",
+          "home_team": "Texas A&M"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:00",
           "away_team": "Tennessee",
           "home_team": "Texas A&M"
@@ -1120,6 +1312,14 @@
           "kickoff_central": "2026-11-14 14:00",
           "away_team": "Florida International",
           "home_team": "Delaware"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 14:00",
+          "away_team": "Florida International",
+          "home_team": "Delaware"
         }
       ],
       "ledger_record_id": "recW4JsOwbX8uQmjE"
@@ -1154,6 +1354,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:00",
+          "away_team": "New Mexico State",
+          "home_team": "Missouri State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:00",
           "away_team": "New Mexico State",
           "home_team": "Missouri State"
@@ -1194,6 +1402,14 @@
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Florida Atlantic",
           "home_team": "Tulsa"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Florida Atlantic",
+          "home_team": "Tulsa"
         }
       ],
       "ledger_record_id": "recleuiqEH89U3qMw"
@@ -1228,6 +1444,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Missouri",
+          "home_team": "Georgia"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Missouri",
           "home_team": "Georgia"
@@ -1268,6 +1492,14 @@
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "California",
           "home_team": "Virginia"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "California",
+          "home_team": "Virginia"
         }
       ],
       "ledger_record_id": "rec5sbM7PV1lIfVfC"
@@ -1302,6 +1534,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Baylor",
+          "home_team": "BYU"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Baylor",
           "home_team": "BYU"
@@ -1342,6 +1582,14 @@
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Michigan",
           "home_team": "Oregon"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Michigan",
+          "home_team": "Oregon"
         }
       ],
       "ledger_record_id": "reciW7HVgt6ZLBjmK"
@@ -1376,6 +1624,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Boston College",
+          "home_team": "Notre Dame"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Boston College",
           "home_team": "Notre Dame"
@@ -1416,6 +1672,14 @@
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "USC",
           "home_team": "Indiana"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "USC",
+          "home_team": "Indiana"
         }
       ],
       "ledger_record_id": "recLonTTdUlcZwN1l"
@@ -1450,6 +1714,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Middle Tennessee",
+          "home_team": "Liberty"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Middle Tennessee",
           "home_team": "Liberty"
@@ -1490,6 +1762,14 @@
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Nevada",
           "home_team": "Northern Illinois"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Nevada",
+          "home_team": "Northern Illinois"
         }
       ],
       "ledger_record_id": "recqwNkS52OIwUljj"
@@ -1524,6 +1804,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Arizona State",
+          "home_team": "UCF"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Arizona State",
           "home_team": "UCF"
@@ -1564,6 +1852,14 @@
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Jacksonville State",
           "home_team": "Western Kentucky"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Jacksonville State",
+          "home_team": "Western Kentucky"
         }
       ],
       "ledger_record_id": "recRcMgeqLmBoE5ev"
@@ -1598,6 +1894,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 14:30",
+          "away_team": "Georgia Southern",
+          "home_team": "Georgia State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 14:30",
           "away_team": "Georgia Southern",
           "home_team": "Georgia State"
@@ -1638,6 +1942,14 @@
           "kickoff_central": "2026-11-14 15:00",
           "away_team": "Fresno State",
           "home_team": "Texas State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 15:00",
+          "away_team": "Fresno State",
+          "home_team": "Texas State"
         }
       ],
       "ledger_record_id": "recCTu9IGYaqUcN4M"
@@ -1672,6 +1984,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 15:15",
+          "away_team": "Washington",
+          "home_team": "Michigan State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 15:15",
           "away_team": "Washington",
           "home_team": "Michigan State"
@@ -1712,6 +2032,14 @@
           "kickoff_central": "2026-11-14 15:15",
           "away_team": "Ole Miss",
           "home_team": "Oklahoma"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 15:15",
+          "away_team": "Ole Miss",
+          "home_team": "Oklahoma"
         }
       ],
       "ledger_record_id": "recUGwTH9S6MNDABp"
@@ -1746,6 +2074,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 16:00",
+          "away_team": "Southern Miss",
+          "home_team": "Louisiana Tech"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 16:00",
           "away_team": "Southern Miss",
           "home_team": "Louisiana Tech"
@@ -1786,6 +2122,14 @@
           "kickoff_central": "2026-11-14 16:30",
           "away_team": "Kansas",
           "home_team": "West Virginia"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 16:30",
+          "away_team": "Kansas",
+          "home_team": "West Virginia"
         }
       ],
       "ledger_record_id": "recbe0DRlCxEUlkhc"
@@ -1820,6 +2164,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 17:00",
+          "away_team": "Appalachian State",
+          "home_team": "Marshall"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 17:00",
           "away_team": "Appalachian State",
           "home_team": "Marshall"
@@ -1860,6 +2212,14 @@
           "kickoff_central": "2026-11-14 17:00",
           "away_team": "Oregon State",
           "home_team": "Boise State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 17:00",
+          "away_team": "Oregon State",
+          "home_team": "Boise State"
         }
       ],
       "ledger_record_id": "rec2hMLEWssofUrMa"
@@ -1894,6 +2254,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 17:15",
+          "away_team": "Florida",
+          "home_team": "Kentucky"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 17:15",
           "away_team": "Florida",
           "home_team": "Kentucky"
@@ -1934,6 +2302,14 @@
           "kickoff_central": "2026-11-14 18:00",
           "away_team": "Troy",
           "home_team": "South Alabama"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 18:00",
+          "away_team": "Troy",
+          "home_team": "South Alabama"
         }
       ],
       "ledger_record_id": "recXiC8lOvEvvvPfa"
@@ -1968,6 +2344,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 18:00",
+          "away_team": "Louisville",
+          "home_team": "North Carolina"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 18:00",
           "away_team": "Louisville",
           "home_team": "North Carolina"
@@ -2008,6 +2392,14 @@
           "kickoff_central": "2026-11-14 18:00",
           "away_team": "Minnesota",
           "home_team": "Penn State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 18:00",
+          "away_team": "Minnesota",
+          "home_team": "Penn State"
         }
       ],
       "ledger_record_id": "recDwKVCOoFoEx8JF"
@@ -2042,6 +2434,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 18:00",
+          "away_team": "San Jose State",
+          "home_team": "Air Force"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 18:00",
           "away_team": "San Jose State",
           "home_team": "Air Force"
@@ -2082,6 +2482,14 @@
           "kickoff_central": "2026-11-14 18:30",
           "away_team": "Purdue",
           "home_team": "Iowa"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 18:30",
+          "away_team": "Purdue",
+          "home_team": "Iowa"
         }
       ],
       "ledger_record_id": "rec3P0JnjVo4WzfgT"
@@ -2116,6 +2524,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 18:30",
+          "away_team": "UNLV",
+          "home_team": "New Mexico"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 18:30",
           "away_team": "UNLV",
           "home_team": "New Mexico"
@@ -2156,6 +2572,14 @@
           "kickoff_central": "2026-11-14 18:30",
           "away_team": "Stanford",
           "home_team": "Virginia Tech"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 18:30",
+          "away_team": "Stanford",
+          "home_team": "Virginia Tech"
         }
       ],
       "ledger_record_id": "recTZfdpBSGzN916r"
@@ -2190,6 +2614,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 18:30",
+          "away_team": "Texas",
+          "home_team": "LSU"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 18:30",
           "away_team": "Texas",
           "home_team": "LSU"
@@ -2230,6 +2662,14 @@
           "kickoff_central": "2026-11-14 18:30",
           "away_team": "Utah",
           "home_team": "Arizona"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 18:30",
+          "away_team": "Utah",
+          "home_team": "Arizona"
         }
       ],
       "ledger_record_id": "recBMBebWIqKVuW17"
@@ -2264,6 +2704,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 18:45",
+          "away_team": "South Carolina",
+          "home_team": "Arkansas"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 18:45",
           "away_team": "South Carolina",
           "home_team": "Arkansas"
@@ -2304,6 +2752,14 @@
           "kickoff_central": "2026-11-14 20:00",
           "away_team": "North Texas",
           "home_team": "UTSA"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 20:00",
+          "away_team": "North Texas",
+          "home_team": "UTSA"
         }
       ],
       "ledger_record_id": "recI4uL5vEvbfRmn5"
@@ -2338,6 +2794,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 20:30",
+          "away_team": "Utah State",
+          "home_team": "San Diego State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 20:30",
           "away_team": "Utah State",
           "home_team": "San Diego State"
@@ -2378,6 +2842,14 @@
           "kickoff_central": "2026-11-14 20:30",
           "away_team": "Texas Tech",
           "home_team": "Oklahoma State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 20:30",
+          "away_team": "Texas Tech",
+          "home_team": "Oklahoma State"
         }
       ],
       "ledger_record_id": "recSzZNVIF1B1RgAi"
@@ -2412,6 +2884,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 21:00",
+          "away_team": "Wyoming",
+          "home_team": "UTEP"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 21:00",
           "away_team": "Wyoming",
           "home_team": "UTEP"
@@ -2452,6 +2932,14 @@
           "kickoff_central": "2026-11-14 21:30",
           "away_team": "Colorado State",
           "home_team": "Washington State"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-14 21:30",
+          "away_team": "Colorado State",
+          "home_team": "Washington State"
         }
       ],
       "ledger_record_id": "rec95zAsrohONJnA1"
@@ -2486,6 +2974,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-14 22:00",
+          "away_team": "North Dakota State",
+          "home_team": "Hawai'i"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-14 22:00",
           "away_team": "North Dakota State",
           "home_team": "Hawai'i"
@@ -2526,6 +3022,14 @@
           "kickoff_central": "2026-11-15 08:30",
           "away_team": "Patriots",
           "home_team": "Lions"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-15 08:30",
+          "away_team": "Patriots",
+          "home_team": "Lions"
         }
       ],
       "ledger_record_id": "recylpHuRGLsBYvGb"
@@ -2560,6 +3064,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-15 12:00",
+          "away_team": "Panthers",
+          "home_team": "Saints"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-15 12:00",
           "away_team": "Panthers",
           "home_team": "Saints"
@@ -2600,6 +3112,14 @@
           "kickoff_central": "2026-11-15 12:00",
           "away_team": "Texans",
           "home_team": "Browns"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-15 12:00",
+          "away_team": "Texans",
+          "home_team": "Browns"
         }
       ],
       "ledger_record_id": "rec8X63KrWwU5iUk5"
@@ -2634,6 +3154,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-15 12:00",
+          "away_team": "Vikings",
+          "home_team": "Packers"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-15 12:00",
           "away_team": "Vikings",
           "home_team": "Packers"
@@ -2674,6 +3202,14 @@
           "kickoff_central": "2026-11-15 12:00",
           "away_team": "Dolphins",
           "home_team": "Colts"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-15 12:00",
+          "away_team": "Dolphins",
+          "home_team": "Colts"
         }
       ],
       "ledger_record_id": "recSIX0kbtS9usFh5"
@@ -2708,6 +3244,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-15 12:00",
+          "away_team": "Chiefs",
+          "home_team": "Falcons"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-15 12:00",
           "away_team": "Chiefs",
           "home_team": "Falcons"
@@ -2748,6 +3292,14 @@
           "kickoff_central": "2026-11-15 12:00",
           "away_team": "Jaguars",
           "home_team": "Titans"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-15 12:00",
+          "away_team": "Jaguars",
+          "home_team": "Titans"
         }
       ],
       "ledger_record_id": "rec2xpPh9yIsCppgq"
@@ -2782,6 +3334,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-15 12:00",
+          "away_team": "Bills",
+          "home_team": "Jets"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-15 12:00",
           "away_team": "Bills",
           "home_team": "Jets"
@@ -2822,6 +3382,14 @@
           "kickoff_central": "2026-11-15 15:05",
           "away_team": "Rams",
           "home_team": "Cardinals"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-15 15:05",
+          "away_team": "Rams",
+          "home_team": "Cardinals"
         }
       ],
       "ledger_record_id": "recNX9B2b0GWPNaR2"
@@ -2856,6 +3424,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-15 15:05",
+          "away_team": "Seahawks",
+          "home_team": "Raiders"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-15 15:05",
           "away_team": "Seahawks",
           "home_team": "Raiders"
@@ -2896,6 +3472,14 @@
           "kickoff_central": "2026-11-15 15:25",
           "away_team": "49ers",
           "home_team": "Cowboys"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-15 15:25",
+          "away_team": "49ers",
+          "home_team": "Cowboys"
         }
       ],
       "ledger_record_id": "recAWaU5OhKm6iTgv"
@@ -2933,6 +3517,14 @@
           "kickoff_central": "2026-11-15 19:20",
           "away_team": "Steelers",
           "home_team": "Bengals"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
+          "kickoff_central": "2026-11-15 19:20",
+          "away_team": "Steelers",
+          "home_team": "Bengals"
         }
       ],
       "ledger_record_id": "recg7N9JllfhoeUTO"
@@ -2967,6 +3559,14 @@
           "date_code": "SPL-L-20261110-2019",
           "input_sha256": "71a1bb13b92868931d6621a73a295dfcaeae276bd63d9ffa3ed31ca5587e6cfc",
           "extracted_at_utc": "2026-11-11 02:19:00Z",
+          "kickoff_central": "2026-11-16 19:15",
+          "away_team": "Chargers",
+          "home_team": "Ravens"
+        },
+        {
+          "date_code": "SPL-L-20261111-2043",
+          "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+          "extracted_at_utc": "2026-11-12T02:43:00Z",
           "kickoff_central": "2026-11-16 19:15",
           "away_team": "Chargers",
           "home_team": "Ravens"
