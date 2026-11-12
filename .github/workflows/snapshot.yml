@@ -90,6 +90,10 @@ jobs:
           fi
       - uses: actions/checkout@v4
         if: steps.gate.outputs.run == 'true'
+        with:
+          # A queued run must start from the newest main, not the commit that triggered it,
+          # so overlapping producers do not rebase stale generated files over each other.
+          ref: ${{ github.event_name != 'pull_request' && 'main' || '' }}
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.run == 'true'
         with:

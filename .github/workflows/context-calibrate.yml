@@ -63,6 +63,10 @@ jobs:
       CONTEXT_SYNC_LIVE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.live == true) || (github.event_name == 'schedule' && vars.CONTEXT_SYNC_LIVE == 'true')) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A queued run must start from the newest main, not the commit that triggered it,
+          # so overlapping producers do not rebase stale generated files over each other.
+          ref: ${{ github.event_name != 'pull_request' && 'main' || '' }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -97,6 +101,10 @@ jobs:
       FACTORS_LEARN_LIVE: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && vars.FACTORS_LEARN_LIVE == 'true' && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A queued run must start from the newest main, not the commit that triggered it,
+          # so overlapping producers do not rebase stale generated files over each other.
+          ref: ${{ github.event_name != 'pull_request' && 'main' || '' }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
