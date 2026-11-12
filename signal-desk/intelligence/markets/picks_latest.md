@@ -48,7 +48,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Utah @ Arizona | moneyline | Utah ML -142 | 57% | -1.7% | No Play | 0 |
 | South Carolina @ Arkansas | spread | South Carolina -7.5 (spread) | 51% |  | No Play | 0 |
 | South Carolina @ Arkansas | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
-| South Carolina @ Arkansas | moneyline | Arkansas ML +245 | 31% | +2.0% | No Play | 0 |
+| South Carolina @ Arkansas | moneyline | Arkansas ML +235 | 31% | +1.2% | No Play | 0 |
 | Fresno State @ Texas State | spread | Fresno State +10 (spread) | 52% |  | No Play | 0 |
 | Fresno State @ Texas State | total | Under 59.5 | 51% | +0.5 pts | No Play | 0 |
 | Fresno State @ Texas State | moneyline | Fresno State ML +295 | 28% | +2.5% | No Play | 0 |
@@ -111,7 +111,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Texas @ LSU | moneyline | Texas ML +154 | 41% | +1.2% | No Play | 0 |
 | Ole Miss @ Oklahoma | spread | Ole Miss -1.5 (spread) | 50% |  | No Play | 0 |
 | Ole Miss @ Oklahoma | total | Over 49.5 | 51% | +0.7 pts | No Play | 0 |
-| Ole Miss @ Oklahoma | moneyline | Oklahoma ML -108 | 53% | +0.6% | No Play | 0 |
+| Ole Miss @ Oklahoma | moneyline | Ole Miss ML -112 | 54% | +1.4% | No Play | 0 |
 | Florida International @ Delaware | spread | Florida International +5.5 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Delaware | total | Under 53.5 | 51% | +0.7 pts | No Play | 0 |
 | Florida International @ Delaware | moneyline | Florida International ML +170 | 38% | +0.8% | No Play | 0 |

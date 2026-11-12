@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T01:27:28+00:00",
+ "generated_at": "2026-11-12T01:38:20+00:00",
  "date": "2026-11-11",
  "games": [
   {
@@ -2275,7 +2275,7 @@
      "side": "away",
      "team": "South Carolina",
      "line": -7.5,
-     "price": -118.0,
+     "price": -112.0,
      "proj": -10.0,
      "prob": 0.5096,
      "edge": null,
@@ -2310,18 +2310,18 @@
      "side": "home",
      "team": "Arkansas",
      "line": 0.0,
-     "price": 245.0,
+     "price": 235.0,
      "price_estimated": false,
      "proj": -7.43,
      "prob": 0.3102,
-     "edge": 0.0203,
+     "edge": 0.0117,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Arkansas ML +245",
+     "selection": "Arkansas ML +235",
      "game_id": "recBbCFf6VNAcF3J8",
      "game": "South Carolina @ Arkansas",
      "priority": "primary",
@@ -4585,7 +4585,7 @@
      "side": "home",
      "team": "Temple",
      "line": -2.5,
-     "price": -110.0,
+     "price": -115.0,
      "proj": 5.9,
      "prob": 0.5127,
      "edge": null,
@@ -5930,10 +5930,10 @@
    "league": "NCAAF",
    "date": "2026-11-14",
    "frozen": false,
-   "line": 1.5,
+   "line": -1.5,
    "total_line": 49.5,
    "model_margin": -2.200000000000001,
-   "blend_margin": 0.9634999999999999,
+   "blend_margin": -1.6015000000000001,
    "proj_total": 50.224875,
    "factors": [
     "weather: 62F, 4 | no severity"
@@ -5945,7 +5945,7 @@
      "side": "away",
      "team": "Ole Miss",
      "line": -1.5,
-     "price": -122.0,
+     "price": 102.0,
      "proj": -2.200000000000001,
      "prob": 0.5012,
      "edge": null,
@@ -5956,7 +5956,7 @@
      "game_id": "recUGwTH9S6MNDABp",
      "game": "Ole Miss @ Oklahoma",
      "priority": "primary",
-     "pro_favorite": false
+     "pro_favorite": true
     },
     {
      "market": "total",
@@ -5977,21 +5977,21 @@
     },
     {
      "market": "moneyline",
-     "side": "home",
-     "team": "Oklahoma",
+     "side": "away",
+     "team": "Ole Miss",
      "line": 0.0,
-     "price": -108.0,
+     "price": -112.0,
      "price_estimated": false,
-     "proj": 0.96,
-     "prob": 0.5256,
-     "edge": 0.0064,
+     "proj": -1.6,
+     "prob": 0.5425,
+     "edge": 0.0142,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Oklahoma ML -108",
+     "selection": "Ole Miss ML -112",
      "game_id": "recUGwTH9S6MNDABp",
      "game": "Ole Miss @ Oklahoma",
      "priority": "primary",
@@ -6002,18 +6002,18 @@
     {
      "market": "teaser_leg",
      "kind": "spread",
-     "side": "away",
-     "team": "Ole Miss",
+     "side": "home",
+     "team": "Oklahoma",
      "base_line": 1.5,
      "line": 7.5,
      "price": 0.0,
-     "prob": 0.6245,
+     "prob": 0.6139,
      "push": 0,
      "crosses": [
       3,
       7
      ],
-     "selection": "Ole Miss +1.5 -> +7.5 (crosses 3 and 7)",
+     "selection": "Oklahoma +1.5 -> +7.5 (crosses 3 and 7)",
      "game_id": "recUGwTH9S6MNDABp",
      "game": "Ole Miss @ Oklahoma",
      "priority": "secondary",
@@ -6041,23 +6041,23 @@
    "alt_spreads": [
     {
      "team": "Oklahoma",
-     "line": -4.5,
-     "prob": 0.4032
+     "line": -1.5,
+     "prob": 0.4209
     },
     {
      "team": "Ole Miss",
-     "line": -1.5,
-     "prob": 0.4372
+     "line": -4.5,
+     "prob": 0.4194
     },
     {
      "team": "Oklahoma",
-     "line": 1.5,
-     "prob": 0.5628
+     "line": 4.5,
+     "prob": 0.5806
     },
     {
      "team": "Ole Miss",
-     "line": 4.5,
-     "prob": 0.5968
+     "line": 1.5,
+     "prob": 0.5791
     }
    ]
   },
@@ -9172,7 +9172,7 @@
      "market": "total",
      "side": "under",
      "line": 46.5,
-     "price": -112.0,
+     "price": -110.0,
      "proj": 45.55,
      "prob": 0.538,
      "edge": 0.95,
