@@ -1,4 +1,4 @@
-# Signal Desk intelligence report, 2026-11-10
+# Signal Desk intelligence report, 2026-11-11
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
@@ -6,9 +6,36 @@ Overall graded picks: 71-75 (Brier 0.2605).
 
 ## Upcoming best bets (Lean and above)
 
-No Lean-or-better picks right now.
+| Game | Date | Tier | Pick | Units | Win prob | Adj edge |
+|---|---|---|---|---|---|---|
+| Miami Dolphins @ Indianapolis Colts | 2026-11-15 | Max Play | Indianapolis Colts -3.5 (spread) | 1 | 69.5% |  |
+| Kansas City Chiefs @ Atlanta Falcons | 2026-11-15 | Strong Play | Kansas City Chiefs -3.5 (spread) | 1 | 60.5% |  |
+| Pittsburgh Steelers @ Cincinnati Bengals | 2026-11-15 | Strong Play | Cincinnati Bengals -3.5 (spread) | 1 | 59.6% |  |
+| San Francisco 49ers @ Dallas Cowboys | 2026-11-15 | Strong Play | Dallas Cowboys +4.5 (spread) | 1 | 58.0% |  |
+| Alabama @ Vanderbilt | 2026-11-14 | Lean | Alabama -15.5 (spread) | 0.5 | 50.0% |  |
+| Jacksonville Jaguars @ Tennessee Titans | 2026-11-15 | Lean | Tennessee Titans +10.5 (spread) | 0.5 | 54.5% |  |
+| Houston Texans @ Cleveland Browns | 2026-11-15 | Lean | Houston Texans -4.5 (spread) | 0.5 | 54.5% |  |
+| Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | Lean | Las Vegas Raiders +6.5 (spread) | 0.5 | 57.7% |  |
+| Minnesota Vikings @ Green Bay Packers | 2026-11-15 | Lean | Minnesota Vikings +3.5 (spread) | 0.5 | 55.8% |  |
+| Washington Commanders @ New York Giants | 2026-11-12 | Lean | Washington Commanders +2.5 (spread) | 0.5 | 58.3% |  |
+| Carolina Panthers @ New Orleans Saints | 2026-11-15 | Lean | Carolina Panthers +2.5 (spread) | 0.5 | 57.4% |  |
+| New England Patriots @ Detroit Lions | 2026-11-15 | Lean | New England Patriots +2.5 (spread) | 0.5 | 54.2% |  |
+| Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | Lean | Los Angeles Chargers +4.5 (spread) | 0.5 | 59.3% |  |
+- Miami Dolphins @ Indianapolis Colts: weather: indoor | sev=0.00
+- Kansas City Chiefs @ Atlanta Falcons: QB: HOME QB PLAYING Michael Penix Jr. [verified 2026-11-10] | AWAY QB QUESTIONABLE Patrick Mahomes -> Justin Fields [verified 2026-11-10]; weather: indoor | sev=0.00
+- Pittsburgh Steelers @ Cincinnati Bengals: weather: 37F, wind 4mph, precip 0% | sev=0.00 | open-meteo
+- San Francisco 49ers @ Dallas Cowboys: weather: indoor | sev=0.00
+- Alabama @ Vanderbilt: weather: 47F, wind 5mph, precip 0% | sev=0.00 | open-meteo
+- Jacksonville Jaguars @ Tennessee Titans: weather: 51F, wind 6mph, precip 1% | sev=0.00 | open-meteo
+- Houston Texans @ Cleveland Browns: QB: HOME QB QUESTIONABLE Deshaun Watson -> Shedeur Sanders [verified 2026-11-10] [priced: Shedeur Sanders led passing 2026-11-08] | AWAY QB PLAYING C.J. Stroud [verified 2026-11-10]; weather: 46F, 7 | no severity
+- Seattle Seahawks @ Las Vegas Raiders: QB: HOME QB PLAYING Fernando Mendoza [auto espn 2026-11-11] | AWAY QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-11] [priced: Drew Lock led passing 2026-11-08]; weather: indoor | sev=0.00
+- Minnesota Vikings @ Green Bay Packers: QB: HOME QB PLAYING Jordan Love [verified 2026-11-10] | AWAY QB OUT Kyler Murray -> Carson Wentz [verified 2026-11-10] [priced: Carson Wentz led passing 2026-11-09]; weather: 42F, wind 7mph, precip 0% | sev=0.00 | open-meteo
+- Washington Commanders @ New York Giants: QB: HOME QB QUESTIONABLE J.J. McCarthy -> Jameis Winston [verified 2026-11-10] | AWAY QB PLAYING Jayden Daniels [verified 2026-11-10]; weather: 47F, wind 13mph, precip 65% | sev=0.40 | open-meteo
+- Carolina Panthers @ New Orleans Saints: weather: indoor | sev=0.00
+- New England Patriots @ Detroit Lions: 
+- Los Angeles Chargers @ Baltimore Ravens: QB: HOME QB PLAYING Jacoby Brissett [auto espn 2026-11-11] | AWAY QB QUESTIONABLE Justin Herbert -> DJ Uiagalelei [auto espn 2026-11-11]; weather: 45F, wind 4mph, precip 0% | sev=0.00 | open-meteo
 
-Tracking picks (paper, 0u): 0. Examples: 
+Tracking picks (paper, 0u): 65. Examples: Boston College @ Notre Dame -> Notre Dame -29.5 (spread); Middle Tennessee @ Liberty -> Liberty -20.5 (spread); Sacramento State @ Central Michigan -> Central Michigan -18.5 (spread); Louisiana @ UL Monroe -> Louisiana -10.5 (spread); Stanford @ Virginia Tech -> Virginia Tech -14.5 (spread); Southern Miss @ Louisiana Tech -> Southern Miss +17.5 (spread)
 
 ## Recently closed (last 7 days)
 
@@ -106,8 +133,8 @@ By size of base edge:
 
 ## What the learner currently believes
 
-- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 29 (20 with factor records); last calibrated 2026-11-10T19:41:21.000Z
-- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 117 (62 with factor records); last calibrated 2026-11-10T19:41:21.000Z
+- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 29 (20 with factor records); last calibrated 2026-11-11T01:42:25.000Z
+- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 117 (62 with factor records); last calibrated 2026-11-11T01:42:25.000Z
 
 ## What changes automatically, and how close each change is
 
@@ -126,13 +153,38 @@ By size of base edge:
 
 ## Data gaps right now
 
-- no upcoming games in the ledger
+- 83 of 83 upcoming games have no Splash line (tracking picks use the ESPN line): Los Angeles Chargers @ Baltimore Ravens; Oregon State @ Boise State; Arizona State @ UCF; Jacksonville Jaguars @ Tennessee Titans; Purdue @ Iowa; Wisconsin @ Maryland; Miami (OH) @ Kent State; California @ Virginia
+- 1 games inside the forecast window have no weather note
+- NCAAF quarterback checks cover 1 of 69 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
 
 Lean-or-better totals and moneylines (spreads are in the table above). Every game also has a tracking pick in every market in `intelligence/markets/picks_latest.md`.
 
-No Lean-or-better totals or moneylines right now.
+| Game | Market | Pick | Prob | Tier | Units |
+|---|---|---|---|---|---|
+| Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 56% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
+| Wisconsin @ Maryland | total | Over 42.5 | 53% | Lean | 0.5 |
+| San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
+| North Texas @ UTSA | total | Under 75.5 | 54% | Lean | 0.5 |
+| Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | Lean | 0.5 |
+| Wyoming @ UTEP | total | Over 39.5 | 53% | Lean | 0.5 |
+| Los Angeles Rams @ Arizona Cardinals | total | Over 39.5 | 57% | Lean | 0.5 |
+| Miami Dolphins @ Indianapolis Colts | total | Over 38.5 | 57% | Lean | 0.5 |
+| Texas Tech @ Oklahoma State | total | Under 72.5 | 54% | Lean | 0.5 |
+| Northwestern @ Ohio State | total | Over 44.5 | 53% | Lean | 0.5 |
+| Michigan @ Oregon | total | Over 38.5 | 54% | Lean | 0.5 |
+| Florida Atlantic @ Tulsa | total | Under 74.5 | 54% | Lean | 0.5 |
+- NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +253 to break even, edge +13.0%, Max Play
+- NFL parlay: Los Angeles Chargers +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 41.2%, needs +250 to break even, edge +12.6%, Max Play
+- NFL parlay: Dallas Cowboys +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 40.3%, needs +261 to break even, edge +12.6%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5 | model 57.0%, needs +160 to break even, edge +18.6%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Under 55.5 -> 61.5 | model 56.9%, needs +160 to break even, edge +18.4%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 55.5 -> 61.5 | model 56.8%, needs +160 to break even, edge +18.3%, Max Play
+- NCAAF parlay: Under 72.5 + Over 38.5 | model 29.1%, needs +281 to break even, edge +2.9%, Lean
+- NCAAF parlay: Under 75.5 + Under 72.5 | model 29.0%, needs +281 to break even, edge +2.8%, Lean
+- NCAAF parlay: Under 72.5 + Over 44.5 | model 28.8%, needs +281 to break even, edge +2.6%, Lean
 
 ## Results and learning by market
 
@@ -148,7 +200,7 @@ No Lean-or-better totals or moneylines right now.
 
 Tuning only starts at 30 graded picks per league and market; tier tables need 20 per tier.
 - NCAAF moneyline: n=62, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)
-- NCAAF total: n=62, shrink 0.7 -> 0.55 (applied; best 0.3, Brier gain 0.0037)
+- NCAAF total: n=62, shrink 0.55 -> 0.4 (applied; best 0.3, Brier gain 0.0023)
 - NCAAF teaser_leg: n=124, shrink 0.7 -> 0.7 (no meaningful gain; best 0.5, Brier gain 0.0016)
 - NFL moneyline: 20 graded, need 30 before tuning
 - NFL total: 20 graded, need 30 before tuning
@@ -156,7 +208,6 @@ Tuning only starts at 30 graded picks per league and market; tier tables need 20
 
 ## Automatic changes (change log)
 
-- 2026-11-08 NCAAF spread: Factor Scale Revenge  -> 0.988 (117 graded spread picks; Brier-based fit; n=60)
 - 2026-11-08 NCAAF spread: Tier multiplier Lean 0.95 -> 0.924 (actual win rate / predicted for this tier (needs 20+ picks); n=34)
 - 2026-11-08 NCAAF total: probability shrink 1.0 -> 0.85 (Brier 0.2593 -> gain 0.0069 at shrink 0.3; n=62)
 - 2026-11-08 NCAAF teaser_leg: probability shrink 1.0 -> 0.85 (Brier 0.2507 -> gain 0.0094 at shrink 0.5; n=124)
@@ -166,6 +217,7 @@ Tuning only starts at 30 graded picks per league and market; tier tables need 20
 - 2026-11-09 NFL teaser_leg: probability shrink 1.0 -> 1.15 (Brier 0.1742 -> gain 0.002 at shrink 1.2; n=38)
 - 2026-11-10 NFL spread: Sigma 12.37 -> 12.38 (29 graded spread picks; learned residual SD, shrunk to prior, step-limited; n=689)
 - 2026-11-10 NCAAF total: probability shrink 0.7 -> 0.55 (Brier 0.2561 -> gain 0.0037 at shrink 0.3; n=62)
+- 2026-11-11 NCAAF total: probability shrink 0.55 -> 0.4 (Brier 0.2546 -> gain 0.0023 at shrink 0.3; n=62)
 
 ## Your Splash picks vs the model (locked lines)
 

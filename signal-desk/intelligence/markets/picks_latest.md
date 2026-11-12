@@ -73,6 +73,9 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Auburn @ Mississippi State | spread | Mississippi State +2.5 (spread) | 51% |  | No Play | 0 |
 | Auburn @ Mississippi State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
 | Auburn @ Mississippi State | moneyline | Mississippi State ML +120 | 45% | -0.9% | No Play | 0 |
+| Massachusetts @ Toledo | spread | Massachusetts +14.5 (spread) | 50% |  | No Play | 0 |
+| Massachusetts @ Toledo | total | Over 52.5 | 51% | +0.7 pts | No Play | 0 |
+| Massachusetts @ Toledo | moneyline | Massachusetts ML +455 | 18% | -0.4% | No Play | 0 |
 | James Madison @ UConn | spread | James Madison -4 (spread) | 52% |  | No Play | 0 |
 | James Madison @ UConn | total | Over 57.5 | 50% | +0.4 pts | No Play | 0 |
 | James Madison @ UConn | moneyline | UConn ML +160 | 38% | -0.6% | No Play | 0 |
