@@ -1,6 +1,6 @@
 name: Splash pick-time check (Signal Desk)
 
-# Manual only. Reprices every upcoming game at the newest Splash line in intelligence/splash_lines_log.csv
+# Manual, and automatically after each live Snapshot run so the morning check is never older than the report. Reprices every upcoming game at the newest Splash line in intelligence/splash_lines_log.csv
 # (spread, total, moneyline and 6-point teaser legs) and shows what changed versus the early-week import.
 # Run it right before picking on Splash. Read-only against Airtable; paper picks only.
 on:
@@ -11,6 +11,10 @@ on:
         required: false
         default: ""
         type: string
+  workflow_run:
+    workflows: ["Snapshot (Signal Desk)"]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: write
@@ -21,6 +25,13 @@ concurrency:
 
 jobs:
   check:
+    # After Snapshot, run only for main-repo scheduled/chained runs; this never changes the
+    # underlying Splash quote age, which readiness still checks against the 12-hour board limit.
+    if: >-
+      ${{ github.event_name == 'workflow_dispatch' ||
+          (github.event.workflow_run.head_repository.full_name == github.repository &&
+           github.event.workflow_run.head_branch == 'main' &&
+           (github.event.workflow_run.event == 'schedule' || github.event.workflow_run.event == 'workflow_run')) }}
     runs-on: ubuntu-latest
     env:
       AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}

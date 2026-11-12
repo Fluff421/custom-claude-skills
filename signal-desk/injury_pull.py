@@ -221,6 +221,10 @@ def merge_team(entries: list[dict]) -> list[str]:
     return out
 
 
+AVAILABILITY_LEAD_DAYS = 4  # games dated within today..today+4 (Central) need timestamped secondary coverage
+NOT_YET_DUE = "Secondary availability report (not yet due for this date)"
+
+
 def build_note(away: str, home: str, cov, de, cov_ok: bool, de_ok: bool, ledger_names: set[str], de_stamp: str,
                cov_latest: str, secondary_provider="DraftEdge") -> tuple[str, list[str]]:
     miss = []
@@ -293,11 +297,17 @@ def main() -> None:
             and r["fields"].get("Grade", "Pending") in ("", "Pending")
             and str(r["fields"].get("Date") or today)[:10] >= today]
     expected_rows = len(rows)
+    # Conference availability reports are only indexed a few days ahead, so only games inside the
+    # publication window must have timestamped secondary coverage. Later games still get a
+    # Covers-only note that says the secondary report is not yet due.
+    horizon = (dt.date.fromisoformat(today) + dt.timedelta(days=AVAILABILITY_LEAD_DAYS)).isoformat()
+    due_rows = [r for r in rows if str(r["fields"].get("Date") or today)[:10] <= horizon]
+    later_ids = {r["id"] for r in rows} - {r["id"] for r in due_rows}
     raw_de, raw_de_stamp, raw_de_ok = de, de_stamp, de_ok
     secondary_provider, replacement = "DraftEdge", {}
-    if expected_rows and not de_ok:
+    if due_rows and not de_ok:
         try:
-            de, de_stamp, replacement = availability.load(rows, fetch_kickoff, now, team_key)
+            de, de_stamp, replacement = availability.load(due_rows, fetch_kickoff, now, team_key)
             de_ok, secondary_provider = True, "Kickoff Status"
             print(f"INFO: {de_error}; replaced by timestamped full-coverage Kickoff Status reports.")
         except Exception as exc:
@@ -311,8 +321,12 @@ def main() -> None:
         rows = []
     for r in rows:
         f = r["fields"]
-        note, miss = build_note(f.get("Away Team", ""), f.get("Home Team", ""), cov, de, cov_ok, de_ok, ledger_names,
-                                de_stamp, cov_latest, secondary_provider)
+        if r["id"] in later_ids and (secondary_provider == "Kickoff Status" or not de_ok):
+            note, miss = build_note(f.get("Away Team", ""), f.get("Home Team", ""), cov, {}, cov_ok, False, ledger_names,
+                                    "", cov_latest, NOT_YET_DUE)
+        else:
+            note, miss = build_note(f.get("Away Team", ""), f.get("Home Team", ""), cov, de, cov_ok, de_ok, ledger_names,
+                                    de_stamp, cov_latest, secondary_provider)
         for m in miss:
             warn(f"{f.get('Game')}: {m}")
         cur = (f.get("Injury Notes") or "").strip()
@@ -331,7 +345,9 @@ def main() -> None:
              f"{secondary_provider}: {'ok' if de_ok else 'FAILED'} ({sum(len(v) for v in de.values())} entries, updated {de_stamp or 'n/a'})",
              f"Replacement games expected: {replacement.get('expected_games', 0)}",
              f"Replacement games covered: {replacement.get('covered_games', 0)}",
-             f"NCAAF ledger rows scanned: {len(rows)}", f"Notes to write: {len(updates)}"]
+             f"NCAAF ledger rows scanned: {len(rows)}",
+             f"Rows inside the {AVAILABILITY_LEAD_DAYS}-day secondary window: {len(due_rows)}; secondary not yet due: {len(later_ids)}",
+             f"Notes to write: {len(updates)}"]
     lines += [f"Skipped: {s}" for s in skipped] + [f"WARNING: {w}" for w in WARNINGS] + report[:60]
     print("\n".join(lines))
     if updates:
@@ -346,12 +362,13 @@ def main() -> None:
             json.dump({"checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
                        "sources": {"covers": cov_ok, "draftedge": raw_de_ok,
                                    "kickoff_status": secondary_provider == "Kickoff Status" and de_ok}, "expected_rows": expected_rows,
-                       "status": "degraded" if expected_rows and not (cov_ok and de_ok) else "ok",
+                       "due_rows": len(due_rows), "secondary_not_yet_due": len(later_ids),
+                       "status": "degraded" if (expected_rows and not cov_ok) or (due_rows and not de_ok) else "ok",
                        "covers": cov, "draftedge": raw_de, "draftedge_updated": raw_de_stamp,
                        "secondary": de, "secondary_provider": secondary_provider,
                        "secondary_updated": de_stamp, "replacement": replacement}, fh)
-    ph.finish("injury_pull", [de_error if name == "DraftEdge" else f"{name} unavailable or invalid" for name, ok in
-              (("Covers", cov_ok), ("DraftEdge", de_ok)) if expected_rows and not ok],
+    ph.finish("injury_pull", [de_error if name == "DraftEdge" else f"{name} unavailable or invalid" for name, ok, needed in
+              (("Covers", cov_ok, expected_rows), ("DraftEdge", de_ok, due_rows)) if needed and not ok],
               no_games=not expected_rows)
 
 

@@ -723,7 +723,22 @@ def _league_slug(league: str) -> str:
     return "nfl" if league == "NFL" else "college-football"
 
 
-def fetch_odds(f: dict) -> dict | None:
+# A game this many Central days out or more may not have a posted ESPN market yet (midweek
+# MACtion is often listed only a few days ahead). Such a game is reported as "market not yet
+# posted" and gets no pick; inside the window a missing market is still a producer error.
+MARKET_POST_LEAD_DAYS = 3
+MARKETS_NOT_YET_POSTED: list[str] = []
+
+
+def market_not_yet_due(f: dict, today: dt.date | None) -> bool:
+    try:
+        game_day = dt.date.fromisoformat(str(f.get("Date") or "")[:10])
+    except ValueError:
+        return False
+    return today is not None and (game_day - today).days >= MARKET_POST_LEAD_DAYS
+
+
+def fetch_odds(f: dict, today: dt.date | None = None) -> dict | None:
     import espn_sync as es
     eid = f.get("ESPN Event ID")
     if not eid:
@@ -732,7 +747,11 @@ def fetch_odds(f: dict) -> dict | None:
     try:
         odds = parse_odds(json.loads(es.http_get(CORE.format(lg=_league_slug(f.get("League")), eid=eid))))
         if not odds or all(odds.get(k) is None for k in ("home_margin_line", "total", "ml_home", "ml_away")):
-            es.warn(f"{f.get('Game')}: odds feed has no usable market")
+            if market_not_yet_due(f, today):
+                MARKETS_NOT_YET_POSTED.append(f"{f.get('Game')} ({str(f.get('Date'))[:10]})")
+                print(f"INFO: {f.get('Game')}: market not yet posted; no pick until it is")
+            else:
+                es.warn(f"{f.get('Game')}: odds feed has no usable market")
         return odds
     except Exception as exc:  # noqa: BLE001
         es.warn(f"{f.get('Game')}: odds fetch failed: {exc}")
@@ -929,6 +948,8 @@ def grade_picks(games: list[dict], picks_rows: dict, lines_rows: list[dict], now
 def render_md(doc: dict) -> str:
     L = [f"# Signal Desk: every bet, every game ({doc['date']})", "",
          "All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.", ""]
+    if doc.get("markets_not_yet_posted"):
+        L += ["Markets not yet posted (no pick until a line is listed): " + ", ".join(doc["markets_not_yet_posted"]), ""]
     for league in sorted({g["league"] for g in doc["games"]}):
         L += [f"## {league}", "", "| Game | Market | Pick | Prob | Edge | Tier | Units |", "|---|---|---|---|---|---|---|"]
         for g in doc["games"]:
@@ -959,7 +980,7 @@ def cmd_run() -> None:
 
     def lookup(f):
         if f["_id"] not in cache:
-            cache[f["_id"]] = fetch_odds(f)
+            cache[f["_id"]] = fetch_odds(f, today)
             import time
             time.sleep(0.15)
         return cache[f["_id"]]
@@ -976,11 +997,14 @@ def cmd_run() -> None:
     lp = {lg: load_params(lg, params.get(lg)) for lg in {r.get("league", "") for r in picks_rows.values()} if lg}
     appended = plog.append(ppath, plog.build_rows(picks_rows, now, {f["_id"]: f for f in games}, lp, params, plog.read_last(ppath)))
     print(f"Prediction log: {appended} new rows appended")
+    doc["markets_not_yet_posted"] = sorted(set(MARKETS_NOT_YET_POSTED))
     with open(os.path.join(OUT, "picks_latest.json"), "w", encoding="utf-8") as fh:
         json.dump(doc, fh, indent=1, default=str)
     with open(os.path.join(OUT, "picks_latest.md"), "w", encoding="utf-8") as fh:
         fh.write(render_md(doc))
     print(f"Markets: {len(doc['games'])} games priced, {len(picks_rows)} picks tracked, {graded} newly graded, {len(lines_rows)} line rows")
+    if doc["markets_not_yet_posted"]:
+        print(f"Markets not yet posted ({len(doc['markets_not_yet_posted'])}): " + ", ".join(doc["markets_not_yet_posted"]))
     for w in es.WARNINGS[:5]:
         print("WARNING:", w)
     import producer_health as ph

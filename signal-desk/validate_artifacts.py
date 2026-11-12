@@ -19,7 +19,7 @@ def timestamp(value):
     return t
 
 
-def validate(root, now, narrative_hours=4, grade_hours=2, board_hours=12, pricecheck_hours=4):
+def validate(root, now, narrative_hours=4, grade_hours=2, board_hours=168, pricecheck_hours=4):
     errors, warnings, checks = [], [], {}
     today = now.astimezone(CENTRAL).date().isoformat()
 
@@ -58,6 +58,8 @@ def validate(root, now, narrative_hours=4, grade_hours=2, board_hours=12, pricec
     snapshot = read("data/snapshot.json", True)
     fresh("snapshot", snapshot.get("generated_at"), 26)
 
+    # Splash File 1 is a weekly, owner-discretion upload; ESPN lines are monitored continuously.
+    # The board must be from the last 7 days, and quotes over 4 hours old stay a visible warning.
     board = read("intelligence/splash_lines/latest.md")
     match = re.search(r"(\d{4}-\d\d-\d\d \d\d:\d\d:\d\d) (CST|CDT)", board.split("\n", 1)[0])
     try:
@@ -125,7 +127,7 @@ def main():
     p.add_argument("--root", type=Path, default=Path(__file__).resolve().parent)
     p.add_argument("--now", help="timezone-aware ISO timestamp, for reproducible checks")
     p.add_argument("--output", type=Path)
-    for name, default in (("narrative", 4), ("grade", 2), ("board", 12), ("pricecheck", 4)):
+    for name, default in (("narrative", 4), ("grade", 2), ("board", 168), ("pricecheck", 4)):
         p.add_argument(f"--{name}-max-age-hours", type=float, default=default)
     args = p.parse_args()
     try:
