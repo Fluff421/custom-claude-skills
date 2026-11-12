@@ -9,7 +9,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Game | Market | Pick | Prob | Edge | Tier | Units |
 |---|---|---|---|---|---|---|
 | Oregon State @ Boise State | spread | Oregon State +13.5 (spread) | 50% |  | No Play | 0 |
-| Oregon State @ Boise State | total | Under 64.5 | 51% | +0.6 pts | No Play | 0 |
+| Oregon State @ Boise State | total | Under 63.5 | 50% | +0.3 pts | No Play | 0 |
 | Oregon State @ Boise State | moneyline | Oregon State ML +470 | 17% | -0.4% | No Play | 0 |
 | Arizona State @ UCF | spread | UCF -3.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ UCF | total | Over 48.5 | 53% | +2.2 pts | No Play | 0 |
@@ -130,7 +130,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Alabama @ Vanderbilt | moneyline | Alabama ML -950 | 89% | -1.5% | No Play | 0 |
 | Nebraska @ Rutgers | spread | Nebraska -13.5 (spread) | 50% |  | No Play | 0 |
 | Nebraska @ Rutgers | total | Under 51.5 | 50% | +0.3 pts | No Play | 0 |
-| Nebraska @ Rutgers | moneyline | Rutgers ML +490 | 16% | -0.7% | No Play | 0 |
+| Nebraska @ Rutgers | moneyline | Nebraska ML -675 | 85% | -1.9% | No Play | 0 |
 | Kansas @ West Virginia | spread | Kansas +3 (spread) | 51% |  | No Play | 0 |
 | Kansas @ West Virginia | total | Under 67.5 | 52% | +1.9 pts | No Play | 0 |
 | Kansas @ West Virginia | moneyline | West Virginia ML -142 | 57% | -1.5% | No Play | 0 |
@@ -179,7 +179,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | UNLV @ New Mexico | total | Under 46.5 | 51% | +0.9 pts | No Play | 0 |
 | UNLV @ New Mexico | moneyline | UNLV ML +440 | 16% | -2.1% | No Play | 0 |
 | Tulane @ Rice | spread | Tulane +2.5 (spread) | 52% |  | No Play | 0 |
-| Tulane @ Rice | total | Over 47.5 | 51% | +0.9 pts | No Play | 0 |
+| Tulane @ Rice | total | Over 48.5 | 51% | +0.7 pts | No Play | 0 |
 | Tulane @ Rice | moneyline | Tulane ML +114 | 45% | -1.4% | No Play | 0 |
 | Boston College @ Notre Dame | spread | Notre Dame -29.5 (spread) | 51% |  | No Play | 0 |
 | Boston College @ Notre Dame | total | Over 52.5 | 50% | +0.0 pts | No Play | 0 |
@@ -200,11 +200,11 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 
 ### NCAAF Best parlays
 
-- Under 72.5 + Over 44.5: model 28.3%, needs +281 to break even (reference payout +281), edge +2.0%, Lean
+- Under 72.5 + Over 44.5: model 28.3%, needs +287 to break even (reference payout +287), edge +2.4%, Lean
+- Over 44.5 + Under 74.5: model 28.8%, needs +278 to break even (reference payout +278), edge +2.3%, Lean
+- Over 42.5 + Over 44.5: model 28.3%, needs +281 to break even (reference payout +281), edge +2.1%, Lean
 - Under 72.5 + Under 74.5: model 28.8%, needs +273 to break even (reference payout +273), edge +2.0%, No Play
-- Over 44.5 + Under 74.5: model 28.8%, needs +273 to break even (reference payout +273), edge +1.9%, No Play
-- Under 72.5 + Over 44.5 + Under 74.5: model 15.3%, needs +628 to break even (reference payout +628), edge +1.6%, No Play
-- Over 42.5 + Under 72.5: model 28.3%, needs +273 to break even (reference payout +273), edge +1.5%, No Play
+- Over 44.5 + Over 38.5: model 28.5%, needs +275 to break even (reference payout +275), edge +1.8%, No Play
 
 ## NFL
 
@@ -212,7 +212,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 |---|---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | spread | Los Angeles Chargers +4.5 (spread) | 59% |  | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 56% | +1.6 pts | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | +5.2% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +190 | 40% | +5.9% | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | spread | Tennessee Titans +10.5 (spread) | 55% |  | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | total | Under 46.5 | 53% | +0.8 pts | No Play | 0 |
 | Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +440 | 20% | +1.9% | No Play | 0 |
@@ -239,7 +239,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Miami Dolphins @ Indianapolis Colts | moneyline | Indianapolis Colts ML -205 | 68% | +0.4% | No Play | 0 |
 | Washington Commanders @ New York Giants | spread | Washington Commanders +2.5 (spread) | 58% |  | Lean | 0.5 |
 | Washington Commanders @ New York Giants | total | Under 40.5 | 50% | +0.1 pts | No Play | 0 |
-| Washington Commanders @ New York Giants | moneyline | New York Giants ML -135 | 57% | -0.5% | No Play | 0 |
+| Washington Commanders @ New York Giants | moneyline | New York Giants ML -130 | 57% | +0.4% | No Play | 0 |
 | Pittsburgh Steelers @ Cincinnati Bengals | spread | Cincinnati Bengals -3.5 (spread) | 60% |  | Strong Play | 1 |
 | Pittsburgh Steelers @ Cincinnati Bengals | total | Under 49.5 | 54% | +1.1 pts | No Play | 0 |
 | Pittsburgh Steelers @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -180 | 64% | -0.4% | No Play | 0 |
