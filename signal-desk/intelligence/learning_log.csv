@@ -23,3 +23,4 @@ date,league,market,setting,old,new,evidence,sample_size,source
 2026-11-10,NFL,spread,Sigma,12.37,12.38,"29 graded spread picks; learned residual SD, shrunk to prior, step-limited",689,calibrate.py
 2026-11-10,NCAAF,total,probability shrink,0.7,0.55,Brier 0.2561 -> gain 0.0037 at shrink 0.3,62,market_learning.py
 2026-11-11,NCAAF,total,probability shrink,0.55,0.4,Brier 0.2546 -> gain 0.0023 at shrink 0.3,62,market_learning.py
+2026-11-12,NCAAF,teaser_leg,probability shrink,0.7,0.55,Brier 0.2446 -> gain 0.0021 at shrink 0.45,126,market_learning.py
