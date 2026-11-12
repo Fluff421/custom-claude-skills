@@ -219,6 +219,9 @@ PATTERNS = {
     "rows_updated": re.compile(r"^Rows updated: (\d+)"),
     "injury_games_expected": re.compile(r"^Replacement games expected: (\d+)"),
     "injury_games_covered": re.compile(r"^Replacement games covered: (\d+)"),
+    "injury_games_not_yet_due": re.compile(r"^Replacement games with official report not yet due: (\d+)"),
+    "injury_games_overdue": re.compile(r"^Replacement games with official report overdue: (\d+)"),
+    "injury_games_independent": re.compile(r"^Replacement games with an independent program \(no official report\): (\d+)"),
 }
 
 
@@ -259,9 +262,13 @@ def judge(label: str, conclusion: str, info: dict | None) -> tuple[str, list[str
         re.search(r"fetch/parse failed|treated as failed|parsed only", w, re.I) for w in info["warnings"])
     if source_failure:
         why.append("required injury source unavailable or invalid")
+    # Every expected game must be accounted for: a published report, or the source's own
+    # labelled state (not yet due, overdue, independent program). Unexplained gaps stay severe.
+    accounted = sum(info.get(k, 0) for k in ("injury_games_covered", "injury_games_not_yet_due",
+                                               "injury_games_overdue", "injury_games_independent"))
     incomplete_injuries = (label == "NCAAF Injury Pull"
                            and info.get("injury_games_expected", 0) > 0
-                           and info.get("injury_games_covered") != info["injury_games_expected"])
+                           and accounted != info["injury_games_expected"])
     if incomplete_injuries:
         why.append("replacement injury coverage is incomplete")
     if info["error_lines"]:
