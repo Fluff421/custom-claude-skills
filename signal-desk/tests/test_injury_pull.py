@@ -127,6 +127,34 @@ class DraftEdgeContracts(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertIn("missing expected game coverage", str(health["errors"]))
 
+    def later_row(self, days=6):
+        central = ip.dt.datetime.now(ip.availability.ZoneInfo("America/Chicago")).date()
+        date = (central + ip.dt.timedelta(days=days)).isoformat()
+        return {"id": "later", "fields": {"League": "NCAAF", "Date": date, "Grade": "Pending",
+                "Home Team": "Kent State", "Away Team": "Miami (OH)"}}
+
+    def test_game_beyond_publication_window_does_not_fail_covered_slate(self):
+        code, health, snapshot = self.run_injury_command([self.future_row(), self.later_row()], replacement=True, live=True)
+        self.assertEqual(code, 0)
+        self.assertEqual(health["status"], "ok")
+        self.assertEqual((snapshot["due_rows"], snapshot["secondary_not_yet_due"]), (1, 1))
+        self.assertEqual(snapshot["replacement"]["expected_games"], 1)
+        later_note = next(u["fields"]["Injury Notes"] for u in self.written if u["id"] == "later")
+        self.assertIn("UNAVAILABLE: " + ip.NOT_YET_DUE, later_note)
+        self.assertNotIn("Kickoff Status (updated", later_note)
+
+    def test_window_does_not_hide_missing_coverage_for_a_due_game(self):
+        missing = self.later_row(days=ip.AVAILABILITY_LEAD_DAYS)
+        code, health, _ = self.run_injury_command([self.future_row(), missing], replacement=True)
+        self.assertEqual(code, 1)
+        self.assertIn("missing expected game coverage", str(health["errors"]))
+
+    def test_only_later_games_need_no_secondary_replacement(self):
+        code, health, snapshot = self.run_injury_command([self.later_row()], replacement=False)
+        self.assertEqual(code, 0)
+        self.assertEqual(health["status"], "ok")
+        self.assertEqual(snapshot["due_rows"], 0)
+
     def test_unrelated_nonledger_game_does_not_require_an_extra_fetch(self):
         date = self.future_row()["fields"]["Date"]
         unrelated = (f'<a class="card game" href="/games/{date}-other-at-unrelated/">'

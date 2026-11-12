@@ -126,6 +126,45 @@ def append_note(existing: str | None, line: str) -> str:
     return ((existing or "").rstrip() + ("\n" if existing else "") + line)
 
 
+def merge_patches(patches: list[dict]) -> list[dict]:
+    """One PATCH entry per record id, preserving first-seen order; later fields win."""
+    merged: dict[str, dict] = {}
+    for p in patches:
+        merged.setdefault(p["id"], {"id": p["id"], "fields": {}})["fields"].update(p["fields"])
+    return list(merged.values())
+
+
+def _central_date(iso: str | None) -> str | None:
+    from zoneinfo import ZoneInfo
+    try:
+        return dt.datetime.fromisoformat(str(iso).replace("Z", "+00:00")).astimezone(
+            ZoneInfo("America/Chicago")).date().isoformat()
+    except (TypeError, ValueError):
+        return None
+
+
+def resolve_event(row: dict, by_event: dict, events: list[dict]):
+    """Return (event, recovered). A row with a known ESPN Event ID uses only that event.
+    A row without one is matched by home/away team names on the same Central date, and only
+    when exactly one scoreboard event matches; anything else stays unresolved (an error)."""
+    f = row["fields"]
+    eid = str(f.get("ESPN Event ID") or "")
+    if eid:
+        return by_event.get(eid), False
+    date = str(f.get("Date") or "")[:10]
+    home, away = f.get("Home Team", ""), f.get("Away Team", "")
+    if not (date and home and away):
+        return None, False
+    found = []
+    for ev in events:
+        c = es.competitors(ev)
+        if not c["home"] or not c["away"] or _central_date(ev.get("date")) != date:
+            continue
+        if es.ledger_matches(home, es.names_for(c["home"])) and es.ledger_matches(away, es.names_for(c["away"])):
+            found.append(ev)
+    return (found[0], True) if len(found) == 1 else (None, False)
+
+
 # ---------- main ----------
 def main() -> None:
     import producer_health as ph
@@ -164,10 +203,14 @@ def main() -> None:
         by_event = {str(ev.get("id")): ev for ev in events}
         for r in lrows:
             f = r["fields"]
-            if not f.get("ESPN Event ID") or str(f.get("ESPN Event ID")) not in by_event:
+            ev, recovered = resolve_event(r, by_event, events)
+            if ev is None:
                 feed_errors.append(f"{league}: missing event for {r['id']}")
                 continue
-            ev = by_event[str(f["ESPN Event ID"])]
+            if recovered:
+                # The row was seeded without an ESPN Event ID; record the unique team/date match.
+                ledger_patches.append({"id": r["id"], "fields": {"ESPN Event ID": str(ev["id"])}})
+                report.append(f"{f.get('Game')}: ESPN Event ID {ev['id']} recovered by unique team/date match")
             c = es.competitors(ev)
             if not c["home"] or not c["away"]:
                 feed_errors.append(f"{league}: incomplete competitors for {r['id']}")
@@ -421,6 +464,7 @@ def main() -> None:
         report.append(f"Calibration: {run}: {s['wins']}-{s['losses']}-{s['pushes']} net {s['net']:+g}")
 
     mode = "LIVE" if live else "DRY RUN"
+    ledger_patches = merge_patches(ledger_patches)
     if live:
         at_write(token, ledger_patches)                    # ledger rows (closing + grading)
         at_write(token, bet_settlements, table=BETS)       # bet settlements
