@@ -105,17 +105,46 @@ def game_report(page, path, now, key):
         table = re.search(r"<tbody\b[^>]*>(.*?)</tbody>", body, re.S | re.I)
         if not table:
             raise ValueError(f"{path}: missing structured table for {text(name)}")
-        entries, observed = [], 0
+        entries, observed, parsed = [], 0, []
         for tr in re.findall(r"<tr\b[^>]*>(.*?)</tr>", table[1], re.S | re.I):
             cells = re.findall(r"<td\b[^>]*>(.*?)</td>", tr, re.S | re.I)
             if len(cells) < 3:
                 raise ValueError(f"{path}: incomplete player row")
             player = text(re.sub(r'<span\b[^>]*class=["\']num["\'][^>]*>.*?</span>', "", cells[0], flags=re.S))
             pos, status = text(cells[1]), text(cells[2]).lower()
+            # Some official-table rows put the position in the player cell and
+            # leave Pos blank. Use only an explicit football position prefix,
+            # never a roster lookup or a guess from the player's name.
+            if not pos:
+                inline = re.fullmatch(
+                    r"(QB|RB|WR|TE|OL|OT|OG|OC|C|G|T|DL|DT|DE|EDG|EDGE|"
+                    r"LB|ILB|OLB|DB|CB|S|FS|SS|K|P|LS|FB|ATH)\s+(.+)", player)
+                if inline:
+                    pos, player = inline.groups()
             status = {"gtd": "questionable", "game-time decision": "questionable",
                       "not listed": "available"}.get(status, status)
-            if not player or not pos or status not in ("out", "doubtful", "questionable", "probable", "available"):
+            if not player or status not in ("out", "doubtful", "questionable", "probable", "available"):
                 raise ValueError(f"{path}: unrecognized player/position/status: {player!r}/{pos!r}/{status!r}")
+            parsed.append((player, pos, status))
+        positions = {}
+        for player, pos, _ in parsed:
+            if pos:
+                positions.setdefault(player.casefold(), set()).add(pos)
+        seen = {}
+        for player, pos, status in parsed:
+            supplied = positions.get(player.casefold(), set())
+            if len(supplied) > 1:
+                raise ValueError(f"{path}: conflicting positions for {player!r}")
+            if not pos and len(supplied) == 1:
+                pos = next(iter(supplied))
+            if not pos:
+                raise ValueError(f"{path}: unrecognized player/position/status: {player!r}/{pos!r}/{status!r}")
+            identity = (player.casefold(), pos)
+            if identity in seen:
+                if seen[identity] != status:
+                    raise ValueError(f"{path}: conflicting statuses for {player!r}")
+                continue
+            seen[identity] = status
             observed += 1
             if status != "available":
                 entries.append({"player": player, "pos": pos, "status": status,
