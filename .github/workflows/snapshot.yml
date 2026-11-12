@@ -123,6 +123,11 @@ jobs:
       - name: Capture lines and prices for every market (timestamped line log) and price every bet
         if: steps.gate.outputs.run == 'true'
         run: python signal-desk/markets.py run
+      - name: Refresh the Splash pick-time check (read-only; reprices at the newest Splash line)
+        # Readiness requires a check under 4 hours old; refresh it here so the report and
+        # validator never depend on a check that only runs after this workflow.
+        if: steps.gate.outputs.run == 'true'
+        run: python signal-desk/splash_pricecheck.py
       - name: Build the daily intelligence report (read-only; picks, results, learning state)
         if: steps.gate.outputs.run == 'true'
         run: python signal-desk/intelligence_report.py
@@ -140,6 +145,15 @@ jobs:
         # Publish diagnostics and any valid outputs even if readiness failed; never mask the red job.
         if: ${{ !cancelled() && steps.gate.outputs.run == 'true' && steps.config.outcome == 'success' && env.SNAPSHOT_LIVE == '1' }}
         shell: bash
+        env:
+          # If Pick Engine pushed the same market files meanwhile, rebuild from newest main.
+          COMMIT_DATA_REGEN: >-
+            python signal-desk/snapshot.py &&
+            python signal-desk/ops_export.py &&
+            python signal-desk/markets.py run &&
+            python signal-desk/splash_pricecheck.py &&
+            python signal-desk/intelligence_report.py &&
+            { python signal-desk/validate_artifacts.py --output signal-desk/data/artifact_validation.json || true; }
         run: |
           bash .github/scripts/commit_data.sh "Signal Desk snapshot $(date -u +%F) (auto, readiness checked)" \
             signal-desk/LEDGER.md signal-desk/data signal-desk/intelligence
