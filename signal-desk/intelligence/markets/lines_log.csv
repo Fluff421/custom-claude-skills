@@ -836,3 +836,6 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-12T20:20:30+00:00,recarH3aCIsP5eTKP,401858525,NCAAF,Nebraska @ Rutgers,2026-11-14,Draft Kings,-15.5,51.5,490,-675,-115.0,-105.0,-115.0,-105.0,-12.5
 2026-11-12T20:20:30+00:00,recbP8XTQqcJv2K9z,401873052,NFL,Washington Commanders @ New York Giants,2026-11-12,Draft Kings,2.5,40.5,-130,110,-110.0,-110.0,-115.0,-105.0,1.5
 2026-11-12T20:20:30+00:00,recpmOiQq29MMNath,401862828,NCAAF,Tulane @ Rice,2026-11-14,Draft Kings,2.5,48.5,-135,114,-110.0,-110.0,-105.0,-115.0,-1.5
+2026-11-12T20:27:25+00:00,rec8X63KrWwU5iUk5,401873056,NFL,Houston Texans @ Cleveland Browns,2026-11-15,DraftKings,-4.5,40.5,185,-225,-110.0,-110.0,-108.0,-112.0,-4.5
+2026-11-12T20:27:25+00:00,recLWqwVHwLGRt4sA,401861967,NCAAF,James Madison @ UConn,2026-11-14,DraftKings,-4.0,57.5,160,-192,-108.0,-112.0,-108.0,-112.0,-1.5
+2026-11-12T20:27:25+00:00,recarH3aCIsP5eTKP,401858525,NCAAF,Nebraska @ Rutgers,2026-11-14,DraftKings,-14.5,51.5,490,-675,-105.0,-115.0,-115.0,-105.0,-12.5
