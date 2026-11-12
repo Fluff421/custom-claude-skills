@@ -155,6 +155,55 @@ class DraftEdgeContracts(unittest.TestCase):
         self.assertEqual(health["status"], "ok")
         self.assertEqual(snapshot["due_rows"], 0)
 
+    def pending_transform(self, hours_from_now):
+        when = ip.dt.datetime.now(ip.availability.PACIFIC) + ip.dt.timedelta(hours=hours_from_now)
+        notice = f"No report yet. Report expected: {when.strftime('%a')} {when.strftime('%I:%M %p').lstrip('0')} PT."
+        def transform(page):
+            import re
+            return re.sub(r'<p class="qa-asof">.*?</p>', f'<p class="qa-asof">Last updated</p><div>{notice}</div>', page)
+        return transform
+
+    def test_report_not_yet_due_is_pending_not_a_failure(self):
+        # Fixture kickoff is tomorrow 19:00 Central; the report is expected two hours before that or later today.
+        code, health, snapshot = self.run_injury_command([self.future_row()], replacement=True, live=True,
+                                                         transform=self.pending_transform(3))
+        self.assertEqual(code, 0, health)
+        self.assertEqual(health["status"], "ok")
+        self.assertEqual(len(snapshot["replacement"]["pending_games"]), 1)
+        note = self.written[0]["fields"]["Injury Notes"]
+        self.assertIn("Official availability report (not yet posted; expected", note)
+        self.assertNotIn("Alex Example", note)
+
+    def test_overdue_report_is_labelled_per_game_without_hiding_it(self):
+        code, health, snapshot = self.run_injury_command([self.future_row()], replacement=True, live=True,
+                                                         transform=self.pending_transform(-2))
+        self.assertEqual(code, 0, health)
+        self.assertTrue(snapshot["replacement"]["pending_games"][0][4])
+        self.assertIn("Official availability report (overdue since", self.written[0]["fields"]["Injury Notes"])
+
+    def test_independent_program_without_official_report_is_labelled(self):
+        import re
+        code, health, _ = self.run_injury_command([self.future_row()], replacement=True, live=True,
+            transform=lambda page: re.sub(r'<p class="qa-asof">.*?</p>',
+                '<p class="qa-asof">No report yet</p><div>SMU — Independent: no official report.</div>', page))
+        self.assertEqual(code, 0, health)
+        self.assertIn("independent program publishes no official report", self.written[0]["fields"]["Injury Notes"])
+
+    def test_unpublished_report_without_source_schedule_still_fails(self):
+        import re
+        code, health, _ = self.run_injury_command([self.future_row()], replacement=True,
+            transform=lambda page: re.sub(r'<p class="qa-asof">.*?</p>', '<p class="qa-asof">No report yet</p>', page))
+        self.assertEqual(code, 1)
+        self.assertIn("not published", str(health["errors"]))
+
+    def test_expected_time_uses_latest_matching_weekday_on_or_before_kickoff(self):
+        kickoff = ip.dt.datetime(2026, 11, 13, 1, 0, tzinfo=ip.dt.timezone.utc)  # Thu 5 PM PT
+        at = ip.availability.expected_report_time("<div>Report expected: Thu 3:00 PM PT.</div>", kickoff)
+        self.assertEqual(at.isoformat(), "2026-11-12T15:00:00-08:00")
+        self.assertIsNone(ip.availability.expected_report_time("<div>No report yet.</div>", kickoff))
+        at = ip.availability.expected_report_time("<div>Usually posts game day ~7:30 AM PT.</div>", kickoff)
+        self.assertEqual(at.isoformat(), "2026-11-12T07:30:00-08:00")
+
     def test_unrelated_nonledger_game_does_not_require_an_extra_fetch(self):
         date = self.future_row()["fields"]["Date"]
         unrelated = (f'<a class="card game" href="/games/{date}-other-at-unrelated/">'
