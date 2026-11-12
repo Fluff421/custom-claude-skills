@@ -82,7 +82,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Rice @ Temple | moneyline | Temple ML -110 (price estimated from the line) | 68% | +15.6% | No Play | 0 |
 | Wyoming @ UTEP | spread | Wyoming -7.5 (spread) | 50% |  | No Play | 0 |
 | Wyoming @ UTEP | total | Over 39.5 | 52% | +1.8 pts | No Play | 0 |
-| Wyoming @ UTEP | moneyline | UTEP ML +250 | 30% | +1.3% | No Play | 0 |
+| Wyoming @ UTEP | moneyline | UTEP ML +260 | 28% | +0.1% | No Play | 0 |
 | Duke @ Miami | spread | Miami -13.5 (spread) | 51% |  | No Play | 0 |
 | Duke @ Miami | total | Over 54.5 | 50% | +0.2 pts | No Play | 0 |
 | Duke @ Miami | moneyline | Duke ML +425 | 18% | -1.3% | No Play | 0 |
@@ -155,7 +155,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Kennesaw State @ Sam Houston | moneyline | Sam Houston ML +235 | 32% | +2.4% | No Play | 0 |
 | Michigan @ Oregon | spread | Oregon -11.5 (spread) | 51% |  | No Play | 0 |
 | Michigan @ Oregon | total | Over 38.5 | 54% | +3.0 pts | Lean | 0.5 |
-| Michigan @ Oregon | moneyline | Michigan ML +330 | 22% | -1.5% | No Play | 0 |
+| Michigan @ Oregon | moneyline | Michigan ML +330 | 23% | +0.2% | No Play | 0 |
 | Kansas State @ TCU | spread | Kansas State +10 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ TCU | total | Over 44.5 | 51% | +1.0 pts | No Play | 0 |
 | Kansas State @ TCU | moneyline | Kansas State ML +310 | 25% | +0.4% | No Play | 0 |
