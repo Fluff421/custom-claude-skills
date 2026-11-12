@@ -85,7 +85,7 @@ class Readiness(unittest.TestCase):
         self.assertEqual(result.returncode, 1)
         self.assertTrue(any("narrative:" in e for e in report["errors"]))
         self.write("intelligence/splash_pricecheck/latest.json", {
-            "generated_at": "2026-11-06T14:00:00Z", "snapshot_age_hours": 24, "games": []})
+            "generated_at": "2026-11-06T14:00:00Z", "snapshot_age_hours": 170, "games": []})
         result, report = self.run_gate()
         self.assertEqual(result.returncode, 1)
         self.assertTrue(any("underlying_quotes" in e for e in report["errors"]))
@@ -116,7 +116,20 @@ class Readiness(unittest.TestCase):
         self.assertEqual(result.returncode, 1)
         self.assertTrue(any("content does not match" in e for e in report["errors"]))
 
-    def test_board_within_twelve_hours_still_warns_after_four_hours(self):
+    def test_weekly_board_passes_with_warning_but_older_than_a_week_fails(self):
+        self.write("intelligence/splash_lines/latest.md", "# Splash line snapshot (2026-11-01 20:19:00 CST)\n\nOne game.")
+        self.write("intelligence/splash_pricecheck/latest.json", {
+            "generated_at": "2026-11-06T13:40:00Z", "snapshot_age_hours": 113, "games": []})
+        result, report = self.run_gate()
+        self.assertEqual(result.returncode, 0, result.stdout)
+        self.assertEqual(report["policy"]["board_hours"], 168)
+        self.assertTrue(any("splash_board" in w for w in report["warnings"]))
+        self.write("intelligence/splash_lines/latest.md", "# Splash line snapshot (2026-10-30 08:00:00 CDT)\n\nOne game.")
+        result, report = self.run_gate()
+        self.assertEqual(result.returncode, 1)
+        self.assertTrue(any(e.startswith("splash_board: age") for e in report["errors"]))
+
+    def test_board_within_the_weekly_limit_still_warns_after_four_hours(self):
         self.write("intelligence/splash_lines/latest.md", "# Splash line snapshot (2026-11-06 00:00:00 CST)\n\nOne game.")
         self.write("intelligence/splash_pricecheck/latest.json", {
             "generated_at": "2026-11-06T13:40:00Z", "snapshot_age_hours": 8, "games": []})

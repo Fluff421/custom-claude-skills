@@ -29,9 +29,9 @@ The DraftEdge parser now accepts the observed card layout and the legacy table l
 | Canonical JSON | `intelligence/latest.json` equals `intelligence/data/YYYY-MM-DD.json` |
 | Narrative pairing | New reports include a Markdown content digest in the JSON |
 | Close & Grade | Latest non-PR run started under 2 hours ago, successful, operationally healthy and LIVE |
-| Splash board | `intelligence/splash_lines/latest.md`, source capture age under 12 hours |
+| Splash board | `intelligence/splash_lines/latest.md`, source capture age under 168 hours (7 days); Splash File 1 is a weekly, owner-discretion upload |
 | Canonical price check | `intelligence/splash_pricecheck/latest.md` and `.json`; generation age under 4 hours |
-| Underlying price-check quotes | Age reconstructed from generation time and snapshot age; under 12 hours |
+| Underlying price-check quotes | Age reconstructed from generation time and snapshot age; under 168 hours (7 days) |
 | Operational evidence | `data/ops_status.json` generated under 4 hours ago |
 | Required producer evidence | ESPN/picks under 4 hours, Context under 26 hours; injury under 4 hours Wed–Sat, 26 hours otherwise. Missing, unhealthy, unsuccessful or non-LIVE evidence fails |
 | Snapshot export | Explicit generation timestamp under 26 hours; a checkout or file modification time is not evidence |
@@ -39,7 +39,7 @@ The DraftEdge parser now accepts the observed card layout and the legacy table l
 
 The 4-hour narrative and market warning policy is intentionally retained rather than silently relaxed to the proposed 12 hours. Board freshness uses the stricter end of the proposed 12–24-hour range. The limits can be explicitly overridden through named CLI options; changing them is a policy decision, not a way to conceal stale evidence.
 
-Board/underlying-quote ages between 4 and 12 hours remain visible warnings even when artifact readiness passes. The market builder's Splash moneyline preference is stricter: only quotes under 4 hours old can replace estimates.
+Owner policy (Nov 11, 2026): Splash File 1 is required once a week at the owner's discretion; ESPN lines are monitored continuously for every game. Board/underlying-quote ages between 4 and 168 hours remain visible warnings even when artifact readiness passes. The market builder's Splash moneyline preference is stricter: only quotes under 4 hours old can replace estimates.
 
 Operational missed-run thresholds use 2 hours for grading, 4 hours for ESPN and picks, and 26 hours for context/Snapshot. Injury cadence uses 4 hours on its frequent-run days and 26 hours on its daily-run days; the separate BIM board's policy is unchanged.
 
