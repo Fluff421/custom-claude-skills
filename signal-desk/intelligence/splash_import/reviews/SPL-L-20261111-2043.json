@@ -1,0 +1,6 @@
+{
+  "schema": "signal-desk.splash-review.v1",
+  "date_code": "SPL-L-20261111-2043",
+  "input_sha256": "0256ae30ee9c3dc47f77243ef3b4b260e39db51290abe650a1612430fe36785a",
+  "count_policy": "owner_confirms_complete_games_array"
+}
