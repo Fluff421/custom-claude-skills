@@ -43,6 +43,53 @@ class ObservationHealth(unittest.TestCase):
                 self.assertNotEqual(observed["latest_health"], "ok")
                 self.assertEqual(observed["runs"][0]["run_id"], 2)
 
+    def observe_context(self, runs, jobs_by_run):
+        archive = io.BytesIO()
+        with zipfile.ZipFile(archive, "w") as z:
+            z.writestr("1_context.txt", "Mode: LIVE\nRows updated: 85\n")
+
+        def fake_json(path, token):
+            if "/jobs" in path:
+                run_id = int(path.split("/runs/")[1].split("/")[0])
+                return {"jobs": jobs_by_run[run_id]}
+            return {"workflow_runs": runs}
+        with patch.object(ops, "gh_json", side_effect=fake_json), \
+                patch.object(ops, "gh_logs_zip", return_value=archive.getvalue()):
+            health = ops.workflow_health("example/repo", "test-token",
+                                         dt.datetime(2026, 11, 13, 18, 40, tzinfo=dt.timezone.utc))
+        return next(w for w in health if w["file"] == "context-calibrate.yml")
+
+    def test_late_off_slot_context_tick_does_not_hide_live_dispatch(self):
+        # 2026-11-13: an external dispatch ran live at 18:05Z; GitHub's off-slot 11:13Z cron tick
+        # started at 18:29Z, its time gate declined it and every producer job was skipped.
+        base = {"head_branch": "main", "conclusion": "success", "html_url": "https://github.com/example/run"}
+        late_tick = dict(base, id=43483057006, event="schedule", created_at="2026-11-13T18:29:02Z")
+        dispatch = dict(base, id=43479263006, event="workflow_dispatch", created_at="2026-11-13T18:05:54Z")
+        skipped_jobs = [{"name": "time_gate", "conclusion": "success"},
+                        {"name": "pull_request_checks", "conclusion": "skipped"},
+                        {"name": "context", "conclusion": "skipped"},
+                        {"name": "calibrate", "conclusion": "skipped"}]
+        observed = self.observe_context([late_tick, dispatch], {43483057006: skipped_jobs})
+        self.assertEqual([r["run_id"] for r in observed["runs"]], [43479263006])
+        self.assertEqual(observed["latest_health"], "ok")
+        self.assertEqual(observed["gate_skipped"][0]["run_id"], 43483057006)
+
+    def test_scheduled_context_run_that_did_work_or_failed_is_still_judged(self):
+        base = {"head_branch": "main", "html_url": "https://github.com/example/run", "event": "schedule"}
+        dispatch = dict(base, id=1, event="workflow_dispatch", conclusion="success",
+                        created_at="2026-11-13T18:05:54Z")
+        ran = [{"name": "time_gate", "conclusion": "success"}, {"name": "context", "conclusion": "success"},
+               {"name": "calibrate", "conclusion": "skipped"}]
+        for conclusion, jobs in (("success", ran), ("failure", ran), ("success", None)):
+            with self.subTest(conclusion=conclusion, jobs=jobs is not None):
+                tick = dict(base, id=2, conclusion=conclusion, created_at="2026-11-13T18:29:02Z")
+                if jobs is None:  # unreadable job list must not hide the run
+                    observed = self.observe_context([tick, dispatch], {})
+                else:
+                    observed = self.observe_context([tick, dispatch], {2: jobs})
+                self.assertEqual(observed["runs"][0]["run_id"], 2)
+                self.assertEqual(observed["gate_skipped"], [])
+
     def test_successful_injury_log_with_partial_replacement_coverage_is_degraded(self):
         info = ops.parse_log("Mode: LIVE\nReplacement games expected: 2\nReplacement games covered: 1\n")
         state, reasons = ops.judge("NCAAF Injury Pull", "success", info)
