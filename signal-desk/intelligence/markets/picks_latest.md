@@ -204,10 +204,10 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Tulane @ Rice | moneyline | Tulane ML +120 | 45% | -0.2% | No Play | 0 |
 | Boston College @ Notre Dame | spread | Notre Dame -29.5 (spread) | 51% |  | No Play | 0 |
 | Boston College @ Notre Dame | total | Over 51.5 | 50% | +0.3 pts | No Play | 0 |
-| Boston College @ Notre Dame | moneyline | Notre Dame ML -5000 | 97% | -0.6% | No Play | 0 |
+| Boston College @ Notre Dame | moneyline | Notre Dame ML -5000 | 98% | -0.2% | No Play | 0 |
 | Nevada @ Northern Illinois | spread | Nevada -7 (spread) | 51% |  | No Play | 0 |
 | Nevada @ Northern Illinois | total | Over 47.5 | 51% | +0.9 pts | No Play | 0 |
-| Nevada @ Northern Illinois | moneyline | Northern Illinois ML +195 | 33% | -0.6% | No Play | 0 |
+| Nevada @ Northern Illinois | moneyline | Northern Illinois ML +190 | 34% | -0.2% | No Play | 0 |
 | Akron @ Massachusetts | moneyline | Massachusetts ML -110 (price estimated from the line) | 74% | +21.7% | No Play | 0 |
 | Arizona @ Kansas State | moneyline | Arizona ML -110 (price estimated from the line) | 72% | +19.3% | No Play | 0 |
 | Utah State @ San Diego State | spread | San Diego State +2.5 (spread) | 50% |  | No Play | 0 |
