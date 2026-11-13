@@ -43,7 +43,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Georgia Tech @ Clemson | total | Over 49.5 | 51% | +0.5 pts | No Play | 0 |
 | Georgia Tech @ Clemson | moneyline | Clemson ML -625 | 85% | -1.5% | No Play | 0 |
 | Louisville @ North Carolina | spread | North Carolina +3.5 (spread) | 50% |  | No Play | 0 |
-| Louisville @ North Carolina | total | Under 58.5 | 50% | +0.2 pts | No Play | 0 |
+| Louisville @ North Carolina | total | Over 57.5 | 50% | +0.1 pts | No Play | 0 |
 | Louisville @ North Carolina | moneyline | North Carolina ML +150 | 41% | +1.0% | No Play | 0 |
 | Southern Miss @ Louisiana Tech | spread | Southern Miss +17.5 (spread) | 50% |  | No Play | 0 |
 | Southern Miss @ Louisiana Tech | total | Over 56.5 | 50% | +0.1 pts | No Play | 0 |
@@ -88,11 +88,11 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | James Madison @ UConn | moneyline | UConn ML +170 | 37% | -0.3% | No Play | 0 |
 | USC @ Indiana | spread | Indiana -7.5 (spread) | 51% |  | No Play | 0 |
 | USC @ Indiana | total | Over 50.5 | 51% | +0.5 pts | No Play | 0 |
-| USC @ Indiana | moneyline | USC ML +270 | 28% | +1.4% | No Play | 0 |
+| USC @ Indiana | moneyline | USC ML +270 | 26% | -0.5% | No Play | 0 |
 | Rice @ Temple | moneyline | Temple ML -110 (price estimated from the line) | 68% | +15.6% | No Play | 0 |
 | Wyoming @ UTEP | spread | Wyoming -7.5 (spread) | 50% |  | No Play | 0 |
 | Wyoming @ UTEP | total | Over 40.5 | 53% | +2.4 pts | No Play | 0 |
-| Wyoming @ UTEP | moneyline | UTEP ML +250 | 30% | +1.2% | No Play | 0 |
+| Wyoming @ UTEP | moneyline | UTEP ML +240 | 30% | +0.4% | No Play | 0 |
 | Duke @ Miami | spread | Miami -13.5 (spread) | 51% |  | No Play | 0 |
 | Duke @ Miami | total | Under 54.5 | 51% | +0.6 pts | No Play | 0 |
 | Duke @ Miami | moneyline | Duke ML +410 | 18% | -1.8% | No Play | 0 |
@@ -126,8 +126,8 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Ole Miss @ Oklahoma | moneyline | Oklahoma ML -112 | 53% | -0.3% | No Play | 0 |
 | Clemson @ Duke | moneyline | Duke ML -110 (price estimated from the line) | 70% | +17.2% | No Play | 0 |
 | Florida International @ Delaware | spread | Florida International +5.5 (spread) | 50% |  | No Play | 0 |
-| Florida International @ Delaware | total | Under 54.5 | 52% | +1.9 pts | No Play | 0 |
-| Florida International @ Delaware | moneyline | Florida International ML +164 | 39% | +1.0% | No Play | 0 |
+| Florida International @ Delaware | total | Under 53.5 | 52% | +1.6 pts | No Play | 0 |
+| Florida International @ Delaware | moneyline | Florida International ML +154 | 40% | +0.6% | No Play | 0 |
 | Northwestern @ Ohio State | spread | Ohio State -12.5 (spread) | 51% |  | No Play | 0 |
 | Northwestern @ Ohio State | total | Over 44.5 | 52% | +1.7 pts | No Play | 0 |
 | Northwestern @ Ohio State | moneyline | Ohio State ML -550 | 83% | -2.0% | No Play | 0 |
@@ -145,8 +145,8 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Ohio State @ Nebraska | moneyline | Ohio State ML -198 | 65% | -1.0% | No Play | 0 |
 | Bowling Green @ Toledo | moneyline | Toledo ML -110 (price estimated from the line) | 87% | +34.9% | No Play | 0 |
 | Alabama @ Vanderbilt | spread | Alabama -15.5 (spread) | 50% |  | Lean | 0.5 |
-| Alabama @ Vanderbilt | total | Over 50.5 | 52% | +1.4 pts | No Play | 0 |
-| Alabama @ Vanderbilt | moneyline | Vanderbilt ML +575 | 13% | -1.5% | No Play | 0 |
+| Alabama @ Vanderbilt | total | Over 49.5 | 52% | +1.8 pts | No Play | 0 |
+| Alabama @ Vanderbilt | moneyline | Vanderbilt ML +550 | 13% | -2.0% | No Play | 0 |
 | Texas Tech @ Baylor | spread | Texas Tech -1.5 (spread) | 50% |  | No Play | 0 |
 | Texas Tech @ Baylor | total | Over 55.5 | 50% | +0.0 pts | No Play | 0 |
 | Texas Tech @ Baylor | moneyline | Texas Tech ML -112 | 54% | +1.2% | No Play | 0 |
@@ -204,7 +204,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Tulane @ Rice | moneyline | Tulane ML +120 | 45% | -0.2% | No Play | 0 |
 | Boston College @ Notre Dame | spread | Notre Dame -29.5 (spread) | 51% |  | No Play | 0 |
 | Boston College @ Notre Dame | total | Over 52.5 | 50% | +0.0 pts | No Play | 0 |
-| Boston College @ Notre Dame | moneyline | Notre Dame ML -5000 | 97% | -0.6% | No Play | 0 |
+| Boston College @ Notre Dame | moneyline | Notre Dame ML -5000 | 98% | -0.2% | No Play | 0 |
 | Nevada @ Northern Illinois | spread | Nevada -7 (spread) | 51% |  | No Play | 0 |
 | Nevada @ Northern Illinois | total | Over 47.5 | 51% | +0.9 pts | No Play | 0 |
 | Nevada @ Northern Illinois | moneyline | Northern Illinois ML +195 | 33% | -0.6% | No Play | 0 |
@@ -215,7 +215,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Utah State @ San Diego State | moneyline | San Diego State ML +124 | 43% | -1.4% | No Play | 0 |
 | New Mexico @ Wyoming | moneyline | New Mexico ML -110 (price estimated from the line) | 86% | +33.7% | No Play | 0 |
 | Arkansas State @ Coastal Carolina | spread | Coastal Carolina -1.5 (spread) | 50% |  | No Play | 0 |
-| Arkansas State @ Coastal Carolina | total | Over 51.5 | 50% | +0.3 pts | No Play | 0 |
+| Arkansas State @ Coastal Carolina | total | Over 52.5 | 50% | +0.1 pts | No Play | 0 |
 | Arkansas State @ Coastal Carolina | moneyline | Coastal Carolina ML -118 | 54% | -0.5% | No Play | 0 |
 | Tennessee @ Texas A&M | spread | Texas A&M +2.5 (spread) | 50% |  | No Play | 0 |
 | Tennessee @ Texas A&M | total | Over 43.5 | 52% | +1.5 pts | No Play | 0 |
@@ -227,7 +227,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 - Under 75.5 + Under 73.5: model 28.6%, needs +265 to break even (reference payout +265), edge +1.3%, No Play
 - Under 75.5 + Under 73.5 + Under 74.5: model 15.5%, needs +591 to break even (reference payout +591), edge +1.0%, No Play
 - Under 73.5 + Under 74.5: model 29.0%, needs +254 to break even (reference payout +254), edge +0.7%, No Play
-- Under 75.5 + Alabama -15.5 (spread) + Under 74.5: model 14.5%, needs +591 to break even (reference payout +591), edge +0.0%, No Play
+- Under 75.5 + Alabama -15.5 (spread) + Under 74.5: model 14.5%, needs +606 to break even (reference payout +606), edge +0.3%, No Play
 
 ## NFL
 
@@ -235,7 +235,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 |---|---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | spread | Los Angeles Chargers +4.5 (spread) | 59% |  | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | +1.9 pts | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | +5.3% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | +4.7% | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | spread | Tennessee Titans +10.5 (spread) | 55% |  | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | total | Under 46.5 | 53% | +0.8 pts | No Play | 0 |
 | Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | +3.8% | Lean | 0.5 |
