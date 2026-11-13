@@ -290,6 +290,26 @@ def judge(label: str, conclusion: str, info: dict | None) -> tuple[str, list[str
     return ("degraded" if severe else ("warn" if why else "ok")), why
 
 
+def gate_skipped(repo: str, run: dict, token: str) -> bool:
+    """True when a scheduled run's time_gate job declined the slot and every producer job was skipped.
+
+    GitHub fires both daylight-saving cron slots and often starts them hours late, so the
+    off-slot tick can land after the real producer run. It does no work and is not evidence
+    about the producer either way. Any other outcome (failure, cancellation, a producer job
+    that ran, unreadable job list) is kept as a run so real problems stay visible.
+    """
+    if run.get("event") != "schedule" or run.get("conclusion") != "success":
+        return False
+    try:
+        jobs = gh_json(f"/repos/{repo}/actions/runs/{run['id']}/jobs?per_page=100", token).get("jobs", [])
+    except Exception:  # noqa: BLE001
+        return False
+    gate = [j for j in jobs if j.get("name") == "time_gate"]
+    producers = [j for j in jobs if j.get("name") not in ("time_gate", "pull_request_checks")]
+    return (len(gate) == 1 and gate[0].get("conclusion") == "success" and bool(producers)
+            and all(j.get("conclusion") == "skipped" for j in producers))
+
+
 def workflow_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
     out = []
     since = now - dt.timedelta(hours=LOOKBACK_HOURS)
@@ -309,10 +329,18 @@ def workflow_health(repo: str, token: str, now: dt.datetime) -> list[dict]:
                           and r.get("conclusion") == "skipped" and r.get("head_branch") == "main"]
         entry["skipped_chains"] = [{"run_id": r["id"], "url": r["html_url"],
                                     "created_at": r["created_at"]} for r in skipped_chains]
-        picked = [r for r in runs.get("workflow_runs", [])
-                  if r["event"] in accepted_events and r.get("head_branch") == "main"
-                  and r not in skipped_chains
-                  and dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) >= since][:RUNS_PER_WORKFLOW]
+        candidates = [r for r in runs.get("workflow_runs", [])
+                      if r["event"] in accepted_events and r.get("head_branch") == "main"
+                      and r not in skipped_chains
+                      and dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) >= since]
+        # Off-slot scheduled ticks declined by the workflow's own time gate are observed, not judged.
+        picked, gated = [], []
+        for r in candidates:
+            if len(picked) >= RUNS_PER_WORKFLOW:
+                break
+            (gated if fname == "context-calibrate.yml" and gate_skipped(repo, r, token) else picked).append(r)
+        entry["gate_skipped"] = [{"run_id": r["id"], "url": r["html_url"],
+                                  "created_at": r["created_at"]} for r in gated]
         for r in picked:
             info = None
             try:
