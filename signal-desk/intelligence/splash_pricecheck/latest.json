@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-13T18:29:35.247613+00:00",
- "snapshot_age_hours": 39.8,
+ "generated_at": "2026-11-13T18:38:36.615517+00:00",
+ "snapshot_age_hours": 39.9,
  "games": [
   {
    "game": "Florida State @ Pittsburgh",
@@ -320,8 +320,8 @@
     "pick": "Arkansas State +1.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5012,
-    "edge": -0.04,
+    "prob": 0.5008,
+    "edge": -0.03,
     "proj": 0.7000000000000011,
     "import_side": "away",
     "import_tier": "No Play",
@@ -331,17 +331,17 @@
     }
    },
    "total": {
-    "pick": "Under 51.5",
-    "side": "under",
+    "pick": "Over 51.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5064,
-    "edge": 0.53,
-    "proj": 50.97,
-    "import_side": "under",
+    "prob": 0.5043,
+    "edge": 0.35,
+    "proj": 51.85,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 57.5 (teased)",
-     "prob": 0.6921
+     "pick": "Over 45.5 (teased)",
+     "prob": 0.6874
     }
    },
    "moneyline": {
@@ -420,8 +420,8 @@
     "pick": "Baylor +7.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5039,
-    "edge": -0.14,
+    "prob": 0.5031,
+    "edge": -0.12,
     "proj": 5.9,
     "import_side": "away",
     "import_tier": "No Play",
@@ -431,17 +431,17 @@
     }
    },
    "total": {
-    "pick": "Under 48.5",
-    "side": "under",
+    "pick": "Over 48.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5066,
-    "edge": 0.54,
-    "proj": 47.96,
-    "import_side": "under",
+    "prob": 0.5106,
+    "edge": 0.86,
+    "proj": 49.36,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 54.5 (teased)",
-     "prob": 0.6925
+     "pick": "Over 42.5 (teased)",
+     "prob": 0.7012
     }
    },
    "moneyline": {
@@ -520,8 +520,8 @@
     "pick": "California +10.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5015,
-    "edge": -0.06,
+    "prob": 0.5004,
+    "edge": -0.01,
     "proj": 13.5,
     "import_side": "away",
     "import_tier": "No Play",
@@ -534,14 +534,14 @@
     "pick": "Over 46.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.511,
-    "edge": 0.9,
-    "proj": 47.4,
+    "prob": 0.5217,
+    "edge": 1.78,
+    "proj": 48.28,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 40.5 (teased)",
-     "prob": 0.7022
+     "prob": 0.7251
     }
    },
    "moneyline": {
@@ -670,8 +670,8 @@
     "pick": "Miami -13.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5169,
-    "edge": 0.64,
+    "prob": 0.5154,
+    "edge": 0.58,
     "proj": 16.1,
     "import_side": "home",
     "import_tier": "No Play",
@@ -681,17 +681,17 @@
     }
    },
    "total": {
-    "pick": "Over 54.5",
-    "side": "over",
+    "pick": "Under 54.5",
+    "side": "under",
     "tier": "No Play",
-    "prob": 0.5031,
-    "edge": 0.25,
-    "proj": 54.75,
-    "import_side": "over",
+    "prob": 0.5077,
+    "edge": 0.63,
+    "proj": 53.87,
+    "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 48.5 (teased)",
-     "prob": 0.6847
+     "pick": "Under 60.5 (teased)",
+     "prob": 0.6948
     }
    },
    "moneyline": {
@@ -720,8 +720,8 @@
     "pick": "East Carolina -11.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.51,
-    "edge": -0.38,
+    "prob": 0.5085,
+    "edge": -0.32,
     "proj": -15.399999999999999,
     "import_side": "away",
     "import_tier": "No Play",
@@ -734,14 +734,14 @@
     "pick": "Over 45.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5287,
-    "edge": 2.35,
-    "proj": 47.85,
+    "prob": 0.5181,
+    "edge": 1.48,
+    "proj": 46.98,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 39.5 (teased)",
-     "prob": 0.7397
+     "prob": 0.7174
     }
    },
    "moneyline": {
@@ -1120,8 +1120,8 @@
     "pick": "James Madison -3.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5188,
-    "edge": -0.71,
+    "prob": 0.5196,
+    "edge": -0.74,
     "proj": -8.5,
     "import_side": "away",
     "import_tier": "No Play",
@@ -1131,17 +1131,17 @@
     }
    },
    "total": {
-    "pick": "Under 57.5",
-    "side": "under",
+    "pick": "Over 57.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5058,
-    "edge": 0.47,
-    "proj": 57.03,
-    "import_side": "under",
+    "prob": 0.5049,
+    "edge": 0.4,
+    "proj": 57.9,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 63.5 (teased)",
-     "prob": 0.6908
+     "pick": "Over 51.5 (teased)",
+     "prob": 0.6888
     }
    },
    "moneyline": {
@@ -1220,8 +1220,8 @@
     "pick": "Kansas State +10.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5142,
-    "edge": -0.54,
+    "prob": 0.5135,
+    "edge": -0.51,
     "proj": 8.6,
     "import_side": "away",
     "import_tier": "No Play",
@@ -1234,14 +1234,14 @@
     "pick": "Over 45.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5081,
-    "edge": 0.66,
-    "proj": 46.16,
+    "prob": 0.5188,
+    "edge": 1.54,
+    "proj": 47.04,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 39.5 (teased)",
-     "prob": 0.6959
+     "prob": 0.719
     }
    },
    "moneyline": {
@@ -1370,8 +1370,8 @@
     "pick": "Oregon -10.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5127,
-    "edge": 0.48,
+    "prob": 0.5112,
+    "edge": 0.42,
     "proj": 13.0,
     "import_side": "home",
     "import_tier": "No Play",
@@ -1383,15 +1383,15 @@
    "total": {
     "pick": "Over 38.5",
     "side": "over",
-    "tier": "Lean",
-    "prob": 0.5365,
-    "edge": 3.0,
-    "proj": 41.5,
+    "tier": "No Play",
+    "prob": 0.526,
+    "edge": 2.12,
+    "proj": 40.62,
     "import_side": "over",
-    "import_tier": "Lean",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 32.5 (teased)",
-     "prob": 0.7556
+     "prob": 0.734
     }
    },
    "moneyline": {
@@ -1420,8 +1420,8 @@
     "pick": "Liberty -20.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5116,
-    "edge": 0.43,
+    "prob": 0.5093,
+    "edge": 0.35,
     "proj": 23.6,
     "import_side": "home",
     "import_tier": "No Play",
@@ -1434,14 +1434,14 @@
     "pick": "Under 53.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5008,
-    "edge": 0.06,
-    "proj": 53.44,
+    "prob": 0.5115,
+    "edge": 0.94,
+    "proj": 52.56,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 59.5 (teased)",
-     "prob": 0.6795
+     "prob": 0.7032
     }
    },
    "moneyline": {
@@ -1470,8 +1470,8 @@
     "pick": "Penn State -8.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5185,
-    "edge": 0.7,
+    "prob": 0.5196,
+    "edge": 0.74,
     "proj": 12.899999999999999,
     "import_side": "home",
     "import_tier": "No Play",
@@ -1484,14 +1484,14 @@
     "pick": "Over 41.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.519,
-    "edge": 1.55,
-    "proj": 43.05,
+    "prob": 0.5296,
+    "edge": 2.43,
+    "proj": 43.93,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 35.5 (teased)",
-     "prob": 0.7193
+     "prob": 0.7415
     }
    },
    "moneyline": {
@@ -1820,8 +1820,8 @@
     "pick": "Ohio State -12.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5096,
-    "edge": 0.36,
+    "prob": 0.5085,
+    "edge": 0.32,
     "proj": 14.600000000000001,
     "import_side": "home",
     "import_tier": "No Play",
@@ -1834,14 +1834,14 @@
     "pick": "Over 45.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5279,
-    "edge": 2.29,
-    "proj": 47.79,
+    "prob": 0.5173,
+    "edge": 1.41,
+    "proj": 46.91,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 39.5 (teased)",
-     "prob": 0.7381
+     "prob": 0.7157
     }
    },
    "moneyline": {
@@ -2020,8 +2020,8 @@
     "pick": "San Jos\u00e9 State +11.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5085,
-    "edge": -0.32,
+    "prob": 0.5073,
+    "edge": -0.28,
     "proj": 11.3,
     "import_side": "away",
     "import_tier": "No Play",
@@ -2034,14 +2034,14 @@
     "pick": "Under 47.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5211,
-    "edge": 1.72,
-    "proj": 45.78,
+    "prob": 0.5126,
+    "edge": 1.02,
+    "proj": 46.48,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 53.5 (teased)",
-     "prob": 0.7238
+     "prob": 0.7055
     }
    },
    "moneyline": {
@@ -2170,8 +2170,8 @@
     "pick": "Virginia Tech -15.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5089,
-    "edge": 0.33,
+    "prob": 0.5105,
+    "edge": 0.39,
     "proj": 17.4,
     "import_side": "home",
     "import_tier": "No Play",
@@ -2184,14 +2184,14 @@
     "pick": "Under 58.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5147,
-    "edge": 1.2,
-    "proj": 57.3,
+    "prob": 0.504,
+    "edge": 0.33,
+    "proj": 58.17,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 64.5 (teased)",
-     "prob": 0.7102
+     "prob": 0.6867
     }
    },
    "moneyline": {
@@ -2231,17 +2231,17 @@
     }
    },
    "total": {
-    "pick": "Under 53.5",
-    "side": "under",
+    "pick": "Over 53.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5026,
-    "edge": 0.21,
-    "proj": 53.29,
-    "import_side": "under",
+    "prob": 0.5081,
+    "edge": 0.66,
+    "proj": 54.16,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 59.5 (teased)",
-     "prob": 0.6836
+     "pick": "Over 47.5 (teased)",
+     "prob": 0.6958
     }
    },
    "moneyline": {
@@ -2470,8 +2470,8 @@
     "pick": "Tulane +2.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.515,
-    "edge": -0.57,
+    "prob": 0.5146,
+    "edge": -0.55,
     "proj": -2.4000000000000004,
     "import_side": "away",
     "import_tier": "No Play",
@@ -2484,14 +2484,14 @@
     "pick": "Over 48.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5187,
-    "edge": 1.52,
-    "proj": 50.02,
+    "prob": 0.508,
+    "edge": 0.65,
+    "proj": 49.15,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 42.5 (teased)",
-     "prob": 0.7186
+     "prob": 0.6955
     }
    },
    "moneyline": {
@@ -2570,8 +2570,8 @@
     "pick": "UNLV +14.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5046,
-    "edge": -0.17,
+    "prob": 0.5012,
+    "edge": -0.04,
     "proj": 15.2,
     "import_side": "away",
     "import_tier": "No Play",
@@ -2581,17 +2581,17 @@
     }
    },
    "total": {
-    "pick": "Under 46.5",
-    "side": "under",
+    "pick": "Over 46.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5112,
-    "edge": 0.91,
-    "proj": 45.59,
-    "import_side": "under",
+    "prob": 0.5146,
+    "edge": 1.19,
+    "proj": 47.69,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 52.5 (teased)",
-     "prob": 0.7025
+     "pick": "Over 40.5 (teased)",
+     "prob": 0.7099
     }
    },
    "moneyline": {
@@ -2920,8 +2920,8 @@
     "pick": "Wyoming -7.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5046,
-    "edge": -0.17,
+    "prob": 0.5054,
+    "edge": -0.2,
     "proj": -10.600000000000001,
     "import_side": "away",
     "import_tier": "No Play",
@@ -2933,15 +2933,15 @@
    "total": {
     "pick": "Over 39.5",
     "side": "over",
-    "tier": "No Play",
-    "prob": 0.5223,
-    "edge": 1.83,
-    "proj": 41.33,
+    "tier": "Lean",
+    "prob": 0.5329,
+    "edge": 2.7,
+    "proj": 42.2,
     "import_side": "over",
-    "import_tier": "No Play",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Over 33.5 (teased)",
-     "prob": 0.7264
+     "prob": 0.7483
     }
    },
    "moneyline": {
@@ -3070,8 +3070,8 @@
     "pick": "Houston Texans -4.5",
     "side": "away",
     "tier": "Lean",
-    "prob": 0.545,
-    "edge": -1.4,
+    "prob": 0.5386,
+    "edge": -1.2,
     "proj": -6.199999999999999,
     "import_side": "away",
     "import_tier": "Lean",
@@ -3084,14 +3084,14 @@
     "pick": "Over 41.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5402,
-    "edge": 1.01,
-    "proj": 42.51,
+    "prob": 0.5103,
+    "edge": 0.26,
+    "proj": 41.76,
     "import_side": "over",
-    "import_tier": "Lean",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 35.5 (teased)",
-     "prob": 0.7583
+     "prob": 0.7343
     }
    },
    "moneyline": {
@@ -3569,12 +3569,12 @@
    "spread": {
     "pick": "Los Angeles Chargers +4.5",
     "side": "away",
-    "tier": "Lean",
-    "prob": 0.5895,
-    "edge": -2.8,
+    "tier": "Strong Play",
+    "prob": 0.6206,
+    "edge": -3.8,
     "proj": -0.49999999999999956,
     "import_side": "away",
-    "import_tier": "Lean",
+    "import_tier": "Max Play",
     "teaser_leg": {
      "pick": "Los Angeles Chargers +10.5 (teased)",
      "prob": 0.7528
@@ -3584,14 +3584,14 @@
     "pick": "Over 38.5",
     "side": "over",
     "tier": "Lean",
-    "prob": 0.5617,
-    "edge": 1.55,
-    "proj": 40.05,
+    "prob": 0.5764,
+    "edge": 1.93,
+    "proj": 40.43,
     "import_side": "over",
     "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Over 32.5 (teased)",
-     "prob": 0.7749
+     "prob": 0.786
     }
    },
    "moneyline": {

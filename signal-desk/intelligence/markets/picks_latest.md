@@ -20,7 +20,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | North Texas @ Tulane | moneyline | North Texas ML -110 (price estimated from the line) | 77% | +24.8% | No Play | 0 |
 | Wisconsin @ Maryland | spread | Wisconsin -8.5 (spread) | 51% |  | No Play | 0 |
 | Wisconsin @ Maryland | total | Over 42.5 | 52% | +1.8 pts | No Play | 0 |
-| Wisconsin @ Maryland | moneyline | Maryland ML +275 | 28% | +1.4% | No Play | 0 |
+| Wisconsin @ Maryland | moneyline | Maryland ML +275 | 26% | -0.5% | No Play | 0 |
 | Miami (OH) @ Kent State | moneyline | Miami (OH) ML -110 (price estimated from the line) | 79% | +26.6% | No Play | 0 |
 | California @ Virginia | spread | Virginia -10 (spread) | 51% |  | No Play | 0 |
 | California @ Virginia | total | Over 46.5 | 52% | +1.8 pts | No Play | 0 |

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T18:35:22+00:00",
+ "generated_at": "2026-11-13T18:37:57+00:00",
  "date": "2026-11-13",
  "games": [
   {
@@ -724,10 +724,10 @@
    "league": "NCAAF",
    "date": "2026-11-14",
    "frozen": false,
-   "line": -8.5,
+   "line": -9.5,
    "total_line": 42.5,
    "model_margin": -10.0,
-   "blend_margin": -8.7175,
+   "blend_margin": -9.5725,
    "proj_total": 44.299125000000004,
    "factors": [
     "weather: 45F, wind 14mph, precip 2% | sev=0.25 | open-meteo"
@@ -741,7 +741,7 @@
      "side": "away",
      "team": "Wisconsin",
      "line": -8.5,
-     "price": -112.0,
+     "price": -108.0,
      "proj": -10.0,
      "prob": 0.5058,
      "edge": null,
@@ -778,9 +778,9 @@
      "line": 0.0,
      "price": 275.0,
      "price_estimated": false,
-     "proj": -8.72,
-     "prob": 0.2807,
-     "edge": 0.014,
+     "proj": -9.57,
+     "prob": 0.2618,
+     "edge": -0.0048,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
@@ -800,13 +800,13 @@
      "kind": "spread",
      "side": "home",
      "team": "Maryland",
-     "base_line": 8.5,
-     "line": 14.5,
+     "base_line": 9.5,
+     "line": 15.5,
      "price": 0.0,
-     "prob": 0.5901,
+     "prob": 0.5918,
      "push": 0,
      "crosses": [],
-     "selection": "Maryland +8.5 -> +14.5",
+     "selection": "Maryland +9.5 -> +15.5",
      "game_id": "rec4KXoPObfT4bFvb",
      "game": "Wisconsin @ Maryland",
      "priority": "secondary",
@@ -834,23 +834,23 @@
    "alt_spreads": [
     {
      "team": "Maryland",
-     "line": 5.5,
-     "prob": 0.4215
+     "line": 6.5,
+     "prob": 0.427
     },
     {
      "team": "Wisconsin",
-     "line": -11.5,
-     "prob": 0.4129
+     "line": -12.5,
+     "prob": 0.4098
     },
     {
      "team": "Maryland",
-     "line": 11.5,
-     "prob": 0.5871
+     "line": 12.5,
+     "prob": 0.5902
     },
     {
      "team": "Wisconsin",
-     "line": -5.5,
-     "prob": 0.5785
+     "line": -6.5,
+     "prob": 0.573
     }
    ]
   },
