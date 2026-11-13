@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T23:00:39.829618+00:00",
+  "checked_at": "2026-11-13T23:26:32.683931+00:00",
   "central_date": "2026-11-13",
   "ready": false,
   "policy": {
@@ -10,60 +10,57 @@
   },
   "checks": {
     "narrative": {
-      "age_hours": 1.588,
+      "age_hours": 2.02,
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 1.609,
+      "age_hours": 2.04,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 44.294,
+      "age_hours": 0.342,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 1.589,
+      "age_hours": 0.0,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 44.289,
+      "age_hours": 0.34,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 1.609,
+      "age_hours": 2.04,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 2.394,
+      "age_hours": 2.825,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
-      "age_hours": 3.048,
+      "age_hours": 3.479,
       "max_age_hours": 4
     },
     "espn-sync.yml": {
-      "age_hours": 3.095,
+      "age_hours": 3.527,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 2.96,
+      "age_hours": 3.392,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 3.386,
+      "age_hours": 3.817,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "close_grade: age 2.39h outside [0, 2)h (5m clock tolerance)",
+    "close_grade: age 2.82h outside [0, 2)h (5m clock tolerance)",
     "context-calibrate.yml: latest producer run is not healthy, successful and LIVE"
   ],
-  "warnings": [
-    "splash_board: 44.29h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 44.29h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
-  ],
+  "warnings": [],
   "paper_picks_only": true,
-  "source_revision": "829b8a84dcc5682ef707df755add5d70369a6ccc",
+  "source_revision": "217a886e9a35594cb7161d4f70a135ba748c2e11",
   "input_git_blobs": {
     "validate_artifacts.py": "ce0f8e43fd3155f42355b2287d9f94be4143434e",
     "intelligence/latest.json": "e375daea136a0eefc005ef6aa3738b111dc29b7c",
@@ -72,9 +69,9 @@
     "data/snapshot.json": "ceb3102f2342aac07994c441c6bf8567225ef290",
     "data/ops_status.json": "e4c8baad43f1512041aeeb36593090ca3b9939de",
     "data/producer_health/markets.json": "aba9cb67bbd245fd9aeaca8a09dd0fa068150643",
-    "intelligence/splash_lines/latest.md": "0cba4161d08deebbec732345025f790e41d06a6a",
-    "intelligence/splash_pricecheck/latest.json": "d8b835abbc7677b65c54e35a84929abbb209ebf0",
-    "intelligence/splash_pricecheck/latest.md": "7eb9d394d5b0b8b6184c03f1a1b57ec3146b9053"
+    "intelligence/splash_lines/latest.md": "e2ea4cd40226ce9c92d834ce473562d7ff88d118",
+    "intelligence/splash_pricecheck/latest.json": "01d01114b8ba46007724540cb5c381cca46cc705",
+    "intelligence/splash_pricecheck/latest.md": "cb6103390be5c1b93829abb02a6656bdd95d53ef"
   },
   "note": "Repository-executed readiness; import acceptance is a separate decision."
 }

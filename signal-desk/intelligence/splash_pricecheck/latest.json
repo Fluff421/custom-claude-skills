@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-13T21:25:20.720345+00:00",
- "snapshot_age_hours": 42.7,
+ "generated_at": "2026-11-13T23:26:32.683931+00:00",
+ "snapshot_age_hours": 0.34,
  "games": [
   {
    "game": "Florida State @ Pittsburgh",
    "record_id": "repo-game:b5a6f47e2d729f035b00796b",
    "league": "NCAAF",
    "date": "2026-11-13",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": 3.5,
-   "splash_total": 53.5,
+   "splash_total": 52.5,
    "import_home_margin": 3.5,
    "import_total": 54.5,
    "reference_origin": "repository",
@@ -31,74 +31,24 @@
     }
    },
    "total": {
-    "pick": "Over 53.5",
+    "pick": "Over 52.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5074,
-    "edge": 0.6,
-    "proj": 54.1,
+    "prob": 0.511,
+    "edge": 0.9,
+    "proj": 53.4,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 47.5 (teased)",
-     "prob": 0.6942
+     "pick": "Over 46.5 (teased)",
+     "prob": 0.7022
     }
    },
    "moneyline": {
-    "pick": "Florida State ML +136",
+    "pick": "Florida State ML +138",
     "tier": "No Play",
     "prob": 0.414,
-    "edge": -0.0098,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Houston @ Colorado",
-   "record_id": "repo-game:58daa98d69eee8c459e2a76c",
-   "league": "NCAAF",
-   "date": "2026-11-13",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -9.5,
-   "splash_total": 51.5,
-   "import_home_margin": -10.5,
-   "import_total": 51.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recFCrnDbWFklfWPW",
-   "model_status": "available",
-   "spread": {
-    "pick": "Houston -9.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5181,
-    "edge": -0.68,
-    "proj": -13.100000000000001,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Houston -3.5 (teased)",
-     "prob": 0.6592
-    }
-   },
-   "total": {
-    "pick": "Over 51.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5067,
-    "edge": 0.55,
-    "proj": 52.05,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 45.5 (teased)",
-     "prob": 0.6928
-    }
-   },
-   "moneyline": {
-    "pick": "Colorado ML +310",
-    "tier": "No Play",
-    "prob": 0.226,
-    "edge": -0.0179,
+    "edge": -0.0062,
     "model_ml_side": "away"
    }
   },
@@ -107,8 +57,8 @@
    "record_id": "repo-game:88394b7104ec479b6fe227cc",
    "league": "NCAAF",
    "date": "2026-11-13",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": 10.5,
    "splash_total": 47.5,
    "import_home_margin": 10.5,
@@ -153,202 +103,52 @@
    }
   },
   {
-   "game": "Alabama @ Vanderbilt",
-   "record_id": "repo-game:167e7f05ed2337a93d8a0bc8",
+   "game": "Houston @ Colorado",
+   "record_id": "repo-game:58daa98d69eee8c459e2a76c",
    "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -16.5,
-   "splash_total": 50.5,
-   "import_home_margin": -15.5,
-   "import_total": 50.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "reca4JdR5wi33Op0V",
-   "model_status": "available",
-   "spread": {
-    "pick": "Alabama -16.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5255,
-    "edge": -0.96,
-    "proj": -22.900000000000002,
-    "import_side": "away",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Alabama -10.5 (teased)",
-     "prob": 0.6626
-    }
-   },
-   "total": {
-    "pick": "Over 50.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5177,
-    "edge": 1.45,
-    "proj": 51.95,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 44.5 (teased)",
-     "prob": 0.7167
-    }
-   },
-   "moneyline": {
-    "pick": "Alabama ML -901",
-    "tier": "No Play",
-    "prob": 0.8813,
-    "edge": -0.0188,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "App State @ Marshall",
-   "record_id": "repo-game:ec7ccb2444517b10e8f0e4cc",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -1.5,
-   "splash_total": 53.5,
-   "import_home_margin": -1.5,
-   "import_total": 53.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recHTEu0UXGuNF6iC",
-   "model_status": "available",
-   "spread": {
-    "pick": "App State -1.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5027,
-    "edge": -0.1,
-    "proj": -3.0,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "App State +4.5 (teased)",
-     "prob": 0.6627
-    }
-   },
-   "total": {
-    "pick": "Under 53.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5005,
-    "edge": 0.04,
-    "proj": 53.46,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 59.5 (teased)",
-     "prob": 0.6789
-    }
-   },
-   "moneyline": {
-    "pick": "App State ML -120",
-    "tier": "No Play",
-    "prob": 0.5517,
-    "edge": 0.0063,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Arizona State @ UCF",
-   "record_id": "repo-game:c3835e33ae51a36e4cb5e61e",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 49.5,
-   "import_home_margin": 3.5,
-   "import_total": 49.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "rec2wlci6Mt0CAhKY",
-   "model_status": "available",
-   "spread": {
-    "pick": "UCF -3.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5042,
-    "edge": 0.16,
-    "proj": 4.6,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "UCF +2.5 (teased)",
-     "prob": 0.6544
-    }
-   },
-   "total": {
-    "pick": "Over 49.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5237,
-    "edge": 1.94,
-    "proj": 51.44,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 43.5 (teased)",
-     "prob": 0.7292
-    }
-   },
-   "moneyline": {
-    "pick": "UCF ML -152",
-    "tier": "No Play",
-    "prob": 0.6008,
-    "edge": -0.0024,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Arkansas State @ Coastal Carolina",
-   "record_id": "repo-game:92d17506cd53a6c422e1ec14",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 1.5,
+   "date": "2026-11-13",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -9.5,
    "splash_total": 51.5,
-   "import_home_margin": 1.5,
-   "import_total": 50.5,
+   "import_home_margin": -10.5,
+   "import_total": 51.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recwJUYhAtuhiQNKv",
+   "ledger_record_id": "recFCrnDbWFklfWPW",
    "model_status": "available",
    "spread": {
-    "pick": "Arkansas State +1.5",
+    "pick": "Houston -9.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5008,
-    "edge": -0.03,
-    "proj": 0.7000000000000011,
+    "prob": 0.5181,
+    "edge": -0.68,
+    "proj": -13.100000000000001,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Arkansas State +7.5 (teased)",
-     "prob": 0.6679
+     "pick": "Houston -3.5 (teased)",
+     "prob": 0.6592
     }
    },
    "total": {
     "pick": "Over 51.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5043,
-    "edge": 0.35,
-    "proj": 51.85,
+    "prob": 0.5067,
+    "edge": 0.55,
+    "proj": 52.05,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 45.5 (teased)",
-     "prob": 0.6874
+     "prob": 0.6928
     }
    },
    "moneyline": {
-    "pick": "Coastal Carolina ML -111",
+    "pick": "Colorado ML +310",
     "tier": "No Play",
-    "prob": 0.5335,
-    "edge": 0.0074,
+    "prob": 0.226,
+    "edge": -0.0179,
     "model_ml_side": "away"
    }
   },
@@ -357,10 +157,10 @@
    "record_id": "repo-game:f514e293006b63f834a54e92",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -2.5,
-   "splash_total": 50.5,
+   "splash_total": 51.5,
    "import_home_margin": -2.5,
    "import_total": 49.5,
    "reference_origin": "repository",
@@ -381,275 +181,25 @@
     }
    },
    "total": {
-    "pick": "Over 50.5",
+    "pick": "Over 51.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5101,
-    "edge": 0.82,
-    "proj": 51.32,
+    "prob": 0.5064,
+    "edge": 0.52,
+    "proj": 52.02,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 44.5 (teased)",
-     "prob": 0.7002
+     "pick": "Over 45.5 (teased)",
+     "prob": 0.6921
     }
    },
    "moneyline": {
-    "pick": "Mississippi State ML +122",
+    "pick": "Mississippi State ML +116",
     "tier": "No Play",
     "prob": 0.4591,
-    "edge": 0.0087,
+    "edge": -0.0038,
     "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Baylor @ BYU",
-   "record_id": "repo-game:3004bc4beae07619dcfaa446",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 7.5,
-   "splash_total": 48.5,
-   "import_home_margin": 7.5,
-   "import_total": 49.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "rec7yixGhx5eMGU3z",
-   "model_status": "available",
-   "spread": {
-    "pick": "Baylor +7.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5031,
-    "edge": -0.12,
-    "proj": 5.9,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Baylor +13.5 (teased)",
-     "prob": 0.6716
-    }
-   },
-   "total": {
-    "pick": "Over 48.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5106,
-    "edge": 0.86,
-    "proj": 49.36,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 42.5 (teased)",
-     "prob": 0.7012
-    }
-   },
-   "moneyline": {
-    "pick": "Baylor ML +220",
-    "tier": "No Play",
-    "prob": 0.3199,
-    "edge": 0.0074,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Boston College @ Notre Dame",
-   "record_id": "repo-game:841f6087c19d466c07187f36",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 29.5,
-   "splash_total": 52.5,
-   "import_home_margin": 28.5,
-   "import_total": 51.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recqmLUygoZwtuS0E",
-   "model_status": "available",
-   "spread": {
-    "pick": "Notre Dame -29.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5093,
-    "edge": 0.35,
-    "proj": 33.5,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Notre Dame -23.5 (teased)",
-     "prob": 0.6608
-    }
-   },
-   "total": {
-    "pick": "Over 52.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5002,
-    "edge": 0.01,
-    "proj": 52.51,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 46.5 (teased)",
-     "prob": 0.6781
-    }
-   },
-   "moneyline": {
-    "pick": "Notre Dame ML -4545",
-    "tier": "No Play",
-    "prob": 0.9772,
-    "edge": -0.0012,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "California @ Virginia",
-   "record_id": "repo-game:6b6afd96054d97a31dc08d21",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 10.5,
-   "splash_total": 46.5,
-   "import_home_margin": 10.5,
-   "import_total": 47.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "rec5sbM7PV1lIfVfC",
-   "model_status": "available",
-   "spread": {
-    "pick": "California +10.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5004,
-    "edge": -0.01,
-    "proj": 13.5,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "California +16.5 (teased)",
-     "prob": 0.6576
-    }
-   },
-   "total": {
-    "pick": "Over 46.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5217,
-    "edge": 1.78,
-    "proj": 48.28,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 40.5 (teased)",
-     "prob": 0.7251
-    }
-   },
-   "moneyline": {
-    "pick": "Virginia ML -385",
-    "tier": "No Play",
-    "prob": 0.7764,
-    "edge": -0.0174,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Cincinnati @ Iowa State",
-   "record_id": "repo-game:471e06f87b29c845afe15b49",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 60.5,
-   "import_home_margin": 3.5,
-   "import_total": 60.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "rec6q41YBZnFKYsEl",
-   "model_status": "available",
-   "spread": {
-    "pick": "Cincinnati +3.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5112,
-    "edge": -0.42,
-    "proj": 0.40000000000000036,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Cincinnati +9.5 (teased)",
-     "prob": 0.675
-    }
-   },
-   "total": {
-    "pick": "Under 60.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5048,
-    "edge": 0.39,
-    "proj": 60.11,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 66.5 (teased)",
-     "prob": 0.6884
-    }
-   },
-   "moneyline": {
-    "pick": "Cincinnati ML +128",
-    "tier": "No Play",
-    "prob": 0.432,
-    "edge": -0.0066,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Colorado State @ Washington State",
-   "record_id": "repo-game:4a8b8e41c39faf717da15928",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 8.5,
-   "splash_total": 66.5,
-   "import_home_margin": 8.5,
-   "import_total": 67.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "rec95zAsrohONJnA1",
-   "model_status": "available",
-   "spread": {
-    "pick": "Colorado State +8.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5069,
-    "edge": -0.26,
-    "proj": 5.700000000000001,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Colorado State +14.5 (teased)",
-     "prob": 0.6787
-    }
-   },
-   "total": {
-    "pick": "Under 66.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5179,
-    "edge": 1.46,
-    "proj": 65.04,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 72.5 (teased)",
-     "prob": 0.717
-    }
-   },
-   "moneyline": {
-    "pick": "Colorado State ML +275",
-    "tier": "No Play",
-    "prob": 0.3048,
-    "edge": 0.0381,
-    "model_ml_side": "away"
    }
   },
   {
@@ -657,8 +207,8 @@
    "record_id": "repo-game:67c437660310ae26a186adef",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": 13.5,
    "splash_total": 54.5,
    "import_home_margin": 13.5,
@@ -695,410 +245,110 @@
     }
    },
    "moneyline": {
-    "pick": "Miami ML -549",
+    "pick": "Duke ML +440",
     "tier": "No Play",
-    "prob": 0.8295,
-    "edge": -0.0165,
+    "prob": 0.1705,
+    "edge": -0.0146,
     "model_ml_side": "home"
    }
   },
   {
-   "game": "East Carolina @ Charlotte",
-   "record_id": "repo-game:aef1eddbb2a9f451f365fd3b",
+   "game": "Wisconsin @ Maryland",
+   "record_id": "repo-game:3ab548aade7adc252ad14716",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -11.5,
-   "splash_total": 45.5,
-   "import_home_margin": -11.5,
-   "import_total": 45.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recjKFRvTR8flDidu",
-   "model_status": "available",
-   "spread": {
-    "pick": "East Carolina -11.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5085,
-    "edge": -0.32,
-    "proj": -15.399999999999999,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "East Carolina -5.5 (teased)",
-     "prob": 0.6619
-    }
-   },
-   "total": {
-    "pick": "Over 45.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5181,
-    "edge": 1.48,
-    "proj": 46.98,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 39.5 (teased)",
-     "prob": 0.7174
-    }
-   },
-   "moneyline": {
-    "pick": "East Carolina ML -450",
-    "tier": "No Play",
-    "prob": 0.8009,
-    "edge": -0.0173,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Florida @ Kentucky",
-   "record_id": "repo-game:8c1e6a341c51faf78e211cc6",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 52.5,
-   "import_home_margin": 3.5,
-   "import_total": 52.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recI5FRtix42vnzzd",
-   "model_status": "available",
-   "spread": {
-    "pick": "Florida +3.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5085,
-    "edge": -0.32,
-    "proj": 1.3000000000000007,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Florida +9.5 (teased)",
-     "prob": 0.6719
-    }
-   },
-   "total": {
-    "pick": "Over 52.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5179,
-    "edge": 1.46,
-    "proj": 53.96,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 46.5 (teased)",
-     "prob": 0.717
-    }
-   },
-   "moneyline": {
-    "pick": "Florida ML +132",
-    "tier": "No Play",
-    "prob": 0.4249,
-    "edge": -0.0061,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Florida Atlantic @ Tulsa",
-   "record_id": "repo-game:08f92f2aaa8a7841b74e3eb7",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 5.5,
-   "splash_total": 74.5,
-   "import_home_margin": 5.5,
-   "import_total": 74.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recleuiqEH89U3qMw",
-   "model_status": "available",
-   "spread": {
-    "pick": "Tulsa -5.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.517,
-    "edge": 0.64,
-    "proj": 9.3,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Tulsa +0.5 (teased)",
-     "prob": 0.6652
-    }
-   },
-   "total": {
-    "pick": "Under 74.5",
-    "side": "under",
-    "tier": "Lean",
-    "prob": 0.5413,
-    "edge": 3.4,
-    "proj": 71.1,
-    "import_side": "under",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Under 80.5 (teased)",
-     "prob": 0.7652
-    }
-   },
-   "moneyline": {
-    "pick": "Tulsa ML -205",
-    "tier": "No Play",
-    "prob": 0.671,
-    "edge": -0.0011,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Florida International @ Delaware",
-   "record_id": "repo-game:e801d0782e2f4a6192037539",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 5.5,
-   "splash_total": 54.5,
-   "import_home_margin": 5.5,
-   "import_total": 54.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recW4JsOwbX8uQmjE",
-   "model_status": "available",
-   "spread": {
-    "pick": "Florida International +5.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5019,
-    "edge": -0.07,
-    "proj": 5.6,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Florida International +11.5 (teased)",
-     "prob": 0.6666
-    }
-   },
-   "total": {
-    "pick": "Under 54.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.523,
-    "edge": 1.88,
-    "proj": 52.62,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 60.5 (teased)",
-     "prob": 0.7277
-    }
-   },
-   "moneyline": {
-    "pick": "Florida International ML +172",
-    "tier": "No Play",
-    "prob": 0.3562,
-    "edge": -0.0115,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Fresno State @ Texas State",
-   "record_id": "repo-game:66610be5ace05778ecb7d184",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 9.5,
-   "splash_total": 59.5,
-   "import_home_margin": 9.5,
-   "import_total": 60.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recCTu9IGYaqUcN4M",
-   "model_status": "available",
-   "spread": {
-    "pick": "Fresno State +9.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5146,
-    "edge": -0.55,
-    "proj": 5.0,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Fresno State +15.5 (teased)",
-     "prob": 0.6841
-    }
-   },
-   "total": {
-    "pick": "Under 59.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5064,
-    "edge": 0.52,
-    "proj": 58.98,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 65.5 (teased)",
-     "prob": 0.6921
-    }
-   },
-   "moneyline": {
-    "pick": "Fresno State ML +275",
-    "tier": "No Play",
-    "prob": 0.2935,
-    "edge": 0.0268,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Georgia Southern @ Georgia State",
-   "record_id": "repo-game:16bfd2c547bd9abcab896cd4",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -5.5,
-   "splash_total": 56.5,
-   "import_home_margin": -5.5,
-   "import_total": 56.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recPOnSCzvrPEJmq5",
-   "model_status": "available",
-   "spread": {
-    "pick": "Georgia State +5.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5135,
-    "edge": 0.51,
-    "proj": -3.2,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Georgia State +11.5 (teased)",
-     "prob": 0.6749
-    }
-   },
-   "total": {
-    "pick": "Under 56.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5089,
-    "edge": 0.72,
-    "proj": 55.78,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 62.5 (teased)",
-     "prob": 0.6975
-    }
-   },
-   "moneyline": {
-    "pick": "Georgia State ML +176",
-    "tier": "No Play",
-    "prob": 0.3742,
-    "edge": 0.0119,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Georgia Tech @ Clemson",
-   "record_id": "repo-game:31b686f147a8a15bec2c0c42",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 13.5,
-   "splash_total": 47.5,
-   "import_home_margin": 13.5,
-   "import_total": 47.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "rec9LE2B6ouTGvm8d",
-   "model_status": "available",
-   "spread": {
-    "pick": "Clemson -13.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5058,
-    "edge": 0.22,
-    "proj": 14.3,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Clemson -7.5 (teased)",
-     "prob": 0.6433
-    }
-   },
-   "total": {
-    "pick": "Over 47.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.514,
-    "edge": 1.14,
-    "proj": 48.64,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 41.5 (teased)",
-     "prob": 0.7085
-    }
-   },
-   "moneyline": {
-    "pick": "Georgia Tech ML +430",
-    "tier": "No Play",
-    "prob": 0.1798,
-    "edge": -0.0088,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Jacksonville State @ Western Kentucky",
-   "record_id": "repo-game:c3ef926a9dfa32cb6ef66449",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -7.5,
-   "splash_total": 55.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -9.5,
+   "splash_total": 42.5,
    "import_home_margin": -7.5,
-   "import_total": 54.5,
+   "import_total": 43.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recRcMgeqLmBoE5ev",
+   "ledger_record_id": "rec4KXoPObfT4bFvb",
    "model_status": "available",
    "spread": {
-    "pick": "Jacksonville State -7.5",
+    "pick": "Wisconsin -9.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5008,
-    "edge": -0.03,
-    "proj": -7.199999999999999,
+    "prob": 0.5046,
+    "edge": -0.17,
+    "proj": -10.0,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Jacksonville State -1.5 (teased)",
-     "prob": 0.6524
+     "pick": "Wisconsin -3.5 (teased)",
+     "prob": 0.6484
     }
    },
    "total": {
-    "pick": "Under 55.5",
-    "side": "under",
+    "pick": "Over 42.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5075,
-    "edge": 0.61,
-    "proj": 54.89,
-    "import_side": "under",
+    "prob": 0.522,
+    "edge": 1.8,
+    "proj": 44.3,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 61.5 (teased)",
-     "prob": 0.6945
+     "pick": "Over 36.5 (teased)",
+     "prob": 0.7257
     }
    },
    "moneyline": {
-    "pick": "Western Kentucky ML +255",
+    "pick": "Maryland ML +280",
     "tier": "No Play",
-    "prob": 0.3107,
-    "edge": 0.029,
+    "prob": 0.2912,
+    "edge": 0.028,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Syracuse @ NC State",
+   "record_id": "repo-game:96098d3081c0259acd50521d",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -2.5,
+   "splash_total": 53.5,
+   "import_home_margin": -2.5,
+   "import_total": 54.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "reccQmzYjnGN84z0X",
+   "model_status": "available",
+   "spread": {
+    "pick": "NC State +2.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5046,
+    "edge": 0.17,
+    "proj": -1.0,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "NC State +8.5 (teased)",
+     "prob": 0.6699
+    }
+   },
+   "total": {
+    "pick": "Over 53.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5081,
+    "edge": 0.66,
+    "proj": 54.16,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 47.5 (teased)",
+     "prob": 0.6958
+    }
+   },
+   "moneyline": {
+    "pick": "NC State ML +116",
+    "tier": "No Play",
+    "prob": 0.4456,
+    "edge": -0.0173,
     "model_ml_side": "home"
    }
   },
@@ -1107,9 +357,9 @@
    "record_id": "repo-game:82a7123f16d3d38828a62dc0",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -3.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -4.5,
    "splash_total": 57.5,
    "import_home_margin": -3.5,
    "import_total": 57.5,
@@ -1117,17 +367,17 @@
    "ledger_record_id": "recLWqwVHwLGRt4sA",
    "model_status": "available",
    "spread": {
-    "pick": "James Madison -3.5",
+    "pick": "James Madison -4.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5196,
-    "edge": -0.74,
+    "prob": 0.5158,
+    "edge": -0.59,
     "proj": -8.5,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "James Madison +2.5 (teased)",
-     "prob": 0.6679
+     "pick": "James Madison +1.5 (teased)",
+     "prob": 0.6652
     }
    },
    "total": {
@@ -1145,410 +395,210 @@
     }
    },
    "moneyline": {
-    "pick": "James Madison ML -182",
+    "pick": "UConn ML +160",
     "tier": "No Play",
-    "prob": 0.6306,
-    "edge": -0.0148,
+    "prob": 0.3694,
+    "edge": -0.0152,
     "model_ml_side": "away"
    }
   },
   {
-   "game": "Kansas @ West Virginia",
-   "record_id": "repo-game:cea9e01cf4865f25e2131fc5",
+   "game": "Cincinnati @ Iowa State",
+   "record_id": "repo-game:471e06f87b29c845afe15b49",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": 2.5,
-   "splash_total": 67.5,
-   "import_home_margin": 2.5,
-   "import_total": 67.5,
+   "splash_total": 58.5,
+   "import_home_margin": 3.5,
+   "import_total": 60.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recbe0DRlCxEUlkhc",
+   "ledger_record_id": "rec6q41YBZnFKYsEl",
    "model_status": "available",
    "spread": {
-    "pick": "Kansas +2.5",
+    "pick": "Cincinnati +2.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5035,
-    "edge": -0.13,
-    "proj": 1.1000000000000005,
+    "prob": 0.5073,
+    "edge": -0.28,
+    "proj": 0.40000000000000036,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Kansas +8.5 (teased)",
-     "prob": 0.6696
+     "pick": "Cincinnati +8.5 (teased)",
+     "prob": 0.672
     }
    },
    "total": {
-    "pick": "Under 67.5",
-    "side": "under",
+    "pick": "Over 58.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5229,
-    "edge": 1.88,
-    "proj": 65.62,
+    "prob": 0.5026,
+    "edge": 0.21,
+    "proj": 58.71,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 73.5 (teased)",
-     "prob": 0.7277
+     "pick": "Over 52.5 (teased)",
+     "prob": 0.6836
     }
    },
    "moneyline": {
-    "pick": "Kansas ML +122",
+    "pick": "Cincinnati ML +125",
     "tier": "No Play",
-    "prob": 0.4449,
-    "edge": -0.0056,
+    "prob": 0.432,
+    "edge": -0.0125,
     "model_ml_side": "away"
    }
   },
   {
-   "game": "Kansas State @ TCU",
-   "record_id": "repo-game:441ca28c6bd4ecb769b4248b",
+   "game": "Northwestern @ Ohio State",
+   "record_id": "repo-game:bde6b7103126d61b04afa7a9",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 10.5,
-   "splash_total": 45.5,
-   "import_home_margin": 10.5,
-   "import_total": 46.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recic9i42i05ISszm",
-   "model_status": "available",
-   "spread": {
-    "pick": "Kansas State +10.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5135,
-    "edge": -0.51,
-    "proj": 8.6,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Kansas State +16.5 (teased)",
-     "prob": 0.6747
-    }
-   },
-   "total": {
-    "pick": "Over 45.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5188,
-    "edge": 1.54,
-    "proj": 47.04,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 39.5 (teased)",
-     "prob": 0.719
-    }
-   },
-   "moneyline": {
-    "pick": "Kansas State ML +320",
-    "tier": "No Play",
-    "prob": 0.254,
-    "edge": 0.0159,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Kennesaw State @ Sam Houston",
-   "record_id": "repo-game:047d3d7503c50392b48c046f",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -7.5,
-   "splash_total": 46.5,
-   "import_home_margin": -7.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 13.5,
+   "splash_total": 44.5,
+   "import_home_margin": 12.5,
    "import_total": 45.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recgn46XBe7WkElWB",
+   "ledger_record_id": "recXVCtaD9i4d3q7V",
    "model_status": "available",
    "spread": {
-    "pick": "Sam Houston +7.5",
+    "pick": "Ohio State -13.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5081,
-    "edge": 0.3,
-    "proj": -6.4,
+    "prob": 0.5046,
+    "edge": 0.17,
+    "proj": 14.600000000000001,
     "import_side": "home",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Sam Houston +13.5 (teased)",
-     "prob": 0.6698
+     "pick": "Ohio State -7.5 (teased)",
+     "prob": 0.6444
     }
    },
    "total": {
-    "pick": "Over 46.5",
+    "pick": "Over 44.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5146,
-    "edge": 1.19,
-    "proj": 47.69,
+    "prob": 0.521,
+    "edge": 1.71,
+    "proj": 46.21,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 40.5 (teased)",
-     "prob": 0.7099
+     "pick": "Over 38.5 (teased)",
+     "prob": 0.7235
     }
    },
    "moneyline": {
-    "pick": "Sam Houston ML +240",
+    "pick": "Northwestern ML +460",
     "tier": "No Play",
-    "prob": 0.3163,
-    "edge": 0.0222,
+    "prob": 0.1907,
+    "edge": 0.0121,
     "model_ml_side": "home"
    }
   },
   {
-   "game": "Louisville @ North Carolina",
-   "record_id": "repo-game:a9df22e756748b8d50f38415",
+   "game": "Wake Forest @ SMU",
+   "record_id": "repo-game:f8f654f22c19b3b6b7bedfd7",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -3.5,
-   "splash_total": 59.5,
-   "import_home_margin": -3.5,
-   "import_total": 59.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 1.5,
+   "splash_total": 60.5,
+   "import_home_margin": 1.5,
+   "import_total": 61.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recBEhfQqKSu5iDhF",
+   "ledger_record_id": "recERxonXo7EeZQvM",
    "model_status": "available",
    "spread": {
-    "pick": "North Carolina +3.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5004,
-    "edge": 0.01,
-    "proj": -3.0,
-    "import_side": "home",
-    "import_tier": "No Play",
+    "pick": "Wake Forest +1.5",
+    "side": "away",
+    "tier": "Lean",
+    "prob": 0.5,
+    "edge": -1.04,
+    "proj": -3.4000000000000004,
+    "import_side": "away",
+    "import_tier": "Lean",
     "teaser_leg": {
-     "pick": "North Carolina +9.5 (teased)",
-     "prob": 0.666
+     "pick": "Wake Forest +7.5 (teased)",
+     "prob": 0.6819
     }
    },
    "total": {
-    "pick": "Under 59.5",
+    "pick": "Under 60.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5066,
-    "edge": 0.54,
-    "proj": 58.96,
+    "prob": 0.5068,
+    "edge": 0.55,
+    "proj": 59.95,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 65.5 (teased)",
-     "prob": 0.6925
+     "pick": "Under 66.5 (teased)",
+     "prob": 0.6928
     }
    },
    "moneyline": {
-    "pick": "North Carolina ML +140",
+    "pick": "Wake Forest ML -104",
     "tier": "No Play",
-    "prob": 0.4116,
-    "edge": -0.005,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Michigan @ Oregon",
-   "record_id": "repo-game:7422fe4e0cf8427961965d9f",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 10.5,
-   "splash_total": 38.5,
-   "import_home_margin": 11.5,
-   "import_total": 38.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "reciW7HVgt6ZLBjmK",
-   "model_status": "available",
-   "spread": {
-    "pick": "Oregon -10.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5112,
-    "edge": 0.42,
-    "proj": 13.0,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Oregon -4.5 (teased)",
-     "prob": 0.6562
-    }
-   },
-   "total": {
-    "pick": "Over 38.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.526,
-    "edge": 2.12,
-    "proj": 40.62,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 32.5 (teased)",
-     "prob": 0.734
-    }
-   },
-   "moneyline": {
-    "pick": "Michigan ML +360",
-    "tier": "No Play",
-    "prob": 0.2128,
-    "edge": -0.0046,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Middle Tennessee @ Liberty",
-   "record_id": "repo-game:37682fccb92613890dba3e90",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 20.5,
-   "splash_total": 53.5,
-   "import_home_margin": 20.5,
-   "import_total": 53.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recdWcKZDyt1xjB3S",
-   "model_status": "available",
-   "spread": {
-    "pick": "Liberty -20.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5093,
-    "edge": 0.35,
-    "proj": 23.6,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Liberty -14.5 (teased)",
-     "prob": 0.6514
-    }
-   },
-   "total": {
-    "pick": "Under 53.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5115,
-    "edge": 0.94,
-    "proj": 52.56,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 59.5 (teased)",
-     "prob": 0.7032
-    }
-   },
-   "moneyline": {
-    "pick": "Liberty ML -1449",
-    "tier": "No Play",
-    "prob": 0.9234,
-    "edge": -0.012,
+    "prob": 0.4992,
+    "edge": -0.0106,
     "model_ml_side": "away"
    }
   },
   {
-   "game": "Minnesota @ Penn State",
-   "record_id": "repo-game:3595387c6f0b06a95f344a18",
+   "game": "Georgia Tech @ Clemson",
+   "record_id": "repo-game:31b686f147a8a15bec2c0c42",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 8.5,
-   "splash_total": 41.5,
-   "import_home_margin": 8.5,
-   "import_total": 41.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recDwKVCOoFoEx8JF",
-   "model_status": "available",
-   "spread": {
-    "pick": "Penn State -8.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5196,
-    "edge": 0.74,
-    "proj": 12.899999999999999,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Penn State -2.5 (teased)",
-     "prob": 0.6694
-    }
-   },
-   "total": {
-    "pick": "Over 41.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5296,
-    "edge": 2.43,
-    "proj": 43.93,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 35.5 (teased)",
-     "prob": 0.7415
-    }
-   },
-   "moneyline": {
-    "pick": "Minnesota ML +280",
-    "tier": "No Play",
-    "prob": 0.2563,
-    "edge": -0.0068,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Missouri @ Georgia",
-   "record_id": "repo-game:647f113702d6c918947a00ca",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 15.5,
-   "splash_total": 47.5,
-   "import_home_margin": 15.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 14.5,
+   "splash_total": 48.5,
+   "import_home_margin": 13.5,
    "import_total": 47.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recje8RLjCRkc3ZgQ",
+   "ledger_record_id": "rec9LE2B6ouTGvm8d",
    "model_status": "available",
    "spread": {
-    "pick": "Georgia -15.5",
+    "pick": "Clemson -14.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5085,
-    "edge": 0.32,
-    "proj": 16.799999999999997,
+    "prob": 0.5019,
+    "edge": 0.07,
+    "proj": 14.3,
     "import_side": "home",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Georgia -9.5 (teased)",
-     "prob": 0.6471
+     "pick": "Clemson -8.5 (teased)",
+     "prob": 0.6407
     }
    },
    "total": {
-    "pick": "Over 47.5",
+    "pick": "Over 48.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5222,
-    "edge": 1.81,
-    "proj": 49.31,
+    "prob": 0.5103,
+    "edge": 0.84,
+    "proj": 49.34,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 41.5 (teased)",
-     "prob": 0.7261
+     "pick": "Over 42.5 (teased)",
+     "prob": 0.7006
     }
    },
    "moneyline": {
-    "pick": "Missouri ML +570",
+    "pick": "Georgia Tech ML +530",
     "tier": "No Play",
-    "prob": 0.1447,
-    "edge": -0.0045,
+    "prob": 0.1798,
+    "edge": 0.0211,
     "model_ml_side": "away"
    }
   },
@@ -1557,8 +607,8 @@
    "record_id": "repo-game:9f216ea0c9dd3760782f62b9",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -14.5,
    "splash_total": 51.5,
    "import_home_margin": -13.5,
@@ -1603,52 +653,452 @@
    }
   },
   {
-   "game": "Nevada @ Northern Illinois",
-   "record_id": "repo-game:76d39e8ff8b3b3a1a6a7c9f5",
+   "game": "Alabama @ Vanderbilt",
+   "record_id": "repo-game:167e7f05ed2337a93d8a0bc8",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -7.5,
-   "splash_total": 47.5,
-   "import_home_margin": -7.5,
-   "import_total": 47.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -15.5,
+   "splash_total": 49.5,
+   "import_home_margin": -15.5,
+   "import_total": 50.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recqwNkS52OIwUljj",
+   "ledger_record_id": "reca4JdR5wi33Op0V",
    "model_status": "available",
    "spread": {
-    "pick": "Nevada -7.5",
+    "pick": "Alabama -15.5",
+    "side": "away",
+    "tier": "Lean",
+    "prob": 0.5,
+    "edge": -1.1,
+    "proj": -22.900000000000002,
+    "import_side": "away",
+    "import_tier": "Lean",
+    "teaser_leg": {
+     "pick": "Alabama -9.5 (teased)",
+     "prob": 0.6686
+    }
+   },
+   "total": {
+    "pick": "Over 49.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5214,
+    "edge": 1.75,
+    "proj": 51.25,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 43.5 (teased)",
+     "prob": 0.7244
+    }
+   },
+   "moneyline": {
+    "pick": "Alabama ML -649",
+    "tier": "No Play",
+    "prob": 0.8813,
+    "edge": 0.0148,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "East Carolina @ Charlotte",
+   "record_id": "repo-game:aef1eddbb2a9f451f365fd3b",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -11.5,
+   "splash_total": 45.5,
+   "import_home_margin": -11.5,
+   "import_total": 45.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recjKFRvTR8flDidu",
+   "model_status": "available",
+   "spread": {
+    "pick": "East Carolina -11.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5123,
-    "edge": -0.46,
-    "proj": -9.399999999999999,
+    "prob": 0.5085,
+    "edge": -0.32,
+    "proj": -15.399999999999999,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Nevada -1.5 (teased)",
-     "prob": 0.6601
+     "pick": "East Carolina -5.5 (teased)",
+     "prob": 0.6619
+    }
+   },
+   "total": {
+    "pick": "Over 45.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5181,
+    "edge": 1.48,
+    "proj": 46.98,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 39.5 (teased)",
+     "prob": 0.7174
+    }
+   },
+   "moneyline": {
+    "pick": "East Carolina ML -429",
+    "tier": "No Play",
+    "prob": 0.8009,
+    "edge": -0.0101,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Arkansas State @ Coastal Carolina",
+   "record_id": "repo-game:92d17506cd53a6c422e1ec14",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 1.5,
+   "splash_total": 52.5,
+   "import_home_margin": 1.5,
+   "import_total": 50.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recwJUYhAtuhiQNKv",
+   "model_status": "available",
+   "spread": {
+    "pick": "Arkansas State +1.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5008,
+    "edge": -0.03,
+    "proj": 0.7000000000000011,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Arkansas State +7.5 (teased)",
+     "prob": 0.6679
+    }
+   },
+   "total": {
+    "pick": "Over 52.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5006,
+    "edge": 0.05,
+    "proj": 52.55,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 46.5 (teased)",
+     "prob": 0.6792
+    }
+   },
+   "moneyline": {
+    "pick": "Coastal Carolina ML -111",
+    "tier": "No Play",
+    "prob": 0.5335,
+    "edge": 0.0074,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "UAB @ Temple",
+   "record_id": "repo-game:cac258185c29b7fbab603668",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 2.5,
+   "splash_total": 47.5,
+   "import_home_margin": 2.5,
+   "import_total": 48.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recNgHEASUPEBXz76",
+   "model_status": "available",
+   "spread": {
+    "pick": "Temple -2.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5115,
+    "edge": 0.43,
+    "proj": 6.0,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Temple +3.5 (teased)",
+     "prob": 0.6701
     }
    },
    "total": {
     "pick": "Over 47.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5115,
-    "edge": 0.94,
-    "proj": 48.44,
-    "import_side": "over",
+    "prob": 0.5023,
+    "edge": 0.19,
+    "proj": 47.69,
+    "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 41.5 (teased)",
-     "prob": 0.7032
+     "prob": 0.683
     }
    },
    "moneyline": {
-    "pick": "Northern Illinois ML +225",
+    "pick": "Temple ML -126",
     "tier": "No Play",
-    "prob": 0.2953,
-    "edge": -0.0124,
+    "prob": 0.5935,
+    "edge": 0.036,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Tulane @ Rice",
+   "record_id": "repo-game:f226caa686aa9cb800bc17fb",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 2.5,
+   "splash_total": 48.5,
+   "import_home_margin": 1.5,
+   "import_total": 48.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recpmOiQq29MMNath",
+   "model_status": "available",
+   "spread": {
+    "pick": "Tulane +2.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5146,
+    "edge": -0.55,
+    "proj": -2.4000000000000004,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Tulane +8.5 (teased)",
+     "prob": 0.6815
+    }
+   },
+   "total": {
+    "pick": "Over 48.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.508,
+    "edge": 0.65,
+    "proj": 49.15,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 42.5 (teased)",
+     "prob": 0.6955
+    }
+   },
+   "moneyline": {
+    "pick": "Tulane ML +112",
+    "tier": "No Play",
+    "prob": 0.4912,
+    "edge": 0.0195,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Kansas State @ TCU",
+   "record_id": "repo-game:441ca28c6bd4ecb769b4248b",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 11.5,
+   "splash_total": 44.5,
+   "import_home_margin": 10.5,
+   "import_total": 46.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recic9i42i05ISszm",
+   "model_status": "available",
+   "spread": {
+    "pick": "Kansas State +11.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5173,
+    "edge": -0.65,
+    "proj": 8.6,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Kansas State +17.5 (teased)",
+     "prob": 0.6789
+    }
+   },
+   "total": {
+    "pick": "Over 44.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5225,
+    "edge": 1.84,
+    "proj": 46.34,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 38.5 (teased)",
+     "prob": 0.7267
+    }
+   },
+   "moneyline": {
+    "pick": "Kansas State ML +360",
+    "tier": "No Play",
+    "prob": 0.254,
+    "edge": 0.0366,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Kennesaw State @ Sam Houston",
+   "record_id": "repo-game:047d3d7503c50392b48c046f",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -7.5,
+   "splash_total": 46.5,
+   "import_home_margin": -7.5,
+   "import_total": 45.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recgn46XBe7WkElWB",
+   "model_status": "available",
+   "spread": {
+    "pick": "Sam Houston +7.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5081,
+    "edge": 0.3,
+    "proj": -6.4,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Sam Houston +13.5 (teased)",
+     "prob": 0.6698
+    }
+   },
+   "total": {
+    "pick": "Over 46.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5146,
+    "edge": 1.19,
+    "proj": 47.69,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 40.5 (teased)",
+     "prob": 0.7099
+    }
+   },
+   "moneyline": {
+    "pick": "Sam Houston ML +215",
+    "tier": "No Play",
+    "prob": 0.3163,
+    "edge": -0.0011,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Tennessee @ Texas A&M",
+   "record_id": "repo-game:ada052368719ac283cb78eb5",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -2.5,
+   "splash_total": 43.5,
+   "import_home_margin": -2.5,
+   "import_total": 43.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recx4NGwXuTL1eWUk",
+   "model_status": "available",
+   "spread": {
+    "pick": "Texas A&M +2.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5058,
+    "edge": 0.22,
+    "proj": -3.0,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Texas A&M +8.5 (teased)",
+     "prob": 0.663
+    }
+   },
+   "total": {
+    "pick": "Over 43.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5188,
+    "edge": 1.54,
+    "proj": 45.04,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 37.5 (teased)",
+     "prob": 0.719
+    }
+   },
+   "moneyline": {
+    "pick": "Tennessee ML -128",
+    "tier": "No Play",
+    "prob": 0.5701,
+    "edge": 0.0087,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Florida International @ Delaware",
+   "record_id": "repo-game:e801d0782e2f4a6192037539",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 4.5,
+   "splash_total": 54.5,
+   "import_home_margin": 5.5,
+   "import_total": 54.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recW4JsOwbX8uQmjE",
+   "model_status": "available",
+   "spread": {
+    "pick": "Delaware -4.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5019,
+    "edge": 0.07,
+    "proj": 5.6,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Delaware +1.5 (teased)",
+     "prob": 0.6551
+    }
+   },
+   "total": {
+    "pick": "Under 54.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.523,
+    "edge": 1.88,
+    "proj": 52.62,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 60.5 (teased)",
+     "prob": 0.7277
+    }
+   },
+   "moneyline": {
+    "pick": "Delaware ML -176",
+    "tier": "No Play",
+    "prob": 0.6438,
+    "edge": 0.0061,
     "model_ml_side": "away"
    }
   },
@@ -1657,10 +1107,10 @@
    "record_id": "repo-game:fc0ec09db63311b53fd0f390",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": 1.5,
-   "splash_total": 48.5,
+   "splash_total": 49.5,
    "import_home_margin": 1.5,
    "import_total": 48.5,
    "reference_origin": "repository",
@@ -1681,174 +1131,724 @@
     }
    },
    "total": {
-    "pick": "Over 48.5",
+    "pick": "Over 49.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5115,
-    "edge": 0.94,
-    "proj": 49.44,
+    "prob": 0.5078,
+    "edge": 0.64,
+    "proj": 50.14,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 42.5 (teased)",
-     "prob": 0.7032
+     "pick": "Over 43.5 (teased)",
+     "prob": 0.6952
     }
    },
    "moneyline": {
-    "pick": "Missouri State ML -126",
+    "pick": "Missouri State ML -115",
     "tier": "No Play",
     "prob": 0.5486,
-    "edge": -0.009,
+    "edge": 0.0137,
     "model_ml_side": "home"
    }
   },
   {
-   "game": "North Dakota State @ Hawai'i",
-   "record_id": "repo-game:ae002e0e5bac101dd2910018",
+   "game": "Florida Atlantic @ Tulsa",
+   "record_id": "repo-game:08f92f2aaa8a7841b74e3eb7",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -6.5,
-   "splash_total": 38.5,
-   "import_home_margin": -6.5,
-   "import_total": 38.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 5.5,
+   "splash_total": 73.5,
+   "import_home_margin": 5.5,
+   "import_total": 74.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recgTUtWAgehPBFoU",
+   "ledger_record_id": "recleuiqEH89U3qMw",
    "model_status": "available",
    "spread": {
-    "pick": "North Dakota State -6.5",
+    "pick": "Tulsa -5.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.517,
+    "edge": 0.64,
+    "proj": 9.3,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Tulsa +0.5 (teased)",
+     "prob": 0.6652
+    }
+   },
+   "total": {
+    "pick": "Under 73.5",
+    "side": "under",
+    "tier": "Lean",
+    "prob": 0.5377,
+    "edge": 3.1,
+    "proj": 70.4,
+    "import_side": "under",
+    "import_tier": "Lean",
+    "teaser_leg": {
+     "pick": "Under 79.5 (teased)",
+     "prob": 0.758
+    }
+   },
+   "moneyline": {
+    "pick": "Tulsa ML -220",
+    "tier": "No Play",
+    "prob": 0.671,
+    "edge": -0.0165,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Missouri @ Georgia",
+   "record_id": "repo-game:647f113702d6c918947a00ca",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 15.5,
+   "splash_total": 48.5,
+   "import_home_margin": 15.5,
+   "import_total": 47.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recje8RLjCRkc3ZgQ",
+   "model_status": "available",
+   "spread": {
+    "pick": "Georgia -15.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5085,
+    "edge": 0.32,
+    "proj": 16.799999999999997,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Georgia -9.5 (teased)",
+     "prob": 0.6471
+    }
+   },
+   "total": {
+    "pick": "Over 48.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5185,
+    "edge": 1.51,
+    "proj": 50.01,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 42.5 (teased)",
+     "prob": 0.7183
+    }
+   },
+   "moneyline": {
+    "pick": "Missouri ML +550",
+    "tier": "No Play",
+    "prob": 0.1447,
+    "edge": -0.0091,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "California @ Virginia",
+   "record_id": "repo-game:6b6afd96054d97a31dc08d21",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 10.5,
+   "splash_total": 47.5,
+   "import_home_margin": 10.5,
+   "import_total": 47.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "rec5sbM7PV1lIfVfC",
+   "model_status": "available",
+   "spread": {
+    "pick": "California +10.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5023,
-    "edge": -0.09,
-    "proj": -8.1,
+    "prob": 0.5004,
+    "edge": -0.01,
+    "proj": 13.5,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "North Dakota State -0.5 (teased)",
-     "prob": 0.6583
+     "pick": "California +16.5 (teased)",
+     "prob": 0.6576
+    }
+   },
+   "total": {
+    "pick": "Over 47.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5181,
+    "edge": 1.48,
+    "proj": 48.98,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 41.5 (teased)",
+     "prob": 0.7174
+    }
+   },
+   "moneyline": {
+    "pick": "California ML +320",
+    "tier": "No Play",
+    "prob": 0.2236,
+    "edge": -0.0145,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Baylor @ BYU",
+   "record_id": "repo-game:3004bc4beae07619dcfaa446",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 7.5,
+   "splash_total": 50.5,
+   "import_home_margin": 7.5,
+   "import_total": 49.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "rec7yixGhx5eMGU3z",
+   "model_status": "available",
+   "spread": {
+    "pick": "Baylor +7.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5031,
+    "edge": -0.12,
+    "proj": 5.9,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Baylor +13.5 (teased)",
+     "prob": 0.6716
+    }
+   },
+   "total": {
+    "pick": "Over 50.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5032,
+    "edge": 0.26,
+    "proj": 50.76,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 44.5 (teased)",
+     "prob": 0.685
+    }
+   },
+   "moneyline": {
+    "pick": "Baylor ML +225",
+    "tier": "No Play",
+    "prob": 0.3199,
+    "edge": 0.0122,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Michigan @ Oregon",
+   "record_id": "repo-game:7422fe4e0cf8427961965d9f",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 10.5,
+   "splash_total": 38.5,
+   "import_home_margin": 11.5,
+   "import_total": 38.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "reciW7HVgt6ZLBjmK",
+   "model_status": "available",
+   "spread": {
+    "pick": "Oregon -10.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5112,
+    "edge": 0.42,
+    "proj": 13.0,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Oregon -4.5 (teased)",
+     "prob": 0.6562
     }
    },
    "total": {
     "pick": "Over 38.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5145,
-    "edge": 1.19,
-    "proj": 39.69,
+    "prob": 0.526,
+    "edge": 2.12,
+    "proj": 40.62,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 32.5 (teased)",
-     "prob": 0.7098
+     "prob": 0.734
     }
    },
    "moneyline": {
-    "pick": "Hawai'i ML +205",
+    "pick": "Oregon ML -410",
     "tier": "No Play",
-    "prob": 0.3208,
-    "edge": -0.007,
-    "model_ml_side": "away"
+    "prob": 0.7872,
+    "edge": -0.0167,
+    "model_ml_side": "home"
    }
   },
   {
-   "game": "North Texas @ UTSA",
-   "record_id": "repo-game:9bc240f08d57610f1e0e4d98",
+   "game": "Boston College @ Notre Dame",
+   "record_id": "repo-game:841f6087c19d466c07187f36",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -2.5,
-   "splash_total": 75.5,
-   "import_home_margin": -2.5,
-   "import_total": 76.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 29.5,
+   "splash_total": 51.5,
+   "import_home_margin": 28.5,
+   "import_total": 51.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recI4uL5vEvbfRmn5",
+   "ledger_record_id": "recqmLUygoZwtuS0E",
    "model_status": "available",
    "spread": {
-    "pick": "North Texas -2.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5054,
-    "edge": -0.2,
-    "proj": -4.199999999999999,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "North Texas +3.5 (teased)",
-     "prob": 0.6639
-    }
-   },
-   "total": {
-    "pick": "Under 75.5",
-    "side": "under",
-    "tier": "Lean",
-    "prob": 0.5351,
-    "edge": 2.89,
-    "proj": 72.61,
-    "import_side": "under",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Under 81.5 (teased)",
-     "prob": 0.7529
-    }
-   },
-   "moneyline": {
-    "pick": "North Texas ML -122",
-    "tier": "No Play",
-    "prob": 0.5795,
-    "edge": 0.03,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Northwestern @ Ohio State",
-   "record_id": "repo-game:bde6b7103126d61b04afa7a9",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 12.5,
-   "splash_total": 45.5,
-   "import_home_margin": 12.5,
-   "import_total": 45.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recXVCtaD9i4d3q7V",
-   "model_status": "available",
-   "spread": {
-    "pick": "Ohio State -12.5",
+    "pick": "Notre Dame -29.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5085,
-    "edge": 0.32,
-    "proj": 14.600000000000001,
+    "prob": 0.5093,
+    "edge": 0.35,
+    "proj": 33.5,
     "import_side": "home",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Ohio State -6.5 (teased)",
-     "prob": 0.6541
+     "pick": "Notre Dame -23.5 (teased)",
+     "prob": 0.6608
     }
    },
    "total": {
-    "pick": "Over 45.5",
+    "pick": "Over 51.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5173,
-    "edge": 1.41,
-    "proj": 46.91,
+    "prob": 0.5038,
+    "edge": 0.31,
+    "proj": 51.81,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 39.5 (teased)",
-     "prob": 0.7157
+     "pick": "Over 45.5 (teased)",
+     "prob": 0.6864
     }
    },
    "moneyline": {
-    "pick": "Northwestern ML +450",
+    "pick": "Notre Dame ML -7692",
     "tier": "No Play",
-    "prob": 0.1907,
-    "edge": 0.0089,
+    "prob": 0.9772,
+    "edge": -0.0099,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "USC @ Indiana",
+   "record_id": "repo-game:14be63df5dfbc53f4b0b6f19",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 9.5,
+   "splash_total": 50.5,
+   "import_home_margin": 7.5,
+   "import_total": 49.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recLonTTdUlcZwN1l",
+   "model_status": "available",
+   "spread": {
+    "pick": "Indiana -9.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5058,
+    "edge": 0.22,
+    "proj": 9.0,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Indiana -3.5 (teased)",
+     "prob": 0.6448
+    }
+   },
+   "total": {
+    "pick": "Over 50.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5058,
+    "edge": 0.47,
+    "proj": 50.97,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 44.5 (teased)",
+     "prob": 0.6907
+    }
+   },
+   "moneyline": {
+    "pick": "USC ML +270",
+    "tier": "No Play",
+    "prob": 0.2981,
+    "edge": 0.0278,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Middle Tennessee @ Liberty",
+   "record_id": "repo-game:37682fccb92613890dba3e90",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 21.5,
+   "splash_total": 53.5,
+   "import_home_margin": 20.5,
+   "import_total": 53.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recdWcKZDyt1xjB3S",
+   "model_status": "available",
+   "spread": {
+    "pick": "Liberty -21.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5054,
+    "edge": 0.2,
+    "proj": 23.6,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Liberty -15.5 (teased)",
+     "prob": 0.6488
+    }
+   },
+   "total": {
+    "pick": "Under 53.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5115,
+    "edge": 0.94,
+    "proj": 52.56,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 59.5 (teased)",
+     "prob": 0.7032
+    }
+   },
+   "moneyline": {
+    "pick": "Middle Tennessee ML +1100",
+    "tier": "No Play",
+    "prob": 0.0766,
+    "edge": -0.0068,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Nevada @ Northern Illinois",
+   "record_id": "repo-game:76d39e8ff8b3b3a1a6a7c9f5",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -6.5,
+   "splash_total": 47.5,
+   "import_home_margin": -7.5,
+   "import_total": 47.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recqwNkS52OIwUljj",
+   "model_status": "available",
+   "spread": {
+    "pick": "Nevada -6.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5161,
+    "edge": -0.61,
+    "proj": -9.399999999999999,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Nevada -0.5 (teased)",
+     "prob": 0.6628
+    }
+   },
+   "total": {
+    "pick": "Over 47.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5115,
+    "edge": 0.94,
+    "proj": 48.44,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 41.5 (teased)",
+     "prob": 0.7032
+    }
+   },
+   "moneyline": {
+    "pick": "Nevada ML -215",
+    "tier": "No Play",
+    "prob": 0.7047,
+    "edge": 0.0222,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Arizona State @ UCF",
+   "record_id": "repo-game:c3835e33ae51a36e4cb5e61e",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 2.5,
+   "splash_total": 47.5,
+   "import_home_margin": 3.5,
+   "import_total": 49.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "rec2wlci6Mt0CAhKY",
+   "model_status": "available",
+   "spread": {
+    "pick": "UCF -2.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5081,
+    "edge": 0.3,
+    "proj": 4.6,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "UCF +3.5 (teased)",
+     "prob": 0.6653
+    }
+   },
+   "total": {
+    "pick": "Over 47.5",
+    "side": "over",
+    "tier": "Lean",
+    "prob": 0.5309,
+    "edge": 2.54,
+    "proj": 50.04,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 41.5 (teased)",
+     "prob": 0.7443
+    }
+   },
+   "moneyline": {
+    "pick": "UCF ML -150",
+    "tier": "No Play",
+    "prob": 0.6008,
+    "edge": 0.0008,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Jacksonville State @ Western Kentucky",
+   "record_id": "repo-game:c3ef926a9dfa32cb6ef66449",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -7.5,
+   "splash_total": 55.5,
+   "import_home_margin": -7.5,
+   "import_total": 54.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recRcMgeqLmBoE5ev",
+   "model_status": "available",
+   "spread": {
+    "pick": "Jacksonville State -7.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5008,
+    "edge": -0.03,
+    "proj": -7.199999999999999,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Jacksonville State -1.5 (teased)",
+     "prob": 0.6524
+    }
+   },
+   "total": {
+    "pick": "Under 55.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5075,
+    "edge": 0.61,
+    "proj": 54.89,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 61.5 (teased)",
+     "prob": 0.6945
+    }
+   },
+   "moneyline": {
+    "pick": "Western Kentucky ML +230",
+    "tier": "No Play",
+    "prob": 0.3107,
+    "edge": 0.0076,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Georgia Southern @ Georgia State",
+   "record_id": "repo-game:16bfd2c547bd9abcab896cd4",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -6.5,
+   "splash_total": 55.5,
+   "import_home_margin": -5.5,
+   "import_total": 56.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recPOnSCzvrPEJmq5",
+   "model_status": "available",
+   "spread": {
+    "pick": "Georgia State +6.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5173,
+    "edge": 0.65,
+    "proj": -3.2,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Georgia State +12.5 (teased)",
+     "prob": 0.6779
+    }
+   },
+   "total": {
+    "pick": "Under 55.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5052,
+    "edge": 0.42,
+    "proj": 55.08,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 61.5 (teased)",
+     "prob": 0.6894
+    }
+   },
+   "moneyline": {
+    "pick": "Georgia State ML +188",
+    "tier": "No Play",
+    "prob": 0.3742,
+    "edge": 0.027,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Fresno State @ Texas State",
+   "record_id": "repo-game:66610be5ace05778ecb7d184",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 9.5,
+   "splash_total": 59.5,
+   "import_home_margin": 9.5,
+   "import_total": 60.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recCTu9IGYaqUcN4M",
+   "model_status": "available",
+   "spread": {
+    "pick": "Fresno State +9.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5146,
+    "edge": -0.55,
+    "proj": 5.0,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Fresno State +15.5 (teased)",
+     "prob": 0.6841
+    }
+   },
+   "total": {
+    "pick": "Under 59.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5064,
+    "edge": 0.52,
+    "proj": 58.98,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 65.5 (teased)",
+     "prob": 0.6921
+    }
+   },
+   "moneyline": {
+    "pick": "Fresno State ML +290",
+    "tier": "No Play",
+    "prob": 0.2935,
+    "edge": 0.037,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Washington @ Michigan State",
+   "record_id": "repo-game:92291903e55231aa0a5aa267",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -3.5,
+   "splash_total": 43.5,
+   "import_home_margin": -3.5,
+   "import_total": 43.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recQmo0EE0bhrSMZm",
+   "model_status": "available",
+   "spread": {
+    "pick": "Michigan State +3.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5042,
+    "edge": 0.16,
+    "proj": -1.8999999999999995,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Michigan State +9.5 (teased)",
+     "prob": 0.6698
+    }
+   },
+   "total": {
+    "pick": "Over 43.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5172,
+    "edge": 1.4,
+    "proj": 44.9,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 37.5 (teased)",
+     "prob": 0.7154
+    }
+   },
+   "moneyline": {
+    "pick": "Washington ML -134",
+    "tier": "No Play",
+    "prob": 0.5798,
+    "edge": 0.0071,
     "model_ml_side": "home"
    }
   },
@@ -1857,9 +1857,9 @@
    "record_id": "repo-game:d9e0bb82afc39f19c27a3a35",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -1.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 1.5,
    "splash_total": 49.5,
    "import_home_margin": -1.5,
    "import_total": 49.5,
@@ -1867,17 +1867,17 @@
    "ledger_record_id": "recUGwTH9S6MNDABp",
    "model_status": "available",
    "spread": {
-    "pick": "Oklahoma +1.5",
-    "side": "home",
+    "pick": "Ole Miss +1.5",
+    "side": "away",
     "tier": "No Play",
-    "prob": 0.5039,
-    "edge": 0.14,
+    "prob": 0.5077,
+    "edge": -0.29,
     "proj": -2.200000000000001,
     "import_side": "home",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Oklahoma +7.5 (teased)",
-     "prob": 0.6628
+     "pick": "Ole Miss +7.5 (teased)",
+     "prob": 0.6778
     }
    },
    "total": {
@@ -1895,10 +1895,160 @@
     }
    },
    "moneyline": {
-    "pick": "Ole Miss ML -108",
+    "pick": "Ole Miss ML +104",
     "tier": "No Play",
     "prob": 0.5454,
-    "edge": 0.0262,
+    "edge": 0.0552,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Southern Miss @ Louisiana Tech",
+   "record_id": "repo-game:4f85baef9cf867a45bc939be",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 16.5,
+   "splash_total": 56.5,
+   "import_home_margin": 17.5,
+   "import_total": 55.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recBImkr1m44flgkq",
+   "model_status": "available",
+   "spread": {
+    "pick": "Louisiana Tech -16.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5089,
+    "edge": 0.33,
+    "proj": 17.3,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Louisiana Tech -10.5 (teased)",
+     "prob": 0.6427
+    }
+   },
+   "total": {
+    "pick": "Over 56.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5009,
+    "edge": 0.08,
+    "proj": 56.58,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 50.5 (teased)",
+     "prob": 0.6799
+    }
+   },
+   "moneyline": {
+    "pick": "Louisiana Tech ML -877",
+    "tier": "No Play",
+    "prob": 0.8775,
+    "edge": -0.0201,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Kansas @ West Virginia",
+   "record_id": "repo-game:cea9e01cf4865f25e2131fc5",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 2.5,
+   "splash_total": 68.5,
+   "import_home_margin": 2.5,
+   "import_total": 67.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recbe0DRlCxEUlkhc",
+   "model_status": "available",
+   "spread": {
+    "pick": "Kansas +2.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5035,
+    "edge": -0.13,
+    "proj": 1.1000000000000005,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Kansas +8.5 (teased)",
+     "prob": 0.6696
+    }
+   },
+   "total": {
+    "pick": "Under 68.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5266,
+    "edge": 2.17,
+    "proj": 66.33,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 74.5 (teased)",
+     "prob": 0.7353
+    }
+   },
+   "moneyline": {
+    "pick": "Kansas ML +122",
+    "tier": "No Play",
+    "prob": 0.4449,
+    "edge": -0.0056,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "App State @ Marshall",
+   "record_id": "repo-game:ec7ccb2444517b10e8f0e4cc",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -1.5,
+   "splash_total": 54.5,
+   "import_home_margin": -1.5,
+   "import_total": 53.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recHTEu0UXGuNF6iC",
+   "model_status": "available",
+   "spread": {
+    "pick": "App State -1.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5027,
+    "edge": -0.1,
+    "proj": -3.0,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "App State +4.5 (teased)",
+     "prob": 0.6627
+    }
+   },
+   "total": {
+    "pick": "Under 54.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5042,
+    "edge": 0.34,
+    "proj": 54.16,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 60.5 (teased)",
+     "prob": 0.6871
+    }
+   },
+   "moneyline": {
+    "pick": "App State ML -120",
+    "tier": "No Play",
+    "prob": 0.5517,
+    "edge": 0.0063,
     "model_ml_side": "away"
    }
   },
@@ -1907,48 +2057,298 @@
    "record_id": "repo-game:06bb6a3f3f73254578f36668",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 13.5,
-   "splash_total": 65.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 14.5,
+   "splash_total": 63.5,
    "import_home_margin": 12.5,
    "import_total": 65.5,
    "reference_origin": "repository",
    "ledger_record_id": "rec2hMLEWssofUrMa",
    "model_status": "available",
    "spread": {
-    "pick": "Boise State -13.5",
-    "side": "home",
+    "pick": "Oregon State +14.5",
+    "side": "away",
     "tier": "No Play",
-    "prob": 0.5023,
-    "edge": 0.09,
+    "prob": 0.5015,
+    "edge": -0.06,
     "proj": 12.5,
     "import_side": "home",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Boise State -7.5 (teased)",
-     "prob": 0.6369
+     "pick": "Oregon State +20.5 (teased)",
+     "prob": 0.6743
     }
    },
    "total": {
-    "pick": "Under 65.5",
+    "pick": "Under 63.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5113,
-    "edge": 0.93,
-    "proj": 64.57,
+    "prob": 0.504,
+    "edge": 0.33,
+    "proj": 63.17,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 71.5 (teased)",
-     "prob": 0.7029
+     "pick": "Under 69.5 (teased)",
+     "prob": 0.6867
     }
    },
    "moneyline": {
-    "pick": "Oregon State ML +420",
+    "pick": "Oregon State ML +490",
     "tier": "No Play",
     "prob": 0.2023,
+    "edge": 0.0328,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Florida @ Kentucky",
+   "record_id": "repo-game:8c1e6a341c51faf78e211cc6",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 3.5,
+   "splash_total": 52.5,
+   "import_home_margin": 3.5,
+   "import_total": 52.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recI5FRtix42vnzzd",
+   "model_status": "available",
+   "spread": {
+    "pick": "Florida +3.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5085,
+    "edge": -0.32,
+    "proj": 1.3000000000000007,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Florida +9.5 (teased)",
+     "prob": 0.6719
+    }
+   },
+   "total": {
+    "pick": "Over 52.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5179,
+    "edge": 1.46,
+    "proj": 53.96,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 46.5 (teased)",
+     "prob": 0.717
+    }
+   },
+   "moneyline": {
+    "pick": "Florida ML +125",
+    "tier": "No Play",
+    "prob": 0.4249,
+    "edge": -0.0195,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Troy @ South Alabama",
+   "record_id": "repo-game:2c33bfa368c0dfb0d992e37f",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 2.5,
+   "splash_total": 55.5,
+   "import_home_margin": 3.5,
+   "import_total": 55.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recXiC8lOvEvvvPfa",
+   "model_status": "available",
+   "spread": {
+    "pick": "South Alabama -2.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5004,
     "edge": 0.01,
+    "proj": 3.3000000000000007,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "South Alabama +3.5 (teased)",
+     "prob": 0.6608
+    }
+   },
+   "total": {
+    "pick": "Over 55.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5035,
+    "edge": 0.29,
+    "proj": 55.79,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 49.5 (teased)",
+     "prob": 0.6856
+    }
+   },
+   "moneyline": {
+    "pick": "South Alabama ML -150",
+    "tier": "No Play",
+    "prob": 0.5907,
+    "edge": -0.0093,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Louisville @ North Carolina",
+   "record_id": "repo-game:a9df22e756748b8d50f38415",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -3.5,
+   "splash_total": 57.5,
+   "import_home_margin": -3.5,
+   "import_total": 59.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recBEhfQqKSu5iDhF",
+   "model_status": "available",
+   "spread": {
+    "pick": "North Carolina +3.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5004,
+    "edge": 0.01,
+    "proj": -3.0,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "North Carolina +9.5 (teased)",
+     "prob": 0.666
+    }
+   },
+   "total": {
+    "pick": "Over 57.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5008,
+    "edge": 0.06,
+    "proj": 57.56,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 51.5 (teased)",
+     "prob": 0.6795
+    }
+   },
+   "moneyline": {
+    "pick": "North Carolina ML +136",
+    "tier": "No Play",
+    "prob": 0.4116,
+    "edge": -0.0121,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Minnesota @ Penn State",
+   "record_id": "repo-game:3595387c6f0b06a95f344a18",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 9.5,
+   "splash_total": 41.5,
+   "import_home_margin": 8.5,
+   "import_total": 41.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recDwKVCOoFoEx8JF",
+   "model_status": "available",
+   "spread": {
+    "pick": "Penn State -9.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5158,
+    "edge": 0.59,
+    "proj": 12.899999999999999,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Penn State -3.5 (teased)",
+     "prob": 0.6585
+    }
+   },
+   "total": {
+    "pick": "Over 41.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5296,
+    "edge": 2.43,
+    "proj": 43.93,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 35.5 (teased)",
+     "prob": 0.7415
+    }
+   },
+   "moneyline": {
+    "pick": "Minnesota ML +280",
+    "tier": "No Play",
+    "prob": 0.2563,
+    "edge": -0.0068,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "San Jos\u00e9 State @ Air Force",
+   "record_id": "repo-game:22f6e8e9a7b31a747fae39f2",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 11.5,
+   "splash_total": 47.5,
+   "import_home_margin": 11.5,
+   "import_total": 47.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recQ4PSoJW1FiCc9B",
+   "model_status": "available",
+   "spread": {
+    "pick": "San Jos\u00e9 State +11.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5073,
+    "edge": -0.28,
+    "proj": 11.3,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "San Jos\u00e9 State +17.5 (teased)",
+     "prob": 0.6695
+    }
+   },
+   "total": {
+    "pick": "Under 47.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5126,
+    "edge": 1.02,
+    "proj": 46.48,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 53.5 (teased)",
+     "prob": 0.7055
+    }
+   },
+   "moneyline": {
+    "pick": "San Jos\u00e9 State ML +360",
+    "tier": "No Play",
+    "prob": 0.2228,
+    "edge": 0.0054,
     "model_ml_side": "away"
    }
   },
@@ -1957,8 +2357,8 @@
    "record_id": "repo-game:285e0dc4de748533d34f47d8",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": 17.5,
    "splash_total": 47.5,
    "import_home_margin": 17.5,
@@ -2003,52 +2403,202 @@
    }
   },
   {
-   "game": "San Jos\u00e9 State @ Air Force",
-   "record_id": "repo-game:22f6e8e9a7b31a747fae39f2",
+   "game": "UNLV @ New Mexico",
+   "record_id": "repo-game:921b262f5716573c475a19ae",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 11.5,
-   "splash_total": 47.5,
-   "import_home_margin": 11.5,
-   "import_total": 47.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 14.5,
+   "splash_total": 46.5,
+   "import_home_margin": 14.5,
+   "import_total": 46.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recQ4PSoJW1FiCc9B",
+   "ledger_record_id": "recoNsxKmBX0gsbtZ",
    "model_status": "available",
    "spread": {
-    "pick": "San Jos\u00e9 State +11.5",
+    "pick": "UNLV +14.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5073,
-    "edge": -0.28,
-    "proj": 11.3,
+    "prob": 0.5012,
+    "edge": -0.04,
+    "proj": 15.2,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "San Jos\u00e9 State +17.5 (teased)",
-     "prob": 0.6695
+     "pick": "UNLV +20.5 (teased)",
+     "prob": 0.6649
     }
    },
    "total": {
-    "pick": "Under 47.5",
-    "side": "under",
+    "pick": "Over 46.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5126,
-    "edge": 1.02,
-    "proj": 46.48,
-    "import_side": "under",
+    "prob": 0.5146,
+    "edge": 1.19,
+    "proj": 47.69,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 53.5 (teased)",
-     "prob": 0.7055
+     "pick": "Over 40.5 (teased)",
+     "prob": 0.7099
     }
    },
    "moneyline": {
-    "pick": "San Jos\u00e9 State ML +375",
+    "pick": "UNLV ML +550",
     "tier": "No Play",
-    "prob": 0.2228,
-    "edge": 0.0123,
+    "prob": 0.1634,
+    "edge": 0.0095,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Stanford @ Virginia Tech",
+   "record_id": "repo-game:4ce014a42a1164c228069cbb",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 15.5,
+   "splash_total": 57.5,
+   "import_home_margin": 15.5,
+   "import_total": 58.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recTZfdpBSGzN916r",
+   "model_status": "available",
+   "spread": {
+    "pick": "Virginia Tech -15.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5105,
+    "edge": 0.39,
+    "proj": 17.4,
+    "import_side": "home",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Virginia Tech -9.5 (teased)",
+     "prob": 0.6492
+    }
+   },
+   "total": {
+    "pick": "Under 57.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5003,
+    "edge": 0.03,
+    "proj": 57.47,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 63.5 (teased)",
+     "prob": 0.6785
+    }
+   },
+   "moneyline": {
+    "pick": "Virginia Tech ML -709",
+    "tier": "No Play",
+    "prob": 0.858,
+    "edge": -0.0184,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Texas @ LSU",
+   "record_id": "repo-game:d9d1a00eafb0239e4b50b0e5",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 4.5,
+   "splash_total": 46.5,
+   "import_home_margin": 3.5,
+   "import_total": 46.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recU2oiDOwZWn5HqY",
+   "model_status": "available",
+   "spread": {
+    "pick": "Texas +4.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5127,
+    "edge": -0.48,
+    "proj": 1.1000000000000014,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Texas +10.5 (teased)",
+     "prob": 0.679
+    }
+   },
+   "total": {
+    "pick": "Over 46.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5229,
+    "edge": 1.87,
+    "proj": 48.37,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 40.5 (teased)",
+     "prob": 0.7277
+    }
+   },
+   "moneyline": {
+    "pick": "Texas ML +146",
+    "tier": "No Play",
+    "prob": 0.4265,
+    "edge": 0.02,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Utah @ Arizona",
+   "record_id": "repo-game:a9cfec56c1706ce8fb5bb895",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -2.5,
+   "splash_total": 55.5,
+   "import_home_margin": -2.5,
+   "import_total": 54.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recBMBebWIqKVuW17",
+   "model_status": "available",
+   "spread": {
+    "pick": "Utah -2.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5108,
+    "edge": -0.41,
+    "proj": -3.5999999999999996,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Utah +3.5 (teased)",
+     "prob": 0.6619
+    }
+   },
+   "total": {
+    "pick": "Under 55.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5035,
+    "edge": 0.29,
+    "proj": 55.21,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 61.5 (teased)",
+     "prob": 0.6857
+    }
+   },
+   "moneyline": {
+    "pick": "Utah ML -134",
+    "tier": "No Play",
+    "prob": 0.5748,
+    "edge": 0.0022,
     "model_ml_side": "away"
    }
   },
@@ -2057,8 +2607,8 @@
    "record_id": "repo-game:b59fbe80f410f2af8ded0bd4",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -7.5,
    "splash_total": 51.5,
    "import_home_margin": -7.5,
@@ -2103,602 +2653,52 @@
    }
   },
   {
-   "game": "Southern Miss @ Louisiana Tech",
-   "record_id": "repo-game:4f85baef9cf867a45bc939be",
+   "game": "North Texas @ UTSA",
+   "record_id": "repo-game:9bc240f08d57610f1e0e4d98",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 17.5,
-   "splash_total": 56.5,
-   "import_home_margin": 17.5,
-   "import_total": 55.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recBImkr1m44flgkq",
-   "model_status": "available",
-   "spread": {
-    "pick": "Louisiana Tech -17.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.505,
-    "edge": 0.19,
-    "proj": 17.3,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Louisiana Tech -11.5 (teased)",
-     "prob": 0.6401
-    }
-   },
-   "total": {
-    "pick": "Over 56.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5009,
-    "edge": 0.08,
-    "proj": 56.58,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 50.5 (teased)",
-     "prob": 0.6799
-    }
-   },
-   "moneyline": {
-    "pick": "Southern Miss ML +640",
-    "tier": "No Play",
-    "prob": 0.1225,
-    "edge": -0.0127,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Stanford @ Virginia Tech",
-   "record_id": "repo-game:4ce014a42a1164c228069cbb",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 15.5,
-   "splash_total": 58.5,
-   "import_home_margin": 15.5,
-   "import_total": 58.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recTZfdpBSGzN916r",
-   "model_status": "available",
-   "spread": {
-    "pick": "Virginia Tech -15.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5105,
-    "edge": 0.39,
-    "proj": 17.4,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Virginia Tech -9.5 (teased)",
-     "prob": 0.6492
-    }
-   },
-   "total": {
-    "pick": "Under 58.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.504,
-    "edge": 0.33,
-    "proj": 58.17,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 64.5 (teased)",
-     "prob": 0.6867
-    }
-   },
-   "moneyline": {
-    "pick": "Stanford ML +530",
-    "tier": "No Play",
-    "prob": 0.142,
-    "edge": -0.0167,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Syracuse @ NC State",
-   "record_id": "repo-game:96098d3081c0259acd50521d",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -2.5,
-   "splash_total": 53.5,
+   "splash_total": 76.5,
    "import_home_margin": -2.5,
-   "import_total": 54.5,
+   "import_total": 76.5,
    "reference_origin": "repository",
-   "ledger_record_id": "reccQmzYjnGN84z0X",
+   "ledger_record_id": "recI4uL5vEvbfRmn5",
    "model_status": "available",
    "spread": {
-    "pick": "NC State +2.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5046,
-    "edge": 0.17,
-    "proj": -1.0,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "NC State +8.5 (teased)",
-     "prob": 0.6699
-    }
-   },
-   "total": {
-    "pick": "Over 53.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5081,
-    "edge": 0.66,
-    "proj": 54.16,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 47.5 (teased)",
-     "prob": 0.6958
-    }
-   },
-   "moneyline": {
-    "pick": "NC State ML +120",
-    "tier": "No Play",
-    "prob": 0.4456,
-    "edge": -0.0089,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Tennessee @ Texas A&M",
-   "record_id": "repo-game:ada052368719ac283cb78eb5",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -2.5,
-   "splash_total": 43.5,
-   "import_home_margin": -2.5,
-   "import_total": 43.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recx4NGwXuTL1eWUk",
-   "model_status": "available",
-   "spread": {
-    "pick": "Texas A&M +2.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5058,
-    "edge": 0.22,
-    "proj": -3.0,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Texas A&M +8.5 (teased)",
-     "prob": 0.663
-    }
-   },
-   "total": {
-    "pick": "Over 43.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5188,
-    "edge": 1.54,
-    "proj": 45.04,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 37.5 (teased)",
-     "prob": 0.719
-    }
-   },
-   "moneyline": {
-    "pick": "Tennessee ML -138",
-    "tier": "No Play",
-    "prob": 0.5701,
-    "edge": -0.0097,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Texas @ LSU",
-   "record_id": "repo-game:d9d1a00eafb0239e4b50b0e5",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 4.5,
-   "splash_total": 46.5,
-   "import_home_margin": 3.5,
-   "import_total": 46.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recU2oiDOwZWn5HqY",
-   "model_status": "available",
-   "spread": {
-    "pick": "Texas +4.5",
+    "pick": "North Texas -2.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5127,
-    "edge": -0.48,
-    "proj": 1.1000000000000014,
+    "prob": 0.5054,
+    "edge": -0.2,
+    "proj": -4.199999999999999,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Texas +10.5 (teased)",
-     "prob": 0.679
+     "pick": "North Texas +3.5 (teased)",
+     "prob": 0.6639
     }
    },
    "total": {
-    "pick": "Over 46.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5229,
-    "edge": 1.87,
-    "proj": 48.37,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 40.5 (teased)",
-     "prob": 0.7277
-    }
-   },
-   "moneyline": {
-    "pick": "Texas ML +142",
-    "tier": "No Play",
-    "prob": 0.4265,
-    "edge": 0.0133,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Texas Tech @ Oklahoma State",
-   "record_id": "repo-game:100bd2b16671e6f44e0beaa9",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 72.5,
-   "import_home_margin": 3.5,
-   "import_total": 73.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recSzZNVIF1B1RgAi",
-   "model_status": "available",
-   "spread": {
-    "pick": "Texas Tech +3.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5085,
-    "edge": -0.32,
-    "proj": 0.9000000000000004,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Texas Tech +9.5 (teased)",
-     "prob": 0.6732
-    }
-   },
-   "total": {
-    "pick": "Under 72.5",
+    "pick": "Under 76.5",
     "side": "under",
     "tier": "Lean",
-    "prob": 0.5319,
-    "edge": 2.61,
-    "proj": 69.89,
+    "prob": 0.5387,
+    "edge": 3.19,
+    "proj": 73.31,
     "import_side": "under",
     "import_tier": "Lean",
     "teaser_leg": {
-     "pick": "Under 78.5 (teased)",
-     "prob": 0.7462
+     "pick": "Under 82.5 (teased)",
+     "prob": 0.7601
     }
    },
    "moneyline": {
-    "pick": "Texas Tech ML +134",
+    "pick": "North Texas ML -125",
     "tier": "No Play",
-    "prob": 0.4281,
-    "edge": 0.0007,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Troy @ South Alabama",
-   "record_id": "repo-game:2c33bfa368c0dfb0d992e37f",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 2.5,
-   "splash_total": 55.5,
-   "import_home_margin": 3.5,
-   "import_total": 55.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recXiC8lOvEvvvPfa",
-   "model_status": "available",
-   "spread": {
-    "pick": "South Alabama -2.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5004,
-    "edge": 0.01,
-    "proj": 3.3000000000000007,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "South Alabama +3.5 (teased)",
-     "prob": 0.6608
-    }
-   },
-   "total": {
-    "pick": "Over 55.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5035,
-    "edge": 0.29,
-    "proj": 55.79,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 49.5 (teased)",
-     "prob": 0.6856
-    }
-   },
-   "moneyline": {
-    "pick": "South Alabama ML -142",
-    "tier": "No Play",
-    "prob": 0.5907,
-    "edge": 0.0039,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Tulane @ Rice",
-   "record_id": "repo-game:f226caa686aa9cb800bc17fb",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 2.5,
-   "splash_total": 48.5,
-   "import_home_margin": 1.5,
-   "import_total": 48.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recpmOiQq29MMNath",
-   "model_status": "available",
-   "spread": {
-    "pick": "Tulane +2.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5146,
-    "edge": -0.55,
-    "proj": -2.4000000000000004,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Tulane +8.5 (teased)",
-     "prob": 0.6815
-    }
-   },
-   "total": {
-    "pick": "Over 48.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.508,
-    "edge": 0.65,
-    "proj": 49.15,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 42.5 (teased)",
-     "prob": 0.6955
-    }
-   },
-   "moneyline": {
-    "pick": "Tulane ML +104",
-    "tier": "No Play",
-    "prob": 0.4912,
-    "edge": 0.001,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "UAB @ Temple",
-   "record_id": "repo-game:cac258185c29b7fbab603668",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 2.5,
-   "splash_total": 48.5,
-   "import_home_margin": 2.5,
-   "import_total": 48.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recNgHEASUPEBXz76",
-   "model_status": "available",
-   "spread": {
-    "pick": "Temple -2.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5115,
-    "edge": 0.43,
-    "proj": 6.0,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Temple +3.5 (teased)",
-     "prob": 0.6701
-    }
-   },
-   "total": {
-    "pick": "Under 48.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5014,
-    "edge": 0.11,
-    "proj": 48.39,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 54.5 (teased)",
-     "prob": 0.6809
-    }
-   },
-   "moneyline": {
-    "pick": "Temple ML -126",
-    "tier": "No Play",
-    "prob": 0.5935,
-    "edge": 0.036,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "UNLV @ New Mexico",
-   "record_id": "repo-game:921b262f5716573c475a19ae",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 14.5,
-   "splash_total": 46.5,
-   "import_home_margin": 14.5,
-   "import_total": 46.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recoNsxKmBX0gsbtZ",
-   "model_status": "available",
-   "spread": {
-    "pick": "UNLV +14.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5012,
-    "edge": -0.04,
-    "proj": 15.2,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "UNLV +20.5 (teased)",
-     "prob": 0.6649
-    }
-   },
-   "total": {
-    "pick": "Over 46.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5146,
-    "edge": 1.19,
-    "proj": 47.69,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 40.5 (teased)",
-     "prob": 0.7099
-    }
-   },
-   "moneyline": {
-    "pick": "UNLV ML +500",
-    "tier": "No Play",
-    "prob": 0.1634,
-    "edge": -0.0033,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "USC @ Indiana",
-   "record_id": "repo-game:14be63df5dfbc53f4b0b6f19",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 9.5,
-   "splash_total": 50.5,
-   "import_home_margin": 7.5,
-   "import_total": 49.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recLonTTdUlcZwN1l",
-   "model_status": "available",
-   "spread": {
-    "pick": "Indiana -9.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5058,
-    "edge": 0.22,
-    "proj": 9.0,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Indiana -3.5 (teased)",
-     "prob": 0.6448
-    }
-   },
-   "total": {
-    "pick": "Over 50.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5058,
-    "edge": 0.47,
-    "proj": 50.97,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 44.5 (teased)",
-     "prob": 0.6907
-    }
-   },
-   "moneyline": {
-    "pick": "USC ML +310",
-    "tier": "No Play",
-    "prob": 0.2981,
-    "edge": 0.0542,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Utah @ Arizona",
-   "record_id": "repo-game:a9cfec56c1706ce8fb5bb895",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -2.5,
-   "splash_total": 54.5,
-   "import_home_margin": -2.5,
-   "import_total": 54.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recBMBebWIqKVuW17",
-   "model_status": "available",
-   "spread": {
-    "pick": "Utah -2.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5108,
-    "edge": -0.41,
-    "proj": -3.5999999999999996,
-    "import_side": "away",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Utah +3.5 (teased)",
-     "prob": 0.6619
-    }
-   },
-   "total": {
-    "pick": "Over 54.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5002,
-    "edge": 0.01,
-    "proj": 54.51,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 48.5 (teased)",
-     "prob": 0.6781
-    }
-   },
-   "moneyline": {
-    "pick": "Utah ML -134",
-    "tier": "No Play",
-    "prob": 0.5748,
-    "edge": 0.0022,
+    "prob": 0.5795,
+    "edge": 0.024,
     "model_ml_side": "away"
    }
   },
@@ -2707,10 +2707,10 @@
    "record_id": "repo-game:c09a4b415f436e4440e661a8",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -2.5,
-   "splash_total": 42.5,
+   "splash_total": 43.5,
    "import_home_margin": -2.5,
    "import_total": 42.5,
    "reference_origin": "repository",
@@ -2731,174 +2731,74 @@
     }
    },
    "total": {
-    "pick": "Over 42.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5305,
-    "edge": 2.5,
-    "proj": 45.0,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 36.5 (teased)",
-     "prob": 0.7434
-    }
-   },
-   "moneyline": {
-    "pick": "San Diego State ML +122",
-    "tier": "No Play",
-    "prob": 0.4315,
-    "edge": -0.019,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Wake Forest @ SMU",
-   "record_id": "repo-game:f8f654f22c19b3b6b7bedfd7",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 1.5,
-   "splash_total": 61.5,
-   "import_home_margin": 1.5,
-   "import_total": 61.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recERxonXo7EeZQvM",
-   "model_status": "available",
-   "spread": {
-    "pick": "Wake Forest +1.5",
-    "side": "away",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": -1.04,
-    "proj": -3.4000000000000004,
-    "import_side": "away",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Wake Forest +7.5 (teased)",
-     "prob": 0.6819
-    }
-   },
-   "total": {
-    "pick": "Under 61.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5104,
-    "edge": 0.85,
-    "proj": 60.65,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 67.5 (teased)",
-     "prob": 0.7009
-    }
-   },
-   "moneyline": {
-    "pick": "Wake Forest ML -108",
-    "tier": "No Play",
-    "prob": 0.4992,
-    "edge": -0.02,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Washington @ Michigan State",
-   "record_id": "repo-game:92291903e55231aa0a5aa267",
-   "league": "NCAAF",
-   "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -3.5,
-   "splash_total": 43.5,
-   "import_home_margin": -3.5,
-   "import_total": 43.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recQmo0EE0bhrSMZm",
-   "model_status": "available",
-   "spread": {
-    "pick": "Michigan State +3.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5042,
-    "edge": 0.16,
-    "proj": -1.8999999999999995,
-    "import_side": "home",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Michigan State +9.5 (teased)",
-     "prob": 0.6698
-    }
-   },
-   "total": {
     "pick": "Over 43.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5172,
-    "edge": 1.4,
-    "proj": 44.9,
+    "prob": 0.5269,
+    "edge": 2.2,
+    "proj": 45.7,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 37.5 (teased)",
-     "prob": 0.7154
+     "prob": 0.7359
     }
    },
    "moneyline": {
-    "pick": "Michigan State ML +138",
+    "pick": "Utah State ML -142",
     "tier": "No Play",
-    "prob": 0.4202,
-    "edge": 0.0001,
-    "model_ml_side": "home"
+    "prob": 0.5685,
+    "edge": -0.0182,
+    "model_ml_side": "away"
    }
   },
   {
-   "game": "Wisconsin @ Maryland",
-   "record_id": "repo-game:3ab548aade7adc252ad14716",
+   "game": "Texas Tech @ Oklahoma State",
+   "record_id": "repo-game:100bd2b16671e6f44e0beaa9",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -7.5,
-   "splash_total": 42.5,
-   "import_home_margin": -7.5,
-   "import_total": 43.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 3.5,
+   "splash_total": 73.5,
+   "import_home_margin": 3.5,
+   "import_total": 73.5,
    "reference_origin": "repository",
-   "ledger_record_id": "rec4KXoPObfT4bFvb",
+   "ledger_record_id": "recSzZNVIF1B1RgAi",
    "model_status": "available",
    "spread": {
-    "pick": "Wisconsin -7.5",
+    "pick": "Texas Tech +3.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5123,
-    "edge": -0.46,
-    "proj": -10.0,
+    "prob": 0.5085,
+    "edge": -0.32,
+    "proj": 0.9000000000000004,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Wisconsin -1.5 (teased)",
-     "prob": 0.6621
+     "pick": "Texas Tech +9.5 (teased)",
+     "prob": 0.6732
     }
    },
    "total": {
-    "pick": "Over 42.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.522,
-    "edge": 1.8,
-    "proj": 44.3,
-    "import_side": "over",
-    "import_tier": "No Play",
+    "pick": "Under 73.5",
+    "side": "under",
+    "tier": "Lean",
+    "prob": 0.5355,
+    "edge": 2.91,
+    "proj": 70.59,
+    "import_side": "under",
+    "import_tier": "Lean",
     "teaser_leg": {
-     "pick": "Over 36.5 (teased)",
-     "prob": 0.7257
+     "pick": "Under 79.5 (teased)",
+     "prob": 0.7535
     }
    },
    "moneyline": {
-    "pick": "Maryland ML +260",
+    "pick": "Texas Tech ML +130",
     "tier": "No Play",
-    "prob": 0.2912,
-    "edge": 0.0134,
+    "prob": 0.4281,
+    "edge": -0.0067,
     "model_ml_side": "away"
    }
   },
@@ -2907,10 +2807,10 @@
    "record_id": "repo-game:7134fd8b6b2ccff0b1b7b7d5",
    "league": "NCAAF",
    "date": "2026-11-14",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -7.5,
-   "splash_total": 39.5,
+   "splash_total": 40.5,
    "import_home_margin": -7.5,
    "import_total": 39.5,
    "reference_origin": "repository",
@@ -2931,74 +2831,174 @@
     }
    },
    "total": {
-    "pick": "Over 39.5",
+    "pick": "Over 40.5",
     "side": "over",
-    "tier": "Lean",
-    "prob": 0.5329,
-    "edge": 2.7,
-    "proj": 42.2,
+    "tier": "No Play",
+    "prob": 0.5293,
+    "edge": 2.4,
+    "proj": 42.9,
     "import_side": "over",
     "import_tier": "Lean",
     "teaser_leg": {
-     "pick": "Over 33.5 (teased)",
-     "prob": 0.7483
+     "pick": "Over 34.5 (teased)",
+     "prob": 0.7409
     }
    },
    "moneyline": {
-    "pick": "UTEP ML +260",
+    "pick": "UTEP ML +240",
     "tier": "No Play",
     "prob": 0.2871,
-    "edge": 0.0093,
+    "edge": -0.0071,
     "model_ml_side": "away"
    }
   },
   {
-   "game": "Buffalo Bills @ New York Jets",
-   "record_id": "repo-game:2472b9d0d20c52da2242f25d",
-   "league": "NFL",
-   "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -7.5,
-   "splash_total": 50.5,
-   "import_home_margin": -7.5,
-   "import_total": 50.5,
+   "game": "Colorado State @ Washington State",
+   "record_id": "repo-game:4a8b8e41c39faf717da15928",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 8.5,
+   "splash_total": 66.5,
+   "import_home_margin": 8.5,
+   "import_total": 67.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recyZzQOpy4fGhnkk",
+   "ledger_record_id": "rec95zAsrohONJnA1",
    "model_status": "available",
    "spread": {
-    "pick": "Buffalo Bills -7.5",
+    "pick": "Colorado State +8.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5064,
-    "edge": -0.2,
-    "proj": -8.7,
+    "prob": 0.5069,
+    "edge": -0.26,
+    "proj": 5.700000000000001,
     "import_side": "away",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Buffalo Bills -1.5 (teased)",
-     "prob": 0.6897
+     "pick": "Colorado State +14.5 (teased)",
+     "prob": 0.6787
     }
    },
    "total": {
-    "pick": "Under 50.5",
+    "pick": "Under 66.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5504,
-    "edge": 1.27,
-    "proj": 49.23,
+    "prob": 0.5179,
+    "edge": 1.46,
+    "proj": 65.04,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 56.5 (teased)",
-     "prob": 0.7663
+     "pick": "Under 72.5 (teased)",
+     "prob": 0.717
     }
    },
    "moneyline": {
-    "pick": "New York Jets ML +360",
+    "pick": "Colorado State ML +275",
     "tier": "No Play",
-    "prob": 0.2647,
-    "edge": 0.0473,
+    "prob": 0.3048,
+    "edge": 0.0381,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "North Dakota State @ Hawai'i",
+   "record_id": "repo-game:ae002e0e5bac101dd2910018",
+   "league": "NCAAF",
+   "date": "2026-11-14",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -6.5,
+   "splash_total": 38.5,
+   "import_home_margin": -6.5,
+   "import_total": 38.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recgTUtWAgehPBFoU",
+   "model_status": "available",
+   "spread": {
+    "pick": "North Dakota State -6.5",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.5023,
+    "edge": -0.09,
+    "proj": -8.1,
+    "import_side": "away",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "North Dakota State -0.5 (teased)",
+     "prob": 0.6583
+    }
+   },
+   "total": {
+    "pick": "Over 38.5",
+    "side": "over",
+    "tier": "No Play",
+    "prob": 0.5145,
+    "edge": 1.19,
+    "proj": 39.69,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 32.5 (teased)",
+     "prob": 0.7098
+    }
+   },
+   "moneyline": {
+    "pick": "Hawai'i ML +225",
+    "tier": "No Play",
+    "prob": 0.3208,
+    "edge": 0.0132,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "New England Patriots @ Detroit Lions",
+   "record_id": "repo-game:e9dc9f50de3aed1424569253",
+   "league": "NFL",
+   "date": "2026-11-15",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 2.5,
+   "splash_total": 49.5,
+   "import_home_margin": 2.5,
+   "import_total": 51.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recylpHuRGLsBYvGb",
+   "model_status": "available",
+   "spread": {
+    "pick": "New England Patriots +2.5",
+    "side": "away",
+    "tier": "Lean",
+    "prob": 0.5514,
+    "edge": -1.6,
+    "proj": 0.7000000000000002,
+    "import_side": "away",
+    "import_tier": "Lean",
+    "teaser_leg": {
+     "pick": "New England Patriots +8.5 (teased)",
+     "prob": 0.7244
+    }
+   },
+   "total": {
+    "pick": "Under 49.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5197,
+    "edge": 0.49,
+    "proj": 49.01,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 55.5 (teased)",
+     "prob": 0.7419
+    }
+   },
+   "moneyline": {
+    "pick": "New England Patriots ML +128",
+    "tier": "No Play",
+    "prob": 0.4377,
+    "edge": -0.0009,
     "model_ml_side": "away"
    }
   },
@@ -3007,9 +3007,9 @@
    "record_id": "repo-game:7c0eb864e3532e87204a9dd9",
    "league": "NFL",
    "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 2.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 1.5,
    "splash_total": 48.5,
    "import_home_margin": 1.5,
    "import_total": 47.5,
@@ -3017,17 +3017,17 @@
    "ledger_record_id": "recLRZ8olJPvcHJ6g",
    "model_status": "available",
    "spread": {
-    "pick": "Carolina Panthers +2.5",
+    "pick": "Carolina Panthers +1.5",
     "side": "away",
-    "tier": "Strong Play",
-    "prob": 0.6051,
-    "edge": -3.3,
+    "tier": "Lean",
+    "prob": 0.5737,
+    "edge": -2.3,
     "proj": 0.9000000000000001,
     "import_side": "away",
     "import_tier": "Lean",
     "teaser_leg": {
-     "pick": "Carolina Panthers +8.5 (teased)",
-     "prob": 0.7228
+     "pick": "Carolina Panthers +7.5 (teased)",
+     "prob": 0.716
     }
    },
    "total": {
@@ -3057,10 +3057,10 @@
    "record_id": "repo-game:d97b0627c141ecc5be929892",
    "league": "NFL",
    "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -4.5,
-   "splash_total": 41.5,
+   "splash_total": 40.5,
    "import_home_margin": -4.5,
    "import_total": 39.5,
    "reference_origin": "repository",
@@ -3069,29 +3069,29 @@
    "spread": {
     "pick": "Houston Texans -4.5",
     "side": "away",
-    "tier": "Lean",
-    "prob": 0.5546,
-    "edge": -1.7,
+    "tier": "No Play",
+    "prob": 0.5161,
+    "edge": -0.5,
     "proj": -6.199999999999999,
     "import_side": "away",
-    "import_tier": "Lean",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Houston Texans +1.5 (teased)",
      "prob": 0.6901
     }
    },
    "total": {
-    "pick": "Over 41.5",
+    "pick": "Over 40.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5103,
-    "edge": 0.26,
-    "proj": 41.76,
+    "prob": 0.5223,
+    "edge": 0.56,
+    "proj": 41.06,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 35.5 (teased)",
-     "prob": 0.7343
+     "pick": "Over 34.5 (teased)",
+     "prob": 0.7441
     }
    },
    "moneyline": {
@@ -3103,12 +3103,162 @@
    }
   },
   {
+   "game": "Minnesota Vikings @ Green Bay Packers",
+   "record_id": "repo-game:e47ec3ebe306be2f0f79cedf",
+   "league": "NFL",
+   "date": "2026-11-15",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 3.0,
+   "splash_total": 42.5,
+   "import_home_margin": 4.5,
+   "import_total": 41.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recQfl33vwjIUc84Z",
+   "model_status": "available",
+   "spread": {
+    "pick": "Minnesota Vikings +3",
+    "side": "away",
+    "tier": "No Play",
+    "prob": 0.529,
+    "edge": -0.9,
+    "proj": 2.0,
+    "import_side": "away",
+    "import_tier": "Lean",
+    "teaser_leg": {
+     "pick": "Minnesota Vikings +9 (teased)",
+     "prob": 0.7049
+    }
+   },
+   "total": {
+    "pick": "Under 42.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5224,
+    "edge": 0.56,
+    "proj": 41.94,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 48.5 (teased)",
+     "prob": 0.7441
+    }
+   },
+   "moneyline": {
+    "pick": "Green Bay Packers ML -156",
+    "tier": "No Play",
+    "prob": 0.6179,
+    "edge": 0.0085,
+    "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "Miami Dolphins @ Indianapolis Colts",
+   "record_id": "repo-game:301a63b3346b382a56b9352c",
+   "league": "NFL",
+   "date": "2026-11-15",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 3.5,
+   "splash_total": 38.5,
+   "import_home_margin": 2.5,
+   "import_total": 40.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recSIX0kbtS9usFh5",
+   "model_status": "available",
+   "spread": {
+    "pick": "Indianapolis Colts -3.5",
+    "side": "home",
+    "tier": "Max Play",
+    "prob": 0.703,
+    "edge": 6.6,
+    "proj": 10.7,
+    "import_side": "home",
+    "import_tier": "Max Play",
+    "teaser_leg": {
+     "pick": "Indianapolis Colts +2.5 (teased)",
+     "prob": 0.7313
+    }
+   },
+   "total": {
+    "pick": "Over 38.5",
+    "side": "over",
+    "tier": "Lean",
+    "prob": 0.5728,
+    "edge": 1.84,
+    "proj": 40.34,
+    "import_side": "over",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Over 32.5 (teased)",
+     "prob": 0.7834
+    }
+   },
+   "moneyline": {
+    "pick": "Miami Dolphins ML +176",
+    "tier": "No Play",
+    "prob": 0.3458,
+    "edge": -0.0166,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Kansas City Chiefs @ Atlanta Falcons",
+   "record_id": "repo-game:5bb6f853cbd20d60a266e15a",
+   "league": "NFL",
+   "date": "2026-11-15",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -3.5,
+   "splash_total": 47.5,
+   "import_home_margin": -3.5,
+   "import_total": 45.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recnnhFNODT9UyF5L",
+   "model_status": "available",
+   "spread": {
+    "pick": "Kansas City Chiefs -3.5",
+    "side": "away",
+    "tier": "Strong Play",
+    "prob": 0.5989,
+    "edge": -3.1,
+    "proj": -6.9,
+    "import_side": "away",
+    "import_tier": "Strong Play",
+    "teaser_leg": {
+     "pick": "Kansas City Chiefs +2.5 (teased)",
+     "prob": 0.7017
+    }
+   },
+   "total": {
+    "pick": "Under 47.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.535,
+    "edge": 0.88,
+    "proj": 46.62,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 53.5 (teased)",
+     "prob": 0.7542
+    }
+   },
+   "moneyline": {
+    "pick": "Kansas City Chiefs ML -168",
+    "tier": "No Play",
+    "prob": 0.6412,
+    "edge": 0.0143,
+    "model_ml_side": "away"
+   }
+  },
+  {
    "game": "Jacksonville Jaguars @ Tennessee Titans",
    "record_id": "repo-game:bc88843fcc2219bf1c65e439",
    "league": "NFL",
    "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -10.5,
    "splash_total": 46.5,
    "import_home_margin": -10.5,
@@ -3119,12 +3269,12 @@
    "spread": {
     "pick": "Tennessee Titans +10.5",
     "side": "home",
-    "tier": "No Play",
-    "prob": 0.529,
-    "edge": 0.9,
+    "tier": "Lean",
+    "prob": 0.5322,
+    "edge": 1.0,
     "proj": -9.6,
     "import_side": "home",
-    "import_tier": "No Play",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Tennessee Titans +16.5 (teased)",
      "prob": 0.7193
@@ -3145,60 +3295,60 @@
     }
    },
    "moneyline": {
-    "pick": "Tennessee Titans ML +450",
+    "pick": "Tennessee Titans ML +490",
     "tier": "No Play",
     "prob": 0.2066,
-    "edge": 0.0247,
+    "edge": 0.0371,
     "model_ml_side": "home"
    }
   },
   {
-   "game": "Kansas City Chiefs @ Atlanta Falcons",
-   "record_id": "repo-game:5bb6f853cbd20d60a266e15a",
+   "game": "Buffalo Bills @ New York Jets",
+   "record_id": "repo-game:2472b9d0d20c52da2242f25d",
    "league": "NFL",
    "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -3.5,
-   "splash_total": 46.5,
-   "import_home_margin": -3.5,
-   "import_total": 45.5,
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -7.5,
+   "splash_total": 50.5,
+   "import_home_margin": -7.5,
+   "import_total": 50.5,
    "reference_origin": "repository",
-   "ledger_record_id": "recnnhFNODT9UyF5L",
+   "ledger_record_id": "recyZzQOpy4fGhnkk",
    "model_status": "available",
    "spread": {
-    "pick": "Kansas City Chiefs -3.5",
+    "pick": "Buffalo Bills -7.5",
     "side": "away",
-    "tier": "Strong Play",
-    "prob": 0.6236,
-    "edge": -3.9,
-    "proj": -6.9,
+    "tier": "No Play",
+    "prob": 0.5129,
+    "edge": -0.4,
+    "proj": -8.7,
     "import_side": "away",
-    "import_tier": "Strong Play",
+    "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Kansas City Chiefs +2.5 (teased)",
-     "prob": 0.7017
+     "pick": "Buffalo Bills -1.5 (teased)",
+     "prob": 0.6897
     }
    },
    "total": {
-    "pick": "Under 46.5",
+    "pick": "Under 50.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5231,
-    "edge": 0.58,
-    "proj": 45.92,
+    "prob": 0.5504,
+    "edge": 1.27,
+    "proj": 49.23,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 52.5 (teased)",
-     "prob": 0.7447
+     "pick": "Under 56.5 (teased)",
+     "prob": 0.7663
     }
    },
    "moneyline": {
-    "pick": "Kansas City Chiefs ML -184",
+    "pick": "New York Jets ML +350",
     "tier": "No Play",
-    "prob": 0.6412,
-    "edge": -0.0067,
+    "prob": 0.2647,
+    "edge": 0.0425,
     "model_ml_side": "away"
    }
   },
@@ -3207,8 +3357,8 @@
    "record_id": "repo-game:78057ca4b7680d16586f0280",
    "league": "NFL",
    "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -9.5,
    "splash_total": 39.5,
    "import_home_margin": -9.5,
@@ -3245,260 +3395,10 @@
     }
    },
    "moneyline": {
-    "pick": "Arizona Cardinals ML +340",
+    "pick": "Arizona Cardinals ML +390",
     "tier": "No Play",
     "prob": 0.2193,
-    "edge": -0.0079,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Miami Dolphins @ Indianapolis Colts",
-   "record_id": "repo-game:301a63b3346b382a56b9352c",
-   "league": "NFL",
-   "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 37.5,
-   "import_home_margin": 2.5,
-   "import_total": 40.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recSIX0kbtS9usFh5",
-   "model_status": "available",
-   "spread": {
-    "pick": "Indianapolis Colts -3.5",
-    "side": "home",
-    "tier": "Max Play",
-    "prob": 0.703,
-    "edge": 6.6,
-    "proj": 10.7,
-    "import_side": "home",
-    "import_tier": "Max Play",
-    "teaser_leg": {
-     "pick": "Indianapolis Colts +2.5 (teased)",
-     "prob": 0.7313
-    }
-   },
-   "total": {
-    "pick": "Over 37.5",
-    "side": "over",
-    "tier": "Lean",
-    "prob": 0.5846,
-    "edge": 2.14,
-    "proj": 39.64,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 31.5 (teased)",
-     "prob": 0.7921
-    }
-   },
-   "moneyline": {
-    "pick": "Miami Dolphins ML +180",
-    "tier": "No Play",
-    "prob": 0.3458,
-    "edge": -0.0114,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "Minnesota Vikings @ Green Bay Packers",
-   "record_id": "repo-game:e47ec3ebe306be2f0f79cedf",
-   "league": "NFL",
-   "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 3.0,
-   "splash_total": 42.5,
-   "import_home_margin": 4.5,
-   "import_total": 41.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recQfl33vwjIUc84Z",
-   "model_status": "available",
-   "spread": {
-    "pick": "Minnesota Vikings +3",
-    "side": "away",
-    "tier": "Lean",
-    "prob": 0.5482,
-    "edge": -1.5,
-    "proj": 2.0,
-    "import_side": "away",
-    "import_tier": "Strong Play",
-    "teaser_leg": {
-     "pick": "Minnesota Vikings +9 (teased)",
-     "prob": 0.7049
-    }
-   },
-   "total": {
-    "pick": "Under 42.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5224,
-    "edge": 0.56,
-    "proj": 41.94,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 48.5 (teased)",
-     "prob": 0.7441
-    }
-   },
-   "moneyline": {
-    "pick": "Green Bay Packers ML -164",
-    "tier": "No Play",
-    "prob": 0.6179,
-    "edge": -0.0033,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "New England Patriots @ Detroit Lions",
-   "record_id": "repo-game:e9dc9f50de3aed1424569253",
-   "league": "NFL",
-   "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 2.5,
-   "splash_total": 50.5,
-   "import_home_margin": 2.5,
-   "import_total": 51.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recylpHuRGLsBYvGb",
-   "model_status": "available",
-   "spread": {
-    "pick": "New England Patriots +2.5",
-    "side": "away",
-    "tier": "Lean",
-    "prob": 0.5514,
-    "edge": -1.6,
-    "proj": 0.7000000000000002,
-    "import_side": "away",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "New England Patriots +8.5 (teased)",
-     "prob": 0.7244
-    }
-   },
-   "total": {
-    "pick": "Under 50.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5316,
-    "edge": 0.79,
-    "proj": 49.71,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 56.5 (teased)",
-     "prob": 0.7515
-    }
-   },
-   "moneyline": {
-    "pick": "New England Patriots ML +128",
-    "tier": "No Play",
-    "prob": 0.4377,
-    "edge": -0.0009,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Pittsburgh Steelers @ Cincinnati Bengals",
-   "record_id": "repo-game:249ac7ca20771d5a07bbb208",
-   "league": "NFL",
-   "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 49.5,
-   "import_home_margin": 3.5,
-   "import_total": 48.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recg7N9JllfhoeUTO",
-   "model_status": "available",
-   "spread": {
-    "pick": "Cincinnati Bengals -3.5",
-    "side": "home",
-    "tier": "Strong Play",
-    "prob": 0.5863,
-    "edge": 2.7,
-    "proj": 6.5,
-    "import_side": "home",
-    "import_tier": "Strong Play",
-    "teaser_leg": {
-     "pick": "Cincinnati Bengals +2.5 (teased)",
-     "prob": 0.6984
-    }
-   },
-   "total": {
-    "pick": "Under 49.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5434,
-    "edge": 1.09,
-    "proj": 48.41,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 55.5 (teased)",
-     "prob": 0.7608
-    }
-   },
-   "moneyline": {
-    "pick": "Cincinnati Bengals ML -184",
-    "tier": "No Play",
-    "prob": 0.6376,
-    "edge": -0.0103,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "San Francisco 49ers @ Dallas Cowboys",
-   "record_id": "repo-game:9843699497170cefb7f80875",
-   "league": "NFL",
-   "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
-   "splash_home_margin": -4.5,
-   "splash_total": 55.5,
-   "import_home_margin": -4.5,
-   "import_total": 55.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recAWaU5OhKm6iTgv",
-   "model_status": "available",
-   "spread": {
-    "pick": "Dallas Cowboys +4.5",
-    "side": "home",
-    "tier": "Strong Play",
-    "prob": 0.58,
-    "edge": 2.5,
-    "proj": -2.3000000000000007,
-    "import_side": "home",
-    "import_tier": "Strong Play",
-    "teaser_leg": {
-     "pick": "Dallas Cowboys +10.5 (teased)",
-     "prob": 0.7316
-    }
-   },
-   "total": {
-    "pick": "Under 55.5",
-    "side": "under",
-    "tier": "Lean",
-    "prob": 0.57,
-    "edge": 1.76,
-    "proj": 53.74,
-    "import_side": "under",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Under 61.5 (teased)",
-     "prob": 0.7813
-    }
-   },
-   "moneyline": {
-    "pick": "Dallas Cowboys ML +172",
-    "tier": "No Play",
-    "prob": 0.3793,
-    "edge": 0.0117,
+    "edge": 0.0153,
     "model_ml_side": "home"
    }
   },
@@ -3507,8 +3407,8 @@
    "record_id": "repo-game:1a6d411da012ac0ccf46c3c3",
    "league": "NFL",
    "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": -6.5,
    "splash_total": 40.5,
    "import_home_margin": -3.5,
@@ -3545,11 +3445,111 @@
     }
    },
    "moneyline": {
-    "pick": "Las Vegas Raiders ML +245",
+    "pick": "Las Vegas Raiders ML +250",
     "tier": "No Play",
     "prob": 0.3705,
-    "edge": 0.0807,
+    "edge": 0.0848,
     "model_ml_side": "away"
+   }
+  },
+  {
+   "game": "San Francisco 49ers @ Dallas Cowboys",
+   "record_id": "repo-game:9843699497170cefb7f80875",
+   "league": "NFL",
+   "date": "2026-11-15",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": -4.5,
+   "splash_total": 55.5,
+   "import_home_margin": -4.5,
+   "import_total": 55.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recAWaU5OhKm6iTgv",
+   "model_status": "available",
+   "spread": {
+    "pick": "Dallas Cowboys +4.5",
+    "side": "home",
+    "tier": "Strong Play",
+    "prob": 0.58,
+    "edge": 2.5,
+    "proj": -2.3000000000000007,
+    "import_side": "home",
+    "import_tier": "Strong Play",
+    "teaser_leg": {
+     "pick": "Dallas Cowboys +10.5 (teased)",
+     "prob": 0.7316
+    }
+   },
+   "total": {
+    "pick": "Under 55.5",
+    "side": "under",
+    "tier": "Lean",
+    "prob": 0.57,
+    "edge": 1.76,
+    "proj": 53.74,
+    "import_side": "under",
+    "import_tier": "Lean",
+    "teaser_leg": {
+     "pick": "Under 61.5 (teased)",
+     "prob": 0.7813
+    }
+   },
+   "moneyline": {
+    "pick": "Dallas Cowboys ML +180",
+    "tier": "No Play",
+    "prob": 0.3793,
+    "edge": 0.0222,
+    "model_ml_side": "home"
+   }
+  },
+  {
+   "game": "Pittsburgh Steelers @ Cincinnati Bengals",
+   "record_id": "repo-game:249ac7ca20771d5a07bbb208",
+   "league": "NFL",
+   "date": "2026-11-15",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
+   "splash_home_margin": 3.5,
+   "splash_total": 48.5,
+   "import_home_margin": 3.5,
+   "import_total": 48.5,
+   "reference_origin": "repository",
+   "ledger_record_id": "recg7N9JllfhoeUTO",
+   "model_status": "available",
+   "spread": {
+    "pick": "Cincinnati Bengals -3.5",
+    "side": "home",
+    "tier": "Lean",
+    "prob": 0.5769,
+    "edge": 2.4,
+    "proj": 6.5,
+    "import_side": "home",
+    "import_tier": "Lean",
+    "teaser_leg": {
+     "pick": "Cincinnati Bengals +2.5 (teased)",
+     "prob": 0.6984
+    }
+   },
+   "total": {
+    "pick": "Under 48.5",
+    "side": "under",
+    "tier": "No Play",
+    "prob": 0.5315,
+    "edge": 0.79,
+    "proj": 47.71,
+    "import_side": "under",
+    "import_tier": "No Play",
+    "teaser_leg": {
+     "pick": "Under 54.5 (teased)",
+     "prob": 0.7514
+    }
+   },
+   "moneyline": {
+    "pick": "Cincinnati Bengals ML -178",
+    "tier": "No Play",
+    "prob": 0.6376,
+    "edge": -0.0027,
+    "model_ml_side": "home"
    }
   },
   {
@@ -3557,8 +3557,8 @@
    "record_id": "repo-game:ab30622cc23544a66d727f6f",
    "league": "NFL",
    "date": "2026-11-16",
-   "snapshot_id": "SPL-L-20261111-2043",
-   "captured_at_central": "2026-11-11 20:43:00 CST",
+   "snapshot_id": "SPL-L-20261113-1706",
+   "captured_at_central": "2026-11-13 17:06:00 CST",
    "splash_home_margin": 4.5,
    "splash_total": 38.5,
    "import_home_margin": 5.5,
@@ -3595,10 +3595,10 @@
     }
    },
    "moneyline": {
-    "pick": "Los Angeles Chargers ML +168",
+    "pick": "Los Angeles Chargers ML +188",
     "tier": "No Play",
     "prob": 0.3836,
-    "edge": 0.0105,
+    "edge": 0.0364,
     "model_ml_side": "away"
    }
   }
