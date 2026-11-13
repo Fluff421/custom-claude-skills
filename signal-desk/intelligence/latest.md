@@ -165,6 +165,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | Lean | 0.5 |
+| Arizona State @ UCF | total | Over 47.5 | 53% | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | Lean | 0.5 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
 | North Texas @ UTSA | total | Under 75.5 | 54% | Lean | 0.5 |
@@ -172,16 +173,16 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Los Angeles Rams @ Arizona Cardinals | total | Over 39.5 | 57% | Lean | 0.5 |
 | Miami Dolphins @ Indianapolis Colts | total | Over 38.5 | 57% | Lean | 0.5 |
 | Texas Tech @ Oklahoma State | total | Under 73.5 | 54% | Lean | 0.5 |
-| Florida Atlantic @ Tulsa | total | Under 74.5 | 54% | Lean | 0.5 |
+| Florida Atlantic @ Tulsa | total | Under 73.5 | 54% | Lean | 0.5 |
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +253 to break even, edge +13.0%, Max Play
 - NFL parlay: Dallas Cowboys +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 40.3%, needs +266 to break even, edge +13.0%, Max Play
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Kansas City Chiefs -3.5 (spread) | model 42.0%, needs +241 to break even, edge +12.7%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 39.5 -> 33.5 | model 57.2%, needs +160 to break even, edge +18.8%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 38.5 -> 32.5 | model 57.1%, needs +160 to break even, edge +18.7%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5 | model 57.0%, needs +160 to break even, edge +18.6%, Max Play
-- NCAAF parlay: Under 75.5 + Under 74.5 | model 29.0%, needs +270 to break even, edge +1.9%, No Play
-- NCAAF parlay: Under 75.5 + Under 73.5 | model 28.6%, needs +265 to break even, edge +1.3%, No Play
-- NCAAF parlay: Under 75.5 + Under 73.5 + Under 74.5 | model 15.5%, needs +591 to break even, edge +1.0%, No Play
+- NCAAF parlay: Under 75.5 + Under 73.5 | model 28.8%, needs +276 to break even, edge +2.2%, Lean
+- NCAAF parlay: Over 47.5 + Under 75.5 | model 28.4%, needs +273 to break even, edge +1.6%, No Play
+- NCAAF parlay: Over 47.5 + Under 73.5 | model 28.5%, needs +268 to break even, edge +1.4%, No Play
 
 ## Results and learning by market
 
