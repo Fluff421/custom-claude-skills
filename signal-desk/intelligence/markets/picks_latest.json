@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T11:27:30+00:00",
+ "generated_at": "2026-11-13T11:34:43+00:00",
  "date": "2026-11-13",
  "games": [
   {
@@ -11164,7 +11164,7 @@
      "side": "home",
      "team": "New York Jets",
      "line": 8.5,
-     "price": -112.0,
+     "price": -118.0,
      "proj": -8.7,
      "prob": 0.5193,
      "edge": null,
