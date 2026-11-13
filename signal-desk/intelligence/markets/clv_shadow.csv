@@ -1,2 +1,7 @@
 ts,record_id,league,game,side,edge_tier,edge,pred_clv,clv_tier,model_n
 2026-11-12 11:51Z,recqmMdr0PsqZrEg8,NFL,Indianapolis Colts @ Houston Texans,Indianapolis Colts +10 (spread),Strong Play,-2.5,0.542,Strong Play,29
+2026-11-13 11:27Z,rec6BLj4UmECM0x14,NCAAF,Utah @ TCU,Utah -5.5 (spread),No Play,-0.46,0.028,No Play,109
+2026-11-13 11:27Z,recDgZz8WbWMArNoK,NCAAF,Virginia Tech @ Miami,Miami -18.5 (spread),No Play,0.77,0.061,No Play,109
+2026-11-13 11:27Z,recXpXlNLRxQUbMzq,NCAAF,UCLA @ Michigan,Michigan +5.5 (spread),No Play,0.71,0.068,No Play,109
+2026-11-13 11:27Z,recYeYfNuUaynHFDk,NCAAF,Ohio State @ Nebraska,Ohio State -5.5 (spread),No Play,-0.45,0.021,No Play,109
+2026-11-13 11:27Z,recaECO9clr72nsCg,NCAAF,Texas Tech @ Baylor,Texas Tech -1.5 (spread),No Play,-0.01,-0.001,No Play,109
