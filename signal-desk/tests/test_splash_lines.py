@@ -70,6 +70,18 @@ class Match(unittest.TestCase):
         f, _, _ = sl.match_game(game("NFL", "Browns", "Saints", -3, 43.5, "2026-11-12 12:00"), GAMES)
         self.assertIsNone(f)
 
+    def test_feed_aliases_match_like_the_validator(self):
+        # Seeded Ledger rows use ESPN short names; File 1 keeps Splash names.
+        ledger = [{"_id": "m1", "Date": "2026-11-14", "League": "NCAAF", "Home Team": "Miami", "Away Team": "Duke"},
+                  {"_id": "m2", "Date": "2026-11-14", "League": "NCAAF", "Home Team": "Marshall", "Away Team": "App State"},
+                  {"_id": "m3", "Date": "2026-11-17", "League": "NCAAF", "Home Team": "Kent State", "Away Team": "Miami (OH)"}]
+        f, o, _ = sl.match_game(game("NCAAF", "Duke", "Miami (FL)", -13.5, 54.5, "2026-11-14 11:00"), ledger)
+        self.assertEqual((f["_id"], o), ("m1", "same"))
+        f, o, _ = sl.match_game(game("NCAAF", "Appalachian State", "Marshall", 1.5, 54.5, "2026-11-14 17:00"), ledger)
+        self.assertEqual((f["_id"], o), ("m2", "same"))
+        f, _, _ = sl.match_game(game("NCAAF", "Miami (FL)", "Kent State", 3, 50, "2026-11-17 18:00"), ledger)
+        self.assertIsNone(f)
+
 
 class Validate(unittest.TestCase):
     def test_good(self):

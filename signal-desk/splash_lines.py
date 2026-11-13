@@ -101,6 +101,12 @@ def team_match(splash: str, ledger: str, league: str) -> bool:
         return False
     if a == b:
         return True
+    # Same explicit feed alias table the import validator uses (Ledger rows
+    # seeded from ESPN say "Miami" / "App State"; Splash says "Miami (FL)" /
+    # "Appalachian State"). No partial-name or invented matches.
+    import espn_sync as es
+    if es.ledger_matches(splash, {es.norm(ledger)}) or es.ledger_matches(ledger, {es.norm(splash)}):
+        return True
     if league == "NFL":   # Splash often shows NFL nicknames ("Bears", "49ers")
         words = re.findall(r"[A-Za-z0-9]+", ledger or "")
         return bool(words) and a == norm(words[-1])
