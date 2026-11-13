@@ -1,0 +1,133 @@
+{
+  "schema": "signal-desk.splash-picks.v1",
+  "kind": "picks",
+  "date_code": "SPL-P-20261113-1514",
+  "expected_rows": 3,
+  "duplicates": [],
+  "matches": [
+    "repo-game:b5a6f47e2d729f035b00796b",
+    "repo-game:88394b7104ec479b6fe227cc",
+    "repo-game:58daa98d69eee8c459e2a76c"
+  ],
+  "age_hours": 1.78,
+  "freshness_warning": null,
+  "reference_matches": [
+    {
+      "reference_id": "repo-game:b5a6f47e2d729f035b00796b",
+      "league": "NCAAF",
+      "date_central": "2026-11-13",
+      "away_team": "Florida State",
+      "home_team": "Pittsburgh",
+      "reference_origin": "repository",
+      "ledger_record_id": "recg9BSUGihaHNivc",
+      "model_status": "available"
+    },
+    {
+      "reference_id": "repo-game:88394b7104ec479b6fe227cc",
+      "league": "NCAAF",
+      "date_central": "2026-11-13",
+      "away_team": "Illinois",
+      "home_team": "UCLA",
+      "reference_origin": "repository",
+      "ledger_record_id": "recelvIXB5nNARazi",
+      "model_status": "available"
+    },
+    {
+      "reference_id": "repo-game:58daa98d69eee8c459e2a76c",
+      "league": "NCAAF",
+      "date_central": "2026-11-13",
+      "away_team": "Houston",
+      "home_team": "Colorado",
+      "reference_origin": "repository",
+      "ledger_record_id": "recFCrnDbWFklfWPW",
+      "model_status": "available"
+    }
+  ],
+  "status": "accepted",
+  "processed_at_utc": "2026-11-13T23:00:39.829618+00:00",
+  "input_sha256": "925b6639173aaf8929f6fb882e96407b3b5682a030cc7608ee3ba9b0f70e3aec",
+  "owner_review": null,
+  "actual_new_rows": 3,
+  "airtable_writes": 0,
+  "assessment_note": "Processing-time reconstruction, not proof of a saved pregame forecast.",
+  "ticket_metadata": [
+    {
+      "ticket_id": "SPL-PENDING-20261113-01M1C39WSS-PARLAY3",
+      "ticket_id_basis": "Source-derived identity from pending parlay view contest_01M1C39WSS065P66ECQE7T30HT",
+      "ticket_type": "parlay",
+      "source": "Splash Sports Picks",
+      "date_code": "SPL-P-20261113-1514",
+      "placed_at_central": null,
+      "locked_at_central": null,
+      "stake": 25.0,
+      "potential_payout": 200.0,
+      "payout": null,
+      "payout_multiplier": 700.0,
+      "reported_result": "Pending",
+      "legs": [
+        {
+          "league": "NCAAF",
+          "away_team": "Florida State",
+          "home_team": "Pittsburgh",
+          "home_away_certain": true,
+          "game_date_central": "2026-11-13",
+          "kickoff_central": "2026-11-13 18:00",
+          "kickoff_tz": "CST",
+          "kickoff_as_shown": "Fri, Nov 13, 7:00 PM EST",
+          "market": "spread",
+          "selection": "Pittsburgh",
+          "line": -3.5,
+          "price": 100,
+          "base_line": null,
+          "teased_line": null,
+          "reported_result": "Pending",
+          "final_score": null,
+          "selection_as_shown": "Pittsburgh -3.5 (vs Florida State)"
+        },
+        {
+          "league": "NCAAF",
+          "away_team": "Illinois",
+          "home_team": "UCLA",
+          "home_away_certain": true,
+          "game_date_central": "2026-11-13",
+          "kickoff_central": "2026-11-13 20:00",
+          "kickoff_tz": "CST",
+          "kickoff_as_shown": "Fri, Nov 13, 9:00 PM EST",
+          "market": "spread",
+          "selection": "Illinois",
+          "line": 10.5,
+          "price": 100,
+          "base_line": null,
+          "teased_line": null,
+          "reported_result": "Pending",
+          "final_score": null,
+          "selection_as_shown": "Illinois +10.5 (@ UCLA)"
+        },
+        {
+          "league": "NCAAF",
+          "away_team": "Houston",
+          "home_team": "Colorado",
+          "home_away_certain": true,
+          "game_date_central": "2026-11-13",
+          "kickoff_central": "2026-11-13 21:15",
+          "kickoff_tz": "CST",
+          "kickoff_as_shown": "Fri, Nov 13, 10:15 PM EST",
+          "market": "spread",
+          "selection": "Houston",
+          "line": -9.5,
+          "price": 100,
+          "base_line": null,
+          "teased_line": null,
+          "reported_result": "Pending",
+          "final_score": null,
+          "selection_as_shown": "Houston -9.5 (@ Colorado)"
+        }
+      ]
+    }
+  ],
+  "source_tickets": {
+    "SPL-PENDING-20261113-01M1C39WSS-PARLAY3": "4e4ee4e8c8e384c6a14e8863dd433579f57823ed4225b96309a0d7dbb3ea607b"
+  },
+  "line_report": null,
+  "pick_report": "signal-desk/intelligence/splash_picks/SPL-P-20261113-1514.md"
+}

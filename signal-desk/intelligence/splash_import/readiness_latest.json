@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-12T16:31:03.814384+00:00",
-  "central_date": "2026-11-12",
+  "checked_at": "2026-11-13T23:00:39.829618+00:00",
+  "central_date": "2026-11-13",
   "ready": false,
   "policy": {
     "narrative_hours": 4,
@@ -10,78 +10,71 @@
   },
   "checks": {
     "narrative": {
-      "age_hours": 14.077,
+      "age_hours": 1.588,
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 14.096,
+      "age_hours": 1.609,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 13.801,
+      "age_hours": 44.294,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.0,
+      "age_hours": 1.589,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 13.8,
+      "age_hours": 44.289,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 14.096,
+      "age_hours": 1.609,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 15.059,
+      "age_hours": 2.394,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
-      "age_hours": 15.058,
+      "age_hours": 3.048,
       "max_age_hours": 4
     },
     "espn-sync.yml": {
-      "age_hours": 15.616,
+      "age_hours": 3.095,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 14.17,
+      "age_hours": 2.96,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 14.81,
+      "age_hours": 3.386,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "intelligence/data/2026-11-12.json: [Errno 2] No such file or directory: '/home/runner/work/custom-claude-skills/custom-claude-skills/signal-desk/intelligence/data/2026-11-12.json'",
-    "narrative: latest.json must equal today's dated JSON (Central date)",
-    "narrative: Markdown heading is not for today (Central date)",
-    "narrative: age 14.08h outside [0, 4)h (5m clock tolerance)",
-    "ops_export: age 14.10h outside [0, 4)h (5m clock tolerance)",
-    "close_grade: age 15.06h outside [0, 2)h (5m clock tolerance)",
-    "injury-pull.yml: age 15.06h outside [0, 4)h (5m clock tolerance)",
-    "espn-sync.yml: age 15.62h outside [0, 4)h (5m clock tolerance)",
-    "picks.yml: age 14.17h outside [0, 4)h (5m clock tolerance)"
+    "close_grade: age 2.39h outside [0, 2)h (5m clock tolerance)",
+    "context-calibrate.yml: latest producer run is not healthy, successful and LIVE"
   ],
   "warnings": [
-    "splash_board: 13.80h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 13.80h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 44.29h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 44.29h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "paper_picks_only": true,
-  "source_revision": "d74383361a41f5a306e4a2cd20318c0e2f82803a",
+  "source_revision": "829b8a84dcc5682ef707df755add5d70369a6ccc",
   "input_git_blobs": {
     "validate_artifacts.py": "ce0f8e43fd3155f42355b2287d9f94be4143434e",
-    "intelligence/latest.json": "2cc6c66707962b282a064dcc0ac2ace894545f48",
-    "intelligence/latest.md": "8e2f5b571f32184d27a3427203d7a85597254ea6",
-    "intelligence/data/2026-11-12.json": null,
-    "data/snapshot.json": "53bd5ddb1e977564e5fc5841bd0f0734fe3592ed",
-    "data/ops_status.json": "7440ea8045930927932ea25d9a2f964a4376fa46",
-    "data/producer_health/markets.json": "8baeede004e23629e88dc6a0267db24da2813245",
+    "intelligence/latest.json": "e375daea136a0eefc005ef6aa3738b111dc29b7c",
+    "intelligence/latest.md": "d8be42a700a35277e811ee66a16b7c475430d4b1",
+    "intelligence/data/2026-11-13.json": "e375daea136a0eefc005ef6aa3738b111dc29b7c",
+    "data/snapshot.json": "ceb3102f2342aac07994c441c6bf8567225ef290",
+    "data/ops_status.json": "e4c8baad43f1512041aeeb36593090ca3b9939de",
+    "data/producer_health/markets.json": "aba9cb67bbd245fd9aeaca8a09dd0fa068150643",
     "intelligence/splash_lines/latest.md": "0cba4161d08deebbec732345025f790e41d06a6a",
-    "intelligence/splash_pricecheck/latest.json": "8e45d1ffce52bb81e28ac8865ebfb3cb8f814d8a",
-    "intelligence/splash_pricecheck/latest.md": "f3e407d011fa222f7b3edb7cabfd37e65a8e8c75"
+    "intelligence/splash_pricecheck/latest.json": "d8b835abbc7677b65c54e35a84929abbb209ebf0",
+    "intelligence/splash_pricecheck/latest.md": "7eb9d394d5b0b8b6184c03f1a1b57ec3146b9053"
   },
   "note": "Repository-executed readiness; import acceptance is a separate decision."
 }
