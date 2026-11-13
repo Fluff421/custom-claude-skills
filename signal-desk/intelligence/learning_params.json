@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-12T20:27:37.000Z"
+   "updated": "2026-11-13T18:35:01.000Z"
   },
   "NFL": {
    "forward": {
@@ -76,9 +76,9 @@
    },
    "gate": {
     "Lean": {
-     "mean": 0.471,
-     "n": 17,
-     "se": 0.255,
+     "mean": 0.444,
+     "n": 18,
+     "se": 0.242,
      "status": "unproven"
     },
     "Max Play": {
@@ -132,31 +132,41 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-12T20:27:37.000Z"
+   "updated": "2026-11-13T18:35:01.000Z"
   }
  },
  "report_cards": {
   "NCAAF": {
    "espn": {
-    "clv_mean": -0.5,
-    "clv_n": 3,
-    "clv_se": 0.5,
-    "hit_rate": 0.667,
+    "brier": 0.2454,
+    "calibration": [
+     {
+      "actual": 0.8,
+      "bucket": "50%-55%",
+      "n": 5,
+      "pred": 0.507
+     }
+    ],
+    "clv_mean": -0.2,
+    "clv_n": 5,
+    "clv_se": 0.339,
+    "hit_rate": 0.8,
+    "log_loss": 0.6839,
     "losses": 1,
-    "n": 3,
-    "n_prob": 3,
+    "n": 5,
+    "n_prob": 5,
     "pushes": 0,
     "tiers": {
      "No Play": {
-      "clv_mean": -0.5,
-      "clv_n": 3,
-      "clv_se": 0.5,
+      "clv_mean": -0.2,
+      "clv_n": 5,
+      "clv_se": 0.339,
       "losses": 1,
-      "n": 3,
-      "wins": 2
+      "n": 5,
+      "wins": 4
      }
     },
-    "wins": 2
+    "wins": 4
    },
    "learn_mode": "all",
    "splash": {
@@ -233,20 +243,29 @@
     "wins": 55
    },
    "unknown": 0,
-   "updated": "2026-11-12T20:27:37.000Z"
+   "updated": "2026-11-13T18:35:01.000Z"
   },
   "NFL": {
    "espn": {
-    "clv_mean": null,
-    "clv_n": 0,
+    "clv_mean": 0.0,
+    "clv_n": 1,
     "clv_se": null,
-    "hit_rate": null,
+    "hit_rate": 1.0,
     "losses": 0,
-    "n": 0,
-    "n_prob": 0,
+    "n": 1,
+    "n_prob": 1,
     "pushes": 0,
-    "tiers": {},
-    "wins": 0
+    "tiers": {
+     "Lean": {
+      "clv_mean": 0.0,
+      "clv_n": 1,
+      "clv_se": null,
+      "losses": 0,
+      "n": 1,
+      "wins": 1
+     }
+    },
+    "wins": 1
    },
    "learn_mode": "all",
    "splash": {
@@ -323,7 +342,7 @@
     "wins": 16
    },
    "unknown": 0,
-   "updated": "2026-11-12T20:27:37.000Z"
+   "updated": "2026-11-13T18:35:01.000Z"
   }
  },
  "sigma": {
@@ -360,7 +379,7 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-12T20:27:37.000Z"
+   "updated": "2026-11-13T18:35:01.000Z"
   },
   "NFL": {
    "n_eff": 689.8,
@@ -395,7 +414,7 @@
    },
    "sigma": 12.38,
    "target": 12.38,
-   "updated": "2026-11-12T20:27:37.000Z"
+   "updated": "2026-11-13T18:35:01.000Z"
   }
  }
 }
