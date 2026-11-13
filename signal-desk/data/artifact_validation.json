@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T18:38:38.774706+00:00",
+  "checked_at": "2026-11-13T20:05:35.096193+00:00",
   "central_date": "2026-11-13",
   "ready": false,
   "policy": {
@@ -14,54 +14,52 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.032,
+      "age_hours": 0.016,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 39.927,
+      "age_hours": 41.376,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.001,
+      "age_hours": 0.0,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 39.901,
+      "age_hours": 41.4,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.032,
+      "age_hours": 0.016,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.522,
+      "age_hours": 1.971,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
-      "age_hours": 7.193,
+      "age_hours": 0.13,
       "max_age_hours": 4
     },
     "espn-sync.yml": {
-      "age_hours": 7.299,
+      "age_hours": 0.177,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 0.058,
+      "age_hours": 0.042,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 0.16,
+      "age_hours": 0.468,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "injury-pull.yml: age 7.19h outside [0, 4)h (5m clock tolerance)",
-    "espn-sync.yml: age 7.30h outside [0, 4)h (5m clock tolerance)",
     "context-calibrate.yml: latest producer run is not healthy, successful and LIVE"
   ],
   "warnings": [
-    "splash_board: 39.93h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 39.90h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 41.38h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 41.40h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "paper_picks_only": true
 }

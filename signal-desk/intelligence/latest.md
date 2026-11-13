@@ -164,7 +164,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
+| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | Lean | 0.5 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
 | North Texas @ UTSA | total | Under 75.5 | 54% | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | Lean | 0.5 |
@@ -174,7 +175,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Florida Atlantic @ Tulsa | total | Under 74.5 | 54% | Lean | 0.5 |
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +253 to break even, edge +13.0%, Max Play
 - NFL parlay: Dallas Cowboys +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 40.3%, needs +266 to break even, edge +13.0%, Max Play
-- NFL parlay: Los Angeles Chargers +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 41.2%, needs +250 to break even, edge +12.6%, Max Play
+- NFL parlay: Indianapolis Colts -3.5 (spread) + Kansas City Chiefs -3.5 (spread) | model 42.0%, needs +241 to break even, edge +12.7%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 39.5 -> 33.5 | model 57.2%, needs +160 to break even, edge +18.8%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 38.5 -> 32.5 | model 57.1%, needs +160 to break even, edge +18.7%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5 | model 57.0%, needs +160 to break even, edge +18.6%, Max Play

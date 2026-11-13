@@ -92,7 +92,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Rice @ Temple | moneyline | Temple ML -110 (price estimated from the line) | 68% | +15.6% | No Play | 0 |
 | Wyoming @ UTEP | spread | Wyoming -7.5 (spread) | 50% |  | No Play | 0 |
 | Wyoming @ UTEP | total | Over 40.5 | 53% | +2.4 pts | No Play | 0 |
-| Wyoming @ UTEP | moneyline | UTEP ML +240 | 30% | +0.4% | No Play | 0 |
+| Wyoming @ UTEP | moneyline | UTEP ML +250 | 30% | +1.2% | No Play | 0 |
 | Duke @ Miami | spread | Miami -13.5 (spread) | 51% |  | No Play | 0 |
 | Duke @ Miami | total | Under 54.5 | 51% | +0.6 pts | No Play | 0 |
 | Duke @ Miami | moneyline | Duke ML +410 | 18% | -1.8% | No Play | 0 |
@@ -126,8 +126,8 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Ole Miss @ Oklahoma | moneyline | Oklahoma ML -112 | 53% | -0.3% | No Play | 0 |
 | Clemson @ Duke | moneyline | Duke ML -110 (price estimated from the line) | 70% | +17.2% | No Play | 0 |
 | Florida International @ Delaware | spread | Florida International +5.5 (spread) | 50% |  | No Play | 0 |
-| Florida International @ Delaware | total | Under 53.5 | 52% | +1.6 pts | No Play | 0 |
-| Florida International @ Delaware | moneyline | Florida International ML +154 | 40% | +0.6% | No Play | 0 |
+| Florida International @ Delaware | total | Under 54.5 | 52% | +1.9 pts | No Play | 0 |
+| Florida International @ Delaware | moneyline | Florida International ML +164 | 39% | +1.0% | No Play | 0 |
 | Northwestern @ Ohio State | spread | Ohio State -12.5 (spread) | 51% |  | No Play | 0 |
 | Northwestern @ Ohio State | total | Over 44.5 | 52% | +1.7 pts | No Play | 0 |
 | Northwestern @ Ohio State | moneyline | Ohio State ML -550 | 83% | -2.0% | No Play | 0 |
@@ -145,8 +145,8 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Ohio State @ Nebraska | moneyline | Ohio State ML -198 | 65% | -1.0% | No Play | 0 |
 | Bowling Green @ Toledo | moneyline | Toledo ML -110 (price estimated from the line) | 87% | +34.9% | No Play | 0 |
 | Alabama @ Vanderbilt | spread | Alabama -15.5 (spread) | 50% |  | Lean | 0.5 |
-| Alabama @ Vanderbilt | total | Over 49.5 | 52% | +1.8 pts | No Play | 0 |
-| Alabama @ Vanderbilt | moneyline | Vanderbilt ML +550 | 13% | -2.0% | No Play | 0 |
+| Alabama @ Vanderbilt | total | Over 50.5 | 52% | +1.4 pts | No Play | 0 |
+| Alabama @ Vanderbilt | moneyline | Vanderbilt ML +575 | 13% | -1.5% | No Play | 0 |
 | Texas Tech @ Baylor | spread | Texas Tech -1.5 (spread) | 50% |  | No Play | 0 |
 | Texas Tech @ Baylor | total | Over 55.5 | 50% | +0.0 pts | No Play | 0 |
 | Texas Tech @ Baylor | moneyline | Texas Tech ML -112 | 54% | +1.2% | No Play | 0 |
@@ -235,7 +235,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 |---|---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | spread | Los Angeles Chargers +4.5 (spread) | 59% |  | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | +1.9 pts | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | +4.7% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | +5.3% | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | spread | Tennessee Titans +10.5 (spread) | 55% |  | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | total | Under 46.5 | 53% | +0.8 pts | No Play | 0 |
 | Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | +3.8% | Lean | 0.5 |
@@ -253,7 +253,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Carolina Panthers @ New Orleans Saints | moneyline | New Orleans Saints ML -135 | 56% | -1.0% | No Play | 0 |
 | Los Angeles Rams @ Arizona Cardinals | spread | Los Angeles Rams -9.5 (spread) | 52% |  | No Play | 0 |
 | Los Angeles Rams @ Arizona Cardinals | total | Over 39.5 | 57% | +1.9 pts | Lean | 0.5 |
-| Los Angeles Rams @ Arizona Cardinals | moneyline | Arizona Cardinals ML +390 | 22% | +1.3% | No Play | 0 |
+| Los Angeles Rams @ Arizona Cardinals | moneyline | Arizona Cardinals ML +380 | 22% | +0.9% | No Play | 0 |
 | Minnesota Vikings @ Green Bay Packers | spread | Minnesota Vikings +3.5 (spread) | 56% |  | Lean | 0.5 |
 | Minnesota Vikings @ Green Bay Packers | total | Under 42.5 | 52% | +0.6 pts | No Play | 0 |
 | Minnesota Vikings @ Green Bay Packers | moneyline | Minnesota Vikings ML +130 | 41% | -2.1% | No Play | 0 |
