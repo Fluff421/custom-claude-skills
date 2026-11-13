@@ -1,3 +1,5 @@
+> Superseded on 2026-11-13 by [GROK_INSTRUCTIONS_V3.md](GROK_INSTRUCTIONS_V3.md). Kept for check values and retry details referenced there.
+
 # Grok instructions v2: official availability reports, quarterback starters, and self-review
 
 Version 2026-10-30 (v2, replaces v1). Read all of it before every run. It covers your three automations: injuries (9:30 PM Central daily), ops check (9:00 AM Central daily) and learning note (Monday 10:00 AM Central).
