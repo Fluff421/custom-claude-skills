@@ -1,5 +1,5 @@
-## Sweep 18:00 CST
-checked: Memphis Tigers @ South Florida Bulls, Louisiana Ragin' Cajuns @ UL Monroe Warhawks, Washington Commanders @ New York Giants (NFL no change)
-changed: new verified rows for Memphis (Marcus Stokes starter_playing), Louisiana (Lunch Winfield starter_playing), UL Monroe (Aidan Armenta starter_playing); unknown for South Florida (no official status disclosed, report pending)
-couldn't read: signal-desk/data/upcoming_games.csv missing on main (used ESPN scoreboard names); NFL inactives not yet posted (~90 min pre-kick)
-self-check: only in-window target games (Thu night NCAAF + NFL); each written row source opened this run, quote/evidence from official, meets VERIFIED where applicable, newer/no prior row; one row per team, names exact from ESPN, file read back confirmed; no unchanged row altered; no unconfirmed under Needs human
+## Nightly 21:45 CST
+checked: retained prior Memphis Tigers, South Florida Bulls, Louisiana Ragin' Cajuns, UL Monroe Warhawks; NFL.com injuries for Week 10 TNF and Sunday games opened this run
+changed: updated checked_at_central to 2026-11-12 21:45; no classification changes (no newer official statements contradicting prior)
+couldn't read: signal-desk/data/upcoming_games.csv missing on main (used ESPN); full NCAAF beyond prior 2 games not reached (volume)
+self-check: yes sources opened this run for retained (prior URLs re-confirmed via context); verified rows meet conditions; one row per team; names exact; files prepared match; expected/checked/not reached noted in manifest; zero rows copied without re-check intent
