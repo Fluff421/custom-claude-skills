@@ -7,6 +7,7 @@ Companion files:
 | File | Use it for |
 |---|---|
 | [AI_HANDOFF.md](AI_HANDOFF.md) | The one file any other AI reads first: goals, architecture, rules, where to write, how to coordinate |
+| [SCHEDULER_SETUP.md](SCHEDULER_SETUP.md) | Free cron-job.org setup that starts the morning and grading workflows on time |
 | [AI_PROMPTS.md](AI_PROMPTS.md) | Copy-ready prompts for Grok, ChatGPT, Gemini, Claude or any other assistant |
 | [research/GROK_INSTRUCTIONS_V3.md](research/GROK_INSTRUCTIONS_V3.md) | Grok's standing instructions for every Grok scheduled task |
 | [SPLASH_EXTRACTION_LINES.md](SPLASH_EXTRACTION_LINES.md) | File 1 extraction prompt (Splash lines) |
@@ -178,7 +179,7 @@ Times are Central Standard Time; the jobs pick the right UTC slot across dayligh
 
 GitHub does not guarantee scheduled start times and drops runs under load. The code and thresholds are fine; the clock is the problem. Options, cheapest first:
 
-1. **Free external trigger (recommended, $0).** A free scheduler such as cron-job.org calls GitHub's workflow-dispatch API for Context & Calibrate at 6:13 AM (Snapshot and Pick Engine then follow automatically) and Close & Grade at 7:30 AM (optionally hourly on game days). You create a fine-grained GitHub token limited to this one repository with Actions read and write, and paste it only into the scheduler. Request body: `{"ref":"main","inputs":{"live":"true"}}` to `https://api.github.com/repos/Fluff421/custom-claude-skills/actions/workflows/context-calibrate.yml/dispatches` (and `close-grade.yml`).
+1. **Free external trigger (recommended, $0).** A free scheduler such as cron-job.org calls GitHub's workflow-dispatch API for Context & Calibrate at 6:13 AM (Snapshot and Pick Engine then follow automatically) Close & Grade every hour at :37, and Briefing Readiness at 8:23 AM. You create a fine-grained GitHub token limited to this one repository with Actions read and write, and paste it only into the scheduler. Request body: `{"ref":"main","inputs":{"live":"true"}}` to `https://api.github.com/repos/Fluff421/custom-claude-skills/actions/workflows/context-calibrate.yml/dispatches` (and `close-grade.yml`; Briefing Readiness takes `{"ref":"main"}`). Full step-by-step setup: [SCHEDULER_SETUP.md](SCHEDULER_SETUP.md).
 2. **Perplexity dispatcher task.** A small separate task at about 6:05 AM that only dispatches those workflows and confirms they started. Reliable, but costs credits every day. The daily briefing itself stays read-only.
 3. **Move the briefing later** (for example 5:30 PM). No setup, but grading freshness (under 2 hours) would still fail often because Close & Grade is skipped most hours.
 
@@ -267,6 +268,6 @@ How to read the trend: look for CLV staying positive over many picks, Brier drif
 
 ## 11. Change log
 
-- **2026-11-13:** this guide, AI_HANDOFF.md, AI_PROMPTS.md and GROK_INSTRUCTIONS_V3.md added; ASK_SIGNAL_DESK.md schedule and Grok sections corrected; version 2 Grok instructions marked superseded; other-AI research folder `research/feed/external/` defined (log only); Perplexity weekly picks, on-demand picks, Splash comparison, daily briefing and weekly Splash reminder prompts updated (7.2). Late GitHub schedules documented with options (7.4).
+- **2026-11-13:** this guide, AI_HANDOFF.md, AI_PROMPTS.md and GROK_INSTRUCTIONS_V3.md added; ASK_SIGNAL_DESK.md schedule and Grok sections corrected; version 2 Grok instructions marked superseded; other-AI research folder `research/feed/external/` defined (log only); Perplexity weekly picks, on-demand picks, Splash comparison, daily briefing and weekly Splash reminder prompts updated (7.2). Late GitHub schedules documented with options (7.4). Owner chose the free external scheduler; setup sheet SCHEDULER_SETUP.md added.
 
 The owner can run the Splash picks comparison (File 2 dump of pending or completed picks) and the weekly Splash spreads request (File 1 line dump) manually at any time. Paper picks only; verify against your Splash line before locking.
