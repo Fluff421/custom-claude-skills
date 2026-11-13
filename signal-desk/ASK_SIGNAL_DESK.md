@@ -38,7 +38,7 @@ The data map and answer playbooks follow below in this file.
 - Friendly, brief, no emojis, no exclamation points.
 
 ## Continuous learning
-Each answer should also report what the system learned: read `intelligence/learning_log.csv` (tuning change events), `learning_state.csv` (daily state), `markets/scorecards.json` and `market_params.json`. If they are empty, say learning has not triggered yet and why (sample minimums). Newest automation findings live in `intelligence/splash_picks/`, `intelligence/grok_notes/`, `data/ops_status.json`.
+Each answer should also report what the system learned: read `intelligence/learning_log.csv` (tuning change events), `learning_state.csv` (daily state), `markets/scorecards.json` and `market_params.json`. If they are empty, say learning has not triggered yet and why (sample minimums). Newest automation findings live in `intelligence/splash_picks/`, `data/ops_status.json` and Grok's feed branch `research/grok-feed`.
 
 ---
 
@@ -62,15 +62,16 @@ Fields include Game, League, Date, Home/Away Team, FPI values, Model Home Margin
 
 ## Operations
 - `data/ops_status.json`: ledger health and per-workflow health and `schedule_health`. `data/graded_picks.csv`, `data/snapshot.json`: snapshot exports.
-- `intelligence/grok_notes/*.md` and `intelligence/grok_notes/availability_{nfl|ncaaf}/YYYY-MM-DD/qb_starters.csv`: Grok's injury and QB notes (read by the model once merged to main). Branch `research/grok-feed` is the older feed.
+- Grok's feed: branch `research/grok-feed`, folder `research/feed/` (`availability_{nfl|ncaaf}/YYYY-MM-DD/qb_starters.csv` read by Context & Calibrate, newest three folders; `ops/`, `coordination/grok_status/`, `coordination/responses/`, `weather/`, `closing_lines/`, `external/`). `intelligence/grok_notes/` on main holds one old note and must not receive new availability folders. Grok follows [research/GROK_INSTRUCTIONS_V3.md](research/GROK_INSTRUCTIONS_V3.md); version 2 is superseded.
+- Coordination and onboarding for other AIs: [AI_HANDOFF.md](AI_HANDOFF.md); owner manual [OWNER_GUIDE.md](OWNER_GUIDE.md); reusable prompts [AI_PROMPTS.md](AI_PROMPTS.md).
 - Docs: `MODEL.md` (model spec, current rules), `LEDGER.md`, `intelligence/README.md`, `intelligence/ROADMAP.md`, `research/SOURCES.md`.
 
-## Workflows (GitHub Actions, UTC)
-ESPN Sync :27 every 3h; Pick Engine :47 every 3h and right after each successful Context & Calibrate run (also markets); Close & Grade :37 hourly; NCAAF Injury Pull :33 every 3h Wed-Sat, 14:33 Sun-Tue; Context & Calibrate 13:43 daily (market learning, learning_log); Snapshot 13:17/14:17 gated to 8:17 AM Central; BIM grader :27 every 2h Sun, Mon, Thu, Fri, Sat; Splash compare manual dispatch.
+## Workflows (GitHub Actions; schedules in Central, verified 2026-11-13)
+Context & Calibrate 6:13 AM daily (market learning, learning_log, Grok QB rows); Snapshot 7:47 AM and right after Context; Briefing Readiness 8:23 AM; NCAAF Injury Pull 6:33 AM Sun-Tue plus every 3 hours Wed-Sat; Close & Grade :37 hourly; ESPN Sync :27 every 3 hours; Pick Engine :47 every 3 hours and after Context (also markets); Seed Ledger :17 every 3 hours; BIM grader :27 every 2 hours Sun, Mon, Thu, Fri, Sat; Splash JSON inbox on push; Splash compare manual dispatch. GitHub has been starting scheduled runs hours late or skipping them since 2026-11-06; check actual run start times, not the schedule (OWNER_GUIDE.md section 7.4).
 Repo variables control live writes (for example FACTOR_MODE=live, MARKETS_LIVE, MARKET_LEARN_LIVE, REPRICE_LIVE). Do not change them; ask the user.
 
 ## Perplexity automations (user account)
-Daily briefing `7d7639b8-db78-4f6c-941f-581bf17d0721` (8:30 AM Central); Splash picks vs model on demand `aea703e2-c24b-4251-9ef1-a6956f28c596`; weekly Splash spreads request `0beca3da-f5fa-4b5a-986d-f5bf7698c425` (Mondays 9 AM Central); weekly picks briefing `9571d4dc-d864-4276-982e-0a4e1ac5fb1a` (Sundays 6 PM Central); on-demand picks `5e099cdd-3ee0-426f-bf79-bcda576019a4` (Run now). In Perplexity, read their run history for the latest outputs. Grok runs separate automations (ops check 9 AM, injuries 9:30 PM, learning note Monday 10 AM Central); their results arrive as PRs into `intelligence/grok_notes/`.
+Daily briefing `7d7639b8-db78-4f6c-941f-581bf17d0721` (8:30 AM Central); Splash picks vs model on demand `aea703e2-c24b-4251-9ef1-a6956f28c596`; weekly Splash spreads request `0beca3da-f5fa-4b5a-986d-f5bf7698c425` (Mondays 9 AM Central); weekly picks briefing `9571d4dc-d864-4276-982e-0a4e1ac5fb1a` (Sundays 6 PM Central); on-demand picks `5e099cdd-3ee0-426f-bf79-bcda576019a4` (Run now). In Perplexity, read their run history for the latest outputs. Grok runs separate automations (nightly QB board 9:45 PM, ops check 8:45 AM and 4:45 PM, game-window sweep on game days, learning note Monday 10 AM Central); they write directly to branch `research/grok-feed` and log each run in `research/feed/coordination/grok_status/`.
 
 
 ---
