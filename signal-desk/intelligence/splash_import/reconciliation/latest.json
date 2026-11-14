@@ -1,13 +1,12 @@
 {
-  "generated_at_utc": "2026-11-14T06:38:17.554816+00:00",
+  "generated_at_utc": "2026-11-14T07:00:38.257332+00:00",
   "note": "Ledger-derived outcomes at recorded Splash lines. Not a new owner result dump.",
   "sample_size_legs": 73,
   "leg_results": {
-    "Loss": 27,
-    "Win": 45,
-    "pending": 1
+    "Loss": 28,
+    "Win": 45
   },
-  "stale_capture_status_count": 36,
+  "stale_capture_status_count": 37,
   "legs": [
     {
       "logged_at": "2026-11-01 21:42Z",
@@ -2776,7 +2775,7 @@
       "ledger_record_id": "recg9BSUGihaHNivc",
       "model_status": "available",
       "leg_result": "Loss",
-      "ticket_result": "pending"
+      "ticket_result": "Loss"
     },
     {
       "logged_at": "2026-11-13 23:00Z",
@@ -2815,7 +2814,7 @@
       "ledger_record_id": "recelvIXB5nNARazi",
       "model_status": "available",
       "leg_result": "Win",
-      "ticket_result": "pending"
+      "ticket_result": "Loss"
     },
     {
       "logged_at": "2026-11-13 23:00Z",
@@ -2853,8 +2852,8 @@
       "reference_origin": "repository",
       "ledger_record_id": "recFCrnDbWFklfWPW",
       "model_status": "available",
-      "leg_result": "pending",
-      "ticket_result": "pending"
+      "leg_result": "Loss",
+      "ticket_result": "Loss"
     }
   ]
 }
