@@ -22,7 +22,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | North Texas @ Tulane | moneyline | North Texas ML -110 (price estimated from the line) | 77% | +24.8% | No Play | 0 |
 | Miami (OH) @ Kent State | moneyline | Miami (OH) ML -110 (price estimated from the line) | 79% | +26.4% | No Play | 0 |
 | California @ Virginia | spread | Virginia -10 (spread) | 51% |  | No Play | 0 |
-| California @ Virginia | total | Over 46.5 | 52% | +1.8 pts | No Play | 0 |
+| California @ Virginia | total | Over 46.5 | 51% | +0.9 pts | No Play | 0 |
 | California @ Virginia | moneyline | California ML +360 | 22% | -0.2% | No Play | 0 |
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 44.5 | 52% | +1.4 pts | No Play | 0 |
@@ -96,7 +96,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Wyoming @ UTEP | total | Over 40.5 | 53% | +2.4 pts | No Play | 0 |
 | Wyoming @ UTEP | moneyline | UTEP ML +230 | 31% | +0.5% | No Play | 0 |
 | Georgia Southern @ Georgia State | spread | Georgia State +5.5 (spread) | 51% |  | No Play | 0 |
-| Georgia Southern @ Georgia State | total | Under 55.5 | 51% | +0.4 pts | No Play | 0 |
+| Georgia Southern @ Georgia State | total | Under 55.5 | 52% | +1.3 pts | No Play | 0 |
 | Georgia Southern @ Georgia State | moneyline | Georgia State ML +185 | 36% | +0.4% | No Play | 0 |
 | East Carolina @ Army | moneyline | Army ML -110 (price estimated from the line) | 59% | +6.6% | No Play | 0 |
 | San José State @ Air Force | spread | San José State +12.5 (spread) | 51% |  | No Play | 0 |
@@ -112,7 +112,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Jacksonville State @ Western Kentucky | total | Under 54.5 | 50% | +0.3 pts | No Play | 0 |
 | Jacksonville State @ Western Kentucky | moneyline | Western Kentucky ML +240 | 31% | +1.6% | No Play | 0 |
 | Texas Tech @ Oklahoma State | spread | Texas Tech +3.5 (spread) | 51% |  | No Play | 0 |
-| Texas Tech @ Oklahoma State | total | Under 73.5 | 55% | +3.8 pts | Lean | 0.5 |
+| Texas Tech @ Oklahoma State | total | Under 73.5 | 54% | +2.9 pts | Lean | 0.5 |
 | Texas Tech @ Oklahoma State | moneyline | Texas Tech ML +142 | 42% | +0.5% | No Play | 0 |
 | Stanford @ Virginia Tech | spread | Virginia Tech -14.5 (spread) | 51% |  | No Play | 0 |
 | Stanford @ Virginia Tech | total | Under 57.5 | 50% | +0.0 pts | No Play | 0 |
@@ -174,11 +174,11 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Kennesaw State @ Sam Houston | total | Over 44.5 | 52% | +1.8 pts | No Play | 0 |
 | Kennesaw State @ Sam Houston | moneyline | Sam Houston ML +250 | 29% | +0.7% | No Play | 0 |
 | Michigan @ Oregon | spread | Oregon -11.5 (spread) | 51% |  | No Play | 0 |
-| Michigan @ Oregon | total | Over 39.5 | 53% | +2.7 pts | Lean | 0.5 |
+| Michigan @ Oregon | total | Over 39.5 | 52% | +1.8 pts | No Play | 0 |
 | Michigan @ Oregon | moneyline | Michigan ML +310 | 24% | -0.0% | No Play | 0 |
 | Kansas State @ TCU | spread | Kansas State +10 (spread) | 51% |  | No Play | 0 |
-| Kansas State @ TCU | total | Over 44.5 | 51% | +1.0 pts | No Play | 0 |
-| Kansas State @ TCU | moneyline | Kansas State ML +400 | 19% | -1.1% | No Play | 0 |
+| Kansas State @ TCU | total | Over 44.5 | 52% | +1.8 pts | No Play | 0 |
+| Kansas State @ TCU | moneyline | Kansas State ML +400 | 20% | -0.3% | No Play | 0 |
 | Missouri @ Georgia | spread | Georgia -15.5 (spread) | 50% |  | No Play | 0 |
 | Missouri @ Georgia | total | Over 48.5 | 52% | +1.5 pts | No Play | 0 |
 | Missouri @ Georgia | moneyline | Missouri ML +550 | 13% | -2.0% | No Play | 0 |
@@ -220,18 +220,18 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | New Mexico @ Wyoming | moneyline | New Mexico ML -110 (price estimated from the line) | 86% | +33.9% | No Play | 0 |
 | UNLV @ San José State | moneyline | UNLV ML -110 (price estimated from the line) | 62% | +9.7% | No Play | 0 |
 | Tennessee @ Texas A&M | spread | Texas A&M +2.5 (spread) | 50% |  | No Play | 0 |
-| Tennessee @ Texas A&M | total | Over 43.5 | 51% | +0.7 pts | No Play | 0 |
+| Tennessee @ Texas A&M | total | Over 43.5 | 52% | +1.5 pts | No Play | 0 |
 | Tennessee @ Texas A&M | moneyline | Tennessee ML -112 | 55% | +1.7% | No Play | 0 |
 | Missouri State @ Jacksonville State | moneyline | Jacksonville State ML -110 (price estimated from the line) | 80% | +27.6% | No Play | 0 |
 | Western Kentucky @ Liberty | moneyline | Liberty ML -110 (price estimated from the line) | 93% | +40.5% | No Play | 0 |
 
 ### NCAAF Best parlays
 
-- Under 73.5 + Under 68.5: model 29.3%, needs +261 to break even (reference payout +261), edge +1.6%, No Play
-- Over 46.5 + Under 73.5: model 29.2%, needs +261 to break even (reference payout +261), edge +1.5%, No Play
-- Under 76.5 + Under 73.5: model 29.4%, needs +257 to break even (reference payout +257), edge +1.4%, No Play
-- Under 73.5 + Under 73.5: model 29.3%, needs +257 to break even (reference payout +257), edge +1.3%, No Play
-- Under 73.5 + Over 39.5: model 29.1%, needs +257 to break even (reference payout +257), edge +1.1%, No Play
+- Under 73.5 + Under 68.5: model 28.8%, needs +261 to break even (reference payout +261), edge +1.1%, No Play
+- Over 46.5 + Under 73.5: model 28.6%, needs +261 to break even (reference payout +261), edge +0.9%, No Play
+- Under 76.5 + Under 73.5: model 28.8%, needs +257 to break even (reference payout +257), edge +0.8%, No Play
+- Over 46.5 + Under 68.5: model 28.7%, needs +258 to break even (reference payout +258), edge +0.8%, No Play
+- Under 73.5 + Under 73.5: model 28.8%, needs +257 to break even (reference payout +257), edge +0.8%, No Play
 
 ## NFL
 
@@ -274,7 +274,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 54% | +1.1 pts | No Play | 0 |
 | Indianapolis Colts @ Houston Texans | moneyline | Indianapolis Colts ML +350 | 23% | +0.7% | No Play | 0 |
 | Buffalo Bills @ New York Jets | spread | New York Jets +8.5 (spread) | 52% |  | No Play | 0 |
-| Buffalo Bills @ New York Jets | total | Under 50.5 | 55% | +1.3 pts | No Play | 0 |
+| Buffalo Bills @ New York Jets | total | Under 50.5 | 52% | +0.5 pts | No Play | 0 |
 | Buffalo Bills @ New York Jets | moneyline | New York Jets ML +330 | 24% | +1.2% | No Play | 0 |
 | New England Patriots @ Detroit Lions | spread | New England Patriots +2.5 (spread) | 54% |  | Lean | 0.5 |
 | New England Patriots @ Detroit Lions | total | Under 49.5 | 52% | +0.5 pts | No Play | 0 |
