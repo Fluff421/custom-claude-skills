@@ -27,9 +27,6 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 44.5 | 52% | +1.4 pts | No Play | 0 |
 | Utah @ TCU | moneyline | Utah ML -192 (price estimated from the line) | 65% | -0.4% | No Play | 0 |
-| Cincinnati @ Iowa State | spread | Cincinnati +3 (spread) | 51% |  | No Play | 0 |
-| Cincinnati @ Iowa State | total | Over 57.5 | 51% | +0.5 pts | No Play | 0 |
-| Cincinnati @ Iowa State | moneyline | Iowa State ML -130 | 56% | -0.6% | No Play | 0 |
 | Eastern Michigan @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 88% | +36.1% | No Play | 0 |
 | Baylor @ BYU | spread | Baylor +7.5 (spread) | 51% |  | No Play | 0 |
 | Baylor @ BYU | total | Over 50.5 | 50% | +0.3 pts | No Play | 0 |
@@ -182,6 +179,9 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Kansas State @ TCU | spread | Kansas State +10 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ TCU | total | Over 44.5 | 52% | +1.8 pts | No Play | 0 |
 | Kansas State @ TCU | moneyline | Kansas State ML +400 | 19% | -1.1% | No Play | 0 |
+| East Carolina @ Charlotte | spread | East Carolina -11.5 (spread) | 51% |  | No Play | 0 |
+| East Carolina @ Charlotte | total | Over 46.5 | 51% | +1.2 pts | No Play | 0 |
+| East Carolina @ Charlotte | moneyline | Charlotte ML +370 | 19% | -1.8% | No Play | 0 |
 | Missouri @ Georgia | spread | Georgia -15.5 (spread) | 50% |  | No Play | 0 |
 | Missouri @ Georgia | total | Over 48.5 | 52% | +1.5 pts | No Play | 0 |
 | Missouri @ Georgia | moneyline | Missouri ML +550 | 13% | -2.0% | No Play | 0 |
@@ -207,7 +207,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Vanderbilt @ Florida | moneyline | Florida ML -110 (price estimated from the line) | 83% | +30.6% | No Play | 0 |
 | Tulane @ Rice | spread | Tulane +2.5 (spread) | 52% |  | No Play | 0 |
 | Tulane @ Rice | total | Over 48.5 | 52% | +1.5 pts | No Play | 0 |
-| Tulane @ Rice | moneyline | Tulane ML +140 | 44% | +2.5% | No Play | 0 |
+| Tulane @ Rice | moneyline | Tulane ML +150 | 43% | +3.0% | Lean | 0.5 |
 | Boston College @ Notre Dame | spread | Notre Dame -29.5 (spread) | 51% |  | No Play | 0 |
 | Boston College @ Notre Dame | total | Over 51.5 | 50% | +0.3 pts | No Play | 0 |
 | Boston College @ Notre Dame | moneyline | Notre Dame ML -5000 | 98% | -0.2% | No Play | 0 |
@@ -223,18 +223,18 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | New Mexico @ Wyoming | moneyline | New Mexico ML -110 (price estimated from the line) | 86% | +33.9% | No Play | 0 |
 | UNLV @ San José State | moneyline | UNLV ML -110 (price estimated from the line) | 62% | +9.7% | No Play | 0 |
 | Tennessee @ Texas A&M | spread | Texas A&M +2.5 (spread) | 50% |  | No Play | 0 |
-| Tennessee @ Texas A&M | total | Over 43.5 | 52% | +1.5 pts | No Play | 0 |
-| Tennessee @ Texas A&M | moneyline | Tennessee ML -112 | 55% | +1.7% | No Play | 0 |
+| Tennessee @ Texas A&M | total | Over 44.5 | 52% | +1.2 pts | No Play | 0 |
+| Tennessee @ Texas A&M | moneyline | Tennessee ML -115 | 55% | +1.1% | No Play | 0 |
 | Missouri State @ Jacksonville State | moneyline | Jacksonville State ML -110 (price estimated from the line) | 80% | +27.6% | No Play | 0 |
 | Western Kentucky @ Liberty | moneyline | Liberty ML -110 (price estimated from the line) | 93% | +40.5% | No Play | 0 |
 
 ### NCAAF Best parlays
 
-- Under 73.5 + Under 68.5: model 28.8%, needs +261 to break even (reference payout +261), edge +1.1%, No Play
-- Over 46.5 + Under 73.5: model 28.6%, needs +261 to break even (reference payout +261), edge +0.9%, No Play
-- Under 76.5 + Under 73.5: model 28.8%, needs +257 to break even (reference payout +257), edge +0.8%, No Play
-- Over 46.5 + Under 68.5: model 28.7%, needs +258 to break even (reference payout +258), edge +0.8%, No Play
-- Under 73.5 + Under 73.5: model 28.8%, needs +257 to break even (reference payout +257), edge +0.8%, No Play
+- Under 73.5 + Tulane ML +150: model 23.0%, needs +377 to break even (reference payout +377), edge +2.1%, Lean
+- Under 68.5 + Tulane ML +150: model 23.1%, needs +373 to break even (reference payout +373), edge +2.0%, No Play
+- Over 46.5 + Tulane ML +150: model 23.0%, needs +373 to break even (reference payout +373), edge +1.9%, No Play
+- Under 76.5 + Tulane ML +150: model 23.2%, needs +367 to break even (reference payout +367), edge +1.8%, No Play
+- Under 73.5 + Tulane ML +150: model 23.1%, needs +367 to break even (reference payout +367), edge +1.7%, No Play
 
 ## NFL
 
@@ -245,13 +245,13 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | +4.7% | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | spread | Tennessee Titans +10.5 (spread) | 55% |  | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | total | Under 46.5 | 53% | +0.8 pts | No Play | 0 |
-| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | +3.8% | Lean | 0.5 |
+| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +525 | 20% | +4.4% | Lean | 0.5 |
 | Houston Texans @ Cleveland Browns | spread | Houston Texans -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Houston Texans @ Cleveland Browns | total | Over 40.5 | 52% | +0.6 pts | No Play | 0 |
 | Houston Texans @ Cleveland Browns | moneyline | Cleveland Browns ML +195 | 34% | +0.4% | No Play | 0 |
 | San Francisco 49ers @ Dallas Cowboys | spread | Dallas Cowboys +4.5 (spread) | 58% |  | Strong Play | 1 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | +1.8 pts | Lean | 0.5 |
-| San Francisco 49ers @ Dallas Cowboys | moneyline | Dallas Cowboys ML +180 | 38% | +2.1% | No Play | 0 |
+| San Francisco 49ers @ Dallas Cowboys | moneyline | Dallas Cowboys ML +170 | 38% | +0.8% | No Play | 0 |
 | Seattle Seahawks @ Las Vegas Raiders | spread | Las Vegas Raiders +6.5 (spread) | 58% |  | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | +2.1 pts | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | moneyline | Las Vegas Raiders ML +245 | 31% | +1.8% | No Play | 0 |

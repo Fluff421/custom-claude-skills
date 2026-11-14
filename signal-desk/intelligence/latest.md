@@ -166,7 +166,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | Lean | 0.5 |
 | Arizona State @ UCF | total | Over 46.5 | 53% | Lean | 0.5 |
-| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | Lean | 0.5 |
+| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +525 | 20% | Lean | 0.5 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
 | North Texas @ UTSA | total | Under 76.5 | 54% | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | Lean | 0.5 |
@@ -175,9 +175,10 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Texas Tech @ Oklahoma State | total | Under 73.5 | 54% | Lean | 0.5 |
 | Kansas @ West Virginia | total | Under 68.5 | 54% | Lean | 0.5 |
 | Florida Atlantic @ Tulsa | total | Under 73.5 | 54% | Lean | 0.5 |
-- NCAAF parlay: Under 73.5 + Under 68.5 | model 28.8%, needs +261 to break even, edge +1.1%, No Play
-- NCAAF parlay: Over 46.5 + Under 73.5 | model 28.6%, needs +261 to break even, edge +0.9%, No Play
-- NCAAF parlay: Under 76.5 + Under 73.5 | model 28.8%, needs +257 to break even, edge +0.8%, No Play
+| Tulane @ Rice | moneyline | Tulane ML +150 | 43% | Lean | 0.5 |
+- NCAAF parlay: Under 73.5 + Tulane ML +150 | model 23.0%, needs +377 to break even, edge +2.1%, Lean
+- NCAAF parlay: Under 68.5 + Tulane ML +150 | model 23.1%, needs +373 to break even, edge +2.0%, No Play
+- NCAAF parlay: Over 46.5 + Tulane ML +150 | model 23.0%, needs +373 to break even, edge +1.9%, No Play
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Kansas City Chiefs -3.5 (spread) | model 42.0%, needs +265 to break even, edge +14.6%, Max Play
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +271 to break even, edge +14.4%, Max Play
 - NFL parlay: Los Angeles Chargers +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 41.2%, needs +265 to break even, edge +13.7%, Max Play

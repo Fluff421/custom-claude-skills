@@ -1187,3 +1187,11 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-14T18:29:28+00:00,recic9i42i05ISszm,401856862,NCAAF,Kansas State @ TCU,2026-11-14,Draft Kings,13.5,44.5,-535,400,-110.0,-110.0,-112.0,-108.0,9.5
 2026-11-14T18:33:29+00:00,recW4JsOwbX8uQmjE,401871060,NCAAF,Florida International @ Delaware,2026-11-14,DraftKings,3.5,54.5,-185,154,-112.0,-108.0,-112.0,-108.0,6.5
 2026-11-14T18:33:29+00:00,recic9i42i05ISszm,401856862,NCAAF,Kansas State @ TCU,2026-11-14,DraftKings,14.0,44.5,-535,400,-108.0,-112.0,-112.0,-108.0,9.5
+2026-11-14T18:52:33+00:00,rec2xpPh9yIsCppgq,401873057,NFL,Jacksonville Jaguars @ Tennessee Titans,2026-11-15,Draft Kings,-10.5,46.5,525,-750,-105.0,-115.0,-110.0,-110.0,-2.5
+2026-11-14T18:52:33+00:00,rec5sbM7PV1lIfVfC,401858295,NCAAF,California @ Virginia,2026-11-14,Draft Kings,11.5,46.5,-470,360,-110.0,-110.0,-112.0,-108.0,12.5
+2026-11-14T18:52:33+00:00,recAWaU5OhKm6iTgv,401873063,NFL,San Francisco 49ers @ Dallas Cowboys,2026-11-15,Draft Kings,-4.5,55.5,170,-205,-115.0,-105.0,-118.0,-102.0,1.5
+2026-11-14T18:52:33+00:00,recbe0DRlCxEUlkhc,401856861,NCAAF,Kansas @ West Virginia,2026-11-14,Draft Kings,1.5,68.5,-125,105,-110.0,-110.0,-108.0,-112.0,2.5
+2026-11-14T18:52:33+00:00,recic9i42i05ISszm,401856862,NCAAF,Kansas State @ TCU,2026-11-14,Draft Kings,14.0,44.5,-535,400,-110.0,-110.0,-112.0,-108.0,9.5
+2026-11-14T18:52:33+00:00,recjKFRvTR8flDidu,401862825,NCAAF,East Carolina @ Charlotte,2026-11-14,Draft Kings,-12.5,46.5,370,-485,-112.0,-108.0,-112.0,-108.0,-13.5
+2026-11-14T18:52:33+00:00,recpmOiQq29MMNath,401862828,NCAAF,Tulane @ Rice,2026-11-14,Draft Kings,3.5,48.5,-180,150,-110.0,-110.0,-112.0,-108.0,-1.5
+2026-11-14T18:52:33+00:00,recx4NGwXuTL1eWUk,401856888,NCAAF,Tennessee @ Texas A&M,2026-11-14,Draft Kings,-1.5,44.5,-105,-115,-118.0,-102.0,-102.0,-118.0,9.5
