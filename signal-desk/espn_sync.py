@@ -89,22 +89,38 @@ def http_get(url: str, headers: dict | None = None, method: str = "GET", payload
 
 
 DIRECT_HOSTS = ("site.api.espn.com", "sports.core.api.espn.com", "site.web.api.espn.com")
-DIRECT_STATS = {"direct": 0, "scraper": 0}
+DIRECT_STATS = {"direct": 0, "scraper": 0, "retries": 0}
+# Brief network faults (connection reset, TLS alert) and ESPN 429/5xx answers are
+# retried on a fresh connection before any paid scraper call. Other 4xx answers
+# (404 and the like) are permanent and go straight to the fallback.
+DIRECT_BACKOFF = (3, 8)  # seconds before the 2nd and 3rd direct attempts
+
+
+def _transient(exc: Exception) -> bool:
+    m = re.match(r"HTTP (\d{3}) ", str(exc))
+    return not m or m[1] == "429" or m[1].startswith("5")
 
 
 def scrape(url: str, key: str, js: bool = False) -> str:
     """ESPN JSON APIs are fetched directly (no scraper call spent); WebScraping.AI is
-    only used for HTML pages or when a direct fetch fails."""
+    only used for HTML pages or when every direct attempt fails."""
     time.sleep(1.5)  # stay polite: ESPN 403s rapid sequential requests
     if urllib.parse.urlparse(url).netloc in DIRECT_HOSTS:
-        try:
-            body = http_get(url, {"User-Agent": "Mozilla/5.0 signal-desk", "Accept": "application/json"})
-            DIRECT_STATS["direct"] += 1
-            return body
-        except RuntimeError as exc:
-            if not key:
-                raise
-            print(f"Direct ESPN fetch failed ({exc}); falling back to scraper.", file=sys.stderr)
+        for attempt in range(len(DIRECT_BACKOFF) + 1):
+            try:
+                body = http_get(url, {"User-Agent": "Mozilla/5.0 signal-desk", "Accept": "application/json"})
+                DIRECT_STATS["direct"] += 1
+                return body
+            except RuntimeError as exc:
+                if attempt < len(DIRECT_BACKOFF) and _transient(exc):
+                    DIRECT_STATS["retries"] += 1
+                    print(f"Direct ESPN fetch attempt {attempt + 1} failed ({exc}); retrying.", file=sys.stderr)
+                    time.sleep(DIRECT_BACKOFF[attempt])
+                    continue
+                if not key:
+                    raise
+                print(f"Direct ESPN fetch failed ({exc}); falling back to scraper.", file=sys.stderr)
+                break
     DIRECT_STATS["scraper"] += 1
     params = urllib.parse.urlencode({"api_key": key, "url": url, "js": "true" if js else "false", "proxy": "datacenter"})
     return http_get(f"{SCRAPER_URL}?{params}")
