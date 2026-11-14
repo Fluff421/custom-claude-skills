@@ -164,7 +164,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
 | Arizona State @ UCF | total | Over 47.5 | 53% | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | Lean | 0.5 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
@@ -175,8 +175,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Texas Tech @ Oklahoma State | total | Under 73.5 | 54% | Lean | 0.5 |
 | Florida Atlantic @ Tulsa | total | Under 73.5 | 54% | Lean | 0.5 |
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +253 to break even, edge +13.0%, Max Play
-- NFL parlay: Dallas Cowboys +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 40.3%, needs +266 to break even, edge +13.0%, Max Play
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Kansas City Chiefs -3.5 (spread) | model 42.0%, needs +241 to break even, edge +12.7%, Max Play
+- NFL parlay: Los Angeles Chargers +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 41.2%, needs +250 to break even, edge +12.6%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 39.5 -> 33.5 | model 57.2%, needs +160 to break even, edge +18.8%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 38.5 -> 32.5 | model 57.1%, needs +160 to break even, edge +18.7%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5 | model 57.0%, needs +160 to break even, edge +18.6%, Max Play
@@ -293,8 +293,11 @@ Each pick is graded against the line you locked, not the early-week import. A ga
 | 2026-11-09 01:23Z | Tampa Bay Buccaneers @ Chicago Bears | parlay/spread | Tampa Bay Buccaneers 6.5 | 6.5 | 0.0 | away Lean | Win | Win |
 | 2026-11-09 01:23Z | Tampa Bay Buccaneers @ Chicago Bears | parlay/total | Tampa Bay Buccaneers / Chicago Bears 47.5 | 47.5 | 0.0 | under No Play | Win | Loss |
 | 2026-11-10 19:59Z | Buffalo Bills @ Minnesota Vikings | single/spread | Buffalo Bills -3.0 | -3.0 | 0.0 | away Lean | Win | Win |
+| 2026-11-13 23:00Z | Florida State @ Pittsburgh | parlay/spread | Pittsburgh -3.5 | -3.5 | 0.0 | home No Play | pending | pending |
+| 2026-11-13 23:00Z | Illinois @ UCLA | parlay/spread | Illinois 10.5 | 10.5 | 0.0 | away No Play | pending | pending |
+| 2026-11-13 23:00Z | Houston @ Colorado | parlay/spread | Houston -9.5 | -10.5 | 1.0 | away No Play | pending | pending |
 
-Your teasers and parlays: parlay 2026-11-05 02:53Z -> Loss (model 0.081 vs break-even 0.0753); parlay 2026-11-08 17:36Z -> Loss (model 0.0756 vs break-even 0.0753); teaser 2026-11-08 17:36Z -> Loss (model 0.3155 vs break-even 0.3846); teaser 2026-11-08 17:36Z -> Win (model 0.3197 vs break-even 0.3846); parlay 2026-11-08 17:36Z -> Loss (model 0.1528 vs break-even 0.1437); parlay 2026-11-09 00:07Z -> Loss (model 0.1008 vs break-even 0.1437); teaser 2026-11-09 00:07Z -> Win (model 0.2928 vs break-even 0.3846); parlay 2026-11-09 00:07Z -> Loss (model 0.3918 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.2634 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.1288 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.1396 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.1361 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.2613 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Win (model 0.2539 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.0646 vs break-even 0.0753); parlay 2026-11-09 01:23Z -> Win (model 0.2415 vs break-even 0.2744)
+Your teasers and parlays: parlay 2026-11-05 02:53Z -> Loss (model 0.081 vs break-even 0.0753); parlay 2026-11-08 17:36Z -> Loss (model 0.0756 vs break-even 0.0753); teaser 2026-11-08 17:36Z -> Loss (model 0.3155 vs break-even 0.3846); teaser 2026-11-08 17:36Z -> Win (model 0.3197 vs break-even 0.3846); parlay 2026-11-08 17:36Z -> Loss (model 0.1528 vs break-even 0.1437); parlay 2026-11-09 00:07Z -> Loss (model 0.1008 vs break-even 0.1437); teaser 2026-11-09 00:07Z -> Win (model 0.2928 vs break-even 0.3846); parlay 2026-11-09 00:07Z -> Loss (model 0.3918 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.2634 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.1288 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.1396 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.1361 vs break-even 0.1437); parlay 2026-11-09 00:24Z -> Loss (model 0.2613 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Win (model 0.2539 vs break-even 0.2744); parlay 2026-11-09 00:24Z -> Loss (model 0.0646 vs break-even 0.0753); parlay 2026-11-09 01:23Z -> Win (model 0.2415 vs break-even 0.2744); parlay 2026-11-13 23:00Z -> pending (model 0.132 vs break-even 0.125)
 
 By market:
 
@@ -310,7 +313,7 @@ Timing (when in the week you locked), small samples are noise until about 30 gra
 |---|---|---|---|---|
 | 5+ days before | 0 |  | 0 |  |
 | 3-4 days before | 0 |  | 0 |  |
-| 0-2 days before | 28 | 1.7 | 28 | 0.607 |
+| 0-2 days before | 31 | 1.56 | 28 | 0.607 |
 
 ## Data points to consider adding
 

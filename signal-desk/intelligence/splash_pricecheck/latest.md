@@ -1,4 +1,4 @@
-# Pick-time check at the newest Splash lines, 2026-11-13 23:26Z
+# Pick-time check at the newest Splash lines, 2026-11-14 00:37Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
@@ -8,45 +8,45 @@ The model repriced at the line on the Splash board in the newest line dump, not 
 |---|---|---|---|---|---|---|---|
 | Miami Dolphins @ Indianapolis Colts | 2026-11-15 | spread | Indianapolis Colts -3.5 | Max Play | 70.3% | 6.6 |  |
 | Kansas City Chiefs @ Atlanta Falcons | 2026-11-15 | spread | Kansas City Chiefs -3.5 | Strong Play | 59.9% | -3.1 |  |
-| San Francisco 49ers @ Dallas Cowboys | 2026-11-15 | spread | Dallas Cowboys +4.5 | Strong Play | 58.0% | 2.5 |  |
-| Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | spread | Los Angeles Chargers +4.5 | Strong Play | 62.1% | -3.8 | was away Max Play at the early line |
-| Wake Forest @ SMU | 2026-11-14 | spread | Wake Forest +1.5 | Lean | 50.0% | -1.04 |  |
+| Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | spread | Las Vegas Raiders +6.5 | Strong Play | 58.3% | 2.6 | was away No Play at the early line |
+| Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | spread | Los Angeles Chargers +4.5 | Strong Play | 61.4% | -3.6 | was away Max Play at the early line |
 | Alabama @ Vanderbilt | 2026-11-14 | spread | Alabama -15.5 | Lean | 50.0% | -1.1 |  |
-| Florida Atlantic @ Tulsa | 2026-11-14 | total | Under 73.5 | Lean | 53.8% | 3.1 |  |
 | Arizona State @ UCF | 2026-11-14 | total | Over 47.5 | Lean | 53.1% | 2.54 | was over No Play at the early line |
+| Florida Atlantic @ Tulsa | 2026-11-14 | total | Under 73.5 | Lean | 53.8% | 3.1 |  |
 | North Texas @ UTSA | 2026-11-14 | total | Under 76.5 | Lean | 53.9% | 3.19 |  |
 | Texas Tech @ Oklahoma State | 2026-11-14 | total | Under 73.5 | Lean | 53.5% | 2.91 |  |
-| New England Patriots @ Detroit Lions | 2026-11-15 | spread | New England Patriots +2.5 | Lean | 55.1% | -1.6 |  |
+| Wake Forest @ SMU | 2026-11-14 | spread | Wake Forest +1.5 | Lean | 50.0% | -1.04 |  |
+| Buffalo Bills @ New York Jets | 2026-11-15 | spread | Buffalo Bills -7.5 | Lean | 53.9% | -1.2 |  |
 | Carolina Panthers @ New Orleans Saints | 2026-11-15 | spread | Carolina Panthers +1.5 | Lean | 57.4% | -2.3 |  |
-| Miami Dolphins @ Indianapolis Colts | 2026-11-15 | total | Over 38.5 | Lean | 57.3% | 1.84 | was over No Play at the early line |
-| Jacksonville Jaguars @ Tennessee Titans | 2026-11-15 | spread | Tennessee Titans +10.5 | Lean | 53.2% | 1.0 |  |
-| Los Angeles Rams @ Arizona Cardinals | 2026-11-15 | spread | Los Angeles Rams -9.5 | Lean | 53.9% | -1.2 |  |
 | Los Angeles Rams @ Arizona Cardinals | 2026-11-15 | total | Over 39.5 | Lean | 57.4% | 1.88 |  |
-| Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | spread | Las Vegas Raiders +6.5 | Lean | 56.4% | 2.0 | was away Lean at the early line |
-| Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | total | Over 40.5 | Lean | 58.3% | 2.1 | was over No Play at the early line |
-| San Francisco 49ers @ Dallas Cowboys | 2026-11-15 | total | Under 55.5 | Lean | 57.0% | 1.76 |  |
+| Miami Dolphins @ Indianapolis Colts | 2026-11-15 | total | Over 38.5 | Lean | 57.3% | 1.84 | was over No Play at the early line |
+| Minnesota Vikings @ Green Bay Packers | 2026-11-15 | spread | Minnesota Vikings +3 | Lean | 53.2% | -1.0 | was away Strong Play at the early line |
+| New England Patriots @ Detroit Lions | 2026-11-15 | spread | New England Patriots +2.5 | Lean | 55.1% | -1.6 |  |
 | Pittsburgh Steelers @ Cincinnati Bengals | 2026-11-15 | spread | Cincinnati Bengals -3.5 | Lean | 57.7% | 2.4 |  |
+| San Francisco 49ers @ Dallas Cowboys | 2026-11-15 | spread | Dallas Cowboys +4.5 | Lean | 57.0% | 2.2 |  |
+| San Francisco 49ers @ Dallas Cowboys | 2026-11-15 | total | Under 55.5 | Lean | 57.0% | 1.76 |  |
+| Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | total | Over 40.5 | Lean | 58.3% | 2.1 | was over No Play at the early line |
 | Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | total | Over 38.5 | Lean | 57.6% | 1.93 |  |
 
 Tier or side changed since the early-week line:
 
 | Game | Date | Market | Pick now | Tier now | Win prob | Edge | Before |
 |---|---|---|---|---|---|---|---|
-| Cincinnati @ Iowa State | 2026-11-14 | total | Over 58.5 | No Play | 50.3% | 0.21 | was under No Play at the early line |
-| UAB @ Temple | 2026-11-14 | total | Over 47.5 | No Play | 50.2% | 0.19 | was under No Play at the early line |
-| Florida International @ Delaware | 2026-11-14 | spread | Delaware -4.5 | No Play | 50.2% | 0.07 | was away No Play at the early line |
 | Arizona State @ UCF | 2026-11-14 | total | Over 47.5 | Lean | 53.1% | 2.54 | was over No Play at the early line |
+| Cincinnati @ Iowa State | 2026-11-14 | total | Over 58.5 | No Play | 50.3% | 0.21 | was under No Play at the early line |
+| Florida International @ Delaware | 2026-11-14 | spread | Delaware -4.5 | No Play | 50.2% | 0.07 | was away No Play at the early line |
+| Louisville @ North Carolina | 2026-11-14 | total | Over 57.5 | No Play | 50.1% | 0.06 | was under No Play at the early line |
 | Ole Miss @ Oklahoma | 2026-11-14 | spread | Ole Miss +1.5 | No Play | 50.8% | -0.29 | was home No Play at the early line |
 | Oregon State @ Boise State | 2026-11-14 | spread | Oregon State +14.5 | No Play | 50.1% | -0.06 | was home No Play at the early line |
 | Troy @ South Alabama | 2026-11-14 | spread | South Alabama -2.5 | No Play | 50.0% | 0.01 | was away No Play at the early line |
-| Louisville @ North Carolina | 2026-11-14 | total | Over 57.5 | No Play | 50.1% | 0.06 | was under No Play at the early line |
+| UAB @ Temple | 2026-11-14 | total | Over 47.5 | No Play | 50.2% | 0.19 | was under No Play at the early line |
 | Utah @ Arizona | 2026-11-14 | total | Under 55.5 | No Play | 50.3% | 0.29 | was over No Play at the early line |
 | Wyoming @ UTEP | 2026-11-14 | total | Over 40.5 | No Play | 52.9% | 2.4 | was over Lean at the early line |
-| Minnesota Vikings @ Green Bay Packers | 2026-11-15 | spread | Minnesota Vikings +3 | No Play | 52.9% | -0.9 | was away Lean at the early line |
 | Miami Dolphins @ Indianapolis Colts | 2026-11-15 | total | Over 38.5 | Lean | 57.3% | 1.84 | was over No Play at the early line |
-| Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | spread | Las Vegas Raiders +6.5 | Lean | 56.4% | 2.0 | was away Lean at the early line |
+| Minnesota Vikings @ Green Bay Packers | 2026-11-15 | spread | Minnesota Vikings +3 | Lean | 53.2% | -1.0 | was away Strong Play at the early line |
+| Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | spread | Las Vegas Raiders +6.5 | Strong Play | 58.3% | 2.6 | was away No Play at the early line |
 | Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | total | Over 40.5 | Lean | 58.3% | 2.1 | was over No Play at the early line |
-| Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | spread | Los Angeles Chargers +4.5 | Strong Play | 62.1% | -3.8 | was away Max Play at the early line |
+| Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | spread | Los Angeles Chargers +4.5 | Strong Play | 61.4% | -3.6 | was away Max Play at the early line |
 
 Strongest 6-point teaser legs at the current lines (two-leg teaser break-even is about 72.4% per leg at -110):
 
