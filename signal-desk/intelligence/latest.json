@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "generated_at": "2026-11-14T12:47:01+00:00",
+ "generated_at": "2026-11-14T18:29:12+00:00",
  "upcoming_best": [
   {
    "game": "Miami Dolphins @ Indianapolis Colts",
@@ -51,7 +51,7 @@
    "prob": 0.5957,
    "adj_edge": null,
    "why": [
-    "weather: 41F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 40F, wind 6mph, precip 1% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -90,7 +90,7 @@
    "prob": 0.545,
    "adj_edge": null,
    "why": [
-    "weather: 52F, 3 | no severity"
+    "weather: 52F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -103,7 +103,7 @@
    "prob": 0.545,
    "adj_edge": null,
    "why": [
-    "weather: 44F, wind 13mph, precip 5% | sev=0.25 | open-meteo"
+    "weather: 44F, wind 12mph, precip 5% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -130,7 +130,7 @@
    "prob": 0.5578,
    "adj_edge": null,
    "why": [
-    "weather: 36F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 37F, wind 2mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -177,7 +177,7 @@
    "pick": "Notre Dame -29.5 (spread)",
    "prob": 0.507,
    "why": [
-    "weather: 41F, wind 3mph, precip 16% | sev=0.00 | open-meteo"
+    "weather: 42F, wind 6mph, precip 14% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -193,7 +193,7 @@
    "pick": "Miami -18.5 (spread)",
    "prob": 0.5205,
    "why": [
-    "weather: 72F, 40 | no severity"
+    "weather: 73F, 40 | no severity"
    ]
   },
   {
@@ -209,7 +209,7 @@
    "pick": "Southern Miss +17.5 (spread)",
    "prob": 0.5019,
    "why": [
-    "weather: 51F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 50F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -217,7 +217,7 @@
    "pick": "Virginia Tech -14.5 (spread)",
    "prob": 0.5062,
    "why": [
-    "weather: 36F, 34 | no severity"
+    "weather: 35F, 34 | no severity"
    ]
   },
   {
@@ -233,7 +233,7 @@
    "pick": "Miami -13.5 (spread)",
    "prob": 0.5096,
    "why": [
-    "weather: 69F, wind 9mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 70F, wind 10mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -241,7 +241,7 @@
    "pick": "Purdue +16.5 (spread)",
    "prob": 0.5023,
    "why": [
-    "weather: 39F, 34 | no severity"
+    "weather: 34F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -249,7 +249,7 @@
    "pick": "Nebraska -13.5 (spread)",
    "prob": 0.5042,
    "why": [
-    "weather: 42F, wind 8mph, precip 1% | sev=0.00 | open-meteo"
+    "weather: 42F, wind 9mph, precip 2% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -257,7 +257,7 @@
    "pick": "East Carolina -11.5 (spread)",
    "prob": 0.5092,
    "why": [
-    "weather: 52F, wind 9mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 51F, wind 10mph, precip 0% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -274,7 +274,7 @@
    "prob": 0.5085,
    "why": [
     "QB: HOME QB OUT Julian Sayin -> Luke Fahey [verified 2026-11-08] [priced: Luke Fahey led passing 2026-11-07]",
-    "weather: 41F, wind 10mph, precip 1% | sev=0.25 | open-meteo"
+    "weather: 40F, wind 9mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -282,7 +282,7 @@
    "pick": "Clemson -13.5 (spread)",
    "prob": 0.5039,
    "why": [
-    "weather: 53F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 53F, Sunny | no severity"
    ]
   },
   {
@@ -290,7 +290,7 @@
    "pick": "Virginia -10 (spread)",
    "prob": 0.5096,
    "why": [
-    "weather: 56F, 3 | no severity"
+    "weather: 47F, wind 13mph, precip 0% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -298,7 +298,7 @@
    "pick": "Oregon -11.5 (spread)",
    "prob": 0.5081,
    "why": [
-    "weather: 54F, wind 8mph, precip 4% | sev=0.00 | open-meteo"
+    "weather: 58F, wind 12mph, precip 4% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -306,7 +306,7 @@
    "pick": "Penn State -9.5 (spread)",
    "prob": 0.5123,
    "why": [
-    "weather: 37F, wind 5mph, precip 6% | sev=0.00 | open-meteo"
+    "weather: 39F, 7 | no severity"
    ]
   },
   {
@@ -314,7 +314,7 @@
    "pick": "Oregon State +13.5 (spread)",
    "prob": 0.5046,
    "why": [
-    "weather: 53F, 12 | no severity"
+    "weather: 46F, wind 6mph, precip 1% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -322,7 +322,7 @@
    "pick": "San Jos\u00e9 State +12.5 (spread)",
    "prob": 0.5104,
    "why": [
-    "weather: 41F, wind 14mph, precip 33% | sev=0.25 | open-meteo"
+    "weather: 40F, wind 13mph, precip 27% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -338,7 +338,7 @@
    "pick": "Wyoming -7.5 (spread)",
    "prob": 0.505,
    "why": [
-    "weather: 60F, 35 | no severity"
+    "weather: 51F, wind 7mph, precip 1% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -346,7 +346,7 @@
    "pick": "Wisconsin -8.5 (spread)",
    "prob": 0.5058,
    "why": [
-    "weather: 48F, 3 | no severity"
+    "weather: 48F, wind 14mph, precip 1% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -362,7 +362,7 @@
    "pick": "South Carolina -7.5 (spread)",
    "prob": 0.5096,
    "why": [
-    "weather: 41F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 40F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -378,7 +378,7 @@
    "pick": "Tulsa -5.5 (spread)",
    "prob": 0.517,
    "why": [
-    "weather: 46F, wind 5mph, precip 1% | sev=0.00 | open-meteo"
+    "weather: 47F, wind 6mph, precip 1% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -394,7 +394,7 @@
    "pick": "Ohio State -5.5 (spread)",
    "prob": 0.5119,
    "why": [
-    "weather: 59F, 18 | no severity"
+    "weather: 51F, 18 | no severity"
    ]
   },
   {
@@ -402,7 +402,7 @@
    "pick": "Kansas State +10 (spread)",
    "prob": 0.5092,
    "why": [
-    "weather: 62F, wind 12mph, precip 3% | sev=0.25 | open-meteo"
+    "weather: 60F, 4 | no severity"
    ]
   },
   {
@@ -410,7 +410,7 @@
    "pick": "New York Jets +8.5 (spread)",
    "prob": 0.5193,
    "why": [
-    "weather: 45F, wind 11mph, precip 1% | sev=0.25 | open-meteo"
+    "weather: 45F, wind 9mph, precip 1% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -418,7 +418,7 @@
    "pick": "Utah -5.5 (spread)",
    "prob": 0.5123,
    "why": [
-    "weather: 65F, 38 | no severity"
+    "weather: 62F, 38 | no severity"
    ]
   },
   {
@@ -426,7 +426,7 @@
    "pick": "James Madison -4 (spread)",
    "prob": 0.5173,
    "why": [
-    "weather: 42F, wind 9mph, precip 1% | sev=0.00 | open-meteo"
+    "weather: 42F, wind 7mph, precip 1% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -442,7 +442,7 @@
    "pick": "Jacksonville State -7.5 (spread)",
    "prob": 0.5027,
    "why": [
-    "weather: 48F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 48F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -458,7 +458,7 @@
    "pick": "Temple -2.5 (spread)",
    "prob": 0.5127,
    "why": [
-    "weather: 44F, wind 10mph, precip 1% | sev=0.00 | open-meteo"
+    "weather: 44F, wind 10mph, precip 2% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -466,7 +466,7 @@
    "pick": "Colorado State +9.5 (spread)",
    "prob": 0.5131,
    "why": [
-    "weather: 41F, wind 8mph, precip 3% | sev=0.00 | open-meteo"
+    "weather: 42F, wind 9mph, precip 2% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -474,7 +474,7 @@
    "pick": "Baylor +7.5 (spread)",
    "prob": 0.5069,
    "why": [
-    "weather: 44F, wind 4mph, precip 5% | sev=0.00 | open-meteo"
+    "weather: 42F, wind 4mph, precip 2% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -482,7 +482,7 @@
    "pick": "Florida International +5.5 (spread)",
    "prob": 0.5012,
    "why": [
-    "weather: 43F, wind 12mph, precip 2% | sev=0.25 | open-meteo"
+    "weather: 45F, wind 11mph, precip 2% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -490,7 +490,7 @@
    "pick": "Fresno State +10 (spread)",
    "prob": 0.5177,
    "why": [
-    "weather: 66F, wind 11mph, precip 22% | sev=0.25 | open-meteo"
+    "weather: 66F, wind 14mph, precip 8% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -514,7 +514,7 @@
    "pick": "UCF -3.5 (spread)",
    "prob": 0.5108,
    "why": [
-    "weather: 62F, 2 | no severity"
+    "weather: 55F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -522,7 +522,7 @@
    "pick": "Utah -2.5 (spread)",
    "prob": 0.5039,
    "why": [
-    "weather: 56F, wind 4mph, precip 1% | sev=0.00 | open-meteo"
+    "weather: 55F, wind 5mph, precip 1% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -530,7 +530,7 @@
    "pick": "Wake Forest +1.5 (spread)",
    "prob": 0.5208,
    "why": [
-    "weather: 57F, 4 | no severity"
+    "weather: 58F, wind 13mph, precip 0% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -538,7 +538,7 @@
    "pick": "South Alabama -3 (spread)",
    "prob": 0.5073,
    "why": [
-    "weather: 47F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 48F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -546,7 +546,7 @@
    "pick": "North Carolina +3.5 (spread)",
    "prob": 0.5019,
    "why": [
-    "weather: 41F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 42F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -554,7 +554,7 @@
    "pick": "App State -1.5 (spread)",
    "prob": 0.5042,
    "why": [
-    "weather: 42F, wind 7mph, precip 1% | sev=0.00 | open-meteo"
+    "weather: 44F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -562,7 +562,7 @@
    "pick": "Georgia State +5.5 (spread)",
    "prob": 0.51,
    "why": [
-    "weather: 54F, 1 | no severity"
+    "weather: 50F, wind 12mph, precip 0% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -570,7 +570,7 @@
    "pick": "Texas A&M +2.5 (spread)",
    "prob": 0.5023,
    "why": [
-    "weather: 62F, wind 11mph, precip 4% | sev=0.25 | open-meteo"
+    "weather: 63F, wind 9mph, precip 3% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -578,7 +578,7 @@
    "pick": "San Diego State +2.5 (spread)",
    "prob": 0.5012,
    "why": [
-    "weather: 65F, wind 4mph, precip 7% | sev=0.00 | open-meteo"
+    "weather: 63F, wind 5mph, precip 3% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -586,7 +586,7 @@
    "pick": "New Mexico State +1.5 (spread)",
    "prob": 0.5015,
    "why": [
-    "weather: 49F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 48F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -594,7 +594,7 @@
    "pick": "Tulane +2.5 (spread)",
    "prob": 0.515,
    "why": [
-    "weather: 59F, wind 9mph, precip 3% | sev=0.00 | open-meteo"
+    "weather: 59F, wind 8mph, precip 2% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -610,7 +610,7 @@
    "pick": "Michigan State +3 (spread)",
    "prob": 0.5062,
    "why": [
-    "weather: 42F, 7 | no severity"
+    "weather: 38F, wind 8mph, precip 2% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -626,7 +626,7 @@
    "pick": "Texas Tech -1.5 (spread)",
    "prob": 0.5004,
    "why": [
-    "weather: 69F, 35 | no severity"
+    "weather: 65F, 35 | no severity"
    ]
   },
   {
@@ -634,7 +634,7 @@
    "pick": "Florida +3.5 (spread)",
    "prob": 0.5096,
    "why": [
-    "weather: 41F, 7 | no severity"
+    "weather: 40F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -642,7 +642,7 @@
    "pick": "Texas +4 (spread)",
    "prob": 0.5112,
    "why": [
-    "weather: 52F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 52F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -658,7 +658,7 @@
    "pick": "Kansas +3 (spread)",
    "prob": 0.5062,
    "why": [
-    "weather: 42F, wind 12mph, precip 2% | sev=0.25 | open-meteo"
+    "weather: 43F, wind 12mph, precip 5% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -666,7 +666,7 @@
    "pick": "NC State +3 (spread)",
    "prob": 0.5077,
    "why": [
-    "weather: 52F, wind 11mph, precip 1% | sev=0.25 | open-meteo"
+    "weather: 52F, wind 12mph, precip 0% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -674,7 +674,7 @@
    "pick": "Texas Tech +3.5 (spread)",
    "prob": 0.5089,
    "why": [
-    "weather: 45F, wind 10mph, precip 13% | sev=0.25 | open-meteo"
+    "weather: 46F, wind 10mph, precip 8% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -682,7 +682,7 @@
    "pick": "Mississippi State +2.5 (spread)",
    "prob": 0.5127,
    "why": [
-    "weather: 50F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 57F, 2 | no severity"
    ]
   },
   {
@@ -690,7 +690,7 @@
    "pick": "Coastal Carolina -1.5 (spread)",
    "prob": 0.5012,
    "why": [
-    "weather: 58F, wind 10mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 58F, wind 10mph, precip 0% | sev=0.25 | open-meteo"
    ]
   },
   {
@@ -698,7 +698,7 @@
    "pick": "Cincinnati +3 (spread)",
    "prob": 0.5081,
    "why": [
-    "weather: 36F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
+    "weather: 38F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
    ]
   }
  ],
@@ -3127,7 +3127,7 @@
    "graded": 30,
    "graded_with_factor_record": 20,
    "brier": 0.2545,
-   "last_calibrated": "2026-11-14T12:44:03.000Z",
+   "last_calibrated": "2026-11-14T18:26:59.000Z",
    "scorecard": "NFL factor scorecard 2026-11-14 (shadow; picks unchanged)\nmarket blend: need 30 graded games with scores, have 29\nfactor scales: need 30 games with usable factor records, have 20\nmargin RMSE base 11.05 vs adjusted 11.04 vs line 10.98 (n=20); ATS base 0.55 vs adjusted 0.65 (n=20)"
   },
   {
@@ -3147,7 +3147,7 @@
    "graded": 125,
    "graded_with_factor_record": 62,
    "brier": 0.2604,
-   "last_calibrated": "2026-11-14T12:44:03.000Z",
+   "last_calibrated": "2026-11-14T18:26:59.000Z",
    "scorecard": "NCAAF factor scorecard 2026-11-14 (shadow; picks unchanged)\nmarket blend: k=0.145 (raw -0.351 +/- 0.538, n=109); 0 = line already has what the model knows\nfactor scales: inj 1.02 (sd 0.499), lookahead 1.09 (sd 0.495), rest 0.99 (sd 0.499), travel 0.99 (sd 0.499), revenge 0.988 (sd 0.499), n=60; not enough non-zero games yet: weather\nmargin RMSE base 16.95 vs adjusted 16.83 vs line 16.74 (n=60); ATS base 0.5 vs adjusted 0.5 (n=60)"
   }
  ],
@@ -6234,7 +6234,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-14T12:46:28+00:00",
+   "generated_at": "2026-11-14T18:28:40+00:00",
    "date": "2026-11-14",
    "games": [
     {
@@ -6342,7 +6342,7 @@
        "prob": 0.4043,
        "edge": 0.0471,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
@@ -6465,12 +6465,12 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": 16.5,
-     "total_line": 63.5,
+     "total_line": 64.5,
      "model_margin": 12.6,
      "blend_margin": 15.9345,
-     "proj_total": 63.174875,
+     "proj_total": 63.874875,
      "factors": [
-      "weather: 53F, 12 | no severity"
+      "weather: 46F, wind 6mph, precip 1% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -6479,7 +6479,7 @@
        "side": "away",
        "team": "Oregon State",
        "line": 13.5,
-       "price": -112.0,
+       "price": -108.0,
        "proj": 12.6,
        "prob": 0.5046,
        "edge": null,
@@ -6495,15 +6495,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 63.5,
+       "line": 64.5,
        "price": -112.0,
-       "proj": 63.17,
-       "prob": 0.504,
-       "edge": 0.33,
+       "proj": 63.87,
+       "prob": 0.5077,
+       "edge": 0.63,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 63.5",
+       "selection": "Under 64.5",
        "game_id": "rec2hMLEWssofUrMa",
        "game": "Oregon State @ Boise State",
        "priority": "primary",
@@ -6514,18 +6514,18 @@
        "side": "home",
        "team": "Boise State",
        "line": 0.0,
-       "price": -675.0,
+       "price": -700.0,
        "price_estimated": false,
        "proj": 15.93,
        "prob": 0.857,
-       "edge": -0.014,
+       "edge": -0.018,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Boise State ML -675",
+       "selection": "Boise State ML -700",
        "game_id": "rec2hMLEWssofUrMa",
        "game": "Oregon State @ Boise State",
        "priority": "primary",
@@ -6555,13 +6555,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 63.5,
-       "line": 69.5,
+       "base_line": 64.5,
+       "line": 70.5,
        "price": 0.0,
-       "prob": 0.6027,
+       "prob": 0.6072,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 63.5 -> 69.5",
+       "selection": "Under 64.5 -> 70.5",
        "game_id": "rec2hMLEWssofUrMa",
        "game": "Oregon State @ Boise State",
        "priority": "secondary",
@@ -6599,12 +6599,12 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": 3.5,
-     "total_line": 47.5,
+     "total_line": 46.5,
      "model_margin": 4.2,
      "blend_margin": 3.6015,
-     "proj_total": 50.0365,
+     "proj_total": 49.3365,
      "factors": [
-      "weather: 62F, 2 | no severity"
+      "weather: 55F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -6629,15 +6629,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 47.5,
-       "price": -110.0,
-       "proj": 50.04,
-       "prob": 0.5309,
-       "edge": 2.54,
+       "line": 46.5,
+       "price": -112.0,
+       "proj": 49.34,
+       "prob": 0.5345,
+       "edge": 2.84,
        "edge_unit": "pts",
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Over 47.5",
+       "selection": "Over 46.5",
        "game_id": "rec2wlci6Mt0CAhKY",
        "game": "Arizona State @ UCF",
        "priority": "primary",
@@ -6654,7 +6654,7 @@
        "prob": 0.4052,
        "edge": -0.003,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6691,13 +6691,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 47.5,
-       "line": 41.5,
+       "base_line": 46.5,
+       "line": 40.5,
        "price": 0.0,
-       "prob": 0.6344,
+       "prob": 0.6384,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 47.5 -> 41.5",
+       "selection": "Over 46.5 -> 40.5",
        "game_id": "rec2wlci6Mt0CAhKY",
        "game": "Arizona State @ UCF",
        "priority": "secondary",
@@ -6741,7 +6741,7 @@
      "proj_total": 45.68127272727273,
      "factors": [
       "QB: HOME QB PLAYING Cam Ward [auto espn 2026-11-14] | AWAY QB PLAYING Trevor Lawrence [auto espn 2026-11-14]",
-      "weather: 52F, 3 | no severity"
+      "weather: 52F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -6750,7 +6750,7 @@
        "side": "home",
        "team": "Tennessee Titans",
        "line": 10.5,
-       "price": -108.0,
+       "price": -105.0,
        "proj": -9.6,
        "prob": 0.545,
        "edge": null,
@@ -6791,7 +6791,7 @@
        "prob": 0.2043,
        "edge": 0.0376,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
@@ -6875,7 +6875,7 @@
      "blend_margin": 17.268,
      "proj_total": 48.899125,
      "factors": [
-      "weather: 39F, 34 | no severity"
+      "weather: 34F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -6919,18 +6919,18 @@
        "side": "away",
        "team": "Purdue",
        "line": 0.0,
-       "price": 625.0,
+       "price": 650.0,
        "price_estimated": false,
        "proj": 17.27,
        "prob": 0.1238,
-       "edge": -0.0141,
+       "edge": -0.0095,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Purdue ML +625",
+       "selection": "Purdue ML +650",
        "game_id": "rec3P0JnjVo4WzfgT",
        "game": "Purdue @ Iowa",
        "priority": "primary",
@@ -7009,7 +7009,7 @@
      "blend_margin": -11.2,
      "proj_total": null,
      "factors": [
-      "weather: 72F, 34 | no severity"
+      "weather: 68F, 34 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -7044,16 +7044,18 @@
      "game": "Wisconsin @ Maryland",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
+     "frozen": true,
      "line": -8.5,
-     "total_line": 41.5,
+     "total_line": 40.5,
      "model_margin": -10.2,
      "blend_margin": -8.7465,
-     "proj_total": 44.474125,
+     "proj_total": 42.899125,
      "factors": [
-      "weather: 48F, 3 | no severity"
+      "weather: 48F, wind 14mph, precip 1% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
@@ -7076,15 +7078,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 41.5,
+       "line": 40.5,
        "price": -112.0,
-       "proj": 44.47,
-       "prob": 0.5362,
-       "edge": 2.97,
+       "proj": 42.9,
+       "prob": 0.5293,
+       "edge": 2.4,
        "edge_unit": "pts",
-       "tier": "Lean",
-       "units": 0.5,
-       "selection": "Over 41.5",
+       "tier": "No Play",
+       "units": 0.0,
+       "selection": "Over 40.5",
        "game_id": "rec4KXoPObfT4bFvb",
        "game": "Wisconsin @ Maryland",
        "priority": "primary",
@@ -7101,7 +7103,7 @@
        "prob": 0.28,
        "edge": 0.0023,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7136,13 +7138,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 41.5,
-       "line": 35.5,
+       "base_line": 40.5,
+       "line": 34.5,
        "price": 0.0,
-       "prob": 0.6403,
+       "prob": 0.6325,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 41.5 -> 35.5",
+       "selection": "Over 40.5 -> 34.5",
        "game_id": "rec4KXoPObfT4bFvb",
        "game": "Wisconsin @ Maryland",
        "priority": "secondary",
@@ -7225,11 +7227,13 @@
      "total_line": 46.5,
      "model_margin": 13.6,
      "blend_margin": 11.804499999999999,
-     "proj_total": 48.275625,
+     "proj_total": 47.400625,
      "factors": [
-      "weather: 56F, 3 | no severity"
+      "weather: 47F, wind 13mph, precip 0% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
@@ -7254,9 +7258,9 @@
        "side": "over",
        "line": 46.5,
        "price": -118.0,
-       "proj": 48.28,
-       "prob": 0.5217,
-       "edge": 1.78,
+       "proj": 47.4,
+       "prob": 0.511,
+       "edge": 0.9,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
@@ -7277,7 +7281,7 @@
        "prob": 0.2158,
        "edge": -0.0016,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7315,7 +7319,7 @@
        "base_line": 46.5,
        "line": 40.5,
        "price": 0.0,
-       "prob": 0.6238,
+       "prob": 0.6112,
        "push": 0.0,
        "crosses": [],
        "selection": "Over 46.5 -> 40.5",
@@ -7361,7 +7365,7 @@
      "blend_margin": -5.9350000000000005,
      "proj_total": 45.8755,
      "factors": [
-      "weather: 65F, 38 | no severity"
+      "weather: 62F, 38 | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -7405,18 +7409,18 @@
        "side": "away",
        "team": "Utah",
        "line": 0.0,
-       "price": -205.0,
-       "price_estimated": false,
+       "price": -192,
+       "price_estimated": true,
        "proj": -5.94,
        "prob": 0.6537,
-       "edge": -0.0184,
+       "edge": -0.0038,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Utah ML -205",
+       "selection": "Utah ML -192 (price estimated from the line)",
        "game_id": "rec6BLj4UmECM0x14",
        "game": "Utah @ TCU",
        "priority": "primary",
@@ -7491,13 +7495,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 3.0,
-     "total_line": 58.5,
+     "line": 2.5,
+     "total_line": 57.5,
      "model_margin": 0.5999999999999996,
-     "blend_margin": 2.652,
-     "proj_total": 58.711875,
+     "blend_margin": 2.2245,
+     "proj_total": 58.011875,
      "factors": [
-      "weather: 36F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 38F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -7506,7 +7510,7 @@
        "side": "away",
        "team": "Cincinnati",
        "line": 3.0,
-       "price": -112.0,
+       "price": -108.0,
        "proj": 0.5999999999999996,
        "prob": 0.5081,
        "edge": null,
@@ -7522,15 +7526,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 58.5,
-       "price": -102.0,
-       "proj": 58.71,
-       "prob": 0.5026,
-       "edge": 0.21,
+       "line": 57.5,
+       "price": -115.0,
+       "proj": 58.01,
+       "prob": 0.5063,
+       "edge": 0.51,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 58.5",
+       "selection": "Over 57.5",
        "game_id": "rec6q41YBZnFKYsEl",
        "game": "Cincinnati @ Iowa State",
        "priority": "primary",
@@ -7538,25 +7542,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Cincinnati",
+       "side": "home",
+       "team": "Iowa State",
        "line": 0.0,
-       "price": 124.0,
+       "price": -130.0,
        "price_estimated": false,
-       "proj": 2.65,
-       "prob": 0.4299,
-       "edge": -0.0165,
+       "proj": 2.22,
+       "prob": 0.5589,
+       "edge": -0.0063,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Cincinnati ML +124",
+       "selection": "Iowa State ML -130",
        "game_id": "rec6q41YBZnFKYsEl",
        "game": "Cincinnati @ Iowa State",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       }
      ],
      "teaser_legs": [
@@ -7565,15 +7569,16 @@
        "kind": "spread",
        "side": "away",
        "team": "Cincinnati",
-       "base_line": 3.0,
-       "line": 9.0,
+       "base_line": 2.5,
+       "line": 8.5,
        "price": 0.0,
-       "prob": 0.5886,
-       "push": 0.0232,
+       "prob": 0.5942,
+       "push": 0,
        "crosses": [
+        3,
         7
        ],
-       "selection": "Cincinnati +3 -> +9 (crosses 7)",
+       "selection": "Cincinnati +2.5 -> +8.5 (crosses 3 and 7)",
        "game_id": "rec6q41YBZnFKYsEl",
        "game": "Cincinnati @ Iowa State",
        "priority": "secondary",
@@ -7584,13 +7589,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 58.5,
-       "line": 52.5,
+       "base_line": 57.5,
+       "line": 51.5,
        "price": 0.0,
-       "prob": 0.601,
+       "prob": 0.6055,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 58.5 -> 52.5",
+       "selection": "Over 57.5 -> 51.5",
        "game_id": "rec6q41YBZnFKYsEl",
        "game": "Cincinnati @ Iowa State",
        "priority": "secondary",
@@ -7601,23 +7606,23 @@
      "alt_spreads": [
       {
        "team": "Iowa State",
-       "line": -6.0,
-       "prob": 0.3942
+       "line": -5.5,
+       "prob": 0.4105
       },
       {
        "team": "Cincinnati",
-       "line": 0.0,
-       "prob": 0.4189
+       "line": -0.5,
+       "prob": 0.4298
       },
       {
        "team": "Iowa State",
-       "line": 0.0,
-       "prob": 0.5562
+       "line": 0.5,
+       "prob": 0.5702
       },
       {
        "team": "Cincinnati",
-       "line": 6.0,
-       "prob": 0.5786
+       "line": 5.5,
+       "prob": 0.5895
       }
      ]
     },
@@ -7675,7 +7680,7 @@
      "blend_margin": 8.094,
      "proj_total": 50.762875,
      "factors": [
-      "weather: 44F, wind 4mph, precip 5% | sev=0.00 | open-meteo"
+      "weather: 42F, wind 4mph, precip 2% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -7684,7 +7689,7 @@
        "side": "away",
        "team": "Baylor",
        "line": 7.5,
-       "price": -105.0,
+       "price": -108.0,
        "proj": 5.699999999999999,
        "prob": 0.5069,
        "edge": null,
@@ -7719,18 +7724,18 @@
        "side": "away",
        "team": "Baylor",
        "line": 0.0,
-       "price": 260.0,
+       "price": 250.0,
        "price_estimated": false,
        "proj": 8.09,
        "prob": 0.2949,
-       "edge": 0.0171,
+       "edge": 0.0091,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Baylor ML +260",
+       "selection": "Baylor ML +250",
        "game_id": "rec7yixGhx5eMGU3z",
        "game": "Baylor @ BYU",
        "priority": "primary",
@@ -7810,7 +7815,7 @@
      "proj_total": 41.05892045454545,
      "factors": [
       "QB: HOME QB PLAYING Deshaun Watson [verified 2026-11-11] | AWAY QB PLAYING C.J. Stroud [auto espn 2026-11-14]",
-      "weather: 44F, wind 13mph, precip 5% | sev=0.25 | open-meteo"
+      "weather: 44F, wind 12mph, precip 5% | sev=0.25 | open-meteo"
      ],
      "total_factor_why": [
       "weather -0.8"
@@ -7862,7 +7867,7 @@
        "prob": 0.3429,
        "edge": 0.0039,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7948,7 +7953,7 @@
      "blend_margin": 9.9,
      "proj_total": null,
      "factors": [
-      "weather: 52F, 34 | no severity"
+      "weather: 53F, 34 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -7984,13 +7989,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 9.5,
-     "total_line": 65.5,
+     "line": 8.5,
+     "total_line": 64.5,
      "model_margin": 5.800000000000001,
-     "blend_margin": 8.9635,
-     "proj_total": 64.3375,
+     "blend_margin": 8.1085,
+     "proj_total": 63.6375,
      "factors": [
-      "weather: 41F, wind 8mph, precip 3% | sev=0.00 | open-meteo"
+      "weather: 42F, wind 9mph, precip 2% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -8015,15 +8020,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 65.5,
+       "line": 64.5,
        "price": -105.0,
-       "proj": 64.34,
-       "prob": 0.5143,
-       "edge": 1.16,
+       "proj": 63.64,
+       "prob": 0.5106,
+       "edge": 0.86,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 65.5",
+       "selection": "Under 64.5",
        "game_id": "rec95zAsrohONJnA1",
        "game": "Colorado State @ Washington State",
        "priority": "primary",
@@ -8034,18 +8039,18 @@
        "side": "away",
        "team": "Colorado State",
        "line": 0.0,
-       "price": 280.0,
+       "price": 260.0,
        "price_estimated": false,
-       "proj": 8.96,
-       "prob": 0.2752,
-       "edge": 0.012,
+       "proj": 8.11,
+       "prob": 0.2945,
+       "edge": 0.0167,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Colorado State ML +280",
+       "selection": "Colorado State ML +260",
        "game_id": "rec95zAsrohONJnA1",
        "game": "Colorado State @ Washington State",
        "priority": "primary",
@@ -8058,13 +8063,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Colorado State",
-       "base_line": 9.5,
-       "line": 15.5,
+       "base_line": 8.5,
+       "line": 14.5,
        "price": 0.0,
-       "prob": 0.5998,
+       "prob": 0.5981,
        "push": 0,
        "crosses": [],
-       "selection": "Colorado State +9.5 -> +15.5",
+       "selection": "Colorado State +8.5 -> +14.5",
        "game_id": "rec95zAsrohONJnA1",
        "game": "Colorado State @ Washington State",
        "priority": "secondary",
@@ -8075,13 +8080,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 65.5,
-       "line": 71.5,
+       "base_line": 64.5,
+       "line": 70.5,
        "price": 0.0,
-       "prob": 0.615,
+       "prob": 0.6107,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 65.5 -> 71.5",
+       "selection": "Under 64.5 -> 70.5",
        "game_id": "rec95zAsrohONJnA1",
        "game": "Colorado State @ Washington State",
        "priority": "secondary",
@@ -8092,23 +8097,23 @@
      "alt_spreads": [
       {
        "team": "Washington State",
-       "line": -12.5,
-       "prob": 0.3943
+       "line": -11.5,
+       "prob": 0.3974
       },
       {
        "team": "Colorado State",
-       "line": 6.5,
-       "prob": 0.4427
+       "line": 5.5,
+       "prob": 0.4372
       },
       {
        "team": "Washington State",
-       "line": -6.5,
-       "prob": 0.5573
+       "line": -5.5,
+       "prob": 0.5628
       },
       {
        "team": "Colorado State",
-       "line": 12.5,
-       "prob": 0.6057
+       "line": 11.5,
+       "prob": 0.6026
       }
      ]
     },
@@ -8117,14 +8122,14 @@
      "game": "Georgia Tech @ Clemson",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
+     "frozen": true,
      "line": 15.5,
      "total_line": 47.5,
      "model_margin": 14.2,
      "blend_margin": 15.3115,
      "proj_total": 48.638125,
      "factors": [
-      "weather: 53F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 53F, Sunny | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -8165,25 +8170,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "Clemson",
+       "side": "away",
+       "team": "Georgia Tech",
        "line": 0.0,
-       "price": -625.0,
+       "price": 490.0,
        "price_estimated": false,
        "proj": 15.31,
-       "prob": 0.8474,
-       "edge": -0.0147,
+       "prob": 0.1526,
+       "edge": -0.0169,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Clemson ML -625",
+       "selection": "Georgia Tech ML +490",
        "game_id": "rec9LE2B6ouTGvm8d",
        "game": "Georgia Tech @ Clemson",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -8309,7 +8314,7 @@
        "prob": 0.3782,
        "edge": 0.0211,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8395,7 +8400,7 @@
      "blend_margin": -3.442,
      "proj_total": 57.563,
      "factors": [
-      "weather: 41F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 42F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -8421,7 +8426,7 @@
        "market": "total",
        "side": "over",
        "line": 57.5,
-       "price": -110.0,
+       "price": -108.0,
        "proj": 57.56,
        "prob": 0.5008,
        "edge": 0.06,
@@ -8439,18 +8444,18 @@
        "side": "home",
        "team": "North Carolina",
        "line": 0.0,
-       "price": 150.0,
+       "price": 145.0,
        "price_estimated": false,
        "proj": -3.44,
        "prob": 0.4093,
-       "edge": 0.0093,
+       "edge": 0.0011,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "North Carolina ML +150",
+       "selection": "North Carolina ML +145",
        "game_id": "recBEhfQqKSu5iDhF",
        "game": "Louisville @ North Carolina",
        "priority": "primary",
@@ -8573,7 +8578,7 @@
      "blend_margin": 17.471,
      "proj_total": 56.575,
      "factors": [
-      "weather: 51F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 50F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -8599,7 +8604,7 @@
        "market": "total",
        "side": "over",
        "line": 56.5,
-       "price": -110.0,
+       "price": -105.0,
        "proj": 56.58,
        "prob": 0.5009,
        "edge": 0.08,
@@ -8623,7 +8628,7 @@
        "prob": 0.121,
        "edge": -0.0169,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8707,7 +8712,7 @@
      "blend_margin": -1.7900000000000003,
      "proj_total": 55.212375,
      "factors": [
-      "weather: 56F, wind 4mph, precip 1% | sev=0.00 | open-meteo"
+      "weather: 55F, wind 5mph, precip 1% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -8751,18 +8756,18 @@
        "side": "away",
        "team": "Utah",
        "line": 0.0,
-       "price": -118.0,
+       "price": -112.0,
        "price_estimated": false,
        "proj": -1.79,
        "prob": 0.5475,
-       "edge": 0.0062,
+       "edge": 0.0192,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Utah ML -118",
+       "selection": "Utah ML -112",
        "game_id": "recBMBebWIqKVuW17",
        "game": "Utah @ Arizona",
        "priority": "primary",
@@ -8885,7 +8890,7 @@
      "blend_margin": -7.8625,
      "proj_total": 52.124375,
      "factors": [
-      "weather: 41F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 40F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -8894,7 +8899,7 @@
        "side": "away",
        "team": "South Carolina",
        "line": -7.5,
-       "price": -112.0,
+       "price": -108.0,
        "proj": -10.0,
        "prob": 0.5096,
        "edge": null,
@@ -8911,7 +8916,7 @@
        "market": "total",
        "side": "over",
        "line": 51.5,
-       "price": -112.0,
+       "price": -115.0,
        "proj": 52.12,
        "prob": 0.5077,
        "edge": 0.62,
@@ -8935,7 +8940,7 @@
        "prob": 0.3002,
        "edge": 0.0224,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9016,13 +9021,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 9.5,
-     "total_line": 59.5,
+     "line": 10.0,
+     "total_line": 60.5,
      "model_margin": 5.0,
-     "blend_margin": 8.8475,
-     "proj_total": 58.1015,
+     "blend_margin": 9.275,
+     "proj_total": 58.8015,
      "factors": [
-      "weather: 66F, wind 11mph, precip 22% | sev=0.25 | open-meteo"
+      "weather: 66F, wind 14mph, precip 8% | sev=0.25 | open-meteo"
      ],
      "total_factor_why": [
       "weather -0.9"
@@ -9049,15 +9054,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 59.5,
-       "price": -108.0,
-       "proj": 58.1,
-       "prob": 0.5171,
-       "edge": 1.4,
+       "line": 60.5,
+       "price": -112.0,
+       "proj": 58.8,
+       "prob": 0.5208,
+       "edge": 1.7,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 59.5",
+       "selection": "Under 60.5",
        "game_id": "recCTu9IGYaqUcN4M",
        "game": "Fresno State @ Texas State",
        "priority": "primary",
@@ -9070,11 +9075,11 @@
        "line": 0.0,
        "price": 295.0,
        "price_estimated": false,
-       "proj": 8.85,
-       "prob": 0.2778,
-       "edge": 0.0246,
+       "proj": 9.28,
+       "prob": 0.2683,
+       "edge": 0.0151,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9092,13 +9097,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Fresno State",
-       "base_line": 9.5,
-       "line": 15.5,
+       "base_line": 10.0,
+       "line": 16.0,
        "price": 0.0,
-       "prob": 0.6013,
-       "push": 0,
+       "prob": 0.5957,
+       "push": 0.023,
        "crosses": [],
-       "selection": "Fresno State +9.5 -> +15.5",
+       "selection": "Fresno State +10 -> +16",
        "game_id": "recCTu9IGYaqUcN4M",
        "game": "Fresno State @ Texas State",
        "priority": "secondary",
@@ -9109,13 +9114,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 59.5,
-       "line": 65.5,
+       "base_line": 60.5,
+       "line": 66.5,
        "price": 0.0,
-       "prob": 0.6184,
+       "prob": 0.6227,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 59.5 -> 65.5",
+       "selection": "Under 60.5 -> 66.5",
        "game_id": "recCTu9IGYaqUcN4M",
        "game": "Fresno State @ Texas State",
        "priority": "secondary",
@@ -9126,23 +9131,23 @@
      "alt_spreads": [
       {
        "team": "Texas State",
-       "line": -12.5,
-       "prob": 0.3914
+       "line": -13.0,
+       "prob": 0.3775
       },
       {
        "team": "Fresno State",
-       "line": 6.5,
-       "prob": 0.4457
+       "line": 7.0,
+       "prob": 0.4346
       },
       {
        "team": "Texas State",
-       "line": -6.5,
-       "prob": 0.5543
+       "line": -7.0,
+       "prob": 0.5327
       },
       {
        "team": "Fresno State",
-       "line": 12.5,
-       "prob": 0.6086
+       "line": 13.0,
+       "prob": 0.5978
       }
      ]
     },
@@ -9158,7 +9163,7 @@
      "blend_margin": 19.2395,
      "proj_total": 61.012125,
      "factors": [
-      "weather: 72F, 40 | no severity"
+      "weather: 73F, 40 | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -9202,18 +9207,18 @@
        "side": "home",
        "team": "Miami",
        "line": 0.0,
-       "price": -1050.0,
-       "price_estimated": false,
+       "price": -1041,
+       "price_estimated": true,
        "proj": 19.24,
        "prob": 0.9012,
-       "edge": -0.0119,
+       "edge": -0.0112,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Miami ML -1050",
+       "selection": "Miami ML -1041 (price estimated from the line)",
        "game_id": "recDgZz8WbWMArNoK",
        "game": "Virginia Tech @ Miami",
        "priority": "primary",
@@ -9286,13 +9291,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 11.5,
+     "line": 12.5,
      "total_line": 42.5,
      "model_margin": 12.899999999999999,
-     "blend_margin": 11.703,
+     "blend_margin": 12.558,
      "proj_total": 44.625125,
      "factors": [
-      "weather: 37F, wind 5mph, precip 6% | sev=0.00 | open-meteo"
+      "weather: 39F, 7 | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -9336,18 +9341,18 @@
        "side": "away",
        "team": "Minnesota",
        "line": 0.0,
-       "price": 350.0,
+       "price": 380.0,
        "price_estimated": false,
-       "proj": 11.7,
-       "prob": 0.2178,
-       "edge": -0.0044,
+       "proj": 12.56,
+       "prob": 0.2014,
+       "edge": -0.0069,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Minnesota ML +350",
+       "selection": "Minnesota ML +380",
        "game_id": "recDwKVCOoFoEx8JF",
        "game": "Minnesota @ Penn State",
        "priority": "primary",
@@ -9360,13 +9365,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Minnesota",
-       "base_line": 11.5,
-       "line": 17.5,
+       "base_line": 12.5,
+       "line": 18.5,
        "price": 0.0,
-       "prob": 0.5902,
+       "prob": 0.5918,
        "push": 0,
        "crosses": [],
-       "selection": "Minnesota +11.5 -> +17.5",
+       "selection": "Minnesota +12.5 -> +18.5",
        "game_id": "recDwKVCOoFoEx8JF",
        "game": "Minnesota @ Penn State",
        "priority": "secondary",
@@ -9394,23 +9399,23 @@
      "alt_spreads": [
       {
        "team": "Penn State",
-       "line": -14.5,
-       "prob": 0.4107
+       "line": -15.5,
+       "prob": 0.4076
       },
       {
        "team": "Minnesota",
-       "line": 8.5,
-       "prob": 0.4294
+       "line": 9.5,
+       "prob": 0.4323
       },
       {
        "team": "Penn State",
-       "line": -8.5,
-       "prob": 0.5706
+       "line": -9.5,
+       "prob": 0.5677
       },
       {
        "team": "Minnesota",
-       "line": 14.5,
-       "prob": 0.5893
+       "line": 15.5,
+       "prob": 0.5924
       }
      ]
     },
@@ -9419,23 +9424,25 @@
      "game": "Wake Forest @ SMU",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
-     "line": 1.5,
+     "frozen": true,
+     "line": 2.5,
      "total_line": 60.5,
      "model_margin": -3.4000000000000004,
-     "blend_margin": 0.7895,
-     "proj_total": 59.949875,
+     "blend_margin": 1.6444999999999999,
+     "proj_total": 59.074875,
      "factors": [
-      "weather: 57F, 4 | no severity"
+      "weather: 58F, wind 13mph, precip 0% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
        "side": "away",
        "team": "Wake Forest",
        "line": 1.5,
-       "price": -110.0,
+       "price": -102.0,
        "proj": -3.4000000000000004,
        "prob": 0.5208,
        "edge": null,
@@ -9452,10 +9459,10 @@
        "market": "total",
        "side": "under",
        "line": 60.5,
-       "price": -110.0,
-       "proj": 59.95,
-       "prob": 0.5068,
-       "edge": 0.55,
+       "price": -105.0,
+       "proj": 59.07,
+       "prob": 0.5175,
+       "edge": 1.43,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
@@ -9467,25 +9474,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "SMU",
+       "side": "away",
+       "team": "Wake Forest",
        "line": 0.0,
-       "price": -118.0,
+       "price": 120.0,
        "price_estimated": false,
-       "proj": 0.79,
-       "prob": 0.521,
-       "edge": -0.0203,
+       "proj": 1.64,
+       "prob": 0.4564,
+       "edge": 0.0018,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "SMU ML -118",
+       "selection": "Wake Forest ML +120",
        "game_id": "recERxonXo7EeZQvM",
        "game": "Wake Forest @ SMU",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -9494,16 +9501,16 @@
        "kind": "spread",
        "side": "away",
        "team": "Wake Forest",
-       "base_line": 1.5,
-       "line": 7.5,
+       "base_line": 2.5,
+       "line": 8.5,
        "price": 0.0,
-       "prob": 0.6,
+       "prob": 0.6017,
        "push": 0,
        "crosses": [
         3,
         7
        ],
-       "selection": "Wake Forest +1.5 -> +7.5 (crosses 3 and 7)",
+       "selection": "Wake Forest +2.5 -> +8.5 (crosses 3 and 7)",
        "game_id": "recERxonXo7EeZQvM",
        "game": "Wake Forest @ SMU",
        "priority": "secondary",
@@ -9517,7 +9524,7 @@
        "base_line": 60.5,
        "line": 66.5,
        "price": 0.0,
-       "prob": 0.6061,
+       "prob": 0.6188,
        "push": 0.0,
        "crosses": [],
        "selection": "Under 60.5 -> 66.5",
@@ -9531,23 +9538,23 @@
      "alt_spreads": [
       {
        "team": "SMU",
-       "line": -4.5,
-       "prob": 0.3989
+       "line": -5.5,
+       "prob": 0.3958
       },
       {
        "team": "Wake Forest",
-       "line": -1.5,
-       "prob": 0.4417
+       "line": -0.5,
+       "prob": 0.4447
       },
       {
        "team": "SMU",
-       "line": 1.5,
-       "prob": 0.5583
+       "line": 0.5,
+       "prob": 0.5553
       },
       {
        "team": "Wake Forest",
-       "line": 4.5,
-       "prob": 0.6011
+       "line": 5.5,
+       "prob": 0.6042
       }
      ]
     },
@@ -9647,7 +9654,7 @@
      "blend_margin": 23.400000000000002,
      "proj_total": null,
      "factors": [
-      "weather: 39F, 18 | no severity"
+      "weather: 40F, 38 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -9731,7 +9738,7 @@
      "blend_margin": -1.7175,
      "proj_total": 54.161375,
      "factors": [
-      "weather: 42F, wind 7mph, precip 1% | sev=0.00 | open-meteo"
+      "weather: 44F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -9781,7 +9788,7 @@
        "prob": 0.5455,
        "edge": 0.0001,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9917,7 +9924,7 @@
        "prob": 0.573,
        "edge": 0.0078,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10003,7 +10010,7 @@
      "blend_margin": 2.739,
      "proj_total": 53.962875,
      "factors": [
-      "weather: 41F, 7 | no severity"
+      "weather: 40F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -10012,7 +10019,7 @@
        "side": "away",
        "team": "Florida",
        "line": 3.5,
-       "price": -118.0,
+       "price": -110.0,
        "proj": 1.1999999999999993,
        "prob": 0.5096,
        "edge": null,
@@ -10047,18 +10054,18 @@
        "side": "away",
        "team": "Florida",
        "line": 0.0,
-       "price": 124.0,
+       "price": 130.0,
        "price_estimated": false,
        "proj": 2.74,
        "prob": 0.4276,
-       "edge": -0.0188,
+       "edge": -0.0072,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Florida ML +124",
+       "selection": "Florida ML +130",
        "game_id": "recI5FRtix42vnzzd",
        "game": "Florida @ Kentucky",
        "priority": "primary",
@@ -10190,7 +10197,7 @@
        "prob": 0.3074,
        "edge": 0.0175,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10359,25 +10366,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "LSU",
+       "side": "home",
+       "team": "Tennessee",
        "line": 0.0,
-       "price": -120.0,
-       "price_estimated": false,
+       "price": 113,
+       "price_estimated": true,
        "proj": -1.5,
-       "prob": 0.5398,
-       "edge": -0.0057,
+       "prob": 0.4602,
+       "edge": -0.0093,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "LSU ML -120",
+       "selection": "Tennessee ML +113 (price estimated from the line)",
        "game_id": "recJSChs4B4va8L8L",
        "game": "LSU @ Tennessee",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -10455,7 +10462,7 @@
      "blend_margin": -8.0,
      "proj_total": null,
      "factors": [
-      "weather: 59F, 7 | no severity"
+      "weather: 55F, 7 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -10497,7 +10504,7 @@
      "blend_margin": -2.036,
      "proj_total": 52.02425,
      "factors": [
-      "weather: 50F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 57F, 2 | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -10506,7 +10513,7 @@
        "side": "home",
        "team": "Mississippi State",
        "line": 2.5,
-       "price": -105.0,
+       "price": 100.0,
        "proj": 0.7000000000000011,
        "prob": 0.5127,
        "edge": null,
@@ -10538,25 +10545,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Auburn",
+       "side": "home",
+       "team": "Mississippi State",
        "line": 0.0,
-       "price": -135.0,
+       "price": 120.0,
        "price_estimated": false,
        "proj": -2.04,
-       "prob": 0.5539,
-       "edge": -0.0205,
+       "prob": 0.4461,
+       "edge": -0.0085,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Auburn ML -135",
+       "selection": "Mississippi State ML +120",
        "game_id": "recKbHrLwPCq7K95c",
        "game": "Auburn @ Mississippi State",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -10728,7 +10735,7 @@
        "side": "away",
        "team": "Carolina Panthers",
        "line": 2.5,
-       "price": -112.0,
+       "price": -115.0,
        "proj": 0.9000000000000001,
        "prob": 0.5737,
        "edge": null,
@@ -10769,7 +10776,7 @@
        "prob": 0.5648,
        "edge": -0.0097,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10851,12 +10858,12 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": -4.5,
-     "total_line": 57.5,
+     "total_line": 56.5,
      "model_margin": -8.399999999999999,
      "blend_margin": -5.0655,
-     "proj_total": 57.9005,
+     "proj_total": 57.2005,
      "factors": [
-      "weather: 42F, wind 9mph, precip 1% | sev=0.00 | open-meteo"
+      "weather: 42F, wind 7mph, precip 1% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -10865,7 +10872,7 @@
        "side": "away",
        "team": "James Madison",
        "line": -4.0,
-       "price": -115.0,
+       "price": -110.0,
        "proj": -8.399999999999999,
        "prob": 0.5173,
        "edge": null,
@@ -10881,15 +10888,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 57.5,
-       "price": -108.0,
-       "proj": 57.9,
-       "prob": 0.5049,
-       "edge": 0.4,
+       "line": 56.5,
+       "price": -112.0,
+       "proj": 57.2,
+       "prob": 0.5086,
+       "edge": 0.7,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 57.5",
+       "selection": "Over 56.5",
        "game_id": "recLWqwVHwLGRt4sA",
        "game": "James Madison @ UConn",
        "priority": "primary",
@@ -10900,18 +10907,18 @@
        "side": "home",
        "team": "UConn",
        "line": 0.0,
-       "price": 170.0,
+       "price": 164.0,
        "price_estimated": false,
        "proj": -5.07,
        "prob": 0.3679,
-       "edge": -0.0025,
+       "edge": -0.0109,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "UConn ML +170",
+       "selection": "UConn ML +164",
        "game_id": "recLWqwVHwLGRt4sA",
        "game": "James Madison @ UConn",
        "priority": "primary",
@@ -10943,13 +10950,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 57.5,
-       "line": 51.5,
+       "base_line": 56.5,
+       "line": 50.5,
        "price": 0.0,
-       "prob": 0.6038,
+       "prob": 0.6083,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 57.5 -> 51.5",
+       "selection": "Over 56.5 -> 50.5",
        "game_id": "recLWqwVHwLGRt4sA",
        "game": "James Madison @ UConn",
        "priority": "secondary",
@@ -10987,10 +10994,10 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": 9.5,
-     "total_line": 50.5,
+     "total_line": 51.5,
      "model_margin": 9.099999999999998,
      "blend_margin": 9.442,
-     "proj_total": 50.97325,
+     "proj_total": 51.67325,
      "factors": [
       "weather: 48F, 2 | no severity"
      ],
@@ -11001,7 +11008,7 @@
        "side": "home",
        "team": "Indiana",
        "line": -7.5,
-       "price": -112.0,
+       "price": -108.0,
        "proj": 9.099999999999998,
        "prob": 0.5081,
        "edge": null,
@@ -11017,15 +11024,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 50.5,
-       "price": -110.0,
-       "proj": 50.97,
-       "prob": 0.5058,
-       "edge": 0.47,
+       "line": 51.5,
+       "price": -112.0,
+       "proj": 51.67,
+       "prob": 0.5021,
+       "edge": 0.17,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 50.5",
+       "selection": "Over 51.5",
        "game_id": "recLonTTdUlcZwN1l",
        "game": "USC @ Indiana",
        "priority": "primary",
@@ -11036,18 +11043,18 @@
        "side": "away",
        "team": "USC",
        "line": 0.0,
-       "price": 275.0,
+       "price": 270.0,
        "price_estimated": false,
        "proj": 9.44,
        "prob": 0.2647,
-       "edge": -0.002,
+       "edge": -0.0056,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "USC ML +275",
+       "selection": "USC ML +270",
        "game_id": "recLonTTdUlcZwN1l",
        "game": "USC @ Indiana",
        "priority": "primary",
@@ -11077,13 +11084,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 50.5,
-       "line": 44.5,
+       "base_line": 51.5,
+       "line": 45.5,
        "price": 0.0,
-       "prob": 0.6049,
+       "prob": 0.6004,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 50.5 -> 44.5",
+       "selection": "Over 51.5 -> 45.5",
        "game_id": "recLonTTdUlcZwN1l",
        "game": "USC @ Indiana",
        "priority": "secondary",
@@ -11168,7 +11175,7 @@
      "blend_margin": 7.0,
      "proj_total": null,
      "factors": [
-      "weather: 52F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 52F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": null,
      "picks": [
@@ -11336,7 +11343,7 @@
      "blend_margin": -7.5075,
      "proj_total": 42.9,
      "factors": [
-      "weather: 60F, 35 | no severity"
+      "weather: 51F, wind 7mph, precip 1% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -11386,7 +11393,7 @@
        "prob": 0.3085,
        "edge": 0.0054,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11465,14 +11472,14 @@
      "game": "Duke @ Miami",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
+     "frozen": true,
      "line": 14.0,
-     "total_line": 54.5,
+     "total_line": 55.5,
      "model_margin": 15.999999999999998,
      "blend_margin": 14.29,
-     "proj_total": 54.74975,
+     "proj_total": 55.44975,
      "factors": [
-      "weather: 69F, wind 9mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 70F, wind 10mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -11496,16 +11503,16 @@
       },
       {
        "market": "total",
-       "side": "over",
-       "line": 54.5,
-       "price": -112.0,
-       "proj": 54.75,
-       "prob": 0.5031,
-       "edge": 0.25,
+       "side": "under",
+       "line": 55.5,
+       "price": -118.0,
+       "proj": 55.45,
+       "prob": 0.5006,
+       "edge": 0.05,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 54.5",
+       "selection": "Under 55.5",
        "game_id": "recNF2BufPnovNQ1f",
        "game": "Duke @ Miami",
        "priority": "primary",
@@ -11522,7 +11529,7 @@
        "prob": 0.1705,
        "edge": -0.0146,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11556,14 +11563,14 @@
       {
        "market": "teaser_leg",
        "kind": "total",
-       "side": "over",
-       "base_line": 54.5,
-       "line": 48.5,
+       "side": "under",
+       "base_line": 55.5,
+       "line": 61.5,
        "price": 0.0,
-       "prob": 0.6016,
+       "prob": 0.5985,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 54.5 -> 48.5",
+       "selection": "Under 55.5 -> 61.5",
        "game_id": "recNF2BufPnovNQ1f",
        "game": "Duke @ Miami",
        "priority": "secondary",
@@ -11651,18 +11658,18 @@
        "side": "home",
        "team": "Arizona Cardinals",
        "line": 0.0,
-       "price": 380.0,
+       "price": 390.0,
        "price_estimated": false,
        "proj": -9.68,
        "prob": 0.2171,
-       "edge": 0.0088,
+       "edge": 0.0131,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Arizona Cardinals ML +380",
+       "selection": "Arizona Cardinals ML +390",
        "game_id": "recNX9B2b0GWPNaR2",
        "game": "Los Angeles Rams @ Arizona Cardinals",
        "priority": "primary",
@@ -11734,23 +11741,25 @@
      "game": "UAB @ Temple",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
+     "frozen": true,
      "line": 2.5,
-     "total_line": 47.5,
+     "total_line": 48.5,
      "model_margin": 6.0,
      "blend_margin": 3.0075,
-     "proj_total": 48.56275,
+     "proj_total": 48.38775,
      "factors": [
-      "weather: 44F, wind 10mph, precip 1% | sev=0.00 | open-meteo"
+      "weather: 44F, wind 10mph, precip 2% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
        "side": "home",
        "team": "Temple",
        "line": -2.5,
-       "price": -115.0,
+       "price": -122.0,
        "proj": 6.0,
        "prob": 0.5127,
        "edge": null,
@@ -11765,16 +11774,16 @@
       },
       {
        "market": "total",
-       "side": "over",
-       "line": 47.5,
-       "price": -110.0,
-       "proj": 48.56,
-       "prob": 0.513,
-       "edge": 1.06,
+       "side": "under",
+       "line": 48.5,
+       "price": -115.0,
+       "proj": 48.39,
+       "prob": 0.5014,
+       "edge": 0.11,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 47.5",
+       "selection": "Under 48.5",
        "game_id": "recNgHEASUPEBXz76",
        "game": "UAB @ Temple",
        "priority": "primary",
@@ -11785,18 +11794,18 @@
        "side": "home",
        "team": "Temple",
        "line": 0.0,
-       "price": -135.0,
+       "price": -142.0,
        "price_estimated": false,
        "proj": 3.01,
        "prob": 0.5794,
-       "edge": 0.0049,
+       "edge": -0.0074,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Temple ML -135",
+       "selection": "Temple ML -142",
        "game_id": "recNgHEASUPEBXz76",
        "game": "UAB @ Temple",
        "priority": "primary",
@@ -11827,14 +11836,14 @@
       {
        "market": "teaser_leg",
        "kind": "total",
-       "side": "over",
-       "base_line": 47.5,
-       "line": 41.5,
+       "side": "under",
+       "base_line": 48.5,
+       "line": 54.5,
        "price": 0.0,
-       "prob": 0.6136,
+       "prob": 0.5995,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 47.5 -> 41.5",
+       "selection": "Under 48.5 -> 54.5",
        "game_id": "recNgHEASUPEBXz76",
        "game": "UAB @ Temple",
        "priority": "secondary",
@@ -11872,14 +11881,16 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": -6.0,
-     "total_line": 56.5,
+     "total_line": 55.5,
      "model_margin": -3.0,
      "blend_margin": -5.565,
-     "proj_total": 55.775124999999996,
+     "proj_total": 54.200125,
      "factors": [
-      "weather: 54F, 1 | no severity"
+      "weather: 50F, wind 12mph, precip 0% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
@@ -11902,15 +11913,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 56.5,
-       "price": -112.0,
-       "proj": 55.78,
-       "prob": 0.5089,
-       "edge": 0.72,
+       "line": 55.5,
+       "price": -108.0,
+       "proj": 54.2,
+       "prob": 0.5159,
+       "edge": 1.3,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 56.5",
+       "selection": "Under 55.5",
        "game_id": "recPOnSCzvrPEJmq5",
        "game": "Georgia Southern @ Georgia State",
        "priority": "primary",
@@ -11927,7 +11938,7 @@
        "prob": 0.3554,
        "edge": 0.0045,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11964,13 +11975,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 56.5,
-       "line": 62.5,
+       "base_line": 55.5,
+       "line": 61.5,
        "price": 0.0,
-       "prob": 0.6086,
+       "prob": 0.617,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 56.5 -> 62.5",
+       "selection": "Under 55.5 -> 61.5",
        "game_id": "recPOnSCzvrPEJmq5",
        "game": "Georgia Southern @ Georgia State",
        "priority": "secondary",
@@ -12049,13 +12060,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 13.5,
+     "line": 14.0,
      "total_line": 48.5,
      "model_margin": 11.3,
-     "blend_margin": 13.181000000000001,
+     "blend_margin": 13.6085,
      "proj_total": 47.70083653846154,
      "factors": [
-      "weather: 41F, wind 14mph, precip 33% | sev=0.25 | open-meteo"
+      "weather: 40F, wind 13mph, precip 27% | sev=0.25 | open-meteo"
      ],
      "total_factor_why": [
       "weather -0.9"
@@ -12066,7 +12077,7 @@
        "side": "away",
        "team": "San Jos\u00e9 State",
        "line": 12.5,
-       "price": -110.0,
+       "price": -112.0,
        "proj": 11.3,
        "prob": 0.5104,
        "edge": null,
@@ -12083,7 +12094,7 @@
        "market": "total",
        "side": "under",
        "line": 48.5,
-       "price": -115.0,
+       "price": -112.0,
        "proj": 47.7,
        "prob": 0.5098,
        "edge": 0.8,
@@ -12101,18 +12112,18 @@
        "side": "away",
        "team": "San Jos\u00e9 State",
        "line": 0.0,
-       "price": 410.0,
+       "price": 425.0,
        "price_estimated": false,
-       "proj": 13.18,
-       "prob": 0.1899,
-       "edge": -0.0061,
+       "proj": 13.61,
+       "prob": 0.1823,
+       "edge": -0.0082,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "San Jos\u00e9 State ML +410",
+       "selection": "San Jos\u00e9 State ML +425",
        "game_id": "recQ4PSoJW1FiCc9B",
        "game": "San Jos\u00e9 State @ Air Force",
        "priority": "primary",
@@ -12125,13 +12136,13 @@
        "kind": "spread",
        "side": "away",
        "team": "San Jos\u00e9 State",
-       "base_line": 13.5,
-       "line": 19.5,
+       "base_line": 14.0,
+       "line": 20.0,
        "price": 0.0,
-       "prob": 0.5965,
-       "push": 0,
+       "prob": 0.5909,
+       "push": 0.0234,
        "crosses": [],
-       "selection": "San Jos\u00e9 State +13.5 -> +19.5",
+       "selection": "San Jos\u00e9 State +14 -> +20",
        "game_id": "recQ4PSoJW1FiCc9B",
        "game": "San Jos\u00e9 State @ Air Force",
        "priority": "secondary",
@@ -12159,23 +12170,23 @@
      "alt_spreads": [
       {
        "team": "Air Force",
-       "line": -16.5,
-       "prob": 0.3986
+       "line": -17.0,
+       "prob": 0.3833
       },
       {
        "team": "San Jos\u00e9 State",
-       "line": 10.5,
-       "prob": 0.445
+       "line": 11.0,
+       "prob": 0.4338
       },
       {
        "team": "Air Force",
-       "line": -10.5,
-       "prob": 0.555
+       "line": -11.0,
+       "prob": 0.5409
       },
       {
        "team": "San Jos\u00e9 State",
-       "line": 16.5,
-       "prob": 0.6014
+       "line": 17.0,
+       "prob": 0.5904
       }
      ]
     },
@@ -12234,7 +12245,7 @@
      "proj_total": 41.93838636363637,
      "factors": [
       "QB: HOME QB PLAYING Jordan Love [verified 2026-11-12] | AWAY QB PLAYING Carson Wentz [verified 2026-11-12]",
-      "weather: 36F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 37F, wind 2mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -12284,7 +12295,7 @@
        "prob": 0.5753,
        "edge": -0.0215,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12371,7 +12382,7 @@
      "blend_margin": -2.413,
      "proj_total": 45.599875,
      "factors": [
-      "weather: 42F, 7 | no severity"
+      "weather: 38F, wind 8mph, precip 2% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -12380,7 +12391,7 @@
        "side": "home",
        "team": "Michigan State",
        "line": 3.0,
-       "price": -105.0,
+       "price": -112.0,
        "proj": -1.8999999999999995,
        "prob": 0.5062,
        "edge": null,
@@ -12421,7 +12432,7 @@
        "prob": 0.5639,
        "edge": -0.0106,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12592,7 +12603,7 @@
      "blend_margin": -7.4565,
      "proj_total": 54.18725,
      "factors": [
-      "weather: 48F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 48F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -12642,7 +12653,7 @@
        "prob": 0.3097,
        "edge": 0.0156,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12720,11 +12731,11 @@
      "league": "NFL",
      "date": "2026-11-15",
      "frozen": false,
-     "line": 3.5,
-     "total_line": 38.5,
+     "line": 4.5,
+     "total_line": 37.5,
      "model_margin": 10.7,
-     "blend_margin": 5.66,
-     "proj_total": 40.33623863636364,
+     "blend_margin": 6.359999999999999,
+     "proj_total": 39.636238636363636,
      "factors": [
       "QB: HOME QB PLAYING Daniel Jones [auto espn 2026-11-14] | AWAY QB PLAYING Kyle McCord [auto espn 2026-11-14]",
       "weather: indoor | sev=0.00"
@@ -12736,7 +12747,7 @@
        "side": "home",
        "team": "Indianapolis Colts",
        "line": -3.5,
-       "price": -118.0,
+       "price": -108.0,
        "proj": 10.7,
        "prob": 0.6946,
        "edge": null,
@@ -12752,15 +12763,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 38.5,
-       "price": -105.0,
-       "proj": 40.34,
-       "prob": 0.5728,
-       "edge": 1.84,
+       "line": 37.5,
+       "price": -110.0,
+       "proj": 39.64,
+       "prob": 0.5846,
+       "edge": 2.14,
        "edge_unit": "pts",
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Over 38.5",
+       "selection": "Over 37.5",
        "game_id": "recSIX0kbtS9usFh5",
        "game": "Miami Dolphins @ Indianapolis Colts",
        "priority": "primary",
@@ -12773,11 +12784,11 @@
        "line": 0.0,
        "price": -218.0,
        "price_estimated": false,
-       "proj": 5.66,
-       "prob": 0.6762,
-       "edge": -0.0093,
+       "proj": 6.36,
+       "prob": 0.6963,
+       "edge": 0.0107,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12795,15 +12806,15 @@
        "kind": "spread",
        "side": "home",
        "team": "Indianapolis Colts",
-       "base_line": -3.5,
-       "line": 2.5,
+       "base_line": -4.5,
+       "line": 1.5,
        "price": 0.0,
-       "prob": 0.766,
+       "prob": 0.7597,
        "push": 0,
        "crosses": [
         3
        ],
-       "selection": "Indianapolis Colts -3.5 -> +2.5 (crosses 3)",
+       "selection": "Indianapolis Colts -4.5 -> +1.5 (crosses 3)",
        "game_id": "recSIX0kbtS9usFh5",
        "game": "Miami Dolphins @ Indianapolis Colts",
        "priority": "secondary",
@@ -12814,13 +12825,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 38.5,
-       "line": 32.5,
+       "base_line": 37.5,
+       "line": 31.5,
        "price": 0.0,
-       "prob": 0.8259,
+       "prob": 0.8359,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 38.5 -> 32.5",
+       "selection": "Over 37.5 -> 31.5",
        "game_id": "recSIX0kbtS9usFh5",
        "game": "Miami Dolphins @ Indianapolis Colts",
        "priority": "secondary",
@@ -12831,23 +12842,23 @@
      "alt_spreads": [
       {
        "team": "Indianapolis Colts",
-       "line": -6.5,
-       "prob": 0.4501
+       "line": -7.5,
+       "prob": 0.4285
       },
       {
        "team": "Miami Dolphins",
-       "line": 0.5,
-       "prob": 0.3446
+       "line": 1.5,
+       "prob": 0.3524
       },
       {
        "team": "Indianapolis Colts",
-       "line": -0.5,
-       "prob": 0.6554
+       "line": -1.5,
+       "prob": 0.6476
       },
       {
        "team": "Miami Dolphins",
-       "line": 6.5,
-       "prob": 0.5499
+       "line": 7.5,
+       "prob": 0.5715
       }
      ]
     },
@@ -12861,20 +12872,18 @@
      "total_line": 73.5,
      "model_margin": 0.8000000000000007,
      "blend_margin": 3.1085000000000003,
-     "proj_total": 69.71275,
+     "proj_total": 70.58775,
      "factors": [
-      "weather: 45F, wind 10mph, precip 13% | sev=0.25 | open-meteo"
+      "weather: 46F, wind 10mph, precip 8% | sev=0.00 | open-meteo"
      ],
-     "total_factor_why": [
-      "weather -0.9"
-     ],
+     "total_factor_why": [],
      "picks": [
       {
        "market": "spread",
        "side": "away",
        "team": "Texas Tech",
        "line": 3.5,
-       "price": -118.0,
+       "price": -112.0,
        "proj": 0.8000000000000007,
        "prob": 0.5089,
        "edge": null,
@@ -12891,10 +12900,10 @@
        "market": "total",
        "side": "under",
        "line": 73.5,
-       "price": -115.0,
-       "proj": 69.71,
-       "prob": 0.5458,
-       "edge": 3.79,
+       "price": -110.0,
+       "proj": 70.59,
+       "prob": 0.5355,
+       "edge": 2.91,
        "edge_unit": "pts",
        "tier": "Lean",
        "units": 0.5,
@@ -12915,7 +12924,7 @@
        "prob": 0.418,
        "edge": 0.0047,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12955,7 +12964,7 @@
        "base_line": 73.5,
        "line": 79.5,
        "price": 0.0,
-       "prob": 0.6508,
+       "prob": 0.6394,
        "push": 0.0,
        "crosses": [],
        "selection": "Under 73.5 -> 79.5",
@@ -12995,13 +13004,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 15.5,
+     "line": 17.5,
      "total_line": 57.5,
      "model_margin": 17.3,
-     "blend_margin": 15.761,
+     "blend_margin": 17.471,
      "proj_total": 57.474125,
      "factors": [
-      "weather: 36F, 34 | no severity"
+      "weather: 35F, 34 | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -13010,7 +13019,7 @@
        "side": "home",
        "team": "Virginia Tech",
        "line": -14.5,
-       "price": -110.0,
+       "price": -105.0,
        "proj": 17.3,
        "prob": 0.5062,
        "edge": null,
@@ -13042,25 +13051,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Stanford",
+       "side": "home",
+       "team": "Virginia Tech",
        "line": 0.0,
-       "price": 525.0,
+       "price": -850.0,
        "price_estimated": false,
-       "proj": 15.76,
-       "prob": 0.1456,
-       "edge": -0.0144,
+       "proj": 17.47,
+       "prob": 0.879,
+       "edge": -0.0158,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Stanford ML +525",
+       "selection": "Virginia Tech ML -850",
        "game_id": "recTZfdpBSGzN916r",
        "game": "Stanford @ Virginia Tech",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       }
      ],
      "teaser_legs": [
@@ -13069,13 +13078,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Stanford",
-       "base_line": 15.5,
-       "line": 21.5,
+       "base_line": 17.5,
+       "line": 23.5,
        "price": 0.0,
-       "prob": 0.5886,
+       "prob": 0.5919,
        "push": 0,
        "crosses": [],
-       "selection": "Stanford +15.5 -> +21.5",
+       "selection": "Stanford +17.5 -> +23.5",
        "game_id": "recTZfdpBSGzN916r",
        "game": "Stanford @ Virginia Tech",
        "priority": "secondary",
@@ -13103,23 +13112,23 @@
      "alt_spreads": [
       {
        "team": "Virginia Tech",
-       "line": -18.5,
-       "prob": 0.4132
+       "line": -20.5,
+       "prob": 0.407
       },
       {
        "team": "Stanford",
-       "line": 12.5,
-       "prob": 0.4276
+       "line": 14.5,
+       "prob": 0.4372
       },
       {
        "team": "Virginia Tech",
-       "line": -12.5,
-       "prob": 0.5724
+       "line": -14.5,
+       "prob": 0.5628
       },
       {
        "team": "Stanford",
-       "line": 18.5,
-       "prob": 0.5868
+       "line": 20.5,
+       "prob": 0.593
       }
      ]
     },
@@ -13135,7 +13144,7 @@
      "blend_margin": -6.699999999999999,
      "proj_total": null,
      "factors": [
-      "weather: 41F, 34 | no severity"
+      "weather: 44F, 34 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -13221,18 +13230,18 @@
        "side": "away",
        "team": "Kentucky",
        "line": 0.0,
-       "price": 170.0,
-       "price_estimated": false,
+       "price": 184,
+       "price_estimated": true,
        "proj": 5.74,
        "prob": 0.3511,
-       "edge": -0.0193,
+       "edge": -0.001,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Kentucky ML +170",
+       "selection": "Kentucky ML +184 (price estimated from the line)",
        "game_id": "recTubW1MtzrvvEmY",
        "game": "Kentucky @ Missouri",
        "priority": "primary",
@@ -13313,7 +13322,7 @@
      "blend_margin": 4.007000000000001,
      "proj_total": 48.374625,
      "factors": [
-      "weather: 52F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 52F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -13339,7 +13348,7 @@
        "market": "total",
        "side": "over",
        "line": 46.5,
-       "price": -108.0,
+       "price": -115.0,
        "proj": 48.37,
        "prob": 0.5229,
        "edge": 1.87,
@@ -13363,7 +13372,7 @@
        "prob": 0.3948,
        "edge": 0.0244,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13444,10 +13453,10 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": 2.5,
-     "total_line": 49.5,
+     "total_line": 48.5,
      "model_margin": -2.200000000000001,
      "blend_margin": 1.8184999999999998,
-     "proj_total": 49.349875,
+     "proj_total": 48.649875,
      "factors": [
       "weather: 54F, wind 12mph, precip 9% | sev=0.25 | open-meteo"
      ],
@@ -13475,16 +13484,16 @@
       },
       {
        "market": "total",
-       "side": "under",
-       "line": 49.5,
+       "side": "over",
+       "line": 48.5,
        "price": -112.0,
-       "proj": 49.35,
+       "proj": 48.65,
        "prob": 0.5018,
        "edge": 0.15,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 49.5",
+       "selection": "Over 48.5",
        "game_id": "recUGwTH9S6MNDABp",
        "game": "Ole Miss @ Oklahoma",
        "priority": "primary",
@@ -13495,18 +13504,18 @@
        "side": "away",
        "team": "Ole Miss",
        "line": 0.0,
-       "price": 120.0,
+       "price": 124.0,
        "price_estimated": false,
        "proj": 1.82,
        "prob": 0.4518,
-       "edge": -0.0028,
+       "edge": 0.0054,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Ole Miss ML +120",
+       "selection": "Ole Miss ML +124",
        "game_id": "recUGwTH9S6MNDABp",
        "game": "Ole Miss @ Oklahoma",
        "priority": "primary",
@@ -13538,14 +13547,14 @@
       {
        "market": "teaser_leg",
        "kind": "total",
-       "side": "under",
-       "base_line": 49.5,
-       "line": 55.5,
+       "side": "over",
+       "base_line": 48.5,
+       "line": 42.5,
        "price": 0.0,
        "prob": 0.6001,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 49.5 -> 55.5",
+       "selection": "Over 48.5 -> 42.5",
        "game_id": "recUGwTH9S6MNDABp",
        "game": "Ole Miss @ Oklahoma",
        "priority": "secondary",
@@ -13588,7 +13597,7 @@
      "blend_margin": 7.7,
      "proj_total": null,
      "factors": [
-      "weather: 46F, 33 | no severity"
+      "weather: 55F, 33 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -13630,7 +13639,7 @@
      "blend_margin": 3.8045,
      "proj_total": 52.62375,
      "factors": [
-      "weather: 43F, wind 12mph, precip 2% | sev=0.25 | open-meteo"
+      "weather: 45F, wind 11mph, precip 2% | sev=0.25 | open-meteo"
      ],
      "total_factor_why": [
       "weather -0.9"
@@ -13682,7 +13691,7 @@
        "prob": 0.4,
        "edge": 0.0063,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13803,19 +13812,17 @@
      "game": "Northwestern @ Ohio State",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
-     "line": 14.0,
-     "total_line": 44.5,
+     "frozen": true,
+     "line": 14.5,
+     "total_line": 45.5,
      "model_margin": 14.5,
-     "blend_margin": 14.0725,
-     "proj_total": 46.212125,
+     "blend_margin": 14.5,
+     "proj_total": 47.787125,
      "factors": [
       "QB: HOME QB OUT Julian Sayin -> Luke Fahey [verified 2026-11-08] [priced: Luke Fahey led passing 2026-11-07]",
-      "weather: 41F, wind 10mph, precip 1% | sev=0.25 | open-meteo"
+      "weather: 40F, wind 9mph, precip 0% | sev=0.00 | open-meteo"
      ],
-     "total_factor_why": [
-      "weather -0.9"
-     ],
+     "total_factor_why": [],
      "picks": [
       {
        "market": "spread",
@@ -13838,15 +13845,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 44.5,
-       "price": -102.0,
-       "proj": 46.21,
-       "prob": 0.521,
-       "edge": 1.71,
+       "line": 45.5,
+       "price": -105.0,
+       "proj": 47.79,
+       "prob": 0.5279,
+       "edge": 2.29,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 44.5",
+       "selection": "Over 45.5",
        "game_id": "recXVCtaD9i4d3q7V",
        "game": "Northwestern @ Ohio State",
        "priority": "primary",
@@ -13854,25 +13861,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "Ohio State",
+       "side": "away",
+       "team": "Northwestern",
        "line": 0.0,
-       "price": -550.0,
+       "price": 470.0,
        "price_estimated": false,
-       "proj": 14.07,
-       "prob": 0.8258,
-       "edge": -0.0204,
+       "proj": 14.5,
+       "prob": 0.1658,
+       "edge": -0.0096,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Ohio State ML -550",
+       "selection": "Northwestern ML +470",
        "game_id": "recXVCtaD9i4d3q7V",
        "game": "Northwestern @ Ohio State",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -13881,13 +13888,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Northwestern",
-       "base_line": 14.0,
-       "line": 20.0,
+       "base_line": 14.5,
+       "line": 20.5,
        "price": 0.0,
-       "prob": 0.5846,
-       "push": 0.0237,
+       "prob": 0.5924,
+       "push": 0,
        "crosses": [],
-       "selection": "Northwestern +14 -> +20",
+       "selection": "Northwestern +14.5 -> +20.5",
        "game_id": "recXVCtaD9i4d3q7V",
        "game": "Northwestern @ Ohio State",
        "priority": "secondary",
@@ -13898,13 +13905,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 44.5,
-       "line": 38.5,
+       "base_line": 45.5,
+       "line": 39.5,
        "price": 0.0,
-       "prob": 0.6229,
+       "prob": 0.631,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 44.5 -> 38.5",
+       "selection": "Over 45.5 -> 39.5",
        "game_id": "recXVCtaD9i4d3q7V",
        "game": "Northwestern @ Ohio State",
        "priority": "secondary",
@@ -13915,23 +13922,23 @@
      "alt_spreads": [
       {
        "team": "Ohio State",
-       "line": -17.0,
-       "prob": 0.3952
+       "line": -17.5,
+       "prob": 0.4058
       },
       {
        "team": "Northwestern",
-       "line": 11.0,
-       "prob": 0.4218
+       "line": 11.5,
+       "prob": 0.4354
       },
       {
        "team": "Ohio State",
-       "line": -11.0,
-       "prob": 0.5531
+       "line": -11.5,
+       "prob": 0.5646
       },
       {
        "team": "Northwestern",
-       "line": 17.0,
-       "prob": 0.5784
+       "line": 17.5,
+       "prob": 0.5942
       }
      ]
     },
@@ -13947,7 +13954,7 @@
      "blend_margin": 3.0435000000000003,
      "proj_total": 55.786125,
      "factors": [
-      "weather: 47F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 48F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -13956,7 +13963,7 @@
        "side": "home",
        "team": "South Alabama",
        "line": -3.0,
-       "price": -115.0,
+       "price": -110.0,
        "proj": 3.3000000000000007,
        "prob": 0.5073,
        "edge": null,
@@ -13997,7 +14004,7 @@
        "prob": 0.4197,
        "edge": -0.0151,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14219,7 +14226,7 @@
      "blend_margin": 1.645,
      "proj_total": 50.13825,
      "factors": [
-      "weather: 49F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 48F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -14269,7 +14276,7 @@
        "prob": 0.5436,
        "edge": -0.0018,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14440,7 +14447,7 @@
      "blend_margin": -5.964,
      "proj_total": 48.78775,
      "factors": [
-      "weather: 59F, 18 | no severity"
+      "weather: 51F, 18 | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -14484,18 +14491,18 @@
        "side": "away",
        "team": "Ohio State",
        "line": 0.0,
-       "price": -198.0,
-       "price_estimated": false,
+       "price": -192,
+       "price_estimated": true,
        "proj": -5.96,
        "prob": 0.6544,
-       "edge": -0.01,
+       "edge": -0.0031,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Ohio State ML -198",
+       "selection": "Ohio State ML -192 (price estimated from the line)",
        "game_id": "recYeYfNuUaynHFDk",
        "game": "Ohio State @ Nebraska",
        "priority": "primary",
@@ -14576,7 +14583,7 @@
      "blend_margin": 17.1,
      "proj_total": null,
      "factors": [
-      "weather: 52F, 38 | no severity"
+      "weather: 50F, 38 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -14611,12 +14618,12 @@
      "game": "Alabama @ Vanderbilt",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
-     "line": -14.0,
-     "total_line": 47.5,
+     "frozen": true,
+     "line": -15.5,
+     "total_line": 48.5,
      "model_margin": -22.8,
-     "blend_margin": -15.276,
-     "proj_total": 49.848625,
+     "blend_margin": -16.5585,
+     "proj_total": 50.548625,
      "factors": [
       "weather: 49F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
      ],
@@ -14643,15 +14650,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 47.5,
-       "price": -118.0,
-       "proj": 49.85,
-       "prob": 0.5287,
-       "edge": 2.35,
+       "line": 48.5,
+       "price": -108.0,
+       "proj": 50.55,
+       "prob": 0.525,
+       "edge": 2.05,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 47.5",
+       "selection": "Over 48.5",
        "game_id": "reca4JdR5wi33Op0V",
        "game": "Alabama @ Vanderbilt",
        "priority": "primary",
@@ -14662,18 +14669,18 @@
        "side": "home",
        "team": "Vanderbilt",
        "line": 0.0,
-       "price": 490.0,
+       "price": 550.0,
        "price_estimated": false,
-       "proj": -15.28,
-       "prob": 0.1544,
-       "edge": -0.0151,
+       "proj": -16.56,
+       "prob": 0.1338,
+       "edge": -0.0201,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Vanderbilt ML +490",
+       "selection": "Vanderbilt ML +550",
        "game_id": "reca4JdR5wi33Op0V",
        "game": "Alabama @ Vanderbilt",
        "priority": "primary",
@@ -14686,13 +14693,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Alabama",
-       "base_line": -14.0,
-       "line": -8.0,
+       "base_line": -15.5,
+       "line": -9.5,
        "price": 0.0,
-       "prob": 0.5882,
-       "push": 0.0228,
+       "prob": 0.593,
+       "push": 0,
        "crosses": [],
-       "selection": "Alabama -14 -> -8",
+       "selection": "Alabama -15.5 -> -9.5",
        "game_id": "reca4JdR5wi33Op0V",
        "game": "Alabama @ Vanderbilt",
        "priority": "secondary",
@@ -14703,13 +14710,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 47.5,
-       "line": 41.5,
+       "base_line": 48.5,
+       "line": 42.5,
        "price": 0.0,
-       "prob": 0.6318,
+       "prob": 0.6276,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 47.5 -> 41.5",
+       "selection": "Over 48.5 -> 42.5",
        "game_id": "reca4JdR5wi33Op0V",
        "game": "Alabama @ Vanderbilt",
        "priority": "secondary",
@@ -14720,23 +14727,23 @@
      "alt_spreads": [
       {
        "team": "Vanderbilt",
-       "line": 11.0,
-       "prob": 0.3909
+       "line": 12.5,
+       "prob": 0.4068
       },
       {
        "team": "Alabama",
-       "line": -17.0,
-       "prob": 0.4263
+       "line": -18.5,
+       "prob": 0.4342
       },
       {
        "team": "Vanderbilt",
-       "line": 17.0,
-       "prob": 0.5469
+       "line": 18.5,
+       "prob": 0.5658
       },
       {
        "team": "Alabama",
-       "line": -11.0,
-       "prob": 0.5844
+       "line": -12.5,
+       "prob": 0.5932
       }
      ]
     },
@@ -14752,7 +14759,7 @@
      "blend_margin": -1.5,
      "proj_total": 55.488,
      "factors": [
-      "weather: 69F, 35 | no severity"
+      "weather: 65F, 35 | no severity"
      ],
      "total_factor_why": [],
      "picks": [
@@ -14761,7 +14768,7 @@
        "side": "away",
        "team": "Texas Tech",
        "line": -1.5,
-       "price": -105.0,
+       "price": -110.0,
        "proj": -1.5,
        "prob": 0.5004,
        "edge": null,
@@ -14793,25 +14800,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Texas Tech",
+       "side": "home",
+       "team": "Baylor",
        "line": 0.0,
-       "price": -112.0,
-       "price_estimated": false,
+       "price": 113,
+       "price_estimated": true,
        "proj": -1.5,
-       "prob": 0.5398,
-       "edge": 0.0115,
+       "prob": 0.4602,
+       "edge": -0.0093,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Texas Tech ML -112",
+       "selection": "Baylor ML +113 (price estimated from the line)",
        "game_id": "recaECO9clr72nsCg",
        "game": "Texas Tech @ Baylor",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -14889,7 +14896,7 @@
      "blend_margin": -15.0,
      "proj_total": null,
      "factors": [
-      "weather: 55F, 38 | no severity"
+      "weather: 49F, 38 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -14924,14 +14931,14 @@
      "game": "Nebraska @ Rutgers",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
-     "line": -14.5,
+     "frozen": true,
+     "line": -15.5,
      "total_line": 51.5,
      "model_margin": -15.899999999999999,
-     "blend_margin": -14.703,
+     "blend_margin": -15.558,
      "proj_total": 52.0625,
      "factors": [
-      "weather: 42F, wind 8mph, precip 1% | sev=0.00 | open-meteo"
+      "weather: 42F, wind 9mph, precip 2% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -14975,18 +14982,18 @@
        "side": "home",
        "team": "Rutgers",
        "line": 0.0,
-       "price": 490.0,
+       "price": 500.0,
        "price_estimated": false,
-       "proj": -14.7,
-       "prob": 0.1624,
-       "edge": -0.007,
+       "proj": -15.56,
+       "prob": 0.1488,
+       "edge": -0.0179,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Rutgers ML +490",
+       "selection": "Rutgers ML +500",
        "game_id": "recarH3aCIsP5eTKP",
        "game": "Nebraska @ Rutgers",
        "priority": "primary",
@@ -14999,13 +15006,13 @@
        "kind": "spread",
        "side": "home",
        "team": "Rutgers",
-       "base_line": 14.5,
-       "line": 20.5,
+       "base_line": 15.5,
+       "line": 21.5,
        "price": 0.0,
-       "prob": 0.5897,
+       "prob": 0.5914,
        "push": 0,
        "crosses": [],
-       "selection": "Rutgers +14.5 -> +20.5",
+       "selection": "Rutgers +15.5 -> +21.5",
        "game_id": "recarH3aCIsP5eTKP",
        "game": "Nebraska @ Rutgers",
        "priority": "secondary",
@@ -15033,23 +15040,23 @@
      "alt_spreads": [
       {
        "team": "Rutgers",
-       "line": 11.5,
-       "prob": 0.43
+       "line": 12.5,
+       "prob": 0.4329
       },
       {
        "team": "Nebraska",
-       "line": -17.5,
-       "prob": 0.4111
+       "line": -18.5,
+       "prob": 0.408
       },
       {
        "team": "Rutgers",
-       "line": 17.5,
-       "prob": 0.5889
+       "line": 18.5,
+       "prob": 0.592
       },
       {
        "team": "Nebraska",
-       "line": -11.5,
-       "prob": 0.57
+       "line": -12.5,
+       "prob": 0.5671
       }
      ]
     },
@@ -15101,13 +15108,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 2.5,
+     "line": 1.5,
      "total_line": 68.5,
      "model_margin": 1.0,
-     "blend_margin": 2.2825,
+     "blend_margin": 1.4275,
      "proj_total": 65.45,
      "factors": [
-      "weather: 42F, wind 12mph, precip 2% | sev=0.25 | open-meteo"
+      "weather: 43F, wind 12mph, precip 5% | sev=0.25 | open-meteo"
      ],
      "total_factor_why": [
       "weather -0.9"
@@ -15118,7 +15125,7 @@
        "side": "away",
        "team": "Kansas",
        "line": 3.0,
-       "price": -102.0,
+       "price": -105.0,
        "proj": 1.0,
        "prob": 0.5062,
        "edge": null,
@@ -15150,25 +15157,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Kansas",
+       "side": "home",
+       "team": "West Virginia",
        "line": 0.0,
-       "price": 120.0,
+       "price": -125.0,
        "price_estimated": false,
-       "proj": 2.28,
-       "prob": 0.4396,
-       "edge": -0.015,
+       "proj": 1.43,
+       "prob": 0.5379,
+       "edge": -0.0177,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Kansas ML +120",
+       "selection": "West Virginia ML -125",
        "game_id": "recbe0DRlCxEUlkhc",
        "game": "Kansas @ West Virginia",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       }
      ],
      "teaser_legs": [
@@ -15177,16 +15184,16 @@
        "kind": "spread",
        "side": "away",
        "team": "Kansas",
-       "base_line": 2.5,
-       "line": 8.5,
+       "base_line": 1.5,
+       "line": 7.5,
        "price": 0.0,
-       "prob": 0.5935,
+       "prob": 0.5918,
        "push": 0,
        "crosses": [
         3,
         7
        ],
-       "selection": "Kansas +2.5 -> +8.5 (crosses 3 and 7)",
+       "selection": "Kansas +1.5 -> +7.5 (crosses 3 and 7)",
        "game_id": "recbe0DRlCxEUlkhc",
        "game": "Kansas @ West Virginia",
        "priority": "secondary",
@@ -15214,23 +15221,23 @@
      "alt_spreads": [
       {
        "team": "West Virginia",
-       "line": -5.5,
-       "prob": 0.412
+       "line": -4.5,
+       "prob": 0.415
       },
       {
        "team": "Kansas",
-       "line": -0.5,
-       "prob": 0.4283
+       "line": -1.5,
+       "prob": 0.4253
       },
       {
        "team": "West Virginia",
-       "line": 0.5,
-       "prob": 0.5717
+       "line": 1.5,
+       "prob": 0.5747
       },
       {
        "team": "Kansas",
-       "line": 5.5,
-       "prob": 0.588
+       "line": 4.5,
+       "prob": 0.585
       }
      ]
     },
@@ -15288,7 +15295,7 @@
      "blend_margin": 3.4,
      "proj_total": null,
      "factors": [
-      "weather: 74F, wind 9mph, precip 15% | sev=0.00 | open-meteo"
+      "weather: 71F, wind 13mph, precip 18% | sev=0.25 | open-meteo"
      ],
      "total_factor_why": null,
      "picks": [
@@ -15323,14 +15330,14 @@
      "game": "Syracuse @ NC State",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
+     "frozen": true,
      "line": -3.0,
-     "total_line": 53.5,
+     "total_line": 54.5,
      "model_margin": -0.9000000000000004,
      "blend_margin": -2.6955,
-     "proj_total": 53.28725,
+     "proj_total": 53.987249999999996,
      "factors": [
-      "weather: 52F, wind 11mph, precip 1% | sev=0.25 | open-meteo"
+      "weather: 52F, wind 12mph, precip 0% | sev=0.25 | open-meteo"
      ],
      "total_factor_why": [
       "weather -0.9"
@@ -15341,7 +15348,7 @@
        "side": "home",
        "team": "NC State",
        "line": 3.0,
-       "price": -115.0,
+       "price": -120.0,
        "proj": -0.9000000000000004,
        "prob": 0.5077,
        "edge": null,
@@ -15357,15 +15364,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 53.5,
-       "price": -108.0,
-       "proj": 53.29,
-       "prob": 0.5026,
-       "edge": 0.21,
+       "line": 54.5,
+       "price": -105.0,
+       "proj": 53.99,
+       "prob": 0.5063,
+       "edge": 0.51,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 53.5",
+       "selection": "Under 54.5",
        "game_id": "reccQmzYjnGN84z0X",
        "game": "Syracuse @ NC State",
        "priority": "primary",
@@ -15373,25 +15380,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "NC State",
+       "side": "away",
+       "team": "Syracuse",
        "line": 0.0,
-       "price": 124.0,
+       "price": -142.0,
        "price_estimated": false,
        "proj": -2.7,
-       "prob": 0.4287,
-       "edge": -0.0177,
+       "prob": 0.5713,
+       "edge": -0.0155,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "NC State ML +124",
+       "selection": "Syracuse ML -142",
        "game_id": "reccQmzYjnGN84z0X",
        "game": "Syracuse @ NC State",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       }
      ],
      "teaser_legs": [
@@ -15419,13 +15426,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 53.5,
-       "line": 59.5,
+       "base_line": 54.5,
+       "line": 60.5,
        "price": 0.0,
-       "prob": 0.601,
+       "prob": 0.6055,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 53.5 -> 59.5",
+       "selection": "Under 54.5 -> 60.5",
        "game_id": "reccQmzYjnGN84z0X",
        "game": "Syracuse @ NC State",
        "priority": "secondary",
@@ -15477,7 +15484,7 @@
        "side": "home",
        "team": "Notre Dame",
        "line": -16.5,
-       "price": -105.0,
+       "price": -110.0,
        "proj": 17.799999999999997,
        "prob": 0.5058,
        "edge": null,
@@ -15509,25 +15516,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "Notre Dame",
+       "side": "away",
+       "team": "SMU",
        "line": 0.0,
-       "price": -750.0,
-       "price_estimated": false,
+       "price": 626,
+       "price_estimated": true,
        "proj": 16.69,
-       "prob": 0.8681,
-       "edge": -0.0143,
+       "prob": 0.1319,
+       "edge": -0.0058,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Notre Dame ML -750",
+       "selection": "SMU ML +626 (price estimated from the line)",
        "game_id": "reccsGQ0WZVRNDL66",
        "game": "SMU @ Notre Dame",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -15655,7 +15662,7 @@
        "side": "home",
        "team": "Liberty",
        "line": -20.5,
-       "price": -112.0,
+       "price": -110.0,
        "proj": 23.700000000000003,
        "prob": 0.5105,
        "edge": null,
@@ -15696,7 +15703,7 @@
        "prob": 0.924,
        "edge": -0.0189,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15780,7 +15787,7 @@
      "blend_margin": -8.3,
      "proj_total": null,
      "factors": [
-      "weather: 50F, 33 | no severity"
+      "weather: 55F, 33 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -15865,7 +15872,7 @@
      "proj_total": 48.40963636363636,
      "factors": [
       "QB: HOME QB PLAYING Joe Burrow [auto espn 2026-11-14] | AWAY QB PLAYING Aaron Rodgers [auto espn 2026-11-14]",
-      "weather: 41F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 40F, wind 6mph, precip 1% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -15874,7 +15881,7 @@
        "side": "home",
        "team": "Cincinnati Bengals",
        "line": -3.5,
-       "price": -110.0,
+       "price": -108.0,
        "proj": 6.5,
        "prob": 0.5957,
        "edge": null,
@@ -15891,7 +15898,7 @@
        "market": "total",
        "side": "under",
        "line": 49.5,
-       "price": -112.0,
+       "price": -115.0,
        "proj": 48.41,
        "prob": 0.5434,
        "edge": 1.09,
@@ -15909,18 +15916,18 @@
        "side": "home",
        "team": "Cincinnati Bengals",
        "line": 0.0,
-       "price": -185.0,
+       "price": -180.0,
        "price_estimated": false,
        "proj": 4.4,
        "prob": 0.6389,
-       "edge": -0.0103,
+       "edge": -0.004,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Cincinnati Bengals ML -185",
+       "selection": "Cincinnati Bengals ML -180",
        "game_id": "recg7N9JllfhoeUTO",
        "game": "Pittsburgh Steelers @ Cincinnati Bengals",
        "priority": "primary",
@@ -15996,10 +16003,10 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": -7.0,
-     "total_line": 38.5,
+     "total_line": 39.5,
      "model_margin": -8.1,
      "blend_margin": -7.1594999999999995,
-     "proj_total": 40.56175,
+     "proj_total": 41.26175,
      "factors": [
       "weather: 78F, 36 | no severity"
      ],
@@ -16026,15 +16033,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 38.5,
-       "price": -110.0,
-       "proj": 40.56,
-       "prob": 0.5252,
-       "edge": 2.06,
+       "line": 39.5,
+       "price": -108.0,
+       "proj": 41.26,
+       "prob": 0.5216,
+       "edge": 1.76,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 38.5",
+       "selection": "Over 39.5",
        "game_id": "recgTUtWAgehPBFoU",
        "game": "North Dakota State @ Hawai'i",
        "priority": "primary",
@@ -16051,7 +16058,7 @@
        "prob": 0.3167,
        "edge": 0.0042,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -16086,13 +16093,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 38.5,
-       "line": 32.5,
+       "base_line": 39.5,
+       "line": 33.5,
        "price": 0.0,
-       "prob": 0.6278,
+       "prob": 0.6236,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 38.5 -> 32.5",
+       "selection": "Over 39.5 -> 33.5",
        "game_id": "recgTUtWAgehPBFoU",
        "game": "North Dakota State @ Hawai'i",
        "priority": "secondary",
@@ -16171,11 +16178,11 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": -7.0,
-     "total_line": 46.5,
+     "line": -8.5,
+     "total_line": 44.5,
      "model_margin": -6.4,
-     "blend_margin": -6.913,
-     "proj_total": 47.688375,
+     "blend_margin": -8.195500000000001,
+     "proj_total": 46.288375,
      "factors": [
       "weather: 65F, 4 | no severity"
      ],
@@ -16186,7 +16193,7 @@
        "side": "home",
        "team": "Sam Houston",
        "line": 7.5,
-       "price": -102.0,
+       "price": -115.0,
        "proj": -6.4,
        "prob": 0.5092,
        "edge": null,
@@ -16202,15 +16209,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 46.5,
-       "price": -110.0,
-       "proj": 47.69,
-       "prob": 0.5146,
-       "edge": 1.19,
+       "line": 44.5,
+       "price": -112.0,
+       "proj": 46.29,
+       "prob": 0.5219,
+       "edge": 1.79,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 46.5",
+       "selection": "Over 44.5",
        "game_id": "recgn46XBe7WkElWB",
        "game": "Kennesaw State @ Sam Houston",
        "priority": "primary",
@@ -16221,18 +16228,18 @@
        "side": "home",
        "team": "Sam Houston",
        "line": 0.0,
-       "price": 225.0,
+       "price": 250.0,
        "price_estimated": false,
-       "proj": -6.91,
-       "prob": 0.3226,
-       "edge": 0.0149,
+       "proj": -8.2,
+       "prob": 0.2925,
+       "edge": 0.0068,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Sam Houston ML +225",
+       "selection": "Sam Houston ML +250",
        "game_id": "recgn46XBe7WkElWB",
        "game": "Kennesaw State @ Sam Houston",
        "priority": "primary",
@@ -16245,13 +16252,13 @@
        "kind": "spread",
        "side": "home",
        "team": "Sam Houston",
-       "base_line": 7.0,
-       "line": 13.0,
+       "base_line": 8.5,
+       "line": 14.5,
        "price": 0.0,
-       "prob": 0.5861,
-       "push": 0.0234,
+       "prob": 0.597,
+       "push": 0,
        "crosses": [],
-       "selection": "Sam Houston +7 -> +13",
+       "selection": "Sam Houston +8.5 -> +14.5",
        "game_id": "recgn46XBe7WkElWB",
        "game": "Kennesaw State @ Sam Houston",
        "priority": "secondary",
@@ -16262,13 +16269,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 46.5,
-       "line": 40.5,
+       "base_line": 44.5,
+       "line": 38.5,
        "price": 0.0,
-       "prob": 0.6154,
+       "prob": 0.624,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 46.5 -> 40.5",
+       "selection": "Over 44.5 -> 38.5",
        "game_id": "recgn46XBe7WkElWB",
        "game": "Kennesaw State @ Sam Houston",
        "priority": "secondary",
@@ -16279,23 +16286,23 @@
      "alt_spreads": [
       {
        "team": "Sam Houston",
-       "line": 4.0,
-       "prob": 0.418
+       "line": 5.5,
+       "prob": 0.4349
       },
       {
        "team": "Kennesaw State",
-       "line": -10.0,
-       "prob": 0.3919
+       "line": -11.5,
+       "prob": 0.3996
       },
       {
        "team": "Sam Houston",
-       "line": 10.0,
-       "prob": 0.5795
+       "line": 11.5,
+       "prob": 0.6004
       },
       {
        "team": "Kennesaw State",
-       "line": -4.0,
-       "prob": 0.557
+       "line": -5.5,
+       "prob": 0.5651
       }
      ]
     },
@@ -16305,22 +16312,24 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 10.5,
-     "total_line": 38.5,
+     "line": 10.0,
+     "total_line": 39.5,
      "model_margin": 13.0,
-     "blend_margin": 10.8625,
-     "proj_total": 41.5,
+     "blend_margin": 10.435,
+     "proj_total": 41.325,
      "factors": [
-      "weather: 54F, wind 8mph, precip 4% | sev=0.00 | open-meteo"
+      "weather: 58F, wind 12mph, precip 4% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
        "side": "home",
        "team": "Oregon",
        "line": -11.5,
-       "price": -110.0,
+       "price": -108.0,
        "proj": 13.0,
        "prob": 0.5081,
        "edge": null,
@@ -16336,15 +16345,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 38.5,
-       "price": -108.0,
-       "proj": 41.5,
-       "prob": 0.5365,
-       "edge": 3.0,
+       "line": 39.5,
+       "price": -115.0,
+       "proj": 41.33,
+       "prob": 0.5223,
+       "edge": 1.83,
        "edge_unit": "pts",
-       "tier": "Lean",
-       "units": 0.5,
-       "selection": "Over 38.5",
+       "tier": "No Play",
+       "units": 0.0,
+       "selection": "Over 39.5",
        "game_id": "reciW7HVgt6ZLBjmK",
        "game": "Michigan @ Oregon",
        "priority": "primary",
@@ -16355,18 +16364,18 @@
        "side": "away",
        "team": "Michigan",
        "line": 0.0,
-       "price": 330.0,
+       "price": 310.0,
        "price_estimated": false,
-       "proj": 10.86,
-       "prob": 0.2346,
-       "edge": 0.0021,
+       "proj": 10.44,
+       "prob": 0.2435,
+       "edge": -0.0004,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Michigan ML +330",
+       "selection": "Michigan ML +310",
        "game_id": "reciW7HVgt6ZLBjmK",
        "game": "Michigan @ Oregon",
        "priority": "primary",
@@ -16379,13 +16388,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Michigan",
-       "base_line": 10.5,
-       "line": 16.5,
+       "base_line": 10.0,
+       "line": 16.0,
        "price": 0.0,
-       "prob": 0.5877,
-       "push": 0,
+       "prob": 0.5802,
+       "push": 0.0238,
        "crosses": [],
-       "selection": "Michigan +10.5 -> +16.5",
+       "selection": "Michigan +10 -> +16",
        "game_id": "reciW7HVgt6ZLBjmK",
        "game": "Michigan @ Oregon",
        "priority": "secondary",
@@ -16396,13 +16405,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 38.5,
-       "line": 32.5,
+       "base_line": 39.5,
+       "line": 33.5,
        "price": 0.0,
-       "prob": 0.6406,
+       "prob": 0.6245,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 38.5 -> 32.5",
+       "selection": "Over 39.5 -> 33.5",
        "game_id": "reciW7HVgt6ZLBjmK",
        "game": "Michigan @ Oregon",
        "priority": "secondary",
@@ -16413,23 +16422,23 @@
      "alt_spreads": [
       {
        "team": "Oregon",
-       "line": -13.5,
-       "prob": 0.4179
+       "line": -13.0,
+       "prob": 0.407
       },
       {
        "team": "Michigan",
-       "line": 7.5,
-       "prob": 0.4262
+       "line": 7.0,
+       "prob": 0.4049
       },
       {
        "team": "Oregon",
-       "line": -7.5,
-       "prob": 0.5738
+       "line": -7.0,
+       "prob": 0.5628
       },
       {
        "team": "Michigan",
-       "line": 13.5,
-       "prob": 0.5821
+       "line": 13.0,
+       "prob": 0.5679
       }
      ]
     },
@@ -16439,24 +16448,22 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 13.5,
+     "line": 14.0,
      "total_line": 44.5,
      "model_margin": 8.7,
-     "blend_margin": 12.804,
-     "proj_total": 45.462875,
+     "blend_margin": 13.2315,
+     "proj_total": 46.337875,
      "factors": [
-      "weather: 62F, wind 12mph, precip 3% | sev=0.25 | open-meteo"
+      "weather: 60F, 4 | no severity"
      ],
-     "total_factor_why": [
-      "weather -0.9"
-     ],
+     "total_factor_why": [],
      "picks": [
       {
        "market": "spread",
        "side": "away",
        "team": "Kansas State",
        "line": 10.0,
-       "price": -110.0,
+       "price": -112.0,
        "proj": 8.7,
        "prob": 0.5092,
        "edge": null,
@@ -16474,9 +16481,9 @@
        "side": "over",
        "line": 44.5,
        "price": -112.0,
-       "proj": 45.46,
-       "prob": 0.5118,
-       "edge": 0.96,
+       "proj": 46.34,
+       "prob": 0.5225,
+       "edge": 1.84,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
@@ -16491,18 +16498,18 @@
        "side": "away",
        "team": "Kansas State",
        "line": 0.0,
-       "price": 390.0,
+       "price": 400.0,
        "price_estimated": false,
-       "proj": 12.8,
-       "prob": 0.1968,
-       "edge": -0.0073,
+       "proj": 13.23,
+       "prob": 0.189,
+       "edge": -0.011,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Kansas State ML +390",
+       "selection": "Kansas State ML +400",
        "game_id": "recic9i42i05ISszm",
        "game": "Kansas State @ TCU",
        "priority": "primary",
@@ -16515,13 +16522,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Kansas State",
-       "base_line": 13.5,
-       "line": 19.5,
+       "base_line": 14.0,
+       "line": 20.0,
        "price": 0.0,
-       "prob": 0.6015,
-       "push": 0,
+       "prob": 0.5959,
+       "push": 0.0231,
        "crosses": [],
-       "selection": "Kansas State +13.5 -> +19.5",
+       "selection": "Kansas State +14 -> +20",
        "game_id": "recic9i42i05ISszm",
        "game": "Kansas State @ TCU",
        "priority": "secondary",
@@ -16535,7 +16542,7 @@
        "base_line": 44.5,
        "line": 38.5,
        "price": 0.0,
-       "prob": 0.6121,
+       "prob": 0.6247,
        "push": 0.0,
        "crosses": [],
        "selection": "Over 44.5 -> 38.5",
@@ -16549,23 +16556,23 @@
      "alt_spreads": [
       {
        "team": "TCU",
-       "line": -16.5,
-       "prob": 0.3889
+       "line": -17.0,
+       "prob": 0.3738
       },
       {
        "team": "Kansas State",
-       "line": 10.5,
-       "prob": 0.4548
+       "line": 11.0,
+       "prob": 0.4437
       },
       {
        "team": "TCU",
-       "line": -10.5,
-       "prob": 0.5452
+       "line": -11.0,
+       "prob": 0.531
       },
       {
        "team": "Kansas State",
-       "line": 16.5,
-       "prob": 0.6111
+       "line": 17.0,
+       "prob": 0.6001
       }
      ]
     },
@@ -16574,23 +16581,25 @@
      "game": "East Carolina @ Charlotte",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
-     "line": -10.5,
-     "total_line": 45.5,
+     "frozen": true,
+     "line": -12.5,
+     "total_line": 46.5,
      "model_margin": -15.3,
-     "blend_margin": -11.196,
-     "proj_total": 47.850125,
+     "blend_margin": -12.906,
+     "proj_total": 47.675125,
      "factors": [
-      "weather: 52F, wind 9mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 51F, wind 10mph, precip 0% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
        "side": "away",
        "team": "East Carolina",
        "line": -11.5,
-       "price": -112.0,
+       "price": -108.0,
        "proj": -15.3,
        "prob": 0.5092,
        "edge": null,
@@ -16606,15 +16615,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 45.5,
-       "price": -105.0,
-       "proj": 47.85,
-       "prob": 0.5287,
-       "edge": 2.35,
+       "line": 46.5,
+       "price": -112.0,
+       "proj": 47.68,
+       "prob": 0.5144,
+       "edge": 1.18,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 45.5",
+       "selection": "Over 46.5",
        "game_id": "recjKFRvTR8flDidu",
        "game": "East Carolina @ Charlotte",
        "priority": "primary",
@@ -16625,18 +16634,18 @@
        "side": "home",
        "team": "Charlotte",
        "line": 0.0,
-       "price": 350.0,
+       "price": 370.0,
        "price_estimated": false,
-       "proj": -11.2,
-       "prob": 0.2279,
-       "edge": 0.0056,
+       "proj": -12.91,
+       "prob": 0.1949,
+       "edge": -0.0178,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Charlotte ML +350",
+       "selection": "Charlotte ML +370",
        "game_id": "recjKFRvTR8flDidu",
        "game": "East Carolina @ Charlotte",
        "priority": "primary",
@@ -16647,17 +16656,15 @@
       {
        "market": "teaser_leg",
        "kind": "spread",
-       "side": "away",
-       "team": "East Carolina",
-       "base_line": -10.5,
-       "line": -4.5,
+       "side": "home",
+       "team": "Charlotte",
+       "base_line": 12.5,
+       "line": 18.5,
        "price": 0.0,
-       "prob": 0.5903,
+       "prob": 0.5872,
        "push": 0,
-       "crosses": [
-        7
-       ],
-       "selection": "East Carolina -10.5 -> -4.5 (crosses 7)",
+       "crosses": [],
+       "selection": "Charlotte +12.5 -> +18.5",
        "game_id": "recjKFRvTR8flDidu",
        "game": "East Carolina @ Charlotte",
        "priority": "secondary",
@@ -16668,13 +16675,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 45.5,
-       "line": 39.5,
+       "base_line": 46.5,
+       "line": 40.5,
        "price": 0.0,
-       "prob": 0.6318,
+       "prob": 0.6152,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 45.5 -> 39.5",
+       "selection": "Over 46.5 -> 40.5",
        "game_id": "recjKFRvTR8flDidu",
        "game": "East Carolina @ Charlotte",
        "priority": "secondary",
@@ -16685,23 +16692,23 @@
      "alt_spreads": [
       {
        "team": "Charlotte",
-       "line": 7.5,
-       "prob": 0.4176
+       "line": 9.5,
+       "prob": 0.4233
       },
       {
        "team": "East Carolina",
-       "line": -13.5,
-       "prob": 0.4266
+       "line": -15.5,
+       "prob": 0.4166
       },
       {
        "team": "Charlotte",
-       "line": 13.5,
-       "prob": 0.5734
+       "line": 15.5,
+       "prob": 0.5834
       },
       {
        "team": "East Carolina",
-       "line": -7.5,
-       "prob": 0.5824
+       "line": -9.5,
+       "prob": 0.5767
       }
      ]
     },
@@ -16712,10 +16719,10 @@
      "date": "2026-11-14",
      "frozen": false,
      "line": 16.5,
-     "total_line": 47.5,
+     "total_line": 48.5,
      "model_margin": 16.799999999999997,
      "blend_margin": 16.543499999999998,
-     "proj_total": 49.312000000000005,
+     "proj_total": 50.012,
      "factors": [
       "weather: 59F, 1 | no severity"
      ],
@@ -16726,7 +16733,7 @@
        "side": "home",
        "team": "Georgia",
        "line": -15.5,
-       "price": -108.0,
+       "price": -110.0,
        "proj": 16.799999999999997,
        "prob": 0.505,
        "edge": null,
@@ -16742,15 +16749,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 47.5,
-       "price": -118.0,
-       "proj": 49.31,
-       "prob": 0.5222,
-       "edge": 1.81,
+       "line": 48.5,
+       "price": -105.0,
+       "proj": 50.01,
+       "prob": 0.5185,
+       "edge": 1.51,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 47.5",
+       "selection": "Over 48.5",
        "game_id": "recje8RLjCRkc3ZgQ",
        "game": "Missouri @ Georgia",
        "priority": "primary",
@@ -16758,25 +16765,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "Georgia",
+       "side": "away",
+       "team": "Missouri",
        "line": 0.0,
-       "price": -750.0,
+       "price": 550.0,
        "price_estimated": false,
        "proj": 16.54,
-       "prob": 0.866,
-       "edge": -0.0163,
+       "prob": 0.134,
+       "edge": -0.0199,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Georgia ML -750",
+       "selection": "Missouri ML +550",
        "game_id": "recje8RLjCRkc3ZgQ",
        "game": "Missouri @ Georgia",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -16802,13 +16809,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 47.5,
-       "line": 41.5,
+       "base_line": 48.5,
+       "line": 42.5,
        "price": 0.0,
-       "prob": 0.6243,
+       "prob": 0.6201,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 47.5 -> 41.5",
+       "selection": "Over 48.5 -> 42.5",
        "game_id": "recje8RLjCRkc3ZgQ",
        "game": "Missouri @ Georgia",
        "priority": "secondary",
@@ -16895,18 +16902,18 @@
        "side": "home",
        "team": "South Carolina",
        "line": 0.0,
-       "price": 285.0,
-       "price_estimated": false,
+       "price": 287,
+       "price_estimated": true,
        "proj": -10.09,
        "prob": 0.2508,
-       "edge": -0.009,
+       "edge": -0.0076,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "estimated",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "South Carolina ML +285",
+       "selection": "South Carolina ML +287 (price estimated from the line)",
        "game_id": "recjfxvQjakyxptWi",
        "game": "Georgia @ South Carolina",
        "priority": "primary",
@@ -17069,7 +17076,7 @@
      "blend_margin": 6.906,
      "proj_total": 70.399875,
      "factors": [
-      "weather: 46F, wind 5mph, precip 1% | sev=0.00 | open-meteo"
+      "weather: 47F, wind 6mph, precip 1% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -17078,7 +17085,7 @@
        "side": "home",
        "team": "Tulsa",
        "line": -5.5,
-       "price": -110.0,
+       "price": -115.0,
        "proj": 9.3,
        "prob": 0.517,
        "edge": null,
@@ -17095,7 +17102,7 @@
        "market": "total",
        "side": "under",
        "line": 73.5,
-       "price": -108.0,
+       "price": -115.0,
        "proj": 70.4,
        "prob": 0.5377,
        "edge": 3.1,
@@ -17119,7 +17126,7 @@
        "prob": 0.3227,
        "edge": -0.0163,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -17289,7 +17296,7 @@
      "blend_margin": -12.299999999999999,
      "proj_total": null,
      "factors": [
-      "weather: 38F, 36 | no severity"
+      "weather: 42F, 36 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -17331,7 +17338,7 @@
      "blend_margin": -19.8,
      "proj_total": null,
      "factors": [
-      "weather: 49F, 33 | no severity"
+      "weather: 51F, 33 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -17415,7 +17422,7 @@
      "blend_margin": 2.8000000000000007,
      "proj_total": null,
      "factors": [
-      "weather: 46F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 46F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": null,
      "picks": [
@@ -17509,7 +17516,7 @@
        "side": "away",
        "team": "Kansas City Chiefs",
        "line": -3.5,
-       "price": -118.0,
+       "price": -112.0,
        "proj": -6.9,
        "prob": 0.6051,
        "edge": null,
@@ -17526,7 +17533,7 @@
        "market": "total",
        "side": "under",
        "line": 47.5,
-       "price": -118.0,
+       "price": -115.0,
        "proj": 46.62,
        "prob": 0.535,
        "edge": 0.88,
@@ -17544,18 +17551,18 @@
        "side": "away",
        "team": "Kansas City Chiefs",
        "line": 0.0,
-       "price": -175.0,
+       "price": -170.0,
        "price_estimated": false,
        "proj": -4.17,
        "prob": 0.6319,
-       "edge": -0.0045,
+       "edge": 0.0022,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Kansas City Chiefs ML -175",
+       "selection": "Kansas City Chiefs ML -170",
        "game_id": "recnnhFNODT9UyF5L",
        "game": "Kansas City Chiefs @ Atlanta Falcons",
        "priority": "primary",
@@ -17672,10 +17679,10 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": 16.5,
+     "line": 17.5,
      "total_line": 46.5,
      "model_margin": 15.2,
-     "blend_margin": 16.3115,
+     "blend_margin": 17.1665,
      "proj_total": 47.688375,
      "factors": [
       "weather: 51F, 16 | no severity"
@@ -17687,7 +17694,7 @@
        "side": "away",
        "team": "UNLV",
        "line": 14.0,
-       "price": -105.0,
+       "price": -108.0,
        "proj": 15.2,
        "prob": 0.5004,
        "edge": null,
@@ -17722,18 +17729,18 @@
        "side": "away",
        "team": "UNLV",
        "line": 0.0,
-       "price": 550.0,
+       "price": 625.0,
        "price_estimated": false,
-       "proj": 16.31,
-       "prob": 0.1374,
-       "edge": -0.0165,
+       "proj": 17.17,
+       "prob": 0.1252,
+       "edge": -0.0127,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "UNLV ML +550",
+       "selection": "UNLV ML +625",
        "game_id": "recoNsxKmBX0gsbtZ",
        "game": "UNLV @ New Mexico",
        "priority": "primary",
@@ -17746,13 +17753,13 @@
        "kind": "spread",
        "side": "away",
        "team": "UNLV",
-       "base_line": 16.5,
-       "line": 22.5,
+       "base_line": 17.5,
+       "line": 23.5,
        "price": 0.0,
-       "prob": 0.5944,
+       "prob": 0.596,
        "push": 0,
        "crosses": [],
-       "selection": "UNLV +16.5 -> +22.5",
+       "selection": "UNLV +17.5 -> +23.5",
        "game_id": "recoNsxKmBX0gsbtZ",
        "game": "UNLV @ New Mexico",
        "priority": "secondary",
@@ -17780,23 +17787,23 @@
      "alt_spreads": [
       {
        "team": "New Mexico",
-       "line": -19.5,
-       "prob": 0.4022
+       "line": -20.5,
+       "prob": 0.3991
       },
       {
        "team": "UNLV",
-       "line": 13.5,
-       "prob": 0.4385
+       "line": 14.5,
+       "prob": 0.4452
       },
       {
        "team": "New Mexico",
-       "line": -13.5,
-       "prob": 0.5615
+       "line": -14.5,
+       "prob": 0.5548
       },
       {
        "team": "UNLV",
-       "line": 19.5,
-       "prob": 0.5978
+       "line": 20.5,
+       "prob": 0.6009
       }
      ]
     },
@@ -17854,7 +17861,7 @@
      "blend_margin": 2.217,
      "proj_total": 50.024375,
      "factors": [
-      "weather: 59F, wind 9mph, precip 3% | sev=0.00 | open-meteo"
+      "weather: 59F, wind 8mph, precip 2% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -17863,7 +17870,7 @@
        "side": "away",
        "team": "Tulane",
        "line": 2.5,
-       "price": 100.0,
+       "price": -105.0,
        "proj": -2.4000000000000004,
        "prob": 0.515,
        "edge": null,
@@ -17880,7 +17887,7 @@
        "market": "total",
        "side": "over",
        "line": 48.5,
-       "price": -108.0,
+       "price": -112.0,
        "proj": 50.02,
        "prob": 0.5187,
        "edge": 1.52,
@@ -17904,7 +17911,7 @@
        "prob": 0.4413,
        "edge": 0.0246,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -17990,7 +17997,7 @@
      "blend_margin": 30.0655,
      "proj_total": 51.81275,
      "factors": [
-      "weather: 41F, wind 3mph, precip 16% | sev=0.00 | open-meteo"
+      "weather: 42F, wind 6mph, precip 14% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -18040,7 +18047,7 @@
        "prob": 0.9779,
        "edge": -0.0024,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -18175,7 +18182,7 @@
        "prob": 0.2289,
        "edge": 0.0067,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -18253,10 +18260,10 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": -5.5,
+     "line": -6.0,
      "total_line": 47.5,
      "model_margin": -9.499999999999998,
-     "blend_margin": -6.08,
+     "blend_margin": -6.507499999999999,
      "proj_total": 48.439,
      "factors": [
       "weather: 40F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
@@ -18303,18 +18310,18 @@
        "side": "home",
        "team": "Northern Illinois",
        "line": 0.0,
-       "price": 190.0,
+       "price": 195.0,
        "price_estimated": false,
-       "proj": -6.08,
-       "prob": 0.3427,
-       "edge": -0.0021,
+       "proj": -6.51,
+       "prob": 0.3323,
+       "edge": -0.0067,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Northern Illinois ML +190",
+       "selection": "Northern Illinois ML +195",
        "game_id": "recqwNkS52OIwUljj",
        "game": "Nevada @ Northern Illinois",
        "priority": "primary",
@@ -18327,15 +18334,15 @@
        "kind": "spread",
        "side": "away",
        "team": "Nevada",
-       "base_line": -5.5,
-       "line": 0.5,
+       "base_line": -6.0,
+       "line": 0.0,
        "price": 0.0,
-       "prob": 0.5913,
-       "push": 0,
+       "prob": 0.5841,
+       "push": 0.0231,
        "crosses": [
         3
        ],
-       "selection": "Nevada -5.5 -> +0.5 (crosses 3)",
+       "selection": "Nevada -6 -> +0 (crosses 3)",
        "game_id": "recqwNkS52OIwUljj",
        "game": "Nevada @ Northern Illinois",
        "priority": "secondary",
@@ -18363,23 +18370,23 @@
      "alt_spreads": [
       {
        "team": "Northern Illinois",
-       "line": 2.5,
-       "prob": 0.4059
+       "line": 3.0,
+       "prob": 0.3951
       },
       {
        "team": "Nevada",
-       "line": -8.5,
-       "prob": 0.4241
+       "line": -9.0,
+       "prob": 0.4101
       },
       {
        "team": "Northern Illinois",
-       "line": 8.5,
-       "prob": 0.5759
+       "line": 9.0,
+       "prob": 0.5649
       },
       {
        "team": "Nevada",
-       "line": -2.5,
-       "prob": 0.5941
+       "line": -3.0,
+       "prob": 0.5716
       }
      ]
     },
@@ -18437,7 +18444,7 @@
      "blend_margin": 9.599999999999998,
      "proj_total": null,
      "factors": [
-      "weather: 40F, wind 2mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 42F, 36 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -18479,7 +18486,7 @@
      "blend_margin": -8.7,
      "proj_total": null,
      "factors": [
-      "weather: 53F, 12 | no severity"
+      "weather: 56F, 7 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -18515,13 +18522,13 @@
      "league": "NCAAF",
      "date": "2026-11-14",
      "frozen": false,
-     "line": -2.5,
-     "total_line": 44.5,
+     "line": -3.0,
+     "total_line": 43.5,
      "model_margin": -2.8000000000000007,
-     "blend_margin": -2.5435000000000003,
-     "proj_total": 46.39975,
+     "blend_margin": -2.971,
+     "proj_total": 45.69975,
      "factors": [
-      "weather: 65F, wind 4mph, precip 7% | sev=0.00 | open-meteo"
+      "weather: 63F, wind 5mph, precip 3% | sev=0.00 | open-meteo"
      ],
      "total_factor_why": [],
      "picks": [
@@ -18530,7 +18537,7 @@
        "side": "home",
        "team": "San Diego State",
        "line": 2.5,
-       "price": -102.0,
+       "price": -115.0,
        "proj": -2.8000000000000007,
        "prob": 0.5012,
        "edge": null,
@@ -18546,15 +18553,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 44.5,
-       "price": -102.0,
-       "proj": 46.4,
-       "prob": 0.5232,
-       "edge": 1.9,
+       "line": 43.5,
+       "price": -115.0,
+       "proj": 45.7,
+       "prob": 0.5269,
+       "edge": 2.2,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 44.5",
+       "selection": "Over 43.5",
        "game_id": "recunXg69nLLqIr3D",
        "game": "Utah State @ San Diego State",
        "priority": "primary",
@@ -18562,25 +18569,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "San Diego State",
+       "side": "away",
+       "team": "Utah State",
        "line": 0.0,
-       "price": 124.0,
+       "price": -148.0,
        "price_estimated": false,
-       "proj": -2.54,
-       "prob": 0.4327,
-       "edge": -0.0137,
+       "proj": -2.97,
+       "prob": 0.5785,
+       "edge": -0.0183,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "San Diego State ML +124",
+       "selection": "Utah State ML -148",
        "game_id": "recunXg69nLLqIr3D",
        "game": "Utah State @ San Diego State",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       }
      ],
      "teaser_legs": [
@@ -18589,16 +18596,15 @@
        "kind": "spread",
        "side": "home",
        "team": "San Diego State",
-       "base_line": 2.5,
-       "line": 8.5,
+       "base_line": 3.0,
+       "line": 9.0,
        "price": 0.0,
-       "prob": 0.59,
-       "push": 0,
+       "prob": 0.5844,
+       "push": 0.0234,
        "crosses": [
-        3,
         7
        ],
-       "selection": "San Diego State +2.5 -> +8.5 (crosses 3 and 7)",
+       "selection": "San Diego State +3 -> +9 (crosses 7)",
        "game_id": "recunXg69nLLqIr3D",
        "game": "Utah State @ San Diego State",
        "priority": "secondary",
@@ -18609,13 +18615,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 44.5,
-       "line": 38.5,
+       "base_line": 43.5,
+       "line": 37.5,
        "price": 0.0,
-       "prob": 0.6256,
+       "prob": 0.6297,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 44.5 -> 38.5",
+       "selection": "Over 43.5 -> 37.5",
        "game_id": "recunXg69nLLqIr3D",
        "game": "Utah State @ San Diego State",
        "priority": "secondary",
@@ -18626,23 +18632,23 @@
      "alt_spreads": [
       {
        "team": "San Diego State",
-       "line": -0.5,
-       "prob": 0.4216
+       "line": 0.0,
+       "prob": 0.4107
       },
       {
        "team": "Utah State",
-       "line": -5.5,
-       "prob": 0.4186
+       "line": -6.0,
+       "prob": 0.4022
       },
       {
        "team": "San Diego State",
-       "line": 5.5,
-       "prob": 0.5814
+       "line": 6.0,
+       "prob": 0.5705
       },
       {
        "team": "Utah State",
-       "line": 0.5,
-       "prob": 0.5784
+       "line": 0.0,
+       "prob": 0.5644
       }
      ]
     },
@@ -18658,7 +18664,7 @@
      "blend_margin": -16.4,
      "proj_total": null,
      "factors": [
-      "weather: 27F, 22 | no severity"
+      "weather: 28F, 22 | no severity"
      ],
      "total_factor_why": null,
      "picks": [
@@ -18693,23 +18699,25 @@
      "game": "Arkansas State @ Coastal Carolina",
      "league": "NCAAF",
      "date": "2026-11-14",
-     "frozen": false,
-     "line": 1.5,
-     "total_line": 52.5,
+     "frozen": true,
+     "line": -1.5,
+     "total_line": 53.5,
      "model_margin": 0.7000000000000011,
-     "blend_margin": 1.3840000000000001,
-     "proj_total": 52.549875,
+     "blend_margin": -1.1809999999999998,
+     "proj_total": 52.374875,
      "factors": [
-      "weather: 58F, wind 10mph, precip 0% | sev=0.00 | open-meteo"
+      "weather: 58F, wind 10mph, precip 0% | sev=0.25 | open-meteo"
      ],
-     "total_factor_why": [],
+     "total_factor_why": [
+      "weather -0.9"
+     ],
      "picks": [
       {
        "market": "spread",
        "side": "home",
        "team": "Coastal Carolina",
        "line": -1.5,
-       "price": -108.0,
+       "price": -120.0,
        "proj": 0.7000000000000011,
        "prob": 0.5012,
        "edge": null,
@@ -18720,20 +18728,20 @@
        "game_id": "recwJUYhAtuhiQNKv",
        "game": "Arkansas State @ Coastal Carolina",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       },
       {
        "market": "total",
-       "side": "over",
-       "line": 52.5,
+       "side": "under",
+       "line": 53.5,
        "price": -105.0,
-       "proj": 52.55,
-       "prob": 0.5006,
-       "edge": 0.05,
+       "proj": 52.37,
+       "prob": 0.5138,
+       "edge": 1.13,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 52.5",
+       "selection": "Under 53.5",
        "game_id": "recwJUYhAtuhiQNKv",
        "game": "Arkansas State @ Coastal Carolina",
        "priority": "primary",
@@ -18741,21 +18749,21 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "Coastal Carolina",
+       "side": "away",
+       "team": "Arkansas State",
        "line": 0.0,
-       "price": -118.0,
+       "price": -110.0,
        "price_estimated": false,
-       "proj": 1.38,
-       "prob": 0.5367,
-       "edge": -0.0046,
+       "proj": -1.18,
+       "prob": 0.5314,
+       "edge": 0.0075,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Coastal Carolina ML -118",
+       "selection": "Arkansas State ML -110",
        "game_id": "recwJUYhAtuhiQNKv",
        "game": "Arkansas State @ Coastal Carolina",
        "priority": "primary",
@@ -18766,18 +18774,18 @@
       {
        "market": "teaser_leg",
        "kind": "spread",
-       "side": "away",
-       "team": "Arkansas State",
+       "side": "home",
+       "team": "Coastal Carolina",
        "base_line": 1.5,
        "line": 7.5,
        "price": 0.0,
-       "prob": 0.5924,
+       "prob": 0.595,
        "push": 0,
        "crosses": [
         3,
         7
        ],
-       "selection": "Arkansas State +1.5 -> +7.5 (crosses 3 and 7)",
+       "selection": "Coastal Carolina +1.5 -> +7.5 (crosses 3 and 7)",
        "game_id": "recwJUYhAtuhiQNKv",
        "game": "Arkansas State @ Coastal Carolina",
        "priority": "secondary",
@@ -18787,14 +18795,14 @@
       {
        "market": "teaser_leg",
        "kind": "total",
-       "side": "over",
-       "base_line": 52.5,
-       "line": 46.5,
+       "side": "under",
+       "base_line": 53.5,
+       "line": 59.5,
        "price": 0.0,
-       "prob": 0.5985,
+       "prob": 0.6145,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 52.5 -> 46.5",
+       "selection": "Under 53.5 -> 59.5",
        "game_id": "recwJUYhAtuhiQNKv",
        "game": "Arkansas State @ Coastal Carolina",
        "priority": "secondary",
@@ -18805,23 +18813,23 @@
      "alt_spreads": [
       {
        "team": "Coastal Carolina",
-       "line": -4.5,
-       "prob": 0.4139
+       "line": -1.5,
+       "prob": 0.4316
       },
       {
        "team": "Arkansas State",
-       "line": -1.5,
-       "prob": 0.4264
+       "line": -4.5,
+       "prob": 0.4087
       },
       {
        "team": "Coastal Carolina",
-       "line": 1.5,
-       "prob": 0.5736
+       "line": 4.5,
+       "prob": 0.5913
       },
       {
        "team": "Arkansas State",
-       "line": 4.5,
-       "prob": 0.5861
+       "line": 1.5,
+       "prob": 0.5684
       }
      ]
     },
@@ -18877,20 +18885,18 @@
      "total_line": 43.5,
      "model_margin": -3.0,
      "blend_margin": -1.7175,
-     "proj_total": 44.162125,
+     "proj_total": 45.037125,
      "factors": [
-      "weather: 62F, wind 11mph, precip 4% | sev=0.25 | open-meteo"
+      "weather: 63F, wind 9mph, precip 3% | sev=0.00 | open-meteo"
      ],
-     "total_factor_why": [
-      "weather -0.9"
-     ],
+     "total_factor_why": [],
      "picks": [
       {
        "market": "spread",
        "side": "home",
        "team": "Texas A&M",
        "line": 2.5,
-       "price": -122.0,
+       "price": -118.0,
        "proj": -3.0,
        "prob": 0.5023,
        "edge": null,
@@ -18907,10 +18913,10 @@
        "market": "total",
        "side": "over",
        "line": 43.5,
-       "price": -110.0,
-       "proj": 44.16,
-       "prob": 0.5081,
-       "edge": 0.66,
+       "price": -118.0,
+       "proj": 45.04,
+       "prob": 0.5188,
+       "edge": 1.54,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
@@ -18931,7 +18937,7 @@
        "prob": 0.5455,
        "edge": 0.0172,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -18971,7 +18977,7 @@
        "base_line": 43.5,
        "line": 37.5,
        "price": 0.0,
-       "prob": 0.6077,
+       "prob": 0.6204,
        "push": 0.0,
        "crosses": [],
        "selection": "Over 43.5 -> 37.5",
@@ -19015,14 +19021,12 @@
      "total_line": 50.5,
      "model_margin": -8.7,
      "blend_margin": -8.56,
-     "proj_total": 49.23236363636364,
+     "proj_total": 49.98236363636364,
      "factors": [
       "QB: HOME QB PLAYING Geno Smith [auto espn 2026-11-14] | AWAY QB PLAYING Josh Allen [verified 2026-11-12]",
-      "weather: 45F, wind 11mph, precip 1% | sev=0.25 | open-meteo"
+      "weather: 45F, wind 9mph, precip 1% | sev=0.00 | open-meteo"
      ],
-     "total_factor_why": [
-      "weather -0.8"
-     ],
+     "total_factor_why": [],
      "picks": [
       {
        "market": "spread",
@@ -19046,10 +19050,10 @@
        "market": "total",
        "side": "under",
        "line": 50.5,
-       "price": -102.0,
-       "proj": 49.23,
-       "prob": 0.5504,
-       "edge": 1.27,
+       "price": -105.0,
+       "proj": 49.98,
+       "prob": 0.5206,
+       "edge": 0.52,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
@@ -19070,7 +19074,7 @@
        "prob": 0.2446,
        "edge": 0.0121,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -19108,7 +19112,7 @@
        "base_line": 50.5,
        "line": 56.5,
        "price": 0.0,
-       "prob": 0.8063,
+       "prob": 0.7791,
        "push": 0.0,
        "crosses": [],
        "selection": "Under 50.5 -> 56.5",
@@ -19204,7 +19208,7 @@
        "prob": 0.4371,
        "edge": -0.0093,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -19371,122 +19375,17 @@
        "market": "parlay",
        "legs": [
         {
-         "game_id": "reciW7HVgt6ZLBjmK",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.5365,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Over 38.5",
-         "game": "Michigan @ Oregon",
-         "line": 38.5,
-         "grade_market": "total"
-        },
-        {
-         "game_id": "recleuiqEH89U3qMw",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.5377,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Under 73.5",
-         "game": "Florida Atlantic @ Tulsa",
-         "line": 73.5,
-         "grade_market": "total"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.2885,
-       "price": 271,
-       "break_even_prob": 0.2696,
-       "break_even_price": 271,
-       "edge": 0.0189,
-       "edge_unit": "prob",
-       "tier": "No Play",
-       "units": 0.0,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
          "game_id": "recSzZNVIF1B1RgAi",
          "market_kind": "total",
          "side": "under",
-         "prob": 0.5458,
-         "price": -115.0,
+         "prob": 0.5355,
+         "price": -110.0,
          "pro_favorite": false,
          "selection": "Under 73.5",
          "game": "Texas Tech @ Oklahoma State",
          "line": 73.5,
          "grade_market": "total"
         },
-        {
-         "game_id": "recleuiqEH89U3qMw",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.5377,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Under 73.5",
-         "game": "Florida Atlantic @ Tulsa",
-         "line": 73.5,
-         "grade_market": "total"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.2935,
-       "price": 260,
-       "break_even_prob": 0.2777,
-       "break_even_price": 260,
-       "edge": 0.0157,
-       "edge_unit": "prob",
-       "tier": "No Play",
-       "units": 0.0,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recSzZNVIF1B1RgAi",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.5458,
-         "price": -115.0,
-         "pro_favorite": false,
-         "selection": "Under 73.5",
-         "game": "Texas Tech @ Oklahoma State",
-         "line": 73.5,
-         "grade_market": "total"
-        },
-        {
-         "game_id": "reciW7HVgt6ZLBjmK",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.5365,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Over 38.5",
-         "game": "Michigan @ Oregon",
-         "line": 38.5,
-         "grade_market": "total"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.2928,
-       "price": 260,
-       "break_even_prob": 0.2777,
-       "break_even_price": 260,
-       "edge": 0.0151,
-       "edge_unit": "prob",
-       "tier": "No Play",
-       "units": 0.0,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
         {
          "game_id": "recbe0DRlCxEUlkhc",
          "market_kind": "total",
@@ -19498,26 +19397,14 @@
          "game": "Kansas @ West Virginia",
          "line": 68.5,
          "grade_market": "total"
-        },
-        {
-         "game_id": "recleuiqEH89U3qMw",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.5377,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Under 73.5",
-         "game": "Florida Atlantic @ Tulsa",
-         "line": 73.5,
-         "grade_market": "total"
         }
        ],
        "n_legs": 2,
-       "prob": 0.2888,
-       "price": 265,
-       "break_even_prob": 0.2743,
-       "break_even_price": 265,
-       "edge": 0.0145,
+       "prob": 0.2876,
+       "price": 261,
+       "break_even_prob": 0.2767,
+       "break_even_price": 261,
+       "edge": 0.0109,
        "edge_unit": "prob",
        "tier": "No Play",
        "units": 0.0,
@@ -19527,15 +19414,132 @@
        "market": "parlay",
        "legs": [
         {
-         "game_id": "rec4KXoPObfT4bFvb",
+         "game_id": "rec2wlci6Mt0CAhKY",
          "market_kind": "total",
          "side": "over",
-         "prob": 0.5362,
+         "prob": 0.5345,
          "price": -112.0,
          "pro_favorite": false,
-         "selection": "Over 41.5",
-         "game": "Wisconsin @ Maryland",
-         "line": 41.5,
+         "selection": "Over 46.5",
+         "game": "Arizona State @ UCF",
+         "line": 46.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recSzZNVIF1B1RgAi",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.5355,
+         "price": -110.0,
+         "pro_favorite": false,
+         "selection": "Under 73.5",
+         "game": "Texas Tech @ Oklahoma State",
+         "line": 73.5,
+         "grade_market": "total"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.2862,
+       "price": 261,
+       "break_even_prob": 0.2767,
+       "break_even_price": 261,
+       "edge": 0.0095,
+       "edge_unit": "prob",
+       "tier": "No Play",
+       "units": 0.0,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recI4uL5vEvbfRmn5",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.5387,
+         "price": -115.0,
+         "pro_favorite": false,
+         "selection": "Under 76.5",
+         "game": "North Texas @ UTSA",
+         "line": 76.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recSzZNVIF1B1RgAi",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.5355,
+         "price": -110.0,
+         "pro_favorite": false,
+         "selection": "Under 73.5",
+         "game": "Texas Tech @ Oklahoma State",
+         "line": 73.5,
+         "grade_market": "total"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.2885,
+       "price": 257,
+       "break_even_prob": 0.2802,
+       "break_even_price": 257,
+       "edge": 0.0083,
+       "edge_unit": "prob",
+       "tier": "No Play",
+       "units": 0.0,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "rec2wlci6Mt0CAhKY",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.5345,
+         "price": -112.0,
+         "pro_favorite": false,
+         "selection": "Over 46.5",
+         "game": "Arizona State @ UCF",
+         "line": 46.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recbe0DRlCxEUlkhc",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.5371,
+         "price": -112.0,
+         "pro_favorite": false,
+         "selection": "Under 68.5",
+         "game": "Kansas @ West Virginia",
+         "line": 68.5,
+         "grade_market": "total"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.2871,
+       "price": 258,
+       "break_even_prob": 0.2791,
+       "break_even_price": 258,
+       "edge": 0.008,
+       "edge_unit": "prob",
+       "tier": "No Play",
+       "units": 0.0,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recSzZNVIF1B1RgAi",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.5355,
+         "price": -110.0,
+         "pro_favorite": false,
+         "selection": "Under 73.5",
+         "game": "Texas Tech @ Oklahoma State",
+         "line": 73.5,
          "grade_market": "total"
         },
         {
@@ -19543,7 +19547,7 @@
          "market_kind": "total",
          "side": "under",
          "prob": 0.5377,
-         "price": -108.0,
+         "price": -115.0,
          "pro_favorite": false,
          "selection": "Under 73.5",
          "game": "Florida Atlantic @ Tulsa",
@@ -19552,11 +19556,11 @@
         }
        ],
        "n_legs": 2,
-       "prob": 0.2883,
-       "price": 265,
-       "break_even_prob": 0.2743,
-       "break_even_price": 265,
-       "edge": 0.014,
+       "prob": 0.2879,
+       "price": 257,
+       "break_even_prob": 0.2802,
+       "break_even_price": 257,
+       "edge": 0.0078,
        "edge_unit": "prob",
        "tier": "No Play",
        "units": 0.0,
@@ -19575,7 +19579,7 @@
          "market_kind": "spread",
          "side": "home",
          "prob": 0.6946,
-         "price": -118.0,
+         "price": -108.0,
          "pro_favorite": true,
          "selection": "Indianapolis Colts -3.5 (spread)",
          "game": "Miami Dolphins @ Indianapolis Colts",
@@ -19583,24 +19587,24 @@
          "grade_market": "spread"
         },
         {
-         "game_id": "recg7N9JllfhoeUTO",
+         "game_id": "recnnhFNODT9UyF5L",
          "market_kind": "spread",
-         "side": "home",
-         "prob": 0.5957,
-         "price": -110.0,
+         "side": "away",
+         "prob": 0.6051,
+         "price": -112.0,
          "pro_favorite": true,
-         "selection": "Cincinnati Bengals -3.5 (spread)",
-         "game": "Pittsburgh Steelers @ Cincinnati Bengals",
+         "selection": "Kansas City Chiefs -3.5 (spread)",
+         "game": "Kansas City Chiefs @ Atlanta Falcons",
          "line": -3.5,
          "grade_market": "spread"
         }
        ],
        "n_legs": 2,
-       "prob": 0.4138,
-       "price": 253,
-       "break_even_prob": 0.2835,
-       "break_even_price": 253,
-       "edge": 0.1302,
+       "prob": 0.4203,
+       "price": 265,
+       "break_even_prob": 0.2743,
+       "break_even_price": 265,
+       "edge": 0.146,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -19614,7 +19618,7 @@
          "market_kind": "spread",
          "side": "home",
          "prob": 0.6946,
-         "price": -118.0,
+         "price": -108.0,
          "pro_favorite": true,
          "selection": "Indianapolis Colts -3.5 (spread)",
          "game": "Miami Dolphins @ Indianapolis Colts",
@@ -19622,24 +19626,24 @@
          "grade_market": "spread"
         },
         {
-         "game_id": "recnnhFNODT9UyF5L",
+         "game_id": "recg7N9JllfhoeUTO",
          "market_kind": "spread",
-         "side": "away",
-         "prob": 0.6051,
-         "price": -118.0,
+         "side": "home",
+         "prob": 0.5957,
+         "price": -108.0,
          "pro_favorite": true,
-         "selection": "Kansas City Chiefs -3.5 (spread)",
-         "game": "Kansas City Chiefs @ Atlanta Falcons",
+         "selection": "Cincinnati Bengals -3.5 (spread)",
+         "game": "Pittsburgh Steelers @ Cincinnati Bengals",
          "line": -3.5,
          "grade_market": "spread"
         }
        ],
        "n_legs": 2,
-       "prob": 0.4203,
-       "price": 241,
-       "break_even_prob": 0.293,
-       "break_even_price": 241,
-       "edge": 0.1273,
+       "prob": 0.4138,
+       "price": 271,
+       "break_even_prob": 0.2696,
+       "break_even_price": 271,
+       "edge": 0.1442,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -19665,7 +19669,7 @@
          "market_kind": "spread",
          "side": "home",
          "prob": 0.6946,
-         "price": -118.0,
+         "price": -108.0,
          "pro_favorite": true,
          "selection": "Indianapolis Colts -3.5 (spread)",
          "game": "Miami Dolphins @ Indianapolis Colts",
@@ -19675,10 +19679,10 @@
        ],
        "n_legs": 2,
        "prob": 0.4116,
-       "price": 250,
-       "break_even_prob": 0.286,
-       "break_even_price": 250,
-       "edge": 0.1257,
+       "price": 265,
+       "break_even_prob": 0.2743,
+       "break_even_price": 265,
+       "edge": 0.1373,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -19704,7 +19708,7 @@
          "market_kind": "spread",
          "side": "home",
          "prob": 0.6946,
-         "price": -118.0,
+         "price": -108.0,
          "pro_favorite": true,
          "selection": "Indianapolis Colts -3.5 (spread)",
          "game": "Miami Dolphins @ Indianapolis Colts",
@@ -19714,10 +19718,10 @@
        ],
        "n_legs": 2,
        "prob": 0.3959,
-       "price": 266,
-       "break_even_prob": 0.2733,
-       "break_even_price": 266,
-       "edge": 0.1226,
+       "price": 281,
+       "break_even_prob": 0.2622,
+       "break_even_price": 281,
+       "edge": 0.1337,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -19727,43 +19731,271 @@
        "market": "parlay",
        "legs": [
         {
-         "game_id": "recIuqbnA5hwPkxTa",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.5769,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Las Vegas Raiders +6.5 (spread)",
-         "game": "Seattle Seahawks @ Las Vegas Raiders",
-         "line": 6.5,
-         "grade_market": "spread"
-        },
-        {
          "game_id": "recSIX0kbtS9usFh5",
          "market_kind": "spread",
          "side": "home",
          "prob": 0.6946,
-         "price": -118.0,
+         "price": -108.0,
          "pro_favorite": true,
          "selection": "Indianapolis Colts -3.5 (spread)",
          "game": "Miami Dolphins @ Indianapolis Colts",
          "line": -3.5,
          "grade_market": "spread"
+        },
+        {
+         "game_id": "recSIX0kbtS9usFh5",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.5846,
+         "price": -110.0,
+         "pro_favorite": false,
+         "selection": "Over 37.5",
+         "game": "Miami Dolphins @ Indianapolis Colts",
+         "line": 37.5,
+         "grade_market": "total"
         }
        ],
        "n_legs": 2,
-       "prob": 0.4007,
-       "price": 256,
-       "break_even_prob": 0.2811,
-       "break_even_price": 256,
-       "edge": 0.1197,
+       "prob": 0.4034,
+       "price": 268,
+       "break_even_prob": 0.272,
+       "break_even_price": 268,
+       "edge": 0.1314,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": true
+      }
+     ],
+     "teaser": [
+      {
+       "market": "teaser",
+       "legs": [
+        {
+         "game_id": "recSIX0kbtS9usFh5",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8359,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 37.5 -> 31.5",
+         "game": "Miami Dolphins @ Indianapolis Colts",
+         "line": 31.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 37.5
+        },
+        {
+         "game_id": "recIuqbnA5hwPkxTa",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8347,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 40.5 -> 34.5",
+         "game": "Seattle Seahawks @ Las Vegas Raiders",
+         "line": 34.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 40.5
+        },
+        {
+         "game_id": "rec1POGweSA4BNCwL",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8289,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 38.5 -> 32.5",
+         "game": "Los Angeles Chargers @ Baltimore Ravens",
+         "line": 32.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 38.5
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.5783,
+       "price": 160.0,
+       "break_even_prob": 0.3846,
+       "break_even_price": 160,
+       "edge": 0.1937,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
        "same_game": false
-      }
-     ],
-     "teaser": [
+      },
+      {
+       "market": "teaser",
+       "legs": [
+        {
+         "game_id": "recSIX0kbtS9usFh5",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8359,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 37.5 -> 31.5",
+         "game": "Miami Dolphins @ Indianapolis Colts",
+         "line": 31.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 37.5
+        },
+        {
+         "game_id": "recIuqbnA5hwPkxTa",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8347,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 40.5 -> 34.5",
+         "game": "Seattle Seahawks @ Las Vegas Raiders",
+         "line": 34.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 40.5
+        },
+        {
+         "game_id": "recNX9B2b0GWPNaR2",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8272,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 39.5 -> 33.5",
+         "game": "Los Angeles Rams @ Arizona Cardinals",
+         "line": 33.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 39.5
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.5772,
+       "price": 160.0,
+       "break_even_prob": 0.3846,
+       "break_even_price": 160,
+       "edge": 0.1925,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "teaser",
+       "legs": [
+        {
+         "game_id": "recSIX0kbtS9usFh5",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8359,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 37.5 -> 31.5",
+         "game": "Miami Dolphins @ Indianapolis Colts",
+         "line": 31.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 37.5
+        },
+        {
+         "game_id": "recIuqbnA5hwPkxTa",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8347,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 40.5 -> 34.5",
+         "game": "Seattle Seahawks @ Las Vegas Raiders",
+         "line": 34.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 40.5
+        },
+        {
+         "game_id": "recAWaU5OhKm6iTgv",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.8235,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 55.5 -> 61.5",
+         "game": "San Francisco 49ers @ Dallas Cowboys",
+         "line": 61.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 55.5
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.5746,
+       "price": 160.0,
+       "break_even_prob": 0.3846,
+       "break_even_price": 160,
+       "edge": 0.19,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "teaser",
+       "legs": [
+        {
+         "game_id": "recSIX0kbtS9usFh5",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8359,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 37.5 -> 31.5",
+         "game": "Miami Dolphins @ Indianapolis Colts",
+         "line": 31.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 37.5
+        },
+        {
+         "game_id": "rec1POGweSA4BNCwL",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8289,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 38.5 -> 32.5",
+         "game": "Los Angeles Chargers @ Baltimore Ravens",
+         "line": 32.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 38.5
+        },
+        {
+         "game_id": "recNX9B2b0GWPNaR2",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.8272,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 39.5 -> 33.5",
+         "game": "Los Angeles Rams @ Arizona Cardinals",
+         "line": 33.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 39.5
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.5731,
+       "price": 160.0,
+       "break_even_prob": 0.3846,
+       "break_even_price": 160,
+       "edge": 0.1885,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
       {
        "market": "teaser",
        "legs": [
@@ -19820,234 +20052,6 @@
        "tier": "Max Play",
        "units": 0.5,
        "same_game": false
-      },
-      {
-       "market": "teaser",
-       "legs": [
-        {
-         "game_id": "recIuqbnA5hwPkxTa",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8347,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 40.5 -> 34.5",
-         "game": "Seattle Seahawks @ Las Vegas Raiders",
-         "line": 34.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 40.5
-        },
-        {
-         "game_id": "rec1POGweSA4BNCwL",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8289,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 38.5 -> 32.5",
-         "game": "Los Angeles Chargers @ Baltimore Ravens",
-         "line": 32.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 38.5
-        },
-        {
-         "game_id": "recSIX0kbtS9usFh5",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8259,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 38.5 -> 32.5",
-         "game": "Miami Dolphins @ Indianapolis Colts",
-         "line": 32.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 38.5
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.5714,
-       "price": 160.0,
-       "break_even_prob": 0.3846,
-       "break_even_price": 160,
-       "edge": 0.1868,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "teaser",
-       "legs": [
-        {
-         "game_id": "recIuqbnA5hwPkxTa",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8347,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 40.5 -> 34.5",
-         "game": "Seattle Seahawks @ Las Vegas Raiders",
-         "line": 34.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 40.5
-        },
-        {
-         "game_id": "recNX9B2b0GWPNaR2",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8272,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 39.5 -> 33.5",
-         "game": "Los Angeles Rams @ Arizona Cardinals",
-         "line": 33.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 39.5
-        },
-        {
-         "game_id": "recSIX0kbtS9usFh5",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8259,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 38.5 -> 32.5",
-         "game": "Miami Dolphins @ Indianapolis Colts",
-         "line": 32.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 38.5
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.5703,
-       "price": 160.0,
-       "break_even_prob": 0.3846,
-       "break_even_price": 160,
-       "edge": 0.1856,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "teaser",
-       "legs": [
-        {
-         "game_id": "recIuqbnA5hwPkxTa",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8347,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 40.5 -> 34.5",
-         "game": "Seattle Seahawks @ Las Vegas Raiders",
-         "line": 34.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 40.5
-        },
-        {
-         "game_id": "rec1POGweSA4BNCwL",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8289,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 38.5 -> 32.5",
-         "game": "Los Angeles Chargers @ Baltimore Ravens",
-         "line": 32.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 38.5
-        },
-        {
-         "game_id": "recAWaU5OhKm6iTgv",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8235,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 55.5 -> 61.5",
-         "game": "San Francisco 49ers @ Dallas Cowboys",
-         "line": 61.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 55.5
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.5698,
-       "price": 160.0,
-       "break_even_prob": 0.3846,
-       "break_even_price": 160,
-       "edge": 0.1852,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "teaser",
-       "legs": [
-        {
-         "game_id": "recIuqbnA5hwPkxTa",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8347,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 40.5 -> 34.5",
-         "game": "Seattle Seahawks @ Las Vegas Raiders",
-         "line": 34.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 40.5
-        },
-        {
-         "game_id": "recNX9B2b0GWPNaR2",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.8272,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 39.5 -> 33.5",
-         "game": "Los Angeles Rams @ Arizona Cardinals",
-         "line": 33.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 39.5
-        },
-        {
-         "game_id": "recAWaU5OhKm6iTgv",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8235,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 55.5 -> 61.5",
-         "game": "San Francisco 49ers @ Dallas Cowboys",
-         "line": 61.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 55.5
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.5686,
-       "price": 160.0,
-       "break_even_prob": 0.3846,
-       "break_even_price": 160,
-       "edge": 0.184,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
       }
      ]
     }
@@ -20070,6 +20074,7 @@
     "East Carolina @ Army (2026-11-21)",
     "Eastern Michigan @ Western Michigan (2026-11-17)",
     "Florida International @ Kennesaw State (2026-11-21)",
+    "Georgia @ South Carolina (2026-11-21)",
     "Georgia Southern @ Troy (2026-11-21)",
     "Georgia State @ Marshall (2026-11-21)",
     "Hawai'i @ Nevada (2026-11-21)",
@@ -20077,6 +20082,8 @@
     "Indiana @ Washington (2026-11-20)",
     "Iowa @ Illinois (2026-11-21)",
     "Iowa State @ UCF (2026-11-20)",
+    "Kentucky @ Missouri (2026-11-21)",
+    "LSU @ Tennessee (2026-11-21)",
     "Maryland @ USC (2026-11-21)",
     "Memphis @ Navy (2026-11-21)",
     "Miami (OH) @ Kent State (2026-11-17)",
@@ -20088,25 +20095,30 @@
     "North Texas @ Tulane (2026-11-20)",
     "Northern Illinois @ North Dakota State (2026-11-21)",
     "Northwestern @ Minnesota (2026-11-21)",
+    "Ohio State @ Nebraska (2026-11-20)",
     "Oklahoma State @ Arizona State (2026-11-21)",
     "Old Dominion @ UConn (2026-11-21)",
     "Oregon @ Michigan State (2026-11-20)",
     "Pittsburgh @ Louisville (2026-11-20)",
     "Rice @ Temple (2026-11-19)",
     "Rutgers @ Penn State (2026-11-21)",
+    "SMU @ Notre Dame (2026-11-21)",
     "San Diego State @ Boise State (2026-11-21)",
     "South Alabama @ Southern Miss (2026-11-21)",
     "South Florida @ Florida Atlantic (2026-11-21)",
     "Stanford @ California (2026-11-21)",
     "Syracuse @ Boston College (2026-11-21)",
     "Texas A&M @ Oklahoma (2026-11-21)",
+    "Texas Tech @ Baylor (2026-11-20)",
     "UCLA @ Michigan (2026-11-20)",
     "UL Monroe @ App State (2026-11-21)",
     "UNLV @ San Jos\u00e9 State (2026-11-21)",
     "UTEP @ Air Force (2026-11-20)",
     "UTSA @ UAB (2026-11-20)",
+    "Utah @ TCU (2026-11-20)",
     "Utah State @ Oregon State (2026-11-21)",
     "Vanderbilt @ Florida (2026-11-21)",
+    "Virginia Tech @ Miami (2026-11-20)",
     "Wake Forest @ Georgia Tech (2026-11-20)",
     "Washington State @ Texas State (2026-11-21)",
     "Western Kentucky @ Liberty (2026-11-21)",
@@ -21892,5 +21904,5 @@
    "NFL teaser_leg: n=42, shrink 1.15 -> 1.15 (no meaningful gain; best 1.25, Brier gain 0.0008)"
   ]
  },
- "narrative_sha256": "92fbb3c73a2cc5d51b789dc225e58c09c6317585019b922cc4f9528bd32459ea"
+ "narrative_sha256": "5ad4fbe6290c93fc3fa4e7be50ced49da7b8e988193636b67b34205530545d2c"
 }

@@ -24,13 +24,13 @@ Overall graded picks: 78-77 (Brier 0.2592).
 - Miami Dolphins @ Indianapolis Colts: weather: indoor | sev=0.00
 - Indianapolis Colts @ Houston Texans: weather: indoor | sev=0.00
 - Kansas City Chiefs @ Atlanta Falcons: weather: indoor | sev=0.00
-- Pittsburgh Steelers @ Cincinnati Bengals: weather: 41F, wind 3mph, precip 0% | sev=0.00 | open-meteo
+- Pittsburgh Steelers @ Cincinnati Bengals: weather: 40F, wind 6mph, precip 1% | sev=0.00 | open-meteo
 - San Francisco 49ers @ Dallas Cowboys: weather: indoor | sev=0.00
 - Alabama @ Vanderbilt: weather: 49F, wind 8mph, precip 0% | sev=0.00 | open-meteo
-- Jacksonville Jaguars @ Tennessee Titans: weather: 52F, 3 | no severity
-- Houston Texans @ Cleveland Browns: weather: 44F, wind 13mph, precip 5% | sev=0.25 | open-meteo
+- Jacksonville Jaguars @ Tennessee Titans: weather: 52F, wind 7mph, precip 0% | sev=0.00 | open-meteo
+- Houston Texans @ Cleveland Browns: weather: 44F, wind 12mph, precip 5% | sev=0.25 | open-meteo
 - Seattle Seahawks @ Las Vegas Raiders: QB: HOME QB PLAYING Fernando Mendoza [auto espn 2026-11-14] | AWAY QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-14] [priced: Drew Lock led passing 2026-11-08]; weather: indoor | sev=0.00
-- Minnesota Vikings @ Green Bay Packers: weather: 36F, wind 3mph, precip 0% | sev=0.00 | open-meteo
+- Minnesota Vikings @ Green Bay Packers: weather: 37F, wind 2mph, precip 0% | sev=0.00 | open-meteo
 - Carolina Panthers @ New Orleans Saints: weather: indoor | sev=0.00
 - New England Patriots @ Detroit Lions: 
 - Los Angeles Chargers @ Baltimore Ravens: weather: 46F, wind 4mph, precip 0% | sev=0.00 | open-meteo
@@ -133,8 +133,8 @@ By size of base edge:
 
 ## What the learner currently believes
 
-- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 30 (20 with factor records); last calibrated 2026-11-14T12:44:03.000Z
-- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 125 (62 with factor records); last calibrated 2026-11-14T12:44:03.000Z
+- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 30 (20 with factor records); last calibrated 2026-11-14T18:26:59.000Z
+- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 125 (62 with factor records); last calibrated 2026-11-14T18:26:59.000Z
 
 ## What changes automatically, and how close each change is
 
@@ -165,27 +165,25 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 40% | Lean | 0.5 |
-| Arizona State @ UCF | total | Over 47.5 | 53% | Lean | 0.5 |
+| Arizona State @ UCF | total | Over 46.5 | 53% | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +500 | 20% | Lean | 0.5 |
-| Wisconsin @ Maryland | total | Over 41.5 | 54% | Lean | 0.5 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
 | North Texas @ UTSA | total | Under 76.5 | 54% | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | Lean | 0.5 |
 | Los Angeles Rams @ Arizona Cardinals | total | Over 39.5 | 57% | Lean | 0.5 |
-| Miami Dolphins @ Indianapolis Colts | total | Over 38.5 | 57% | Lean | 0.5 |
-| Texas Tech @ Oklahoma State | total | Under 73.5 | 55% | Lean | 0.5 |
+| Miami Dolphins @ Indianapolis Colts | total | Over 37.5 | 58% | Lean | 0.5 |
+| Texas Tech @ Oklahoma State | total | Under 73.5 | 54% | Lean | 0.5 |
 | Kansas @ West Virginia | total | Under 68.5 | 54% | Lean | 0.5 |
-| Michigan @ Oregon | total | Over 38.5 | 54% | Lean | 0.5 |
 | Florida Atlantic @ Tulsa | total | Under 73.5 | 54% | Lean | 0.5 |
-- NCAAF parlay: Over 38.5 + Under 73.5 | model 28.8%, needs +271 to break even, edge +1.9%, No Play
-- NCAAF parlay: Under 73.5 + Under 73.5 | model 29.3%, needs +260 to break even, edge +1.6%, No Play
-- NCAAF parlay: Under 73.5 + Over 38.5 | model 29.3%, needs +260 to break even, edge +1.5%, No Play
-- NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +253 to break even, edge +13.0%, Max Play
-- NFL parlay: Indianapolis Colts -3.5 (spread) + Kansas City Chiefs -3.5 (spread) | model 42.0%, needs +241 to break even, edge +12.7%, Max Play
-- NFL parlay: Los Angeles Chargers +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 41.2%, needs +250 to break even, edge +12.6%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 39.5 -> 33.5 | model 57.2%, needs +160 to break even, edge +18.8%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 38.5 -> 32.5 | model 57.1%, needs +160 to break even, edge +18.7%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5 | model 57.0%, needs +160 to break even, edge +18.6%, Max Play
+- NCAAF parlay: Under 73.5 + Under 68.5 | model 28.8%, needs +261 to break even, edge +1.1%, No Play
+- NCAAF parlay: Over 46.5 + Under 73.5 | model 28.6%, needs +261 to break even, edge +0.9%, No Play
+- NCAAF parlay: Under 76.5 + Under 73.5 | model 28.8%, needs +257 to break even, edge +0.8%, No Play
+- NFL parlay: Indianapolis Colts -3.5 (spread) + Kansas City Chiefs -3.5 (spread) | model 42.0%, needs +265 to break even, edge +14.6%, Max Play
+- NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +271 to break even, edge +14.4%, Max Play
+- NFL parlay: Los Angeles Chargers +4.5 (spread) + Indianapolis Colts -3.5 (spread) | model 41.2%, needs +265 to break even, edge +13.7%, Max Play
+- NFL teaser: Over 37.5 -> 31.5 + Over 40.5 -> 34.5 + Over 38.5 -> 32.5 | model 57.8%, needs +160 to break even, edge +19.4%, Max Play
+- NFL teaser: Over 37.5 -> 31.5 + Over 40.5 -> 34.5 + Over 39.5 -> 33.5 | model 57.7%, needs +160 to break even, edge +19.2%, Max Play
+- NFL teaser: Over 37.5 -> 31.5 + Over 40.5 -> 34.5 + Under 55.5 -> 61.5 | model 57.5%, needs +160 to break even, edge +19.0%, Max Play
 
 ## Results and learning by market
 

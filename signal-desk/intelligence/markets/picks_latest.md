@@ -27,6 +27,9 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 44.5 | 52% | +1.4 pts | No Play | 0 |
 | Utah @ TCU | moneyline | Utah ML -192 (price estimated from the line) | 65% | -0.4% | No Play | 0 |
+| Cincinnati @ Iowa State | spread | Cincinnati +3 (spread) | 51% |  | No Play | 0 |
+| Cincinnati @ Iowa State | total | Over 57.5 | 51% | +0.5 pts | No Play | 0 |
+| Cincinnati @ Iowa State | moneyline | Iowa State ML -130 | 56% | -0.6% | No Play | 0 |
 | Eastern Michigan @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 88% | +36.1% | No Play | 0 |
 | Baylor @ BYU | spread | Baylor +7.5 (spread) | 51% |  | No Play | 0 |
 | Baylor @ BYU | total | Over 50.5 | 50% | +0.3 pts | No Play | 0 |
@@ -178,7 +181,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Michigan @ Oregon | moneyline | Michigan ML +310 | 24% | -0.0% | No Play | 0 |
 | Kansas State @ TCU | spread | Kansas State +10 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ TCU | total | Over 44.5 | 52% | +1.8 pts | No Play | 0 |
-| Kansas State @ TCU | moneyline | Kansas State ML +400 | 20% | -0.3% | No Play | 0 |
+| Kansas State @ TCU | moneyline | Kansas State ML +400 | 19% | -1.1% | No Play | 0 |
 | Missouri @ Georgia | spread | Georgia -15.5 (spread) | 50% |  | No Play | 0 |
 | Missouri @ Georgia | total | Over 48.5 | 52% | +1.5 pts | No Play | 0 |
 | Missouri @ Georgia | moneyline | Missouri ML +550 | 13% | -2.0% | No Play | 0 |
