@@ -33,7 +33,8 @@ The DraftEdge parser now accepts the observed card layout and the legacy table l
 | Canonical price check | `intelligence/splash_pricecheck/latest.md` and `.json`; generation age under 4 hours (Snapshot refreshes it before validating; a Snapshot push that conflicts with Pick Engine rebuilds from newest main and retries) |
 | Underlying price-check quotes | Age reconstructed from generation time and snapshot age; under 168 hours (7 days) |
 | Operational evidence | `data/ops_status.json` generated under 4 hours ago |
-| Required producer evidence | ESPN/picks under 4 hours, Context under 26 hours; injury under 4 hours Wed–Sat, 26 hours otherwise. Missing, unhealthy, unsuccessful or non-LIVE evidence fails |
+| Required producer evidence | ESPN/picks under 4 hours, Context under 26 hours. Missing, unhealthy, unsuccessful or non-LIVE evidence fails |
+| Injury data (non-blocking) | Injury under 4 hours Wed–Sat, 26 hours otherwise. Missing, stale or failed injury evidence is reported as `degraded` with a warning and the age of the last good pull; it never sets `ready=false`. Picks, grading and learning continue on the last good injury notes, and briefings flag injury-sensitive picks (owner decision, November 14, 2026) |
 | Snapshot export | Explicit generation timestamp under 26 hours; a checkout or file modification time is not evidence |
 | Known producer degradation | Fail if operational evidence records an unhealthy upstream run or market-feed failure |
 

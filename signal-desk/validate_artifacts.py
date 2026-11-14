@@ -98,9 +98,16 @@ def validate(root, now, narrative_hours=4, grade_hours=2, board_hours=168, price
         errors.append(f"close_grade: no verifiable run ({exc})")
     # A recent success label alone is not proof of clean coverage.
     workflows = {wf.get("file"): wf for wf in ops.get("workflow_health", [])}
+    degraded = []
     injury_hours = 4 if now.astimezone(CENTRAL).weekday() in (2, 3, 4, 5) else 26
-    for name, max_age in (("injury-pull.yml", injury_hours), ("espn-sync.yml", 4),
-                          ("picks.yml", 4), ("context-calibrate.yml", 26)):
+    try:
+        injury_data(workflows.get("injury-pull.yml", {}), now, injury_hours, checks, warnings, degraded)
+    except (ValueError, TypeError, AttributeError) as exc:
+        checks["injury-pull.yml"] = {"max_age_hours": injury_hours, "status": "degraded", "last_good_age_hours": None}
+        degraded.append("injury_data")
+        warnings.append(f"injury-pull.yml: unreadable run evidence ({exc}). Injury data is degraded, but picks, "
+                        "grading and learning continue on the last good injury notes. Flag injury-sensitive picks.")
+    for name, max_age in (("espn-sync.yml", 4), ("picks.yml", 4), ("context-calibrate.yml", 26)):
         wf = workflows.get(name, {})
         candidates = [r for r in wf.get("runs", []) if r.get("event") != "pull_request"]
         if not candidates:
@@ -119,7 +126,46 @@ def validate(root, now, narrative_hours=4, grade_hours=2, board_hours=168, price
     return {"checked_at": now.isoformat(), "central_date": today, "ready": not errors,
             "policy": {"narrative_hours": narrative_hours, "grade_hours": grade_hours,
                        "board_hours": board_hours, "pricecheck_hours": pricecheck_hours},
-            "checks": checks, "errors": errors, "warnings": warnings, "paper_picks_only": True}
+            "checks": checks, "errors": errors, "warnings": warnings, "degraded": degraded,
+            "paper_picks_only": True}
+
+
+def healthy(run):
+    return (run.get("conclusion") == "success" and run.get("health") == "ok"
+            and run.get("summary", {}).get("mode") == "LIVE")
+
+
+def injury_data(wf, now, max_age, checks, warnings, degraded):
+    """Injury notes improve picks but never stop them (owner decision, 2026-11-14).
+
+    A missing, stale or failed injury pull is reported as degraded: picks, grading and
+    learning continue on the last good injury notes, and every briefing must say so.
+    """
+    runs = [r for r in wf.get("runs", []) if r.get("event") != "pull_request"]
+    check = {"max_age_hours": max_age, "status": "ok", "last_good_age_hours": None}
+    checks["injury-pull.yml"] = check
+    good = [r for r in runs if healthy(r)]
+    if good:
+        last_good = max(good, key=lambda r: timestamp(r.get("created_at")))
+        check["last_good_age_hours"] = round((now - timestamp(last_good["created_at"])).total_seconds() / 3600, 3)
+    if not runs:
+        problem = "no injury producer evidence"
+    else:
+        latest = max(runs, key=lambda r: timestamp(r.get("created_at")))
+        age = (now - timestamp(latest.get("created_at"))).total_seconds() / 3600
+        check["age_hours"] = round(age, 3)
+        if not healthy(latest):
+            problem = "latest run is not healthy, successful and LIVE"
+        elif age < -5 / 60 or age >= max_age:
+            problem = f"latest run is {age:.2f}h old (limit {max_age}h)"
+        else:
+            return
+    check["status"] = "degraded"
+    degraded.append("injury_data")
+    last = (f"last good pull {check['last_good_age_hours']:.2f}h ago" if check["last_good_age_hours"] is not None
+            else "no good pull on record")
+    warnings.append(f"injury-pull.yml: {problem}; {last}. Injury data is degraded, but picks, grading and "
+                    "learning continue on the last good injury notes. Flag injury-sensitive picks.")
 
 
 def main():
