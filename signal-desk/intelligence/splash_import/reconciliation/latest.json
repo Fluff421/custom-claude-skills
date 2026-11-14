@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-11-14T02:38:38.000452+00:00",
+  "generated_at_utc": "2026-11-14T03:38:28.642000+00:00",
   "note": "Ledger-derived outcomes at recorded Splash lines. Not a new owner result dump.",
   "sample_size_legs": 73,
   "leg_results": {
-    "Loss": 26,
+    "Loss": 27,
     "Win": 44,
-    "pending": 3
+    "pending": 2
   },
-  "stale_capture_status_count": 34,
+  "stale_capture_status_count": 35,
   "legs": [
     {
       "logged_at": "2026-11-01 21:42Z",
@@ -2775,7 +2775,7 @@
       "reference_origin": "repository",
       "ledger_record_id": "recg9BSUGihaHNivc",
       "model_status": "available",
-      "leg_result": "pending",
+      "leg_result": "Loss",
       "ticket_result": "pending"
     },
     {
