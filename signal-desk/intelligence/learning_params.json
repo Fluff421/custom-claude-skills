@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-13T18:35:01.000Z"
+   "updated": "2026-11-14T12:44:03.000Z"
   },
   "NFL": {
    "forward": {
@@ -132,41 +132,41 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-13T18:35:01.000Z"
+   "updated": "2026-11-14T12:44:03.000Z"
   }
  },
  "report_cards": {
   "NCAAF": {
    "espn": {
-    "brier": 0.2454,
+    "brier": 0.2475,
     "calibration": [
      {
-      "actual": 0.8,
+      "actual": 0.75,
       "bucket": "50%-55%",
-      "n": 5,
+      "n": 8,
       "pred": 0.507
      }
     ],
-    "clv_mean": -0.2,
-    "clv_n": 5,
-    "clv_se": 0.339,
-    "hit_rate": 0.8,
-    "log_loss": 0.6839,
-    "losses": 1,
-    "n": 5,
-    "n_prob": 5,
+    "clv_mean": -0.375,
+    "clv_n": 8,
+    "clv_se": 0.324,
+    "hit_rate": 0.75,
+    "log_loss": 0.6881,
+    "losses": 2,
+    "n": 8,
+    "n_prob": 8,
     "pushes": 0,
     "tiers": {
      "No Play": {
-      "clv_mean": -0.2,
-      "clv_n": 5,
-      "clv_se": 0.339,
-      "losses": 1,
-      "n": 5,
-      "wins": 4
+      "clv_mean": -0.375,
+      "clv_n": 8,
+      "clv_se": 0.324,
+      "losses": 2,
+      "n": 8,
+      "wins": 6
      }
     },
-    "wins": 4
+    "wins": 6
    },
    "learn_mode": "all",
    "splash": {
@@ -243,7 +243,7 @@
     "wins": 55
    },
    "unknown": 0,
-   "updated": "2026-11-13T18:35:01.000Z"
+   "updated": "2026-11-14T12:44:03.000Z"
   },
   "NFL": {
    "espn": {
@@ -342,7 +342,7 @@
     "wins": 16
    },
    "unknown": 0,
-   "updated": "2026-11-13T18:35:01.000Z"
+   "updated": "2026-11-14T12:44:03.000Z"
   }
  },
  "sigma": {
@@ -379,7 +379,7 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-13T18:35:01.000Z"
+   "updated": "2026-11-14T12:44:03.000Z"
   },
   "NFL": {
    "n_eff": 689.8,
@@ -414,7 +414,7 @@
    },
    "sigma": 12.38,
    "target": 12.38,
-   "updated": "2026-11-13T18:35:01.000Z"
+   "updated": "2026-11-14T12:44:03.000Z"
   }
  }
 }
