@@ -1,0 +1,5 @@
+game,league,kickoff_central,venue,roof,forecast_temp_f,wind_mph,precip_pct,source_url,forecast_issued_at,checked_at_central
+Alabama @ Vanderbilt,NCAAF,2026-11-14 11:45,FirstBank Stadium Nashville,outdoor,50,6,0,https://forecast.weather.gov/MapClick.php?lat=36.1627&lon=-86.7816,2026-11-14 04:16 CST,2026-11-14 09:00
+Northwestern @ Ohio State,NCAAF,2026-11-14 11:00,Ohio Stadium Columbus,outdoor,44,9,10,https://forecast.weather.gov/MapClick.php?lat=39.9831&lon=-82.9681,2026-11-14 06:27 EST,2026-11-14 09:00
+Michigan @ Oregon,NCAAF,2026-11-14 14:30,Autzen Stadium Eugene,outdoor,57,9,30,https://forecast.weather.gov/MapClick.php?lat=44.0521&lon=-123.0868,2026-11-14 02:41 PST,2026-11-14 09:00
+Pittsburgh Steelers @ Cincinnati Bengals,NFL,2026-11-15 12:00,Paycor Stadium Cincinnati,outdoor,50,5,0,https://forecast.weather.gov/MapClick.php?lat=39.1089&lon=-84.5133,2026-11-14 04:00 EST,2026-11-14 09:00

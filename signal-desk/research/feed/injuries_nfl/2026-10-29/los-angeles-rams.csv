@@ -1,0 +1,7 @@
+league,game,team,player,status,source_url,retrieved_at_utc,verified_or_assumed,espn_event_id,report_type,report_status,position,notes
+NFL,Los Angeles Chargers at Los Angeles Rams,Los Angeles Rams,Joe Cardona,Did Not Participate In Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LS,practice=Did Not Participate In Practice
+NFL,Los Angeles Chargers at Los Angeles Rams,Los Angeles Rams,Desjuan Johnson,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,practice=Full Participation in Practice
+NFL,Los Angeles Chargers at Los Angeles Rams,Los Angeles Rams,Nate Landman,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,practice=Full Participation in Practice
+NFL,Los Angeles Chargers at Los Angeles Rams,Los Angeles Rams,Trent McDuffie,Limited Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,CB,practice=Limited Participation in Practice
+NFL,Los Angeles Chargers at Los Angeles Rams,Los Angeles Rams,Colby Parkinson,Did Not Participate In Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,TE,practice=Did Not Participate In Practice
+NFL,Los Angeles Chargers at Los Angeles Rams,Los Angeles Rams,Coleman Shelton,Did Not Participate In Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,C,practice=Did Not Participate In Practice

@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.1.2-research",
+  "generated_at_utc": "2026-10-28T19:30:00Z",
+  "branch": "research/grok-feed",
+  "pilot": true,
+  "files": [
+    {
+      "path": "signal-desk/research/feed/injuries_ncaaf/2026-10-28.csv",
+      "type": "injuries_ncaaf",
+      "row_count": 8,
+      "real_data": "status_only",
+      "note": "All rows not_published or not_applicable. player/status left blank. No fabricated listings. Event IDs from ESPN scoreboard."
+    },
+    {
+      "path": "signal-desk/research/feed/weather/2026-10-28.csv",
+      "type": "weather",
+      "row_count": 2,
+      "real_data": "partial",
+      "note": "NWS primary with quoted gridpoint URLs (20 columns verified). lat/lon and coordinate_source_url left blank — no re-checkable geocode origin this session. Forecasts remain for the named NWS grid cells."
+    },
+    {
+      "path": "signal-desk/research/feed/ops/2026-10-28.md",
+      "type": "ops",
+      "row_count": null,
+      "real_data": true,
+      "note": "ESPN Sync 40692430538 log downloaded and inspected. Health = degraded despite conclusion=success. No quota reset date claimed."
+    },
+    {
+      "path": "signal-desk/research/feed/manifest-2026-10-28.json",
+      "type": "manifest",
+      "real_data": false
+    },
+    {
+      "path": "signal-desk/research/feed/README.md",
+      "type": "readme",
+      "real_data": false
+    },
+    {
+      "path": "signal-desk/research/feed/reference/",
+      "type": "reference",
+      "real_data": false,
+      "note": "Historical research copies only"
+    }
+  ],
+  "fetched_source_count": 8,
+  "failures": [
+    "Conference availability player tables still not published for Oct 31 slate at revision time.",
+    "Big Ten specific weekly report URL not located (source_url_unknown).",
+    "Venue coordinates left blank pending a re-checkable geocode with timestamp."
+  ],
+  "notes": "Revised per PR #12 second review. CSV quotes verified. No schedules. No production writes."
+}
