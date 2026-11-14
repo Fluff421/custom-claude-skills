@@ -10,10 +10,10 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 |---|---|---|---|---|---|---|
 | Oregon State @ Boise State | spread | Oregon State +13.5 (spread) | 50% |  | No Play | 0 |
 | Oregon State @ Boise State | total | Under 63.5 | 50% | +0.3 pts | No Play | 0 |
-| Oregon State @ Boise State | moneyline | Boise State ML -675 | 86% | -1.4% | No Play | 0 |
+| Oregon State @ Boise State | moneyline | Boise State ML -700 | 86% | -1.8% | No Play | 0 |
 | Arizona State @ UCF | spread | UCF -3.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ UCF | total | Over 47.5 | 53% | +2.5 pts | Lean | 0.5 |
-| Arizona State @ UCF | moneyline | Arizona State ML +136 | 40% | -2.0% | No Play | 0 |
+| Arizona State @ UCF | moneyline | Arizona State ML +145 | 40% | -0.4% | No Play | 0 |
 | Purdue @ Iowa | spread | Purdue +16.5 (spread) | 50% |  | No Play | 0 |
 | Purdue @ Iowa | total | Over 47.5 | 52% | +1.4 pts | No Play | 0 |
 | Purdue @ Iowa | moneyline | Purdue ML +625 | 12% | -1.4% | No Play | 0 |
@@ -34,11 +34,11 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Eastern Michigan @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 88% | +36.1% | No Play | 0 |
 | Baylor @ BYU | spread | Baylor +7.5 (spread) | 51% |  | No Play | 0 |
 | Baylor @ BYU | total | Over 50.5 | 50% | +0.3 pts | No Play | 0 |
-| Baylor @ BYU | moneyline | Baylor ML +230 | 31% | +1.1% | No Play | 0 |
+| Baylor @ BYU | moneyline | Baylor ML +260 | 29% | +1.6% | No Play | 0 |
 | Pittsburgh @ Louisville | moneyline | Louisville ML -110 (price estimated from the line) | 73% | +20.4% | No Play | 0 |
 | Colorado State @ Washington State | spread | Colorado State +9.5 (spread) | 51% |  | No Play | 0 |
-| Colorado State @ Washington State | total | Under 66.5 | 52% | +1.5 pts | No Play | 0 |
-| Colorado State @ Washington State | moneyline | Colorado State ML +270 | 28% | +0.5% | No Play | 0 |
+| Colorado State @ Washington State | total | Under 65.5 | 51% | +1.2 pts | No Play | 0 |
+| Colorado State @ Washington State | moneyline | Colorado State ML +280 | 28% | +1.2% | No Play | 0 |
 | Georgia Tech @ Clemson | spread | Clemson -13.5 (spread) | 50% |  | No Play | 0 |
 | Georgia Tech @ Clemson | total | Over 47.5 | 51% | +1.1 pts | No Play | 0 |
 | Georgia Tech @ Clemson | moneyline | Clemson ML -625 | 85% | -1.5% | No Play | 0 |
@@ -50,7 +50,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Southern Miss @ Louisiana Tech | moneyline | Southern Miss ML +625 | 12% | -1.7% | No Play | 0 |
 | Utah @ Arizona | spread | Utah -2.5 (spread) | 50% |  | No Play | 0 |
 | Utah @ Arizona | total | Under 55.5 | 50% | +0.3 pts | No Play | 0 |
-| Utah @ Arizona | moneyline | Utah ML -130 | 55% | -1.7% | No Play | 0 |
+| Utah @ Arizona | moneyline | Utah ML -118 | 55% | +0.7% | No Play | 0 |
 | South Carolina @ Arkansas | spread | South Carolina -7.5 (spread) | 51% |  | No Play | 0 |
 | South Carolina @ Arkansas | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
 | South Carolina @ Arkansas | moneyline | Arkansas ML +260 | 30% | +2.2% | No Play | 0 |
@@ -62,12 +62,12 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Virginia Tech @ Miami | moneyline | Miami ML -1050 | 90% | -1.2% | No Play | 0 |
 | Minnesota @ Penn State | spread | Penn State -9.5 (spread) | 51% |  | No Play | 0 |
 | Minnesota @ Penn State | total | Over 42.5 | 53% | +2.1 pts | No Play | 0 |
-| Minnesota @ Penn State | moneyline | Minnesota ML +330 | 23% | +0.2% | No Play | 0 |
+| Minnesota @ Penn State | moneyline | Minnesota ML +350 | 22% | -0.4% | No Play | 0 |
 | Wake Forest @ SMU | spread | Wake Forest +1.5 (spread) | 52% |  | No Play | 0 |
 | Wake Forest @ SMU | total | Under 60.5 | 51% | +0.6 pts | No Play | 0 |
 | Wake Forest @ SMU | moneyline | SMU ML -115 | 52% | -1.4% | No Play | 0 |
 | Houston @ Colorado | spread | Houston -9.5 (spread) | 51% |  | No Play | 0 |
-| Houston @ Colorado | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
+| Houston @ Colorado | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
 | Houston @ Colorado | moneyline | Colorado ML +260 | 29% | +1.2% | No Play | 0 |
 | UTEP @ Air Force | moneyline | Air Force ML -110 (price estimated from the line) | 94% | +41.7% | No Play | 0 |
 | App State @ Marshall | spread | App State -1.5 (spread) | 50% |  | No Play | 0 |
@@ -92,7 +92,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Rice @ Temple | moneyline | Temple ML -110 (price estimated from the line) | 68% | +15.6% | No Play | 0 |
 | Wyoming @ UTEP | spread | Wyoming -7.5 (spread) | 50% |  | No Play | 0 |
 | Wyoming @ UTEP | total | Over 40.5 | 53% | +2.4 pts | No Play | 0 |
-| Wyoming @ UTEP | moneyline | UTEP ML +240 | 30% | +0.4% | No Play | 0 |
+| Wyoming @ UTEP | moneyline | UTEP ML +230 | 31% | +0.5% | No Play | 0 |
 | Duke @ Miami | spread | Miami -13.5 (spread) | 51% |  | No Play | 0 |
 | Duke @ Miami | total | Under 54.5 | 51% | +0.6 pts | No Play | 0 |
 | Duke @ Miami | moneyline | Duke ML +425 | 18% | -1.3% | No Play | 0 |
@@ -104,7 +104,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Georgia Southern @ Georgia State | moneyline | Georgia State ML +185 | 35% | +0.4% | No Play | 0 |
 | San José State @ Air Force | spread | San José State +12.5 (spread) | 51% |  | No Play | 0 |
 | San José State @ Air Force | total | Under 48.5 | 52% | +1.3 pts | No Play | 0 |
-| San José State @ Air Force | moneyline | San José State ML +360 | 21% | -1.2% | No Play | 0 |
+| San José State @ Air Force | moneyline | San José State ML +425 | 18% | -0.8% | No Play | 0 |
 | Washington @ Michigan State | spread | Michigan State +3 (spread) | 51% |  | No Play | 0 |
 | Washington @ Michigan State | total | Over 44.5 | 51% | +1.1 pts | No Play | 0 |
 | Washington @ Michigan State | moneyline | Washington ML -135 | 56% | -1.1% | No Play | 0 |
@@ -120,10 +120,10 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Houston @ West Virginia | moneyline | Houston ML -110 (price estimated from the line) | 72% | +19.3% | No Play | 0 |
 | Texas @ LSU | spread | Texas +4 (spread) | 51% |  | No Play | 0 |
 | Texas @ LSU | total | Over 46.5 | 52% | +1.9 pts | No Play | 0 |
-| Texas @ LSU | moneyline | Texas ML +160 | 39% | +1.0% | No Play | 0 |
+| Texas @ LSU | moneyline | Texas ML +170 | 39% | +2.4% | No Play | 0 |
 | Ole Miss @ Oklahoma | spread | Ole Miss -1.5 (spread) | 50% |  | No Play | 0 |
 | Ole Miss @ Oklahoma | total | Under 49.5 | 50% | +0.1 pts | No Play | 0 |
-| Ole Miss @ Oklahoma | moneyline | Ole Miss ML +120 | 45% | -0.3% | No Play | 0 |
+| Ole Miss @ Oklahoma | moneyline | Ole Miss ML +124 | 45% | +0.5% | No Play | 0 |
 | Clemson @ Duke | moneyline | Duke ML -110 (price estimated from the line) | 70% | +17.2% | No Play | 0 |
 | Florida International @ Delaware | spread | Florida International +5.5 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Delaware | total | Under 54.5 | 52% | +1.9 pts | No Play | 0 |
@@ -166,8 +166,8 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Middle Tennessee @ Liberty | moneyline | Liberty ML -1650 | 92% | -1.9% | No Play | 0 |
 | UTSA @ UAB | moneyline | UTSA ML -110 (price estimated from the line) | 71% | +18.8% | No Play | 0 |
 | Illinois @ UCLA | spread | Illinois +10 (spread) | 51% |  | No Play | 0 |
-| Illinois @ UCLA | total | Over 48.5 | 51% | +0.8 pts | No Play | 0 |
-| Illinois @ UCLA | moneyline | Illinois ML +330 | 26% | +2.8% | No Play | 0 |
+| Illinois @ UCLA | total | Over 49.5 | 51% | +0.5 pts | No Play | 0 |
+| Illinois @ UCLA | moneyline | Illinois ML +330 | 25% | +1.9% | No Play | 0 |
 | North Dakota State @ Hawai'i | spread | North Dakota State -6.5 (spread) | 51% |  | No Play | 0 |
 | North Dakota State @ Hawai'i | total | Over 38.5 | 51% | +1.2 pts | No Play | 0 |
 | North Dakota State @ Hawai'i | moneyline | Hawai'i ML +220 | 32% | +0.4% | No Play | 0 |
@@ -180,7 +180,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Michigan @ Oregon | moneyline | Michigan ML +330 | 23% | +0.2% | No Play | 0 |
 | Kansas State @ TCU | spread | Kansas State +10 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ TCU | total | Over 44.5 | 52% | +1.8 pts | No Play | 0 |
-| Kansas State @ TCU | moneyline | Kansas State ML +370 | 21% | +0.1% | No Play | 0 |
+| Kansas State @ TCU | moneyline | Kansas State ML +390 | 20% | -0.7% | No Play | 0 |
 | East Carolina @ Charlotte | spread | East Carolina -11.5 (spread) | 51% |  | No Play | 0 |
 | East Carolina @ Charlotte | total | Over 45.5 | 52% | +1.5 pts | No Play | 0 |
 | East Carolina @ Charlotte | moneyline | Charlotte ML +350 | 21% | -1.1% | No Play | 0 |
@@ -189,16 +189,16 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Missouri @ Georgia | moneyline | Georgia ML -750 | 87% | -1.6% | No Play | 0 |
 | Florida Atlantic @ Tulsa | spread | Tulsa -5.5 (spread) | 52% |  | No Play | 0 |
 | Florida Atlantic @ Tulsa | total | Under 73.5 | 54% | +3.1 pts | Lean | 0.5 |
-| Florida Atlantic @ Tulsa | moneyline | Florida Atlantic ML +185 | 33% | -1.8% | No Play | 0 |
+| Florida Atlantic @ Tulsa | moneyline | Tulsa ML -225 | 68% | -1.5% | No Play | 0 |
 | Indiana @ Washington | moneyline | Indiana ML -110 (price estimated from the line) | 79% | +26.8% | No Play | 0 |
 | Wake Forest @ Georgia Tech | moneyline | Wake Forest ML -110 (price estimated from the line) | 91% | +38.4% | No Play | 0 |
 | Central Michigan @ Buffalo | moneyline | Buffalo ML -110 (price estimated from the line) | 57% | +5.0% | No Play | 0 |
 | UNLV @ New Mexico | spread | UNLV +14 (spread) | 50% |  | No Play | 0 |
 | UNLV @ New Mexico | total | Over 46.5 | 51% | +1.2 pts | No Play | 0 |
-| UNLV @ New Mexico | moneyline | New Mexico ML -750 | 86% | -2.0% | No Play | 0 |
+| UNLV @ New Mexico | moneyline | UNLV ML +550 | 14% | -1.7% | No Play | 0 |
 | Tulane @ Rice | spread | Tulane +2.5 (spread) | 52% |  | No Play | 0 |
 | Tulane @ Rice | total | Over 48.5 | 51% | +0.7 pts | No Play | 0 |
-| Tulane @ Rice | moneyline | Tulane ML +130 | 44% | +0.7% | No Play | 0 |
+| Tulane @ Rice | moneyline | Tulane ML +140 | 44% | +2.5% | No Play | 0 |
 | Boston College @ Notre Dame | spread | Notre Dame -29.5 (spread) | 51% |  | No Play | 0 |
 | Boston College @ Notre Dame | total | Over 51.5 | 50% | +0.3 pts | No Play | 0 |
 | Boston College @ Notre Dame | moneyline | Notre Dame ML -5000 | 98% | -0.2% | No Play | 0 |
@@ -253,7 +253,7 @@ Markets not yet posted (no pick until a line is listed): Akron @ Massachusetts (
 | Los Angeles Rams @ Arizona Cardinals | moneyline | Arizona Cardinals ML +380 | 22% | +0.9% | No Play | 0 |
 | Minnesota Vikings @ Green Bay Packers | spread | Minnesota Vikings +3.5 (spread) | 56% |  | Lean | 0.5 |
 | Minnesota Vikings @ Green Bay Packers | total | Under 42.5 | 52% | +0.6 pts | No Play | 0 |
-| Minnesota Vikings @ Green Bay Packers | moneyline | Minnesota Vikings ML +130 | 41% | -2.1% | No Play | 0 |
+| Minnesota Vikings @ Green Bay Packers | moneyline | Minnesota Vikings ML +136 | 41% | -1.0% | No Play | 0 |
 | Miami Dolphins @ Indianapolis Colts | spread | Indianapolis Colts -3.5 (spread) | 69% |  | Max Play | 1 |
 | Miami Dolphins @ Indianapolis Colts | total | Over 38.5 | 57% | +1.8 pts | Lean | 0.5 |
 | Miami Dolphins @ Indianapolis Colts | moneyline | Indianapolis Colts ML -218 | 68% | -0.9% | No Play | 0 |
