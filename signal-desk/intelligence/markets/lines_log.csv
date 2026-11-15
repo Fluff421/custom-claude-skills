@@ -1288,3 +1288,13 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-15T07:12:46+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,DraftKings,7.5,51.5,-410,320,-115.0,-105.0,-110.0,-110.0,6.5
 2026-11-15T07:12:46+00:00,recyZzQOpy4fGhnkk,401873054,NFL,Buffalo Bills @ New York Jets,2026-11-15,DraftKings,-7.5,50.5,300,-380,-108.0,-112.0,-120.0,100.0,-7.0
 2026-11-15T07:12:46+00:00,recylpHuRGLsBYvGb,401873053,NFL,New England Patriots @ Detroit Lions,2026-11-15,DraftKings,2.5,49.5,-148,124,-118.0,-102.0,-112.0,-108.0,1.5
+2026-11-15T12:25:39+00:00,rec2xpPh9yIsCppgq,401873057,NFL,Jacksonville Jaguars @ Tennessee Titans,2026-11-15,DraftKings,-10.5,46.5,525,-750,-105.0,-115.0,-110.0,-110.0,-2.5
+2026-11-15T12:25:39+00:00,rec8X63KrWwU5iUk5,401873056,NFL,Houston Texans @ Cleveland Browns,2026-11-15,DraftKings,-4.5,40.5,185,-225,-108.0,-112.0,-112.0,-108.0,-4.5
+2026-11-15T12:25:39+00:00,recAWaU5OhKm6iTgv,401873063,NFL,San Francisco 49ers @ Dallas Cowboys,2026-11-15,DraftKings,-4.5,55.5,180,-218,-112.0,-108.0,-118.0,-102.0,1.5
+2026-11-15T12:25:39+00:00,recIuqbnA5hwPkxTa,401873062,NFL,Seattle Seahawks @ Las Vegas Raiders,2026-11-15,DraftKings,-6.5,40.5,230,-285,-110.0,-110.0,-108.0,-112.0,-7.0
+2026-11-15T12:25:39+00:00,recK5gQdrnEtoOsx1,401856866,NCAAF,BYU @ Kansas,2026-11-20,DraftKings,-7.5,50.5,235,-290,-110.0,-110.0,-110.0,-110.0,-7.0
+2026-11-15T12:25:39+00:00,recNX9B2b0GWPNaR2,401873061,NFL,Los Angeles Rams @ Arizona Cardinals,2026-11-15,DraftKings,-9.5,38.5,370,-485,-108.0,-112.0,-108.0,-112.0,-10.5
+2026-11-15T12:25:39+00:00,recSIX0kbtS9usFh5,401873059,NFL,Miami Dolphins @ Indianapolis Colts,2026-11-15,DraftKings,4.5,37.5,-225,185,-110.0,-110.0,-110.0,-110.0,6.5
+2026-11-15T12:25:39+00:00,recnnhFNODT9UyF5L,401873058,NFL,Kansas City Chiefs @ Atlanta Falcons,2026-11-15,DraftKings,-3.0,47.5,145,-175,-102.0,-118.0,-105.0,-115.0,-4.5
+2026-11-15T12:25:39+00:00,recyZzQOpy4fGhnkk,401873054,NFL,Buffalo Bills @ New York Jets,2026-11-15,DraftKings,-8.5,50.5,360,-470,-115.0,-105.0,-118.0,-102.0,-7.0
+2026-11-15T12:25:39+00:00,recylpHuRGLsBYvGb,401873053,NFL,New England Patriots @ Detroit Lions,2026-11-15,DraftKings,2.5,50.5,-142,120,-118.0,-102.0,-110.0,-110.0,1.5
