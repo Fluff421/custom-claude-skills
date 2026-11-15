@@ -1,16 +1,15 @@
-# Pick-time check at the newest Splash lines, 2026-11-15 17:31Z
+# Pick-time check at the newest Splash lines, 2026-11-15 17:40Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 42 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 43 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
-15 Lean-or-better plays at the current Splash lines (13 games checked).
+14 Lean-or-better plays at the current Splash lines (12 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
 | Miami Dolphins @ Indianapolis Colts | 2026-11-15 | spread | Indianapolis Colts -3.5 | Max Play | 71.4% | 7.0 |  |
 | Kansas City Chiefs @ Atlanta Falcons | 2026-11-15 | spread | Kansas City Chiefs -3.5 | Strong Play | 59.3% | -2.9 |  |
-| New England Patriots @ Detroit Lions | 2026-11-15 | spread | New England Patriots +2.5 | Strong Play | 58.0% | -2.5 |  |
 | Pittsburgh Steelers @ Cincinnati Bengals | 2026-11-15 | spread | Cincinnati Bengals -3.5 | Strong Play | 58.3% | 2.6 |  |
 | Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | spread | Las Vegas Raiders +6.5 | Strong Play | 58.3% | 2.6 | was away No Play at the early line |
 | Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | spread | Los Angeles Chargers +4.5 | Strong Play | 58.6% | -2.7 |  |
