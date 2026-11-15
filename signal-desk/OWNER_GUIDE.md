@@ -157,7 +157,7 @@ Times are Central Standard Time; the jobs pick the right UTC slot across dayligh
 | Close & Grade | :37 hourly | ESPN finals and closing lines | Ledger results, grades, CLV, Calibration Log, `markets/picks_log.csv` | Grades every finished game |
 | NCAAF Injury Pull | Every 3 hours Wed to Sat; 6:33 AM Sun to Tue | Covers, Kickoff Status (DraftEdge fallback) | Ledger Injury Notes | NCAAF availability |
 | Context & Calibrate | 6:13 AM daily | Ledger, ESPN schedules, Grok verified QB rows | Ledger context fields, Model Parameters, `learning_log.csv`, `learning_state.csv`, `market_params.json` | Situational factors and all learning |
-| Snapshot | 7:47 AM daily, and after Context | Ledger, repo files | `intelligence/latest.md`, `latest.json`, `data/YYYY-MM-DD.json`, `LEDGER.md`, `data/ops_status.json`, `graded_picks.csv` | The daily report and ops health |
+| Snapshot | 7:47 AM daily, after Context, and after every hourly Close & Grade run | Ledger, repo files | `intelligence/latest.md`, `latest.json`, `data/YYYY-MM-DD.json`, `LEDGER.md`, `data/ops_status.json`, `graded_picks.csv` | The daily report and ops health |
 | Splash pick-time check | After each Snapshot, or manual | Splash line history | `intelligence/splash_pricecheck/` | Reprices every game at your newest Splash line |
 | Briefing Readiness | 8:23 AM daily | Repo files | A run artifact only | Independent readiness check |
 | Splash JSON inbox | When an inbox file is committed, and after Close & Grade | `splash_import/inbox/`, `reviews/` | `splash_import/status/`, `receipts/`, Splash logs | Validates and records File 1 and File 2 |

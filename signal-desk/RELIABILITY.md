@@ -60,7 +60,7 @@ Readiness is an artifact gate, not proof of three healthy days or permission to 
 
 ## Producer reliability and observations
 
-- **Snapshot:** Runs the readiness check after generation. A failed gate keeps the job red while preserving diagnostic evidence and any available valid outputs. Partial market-feed failures now exit nonzero after writing their diagnostic sidecar.
+- **Snapshot:** Also runs after every Close & Grade run (hourly via the external scheduler), so the committed report, ops evidence and price check stay inside the 2-hour grading and 4-hour ESPN/picks limits even when GitHub's own 7:47 AM schedule is late (added November 15, 2026 after that morning's briefing failed on a 6:26 AM ops export). Runs the readiness check after generation. A failed gate keeps the job red while preserving diagnostic evidence and any available valid outputs. Partial market-feed failures now exit nonzero after writing their diagnostic sidecar.
 - **Injury pull:** Either required source being unavailable or invalid is a failure when games are expected. Valid partial observations may still be retained, but they cannot produce a healthy success result. A genuine zero-game window is not treated as a dropout.
 - **Close & Grade:** Missing league coverage, missing expected events, incomplete competitors and incomplete final scores are recorded as errors. Valid games may still be processed before a nonzero exit reports partial coverage.
 - **Heartbeats:** `data/source_heartbeats.json` records per-game `checked_at` separately from `changed_at`. It covers successfully matched ESPN observations only, not every row merely because a job started.
