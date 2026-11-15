@@ -9,3 +9,27 @@ ts,record_id,league,game,side,edge_tier,edge,pred_clv,clv_tier,model_n
 2026-11-14 06:33Z,recTubW1MtzrvvEmY,NCAAF,Kentucky @ Missouri,Kentucky +6 (spread),No Play,-0.32,0.045,No Play,109
 2026-11-14 06:33Z,reccsGQ0WZVRNDL66,NCAAF,SMU @ Notre Dame,Notre Dame -16.5 (spread),No Play,0.22,0.027,No Play,109
 2026-11-14 06:33Z,recjfxvQjakyxptWi,NCAAF,Georgia @ South Carolina,Georgia -10 (spread),No Play,-0.12,0.037,No Play,109
+2026-11-15 07:12Z,rec0gY90aols8kKfi,NFL,Pittsburgh Steelers @ Philadelphia Eagles,Pittsburgh Steelers -4.5 (spread),Lean,-1.8,-0.1,No Play,29
+2026-11-15 07:12Z,rec1bMW82Gl2PPIzw,NFL,Arizona Cardinals @ Kansas City Chiefs,Kansas City Chiefs -14 (spread),No Play,0.6,0.12,No Play,29
+2026-11-15 07:12Z,rec1s3f7B7DvAfqb3,NFL,New Orleans Saints @ Chicago Bears,Chicago Bears -9.5 (spread),No Play,-0.0,-0.12,No Play,29
+2026-11-15 07:12Z,rec4RUwyyQD8hIgZd,NCAAF,Miami (OH) @ Kent State,Miami (OH) -8.5 (spread),No Play,-0.3,-0.298,No Play,109
+2026-11-15 07:12Z,rec79Vw8JvKoyUGgW,NCAAF,Eastern Michigan @ Western Michigan,Western Michigan -14.5 (spread),No Play,0.36,-0.198,No Play,109
+2026-11-15 07:12Z,recA8wbdTRMKXNzCn,NFL,Las Vegas Raiders @ Denver Broncos,Denver Broncos -8.5 (spread),Lean,1.5,0.522,Strong Play,29
+2026-11-15 07:12Z,recDCa1TW7radKDSJ,NFL,New York Jets @ Los Angeles Chargers,Los Angeles Chargers -1.5 (spread),Lean,1.2,0.462,Lean,29
+2026-11-15 07:12Z,recElzL7HxGEOOWIt,NFL,Minnesota Vikings @ San Francisco 49ers,San Francisco 49ers -3.5 (spread),No Play,0.9,0.0,No Play,29
+2026-11-15 07:12Z,recK5gQdrnEtoOsx1,NCAAF,BYU @ Kansas,BYU -7.5 (spread),No Play,-0.1,0.035,No Play,109
+2026-11-15 07:12Z,recLDCpyeKOzU0eyq,NFL,Jacksonville Jaguars @ New York Giants,Jacksonville Jaguars -6 (spread),Strong Play,-3.4,0.201,No Play,29
+2026-11-15 07:12Z,recVzWaVEiRUnKtxe,NCAAF,Clemson @ Duke,Clemson +8.5 (spread),No Play,-0.26,0.247,No Play,109
+2026-11-15 07:12Z,recac1dbqIyFo0A9Q,NCAAF,Oregon @ Michigan State,Oregon -13.5 (spread),No Play,-0.1,-0.09,No Play,109
+2026-11-15 07:12Z,recbVlXXw82NMUHyI,NFL,Miami Dolphins @ Buffalo Bills,Buffalo Bills -16.5 (spread),Strong Play,3.1,0.502,Strong Play,29
+2026-11-15 07:12Z,recc6qdhTMFRHffs3,NCAAF,Iowa State @ UCF,UCF -1.5 (spread),No Play,0.3,0.05,No Play,109
+2026-11-15 07:12Z,recgTuA6DV2pntuLf,NCAAF,Ball State @ Ohio,Ohio -9.5 (spread),No Play,0.55,-0.221,No Play,109
+2026-11-15 07:12Z,reckwNilHUe4AfHjo,NCAAF,Iowa @ Illinois,Illinois +6.5 (spread),No Play,0.13,-0.097,No Play,109
+2026-11-15 07:12Z,recmc7tB3CJ37uijP,NCAAF,Indiana @ Washington,Indiana -7.5 (spread),No Play,-0.67,0.011,No Play,109
+2026-11-15 07:12Z,recme91BfkgcKJOOr,NCAAF,Wake Forest @ Georgia Tech,Georgia Tech +21 (spread),No Play,0.12,-0.027,No Play,109
+2026-11-15 07:12Z,recnHVgb9SkOiKX4F,NCAAF,Central Michigan @ Buffalo,Buffalo -1.5 (spread),No Play,0.17,-0.036,No Play,109
+2026-11-15 07:12Z,reco43lfDzDl964jd,NCAAF,Arkansas @ Texas,Texas -21 (spread),No Play,0.33,-0.282,No Play,109
+2026-11-15 07:12Z,recqHN0qEss3RtmUZ,NFL,Baltimore Ravens @ Carolina Panthers,Carolina Panthers -1.5 (spread),Max Play,4.1,0.863,Strong Play,29
+2026-11-15 07:12Z,recsW4vpBY2bJSIzc,NFL,Tampa Bay Buccaneers @ Detroit Lions,Tampa Bay Buccaneers +3.5 (spread),Strong Play,-3.0,0.382,Lean,29
+2026-11-15 07:12Z,rectlJ1OyHCjFTlpM,NCAAF,Akron @ Massachusetts,Massachusetts -2.5 (spread),Lean,1.12,0.092,No Play,109
+2026-11-15 07:12Z,recwzEr4ONJw6Vsml,NFL,Tennessee Titans @ Dallas Cowboys,Dallas Cowboys -7.5 (spread),Lean,1.7,0.482,Lean,29
