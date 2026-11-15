@@ -31,7 +31,7 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | Pittsburgh @ Louisville | moneyline | Pittsburgh ML +360 | 21% | -1.0% | No Play | 0 |
 | Northern Illinois @ North Dakota State | spread | Northern Illinois +24.5 (spread) | 50% |  | No Play | 0 |
 | Northern Illinois @ North Dakota State | total | Over 45.5 | 51% | +0.7 pts | No Play | 0 |
-| Northern Illinois @ North Dakota State | moneyline | Northern Illinois ML +1600 | 5% | -0.9% | No Play | 0 |
+| Northern Illinois @ North Dakota State | moneyline | Northern Illinois ML +1500 | 5% | -1.3% | No Play | 0 |
 | Colorado State @ Fresno State | spread | Colorado State +20.5 (spread) | 50% |  | No Play | 0 |
 | Colorado State @ Fresno State | total | Under 63.5 | 50% | +0.1 pts | No Play | 0 |
 | Colorado State @ Fresno State | moneyline | Colorado State ML +1100 | 9% | +0.3% | No Play | 0 |
@@ -106,8 +106,8 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | UCLA @ Michigan | total | Over 39.5 | 51% | +0.7 pts | No Play | 0 |
 | UCLA @ Michigan | moneyline | Michigan ML +195 | 35% | +0.9% | No Play | 0 |
 | Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
-| Colorado @ Cincinnati | total | Under 59.5 | 51% | +1.0 pts | No Play | 0 |
-| Colorado @ Cincinnati | moneyline | Cincinnati ML -148 | 58% | -1.3% | No Play | 0 |
+| Colorado @ Cincinnati | total | Under 60.5 | 52% | +1.3 pts | No Play | 0 |
+| Colorado @ Cincinnati | moneyline | Cincinnati ML -148 | 59% | -0.2% | No Play | 0 |
 | Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
 | Georgia Southern @ Troy | total | Under 49.5 | 50% | +0.1 pts | No Play | 0 |
 | Georgia Southern @ Troy | moneyline | Troy ML +260 | 29% | +0.9% | No Play | 0 |
@@ -199,8 +199,8 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | UNLV @ San José State | total | Under 49.5 | 50% | +0.4 pts | No Play | 0 |
 | UNLV @ San José State | moneyline | San José State ML +150 | 38% | -1.6% | No Play | 0 |
 | Missouri State @ Jacksonville State | spread | Jacksonville State -10 (spread) | 51% |  | No Play | 0 |
-| Missouri State @ Jacksonville State | total | Under 52.5 | 50% | +0.0 pts | No Play | 0 |
-| Missouri State @ Jacksonville State | moneyline | Jacksonville State ML -310 | 76% | +0.0% | No Play | 0 |
+| Missouri State @ Jacksonville State | total | Over 51.5 | 50% | +0.3 pts | No Play | 0 |
+| Missouri State @ Jacksonville State | moneyline | Jacksonville State ML -340 | 77% | -0.8% | No Play | 0 |
 | Western Kentucky @ Liberty | spread | Liberty -14.5 (spread) | 52% |  | No Play | 0 |
 | Western Kentucky @ Liberty | total | Under 52.5 | 51% | +0.7 pts | No Play | 0 |
 | Western Kentucky @ Liberty | moneyline | Liberty ML -625 | 86% | -0.2% | No Play | 0 |

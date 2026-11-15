@@ -1469,3 +1469,8 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-15T19:31:25+00:00,recc6qdhTMFRHffs3,401856869,NCAAF,Iowa State @ UCF,2026-11-20,DraftKings,1.5,54.5,-118,-102,-110.0,-110.0,-110.0,-110.0,1.5
 2026-11-15T19:31:25+00:00,recmc7tB3CJ37uijP,401858535,NCAAF,Indiana @ Washington,2026-11-20,DraftKings,-8.5,41.5,270,-340,-115.0,-105.0,-110.0,-110.0,-7.5
 2026-11-15T19:31:25+00:00,recz7zcoPWllbpqme,401871079,NCAAF,Missouri State @ Jacksonville State,2026-11-21,DraftKings,10.0,52.5,-310,250,-110.0,-110.0,-102.0,-118.0,10.5
+2026-11-15T19:39:11+00:00,recBHbl1JKZVHdRA3,401864543,NCAAF,Northern Illinois @ North Dakota State,2026-11-21,Draft Kings,24.5,45.5,-3600,1500,-112.0,-108.0,-110.0,-110.0,25.5
+2026-11-15T19:39:11+00:00,recLt1iFDmwEIQ3ES,401869938,NCAAF,Arkansas State @ Louisiana Tech,2026-11-21,Draft Kings,14.5,52.5,-750,525,-115.0,-105.0,-110.0,-110.0,16.5
+2026-11-15T19:39:11+00:00,recXzSOfVwhnqiJ0H,401856867,NCAAF,Colorado @ Cincinnati,2026-11-21,Draft Kings,3.5,60.5,-148,124,-110.0,-110.0,-108.0,-112.0,2.5
+2026-11-15T19:39:11+00:00,recmc7tB3CJ37uijP,401858535,NCAAF,Indiana @ Washington,2026-11-20,Draft Kings,-8.5,41.5,270,-340,-115.0,-105.0,-115.0,-105.0,-7.5
+2026-11-15T19:39:11+00:00,recz7zcoPWllbpqme,401871079,NCAAF,Missouri State @ Jacksonville State,2026-11-21,Draft Kings,10.5,51.5,-340,270,-115.0,-105.0,-118.0,-102.0,10.5
