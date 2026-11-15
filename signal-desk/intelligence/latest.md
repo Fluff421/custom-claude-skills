@@ -37,7 +37,7 @@ Overall graded picks: 106-111 (Brier 0.2574).
 - New York Jets @ Los Angeles Chargers: weather: 68F, 5 | no severity
 - Los Angeles Chargers @ Baltimore Ravens: weather: 37F, wind 4mph, precip 0% | sev=0.00 | open-meteo
 
-Tracking picks (paper, 0u): 68. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread)
+Tracking picks (paper, 0u): 69. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread)
 
 ## Recently closed (last 7 days)
 
@@ -166,19 +166,22 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | total | Over 41.5 | 58% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 59% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 65.5 | 53% | Lean | 0.5 |
 | UCLA @ Michigan | moneyline | Michigan ML +195 | 37% | Lean | 0.5 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -122 | 59% | Lean | 0.5 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +210 | 35% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | total | Under 52.5 | 56% | Lean | 0.5 |
 - NCAAF parlay: Michigan ML +195 + Over 37.5 | model 19.7%, needs +484 to break even, edge +2.6%, Lean
 - NCAAF parlay: Under 65.5 + Michigan ML +195 | model 19.7%, needs +452 to break even, edge +1.6%, No Play
 - NCAAF parlay: Under 65.5 + Over 37.5 | model 28.5%, needs +270 to break even, edge +1.5%, No Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +264 to break even, edge +10.9%, Max Play
 - NFL parlay: Buffalo Bills -16.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.7%, needs +264 to break even, edge +10.3%, Max Play
 - NFL parlay: Los Angeles Chargers +4.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.3%, needs +268 to break even, edge +10.1%, Max Play
-- NFL teaser: Over 41.5 -> 35.5 + Over 38.5 -> 32.5 + Under 51.5 -> 57.5 | model 55.6%, needs +160 to break even, edge +17.1%, Max Play
-- NFL teaser: Over 41.5 -> 35.5 + Over 38.5 -> 32.5 + Over 44.5 -> 38.5 | model 55.5%, needs +160 to break even, edge +17.0%, Max Play
-- NFL teaser: Over 41.5 -> 35.5 + Over 38.5 -> 32.5 + Under 49.5 -> 55.5 | model 55.2%, needs +160 to break even, edge +16.8%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 52.5 -> 58.5 | model 56.9%, needs +160 to break even, edge +18.5%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 46.5 -> 52.5 | model 56.6%, needs +160 to break even, edge +18.1%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 41.5 -> 35.5 | model 56.1%, needs +160 to break even, edge +17.7%, Max Play
 
 ## Results and learning by market
 

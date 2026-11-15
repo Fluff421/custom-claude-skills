@@ -2,8 +2,6 @@
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
-Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San Francisco 49ers (2026-11-22)
-
 ## NCAAF
 
 | Game | Market | Pick | Prob | Edge | Tier | Units |
@@ -238,8 +236,8 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 | New York Jets @ Los Angeles Chargers | total | Over 40.5 | 54% | +1.1 pts | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | moneyline | New York Jets ML +145 | 40% | -1.1% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
-| Minnesota Vikings @ San Francisco 49ers | total | Under 45.5 | 54% | +1.1 pts | No Play | 0 |
-| Minnesota Vikings @ San Francisco 49ers | moneyline | Minnesota Vikings ML +152 (price estimated from the line) | 39% | -0.8% | No Play | 0 |
+| Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 55% | +1.4 pts | No Play | 0 |
+| Minnesota Vikings @ San Francisco 49ers | moneyline | Minnesota Vikings ML +154 | 39% | -0.5% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 53% | +0.7 pts | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | moneyline | New York Giants ML +235 | 30% | -0.3% | No Play | 0 |
@@ -273,8 +271,8 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 ### NFL Best 6-point teasers
 
 - Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 52.5 -> 58.5: model 56.9%, needs +160 to break even (reference payout +160), edge +18.5%, Max Play
+- Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 46.5 -> 52.5: model 56.6%, needs +160 to break even (reference payout +160), edge +18.1%, Max Play
 - Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 41.5 -> 35.5: model 56.1%, needs +160 to break even (reference payout +160), edge +17.7%, Max Play
 - Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 44.5 -> 38.5: model 56.1%, needs +160 to break even (reference payout +160), edge +17.7%, Max Play
 - Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 49.5 -> 55.5: model 55.9%, needs +160 to break even (reference payout +160), edge +17.4%, Max Play
-- Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 40.5 -> 34.5: model 55.9%, needs +160 to break even (reference payout +160), edge +17.4%, Max Play
 
