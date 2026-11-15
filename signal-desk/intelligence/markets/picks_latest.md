@@ -11,29 +11,35 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | Oklahoma State @ Arizona State | spread | Oklahoma State -4 (spread) | 51% |  | No Play | 0 |
 | Oklahoma State @ Arizona State | total | Under 61.5 | 50% | +0.0 pts | No Play | 0 |
 | Oklahoma State @ Arizona State | moneyline | Arizona State ML +145 | 39% | -2.2% | No Play | 0 |
+| Charlotte @ Tulsa | spread | Tulsa -18.5 (spread) | 52% |  | No Play | 0 |
 | Charlotte @ Tulsa | total | Over 51.5 | 52% | +1.3 pts | No Play | 0 |
 | Charlotte @ Tulsa | moneyline | Tulsa ML -900 | 90% | +0.1% | No Play | 0 |
-| North Texas @ Tulane | total | Over 59.5 | 50% | +0.1 pts | No Play | 0 |
-| North Texas @ Tulane | moneyline | Tulane ML +380 | 23% | +2.0% | No Play | 0 |
+| North Texas @ Tulane | spread | Tulane +11.5 (spread) | 51% |  | No Play | 0 |
+| North Texas @ Tulane | total | Over 57.5 | 51% | +0.7 pts | No Play | 0 |
+| North Texas @ Tulane | moneyline | Tulane ML +370 | 21% | -0.1% | No Play | 0 |
 | Miami (OH) @ Kent State | spread | Miami (OH) -8.5 (spread) | 51% |  | No Play | 0 |
 | Miami (OH) @ Kent State | total | Over 46.5 | 52% | +1.5 pts | No Play | 0 |
 | Miami (OH) @ Kent State | moneyline | Kent State ML +250 | 29% | +0.6% | No Play | 0 |
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 45.5 | 51% | +1.2 pts | No Play | 0 |
-| Utah @ TCU | moneyline | TCU ML +225 | 32% | +0.7% | No Play | 0 |
+| Utah @ TCU | moneyline | TCU ML +205 | 33% | -0.3% | No Play | 0 |
 | Eastern Michigan @ Western Michigan | spread | Western Michigan -14.5 (spread) | 51% |  | No Play | 0 |
 | Eastern Michigan @ Western Michigan | total | Over 46.5 | 51% | +0.7 pts | No Play | 0 |
 | Eastern Michigan @ Western Michigan | moneyline | Western Michigan ML -600 | 84% | -1.4% | No Play | 0 |
+| Pittsburgh @ Louisville | spread | Pittsburgh +12.5 (spread) | 51% |  | No Play | 0 |
 | Pittsburgh @ Louisville | total | Over 51.5 | 52% | +1.4 pts | No Play | 0 |
 | Pittsburgh @ Louisville | moneyline | Pittsburgh ML +360 | 21% | -1.0% | No Play | 0 |
+| Northern Illinois @ North Dakota State | spread | Northern Illinois +24.5 (spread) | 50% |  | No Play | 0 |
 | Northern Illinois @ North Dakota State | total | Over 45.5 | 51% | +0.7 pts | No Play | 0 |
 | Northern Illinois @ North Dakota State | moneyline | Northern Illinois ML +1800 | 5% | -0.3% | No Play | 0 |
+| Colorado State @ Fresno State | spread | Colorado State +20.5 (spread) | 50% |  | No Play | 0 |
 | Colorado State @ Fresno State | total | Under 63.5 | 50% | +0.1 pts | No Play | 0 |
 | Colorado State @ Fresno State | moneyline | Colorado State ML +1100 | 9% | +0.3% | No Play | 0 |
 | Virginia Tech @ Miami | spread | Miami -18.5 (spread) | 52% |  | No Play | 0 |
 | Virginia Tech @ Miami | total | Under 60.5 | 51% | +1.0 pts | No Play | 0 |
 | Virginia Tech @ Miami | moneyline | Miami ML -1200 | 91% | -0.8% | No Play | 0 |
 | Texas A&M @ Oklahoma | moneyline | Oklahoma ML -110 (price estimated from the line) | 59% | +7.1% | No Play | 0 |
+| Delaware @ New Mexico State | spread | New Mexico State +3.5 (spread) | 50% |  | No Play | 0 |
 | Delaware @ New Mexico State | total | Under 53.5 | 50% | +0.2 pts | No Play | 0 |
 | Delaware @ New Mexico State | moneyline | New Mexico State ML +136 | 41% | -1.8% | No Play | 0 |
 | UTEP @ Air Force | spread | Air Force -21.5 (spread) | 50% |  | No Play | 0 |
@@ -51,6 +57,7 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | BYU @ Kansas | spread | BYU -7.5 (spread) | 50% |  | No Play | 0 |
 | BYU @ Kansas | total | Under 49.5 | 51% | +1.2 pts | No Play | 0 |
 | BYU @ Kansas | moneyline | Kansas ML +195 | 33% | -1.0% | No Play | 0 |
+| Old Dominion @ UConn | spread | Old Dominion +14 (spread) | 50% |  | No Play | 0 |
 | Old Dominion @ UConn | total | Over 48.5 | 51% | +1.2 pts | No Play | 0 |
 | Old Dominion @ UConn | moneyline | Old Dominion ML +425 | 18% | -1.5% | No Play | 0 |
 | South Florida @ Florida Atlantic | spread | South Florida -1.5 (spread) | 50% |  | No Play | 0 |
@@ -62,11 +69,13 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | Rice @ Temple | spread | Temple -4 (spread) | 50% |  | No Play | 0 |
 | Rice @ Temple | total | Over 47.5 | 52% | +1.9 pts | No Play | 0 |
 | Rice @ Temple | moneyline | Temple ML -170 | 61% | -2.1% | No Play | 0 |
+| Washington State @ Texas State | spread | Washington State +14 (spread) | 51% |  | No Play | 0 |
 | Washington State @ Texas State | total | Over 58.5 | 50% | +0.1 pts | No Play | 0 |
 | Washington State @ Texas State | moneyline | Washington State ML +455 | 18% | +0.4% | No Play | 0 |
 | Memphis @ Navy | spread | Memphis -3 (spread) | 51% |  | No Play | 0 |
 | Memphis @ Navy | total | Under 65.5 | 52% | +1.5 pts | No Play | 0 |
 | Memphis @ Navy | moneyline | Navy ML +136 | 41% | -1.2% | No Play | 0 |
+| North Carolina @ Virginia | spread | North Carolina +1.5 (spread) | 52% |  | No Play | 0 |
 | North Carolina @ Virginia | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
 | North Carolina @ Virginia | moneyline | Virginia ML -115 | 52% | -1.1% | No Play | 0 |
 | East Carolina @ Army | spread | Army -4.5 (spread) | 50% |  | No Play | 0 |
@@ -78,7 +87,8 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | Wisconsin @ Purdue | spread | Purdue +6 (spread) | 50% |  | No Play | 0 |
 | Wisconsin @ Purdue | total | Over 44.5 | 50% | +0.0 pts | No Play | 0 |
 | Wisconsin @ Purdue | moneyline | Purdue ML +180 | 34% | -1.8% | No Play | 0 |
-| Utah State @ Oregon State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
+| Utah State @ Oregon State | spread | Oregon State -9.5 (spread) | 51% |  | No Play | 0 |
+| Utah State @ Oregon State | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
 | Utah State @ Oregon State | moneyline | Utah State ML +275 | 26% | -0.6% | No Play | 0 |
 | Houston @ West Virginia | spread | Houston -7 (spread) | 50% |  | No Play | 0 |
 | Houston @ West Virginia | total | Under 71.5 | 53% | +2.8 pts | Lean | 0.5 |
@@ -98,8 +108,9 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
 | Colorado @ Cincinnati | total | Under 59.5 | 51% | +1.0 pts | No Play | 0 |
 | Colorado @ Cincinnati | moneyline | Cincinnati ML -148 | 58% | -1.3% | No Play | 0 |
+| Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
 | Georgia Southern @ Troy | total | Under 49.5 | 50% | +0.1 pts | No Play | 0 |
-| Georgia Southern @ Troy | moneyline | Troy ML +285 | 27% | +0.8% | No Play | 0 |
+| Georgia Southern @ Troy | moneyline | Troy ML +260 | 29% | +0.9% | No Play | 0 |
 | Ohio State @ Nebraska | spread | Ohio State -5.5 (spread) | 51% |  | No Play | 0 |
 | Ohio State @ Nebraska | total | Under 44.5 | 50% | +0.2 pts | No Play | 0 |
 | Ohio State @ Nebraska | moneyline | Nebraska ML +150 | 39% | -0.7% | No Play | 0 |
@@ -130,6 +141,7 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | UTSA @ UAB | spread | UAB +6.5 (spread) | 50% |  | No Play | 0 |
 | UTSA @ UAB | total | Over 53.5 | 50% | +0.2 pts | No Play | 0 |
 | UTSA @ UAB | moneyline | UAB ML +205 | 32% | -0.8% | No Play | 0 |
+| San Diego State @ Boise State | spread | Boise State -16.5 (spread) | 52% |  | No Play | 0 |
 | San Diego State @ Boise State | total | Under 62.5 | 50% | +0.4 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | San Diego State ML +700 | 12% | -0.1% | No Play | 0 |
 | Ball State @ Ohio | spread | Ohio -9.5 (spread) | 51% |  | No Play | 0 |
@@ -138,11 +150,13 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
 | Georgia @ South Carolina | total | Over 50.5 | 52% | +1.7 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | Georgia ML -750 | 86% | -2.0% | No Play | 0 |
+| Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 42.5 | 51% | +1.1 pts | No Play | 0 |
-| Hawai'i @ Nevada | moneyline | Hawai'i ML +140 | 41% | -1.0% | No Play | 0 |
+| Hawai'i @ Nevada | moneyline | Hawai'i ML +145 | 41% | -0.2% | No Play | 0 |
 | Iowa @ Illinois | spread | Illinois +6.5 (spread) | 50% |  | No Play | 0 |
 | Iowa @ Illinois | total | Under 42.5 | 51% | +0.7 pts | No Play | 0 |
-| Iowa @ Illinois | moneyline | Illinois ML +205 | 34% | +1.1% | No Play | 0 |
+| Iowa @ Illinois | moneyline | Illinois ML +190 | 35% | +0.4% | No Play | 0 |
+| Middle Tennessee @ Sam Houston | spread | Sam Houston +5.5 (spread) | 50% |  | No Play | 0 |
 | Middle Tennessee @ Sam Houston | total | Over 49.5 | 51% | +0.7 pts | No Play | 0 |
 | Middle Tennessee @ Sam Houston | moneyline | Sam Houston ML +185 | 36% | +1.0% | No Play | 0 |
 | Syracuse @ Boston College | spread | Syracuse -3.5 (spread) | 50% |  | No Play | 0 |
@@ -154,6 +168,7 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | Wake Forest @ Georgia Tech | spread | Georgia Tech +21 (spread) | 50% |  | No Play | 0 |
 | Wake Forest @ Georgia Tech | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
 | Wake Forest @ Georgia Tech | moneyline | Georgia Tech ML +900 | 8% | -1.9% | No Play | 0 |
+| Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
 | Florida International @ Kennesaw State | moneyline | Florida International ML +130 | 42% | -1.9% | No Play | 0 |
 | Central Michigan @ Buffalo | spread | Buffalo -1.5 (spread) | 50% |  | No Play | 0 |
@@ -180,10 +195,13 @@ Markets not yet posted (no pick until a line is listed): Arizona Cardinals @ Kan
 | New Mexico @ Wyoming | spread | New Mexico -10.5 (spread) | 51% |  | No Play | 0 |
 | New Mexico @ Wyoming | total | Under 38.5 | 51% | +1.0 pts | No Play | 0 |
 | New Mexico @ Wyoming | moneyline | Wyoming ML +285 | 25% | -1.3% | No Play | 0 |
+| UNLV @ San José State | spread | UNLV -4 (spread) | 51% |  | No Play | 0 |
 | UNLV @ San José State | total | Under 49.5 | 50% | +0.4 pts | No Play | 0 |
 | UNLV @ San José State | moneyline | San José State ML +150 | 38% | -1.6% | No Play | 0 |
+| Missouri State @ Jacksonville State | spread | Jacksonville State -10 (spread) | 51% |  | No Play | 0 |
 | Missouri State @ Jacksonville State | total | Under 52.5 | 50% | +0.0 pts | No Play | 0 |
 | Missouri State @ Jacksonville State | moneyline | Jacksonville State ML -310 | 76% | +0.0% | No Play | 0 |
+| Western Kentucky @ Liberty | spread | Liberty -14.5 (spread) | 52% |  | No Play | 0 |
 | Western Kentucky @ Liberty | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
 | Western Kentucky @ Liberty | moneyline | Liberty ML -625 | 85% | -1.5% | No Play | 0 |
 

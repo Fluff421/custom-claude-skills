@@ -58,3 +58,21 @@ ts,record_id,league,game,side,edge_tier,edge,pred_clv,clv_tier,model_n
 2026-11-15 16:36Z,recr1qJDVd2AaP7Oh,NCAAF,Georgia State @ Marshall,Georgia State -1.5 (spread),No Play,-0.3,-0.252,No Play,109
 2026-11-15 16:36Z,recua2UhDbDkVPPou,NCAAF,Arizona @ Kansas State,Kansas State +10.5 (spread),No Play,0.35,-0.016,No Play,109
 2026-11-15 16:36Z,recw0kmXuAmJD63eT,NCAAF,New Mexico @ Wyoming,New Mexico -10.5 (spread),No Play,-0.23,-0.288,No Play,109
+2026-11-15 19:02Z,rec1d30amiX7lhIdw,NCAAF,Charlotte @ Tulsa,Tulsa -18.5 (spread),No Play,0.65,-0.208,No Play,109
+2026-11-15 19:02Z,rec44JC9PdqsCABEI,NCAAF,North Texas @ Tulane,Tulane +11.5 (spread),No Play,0.28,-0.005,No Play,109
+2026-11-15 19:02Z,rec93kjwVAFgdDJ3w,NCAAF,Pittsburgh @ Louisville,Pittsburgh +12.5 (spread),No Play,-0.38,0.082,No Play,109
+2026-11-15 19:02Z,recBHbl1JKZVHdRA3,NCAAF,Northern Illinois @ North Dakota State,Northern Illinois +24.5 (spread),No Play,-0.07,0.344,Lean,109
+2026-11-15 19:02Z,recBWcZ5vJx1Anl8m,NCAAF,Colorado State @ Fresno State,Colorado State +20.5 (spread),No Play,-0.13,-0.005,No Play,109
+2026-11-15 19:02Z,recG7zCYLcccieCvX,NCAAF,Delaware @ New Mexico State,New Mexico State +3.5 (spread),No Play,0.19,0.36,Lean,109
+2026-11-15 19:02Z,recKu4Hkua702ro6Z,NCAAF,Old Dominion @ UConn,Old Dominion +14 (spread),No Play,-0.12,0.074,No Play,109
+2026-11-15 19:02Z,recMnEBPakZAQmbNs,NCAAF,Washington State @ Texas State,Washington State +14 (spread),No Play,-0.42,-0.07,No Play,109
+2026-11-15 19:02Z,recN1veRxzuLsTCnY,NCAAF,North Carolina @ Virginia,North Carolina +1.5 (spread),No Play,-0.71,0.102,No Play,109
+2026-11-15 19:02Z,recRDfetvKLmGizti,NCAAF,Utah State @ Oregon State,Oregon State -9.5 (spread),No Play,0.2,0.054,No Play,109
+2026-11-15 19:02Z,recYOvQDevjUN0yyb,NCAAF,Georgia Southern @ Troy,Troy +9.5 (spread),No Play,0.35,0.288,Lean,109
+2026-11-15 19:02Z,recfU2ZV1porTqF2q,NCAAF,San Diego State @ Boise State,Boise State -16.5 (spread),No Play,0.86,0.076,No Play,109
+2026-11-15 19:02Z,reckadkLKADB9o91J,NCAAF,Hawai'i @ Nevada,Nevada -4.5 (spread),No Play,0.12,0.18,No Play,109
+2026-11-15 19:02Z,reclfwgx3nE8GccBt,NCAAF,Middle Tennessee @ Sam Houston,Sam Houston +5.5 (spread),No Play,0.19,0.01,No Play,109
+2026-11-15 19:02Z,recmwmcZbfaOar6zX,NCAAF,Florida International @ Kennesaw State,Kennesaw State -3 (spread),No Play,0.16,-0.001,No Play,109
+2026-11-15 19:02Z,recwwACNg0gi1waTR,NCAAF,UNLV @ San José State,UNLV -4 (spread),No Play,-0.42,0.013,No Play,109
+2026-11-15 19:02Z,recz7zcoPWllbpqme,NCAAF,Missouri State @ Jacksonville State,Jacksonville State -10 (spread),No Play,0.54,0.256,Lean,109
+2026-11-15 19:02Z,reczK8E46Un8CWWGS,NCAAF,Western Kentucky @ Liberty,Liberty -14.5 (spread),No Play,0.78,0.026,No Play,109
