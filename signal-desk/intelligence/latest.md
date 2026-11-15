@@ -49,7 +49,7 @@ Overall graded picks: 103-106 (Brier 0.2571).
 - Carolina Panthers @ New Orleans Saints: weather: indoor | sev=0.00
 - Los Angeles Chargers @ Baltimore Ravens: weather: 38F, wind 5mph, precip 0% | sev=0.00 | open-meteo
 
-Tracking picks (paper, 0u): 51. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread); SMU @ Notre Dame -> Notre Dame -16.5 (spread); Wake Forest @ Georgia Tech -> Georgia Tech +21 (spread)
+Tracking picks (paper, 0u): 69. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread)
 
 ## Recently closed (last 7 days)
 
@@ -182,14 +182,14 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
 | UTEP @ Air Force | total | Under 46.5 | 53% | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | Lean | 0.5 |
-| South Florida @ Florida Atlantic | total | Under 68.5 | 56% | Strong Play | 1.0 |
+| South Florida @ Florida Atlantic | total | Under 67.5 | 56% | Strong Play | 1.0 |
 | Los Angeles Rams @ Arizona Cardinals | total | Over 38.5 | 59% | Lean | 0.5 |
 | East Carolina @ Army | total | Over 42.5 | 54% | Lean | 0.5 |
 | Houston @ West Virginia | total | Under 71.5 | 53% | Lean | 0.5 |
 | Georgia State @ Marshall | moneyline | Georgia State ML -118 | 57% | Lean | 0.5 |
-- NCAAF parlay: Under 68.5 + Georgia State ML -118 | model 32.1%, needs +266 to break even, edge +4.7%, Lean
-- NCAAF parlay: Under 68.5 + Over 42.5 | model 30.0%, needs +287 to break even, edge +4.2%, Lean
-- NCAAF parlay: Under 46.5 + Under 68.5 | model 29.7%, needs +278 to break even, edge +3.2%, Lean
+- NCAAF parlay: Under 67.5 + Georgia State ML -118 | model 31.9%, needs +250 to break even, edge +3.3%, Lean
+- NCAAF parlay: Over 42.5 + Georgia State ML -118 | model 30.8%, needs +253 to break even, edge +2.4%, Lean
+- NCAAF parlay: Under 67.5 + Over 42.5 | model 29.8%, needs +261 to break even, edge +2.2%, Lean
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +264 to break even, edge +10.9%, Max Play
 - NFL parlay: Buffalo Bills -16.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.7%, needs +264 to break even, edge +10.3%, Max Play
 - NFL parlay: Los Angeles Chargers +4.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.3%, needs +268 to break even, edge +10.1%, Max Play
