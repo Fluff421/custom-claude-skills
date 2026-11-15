@@ -25,8 +25,8 @@ Markets not yet posted (no pick until a line is listed): Pittsburgh @ Louisville
 | Eastern Michigan @ Western Michigan | total | Over 47.5 | 50% | +0.4 pts | No Play | 0 |
 | Eastern Michigan @ Western Michigan | moneyline | Western Michigan ML -625 | 84% | -1.9% | No Play | 0 |
 | Pittsburgh @ Louisville | moneyline | Louisville ML -110 (price estimated from the line) | 76% | +23.6% | No Play | 0 |
-| Northern Illinois @ North Dakota State | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
-| Northern Illinois @ North Dakota State | moneyline | Northern Illinois ML +2000 | 4% | -0.4% | No Play | 0 |
+| Northern Illinois @ North Dakota State | total | Over 45.5 | 51% | +0.7 pts | No Play | 0 |
+| Northern Illinois @ North Dakota State | moneyline | Northern Illinois ML +1800 | 5% | -0.3% | No Play | 0 |
 | Colorado State @ Fresno State | total | Over 61.5 | 51% | +0.5 pts | No Play | 0 |
 | Colorado State @ Fresno State | moneyline | Colorado State ML +1000 | 10% | +0.5% | No Play | 0 |
 | Virginia Tech @ Miami | spread | Miami -18.5 (spread) | 52% |  | No Play | 0 |
@@ -70,7 +70,7 @@ Markets not yet posted (no pick until a line is listed): Pittsburgh @ Louisville
 | North Carolina @ Virginia | moneyline | Virginia ML -115 | 52% | -1.1% | No Play | 0 |
 | East Carolina @ Army | spread | Army -4.5 (spread) | 50% |  | No Play | 0 |
 | East Carolina @ Army | total | Over 42.5 | 54% | +3.0 pts | Lean | 0.5 |
-| East Carolina @ Army | moneyline | Army ML -198 | 65% | -1.5% | No Play | 0 |
+| East Carolina @ Army | moneyline | Army ML -192 | 65% | -0.8% | No Play | 0 |
 | Maryland @ USC | spread | USC -16.5 (spread) | 51% |  | No Play | 0 |
 | Maryland @ USC | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
 | Maryland @ USC | moneyline | USC ML -800 | 87% | -1.8% | No Play | 0 |
@@ -133,7 +133,7 @@ Markets not yet posted (no pick until a line is listed): Pittsburgh @ Louisville
 | San Diego State @ Boise State | moneyline | San Diego State ML +800 | 11% | +0.1% | No Play | 0 |
 | Ball State @ Ohio | spread | Ohio -9.5 (spread) | 51% |  | No Play | 0 |
 | Ball State @ Ohio | total | Over 49.5 | 52% | +1.3 pts | No Play | 0 |
-| Ball State @ Ohio | moneyline | Ball State ML +295 | 24% | -1.3% | No Play | 0 |
+| Ball State @ Ohio | moneyline | Ball State ML +310 | 24% | -0.4% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
 | Georgia @ South Carolina | total | Over 50.5 | 52% | +1.7 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | Georgia ML -750 | 86% | -2.0% | No Play | 0 |
@@ -212,7 +212,7 @@ Markets not yet posted (no pick until a line is listed): Pittsburgh @ Louisville
 | New Orleans Saints @ Chicago Bears | moneyline | New Orleans Saints ML +350 | 23% | +0.4% | No Play | 0 |
 | Jacksonville Jaguars @ Tennessee Titans | spread | Tennessee Titans +10.5 (spread) | 55% |  | Lean | 0.5 |
 | Jacksonville Jaguars @ Tennessee Titans | total | Under 45.5 | 52% | +0.5 pts | No Play | 0 |
-| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +470 | 20% | +2.9% | No Play | 0 |
+| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +490 | 20% | +3.5% | Lean | 0.5 |
 | Houston Texans @ Cleveland Browns | spread | Houston Texans -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Houston Texans @ Cleveland Browns | total | Over 40.5 | 52% | +0.6 pts | No Play | 0 |
 | Houston Texans @ Cleveland Browns | moneyline | Houston Texans ML -198 | 66% | -0.7% | No Play | 0 |
@@ -239,13 +239,13 @@ Markets not yet posted (no pick until a line is listed): Pittsburgh @ Louisville
 | Carolina Panthers @ New Orleans Saints | moneyline | New Orleans Saints ML -110 | 54% | +1.9% | No Play | 0 |
 | Los Angeles Rams @ Arizona Cardinals | spread | Los Angeles Rams -9.5 (spread) | 52% |  | No Play | 0 |
 | Los Angeles Rams @ Arizona Cardinals | total | Over 38.5 | 59% | +2.2 pts | Lean | 0.5 |
-| Los Angeles Rams @ Arizona Cardinals | moneyline | Arizona Cardinals ML +370 | 22% | +0.4% | No Play | 0 |
+| Los Angeles Rams @ Arizona Cardinals | moneyline | Arizona Cardinals ML +380 | 22% | +0.9% | No Play | 0 |
 | Minnesota Vikings @ Green Bay Packers | spread | Minnesota Vikings +3.5 (spread) | 56% |  | Lean | 0.5 |
 | Minnesota Vikings @ Green Bay Packers | total | Under 42.5 | 52% | +0.6 pts | No Play | 0 |
 | Minnesota Vikings @ Green Bay Packers | moneyline | Green Bay Packers ML -148 | 58% | -2.1% | No Play | 0 |
 | Miami Dolphins @ Indianapolis Colts | spread | Indianapolis Colts -3.5 (spread) | 69% |  | Max Play | 1 |
 | Miami Dolphins @ Indianapolis Colts | total | Over 37.5 | 58% | +2.1 pts | Lean | 0.5 |
-| Miami Dolphins @ Indianapolis Colts | moneyline | Indianapolis Colts ML -218 | 70% | +1.1% | No Play | 0 |
+| Miami Dolphins @ Indianapolis Colts | moneyline | Indianapolis Colts ML -225 | 70% | +0.4% | No Play | 0 |
 | Miami Dolphins @ Buffalo Bills | spread | Buffalo Bills -16.5 (spread) | 60% |  | Strong Play | 1 |
 | Miami Dolphins @ Buffalo Bills | total | Over 46.5 | 51% | +0.2 pts | No Play | 0 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Miami Dolphins ML +1000 | 8% | -0.9% | No Play | 0 |
