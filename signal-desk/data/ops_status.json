@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-15T19:28:13Z",
+ "generated_at_utc": "2026-11-15T19:32:19Z",
  "generated_for_central_date": "2026-11-15",
  "graded_picks_csv_rows": 211,
  "ledger_health": {
@@ -168,6 +168,21 @@
    "file": "picks.yml",
    "runs": [
     {
+     "run_id": 43752879949,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43752879949",
+     "event": "workflow_run",
+     "created_at": "2026-11-15T19:31:18Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 43750121193,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43750121193",
      "event": "workflow_run",
@@ -211,21 +226,6 @@
       "units_recapped": 0,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 43714445327,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43714445327",
-     "event": "workflow_run",
-     "created_at": "2026-11-15T12:33:22Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "new_picks": 0,
-      "units_recapped": 0,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [
@@ -248,11 +248,6 @@
      "run_id": 43535258669,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43535258669",
      "created_at": "2026-11-14T00:35:54Z"
-    },
-    {
-     "run_id": 43498141176,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43498141176",
-     "created_at": "2026-11-13T20:04:32Z"
     }
    ],
    "gate_skipped": [],
@@ -417,6 +412,20 @@
    "file": "context-calibrate.yml",
    "runs": [
     {
+     "run_id": 43748776358,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43748776358",
+     "event": "schedule",
+     "created_at": "2026-11-15T18:47:59Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "rows_updated": 91,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 43712700277,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43712700277",
      "event": "workflow_dispatch",
@@ -479,6 +488,19 @@
    "file": "snapshot.yml",
    "runs": [
     {
+     "run_id": 43752569768,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43752569768",
+     "event": "schedule",
+     "created_at": "2026-11-15T19:28:01Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 43750666687,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43750666687",
      "event": "schedule",
@@ -517,25 +539,11 @@
       "mode": "LIVE",
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 43626989734,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43626989734",
-     "event": "schedule",
-     "created_at": "2026-11-14T18:30:41Z",
-     "conclusion": "success",
-     "health": "warn",
-     "reasons": [
-      "no summary lines found in log"
-     ],
-     "summary": {
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
    "gate_skipped": [],
-   "latest_health": "warn"
+   "latest_health": "ok"
   },
   {
    "workflow": "BIM Grader",
@@ -628,7 +636,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-15T17:57:57Z",
-   "age_h": 1.5,
+   "age_h": 1.6,
    "status": "ok"
   },
   {
@@ -646,7 +654,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-15T19:28:01Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   },
   {
@@ -655,7 +663,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-15T17:20:30Z",
-   "age_h": 2.1,
+   "age_h": 2.2,
    "status": "ok"
   },
   {
@@ -665,7 +673,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-15T19:01:58Z",
-   "age_h": 0.4,
+   "age_h": 0.5,
    "status": "ok"
   }
  ],

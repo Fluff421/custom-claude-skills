@@ -1,4 +1,4 @@
-# Pick-time check at the newest Splash lines, 2026-11-15 19:29Z
+# Pick-time check at the newest Splash lines, 2026-11-15 19:33Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
@@ -26,6 +26,7 @@ Tier or side changed since the early-week line:
 
 | Game | Date | Market | Pick now | Tier now | Win prob | Edge | Before |
 |---|---|---|---|---|---|---|---|
+| Houston Texans @ Cleveland Browns | 2026-11-15 | total | Over 40.5 | No Play | 55.2% | 1.31 | was over Lean at the early line |
 | Miami Dolphins @ Indianapolis Colts | 2026-11-15 | total | Over 38.5 | Lean | 57.3% | 1.84 | was over No Play at the early line |
 | Minnesota Vikings @ Green Bay Packers | 2026-11-15 | spread | Minnesota Vikings +3 | Lean | 54.5% | -1.4 | was away Strong Play at the early line |
 | Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | spread | Las Vegas Raiders +6.5 | Strong Play | 58.3% | 2.6 | was away No Play at the early line |
@@ -40,10 +41,10 @@ Strongest 6-point teaser legs at the current lines (two-leg teaser break-even is
 | Los Angeles Rams @ Arizona Cardinals | Over 33.5 (teased) | 78.5% |
 | Miami Dolphins @ Indianapolis Colts | Over 32.5 (teased) | 78.3% |
 | San Francisco 49ers @ Dallas Cowboys | Under 61.5 (teased) | 78.1% |
+| Houston Texans @ Cleveland Browns | Over 34.5 (teased) | 76.8% |
 | Buffalo Bills @ New York Jets | Under 56.5 (teased) | 76.6% |
 | Kansas City Chiefs @ Atlanta Falcons | Under 53.5 (teased) | 75.4% |
 | Los Angeles Chargers @ Baltimore Ravens | Los Angeles Chargers +10.5 (teased) | 75.3% |
 | Jacksonville Jaguars @ Tennessee Titans | Under 52.5 (teased) | 75.2% |
-| Pittsburgh Steelers @ Cincinnati Bengals | Under 54.5 (teased) | 75.1% |
 
 All games and markets are in latest.json.

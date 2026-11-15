@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15T19:29:49.555346+00:00",
- "snapshot_age_hours": 44.4,
+ "generated_at": "2026-11-15T19:33:03.863007+00:00",
+ "snapshot_age_hours": 44.5,
  "games": [
   {
    "game": "Buffalo Bills @ New York Jets",
@@ -120,8 +120,8 @@
     "pick": "Houston Texans -4.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5,
-    "edge": -0.0,
+    "prob": 0.5064,
+    "edge": -0.2,
     "proj": -6.199999999999999,
     "import_side": "away",
     "import_tier": "No Play",
@@ -134,14 +134,14 @@
     "pick": "Over 40.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5223,
-    "edge": 0.56,
-    "proj": 41.06,
+    "prob": 0.5521,
+    "edge": 1.31,
+    "proj": 41.81,
     "import_side": "over",
-    "import_tier": "No Play",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Over 34.5 (teased)",
-     "prob": 0.7441
+     "prob": 0.7676
     }
    },
    "moneyline": {
