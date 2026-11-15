@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-15T12:27:46.275435+00:00",
- "snapshot_age_hours": 37.4,
+ "generated_at": "2026-11-15T17:31:03.963062+00:00",
+ "snapshot_age_hours": 42.4,
  "games": [
   {
    "game": "Buffalo Bills @ New York Jets",
@@ -419,12 +419,12 @@
    "spread": {
     "pick": "New England Patriots +2.5",
     "side": "away",
-    "tier": "Lean",
-    "prob": 0.5673,
-    "edge": -2.1,
+    "tier": "Strong Play",
+    "prob": 0.58,
+    "edge": -2.5,
     "proj": 0.7000000000000002,
     "import_side": "away",
-    "import_tier": "Lean",
+    "import_tier": "Strong Play",
     "teaser_leg": {
      "pick": "New England Patriots +8.5 (teased)",
      "prob": 0.7244

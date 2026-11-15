@@ -19,8 +19,8 @@ Overall graded picks: 103-105 (Brier 0.2569).
 | Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | Strong Play | Tampa Bay Buccaneers +3.5 (spread) | 1 | 59.6% |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | Lean | Denver Broncos -8.5 (spread) | 0.5 | 54.8% |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | Lean | Dallas Cowboys -7.5 (spread) | 0.5 | 55.5% |  |
-| Jacksonville Jaguars @ Tennessee Titans | 2026-11-15 | Lean | Tennessee Titans +10.5 (spread) | 0.5 | 54.5% |  |
 | Akron @ Massachusetts | 2026-11-18 | Lean | Massachusetts -2.5 (spread) | 0.5 | 50.0% |  |
+| Jacksonville Jaguars @ Tennessee Titans | 2026-11-15 | Lean | Tennessee Titans +10.5 (spread) | 0.5 | 54.5% |  |
 | Houston Texans @ Cleveland Browns | 2026-11-15 | Lean | Houston Texans -4.5 (spread) | 0.5 | 54.5% |  |
 | Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | Lean | Las Vegas Raiders +6.5 (spread) | 0.5 | 57.7% |  |
 | Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | Lean | Pittsburgh Steelers -4.5 (spread) | 0.5 | 55.8% |  |
@@ -40,8 +40,8 @@ Overall graded picks: 103-105 (Brier 0.2569).
 - Tampa Bay Buccaneers @ Detroit Lions: weather: indoor | sev=0.00
 - Las Vegas Raiders @ Denver Broncos: weather: 50F, 2 | no severity
 - Tennessee Titans @ Dallas Cowboys: weather: indoor | sev=0.00
-- Jacksonville Jaguars @ Tennessee Titans: weather: 52F, wind 7mph, precip 0% | sev=0.00 | open-meteo
 - Akron @ Massachusetts: weather: 43F, wind 3mph, precip 0% | sev=0.00 | open-meteo
+- Jacksonville Jaguars @ Tennessee Titans: weather: 52F, wind 7mph, precip 0% | sev=0.00 | open-meteo
 - Houston Texans @ Cleveland Browns: weather: 45F, wind 14mph, precip 5% | sev=0.25 | open-meteo
 - Seattle Seahawks @ Las Vegas Raiders: QB: HOME QB PLAYING Fernando Mendoza [auto espn 2026-11-15] | AWAY QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-15] [priced: Drew Lock led passing 2026-11-08]; weather: indoor | sev=0.00
 - Pittsburgh Steelers @ Philadelphia Eagles: weather: 61F, 1 | no severity
@@ -51,7 +51,7 @@ Overall graded picks: 103-105 (Brier 0.2569).
 - New England Patriots @ Detroit Lions: 
 - Los Angeles Chargers @ Baltimore Ravens: weather: 38F, wind 5mph, precip 0% | sev=0.00 | open-meteo
 
-Tracking picks (paper, 0u): 26. Examples: Arkansas @ Texas -> Texas -21 (spread); Virginia Tech @ Miami -> Miami -18.5 (spread); Wake Forest @ Georgia Tech -> Georgia Tech +21 (spread); Eastern Michigan @ Western Michigan -> Western Michigan -14.5 (spread); SMU @ Notre Dame -> Notre Dame -16.5 (spread); Oregon @ Michigan State -> Oregon -13.5 (spread)
+Tracking picks (paper, 0u): 51. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread); SMU @ Notre Dame -> Notre Dame -16.5 (spread); Wake Forest @ Georgia Tech -> Georgia Tech +21 (spread)
 
 ## Recently closed (last 7 days)
 
@@ -181,16 +181,23 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
-| Jacksonville Jaguars @ Tennessee Titans | moneyline | Tennessee Titans ML +525 | 20% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 41.5 | 58% | Lean | 0.5 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
+| UTEP @ Air Force | total | Under 46.5 | 53% | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | Lean | 0.5 |
+| South Florida @ Florida Atlantic | total | Under 68.5 | 56% | Strong Play | 1.0 |
 | Los Angeles Rams @ Arizona Cardinals | total | Over 38.5 | 59% | Lean | 0.5 |
+| East Carolina @ Army | total | Over 42.5 | 54% | Lean | 0.5 |
 | Miami Dolphins @ Indianapolis Colts | total | Over 37.5 | 58% | Lean | 0.5 |
+| Houston @ West Virginia | total | Under 71.5 | 53% | Lean | 0.5 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -122 | 59% | Lean | 0.5 |
+| Buffalo Bills @ New York Jets | moneyline | New York Jets ML +370 | 24% | Lean | 0.5 |
+- NCAAF parlay: Under 68.5 + Over 42.5 | model 30.0%, needs +287 to break even, edge +4.2%, Lean
+- NCAAF parlay: Under 46.5 + Under 68.5 | model 29.7%, needs +278 to break even, edge +3.2%, Lean
+- NCAAF parlay: Under 68.5 + Under 71.5 | model 29.9%, needs +270 to break even, edge +2.9%, Lean
 - NFL parlay: Indianapolis Colts -3.5 (spread) + Carolina Panthers -1.5 (spread) | model 43.7%, needs +264 to break even, edge +16.3%, Max Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Indianapolis Colts -3.5 (spread) | model 42.2%, needs +264 to break even, edge +14.8%, Max Play
-- NFL parlay: Indianapolis Colts -3.5 (spread) + Cincinnati Bengals -3.5 (spread) | model 41.4%, needs +268 to break even, edge +14.2%, Max Play
+- NFL parlay: Indianapolis Colts -3.5 (spread) + Buffalo Bills -16.5 (spread) | model 41.6%, needs +264 to break even, edge +14.2%, Max Play
 - NFL teaser: Over 38.5 -> 32.5 + Over 37.5 -> 31.5 + Over 40.5 -> 34.5 | model 58.4%, needs +160 to break even, edge +20.0%, Max Play
 - NFL teaser: Over 38.5 -> 32.5 + Over 37.5 -> 31.5 + Over 41.5 -> 35.5 | model 58.3%, needs +160 to break even, edge +19.8%, Max Play
 - NFL teaser: Over 38.5 -> 32.5 + Over 40.5 -> 34.5 + Over 41.5 -> 35.5 | model 58.2%, needs +160 to break even, edge +19.8%, Max Play

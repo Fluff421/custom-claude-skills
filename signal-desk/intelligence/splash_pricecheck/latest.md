@@ -1,8 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-15 12:27Z
+# Pick-time check at the newest Splash lines, 2026-11-15 17:31Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 37 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 42 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 15 Lean-or-better plays at the current Splash lines (13 games checked).
 
@@ -10,6 +10,7 @@ Warning: the newest Splash snapshot is 37 hours old. Paste a fresh File 1 dump b
 |---|---|---|---|---|---|---|---|
 | Miami Dolphins @ Indianapolis Colts | 2026-11-15 | spread | Indianapolis Colts -3.5 | Max Play | 71.4% | 7.0 |  |
 | Kansas City Chiefs @ Atlanta Falcons | 2026-11-15 | spread | Kansas City Chiefs -3.5 | Strong Play | 59.3% | -2.9 |  |
+| New England Patriots @ Detroit Lions | 2026-11-15 | spread | New England Patriots +2.5 | Strong Play | 58.0% | -2.5 |  |
 | Pittsburgh Steelers @ Cincinnati Bengals | 2026-11-15 | spread | Cincinnati Bengals -3.5 | Strong Play | 58.3% | 2.6 |  |
 | Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | spread | Las Vegas Raiders +6.5 | Strong Play | 58.3% | 2.6 | was away No Play at the early line |
 | Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | spread | Los Angeles Chargers +4.5 | Strong Play | 58.6% | -2.7 |  |
@@ -18,7 +19,6 @@ Warning: the newest Splash snapshot is 37 hours old. Paste a fresh File 1 dump b
 | Los Angeles Rams @ Arizona Cardinals | 2026-11-15 | spread | Los Angeles Rams -9.5 | Lean | 53.2% | -1.0 |  |
 | Los Angeles Rams @ Arizona Cardinals | 2026-11-15 | total | Over 39.5 | Lean | 57.4% | 1.88 |  |
 | Miami Dolphins @ Indianapolis Colts | 2026-11-15 | total | Over 38.5 | Lean | 57.3% | 1.84 | was over No Play at the early line |
-| New England Patriots @ Detroit Lions | 2026-11-15 | spread | New England Patriots +2.5 | Lean | 56.7% | -2.1 |  |
 | San Francisco 49ers @ Dallas Cowboys | 2026-11-15 | spread | Dallas Cowboys +4.5 | Lean | 57.7% | 2.4 |  |
 | San Francisco 49ers @ Dallas Cowboys | 2026-11-15 | total | Under 55.5 | Lean | 57.0% | 1.76 |  |
 | Seattle Seahawks @ Las Vegas Raiders | 2026-11-15 | total | Over 40.5 | Lean | 58.3% | 2.1 | was over No Play at the early line |
