@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-15T12:25:24.000Z"
+   "updated": "2026-11-15T19:31:10.000Z"
   },
   "NFL": {
    "forward": {
@@ -76,9 +76,9 @@
    },
    "gate": {
     "Lean": {
-     "mean": 0.444,
-     "n": 18,
-     "se": 0.242,
+     "mean": 0.421,
+     "n": 19,
+     "se": 0.23,
      "status": "unproven"
     },
     "Max Play": {
@@ -132,7 +132,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-15T12:25:24.000Z"
+   "updated": "2026-11-15T19:31:10.000Z"
   }
  },
  "report_cards": {
@@ -251,25 +251,25 @@
     "wins": 55
    },
    "unknown": 0,
-   "updated": "2026-11-15T12:25:24.000Z"
+   "updated": "2026-11-15T19:31:10.000Z"
   },
   "NFL": {
    "espn": {
     "clv_mean": 0.0,
-    "clv_n": 1,
-    "clv_se": null,
-    "hit_rate": 1.0,
-    "losses": 0,
-    "n": 1,
-    "n_prob": 1,
+    "clv_n": 2,
+    "clv_se": 0.0,
+    "hit_rate": 0.5,
+    "losses": 1,
+    "n": 2,
+    "n_prob": 2,
     "pushes": 0,
     "tiers": {
      "Lean": {
       "clv_mean": 0.0,
-      "clv_n": 1,
-      "clv_se": null,
-      "losses": 0,
-      "n": 1,
+      "clv_n": 2,
+      "clv_se": 0.0,
+      "losses": 1,
+      "n": 2,
       "wins": 1
      }
     },
@@ -350,7 +350,7 @@
     "wins": 16
    },
    "unknown": 0,
-   "updated": "2026-11-15T12:25:24.000Z"
+   "updated": "2026-11-15T19:31:10.000Z"
   }
  },
  "sigma": {
@@ -387,7 +387,7 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-15T12:25:24.000Z"
+   "updated": "2026-11-15T19:31:10.000Z"
   },
   "NFL": {
    "n_eff": 689.8,
@@ -422,7 +422,7 @@
    },
    "sigma": 12.38,
    "target": 12.38,
-   "updated": "2026-11-15T12:25:24.000Z"
+   "updated": "2026-11-15T19:31:10.000Z"
   }
  }
 }
