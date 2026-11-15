@@ -25,8 +25,11 @@ on:
     - cron: "47 13 * * *"
   # Also run as soon as the morning Context & Calibrate run finishes, so a delayed or dropped
   # GitHub cron tick does not leave the briefing without today's report.
+  # And after every Close & Grade run (dispatched hourly at :37 by the external scheduler), so the
+  # committed report, ops evidence and pick-time check never age past the readiness limits
+  # (grading 2h, ESPN/picks/narrative 4h) when GitHub's own 7:47 AM tick is late or skipped.
   workflow_run:
-    workflows: ["Context & Calibrate (Signal Desk)"]
+    workflows: ["Context & Calibrate (Signal Desk)", "Close & Grade (Signal Desk)"]
     types: [completed]
     branches: [main]
 
@@ -62,6 +65,7 @@ jobs:
           UPSTREAM_RUN: ${{ github.event.workflow_run.id }}
           UPSTREAM_EVENT: ${{ github.event.workflow_run.event }}
           UPSTREAM_REPO: ${{ github.event.workflow_run.head_repository.full_name }}
+          UPSTREAM_NAME: ${{ github.event.workflow_run.name }}
           GH_TOKEN: ${{ github.token }}
         run: |
           # Pick the cron slot by today's Central offset, not the wall clock,
@@ -72,15 +76,18 @@ jobs:
             # Follow only a main-repo scheduled or manual Context run whose context job really ran
             # (the off-slot daylight-saving tick skips it). Success is not required: the report
             # must still be rebuilt, and readiness reports the failed producer separately.
+            # The same rule applies to Close & Grade, whose producer job is "grade".
+            job="context"
+            if [ "$UPSTREAM_NAME" = "Close & Grade (Signal Desk)" ]; then job="grade"; fi
             ctx=""
             if [ "$UPSTREAM_REPO" = "${{ github.repository }}" ] && { [ "$UPSTREAM_EVENT" = "schedule" ] || [ "$UPSTREAM_EVENT" = "workflow_dispatch" ]; }; then
-              ctx=$(gh api "repos/${{ github.repository }}/actions/runs/$UPSTREAM_RUN/jobs" --jq '[.jobs[] | select(.name == "context") | .conclusion][0] // ""')
+              ctx=$(gh api "repos/${{ github.repository }}/actions/runs/$UPSTREAM_RUN/jobs" --jq "[.jobs[] | select(.name == \"$job\") | .conclusion][0] // \"\"")
             fi
             if [ -n "$ctx" ] && [ "$ctx" != "skipped" ] && [ "$ctx" != "null" ]; then
               echo "run=true" >> "$GITHUB_OUTPUT"
             else
               echo "run=false" >> "$GITHUB_OUTPUT"
-              echo "Skipping: upstream Context run $UPSTREAM_RUN did not run its context job ($ctx)."
+              echo "Skipping: upstream $UPSTREAM_NAME run $UPSTREAM_RUN did not run its $job job ($ctx)."
             fi
           elif [ "${{ github.event_name }}" != "schedule" ] || [ "$FIRED" = "$want" ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
