@@ -168,7 +168,11 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 41.5 | 58% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 65.5 | 53% | Lean | 0.5 |
-- NCAAF parlay: Under 65.5 + Massachusetts -2.5 (spread) | model 26.7%, needs +257 to break even, edge -1.3%, No Play
+| UCLA @ Michigan | moneyline | Michigan ML +195 | 37% | Lean | 0.5 |
+| New Mexico @ Wyoming | total | Over 37.5 | 53% | Lean | 0.5 |
+- NCAAF parlay: Michigan ML +195 + Over 37.5 | model 19.7%, needs +484 to break even, edge +2.6%, Lean
+- NCAAF parlay: Under 65.5 + Michigan ML +195 | model 19.7%, needs +452 to break even, edge +1.6%, No Play
+- NCAAF parlay: Under 65.5 + Over 37.5 | model 28.5%, needs +270 to break even, edge +1.5%, No Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +264 to break even, edge +10.9%, Max Play
 - NFL parlay: Buffalo Bills -16.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.7%, needs +264 to break even, edge +10.3%, Max Play
 - NFL parlay: Los Angeles Chargers +4.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.3%, needs +268 to break even, edge +10.1%, Max Play
