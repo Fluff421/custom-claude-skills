@@ -1,10 +1,10 @@
 # Signal Desk Ledger
 
-Auto-generated from the Airtable Signal Desk Ledger by signal-desk/snapshot.py (2026-11-14). Do not edit by hand.
+Auto-generated from the Airtable Signal Desk Ledger by signal-desk/snapshot.py (2026-11-15). Do not edit by hand.
 
-155 graded picks as of 2026-11-14.
+210 graded picks as of 2026-11-15.
 
-ATS: 77-75-0 (n=152)
+ATS: 102-103-2 (n=207)
 ML: 0-0-0 (n=0)
 Totals: 1-2-0 (n=3)
 
@@ -16,5 +16,5 @@ Flag: n < 30 for ml, totals.
 |---|---|---|---|---|
 | Max Play | 5-7-0 | 41.7% | -0.29 | 12 |
 | Strong Play | 5-9-0 | 35.7% | +1.04 | 14 |
-| Lean | 26-26-0 | 50.0% | +0.19 | 52 |
-| No Play | 42-35-0 | 54.5% | -0.09 | 77 |
+| Lean | 26-27-0 | 49.1% | +0.16 | 53 |
+| No Play | 67-62-2 | 51.9% | -0.03 | 131 |
