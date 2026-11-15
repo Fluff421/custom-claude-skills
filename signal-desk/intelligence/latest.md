@@ -181,14 +181,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Las Vegas Raiders @ Denver Broncos | total | Over 41.5 | 58% | Lean | 0.5 |
 | San Francisco 49ers @ Dallas Cowboys | total | Under 55.5 | 57% | Lean | 0.5 |
 | Seattle Seahawks @ Las Vegas Raiders | total | Over 40.5 | 58% | Lean | 0.5 |
-| South Florida @ Florida Atlantic | total | Under 67.5 | 54% | Lean | 0.5 |
+| South Florida @ Florida Atlantic | total | Under 65.5 | 53% | Lean | 0.5 |
 | Los Angeles Rams @ Arizona Cardinals | total | Over 38.5 | 59% | Lean | 0.5 |
-| East Carolina @ Army | total | Over 42.5 | 54% | Lean | 0.5 |
-| Houston @ West Virginia | total | Under 71.5 | 53% | Lean | 0.5 |
-| Georgia State @ Marshall | moneyline | Georgia State ML -118 | 57% | Lean | 0.5 |
-- NCAAF parlay: Under 67.5 + Georgia State ML -118 | model 31.1%, needs +250 to break even, edge +2.5%, Lean
-- NCAAF parlay: Over 42.5 + Georgia State ML -118 | model 30.8%, needs +253 to break even, edge +2.4%, Lean
-- NCAAF parlay: Under 67.5 + Over 42.5 + Georgia State ML -118 | model 16.7%, needs +568 to break even, edge +1.7%, No Play
+- NCAAF parlay: Under 65.5 + Massachusetts -2.5 (spread) | model 26.7%, needs +265 to break even, edge -0.7%, No Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +264 to break even, edge +10.9%, Max Play
 - NFL parlay: Buffalo Bills -16.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.7%, needs +264 to break even, edge +10.3%, Max Play
 - NFL parlay: Los Angeles Chargers +4.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.3%, needs +268 to break even, edge +10.1%, Max Play
