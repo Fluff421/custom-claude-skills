@@ -173,6 +173,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +210 | 35% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 52.5 | 56% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Tennessee Titans ML +350 | 25% | Lean | 0.5 |
 - NCAAF parlay: Michigan ML +195 + Over 37.5 | model 19.7%, needs +484 to break even, edge +2.6%, Lean
 - NCAAF parlay: Under 65.5 + Michigan ML +195 | model 19.7%, needs +452 to break even, edge +1.6%, No Play
 - NCAAF parlay: Under 65.5 + Over 37.5 | model 28.5%, needs +270 to break even, edge +1.5%, No Play
