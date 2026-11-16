@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-16T12:40:29.991476+00:00",
- "snapshot_age_hours": 61.6,
+ "generated_at": "2026-11-16T13:04:06.218818+00:00",
+ "snapshot_age_hours": 62.0,
  "games": [
   {
    "game": "Los Angeles Chargers @ Baltimore Ravens",
@@ -34,7 +34,7 @@
     "pick": "Over 38.5",
     "side": "over",
     "tier": "Lean",
-    "prob": 0.5764,
+    "prob": 0.5879,
     "edge": 1.93,
     "proj": 40.43,
     "import_side": "over",
