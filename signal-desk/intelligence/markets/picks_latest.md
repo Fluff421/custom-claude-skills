@@ -52,7 +52,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | UL Monroe @ App State | total | Over 49.5 | 51% | +1.1 pts | No Play | 0 |
 | UL Monroe @ App State | moneyline | UL Monroe ML +455 | 17% | -1.0% | No Play | 0 |
 | LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
-| LSU @ Tennessee | total | Over 45.5 | 52% | +1.7 pts | No Play | 0 |
+| LSU @ Tennessee | total | Over 46.5 | 52% | +1.4 pts | No Play | 0 |
 | LSU @ Tennessee | moneyline | LSU ML -115 | 53% | -0.1% | No Play | 0 |
 | BYU @ Kansas | spread | BYU -7.5 (spread) | 50% |  | No Play | 0 |
 | BYU @ Kansas | total | Under 47.5 | 51% | +0.6 pts | No Play | 0 |
@@ -61,7 +61,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Old Dominion @ UConn | total | Over 47.5 | 52% | +1.5 pts | No Play | 0 |
 | Old Dominion @ UConn | moneyline | Old Dominion ML +400 | 18% | -1.7% | No Play | 0 |
 | South Florida @ Florida Atlantic | spread | South Florida -1.5 (spread) | 50% |  | No Play | 0 |
-| South Florida @ Florida Atlantic | total | Under 65.5 | 52% | +1.9 pts | No Play | 0 |
+| South Florida @ Florida Atlantic | total | Under 64.5 | 52% | +1.6 pts | No Play | 0 |
 | South Florida @ Florida Atlantic | moneyline | South Florida ML -115 | 54% | +0.7% | No Play | 0 |
 | Arkansas State @ Louisiana Tech | spread | Arkansas State +16.5 (spread) | 51% |  | No Play | 0 |
 | Arkansas State @ Louisiana Tech | total | Over 52.5 | 51% | +1.0 pts | No Play | 0 |
@@ -100,7 +100,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Clemson @ Duke | total | Over 40.5 | 52% | +2.0 pts | No Play | 0 |
 | Clemson @ Duke | moneyline | Clemson ML +370 | 21% | -0.7% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
-| South Alabama @ Southern Miss | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
+| South Alabama @ Southern Miss | total | Under 66.5 | 52% | +1.6 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 39% | +0.0% | No Play | 0 |
 | UCLA @ Michigan | spread | Michigan +5.5 (spread) | 52% |  | No Play | 0 |
 | UCLA @ Michigan | total | Over 37.5 | 53% | +2.1 pts | No Play | 0 |
@@ -140,7 +140,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Coastal Carolina @ Louisiana | moneyline | Coastal Carolina ML +320 | 24% | +0.2% | No Play | 0 |
 | UTSA @ UAB | spread | UAB +6.5 (spread) | 50% |  | No Play | 0 |
 | UTSA @ UAB | total | Over 52.5 | 51% | +0.5 pts | No Play | 0 |
-| UTSA @ UAB | moneyline | UAB ML +185 | 33% | -2.1% | No Play | 0 |
+| UTSA @ UAB | moneyline | UAB ML +195 | 33% | -0.9% | No Play | 0 |
 | San Diego State @ Boise State | spread | Boise State -16.5 (spread) | 52% |  | No Play | 0 |
 | San Diego State @ Boise State | total | Under 62.5 | 50% | +0.4 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | San Diego State ML +600 | 12% | -1.9% | No Play | 0 |
