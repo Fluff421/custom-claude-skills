@@ -134,7 +134,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Iowa State @ UCF | moneyline | UCF ML -125 | 56% | +0.1% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
 | SMU @ Notre Dame | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
-| SMU @ Notre Dame | moneyline | Notre Dame ML -1100 | 92% | +0.4% | No Play | 0 |
+| SMU @ Notre Dame | moneyline | Notre Dame ML -1200 | 92% | -0.2% | No Play | 0 |
 | Coastal Carolina @ Louisiana | spread | Louisiana -7.5 (spread) | 52% |  | No Play | 0 |
 | Coastal Carolina @ Louisiana | total | Over 50.5 | 51% | +0.5 pts | No Play | 0 |
 | Coastal Carolina @ Louisiana | moneyline | Coastal Carolina ML +310 | 24% | -0.4% | No Play | 0 |
@@ -158,7 +158,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Iowa @ Illinois | moneyline | Illinois ML +200 | 34% | +0.5% | No Play | 0 |
 | Middle Tennessee @ Sam Houston | spread | Sam Houston +5.5 (spread) | 50% |  | No Play | 0 |
 | Middle Tennessee @ Sam Houston | total | Over 48.5 | 51% | +1.0 pts | No Play | 0 |
-| Middle Tennessee @ Sam Houston | moneyline | Sam Houston ML +195 | 34% | +0.1% | No Play | 0 |
+| Middle Tennessee @ Sam Houston | moneyline | Sam Houston ML +185 | 35% | -0.1% | No Play | 0 |
 | Syracuse @ Boston College | spread | Syracuse -3.5 (spread) | 50% |  | No Play | 0 |
 | Syracuse @ Boston College | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
 | Syracuse @ Boston College | moneyline | Boston College ML +140 | 42% | +0.0% | No Play | 0 |
@@ -222,13 +222,13 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +164 | 37% | -0.5% | No Play | 0 |
 | Los Angeles Chargers @ Baltimore Ravens | spread | Los Angeles Chargers +4.5 (spread) | 59% |  | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | +1.9 pts | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 41% | +5.6% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +190 | 41% | +6.2% | Strong Play | 1 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 41.5 | 55% | +1.2 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Arizona Cardinals ML +850 | 10% | -0.1% | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 51% | +0.2 pts | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | moneyline | New Orleans Saints ML +380 | 22% | +0.8% | No Play | 0 |
+| New Orleans Saints @ Chicago Bears | moneyline | New Orleans Saints ML +390 | 22% | +1.3% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 59% | +2.4 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Las Vegas Raiders ML +370 | 20% | -1.6% | No Play | 0 |
