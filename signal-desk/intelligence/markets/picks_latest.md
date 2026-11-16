@@ -257,7 +257,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -305 | 76% | +0.3% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -470 | 84% | +2.0% | No Play | 0 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -425 | 84% | +3.5% | Lean | 0.5 |
 
 ### NFL Best parlays
 

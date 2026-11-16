@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-16T22:27:24Z",
+ "generated_at_utc": "2026-11-16T22:30:32Z",
  "generated_for_central_date": "2026-11-16",
  "graded_picks_csv_rows": 223,
  "ledger_health": {
@@ -259,6 +259,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 43970542784,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43970542784",
+     "event": "schedule",
+     "created_at": "2026-11-16T22:29:26Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 1,
+      "leg_patches": 0,
+      "calibration_upserts": 19,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 43961891595,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43961891595",
      "event": "workflow_dispatch",
@@ -295,22 +311,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43941200921",
      "event": "workflow_dispatch",
      "created_at": "2026-11-16T19:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 19,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43930700873,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43930700873",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-16T18:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -581,7 +581,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-16T19:44:23Z",
-   "age_h": 2.7,
+   "age_h": 2.8,
    "status": "ok"
   },
   {
@@ -598,9 +598,9 @@
    "file": "close-grade.yml",
    "expected_every_h": 1,
    "max_gap_h": 2,
-   "last_scheduled_run_utc": "2026-11-16T12:01:12Z",
-   "age_h": 10.4,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-16T22:29:26Z",
+   "age_h": 0.0,
+   "status": "ok"
   },
   {
    "workflow": "Context & Calibrate",
@@ -636,7 +636,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-16T22:27:11Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   }
  ],

@@ -170,6 +170,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1450 | 104% | Max Play | 1.0 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -135 | 65% | Strong Play | 1.0 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -425 | 84% | Lean | 0.5 |
 - NCAAF parlay: Under 47.5 + Over 41.5 | model 28.5%, needs +257 to break even, edge +0.5%, No Play
 - NCAAF parlay: Under 47.5 + Over 41.5 + Massachusetts -2.5 (spread) | model 14.3%, needs +567 to break even, edge -0.7%, No Play
 - NCAAF parlay: Over 41.5 + Massachusetts -2.5 (spread) | model 26.7%, needs +257 to break even, edge -1.3%, No Play
