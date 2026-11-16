@@ -1725,3 +1725,8 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-16T05:38:34+00:00,recr1qJDVd2AaP7Oh,401869958,NCAAF,Georgia State @ Marshall,2026-11-21,DraftKings,-1.5,57.5,-102,-118,-112.0,-108.0,-115.0,-105.0,-1.5
 2026-11-16T05:38:34+00:00,recua2UhDbDkVPPou,401856865,NCAAF,Arizona @ Kansas State,2026-11-20,DraftKings,-7.5,52.5,295,-375,-105.0,-115.0,-112.0,-108.0,-10.5
 2026-11-16T05:38:34+00:00,reczK8E46Un8CWWGS,401871080,NCAAF,Western Kentucky @ Liberty,2026-11-21,DraftKings,16.5,53.5,-800,550,-108.0,-112.0,-108.0,-112.0,14.5
+2026-11-16T06:39:04+00:00,recA8wbdTRMKXNzCn,401873075,NFL,Las Vegas Raiders @ Denver Broncos,2026-11-22,DraftKings,10.0,40.5,-485,370,-108.0,-112.0,-102.0,-118.0,8.5
+2026-11-16T06:39:04+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,DraftKings,3.0,46.5,-162,136,-110.0,-110.0,-105.0,,3.5
+2026-11-16T06:39:04+00:00,recMonDLWOdqgAwh1,401862834,NCAAF,Memphis @ Navy,2026-11-21,DraftKings,-3.0,,142,-170,100.0,-120.0,,-112.0,-3.0
+2026-11-16T06:39:04+00:00,reclfwgx3nE8GccBt,401871081,NCAAF,Middle Tennessee @ Sam Houston,2026-11-21,DraftKings,-6.5,48.5,195,-238,-112.0,-108.0,-112.0,-108.0,-5.5
+2026-11-16T06:39:04+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-4.5,51.5,195,-238,-110.0,-110.0,-110.0,-110.0,-1.5

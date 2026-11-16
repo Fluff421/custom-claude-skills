@@ -1,10 +1,10 @@
 {
- "generated_at_utc": "2026-11-16T05:38:08Z",
- "generated_for_central_date": "2026-11-15",
+ "generated_at_utc": "2026-11-16T06:38:22Z",
+ "generated_for_central_date": "2026-11-16",
  "graded_picks_csv_rows": 223,
  "ledger_health": {
-  "games_today_or_later": 91,
-  "games_before_today": 67,
+  "games_today_or_later": 80,
+  "games_before_today": 79,
   "checks": {
    "upcoming_no_espn_event_id": {
     "count": 0,
@@ -15,7 +15,7 @@
     "games": []
    },
    "upcoming_no_splash_line": {
-    "count": 91,
+    "count": 80,
     "games": [
      "Oklahoma State @ Arizona State (NCAAF, 2026-11-21)",
      "Pittsburgh Steelers @ Philadelphia Eagles (NFL, 2026-11-22)",
@@ -23,15 +23,12 @@
      "Arizona Cardinals @ Kansas City Chiefs (NFL, 2026-11-22)",
      "Charlotte @ Tulsa (NCAAF, 2026-11-21)",
      "New Orleans Saints @ Chicago Bears (NFL, 2026-11-22)",
-     "Jacksonville Jaguars @ Tennessee Titans (NFL, 2026-11-15)",
      "North Texas @ Tulane (NCAAF, 2026-11-20)",
      "Miami (OH) @ Kent State (NCAAF, 2026-11-17)",
      "Utah @ TCU (NCAAF, 2026-11-20)",
      "Eastern Michigan @ Western Michigan (NCAAF, 2026-11-17)",
-     "Houston Texans @ Cleveland Browns (NFL, 2026-11-15)",
      "Pittsburgh @ Louisville (NCAAF, 2026-11-20)",
      "Las Vegas Raiders @ Denver Broncos (NFL, 2026-11-22)",
-     "San Francisco 49ers @ Dallas Cowboys (NFL, 2026-11-15)",
      "Northern Illinois @ North Dakota State (NCAAF, 2026-11-21)",
      "Colorado State @ Fresno State (NCAAF, 2026-11-21)",
      "New York Jets @ Los Angeles Chargers (NFL, 2026-11-22)",
@@ -41,7 +38,10 @@
      "Delaware @ New Mexico State (NCAAF, 2026-11-21)",
      "UTEP @ Air Force (NCAAF, 2026-11-20)",
      "Rutgers @ Penn State (NCAAF, 2026-11-21)",
-     "Seattle Seahawks @ Las Vegas Raiders (NFL, 2026-11-15)"
+     "UL Monroe @ App State (NCAAF, 2026-11-21)",
+     "LSU @ Tennessee (NCAAF, 2026-11-21)",
+     "BYU @ Kansas (NCAAF, 2026-11-20)",
+     "Old Dominion @ UConn (NCAAF, 2026-11-21)"
     ]
    },
    "upcoming_no_espn_line": {
@@ -57,21 +57,8 @@
     "games": []
    },
    "upcoming_espn_data_stale": {
-    "count": 12,
-    "games": [
-     "Jacksonville Jaguars @ Tennessee Titans (NFL, 2026-11-15) (7 h)",
-     "Houston Texans @ Cleveland Browns (NFL, 2026-11-15) (7 h)",
-     "San Francisco 49ers @ Dallas Cowboys (NFL, 2026-11-15) (7 h)",
-     "Seattle Seahawks @ Las Vegas Raiders (NFL, 2026-11-15) (7 h)",
-     "Carolina Panthers @ New Orleans Saints (NFL, 2026-11-15) (7 h)",
-     "Los Angeles Rams @ Arizona Cardinals (NFL, 2026-11-15) (7 h)",
-     "Minnesota Vikings @ Green Bay Packers (NFL, 2026-11-15) (7 h)",
-     "Miami Dolphins @ Indianapolis Colts (NFL, 2026-11-15) (7 h)",
-     "Pittsburgh Steelers @ Cincinnati Bengals (NFL, 2026-11-15) (7 h)",
-     "Kansas City Chiefs @ Atlanta Falcons (NFL, 2026-11-15) (7 h)",
-     "Buffalo Bills @ New York Jets (NFL, 2026-11-15) (7 h)",
-     "New England Patriots @ Detroit Lions (NFL, 2026-11-15) (7 h)"
-    ]
+    "count": 0,
+    "games": []
    },
    "past_date_no_closing_line": {
     "count": 1,
@@ -95,6 +82,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 43816825410,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43816825410",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-16T06:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 80,
+      "rows_changed": 24,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 43798258819,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43798258819",
@@ -146,24 +151,6 @@
       "mode": "LIVE",
       "rows_scanned": 91,
       "rows_changed": 43,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43763747664,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43763747664",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-15T21:27:03Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 91,
-      "rows_changed": 70,
       "fpi_missing": 0
      }
     }
@@ -267,6 +254,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 43817975757,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43817975757",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-16T06:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 19,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 43811404749,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43811404749",
      "event": "workflow_dispatch",
@@ -303,22 +306,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43799255202",
      "event": "workflow_dispatch",
      "created_at": "2026-11-16T03:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 19,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43796013652,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43796013652",
-     "event": "schedule",
-     "created_at": "2026-11-16T03:05:19Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -445,20 +432,6 @@
      "summary": {
       "mode": "LIVE",
       "rows_updated": 91,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43623947379,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43623947379",
-     "event": "schedule",
-     "created_at": "2026-11-14T17:58:05Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "rows_updated": 135,
       "fpi_missing": 0
      }
     }
@@ -608,7 +581,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-15T23:01:57Z",
-   "age_h": 6.6,
+   "age_h": 7.6,
    "status": "missed"
   },
   {
@@ -617,7 +590,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-15T23:10:24Z",
-   "age_h": 6.5,
+   "age_h": 7.5,
    "status": "missed"
   },
   {
@@ -626,7 +599,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-16T03:05:19Z",
-   "age_h": 2.5,
+   "age_h": 3.6,
    "status": "missed"
   },
   {
@@ -635,7 +608,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-15T18:47:59Z",
-   "age_h": 10.8,
+   "age_h": 11.8,
    "status": "ok"
   },
   {
@@ -644,7 +617,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-15T19:28:01Z",
-   "age_h": 10.2,
+   "age_h": 11.2,
    "status": "ok"
   },
   {
@@ -653,7 +626,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-15T23:03:11Z",
-   "age_h": 6.6,
+   "age_h": 7.6,
    "status": "missed"
   },
   {
@@ -663,7 +636,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-15T19:01:58Z",
-   "age_h": 10.6,
+   "age_h": 11.6,
    "status": "ok"
   }
  ],

@@ -1,4 +1,4 @@
-# Signal Desk intelligence report, 2026-11-15
+# Signal Desk intelligence report, 2026-11-16
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
@@ -149,7 +149,8 @@ By size of base edge:
 
 ## Data gaps right now
 
-- 79 of 79 upcoming games have no Splash line (tracking picks use the ESPN line): Oklahoma State @ Arizona State; Pittsburgh Steelers @ Philadelphia Eagles; Los Angeles Chargers @ Baltimore Ravens; Arizona Cardinals @ Kansas City Chiefs; Charlotte @ Tulsa; New Orleans Saints @ Chicago Bears; North Texas @ Tulane; Miami (OH) @ Kent State
+- 80 of 80 upcoming games have no Splash line (tracking picks use the ESPN line): Oklahoma State @ Arizona State; Pittsburgh Steelers @ Philadelphia Eagles; Los Angeles Chargers @ Baltimore Ravens; Arizona Cardinals @ Kansas City Chiefs; Charlotte @ Tulsa; New Orleans Saints @ Chicago Bears; North Texas @ Tulane; Miami (OH) @ Kent State
+- 2 games inside the forecast window have no weather note
 - NCAAF quarterback checks cover 0 of 66 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
@@ -173,8 +174,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Over 40.5 + Carolina Panthers -1.5 (spread) | model 37.3%, needs +278 to break even, edge +10.9%, Max Play
 - NFL parlay: Carolina Panthers -1.5 (spread) + Tampa Bay Buccaneers +3.5 (spread) | model 37.5%, needs +268 to break even, edge +10.3%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 53.5 -> 59.5 | model 57.7%, needs +160 to break even, edge +19.2%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 41.5 -> 35.5 | model 56.1%, needs +160 to break even, edge +17.7%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 44.5 -> 38.5 | model 56.1%, needs +160 to break even, edge +17.7%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 46.5 -> 52.5 | model 56.6%, needs +160 to break even, edge +18.1%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Under 46.5 -> 52.5 | model 56.3%, needs +160 to break even, edge +17.9%, Max Play
 
 ## Results and learning by market
 
