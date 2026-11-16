@@ -25,3 +25,8 @@ date,league,market,setting,old,new,evidence,sample_size,source
 2026-11-11,NCAAF,total,probability shrink,0.55,0.4,Brier 0.2546 -> gain 0.0023 at shrink 0.3,62,market_learning.py
 2026-11-12,NCAAF,teaser_leg,probability shrink,0.7,0.55,Brier 0.2446 -> gain 0.0021 at shrink 0.45,126,market_learning.py
 2026-11-15,NCAAF,spread,Tier multiplier Lean,0.924,0.9,actual win rate / predicted for this tier (needs 20+ picks),35,calibrate.py
+2026-11-16,NFL,spread,CLV unit gate Lean,unproven,earned,mean CLV 0.417 se 0.187,24,calibrate.py
+2026-11-16,NFL,spread,Tier multiplier Lean,,0.808,actual win rate / predicted for this tier (needs 20+ picks),24,calibrate.py
+2026-11-16,NFL,moneyline,probability shrink,1.0,1.15,Brier 0.1631 -> gain 0.0134 at shrink 1.3,33,market_learning.py
+2026-11-16,NFL,total,probability shrink,1.0,1.15,Brier 0.2401 -> gain 0.0021 at shrink 1.3,33,market_learning.py
+2026-11-16,NFL,teaser_leg,probability shrink,1.15,1.0,Brier 0.2017 -> gain 0.0038 at shrink 0.9,66,market_learning.py

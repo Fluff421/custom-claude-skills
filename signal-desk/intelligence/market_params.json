@@ -7,7 +7,9 @@
  },
  "NFL": {
   "shrink": {
-   "teaser_leg": 1.15
+   "moneyline": 1.15,
+   "teaser_leg": 1.0,
+   "total": 1.15
   }
  }
 }
