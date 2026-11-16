@@ -19,7 +19,7 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 | North Texas @ Tulane | moneyline | Tulane ML +205 | 31% | -1.6% | No Play | 0 |
 | Miami (OH) @ Kent State | spread | Miami (OH) -8.5 (spread) | 51% |  | No Play | 0 |
 | Miami (OH) @ Kent State | total | Over 45.5 | 52% | +1.8 pts | No Play | 0 |
-| Miami (OH) @ Kent State | moneyline | Kent State ML +285 | 25% | -0.6% | No Play | 0 |
+| Miami (OH) @ Kent State | moneyline | Kent State ML +295 | 25% | +0.1% | No Play | 0 |
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 46.5 | 51% | +0.9 pts | No Play | 0 |
 | Utah @ TCU | moneyline | TCU ML +200 | 33% | -0.8% | No Play | 0 |
@@ -43,7 +43,7 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 | Texas A&M @ Oklahoma | moneyline | Texas A&M ML +235 | 32% | +2.1% | No Play | 0 |
 | Delaware @ New Mexico State | spread | New Mexico State +3.5 (spread) | 50% |  | No Play | 0 |
 | Delaware @ New Mexico State | total | Under 53.5 | 50% | +0.2 pts | No Play | 0 |
-| Delaware @ New Mexico State | moneyline | New Mexico State ML +136 | 42% | -0.7% | No Play | 0 |
+| Delaware @ New Mexico State | moneyline | New Mexico State ML +130 | 42% | -1.8% | No Play | 0 |
 | UTEP @ Air Force | spread | Air Force -21.5 (spread) | 50% |  | No Play | 0 |
 | UTEP @ Air Force | total | Under 45.5 | 53% | +2.2 pts | No Play | 0 |
 | UTEP @ Air Force | moneyline | Air Force ML -1800 | 94% | -1.0% | No Play | 0 |
@@ -66,7 +66,7 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 | South Florida @ Florida Atlantic | total | Under 65.5 | 53% | +2.8 pts | Lean | 0.5 |
 | South Florida @ Florida Atlantic | moneyline | South Florida ML -115 | 54% | +0.7% | No Play | 0 |
 | Arkansas State @ Louisiana Tech | spread | Arkansas State +16.5 (spread) | 51% |  | No Play | 0 |
-| Arkansas State @ Louisiana Tech | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
+| Arkansas State @ Louisiana Tech | total | Over 52.5 | 51% | +1.0 pts | No Play | 0 |
 | Arkansas State @ Louisiana Tech | moneyline | Arkansas State ML +470 | 17% | -0.1% | No Play | 0 |
 | Rice @ Temple | spread | Temple -4 (spread) | 50% |  | No Play | 0 |
 | Rice @ Temple | total | Over 48.5 | 52% | +1.6 pts | No Play | 0 |
@@ -100,13 +100,13 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 | Kentucky @ Missouri | moneyline | Kentucky ML +164 | 36% | -1.6% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
 | Clemson @ Duke | total | Over 43.5 | 51% | +1.1 pts | No Play | 0 |
-| Clemson @ Duke | moneyline | Clemson ML +380 | 22% | +1.4% | No Play | 0 |
+| Clemson @ Duke | moneyline | Clemson ML +390 | 21% | +0.2% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 63.5 | 51% | +0.7 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +164 | 38% | +0.4% | No Play | 0 |
 | UCLA @ Michigan | spread | Michigan +5.5 (spread) | 52% |  | No Play | 0 |
 | UCLA @ Michigan | total | Over 38.5 | 51% | +1.0 pts | No Play | 0 |
-| UCLA @ Michigan | moneyline | Michigan ML +190 | 37% | +2.4% | No Play | 0 |
+| UCLA @ Michigan | moneyline | Michigan ML +170 | 39% | +2.0% | No Play | 0 |
 | Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
 | Colorado @ Cincinnati | total | Under 60.5 | 52% | +1.3 pts | No Play | 0 |
 | Colorado @ Cincinnati | moneyline | Colorado ML +142 | 41% | -0.8% | No Play | 0 |
@@ -124,7 +124,7 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 | Texas Tech @ Baylor | moneyline | Baylor ML +136 | 41% | -1.6% | No Play | 0 |
 | Oregon @ Michigan State | spread | Oregon -13.5 (spread) | 50% |  | No Play | 0 |
 | Oregon @ Michigan State | total | Over 44.5 | 52% | +1.7 pts | No Play | 0 |
-| Oregon @ Michigan State | moneyline | Michigan State ML +425 | 17% | -2.1% | No Play | 0 |
+| Oregon @ Michigan State | moneyline | Michigan State ML +440 | 17% | -1.5% | No Play | 0 |
 | NC State @ Florida State | spread | Florida State -9.5 (spread) | 50% |  | No Play | 0 |
 | NC State @ Florida State | total | Over 54.5 | 51% | +0.6 pts | No Play | 0 |
 | NC State @ Florida State | moneyline | NC State ML +285 | 26% | -0.2% | No Play | 0 |
@@ -235,7 +235,7 @@ Markets not yet posted (no pick until a line is listed): Minnesota Vikings @ San
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -535 | 85% | +0.6% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Under 40.5 | 50% | +0.1 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -175 | 62% | -1.4% | No Play | 0 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -180 | 62% | -2.1% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -156 (price estimated from the line) | 61% | +0.1% | No Play | 0 |
