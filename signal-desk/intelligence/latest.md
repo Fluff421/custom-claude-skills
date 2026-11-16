@@ -162,13 +162,13 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 39.5 | 57% | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +195 | 39% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +190 | 39% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | UTEP @ Air Force | total | Under 46.5 | 53% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 65.5 | 53% | Lean | 0.5 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1450 | 98% | Lean | 0.5 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -130 | 63% | Strong Play | 1.0 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -135 | 63% | Lean | 0.5 |
 - NCAAF parlay: Under 65.5 + Over 41.5 | model 28.5%, needs +268 to break even, edge +1.3%, No Play
 - NCAAF parlay: Under 46.5 + Over 41.5 | model 28.4%, needs +265 to break even, edge +0.9%, No Play
 - NCAAF parlay: Under 46.5 + Under 65.5 + Over 41.5 | model 15.2%, needs +596 to break even, edge +0.8%, No Play
