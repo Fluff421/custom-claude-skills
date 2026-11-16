@@ -176,8 +176,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Carolina Panthers -1.5 (spread) + Tampa Bay Buccaneers +3.5 (spread) | model 37.5%, needs +268 to break even, edge +10.3%, Max Play
 - NFL parlay: Over 40.5 + Carolina Panthers -1.5 (spread) | model 37.3%, needs +268 to break even, edge +10.1%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 53.5 -> 59.5 | model 57.7%, needs +160 to break even, edge +19.2%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 46.5 -> 52.5 | model 56.6%, needs +160 to break even, edge +18.1%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Under 46.5 -> 52.5 | model 56.3%, needs +160 to break even, edge +17.9%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 40.5 -> 34.5 | model 56.9%, needs +160 to break even, edge +18.4%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Over 40.5 -> 34.5 | model 56.6%, needs +160 to break even, edge +18.2%, Max Play
 
 ## Results and learning by market
 

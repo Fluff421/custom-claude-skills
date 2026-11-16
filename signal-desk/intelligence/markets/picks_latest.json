@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T12:06:40+00:00",
+ "generated_at": "2026-11-16T12:39:19+00:00",
  "date": "2026-11-16",
  "games": [
   {
@@ -64,7 +64,7 @@
      "prob": 0.4084,
      "edge": -0.0049,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -201,7 +201,7 @@
      "prob": 0.3736,
      "edge": 0.0032,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -338,7 +338,7 @@
      "prob": 0.4071,
      "edge": 0.0623,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "Strong Play",
@@ -419,10 +419,10 @@
    "date": "2026-11-22",
    "frozen": false,
    "line": 16.5,
-   "total_line": 41.5,
+   "total_line": 40.5,
    "model_margin": 13.3,
    "blend_margin": 15.540000000000001,
-   "proj_total": 42.695875,
+   "proj_total": 41.995875,
    "factors": [
     "QB: HOME QB PLAYING Patrick Mahomes [verified 2026-11-12] | AWAY QB PLAYING Carson Beck [verified 2026-11-12]",
     "weather: 37F, 6 | no severity"
@@ -450,15 +450,15 @@
     {
      "market": "total",
      "side": "over",
-     "line": 41.5,
-     "price": -105.0,
-     "proj": 42.7,
-     "prob": 0.5476,
-     "edge": 1.2,
+     "line": 40.5,
+     "price": -118.0,
+     "proj": 42.0,
+     "prob": 0.5595,
+     "edge": 1.5,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Over 41.5",
+     "selection": "Over 40.5",
      "game_id": "rec1bMW82Gl2PPIzw",
      "game": "Arizona Cardinals @ Kansas City Chiefs",
      "priority": "primary",
@@ -475,7 +475,7 @@
      "prob": 0.1047,
      "edge": 0.0214,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -510,13 +510,13 @@
      "market": "teaser_leg",
      "kind": "total",
      "side": "over",
-     "base_line": 41.5,
-     "line": 35.5,
+     "base_line": 40.5,
+     "line": 34.5,
      "price": 0.0,
-     "prob": 0.8037,
+     "prob": 0.8142,
      "push": 0.0,
      "crosses": [],
-     "selection": "Over 41.5 -> 35.5",
+     "selection": "Over 40.5 -> 34.5",
      "game_id": "rec1bMW82Gl2PPIzw",
      "game": "Arizona Cardinals @ Kansas City Chiefs",
      "priority": "secondary",
@@ -609,7 +609,7 @@
      "prob": 0.9356,
      "edge": 0.0002,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -744,7 +744,7 @@
      "prob": 0.2167,
      "edge": 0.0083,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -824,8 +824,8 @@
    "frozen": false,
    "line": -7.0,
    "total_line": 57.5,
-   "model_margin": -9.3,
-   "blend_margin": -7.3335,
+   "model_margin": -9.399999999999999,
+   "blend_margin": -7.348,
    "proj_total": 58.215384615384615,
    "factors": [
     "weather: 65F, wind 4mph, precip 1% | sev=0.00 | open-meteo"
@@ -838,7 +838,7 @@
      "team": "Tulane",
      "line": 11.5,
      "price": -108.0,
-     "proj": -9.3,
+     "proj": -9.399999999999999,
      "prob": 0.5073,
      "edge": null,
      "edge_unit": "pts",
@@ -874,11 +874,11 @@
      "line": 0.0,
      "price": -238.0,
      "price_estimated": false,
-     "proj": -7.33,
-     "prob": 0.6874,
-     "edge": -0.0167,
+     "proj": -7.35,
+     "prob": 0.6878,
+     "edge": -0.0164,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -899,7 +899,7 @@
      "base_line": -7.0,
      "line": -1.0,
      "price": 0.0,
-     "prob": 0.5822,
+     "prob": 0.5824,
      "push": 0.0232,
      "crosses": [
       3
@@ -933,22 +933,22 @@
     {
      "team": "Tulane",
      "line": 4.0,
-     "prob": 0.4073
+     "prob": 0.407
     },
     {
      "team": "North Texas",
      "line": -10.0,
-     "prob": 0.4025
+     "prob": 0.4029
     },
     {
      "team": "Tulane",
      "line": 10.0,
-     "prob": 0.5687
+     "prob": 0.5683
     },
     {
      "team": "North Texas",
      "line": -4.0,
-     "prob": 0.5679
+     "prob": 0.5682
     }
    ]
   },
@@ -1014,7 +1014,7 @@
      "prob": 0.254,
      "edge": -0.0126,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -1148,7 +1148,7 @@
      "prob": 0.3252,
      "edge": -0.0082,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -1284,7 +1284,7 @@
      "prob": 0.1572,
      "edge": -0.0122,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -1364,8 +1364,8 @@
    "frozen": false,
    "line": 13.5,
    "total_line": 50.5,
-   "model_margin": 10.600000000000001,
-   "blend_margin": 13.0795,
+   "model_margin": 10.5,
+   "blend_margin": 13.065,
    "proj_total": 52.16153846153846,
    "factors": [
     "weather: 50F, wind 4mph, precip 0% | sev=0.00 | open-meteo"
@@ -1378,7 +1378,7 @@
      "team": "Pittsburgh",
      "line": 12.5,
      "price": -115.0,
-     "proj": 10.600000000000001,
+     "proj": 10.5,
      "prob": 0.51,
      "edge": null,
      "edge_unit": "pts",
@@ -1414,11 +1414,11 @@
      "line": 0.0,
      "price": 410.0,
      "price_estimated": false,
-     "proj": 13.08,
-     "prob": 0.1918,
-     "edge": -0.0043,
+     "proj": 13.06,
+     "prob": 0.192,
+     "edge": -0.004,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -1439,7 +1439,7 @@
      "base_line": 13.5,
      "line": 19.5,
      "price": 0.0,
-     "prob": 0.5979,
+     "prob": 0.5981,
      "push": 0,
      "crosses": [],
      "selection": "Pittsburgh +13.5 -> +19.5",
@@ -1471,22 +1471,22 @@
     {
      "team": "Louisville",
      "line": -16.5,
-     "prob": 0.396
+     "prob": 0.3956
     },
     {
      "team": "Pittsburgh",
      "line": 10.5,
-     "prob": 0.4476
+     "prob": 0.448
     },
     {
      "team": "Louisville",
      "line": -10.5,
-     "prob": 0.5524
+     "prob": 0.552
     },
     {
      "team": "Pittsburgh",
      "line": 16.5,
-     "prob": 0.604
+     "prob": 0.6044
     }
    ]
   },
@@ -1553,7 +1553,7 @@
      "prob": 0.1973,
      "edge": -0.0111,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -1687,7 +1687,7 @@
      "prob": 0.9562,
      "edge": -0.0168,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -1821,7 +1821,7 @@
      "prob": 0.0823,
      "edge": -0.0129,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -1956,7 +1956,7 @@
      "prob": 0.394,
      "edge": -0.0142,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2092,7 +2092,7 @@
      "prob": 0.9235,
      "edge": -0.0075,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2226,7 +2226,7 @@
      "prob": 0.4043,
      "edge": -0.0195,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2308,8 +2308,8 @@
    "frozen": false,
    "line": 7.5,
    "total_line": 39.5,
-   "model_margin": 3.5999999999999996,
-   "blend_margin": 6.9345,
+   "model_margin": 4.399999999999999,
+   "blend_margin": 7.0504999999999995,
    "proj_total": 41.32270192307693,
    "factors": [
     "weather: 68F, wind 10mph, precip 21% | sev=0.00 | open-meteo"
@@ -2322,7 +2322,7 @@
      "team": "Texas A&M",
      "line": 7.5,
      "price": -110.0,
-     "proj": 3.5999999999999996,
+     "proj": 4.399999999999999,
      "prob": 0.5073,
      "edge": null,
      "edge_unit": "pts",
@@ -2358,11 +2358,11 @@
      "line": 0.0,
      "price": 235.0,
      "price_estimated": false,
-     "proj": 6.93,
-     "prob": 0.322,
-     "edge": 0.0235,
+     "proj": 7.05,
+     "prob": 0.3193,
+     "edge": 0.0208,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2383,7 +2383,7 @@
      "base_line": 7.5,
      "line": 13.5,
      "price": 0.0,
-     "prob": 0.5987,
+     "prob": 0.5972,
      "push": 0,
      "crosses": [],
      "selection": "Texas A&M +7.5 -> +13.5",
@@ -2415,22 +2415,22 @@
     {
      "team": "Oklahoma",
      "line": -10.5,
-     "prob": 0.3924
+     "prob": 0.3954
     },
     {
      "team": "Texas A&M",
      "line": 4.5,
-     "prob": 0.4424
+     "prob": 0.4394
     },
     {
      "team": "Oklahoma",
      "line": -4.5,
-     "prob": 0.5576
+     "prob": 0.5606
     },
     {
      "team": "Texas A&M",
      "line": 10.5,
-     "prob": 0.6076
+     "prob": 0.6046
     }
    ]
   },
@@ -2496,7 +2496,7 @@
      "prob": 0.417,
      "edge": -0.0067,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2634,7 +2634,7 @@
      "prob": 0.9372,
      "edge": -0.0102,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2714,8 +2714,8 @@
    "frozen": false,
    "line": 24.5,
    "total_line": 50.5,
-   "model_margin": 22.1,
-   "blend_margin": 24.152,
+   "model_margin": 22.0,
+   "blend_margin": 24.1375,
    "proj_total": 51.284615384615385,
    "factors": [
     "weather: 60F, 1 | no severity"
@@ -2728,7 +2728,7 @@
      "team": "Rutgers",
      "line": 22.5,
      "price": -115.0,
-     "proj": 22.1,
+     "proj": 22.0,
      "prob": 0.5027,
      "edge": null,
      "edge_unit": "pts",
@@ -2764,11 +2764,11 @@
      "line": 0.0,
      "price": -2100.0,
      "price_estimated": false,
-     "proj": 24.15,
-     "prob": 0.9471,
-     "edge": -0.0075,
+     "proj": 24.14,
+     "prob": 0.947,
+     "edge": -0.0076,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2789,7 +2789,7 @@
      "base_line": 24.5,
      "line": 30.5,
      "price": 0.0,
-     "prob": 0.5944,
+     "prob": 0.5946,
      "push": 0,
      "crosses": [],
      "selection": "Rutgers +24.5 -> +30.5",
@@ -2821,22 +2821,22 @@
     {
      "team": "Penn State",
      "line": -27.5,
-     "prob": 0.4029
+     "prob": 0.4026
     },
     {
      "team": "Rutgers",
      "line": 21.5,
-     "prob": 0.4407
+     "prob": 0.4411
     },
     {
      "team": "Penn State",
      "line": -21.5,
-     "prob": 0.5593
+     "prob": 0.5589
     },
     {
      "team": "Rutgers",
      "line": 27.5,
-     "prob": 0.5971
+     "prob": 0.5974
     }
    ]
   },
@@ -2848,8 +2848,8 @@
    "frozen": false,
    "line": 14.0,
    "total_line": 50.5,
-   "model_margin": 16.2,
-   "blend_margin": 14.318999999999999,
+   "model_margin": 16.0,
+   "blend_margin": 14.29,
    "proj_total": 51.34230769230769,
    "factors": [
     "weather: 47F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
@@ -2862,7 +2862,7 @@
      "team": "App State",
      "line": -13.5,
      "price": -110.0,
-     "proj": 16.2,
+     "proj": 16.0,
      "prob": 0.5054,
      "edge": null,
      "edge_unit": "pts",
@@ -2898,11 +2898,11 @@
      "line": 0.0,
      "price": 500.0,
      "price_estimated": false,
-     "proj": 14.32,
-     "prob": 0.1701,
-     "edge": 0.0034,
+     "proj": 14.29,
+     "prob": 0.1705,
+     "edge": 0.0039,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -2923,7 +2923,7 @@
      "base_line": 14.0,
      "line": 20.0,
      "price": 0.0,
-     "prob": 0.5813,
+     "prob": 0.5817,
      "push": 0.0239,
      "crosses": [],
      "selection": "UL Monroe +14 -> +20",
@@ -2955,22 +2955,22 @@
     {
      "team": "App State",
      "line": -17.0,
-     "prob": 0.4015
+     "prob": 0.4008
     },
     {
      "team": "UL Monroe",
      "line": 11.0,
-     "prob": 0.4154
+     "prob": 0.4162
     },
     {
      "team": "App State",
      "line": -11.0,
-     "prob": 0.5595
+     "prob": 0.5588
     },
     {
      "team": "UL Monroe",
      "line": 17.0,
-     "prob": 0.572
+     "prob": 0.5727
     }
    ]
   },
@@ -2982,8 +2982,8 @@
    "frozen": false,
    "line": 1.5,
    "total_line": 45.5,
-   "model_margin": 0.0,
-   "blend_margin": 1.2825,
+   "model_margin": 0.10000000000000142,
+   "blend_margin": 1.2970000000000002,
    "proj_total": 47.184615384615384,
    "factors": [
     "weather: 67F, 1 | no severity"
@@ -2996,7 +2996,7 @@
      "team": "Tennessee",
      "line": 1.5,
      "price": -102.0,
-     "proj": 0.0,
+     "proj": 0.10000000000000142,
      "prob": 0.5004,
      "edge": null,
      "edge_unit": "pts",
@@ -3032,11 +3032,11 @@
      "line": 0.0,
      "price": -108.0,
      "price_estimated": false,
-     "proj": 1.28,
-     "prob": 0.534,
-     "edge": 0.0148,
+     "proj": 1.3,
+     "prob": 0.5344,
+     "edge": 0.0152,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -3057,7 +3057,7 @@
      "base_line": 1.5,
      "line": 7.5,
      "price": 0.0,
-     "prob": 0.5937,
+     "prob": 0.5935,
      "push": 0,
      "crosses": [
       3,
@@ -3092,22 +3092,22 @@
     {
      "team": "Tennessee",
      "line": -4.5,
-     "prob": 0.4113
+     "prob": 0.4117
     },
     {
      "team": "LSU",
      "line": -1.5,
-     "prob": 0.429
+     "prob": 0.4287
     },
     {
      "team": "Tennessee",
      "line": 1.5,
-     "prob": 0.571
+     "prob": 0.5713
     },
     {
      "team": "LSU",
      "line": 4.5,
-     "prob": 0.5887
+     "prob": 0.5883
     }
    ]
   },
@@ -3175,7 +3175,7 @@
      "prob": 0.3498,
      "edge": 0.0109,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -3311,7 +3311,7 @@
      "prob": 0.1832,
      "edge": 0.003,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -3447,7 +3447,7 @@
      "prob": 0.5421,
      "edge": 0.0072,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -3585,7 +3585,7 @@
      "prob": 0.2897,
      "edge": -0.0179,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -3665,10 +3665,10 @@
    "league": "NCAAF",
    "date": "2026-11-21",
    "frozen": false,
-   "line": 14.5,
+   "line": 14.0,
    "total_line": 53.5,
    "model_margin": 14.5,
-   "blend_margin": 14.5,
+   "blend_margin": 14.0725,
    "proj_total": 54.16923076923077,
    "factors": [
     "weather: 69F, 36 | no severity"
@@ -3680,7 +3680,7 @@
      "side": "away",
      "team": "Arkansas State",
      "line": 16.5,
-     "price": -115.0,
+     "price": -108.0,
      "proj": 14.5,
      "prob": 0.5124,
      "edge": null,
@@ -3715,18 +3715,18 @@
      "side": "away",
      "team": "Arkansas State",
      "line": 0.0,
-     "price": 500.0,
+     "price": 470.0,
      "price_estimated": false,
-     "proj": 14.5,
-     "prob": 0.1658,
-     "edge": -0.0009,
+     "proj": 14.07,
+     "prob": 0.1742,
+     "edge": -0.0012,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Arkansas State ML +500",
+     "selection": "Arkansas State ML +470",
      "game_id": "recLt1iFDmwEIQ3ES",
      "game": "Arkansas State @ Louisiana Tech",
      "priority": "primary",
@@ -3739,13 +3739,13 @@
      "kind": "spread",
      "side": "away",
      "team": "Arkansas State",
-     "base_line": 14.5,
-     "line": 20.5,
+     "base_line": 14.0,
+     "line": 20.0,
      "price": 0.0,
-     "prob": 0.5924,
-     "push": 0,
+     "prob": 0.5846,
+     "push": 0.0237,
      "crosses": [],
-     "selection": "Arkansas State +14.5 -> +20.5",
+     "selection": "Arkansas State +14 -> +20",
      "game_id": "recLt1iFDmwEIQ3ES",
      "game": "Arkansas State @ Louisiana Tech",
      "priority": "secondary",
@@ -3773,23 +3773,23 @@
    "alt_spreads": [
     {
      "team": "Louisiana Tech",
-     "line": -17.5,
-     "prob": 0.4058
+     "line": -17.0,
+     "prob": 0.3952
     },
     {
      "team": "Arkansas State",
-     "line": 11.5,
-     "prob": 0.4354
+     "line": 11.0,
+     "prob": 0.4218
     },
     {
      "team": "Louisiana Tech",
-     "line": -11.5,
-     "prob": 0.5646
+     "line": -11.0,
+     "prob": 0.5531
     },
     {
      "team": "Arkansas State",
-     "line": 17.5,
-     "prob": 0.5942
+     "line": 17.0,
+     "prob": 0.5784
     }
    ]
   },
@@ -3801,8 +3801,8 @@
    "frozen": false,
    "line": 3.5,
    "total_line": 48.5,
-   "model_margin": 5.0,
-   "blend_margin": 3.7175,
+   "model_margin": 4.9,
+   "blend_margin": 3.703,
    "proj_total": 50.04615384615384,
    "factors": [
     "weather: 53F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
@@ -3815,7 +3815,7 @@
      "team": "Temple",
      "line": -4.0,
      "price": -105.0,
-     "proj": 5.0,
+     "proj": 4.9,
      "prob": 0.5,
      "edge": null,
      "edge_unit": "pts",
@@ -3851,11 +3851,11 @@
      "line": 0.0,
      "price": 142.0,
      "price_estimated": false,
-     "proj": 3.72,
-     "prob": 0.4022,
-     "edge": -0.011,
+     "proj": 3.7,
+     "prob": 0.4026,
+     "edge": -0.0107,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -3876,7 +3876,7 @@
      "base_line": 3.5,
      "line": 9.5,
      "price": 0.0,
-     "prob": 0.5875,
+     "prob": 0.5877,
      "push": 0,
      "crosses": [
       7
@@ -3910,22 +3910,22 @@
     {
      "team": "Temple",
      "line": -6.5,
-     "prob": 0.4212
+     "prob": 0.4208
     },
     {
      "team": "Rice",
      "line": 0.5,
-     "prob": 0.4165
+     "prob": 0.4168
     },
     {
      "team": "Temple",
      "line": -0.5,
-     "prob": 0.5835
+     "prob": 0.5832
     },
     {
      "team": "Rice",
      "line": 6.5,
-     "prob": 0.5788
+     "prob": 0.5792
     }
    ]
   },
@@ -3991,7 +3991,7 @@
      "prob": 0.225,
      "edge": 0.0166,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -4125,7 +4125,7 @@
      "prob": 0.4007,
      "edge": -0.0125,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -4207,8 +4207,8 @@
    "frozen": false,
    "line": -1.5,
    "total_line": 43.5,
-   "model_margin": -2.6000000000000005,
-   "blend_margin": -1.6595,
+   "model_margin": -2.499999999999999,
+   "blend_margin": -1.6449999999999998,
    "proj_total": 45.43846153846154,
    "factors": [
     "weather: 58F, 2 | no severity"
@@ -4221,7 +4221,7 @@
      "team": "North Carolina",
      "line": 1.5,
      "price": 100.0,
-     "proj": -2.6000000000000005,
+     "proj": -2.499999999999999,
      "prob": 0.5189,
      "edge": null,
      "edge_unit": "pts",
@@ -4257,11 +4257,11 @@
      "line": 0.0,
      "price": -110.0,
      "price_estimated": false,
-     "proj": -1.66,
-     "prob": 0.544,
-     "edge": 0.0202,
+     "proj": -1.64,
+     "prob": 0.5436,
+     "edge": 0.0198,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -4282,7 +4282,7 @@
      "base_line": 1.5,
      "line": 7.5,
      "price": 0.0,
-     "prob": 0.5888,
+     "prob": 0.5889,
      "push": 0,
      "crosses": [
       3,
@@ -4317,22 +4317,22 @@
     {
      "team": "Virginia",
      "line": -1.5,
-     "prob": 0.4194
+     "prob": 0.4198
     },
     {
      "team": "North Carolina",
      "line": -4.5,
-     "prob": 0.4209
+     "prob": 0.4205
     },
     {
      "team": "Virginia",
      "line": 4.5,
-     "prob": 0.5791
+     "prob": 0.5795
     },
     {
      "team": "North Carolina",
      "line": 1.5,
-     "prob": 0.5806
+     "prob": 0.5802
     }
    ]
   },
@@ -4398,7 +4398,7 @@
      "prob": 0.3825,
      "edge": -0.0021,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -4534,7 +4534,7 @@
      "prob": 0.8824,
      "edge": -0.0123,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -4670,7 +4670,7 @@
      "prob": 0.3497,
      "edge": -0.0075,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -4806,7 +4806,7 @@
      "prob": 0.2603,
      "edge": -0.0029,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -4940,7 +4940,7 @@
      "prob": 0.316,
      "edge": -0.0119,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5020,8 +5020,8 @@
    "frozen": false,
    "line": 5.5,
    "total_line": 48.5,
-   "model_margin": 4.1,
-   "blend_margin": 5.297,
+   "model_margin": 4.0,
+   "blend_margin": 5.2825,
    "proj_total": 50.034615384615385,
    "factors": [
     "weather: 59F, 38 | no severity"
@@ -5034,7 +5034,7 @@
      "team": "Kentucky",
      "line": 6.0,
      "price": -115.0,
-     "proj": 4.1,
+     "proj": 4.0,
      "prob": 0.5085,
      "edge": null,
      "edge_unit": "pts",
@@ -5070,11 +5070,11 @@
      "line": 0.0,
      "price": 164.0,
      "price_estimated": false,
-     "proj": 5.3,
-     "prob": 0.3621,
-     "edge": -0.0167,
+     "proj": 5.28,
+     "prob": 0.3624,
+     "edge": -0.0163,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5095,7 +5095,7 @@
      "base_line": 5.5,
      "line": 11.5,
      "price": 0.0,
-     "prob": 0.5945,
+     "prob": 0.5947,
      "push": 0,
      "crosses": [
       7
@@ -5129,22 +5129,22 @@
     {
      "team": "Missouri",
      "line": -8.5,
-     "prob": 0.4042
+     "prob": 0.4038
     },
     {
      "team": "Kentucky",
      "line": 2.5,
-     "prob": 0.4258
+     "prob": 0.4262
     },
     {
      "team": "Missouri",
      "line": -2.5,
-     "prob": 0.5742
+     "prob": 0.5738
     },
     {
      "team": "Kentucky",
      "line": 8.5,
-     "prob": 0.5958
+     "prob": 0.5962
     }
    ]
   },
@@ -5210,7 +5210,7 @@
      "prob": 0.2227,
      "edge": 0.0143,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5344,7 +5344,7 @@
      "prob": 0.3829,
      "edge": 0.0125,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5482,7 +5482,7 @@
      "prob": 0.369,
      "edge": 0.0242,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5618,7 +5618,7 @@
      "prob": 0.4056,
      "edge": -0.0077,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5754,7 +5754,7 @@
      "prob": 0.2866,
      "edge": 0.0088,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5833,10 +5833,10 @@
    "date": "2026-11-20",
    "frozen": false,
    "line": -2.5,
-   "total_line": 43.5,
+   "total_line": 42.5,
    "model_margin": -7.400000000000002,
    "blend_margin": -3.2105,
-   "proj_total": 45.69230769230769,
+   "proj_total": 44.99230769230769,
    "factors": [
     "weather: 51F, 2 | no severity"
    ],
@@ -5863,15 +5863,15 @@
     {
      "market": "total",
      "side": "over",
-     "line": 43.5,
-     "price": -108.0,
-     "proj": 45.69,
-     "prob": 0.5268,
-     "edge": 2.19,
+     "line": 42.5,
+     "price": -115.0,
+     "proj": 44.99,
+     "prob": 0.5304,
+     "edge": 2.49,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Over 43.5",
+     "selection": "Over 42.5",
      "game_id": "recYeYfNuUaynHFDk",
      "game": "Ohio State @ Nebraska",
      "priority": "primary",
@@ -5888,7 +5888,7 @@
      "prob": 0.4153,
      "edge": -0.0195,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -5925,13 +5925,13 @@
      "market": "teaser_leg",
      "kind": "total",
      "side": "over",
-     "base_line": 43.5,
-     "line": 37.5,
+     "base_line": 42.5,
+     "line": 36.5,
      "price": 0.0,
-     "prob": 0.6296,
+     "prob": 0.6338,
      "push": 0.0,
      "crosses": [],
-     "selection": "Over 43.5 -> 37.5",
+     "selection": "Over 42.5 -> 36.5",
      "game_id": "recYeYfNuUaynHFDk",
      "game": "Ohio State @ Nebraska",
      "priority": "secondary",
@@ -6024,7 +6024,7 @@
      "prob": 0.866,
      "edge": -0.009,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -6158,7 +6158,7 @@
      "prob": 0.4082,
      "edge": -0.0155,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -6294,7 +6294,7 @@
      "prob": 0.1698,
      "edge": -0.0207,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -6428,7 +6428,7 @@
      "prob": 0.2577,
      "edge": -0.02,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -6562,7 +6562,7 @@
      "prob": 0.0847,
      "edge": -0.0153,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -6696,7 +6696,7 @@
      "prob": 0.5513,
      "edge": -0.0139,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -6833,7 +6833,7 @@
      "prob": 0.5566,
      "edge": 0.0011,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -6970,7 +6970,7 @@
      "prob": 0.9206,
      "edge": -0.0025,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -7104,7 +7104,7 @@
      "prob": 0.2403,
      "edge": -0.0036,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -7238,7 +7238,7 @@
      "prob": 0.3509,
      "edge": 0.0,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -7374,7 +7374,7 @@
      "prob": 0.1236,
      "edge": -0.0097,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -7508,7 +7508,7 @@
      "prob": 0.2311,
      "edge": -0.0015,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -7590,8 +7590,8 @@
    "frozen": false,
    "line": -16.5,
    "total_line": 51.5,
-   "model_margin": -14.900000000000002,
-   "blend_margin": -16.268,
+   "model_margin": -14.8,
+   "blend_margin": -16.2535,
    "proj_total": 52.94230769230769,
    "factors": [
     "weather: 62F, 33 | no severity"
@@ -7604,7 +7604,7 @@
      "team": "Georgia",
      "line": -10.0,
      "price": -115.0,
-     "proj": -14.900000000000002,
+     "proj": -14.8,
      "prob": 0.5031,
      "edge": null,
      "edge_unit": "pts",
@@ -7640,11 +7640,11 @@
      "line": 0.0,
      "price": 550.0,
      "price_estimated": false,
-     "proj": -16.27,
-     "prob": 0.138,
-     "edge": -0.0158,
+     "proj": -16.25,
+     "prob": 0.1382,
+     "edge": -0.0156,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -7665,7 +7665,7 @@
      "base_line": 16.5,
      "line": 22.5,
      "price": 0.0,
-     "prob": 0.5949,
+     "prob": 0.5951,
      "push": 0,
      "crosses": [],
      "selection": "South Carolina +16.5 -> +22.5",
@@ -7697,22 +7697,22 @@
     {
      "team": "South Carolina",
      "line": 13.5,
-     "prob": 0.4396
+     "prob": 0.44
     },
     {
      "team": "Georgia",
      "line": -19.5,
-     "prob": 0.4011
+     "prob": 0.4007
     },
     {
      "team": "South Carolina",
      "line": 19.5,
-     "prob": 0.5989
+     "prob": 0.5993
     },
     {
      "team": "Georgia",
      "line": -13.5,
-     "prob": 0.5604
+     "prob": 0.56
     }
    ]
   },
@@ -7724,8 +7724,8 @@
    "frozen": false,
    "line": 4.0,
    "total_line": 40.5,
-   "model_margin": 3.9000000000000004,
-   "blend_margin": 3.9855,
+   "model_margin": 4.0,
+   "blend_margin": 4.0,
    "proj_total": 42.16153846153846,
    "factors": [
     "weather: 40F, 36 | no severity"
@@ -7738,7 +7738,7 @@
      "team": "Nevada",
      "line": -4.5,
      "price": -112.0,
-     "proj": 3.9000000000000004,
+     "proj": 4.0,
      "prob": 0.5031,
      "edge": null,
      "edge_unit": "pts",
@@ -7774,11 +7774,11 @@
      "line": 0.0,
      "price": 154.0,
      "price_estimated": false,
-     "proj": 3.99,
-     "prob": 0.3953,
-     "edge": 0.0016,
+     "proj": 4.0,
+     "prob": 0.3949,
+     "edge": 0.0012,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -7799,7 +7799,7 @@
      "base_line": 4.0,
      "line": 10.0,
      "price": 0.0,
-     "prob": 0.584,
+     "prob": 0.5838,
      "push": 0.0269,
      "crosses": [
       7
@@ -7833,22 +7833,22 @@
     {
      "team": "Nevada",
      "line": -7.0,
-     "prob": 0.3958
+     "prob": 0.3961
     },
     {
      "team": "Hawai'i",
      "line": 1.0,
-     "prob": 0.4097
+     "prob": 0.4093
     },
     {
      "team": "Nevada",
      "line": -1.0,
-     "prob": 0.5655
+     "prob": 0.5659
     },
     {
      "team": "Hawai'i",
      "line": 7.0,
-     "prob": 0.572
+     "prob": 0.5716
     }
    ]
   },
@@ -7914,7 +7914,7 @@
      "prob": 0.3385,
      "edge": 0.0051,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8050,7 +8050,7 @@
      "prob": 0.3504,
      "edge": -0.0005,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8186,7 +8186,7 @@
      "prob": 0.417,
      "edge": 0.0004,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8322,7 +8322,7 @@
      "prob": 0.2939,
      "edge": 0.0161,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8461,7 +8461,7 @@
      "prob": 0.0813,
      "edge": -0.0187,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8595,7 +8595,7 @@
      "prob": 0.4044,
      "edge": -0.0088,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8731,7 +8731,7 @@
      "prob": 0.5684,
      "edge": 0.0032,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8868,7 +8868,7 @@
      "prob": 0.6051,
      "edge": 0.0083,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -8963,7 +8963,7 @@
      "side": "home",
      "team": "Texas",
      "line": -21.0,
-     "price": -108.0,
+     "price": -105.0,
      "proj": 22.7,
      "prob": 0.5089,
      "edge": null,
@@ -9004,7 +9004,7 @@
      "prob": 0.0774,
      "edge": -0.0178,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -9138,7 +9138,7 @@
      "prob": 0.1832,
      "edge": -0.0168,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -9273,7 +9273,7 @@
      "prob": 0.6138,
      "edge": 0.0486,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "Lean",
@@ -9410,7 +9410,7 @@
      "prob": 0.2198,
      "edge": 0.0237,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -9544,7 +9544,7 @@
      "prob": 0.5509,
      "edge": 0.0096,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -9683,7 +9683,7 @@
      "prob": 0.3372,
      "edge": -0.0018,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -9819,7 +9819,7 @@
      "prob": 0.604,
      "edge": 0.0072,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -9955,7 +9955,7 @@
      "prob": 0.3036,
      "edge": 0.0333,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "Lean",
@@ -10087,7 +10087,7 @@
      "prob": 0.3437,
      "edge": 0.0048,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -10169,8 +10169,8 @@
    "frozen": false,
    "line": -7.5,
    "total_line": 37.5,
-   "model_margin": -14.899999999999999,
-   "blend_margin": -8.573,
+   "model_margin": -15.0,
+   "blend_margin": -8.5875,
    "proj_total": 40.292307692307695,
    "factors": [
     "weather: 34F, 35 | no severity"
@@ -10183,7 +10183,7 @@
      "team": "New Mexico",
      "line": -10.5,
      "price": -112.0,
-     "proj": -14.899999999999999,
+     "proj": -15.0,
      "prob": 0.5062,
      "edge": null,
      "edge_unit": "pts",
@@ -10219,11 +10219,11 @@
      "line": 0.0,
      "price": 260.0,
      "price_estimated": false,
-     "proj": -8.57,
-     "prob": 0.2839,
-     "edge": 0.0062,
+     "proj": -8.59,
+     "prob": 0.2836,
+     "edge": 0.0058,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -10244,7 +10244,7 @@
      "base_line": -7.5,
      "line": -1.5,
      "price": 0.0,
-     "prob": 0.5984,
+     "prob": 0.5986,
      "push": 0,
      "crosses": [
       3,
@@ -10279,22 +10279,22 @@
     {
      "team": "Wyoming",
      "line": 4.5,
-     "prob": 0.4005
+     "prob": 0.4001
     },
     {
      "team": "New Mexico",
      "line": -10.5,
-     "prob": 0.4343
+     "prob": 0.4347
     },
     {
      "team": "Wyoming",
      "line": 10.5,
-     "prob": 0.5657
+     "prob": 0.5653
     },
     {
      "team": "New Mexico",
      "line": -4.5,
-     "prob": 0.5995
+     "prob": 0.5999
     }
    ]
   },
@@ -10305,10 +10305,10 @@
    "date": "2026-11-21",
    "frozen": false,
    "line": -6.0,
-   "total_line": 46.5,
-   "model_margin": -6.899999999999999,
-   "blend_margin": -6.1305,
-   "proj_total": 46.989024725274724,
+   "total_line": 45.5,
+   "model_margin": -7.0,
+   "blend_margin": -6.145,
+   "proj_total": 46.28902472527473,
    "factors": [
     "weather: 62F, 12 | no severity"
    ],
@@ -10320,7 +10320,7 @@
      "team": "UNLV",
      "line": -4.0,
      "price": -110.0,
-     "proj": -6.899999999999999,
+     "proj": -7.0,
      "prob": 0.5112,
      "edge": null,
      "edge_unit": "pts",
@@ -10335,15 +10335,15 @@
     {
      "market": "total",
      "side": "over",
-     "line": 46.5,
-     "price": -110.0,
-     "proj": 46.99,
-     "prob": 0.506,
-     "edge": 0.49,
+     "line": 45.5,
+     "price": -115.0,
+     "proj": 46.29,
+     "prob": 0.5097,
+     "edge": 0.79,
      "edge_unit": "pts",
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Over 46.5",
+     "selection": "Over 45.5",
      "game_id": "recwwACNg0gi1waTR",
      "game": "UNLV @ San Jos\u00e9 State",
      "priority": "primary",
@@ -10351,25 +10351,25 @@
     },
     {
      "market": "moneyline",
-     "side": "away",
-     "team": "UNLV",
+     "side": "home",
+     "team": "San Jos\u00e9 State",
      "line": 0.0,
-     "price": -205.0,
+     "price": 180.0,
      "price_estimated": false,
-     "proj": -6.13,
-     "prob": 0.6585,
-     "edge": -0.0136,
+     "proj": -6.14,
+     "prob": 0.3411,
+     "edge": -0.016,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "UNLV ML -205",
+     "selection": "San Jos\u00e9 State ML +180",
      "game_id": "recwwACNg0gi1waTR",
      "game": "UNLV @ San Jos\u00e9 State",
      "priority": "primary",
-     "pro_favorite": true
+     "pro_favorite": false
     }
    ],
    "teaser_legs": [
@@ -10381,7 +10381,7 @@
      "base_line": 6.0,
      "line": 12.0,
      "price": 0.0,
-     "prob": 0.5835,
+     "prob": 0.5833,
      "push": 0.0235,
      "crosses": [
       7
@@ -10397,13 +10397,13 @@
      "market": "teaser_leg",
      "kind": "total",
      "side": "over",
-     "base_line": 46.5,
-     "line": 40.5,
+     "base_line": 45.5,
+     "line": 39.5,
      "price": 0.0,
-     "prob": 0.6051,
+     "prob": 0.6096,
      "push": 0.0,
      "crosses": [],
-     "selection": "Over 46.5 -> 40.5",
+     "selection": "Over 45.5 -> 39.5",
      "game_id": "recwwACNg0gi1waTR",
      "game": "UNLV @ San Jos\u00e9 State",
      "priority": "secondary",
@@ -10415,22 +10415,22 @@
     {
      "team": "San Jos\u00e9 State",
      "line": 3.0,
-     "prob": 0.4046
+     "prob": 0.4042
     },
     {
      "team": "UNLV",
      "line": -9.0,
-     "prob": 0.4005
+     "prob": 0.4009
     },
     {
      "team": "San Jos\u00e9 State",
      "line": 9.0,
-     "prob": 0.5746
+     "prob": 0.5742
     },
     {
      "team": "UNLV",
      "line": -3.0,
-     "prob": 0.5619
+     "prob": 0.5623
     }
    ]
   },
@@ -10497,7 +10497,7 @@
      "prob": 0.2526,
      "edge": 0.0253,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -10634,7 +10634,7 @@
      "prob": 0.2349,
      "edge": -0.009,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -10770,7 +10770,7 @@
      "prob": 0.8724,
      "edge": -0.0165,
      "edge_unit": "prob",
-     "price_source": "DraftKings",
+     "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
@@ -11344,6 +11344,120 @@
        "base_line": 38.5
       },
       {
+       "game_id": "rec1bMW82Gl2PPIzw",
+       "market_kind": "total",
+       "side": "over",
+       "prob": 0.8142,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Over 40.5 -> 34.5",
+       "game": "Arizona Cardinals @ Kansas City Chiefs",
+       "line": 34.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 40.5
+      }
+     ],
+     "n_legs": 3,
+     "prob": 0.5689,
+     "price": 160.0,
+     "break_even_prob": 0.3846,
+     "break_even_price": 160,
+     "edge": 0.1842,
+     "edge_unit": "prob",
+     "tier": "Max Play",
+     "units": 0.5,
+     "same_game": false
+    },
+    {
+     "market": "teaser",
+     "legs": [
+      {
+       "game_id": "recA8wbdTRMKXNzCn",
+       "market_kind": "total",
+       "side": "over",
+       "prob": 0.8429,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Over 40.5 -> 34.5",
+       "game": "Las Vegas Raiders @ Denver Broncos",
+       "line": 34.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 40.5
+      },
+      {
+       "game_id": "recwzEr4ONJw6Vsml",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.8253,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Under 53.5 -> 59.5",
+       "game": "Tennessee Titans @ Dallas Cowboys",
+       "line": 59.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 53.5
+      },
+      {
+       "game_id": "rec1bMW82Gl2PPIzw",
+       "market_kind": "total",
+       "side": "over",
+       "prob": 0.8142,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Over 40.5 -> 34.5",
+       "game": "Arizona Cardinals @ Kansas City Chiefs",
+       "line": 34.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 40.5
+      }
+     ],
+     "n_legs": 3,
+     "prob": 0.5664,
+     "price": 160.0,
+     "break_even_prob": 0.3846,
+     "break_even_price": 160,
+     "edge": 0.1818,
+     "edge_unit": "prob",
+     "tier": "Max Play",
+     "units": 0.5,
+     "same_game": false
+    },
+    {
+     "market": "teaser",
+     "legs": [
+      {
+       "game_id": "recA8wbdTRMKXNzCn",
+       "market_kind": "total",
+       "side": "over",
+       "prob": 0.8429,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Over 40.5 -> 34.5",
+       "game": "Las Vegas Raiders @ Denver Broncos",
+       "line": 34.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 40.5
+      },
+      {
+       "game_id": "rec1POGweSA4BNCwL",
+       "market_kind": "total",
+       "side": "over",
+       "prob": 0.8289,
+       "price": null,
+       "pro_favorite": false,
+       "selection": "Over 38.5 -> 32.5",
+       "game": "Los Angeles Chargers @ Baltimore Ravens",
+       "line": 32.5,
+       "grade_market": "teaser_leg",
+       "kind": "total",
+       "base_line": 38.5
+      },
+      {
        "game_id": "recElzL7HxGEOOWIt",
        "market_kind": "total",
        "side": "under",
@@ -11421,120 +11535,6 @@
      "break_even_prob": 0.3846,
      "break_even_price": 160,
      "edge": 0.1786,
-     "edge_unit": "prob",
-     "tier": "Max Play",
-     "units": 0.5,
-     "same_game": false
-    },
-    {
-     "market": "teaser",
-     "legs": [
-      {
-       "game_id": "recA8wbdTRMKXNzCn",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.8429,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Over 40.5 -> 34.5",
-       "game": "Las Vegas Raiders @ Denver Broncos",
-       "line": 34.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 40.5
-      },
-      {
-       "game_id": "rec1POGweSA4BNCwL",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.8289,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Over 38.5 -> 32.5",
-       "game": "Los Angeles Chargers @ Baltimore Ravens",
-       "line": 32.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 38.5
-      },
-      {
-       "game_id": "rec1bMW82Gl2PPIzw",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.8037,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Over 41.5 -> 35.5",
-       "game": "Arizona Cardinals @ Kansas City Chiefs",
-       "line": 35.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 41.5
-      }
-     ],
-     "n_legs": 3,
-     "prob": 0.5615,
-     "price": 160.0,
-     "break_even_prob": 0.3846,
-     "break_even_price": 160,
-     "edge": 0.1769,
-     "edge_unit": "prob",
-     "tier": "Max Play",
-     "units": 0.5,
-     "same_game": false
-    },
-    {
-     "market": "teaser",
-     "legs": [
-      {
-       "game_id": "recA8wbdTRMKXNzCn",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.8429,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Over 40.5 -> 34.5",
-       "game": "Las Vegas Raiders @ Denver Broncos",
-       "line": 34.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 40.5
-      },
-      {
-       "game_id": "rec1POGweSA4BNCwL",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.8289,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Over 38.5 -> 32.5",
-       "game": "Los Angeles Chargers @ Baltimore Ravens",
-       "line": 32.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 38.5
-      },
-      {
-       "game_id": "recqHN0qEss3RtmUZ",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.8036,
-       "price": null,
-       "pro_favorite": false,
-       "selection": "Over 44.5 -> 38.5",
-       "game": "Baltimore Ravens @ Carolina Panthers",
-       "line": 38.5,
-       "grade_market": "teaser_leg",
-       "kind": "total",
-       "base_line": 44.5
-      }
-     ],
-     "n_legs": 3,
-     "prob": 0.5615,
-     "price": 160.0,
-     "break_even_prob": 0.3846,
-     "break_even_price": 160,
-     "edge": 0.1768,
      "edge_unit": "prob",
      "tier": "Max Play",
      "units": 0.5,
