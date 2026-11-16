@@ -74,7 +74,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Washington State @ Texas State | moneyline | Washington State ML +380 | 22% | +1.7% | No Play | 0 |
 | Memphis @ Navy | spread | Memphis -3 (spread) | 51% |  | No Play | 0 |
 | Memphis @ Navy | total | Under 65.5 | 52% | +1.5 pts | No Play | 0 |
-| Memphis @ Navy | moneyline | Navy ML +142 | 41% | -0.1% | No Play | 0 |
+| Memphis @ Navy | moneyline | Navy ML +142 | 40% | -1.2% | No Play | 0 |
 | North Carolina @ Virginia | spread | North Carolina +1.5 (spread) | 52% |  | No Play | 0 |
 | North Carolina @ Virginia | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
 | North Carolina @ Virginia | moneyline | North Carolina ML -110 | 54% | +2.0% | No Play | 0 |
@@ -146,7 +146,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | San Diego State @ Boise State | moneyline | San Diego State ML +650 | 12% | -1.0% | No Play | 0 |
 | Ball State @ Ohio | spread | Ohio -9.5 (spread) | 51% |  | No Play | 0 |
 | Ball State @ Ohio | total | Over 49.5 | 52% | +1.3 pts | No Play | 0 |
-| Ball State @ Ohio | moneyline | Ball State ML +300 | 23% | -1.9% | No Play | 0 |
+| Ball State @ Ohio | moneyline | Ball State ML +330 | 23% | -0.1% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
 | Georgia @ South Carolina | total | Over 51.5 | 52% | +1.4 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | South Carolina ML +550 | 14% | -1.6% | No Play | 0 |
@@ -194,7 +194,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Arizona @ Kansas State | moneyline | Kansas State ML +295 | 26% | +1.2% | No Play | 0 |
 | New Mexico @ Wyoming | spread | New Mexico -10.5 (spread) | 51% |  | No Play | 0 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | +2.8 pts | Lean | 0.5 |
-| New Mexico @ Wyoming | moneyline | Wyoming ML +285 | 26% | +0.5% | No Play | 0 |
+| New Mexico @ Wyoming | moneyline | Wyoming ML +260 | 26% | -1.3% | No Play | 0 |
 | UNLV @ San José State | spread | UNLV -4 (spread) | 51% |  | No Play | 0 |
 | UNLV @ San José State | total | Over 46.5 | 51% | +0.5 pts | No Play | 0 |
 | UNLV @ San José State | moneyline | UNLV ML -205 | 66% | -1.4% | No Play | 0 |
@@ -236,7 +236,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Jets @ Los Angeles Chargers | moneyline | New York Jets ML +150 | 40% | -0.3% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 45.5 | 54% | +1.1 pts | No Play | 0 |
-| Minnesota Vikings @ San Francisco 49ers | moneyline | Minnesota Vikings ML +140 | 40% | -1.7% | No Play | 0 |
+| Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -155 | 60% | -0.7% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 53% | +0.7 pts | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | moneyline | New York Giants ML +225 | 31% | -0.2% | No Play | 0 |
@@ -248,7 +248,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -130 | 61% | +4.6% | Lean | 0.5 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 54% | +1.1 pts | No Play | 0 |
-| Indianapolis Colts @ Houston Texans | moneyline | Indianapolis Colts ML +370 | 23% | +1.6% | No Play | 0 |
+| Indianapolis Colts @ Houston Texans | moneyline | Indianapolis Colts ML +380 | 23% | +2.1% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 46.5 | 52% | +0.5 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +190 | 36% | +1.8% | No Play | 0 |

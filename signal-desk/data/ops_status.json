@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-16T03:06:37Z",
+ "generated_at_utc": "2026-11-16T03:38:22Z",
  "generated_for_central_date": "2026-11-15",
  "graded_picks_csv_rows": 222,
  "ledger_health": {
@@ -59,18 +59,18 @@
    "upcoming_espn_data_stale": {
     "count": 12,
     "games": [
-     "Jacksonville Jaguars @ Tennessee Titans (NFL, 2026-11-15) (4 h)",
-     "Houston Texans @ Cleveland Browns (NFL, 2026-11-15) (4 h)",
-     "San Francisco 49ers @ Dallas Cowboys (NFL, 2026-11-15) (4 h)",
-     "Seattle Seahawks @ Las Vegas Raiders (NFL, 2026-11-15) (4 h)",
-     "Carolina Panthers @ New Orleans Saints (NFL, 2026-11-15) (4 h)",
-     "Los Angeles Rams @ Arizona Cardinals (NFL, 2026-11-15) (4 h)",
-     "Minnesota Vikings @ Green Bay Packers (NFL, 2026-11-15) (4 h)",
-     "Miami Dolphins @ Indianapolis Colts (NFL, 2026-11-15) (4 h)",
-     "Pittsburgh Steelers @ Cincinnati Bengals (NFL, 2026-11-15) (4 h)",
-     "Kansas City Chiefs @ Atlanta Falcons (NFL, 2026-11-15) (4 h)",
-     "Buffalo Bills @ New York Jets (NFL, 2026-11-15) (4 h)",
-     "New England Patriots @ Detroit Lions (NFL, 2026-11-15) (4 h)"
+     "Jacksonville Jaguars @ Tennessee Titans (NFL, 2026-11-15) (5 h)",
+     "Houston Texans @ Cleveland Browns (NFL, 2026-11-15) (5 h)",
+     "San Francisco 49ers @ Dallas Cowboys (NFL, 2026-11-15) (5 h)",
+     "Seattle Seahawks @ Las Vegas Raiders (NFL, 2026-11-15) (5 h)",
+     "Carolina Panthers @ New Orleans Saints (NFL, 2026-11-15) (5 h)",
+     "Los Angeles Rams @ Arizona Cardinals (NFL, 2026-11-15) (5 h)",
+     "Minnesota Vikings @ Green Bay Packers (NFL, 2026-11-15) (5 h)",
+     "Miami Dolphins @ Indianapolis Colts (NFL, 2026-11-15) (5 h)",
+     "Pittsburgh Steelers @ Cincinnati Bengals (NFL, 2026-11-15) (5 h)",
+     "Kansas City Chiefs @ Atlanta Falcons (NFL, 2026-11-15) (5 h)",
+     "Buffalo Bills @ New York Jets (NFL, 2026-11-15) (5 h)",
+     "New England Patriots @ Detroit Lions (NFL, 2026-11-15) (5 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -95,6 +95,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 43798258819,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43798258819",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-16T03:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 79,
+      "rows_changed": 26,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 43780431118,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43780431118",
@@ -146,24 +164,6 @@
       "mode": "LIVE",
       "rows_scanned": 91,
       "rows_changed": 70,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43746826395,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43746826395",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-15T18:27:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 91,
-      "rows_changed": 71,
       "fpi_missing": 0
      }
     }
@@ -267,6 +267,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 43799255202,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43799255202",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-16T03:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 19,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 43796013652,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43796013652",
      "event": "schedule",
@@ -309,22 +325,6 @@
      "summary": {
       "mode": "LIVE",
       "ledger_patches": 1,
-      "leg_patches": 0,
-      "calibration_upserts": 19,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43781424655,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43781424655",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-16T00:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 2,
       "leg_patches": 0,
       "calibration_upserts": 19,
       "fpi_missing": 0
@@ -613,7 +613,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-15T23:01:57Z",
-   "age_h": 4.1,
+   "age_h": 4.6,
    "status": "missed"
   },
   {
@@ -622,8 +622,8 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-15T23:10:24Z",
-   "age_h": 3.9,
-   "status": "ok"
+   "age_h": 4.5,
+   "status": "missed"
   },
   {
    "workflow": "Close & Grade",
@@ -631,7 +631,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-16T03:05:19Z",
-   "age_h": 0.0,
+   "age_h": 0.6,
    "status": "ok"
   },
   {
@@ -640,7 +640,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-15T18:47:59Z",
-   "age_h": 8.3,
+   "age_h": 8.8,
    "status": "ok"
   },
   {
@@ -649,7 +649,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-15T19:28:01Z",
-   "age_h": 7.6,
+   "age_h": 8.2,
    "status": "ok"
   },
   {
@@ -658,7 +658,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-15T23:03:11Z",
-   "age_h": 4.1,
+   "age_h": 4.6,
    "status": "ok"
   },
   {
@@ -668,7 +668,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-15T19:01:58Z",
-   "age_h": 8.1,
+   "age_h": 8.6,
    "status": "ok"
   }
  ],
