@@ -17,7 +17,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | North Texas @ Tulane | moneyline | North Texas ML -238 | 69% | -1.7% | No Play | 0 |
 | Miami (OH) @ Kent State | spread | Miami (OH) -8.5 (spread) | 51% |  | No Play | 0 |
 | Miami (OH) @ Kent State | total | Over 45.5 | 52% | +1.8 pts | No Play | 0 |
-| Miami (OH) @ Kent State | moneyline | Kent State ML +260 | 27% | -0.5% | No Play | 0 |
+| Miami (OH) @ Kent State | moneyline | Miami (OH) ML -325 | 75% | -1.9% | No Play | 0 |
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 46.5 | 51% | +0.9 pts | No Play | 0 |
 | Utah @ TCU | moneyline | TCU ML +200 | 33% | -0.8% | No Play | 0 |
