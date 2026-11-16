@@ -162,21 +162,21 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | total | Over 39.5 | 60% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 59% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 65.5 | 53% | Lean | 0.5 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -135 | 61% | Lean | 0.5 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -130 | 61% | Lean | 0.5 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +205 | 36% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 53.5 | 57% | Lean | 0.5 |
 - NCAAF parlay: Under 65.5 + Over 37.5 | model 28.5%, needs +278 to break even, edge +2.1%, Lean
 - NCAAF parlay: Under 65.5 + Massachusetts -2.5 (spread) + Over 37.5 | model 14.3%, needs +607 to break even, edge +0.1%, No Play
 - NCAAF parlay: Massachusetts -2.5 (spread) + Over 37.5 | model 26.7%, needs +270 to break even, edge -0.3%, No Play
-- NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +264 to break even, edge +10.9%, Max Play
+- NFL parlay: Over 40.5 + Carolina Panthers -1.5 (spread) | model 37.3%, needs +278 to break even, edge +10.9%, Max Play
+- NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +261 to break even, edge +10.6%, Max Play
 - NFL parlay: Carolina Panthers -1.5 (spread) + Tampa Bay Buccaneers +3.5 (spread) | model 37.5%, needs +268 to break even, edge +10.3%, Max Play
-- NFL parlay: Los Angeles Chargers +4.5 (spread) + Carolina Panthers -1.5 (spread) | model 37.3%, needs +268 to break even, edge +10.1%, Max Play
-- NFL teaser: Over 39.5 -> 33.5 + Over 38.5 -> 32.5 + Under 53.5 -> 59.5 | model 58.3%, needs +160 to break even, edge +19.9%, Max Play
-- NFL teaser: Over 39.5 -> 33.5 + Over 38.5 -> 32.5 + Over 41.5 -> 35.5 | model 56.8%, needs +160 to break even, edge +18.3%, Max Play
-- NFL teaser: Over 39.5 -> 33.5 + Over 38.5 -> 32.5 + Over 44.5 -> 38.5 | model 56.8%, needs +160 to break even, edge +18.3%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 53.5 -> 59.5 | model 57.7%, needs +160 to break even, edge +19.2%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 41.5 -> 35.5 | model 56.1%, needs +160 to break even, edge +17.7%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 44.5 -> 38.5 | model 56.1%, needs +160 to break even, edge +17.7%, Max Play
 
 ## Results and learning by market
 
