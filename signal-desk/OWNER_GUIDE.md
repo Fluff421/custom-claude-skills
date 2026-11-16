@@ -92,7 +92,7 @@ Important current issue (verified November 13, 2026): GitHub has been starting t
 9. After the commit, ask Search to verify (prompt "Check an existing submission" in CHAT_PROMPTS.md). Success means a committed status `accepted`, a receipt, matching checksums, the expected row count and `airtable_writes: 0`.
 10. If it is rejected, do not resend the same file. Ask Search for the first rejection reason and, if needed, a checksum-bound owner review (prompt "Prepare a recovery review"). Common fix: confirming that a smaller midweek board intentionally contains only remaining games.
 
-Alternative route: you can paste File 1 into a Perplexity Computer thread (as on November 11). It works, but costs more credits. Regular Search is the routine path.
+Alternative route: paste or attach File 1 in a Perplexity Computer task with the "Perplexity Computer route" prompt from CHAT_PROMPTS.md. It runs `splash_preflight.py` and the importer's own check against the Ledger (read-only) before proposing the write, so every defect is listed at once, and it has no 40,000-character message limit. It costs more credits than regular Search.
 
 What happens next automatically: `splash-json-inbox` validates and archives the raw file, appends line history to `intelligence/splash_lines_log.csv`, and the Splash pick-time check reprices every game at your Splash line after the next Snapshot (`intelligence/splash_pricecheck/latest.md`).
 
@@ -268,6 +268,7 @@ How to read the trend: look for CLV staying positive over many picks, Brier drif
 
 ## 11. Change log
 
+- **2026-11-16:** File 1 and File 2 extraction prompts rewritten after the rejections of SPL-L-20261116-1356 (`game_count` written as the widget number 64 while the array held 79 games) and SPL-C-20261116-1341 (`kickoff_tz` "EST" on every leg, ticket times copied as kickoffs, game dates from settlement day headers, a moneyline without its price). New exact JSON skeletons, CST/CDT-only `kickoff_tz`, `page_widgets`, ticket time label fields, hard-stop rules and a final self-check. New read-only `splash_preflight.py` lists every defect before submission; CHAT_PROMPTS.md gains the Perplexity Computer route.
 - **2026-11-13:** this guide, AI_HANDOFF.md, AI_PROMPTS.md and GROK_INSTRUCTIONS_V3.md added; ASK_SIGNAL_DESK.md schedule and Grok sections corrected; version 2 Grok instructions marked superseded; other-AI research folder `research/feed/external/` defined (log only); Perplexity weekly picks, on-demand picks, Splash comparison, daily briefing and weekly Splash reminder prompts updated (7.2). Late GitHub schedules documented with options (7.4). Owner chose the free external scheduler; setup sheet SCHEDULER_SETUP.md added.
 
 The owner can run the Splash picks comparison (File 2 dump of pending or completed picks) and the weekly Splash spreads request (File 1 line dump) manually at any time. Paper picks only; verify against your Splash line before locking.

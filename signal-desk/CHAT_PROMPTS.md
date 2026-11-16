@@ -4,6 +4,87 @@ Use regular Search with GitHub selected. Prefer the complete-literal preparation
 
 The current main [intake contract](SPLASH_IMPORT.md) is authoritative. A candidate patch or this file on a branch does not establish deployment; read the current files before using review/status features.
 
+## Perplexity Computer route (preflight, then one approved write)
+
+Use this in a Perplexity Computer task when you want every defect found before anything is committed, or when the JSON is too large for a regular Search message. Attach or paste one original JSON together with this block. Computer runs the same validation the server runs, read-only, and stops before any write until you approve it.
+
+```text
+Signal Desk Splash intake through Perplexity Computer. One original JSON
+is attached or pasted with this message. Nothing is approved yet.
+
+SCOPE
+- Repository Fluff421/custom-claude-skills, folder signal-desk/, branch
+  main. Never use BIS_SIGNAL-DESK.
+- Airtable base appSfcG682952AQAv is READ-ONLY. No Airtable writes.
+- No workflow dispatch, merge, branch deletion, variable change,
+  generated-CSV edit or result repair. No subagents.
+
+STEP 1. Read current main: SPLASH_IMPORT.md, CHAT_PROMPTS.md,
+SPLASH_EXTRACTION_LINES.md, SPLASH_EXTRACTION_PICKS.md and
+splash_preflight.py. If any cannot be read, STOP and name it.
+
+STEP 2. Save the source byte-for-byte.
+- Write my JSON exactly as received to a local file. Do not reformat,
+  re-indent, re-encode, trim or add a trailing newline. Report its byte
+  count and SHA-256.
+- If the content arrived truncated, previewed or with an ellipsis, STOP
+  and say so. Never reconstruct missing text.
+- Read schema, date_code, extracted_at_utc, page_type, counts, notes and
+  warnings directly from the file.
+
+STEP 3. Duplicate guard. Check inbox/, processed/, status/, receipts/
+and reviews/ under signal-desk/intelligence/splash_import/ for this
+date_code. If the same date_code already exists, STOP: never overwrite
+or resubmit it. Report what exists and its status.
+
+STEP 4. Preflight, read-only.
+- Export Ledger Game records (Record Type = 'Game', dates from 10 days
+  before extraction to 10 days after) from table tbl3tFHFhvyNMpksE as a
+  JSON list of {_id, League, Date, Home Team, Away Team, Home Score,
+  Away Score}. Read only.
+- Run: python signal-desk/splash_preflight.py <file> --now <current UTC>
+  --ledger <export>. Report the verdict and EVERY ERROR and CHECK line,
+  grouped by type with counts, plus the server_check result.
+- If there is any ERROR: STOP. Make no write. For each error type say
+  which step of the extraction prompt fixes it and that the fix is a
+  fresh capture with a new date_code, never an edit to this file.
+  Exception: a File 1 game_count error alone can be cleared by a
+  count_policy owner review; offer that only after I confirm the exact
+  per-league array counts the preflight printed.
+- If there are CHECK lines, list them and ask me only the facts I must
+  confirm.
+- Freshness: say how many hours remain before the 24-hour limit (12
+  hours for pending picks) and flag anything older than 4 hours.
+
+STEP 5. Proposal. Only when the preflight has no ERROR:
+- Show repository, branch main, path
+  signal-desk/intelligence/splash_import/inbox/<date_code>.json, byte
+  count, SHA-256, and the complete content as an attached file.
+- Commit message: "Add Splash <lines|pending picks|completed picks>
+  <date_code> (<per-league game counts or ticket and leg counts>)"
+  using counts from the preflight, never from memory or a page widget.
+  Keep my authorship and end with exactly one trailer line:
+  Co-authored-by: Perplexity <noreply@perplexity.ai>
+- Warn that the repository is PUBLIC and the file exposes contest URLs,
+  names, stakes, payouts and ticket details.
+- Ask me to approve this one exact write. Wait.
+
+STEP 6. After my approval: make exactly that one commit and push. If
+the push fails, STOP and report the error; do not retry without a new
+approval. Confirm the SHA-256 of the committed file content equals the approved one.
+
+STEP 7. Verify. Wait for the splash-json-inbox run on that commit, then
+read status/<date_code>.json, receipts/<date_code>.json and the raw
+archive at the same processing commit. Accepted means status accepted,
+a receipt, matching input_sha256, expected rows equal actual rows,
+duplicate tickets listed, and airtable_writes 0. If rejected, report
+first_error, compare it with the preflight, keep the pending original,
+and do not resubmit. A queued or green unrelated run is not acceptance.
+
+Import acceptance is not recommendation readiness. All picks are paper
+picks; verify against your Splash line before locking.
+```
+
 ## Import one original JSON
 
 Attach one original lines, pending-picks, or completed-picks JSON and paste this entire block. It requests preparation and verification; the publication proposal still requires your separate approval.
