@@ -211,7 +211,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 - Kansas State ML +270 + Over 37.5: model 16.2%, needs +606 to break even (reference payout +606), edge +2.1%, Lean
 - Under 65.5 + Kansas State ML +270 + Over 37.5: model 8.7%, needs +1249 to break even (reference payout +1249), edge +1.2%, No Play
 - Under 65.5 + Over 37.5: model 28.5%, needs +264 to break even (reference payout +264), edge +1.1%, No Play
-- Massachusetts -2.5 (spread) + Kansas State ML +270: model 15.2%, needs +592 to break even (reference payout +592), edge +0.7%, No Play
+- Massachusetts -2.5 (spread) + Kansas State ML +270: model 15.2%, needs +584 to break even (reference payout +584), edge +0.5%, No Play
 
 ## NFL
 
@@ -219,22 +219,22 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 |---|---|---|---|---|---|---|
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Over 38.5 | 54% | +1.0 pts | No Play | 0 |
-| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +164 | 37% | -0.5% | No Play | 0 |
+| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +170 | 37% | +0.3% | No Play | 0 |
 | Los Angeles Chargers @ Baltimore Ravens | spread | Los Angeles Chargers +4.5 (spread) | 59% |  | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | +1.9 pts | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +190 | 41% | +6.2% | Strong Play | 1 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 41.5 | 55% | +1.2 pts | No Play | 0 |
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Arizona Cardinals ML +850 | 10% | -0.1% | No Play | 0 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Arizona Cardinals ML +1100 | 10% | +2.1% | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 51% | +0.2 pts | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | moneyline | New Orleans Saints ML +390 | 22% | +1.3% | No Play | 0 |
+| New Orleans Saints @ Chicago Bears | moneyline | New Orleans Saints ML +380 | 22% | +0.8% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 59% | +2.4 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Las Vegas Raiders ML +370 | 20% | -1.6% | No Play | 0 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Las Vegas Raiders ML +380 | 20% | -1.1% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 40.5 | 54% | +1.1 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | New York Jets ML +150 | 39% | -0.6% | No Play | 0 |
+| New York Jets @ Los Angeles Chargers | moneyline | New York Jets ML +145 | 39% | -1.4% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 55% | +1.4 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | Minnesota Vikings ML +136 | 40% | -1.9% | No Play | 0 |
@@ -249,7 +249,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -130 | 61% | +4.9% | Lean | 0.5 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 54% | +1.1 pts | No Play | 0 |
-| Indianapolis Colts @ Houston Texans | moneyline | Indianapolis Colts ML +370 | 23% | +1.5% | No Play | 0 |
+| Indianapolis Colts @ Houston Texans | moneyline | Indianapolis Colts ML +410 | 22% | +2.4% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 46.5 | 52% | +0.5 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +195 | 34% | -0.2% | No Play | 0 |
@@ -258,13 +258,13 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Cincinnati Bengals @ Washington Commanders | moneyline | Washington Commanders ML +195 | 34% | +0.5% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 53.5 | 57% | +1.8 pts | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Tennessee Titans ML +320 | 25% | +1.5% | No Play | 0 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Tennessee Titans ML +340 | 25% | +2.5% | No Play | 0 |
 
 ### NFL Best parlays
 
 - Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread): model 38.3%, needs +268 to break even (reference payout +268), edge +11.1%, Max Play
-- Over 40.5 + Carolina Panthers -1.5 (spread): model 37.3%, needs +278 to break even (reference payout +278), edge +10.9%, Max Play
 - Carolina Panthers -1.5 (spread) + Tampa Bay Buccaneers +3.5 (spread): model 37.5%, needs +268 to break even (reference payout +268), edge +10.3%, Max Play
+- Over 40.5 + Carolina Panthers -1.5 (spread): model 37.3%, needs +268 to break even (reference payout +268), edge +10.1%, Max Play
 - Los Angeles Chargers +4.5 (spread) + Carolina Panthers -1.5 (spread): model 37.3%, needs +268 to break even (reference payout +268), edge +10.1%, Max Play
 - Buffalo Bills -16.5 (spread) + Carolina Panthers -1.5 (spread): model 37.7%, needs +261 to break even (reference payout +261), edge +10.0%, Max Play
 
