@@ -1539,8 +1539,8 @@
   "NCAAF moneyline: n=124, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)",
   "NCAAF total: n=124, shrink 0.4 -> 0.4 (no meaningful gain; best 0.3, Brier gain 0.0006)",
   "NCAAF teaser_leg: n=248, shrink 0.55 -> 0.55 (no meaningful gain; best 0.6, Brier gain 0.0001)",
-  "NFL moneyline: n=33, shrink 1.0 -> 1.15 (applied; best 1.3, Brier gain 0.0134)",
-  "NFL total: n=33, shrink 1.0 -> 1.15 (applied; best 1.3, Brier gain 0.0021)",
-  "NFL teaser_leg: n=66, shrink 1.15 -> 1.0 (applied; best 0.9, Brier gain 0.0038)"
+  "NFL moneyline: n=33, shrink 1.15 -> 1.3 (applied; best 1.3, Brier gain 0.0059)",
+  "NFL total: n=33, shrink 1.15 -> 1.15 (no meaningful gain; best 1.3, Brier gain 0.001)",
+  "NFL teaser_leg: n=66, shrink 1.0 -> 1.0 (no meaningful gain; best 0.9, Brier gain 0.0006)"
  ]
 }
