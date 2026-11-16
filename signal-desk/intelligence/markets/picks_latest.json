@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T07:17:41+00:00",
+ "generated_at": "2026-11-16T07:39:08+00:00",
  "date": "2026-11-16",
  "games": [
   {
@@ -7185,10 +7185,10 @@
    "league": "NCAAF",
    "date": "2026-11-20",
    "frozen": false,
-   "line": -6.0,
+   "line": -5.5,
    "total_line": 52.5,
    "model_margin": -7.199999999999999,
-   "blend_margin": -6.1739999999999995,
+   "blend_margin": -5.7465,
    "proj_total": 52.996153846153845,
    "factors": [
     "weather: 64F, 33 | no severity"
@@ -7200,7 +7200,7 @@
      "side": "home",
      "team": "UAB",
      "line": 6.5,
-     "price": -112.0,
+     "price": -110.0,
      "proj": -7.199999999999999,
      "prob": 0.5019,
      "edge": null,
@@ -7237,9 +7237,9 @@
      "line": 0.0,
      "price": 185.0,
      "price_estimated": false,
-     "proj": -6.17,
-     "prob": 0.3404,
-     "edge": -0.0105,
+     "proj": -5.75,
+     "prob": 0.3509,
+     "edge": 0.0,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
@@ -7259,15 +7259,15 @@
      "kind": "spread",
      "side": "home",
      "team": "UAB",
-     "base_line": 6.0,
-     "line": 12.0,
+     "base_line": 5.5,
+     "line": 11.5,
      "price": 0.0,
-     "prob": 0.5829,
-     "push": 0.0235,
+     "prob": 0.5886,
+     "push": 0,
      "crosses": [
       7
      ],
-     "selection": "UAB +6 -> +12 (crosses 7)",
+     "selection": "UAB +5.5 -> +11.5 (crosses 7)",
      "game_id": "recefcdnczVxSC180",
      "game": "UTSA @ UAB",
      "priority": "secondary",
@@ -7295,23 +7295,23 @@
    "alt_spreads": [
     {
      "team": "UAB",
-     "line": 3.0,
-     "prob": 0.4035
+     "line": 2.5,
+     "prob": 0.4143
     },
     {
      "team": "UTSA",
-     "line": -9.0,
-     "prob": 0.4016
+     "line": -8.5,
+     "prob": 0.4156
     },
     {
      "team": "UAB",
-     "line": 9.0,
-     "prob": 0.5734
+     "line": 8.5,
+     "prob": 0.5844
     },
     {
      "team": "UTSA",
-     "line": -3.0,
-     "prob": 0.563
+     "line": -2.5,
+     "prob": 0.5857
     }
    ]
   },

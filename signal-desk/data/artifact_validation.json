@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-16T06:39:36.407556+00:00",
+  "checked_at": "2026-11-16T07:39:32.150906+00:00",
   "central_date": "2026-11-16",
-  "ready": false,
+  "ready": true,
   "policy": {
     "narrative_hours": 4,
     "grade_hours": 2,
@@ -14,54 +14,52 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.02,
+      "age_hours": 0.017,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 55.56,
+      "age_hours": 56.559,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.0,
+      "age_hours": 0.001,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 55.6,
+      "age_hours": 56.601,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.021,
+      "age_hours": 0.017,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.043,
+      "age_hours": 0.042,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "ok",
-      "last_good_age_hours": 11.627,
-      "age_hours": 11.627
+      "last_good_age_hours": 12.626,
+      "age_hours": 12.626
     },
     "espn-sync.yml": {
-      "age_hours": 0.21,
+      "age_hours": 0.686,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 7.487,
+      "age_hours": 0.368,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 11.86,
+      "age_hours": 12.859,
       "max_age_hours": 26
     }
   },
-  "errors": [
-    "picks.yml: age 7.49h outside [0, 4)h (5m clock tolerance)"
-  ],
+  "errors": [],
   "warnings": [
-    "splash_board: 55.56h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 55.60h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 56.56h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 56.60h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "degraded": [],
   "paper_picks_only": true

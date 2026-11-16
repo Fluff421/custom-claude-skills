@@ -16,6 +16,7 @@ Overall graded picks: 108-113 (Brier 0.2576).
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | Lean | Denver Broncos -8.5 (spread) | 0.5 | 54.8% |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | Lean | Dallas Cowboys -7.5 (spread) | 0.5 | 55.5% |  |
 | Akron @ Massachusetts | 2026-11-18 | Lean | Massachusetts -2.5 (spread) | 0.5 | 50.0% |  |
+| Cincinnati Bengals @ Washington Commanders | 2026-11-23 | Lean | Cincinnati Bengals -4.5 (spread) | 0.5 | 54.5% |  |
 | Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | Lean | Pittsburgh Steelers -4.5 (spread) | 0.5 | 55.8% |  |
 | New York Jets @ Los Angeles Chargers | 2026-11-22 | Lean | Los Angeles Chargers -1.5 (spread) | 0.5 | 53.9% |  |
 | Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | Lean | Los Angeles Chargers +4.5 (spread) | 0.5 | 59.3% |  |
@@ -27,6 +28,7 @@ Overall graded picks: 108-113 (Brier 0.2576).
 - Las Vegas Raiders @ Denver Broncos: weather: 50F, 2 | no severity
 - Tennessee Titans @ Dallas Cowboys: weather: indoor | sev=0.00
 - Akron @ Massachusetts: weather: 44F, 36 | no severity
+- Cincinnati Bengals @ Washington Commanders: 
 - Pittsburgh Steelers @ Philadelphia Eagles: weather: 61F, 1 | no severity
 - New York Jets @ Los Angeles Chargers: weather: 68F, 5 | no severity
 - Los Angeles Chargers @ Baltimore Ravens: weather: 37F, wind 4mph, precip 0% | sev=0.00 | open-meteo
@@ -167,9 +169,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Arizona @ Kansas State | moneyline | Kansas State ML +295 | 30% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 53.5 | 57% | Lean | 0.5 |
-- NCAAF parlay: Kansas State ML +295 + Over 37.5 | model 16.2%, needs +671 to break even, edge +3.2%, Lean
 - NCAAF parlay: Under 65.5 + Kansas State ML +295 | model 16.2%, needs +654 to break even, edge +3.0%, Lean
-- NCAAF parlay: Under 65.5 + Kansas State ML +295 + Over 37.5 | model 8.7%, needs +1372 to break even, edge +1.9%, No Play
+- NCAAF parlay: Kansas State ML +295 + Over 37.5 | model 16.2%, needs +654 to break even, edge +2.9%, Lean
+- NCAAF parlay: Under 65.5 + Kansas State ML +295 + Over 37.5 | model 8.7%, needs +1340 to break even, edge +1.7%, No Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +268 to break even, edge +11.1%, Max Play
 - NFL parlay: Over 40.5 + Carolina Panthers -1.5 (spread) | model 37.3%, needs +278 to break even, edge +10.9%, Max Play
 - NFL parlay: Carolina Panthers -1.5 (spread) + Tampa Bay Buccaneers +3.5 (spread) | model 37.5%, needs +268 to break even, edge +10.3%, Max Play

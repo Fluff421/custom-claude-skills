@@ -140,7 +140,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Coastal Carolina @ Louisiana | moneyline | Coastal Carolina ML +310 | 24% | -0.4% | No Play | 0 |
 | UTSA @ UAB | spread | UAB +6.5 (spread) | 50% |  | No Play | 0 |
 | UTSA @ UAB | total | Over 52.5 | 51% | +0.5 pts | No Play | 0 |
-| UTSA @ UAB | moneyline | UAB ML +185 | 34% | -1.1% | No Play | 0 |
+| UTSA @ UAB | moneyline | UAB ML +185 | 35% | +0.0% | No Play | 0 |
 | San Diego State @ Boise State | spread | Boise State -16.5 (spread) | 52% |  | No Play | 0 |
 | San Diego State @ Boise State | total | Under 62.5 | 50% | +0.4 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | San Diego State ML +650 | 12% | -1.0% | No Play | 0 |
