@@ -10,27 +10,27 @@ Overall graded picks: 108-113 (Brier 0.2576).
 |---|---|---|---|---|---|---|
 | Baltimore Ravens @ Carolina Panthers | 2026-11-22 | Max Play | Carolina Panthers -1.5 (spread) | 1 | 63.0% |  |
 | Miami Dolphins @ Buffalo Bills | 2026-11-22 | Strong Play | Buffalo Bills -16.5 (spread) | 1 | 59.9% |  |
-| Indianapolis Colts @ Houston Texans | 2026-11-19 | Strong Play | Indianapolis Colts +10 (spread) | 1 | 58.0% |  |
 | Jacksonville Jaguars @ New York Giants | 2026-11-22 | Strong Play | Jacksonville Jaguars -6 (spread) | 1 | 60.8% |  |
+| Indianapolis Colts @ Houston Texans | 2026-11-19 | Strong Play | Indianapolis Colts +10 (spread) | 1 | 58.0% |  |
 | Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | Strong Play | Tampa Bay Buccaneers +3.5 (spread) | 1 | 59.6% |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | Lean | Denver Broncos -8.5 (spread) | 0.5 | 54.8% |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | Lean | Dallas Cowboys -7.5 (spread) | 0.5 | 55.5% |  |
 | Akron @ Massachusetts | 2026-11-18 | Lean | Massachusetts -2.5 (spread) | 0.5 | 50.0% |  |
 | Cincinnati Bengals @ Washington Commanders | 2026-11-23 | Lean | Cincinnati Bengals -4.5 (spread) | 0.5 | 54.5% |  |
-| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | Lean | Pittsburgh Steelers -4.5 (spread) | 0.5 | 55.8% |  |
 | New York Jets @ Los Angeles Chargers | 2026-11-22 | Lean | Los Angeles Chargers -1.5 (spread) | 0.5 | 53.9% |  |
+| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | Lean | Pittsburgh Steelers -4.5 (spread) | 0.5 | 55.8% |  |
 | Los Angeles Chargers @ Baltimore Ravens | 2026-11-16 | Lean | Los Angeles Chargers +4.5 (spread) | 0.5 | 59.3% |  |
 - Baltimore Ravens @ Carolina Panthers: weather: 65F, 2 | no severity
 - Miami Dolphins @ Buffalo Bills: 
-- Indianapolis Colts @ Houston Texans: weather: indoor | sev=0.00
 - Jacksonville Jaguars @ New York Giants: weather: 61F, 1 | no severity
+- Indianapolis Colts @ Houston Texans: weather: indoor | sev=0.00
 - Tampa Bay Buccaneers @ Detroit Lions: QB: HOME QB PLAYING Jared Goff [verified 2026-11-12] | AWAY QB QUESTIONABLE Baker Mayfield -> Jalon Daniels [auto espn 2026-11-15]; weather: indoor | sev=0.00
 - Las Vegas Raiders @ Denver Broncos: weather: 50F, 2 | no severity
 - Tennessee Titans @ Dallas Cowboys: weather: indoor | sev=0.00
 - Akron @ Massachusetts: weather: 44F, 36 | no severity
 - Cincinnati Bengals @ Washington Commanders: 
-- Pittsburgh Steelers @ Philadelphia Eagles: weather: 61F, 1 | no severity
 - New York Jets @ Los Angeles Chargers: weather: 68F, 5 | no severity
+- Pittsburgh Steelers @ Philadelphia Eagles: weather: 61F, 1 | no severity
 - Los Angeles Chargers @ Baltimore Ravens: weather: 37F, wind 4mph, precip 0% | sev=0.00 | open-meteo
 
 Tracking picks (paper, 0u): 68. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread)
@@ -162,16 +162,16 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 58% | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 40% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 41% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 59% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 65.5 | 53% | Lean | 0.5 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -130 | 61% | Lean | 0.5 |
-| Arizona @ Kansas State | moneyline | Kansas State ML +295 | 30% | Lean | 0.5 |
+| Arizona @ Kansas State | moneyline | Kansas State ML +270 | 30% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 53.5 | 57% | Lean | 0.5 |
-- NCAAF parlay: Under 65.5 + Kansas State ML +295 | model 16.2%, needs +654 to break even, edge +3.0%, Lean
-- NCAAF parlay: Kansas State ML +295 + Over 37.5 | model 16.2%, needs +654 to break even, edge +2.9%, Lean
-- NCAAF parlay: Under 65.5 + Kansas State ML +295 + Over 37.5 | model 8.7%, needs +1340 to break even, edge +1.7%, No Play
+- NCAAF parlay: Under 65.5 + Kansas State ML +270 | model 16.2%, needs +606 to break even, edge +2.1%, Lean
+- NCAAF parlay: Kansas State ML +270 + Over 37.5 | model 16.2%, needs +606 to break even, edge +2.1%, Lean
+- NCAAF parlay: Under 65.5 + Kansas State ML +270 + Over 37.5 | model 8.7%, needs +1249 to break even, edge +1.2%, No Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Carolina Panthers -1.5 (spread) | model 38.3%, needs +268 to break even, edge +11.1%, Max Play
 - NFL parlay: Over 40.5 + Carolina Panthers -1.5 (spread) | model 37.3%, needs +278 to break even, edge +10.9%, Max Play
 - NFL parlay: Carolina Panthers -1.5 (spread) + Tampa Bay Buccaneers +3.5 (spread) | model 37.5%, needs +268 to break even, edge +10.3%, Max Play

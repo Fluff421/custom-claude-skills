@@ -1,6 +1,6 @@
 {
  "date": "2026-11-16",
- "generated_at": "2026-11-16T08:39:20+00:00",
+ "generated_at": "2026-11-16T09:39:29+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -27,19 +27,6 @@
    "why": []
   },
   {
-   "game": "Indianapolis Colts @ Houston Texans",
-   "date": "2026-11-19",
-   "league": "NFL",
-   "tier": "Strong Play",
-   "pick": "Indianapolis Colts +10 (spread)",
-   "units": 1,
-   "prob": 0.58,
-   "adj_edge": null,
-   "why": [
-    "weather: indoor | sev=0.00"
-   ]
-  },
-  {
    "game": "Jacksonville Jaguars @ New York Giants",
    "date": "2026-11-22",
    "league": "NFL",
@@ -50,6 +37,19 @@
    "adj_edge": null,
    "why": [
     "weather: 61F, 1 | no severity"
+   ]
+  },
+  {
+   "game": "Indianapolis Colts @ Houston Texans",
+   "date": "2026-11-19",
+   "league": "NFL",
+   "tier": "Strong Play",
+   "pick": "Indianapolis Colts +10 (spread)",
+   "units": 1,
+   "prob": 0.58,
+   "adj_edge": null,
+   "why": [
+    "weather: indoor | sev=0.00"
    ]
   },
   {
@@ -117,19 +117,6 @@
    "why": []
   },
   {
-   "game": "Pittsburgh Steelers @ Philadelphia Eagles",
-   "date": "2026-11-22",
-   "league": "NFL",
-   "tier": "Lean",
-   "pick": "Pittsburgh Steelers -4.5 (spread)",
-   "units": 0.5,
-   "prob": 0.5578,
-   "adj_edge": null,
-   "why": [
-    "weather: 61F, 1 | no severity"
-   ]
-  },
-  {
    "game": "New York Jets @ Los Angeles Chargers",
    "date": "2026-11-22",
    "league": "NFL",
@@ -140,6 +127,19 @@
    "adj_edge": null,
    "why": [
     "weather: 68F, 5 | no severity"
+   ]
+  },
+  {
+   "game": "Pittsburgh Steelers @ Philadelphia Eagles",
+   "date": "2026-11-22",
+   "league": "NFL",
+   "tier": "Lean",
+   "pick": "Pittsburgh Steelers -4.5 (spread)",
+   "units": 0.5,
+   "prob": 0.5578,
+   "adj_edge": null,
+   "why": [
+    "weather: 61F, 1 | no severity"
    ]
   },
   {
@@ -302,14 +302,6 @@
    ]
   },
   {
-   "game": "Arizona Cardinals @ Kansas City Chiefs",
-   "pick": "Kansas City Chiefs -14 (spread)",
-   "prob": 0.5193,
-   "why": [
-    "weather: 37F, 6 | no severity"
-   ]
-  },
-  {
    "game": "Arkansas State @ Louisiana Tech",
    "pick": "Arkansas State +16.5 (spread)",
    "prob": 0.5124,
@@ -339,6 +331,14 @@
    "prob": 0.5008,
    "why": [
     "weather: 70F, 2 | no severity"
+   ]
+  },
+  {
+   "game": "Arizona Cardinals @ Kansas City Chiefs",
+   "pick": "Kansas City Chiefs -14 (spread)",
+   "prob": 0.5193,
+   "why": [
+    "weather: 37F, 6 | no severity"
    ]
   },
   {
@@ -430,19 +430,19 @@
    ]
   },
   {
-   "game": "Arizona @ Kansas State",
-   "pick": "Kansas State +10.5 (spread)",
-   "prob": 0.5092,
-   "why": [
-    "weather: 55F, 34 | no severity"
-   ]
-  },
-  {
    "game": "New Orleans Saints @ Chicago Bears",
    "pick": "Chicago Bears -9.5 (spread)",
    "prob": 0.5,
    "why": [
     "weather: 48F, 7 | no severity"
+   ]
+  },
+  {
+   "game": "Arizona @ Kansas State",
+   "pick": "Kansas State +10.5 (spread)",
+   "prob": 0.5092,
+   "why": [
+    "weather: 55F, 34 | no severity"
    ]
   },
   {
@@ -630,12 +630,6 @@
    ]
   },
   {
-   "game": "Minnesota Vikings @ San Francisco 49ers",
-   "pick": "San Francisco 49ers -3.5 (spread)",
-   "prob": 0.529,
-   "why": []
-  },
-  {
    "game": "Texas Tech @ Baylor",
    "pick": "Texas Tech -1.5 (spread)",
    "prob": 0.5004,
@@ -650,6 +644,12 @@
    "why": [
     "weather: 46F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
    ]
+  },
+  {
+   "game": "Minnesota Vikings @ San Francisco 49ers",
+   "pick": "San Francisco 49ers -3.5 (spread)",
+   "prob": 0.529,
+   "why": []
   },
   {
    "game": "North Carolina @ Virginia",
@@ -5640,7 +5640,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-16T08:38:47+00:00",
+   "generated_at": "2026-11-16T09:38:57+00:00",
    "date": "2026-11-16",
    "games": [
     {
@@ -5787,8 +5787,8 @@
      "frozen": false,
      "line": -4.5,
      "total_line": 38.5,
-     "model_margin": -4.0,
-     "blend_margin": -4.35,
+     "model_margin": -2.8,
+     "blend_margin": -3.99,
      "proj_total": 39.50909090909091,
      "factors": [
       "QB: HOME QB PLAYING Joe Milton [auto espn 2026-11-15] | AWAY QB PLAYING Aaron Rodgers [auto espn 2026-11-15]",
@@ -5802,7 +5802,7 @@
        "team": "Pittsburgh Steelers",
        "line": -4.5,
        "price": -105.0,
-       "proj": -4.0,
+       "proj": -2.8,
        "prob": 0.5578,
        "edge": null,
        "edge_unit": "pts",
@@ -5838,9 +5838,9 @@
        "line": 0.0,
        "price": 164.0,
        "price_estimated": false,
-       "proj": -4.35,
-       "prob": 0.3627,
-       "edge": -0.0161,
+       "proj": -3.99,
+       "prob": 0.3736,
+       "edge": -0.0052,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -5863,7 +5863,7 @@
        "base_line": 4.5,
        "line": 10.5,
        "price": 0.0,
-       "prob": 0.7511,
+       "prob": 0.7619,
        "push": 0,
        "crosses": [
         7
@@ -5897,22 +5897,22 @@
       {
        "team": "Philadelphia Eagles",
        "line": 1.5,
-       "prob": 0.4115
+       "prob": 0.4224
       },
       {
        "team": "Pittsburgh Steelers",
        "line": -7.5,
-       "prob": 0.3682
+       "prob": 0.3578
       },
       {
        "team": "Philadelphia Eagles",
        "line": 7.5,
-       "prob": 0.6318
+       "prob": 0.6422
       },
       {
        "team": "Pittsburgh Steelers",
        "line": -1.5,
-       "prob": 0.5885
+       "prob": 0.5776
       }
      ]
     },
@@ -5924,8 +5924,8 @@
      "frozen": false,
      "line": 4.5,
      "total_line": 38.5,
-     "model_margin": -0.49999999999999956,
-     "blend_margin": 3.0,
+     "model_margin": -0.7999999999999998,
+     "blend_margin": 2.91,
      "proj_total": 40.42702272727273,
      "factors": [
       "QB: HOME QB PLAYING Jacoby Brissett [auto espn 2026-11-15] | AWAY QB PLAYING Justin Herbert [auto espn 2026-11-15]",
@@ -5939,7 +5939,7 @@
        "team": "Los Angeles Chargers",
        "line": 4.5,
        "price": -108.0,
-       "proj": -0.49999999999999956,
+       "proj": -0.7999999999999998,
        "prob": 0.5926,
        "edge": null,
        "edge_unit": "pts",
@@ -5975,9 +5975,9 @@
        "line": 0.0,
        "price": 185.0,
        "price_estimated": false,
-       "proj": 3.0,
-       "prob": 0.4043,
-       "edge": 0.0534,
+       "proj": 2.91,
+       "prob": 0.4071,
+       "edge": 0.0562,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -6000,7 +6000,7 @@
        "base_line": 4.5,
        "line": 10.5,
        "price": 0.0,
-       "prob": 0.7907,
+       "prob": 0.7932,
        "push": 0,
        "crosses": [
         7
@@ -6034,22 +6034,22 @@
       {
        "team": "Baltimore Ravens",
        "line": -7.5,
-       "prob": 0.3296
+       "prob": 0.327
       },
       {
        "team": "Los Angeles Chargers",
        "line": 1.5,
-       "prob": 0.4524
+       "prob": 0.4551
       },
       {
        "team": "Baltimore Ravens",
        "line": -1.5,
-       "prob": 0.5476
+       "prob": 0.5449
       },
       {
        "team": "Los Angeles Chargers",
        "line": 7.5,
-       "prob": 0.6704
+       "prob": 0.673
       }
      ]
     },
@@ -6061,8 +6061,8 @@
      "frozen": false,
      "line": 16.5,
      "total_line": 41.5,
-     "model_margin": 14.600000000000001,
-     "blend_margin": 15.93,
+     "model_margin": 13.3,
+     "blend_margin": 15.540000000000001,
      "proj_total": 42.695875,
      "factors": [
       "QB: HOME QB PLAYING Patrick Mahomes [verified 2026-11-12] | AWAY QB PLAYING Carson Beck [verified 2026-11-12]",
@@ -6076,7 +6076,7 @@
        "team": "Kansas City Chiefs",
        "line": -14.0,
        "price": -105.0,
-       "proj": 14.600000000000001,
+       "proj": 13.3,
        "prob": 0.5193,
        "edge": null,
        "edge_unit": "pts",
@@ -6112,9 +6112,9 @@
        "line": 0.0,
        "price": 850.0,
        "price_estimated": false,
-       "proj": 15.93,
-       "prob": 0.0991,
-       "edge": -0.0062,
+       "proj": 15.54,
+       "prob": 0.1047,
+       "edge": -0.0006,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -6137,7 +6137,7 @@
        "base_line": 16.5,
        "line": 22.5,
        "price": 0.0,
-       "prob": 0.7553,
+       "prob": 0.7675,
        "push": 0,
        "crosses": [],
        "selection": "Arizona Cardinals +16.5 -> +22.5",
@@ -6169,22 +6169,22 @@
       {
        "team": "Kansas City Chiefs",
        "line": -19.5,
-       "prob": 0.3609
+       "prob": 0.349
       },
       {
        "team": "Arizona Cardinals",
        "line": 13.5,
-       "prob": 0.4516
+       "prob": 0.4641
       },
       {
        "team": "Kansas City Chiefs",
        "line": -13.5,
-       "prob": 0.5484
+       "prob": 0.5359
       },
       {
        "team": "Arizona Cardinals",
        "line": 19.5,
-       "prob": 0.6391
+       "prob": 0.651
       }
      ]
     },
@@ -6330,8 +6330,8 @@
      "frozen": false,
      "line": 10.0,
      "total_line": 48.5,
-     "model_margin": 8.9,
-     "blend_margin": 9.67,
+     "model_margin": 9.0,
+     "blend_margin": 9.7,
      "proj_total": 48.258295454545454,
      "factors": [
       "QB: HOME QB PLAYING Caleb Williams [auto espn 2026-11-15] | AWAY QB PLAYING Tyler Shough [auto espn 2026-11-15]",
@@ -6345,7 +6345,7 @@
        "team": "Chicago Bears",
        "line": -9.5,
        "price": -108.0,
-       "proj": 8.9,
+       "proj": 9.0,
        "prob": 0.5,
        "edge": null,
        "edge_unit": "pts",
@@ -6381,9 +6381,9 @@
        "line": 0.0,
        "price": 380.0,
        "price_estimated": false,
-       "proj": 9.67,
-       "prob": 0.2174,
-       "edge": 0.009,
+       "proj": 9.7,
+       "prob": 0.2167,
+       "edge": 0.0083,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -6406,8 +6406,8 @@
        "base_line": 10.0,
        "line": 16.0,
        "price": 0.0,
-       "prob": 0.7399,
-       "push": 0.0256,
+       "prob": 0.7389,
+       "push": 0.0257,
        "crosses": [],
        "selection": "New Orleans Saints +10 -> +16",
        "game_id": "rec1s3f7B7DvAfqb3",
@@ -6438,22 +6438,22 @@
       {
        "team": "Chicago Bears",
        "line": -13.0,
-       "prob": 0.351
+       "prob": 0.3519
       },
       {
        "team": "New Orleans Saints",
        "line": 7.0,
-       "prob": 0.4257
+       "prob": 0.4248
       },
       {
        "team": "Chicago Bears",
        "line": -7.0,
-       "prob": 0.5315
+       "prob": 0.5324
       },
       {
        "team": "New Orleans Saints",
        "line": 13.0,
-       "prob": 0.6208
+       "prob": 0.6199
       }
      ]
     },
@@ -6600,10 +6600,10 @@
      "date": "2026-11-17",
      "frozen": false,
      "line": -9.5,
-     "total_line": 45.5,
+     "total_line": 46.5,
      "model_margin": -12.5,
      "blend_margin": -9.935,
-     "proj_total": 47.3,
+     "proj_total": 48.0,
      "factors": [
       "weather: 42F, 33 | no severity"
      ],
@@ -6630,15 +6630,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 45.5,
-       "price": -115.0,
-       "proj": 47.3,
-       "prob": 0.522,
-       "edge": 1.8,
+       "line": 46.5,
+       "price": -105.0,
+       "proj": 48.0,
+       "prob": 0.5184,
+       "edge": 1.5,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 45.5",
+       "selection": "Over 46.5",
        "game_id": "rec4RUwyyQD8hIgZd",
        "game": "Miami (OH) @ Kent State",
        "priority": "primary",
@@ -6646,25 +6646,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Miami (OH)",
+       "side": "home",
+       "team": "Kent State",
        "line": 0.0,
-       "price": -325.0,
+       "price": 275.0,
        "price_estimated": false,
        "proj": -9.94,
-       "prob": 0.746,
-       "edge": -0.0187,
+       "prob": 0.254,
+       "edge": -0.0126,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Miami (OH) ML -325",
+       "selection": "Kent State ML +275",
        "game_id": "rec4RUwyyQD8hIgZd",
        "game": "Miami (OH) @ Kent State",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -6690,13 +6690,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 45.5,
-       "line": 39.5,
+       "base_line": 46.5,
+       "line": 40.5,
        "price": 0.0,
-       "prob": 0.6242,
+       "prob": 0.6199,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 45.5 -> 39.5",
+       "selection": "Over 46.5 -> 40.5",
        "game_id": "rec4RUwyyQD8hIgZd",
        "game": "Miami (OH) @ Kent State",
        "priority": "secondary",
@@ -7139,8 +7139,8 @@
      "frozen": false,
      "line": 10.0,
      "total_line": 40.5,
-     "model_margin": 11.1,
-     "blend_margin": 10.33,
+     "model_margin": 11.8,
+     "blend_margin": 10.540000000000001,
      "proj_total": 42.850125,
      "factors": [
       "QB: HOME QB PLAYING Bo Nix [auto espn 2026-11-15] | AWAY QB PLAYING Fernando Mendoza [auto espn 2026-11-15]",
@@ -7154,7 +7154,7 @@
        "team": "Denver Broncos",
        "line": -8.5,
        "price": -108.0,
-       "proj": 11.1,
+       "proj": 11.8,
        "prob": 0.5482,
        "edge": null,
        "edge_unit": "pts",
@@ -7190,9 +7190,9 @@
        "line": 0.0,
        "price": 370.0,
        "price_estimated": false,
-       "proj": 10.33,
-       "prob": 0.202,
-       "edge": -0.0107,
+       "proj": 10.54,
+       "prob": 0.1973,
+       "edge": -0.0155,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -7215,8 +7215,8 @@
        "base_line": 10.0,
        "line": 16.0,
        "price": 0.0,
-       "prob": 0.7187,
-       "push": 0.0264,
+       "prob": 0.7118,
+       "push": 0.0266,
        "crosses": [],
        "selection": "Las Vegas Raiders +10 -> +16",
        "game_id": "recA8wbdTRMKXNzCn",
@@ -7247,22 +7247,22 @@
       {
        "team": "Denver Broncos",
        "line": -13.0,
-       "prob": 0.3707
+       "prob": 0.3771
       },
       {
        "team": "Las Vegas Raiders",
        "line": 7.0,
-       "prob": 0.4055
+       "prob": 0.3991
       },
       {
        "team": "Denver Broncos",
        "line": -7.0,
-       "prob": 0.5521
+       "prob": 0.5587
       },
       {
        "team": "Las Vegas Raiders",
        "line": 13.0,
-       "prob": 0.6006
+       "prob": 0.5942
       }
      ]
     },
@@ -7542,8 +7542,8 @@
      "frozen": false,
      "line": 3.0,
      "total_line": 40.5,
-     "model_margin": 3.8000000000000003,
-     "blend_margin": 3.24,
+     "model_margin": 4.1,
+     "blend_margin": 3.33,
      "proj_total": 41.57727272727273,
      "factors": [
       "QB: HOME QB PLAYING Justin Herbert [auto espn 2026-11-15] | AWAY QB PLAYING Geno Smith [auto espn 2026-11-15]",
@@ -7557,7 +7557,7 @@
        "team": "Los Angeles Chargers",
        "line": -1.5,
        "price": -118.0,
-       "proj": 3.8000000000000003,
+       "proj": 4.1,
        "prob": 0.5386,
        "edge": null,
        "edge_unit": "pts",
@@ -7593,9 +7593,9 @@
        "line": 0.0,
        "price": 150.0,
        "price_estimated": false,
-       "proj": 3.24,
-       "prob": 0.3968,
-       "edge": -0.0032,
+       "proj": 3.33,
+       "prob": 0.394,
+       "edge": -0.006,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -7618,8 +7618,8 @@
        "base_line": 3.0,
        "line": 9.0,
        "price": 0.0,
-       "prob": 0.7188,
-       "push": 0.0257,
+       "prob": 0.716,
+       "push": 0.0258,
        "crosses": [
         7
        ],
@@ -7652,22 +7652,22 @@
       {
        "team": "Los Angeles Chargers",
        "line": -6.0,
-       "prob": 0.3773
+       "prob": 0.38
       },
       {
        "team": "New York Jets",
        "line": 0.0,
-       "prob": 0.3878
+       "prob": 0.3852
       },
       {
        "team": "Los Angeles Chargers",
        "line": 0.0,
-       "prob": 0.5845
+       "prob": 0.5872
       },
       {
        "team": "New York Jets",
        "line": 6.0,
-       "prob": 0.5878
+       "prob": 0.5851
       }
      ]
     },
@@ -7813,8 +7813,8 @@
      "frozen": false,
      "line": 3.0,
      "total_line": 46.5,
-     "model_margin": 3.5,
-     "blend_margin": 3.15,
+     "model_margin": 2.9999999999999996,
+     "blend_margin": 3.0,
      "proj_total": 45.13690909090909,
      "factors": [
       "QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-15] | AWAY QB PLAYING Carson Wentz [verified 2026-11-12]"
@@ -7827,7 +7827,7 @@
        "team": "San Francisco 49ers",
        "line": -3.5,
        "price": -110.0,
-       "proj": 3.5,
+       "proj": 2.9999999999999996,
        "prob": 0.529,
        "edge": null,
        "edge_unit": "pts",
@@ -7858,25 +7858,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "San Francisco 49ers",
+       "side": "away",
+       "team": "Minnesota Vikings",
        "line": 0.0,
-       "price": -162.0,
+       "price": 136.0,
        "price_estimated": false,
-       "proj": 3.15,
-       "prob": 0.6004,
-       "edge": -0.0179,
+       "proj": 3.0,
+       "prob": 0.4043,
+       "edge": -0.0195,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "San Francisco 49ers ML -162",
+       "selection": "Minnesota Vikings ML +136",
        "game_id": "recElzL7HxGEOOWIt",
        "game": "Minnesota Vikings @ San Francisco 49ers",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -7888,8 +7888,8 @@
        "base_line": 3.0,
        "line": 9.0,
        "price": 0.0,
-       "prob": 0.7217,
-       "push": 0.0256,
+       "prob": 0.7264,
+       "push": 0.0255,
        "crosses": [
         7
        ],
@@ -7922,22 +7922,22 @@
       {
        "team": "San Francisco 49ers",
        "line": -6.0,
-       "prob": 0.3747
+       "prob": 0.3703
       },
       {
        "team": "Minnesota Vikings",
        "line": 0.0,
-       "prob": 0.3905
+       "prob": 0.3949
       },
       {
        "team": "San Francisco 49ers",
        "line": 0.0,
-       "prob": 0.5818
+       "prob": 0.5773
       },
       {
        "team": "Minnesota Vikings",
        "line": 6.0,
-       "prob": 0.5905
+       "prob": 0.5949
       }
      ]
     },
@@ -9171,8 +9171,8 @@
      "frozen": false,
      "line": -6.5,
      "total_line": 46.5,
-     "model_margin": -7.0,
-     "blend_margin": -6.65,
+     "model_margin": -7.699999999999999,
+     "blend_margin": -6.859999999999999,
      "proj_total": 45.83829545454545,
      "factors": [
       "QB: HOME QB PLAYING J.J. McCarthy [verified 2026-11-12] | AWAY QB PLAYING Trevor Lawrence [auto espn 2026-11-15]",
@@ -9186,7 +9186,7 @@
        "team": "Jacksonville Jaguars",
        "line": -6.0,
        "price": -108.0,
-       "proj": -7.0,
+       "proj": -7.699999999999999,
        "prob": 0.6082,
        "edge": null,
        "edge_unit": "pts",
@@ -9222,9 +9222,9 @@
        "line": 0.0,
        "price": 225.0,
        "price_estimated": false,
-       "proj": -6.65,
-       "prob": 0.2956,
-       "edge": -0.0121,
+       "proj": -6.86,
+       "prob": 0.2897,
+       "edge": -0.0179,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -9247,7 +9247,7 @@
        "base_line": 6.5,
        "line": 12.5,
        "price": 0.0,
-       "prob": 0.7391,
+       "prob": 0.7325,
        "push": 0,
        "crosses": [
         7
@@ -9281,22 +9281,22 @@
       {
        "team": "New York Giants",
        "line": 3.5,
-       "prob": 0.4236
+       "prob": 0.4172
       },
       {
        "team": "Jacksonville Jaguars",
        "line": -9.5,
-       "prob": 0.3803
+       "prob": 0.3866
       },
       {
        "team": "New York Giants",
        "line": 9.5,
-       "prob": 0.6197
+       "prob": 0.6134
       },
       {
        "team": "Jacksonville Jaguars",
        "line": -3.5,
-       "prob": 0.5764
+       "prob": 0.5828
       }
      ]
     },
@@ -9710,10 +9710,10 @@
      "league": "NCAAF",
      "date": "2026-11-21",
      "frozen": false,
-     "line": -3.0,
+     "line": -3.5,
      "total_line": 65.5,
      "model_margin": -5.4,
-     "blend_margin": -3.348,
+     "blend_margin": -3.7755,
      "proj_total": 64.01944230769232,
      "factors": [
       "weather: 58F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
@@ -9725,7 +9725,7 @@
        "side": "away",
        "team": "Memphis",
        "line": -3.0,
-       "price": -120.0,
+       "price": -102.0,
        "proj": -5.4,
        "prob": 0.5089,
        "edge": null,
@@ -9762,9 +9762,9 @@
        "line": 0.0,
        "price": 142.0,
        "price_estimated": false,
-       "proj": -3.35,
-       "prob": 0.4117,
-       "edge": -0.0015,
+       "proj": -3.78,
+       "prob": 0.4007,
+       "edge": -0.0125,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -9782,17 +9782,17 @@
       {
        "market": "teaser_leg",
        "kind": "spread",
-       "side": "away",
-       "team": "Memphis",
-       "base_line": -3.0,
-       "line": 3.0,
+       "side": "home",
+       "team": "Navy",
+       "base_line": 3.5,
+       "line": 9.5,
        "price": 0.0,
-       "prob": 0.5808,
-       "push": 0.0313,
+       "prob": 0.5867,
+       "push": 0,
        "crosses": [
-        3
+        7
        ],
-       "selection": "Memphis -3 -> +3 (crosses 3)",
+       "selection": "Navy +3.5 -> +9.5 (crosses 7)",
        "game_id": "recMonDLWOdqgAwh1",
        "game": "Memphis @ Navy",
        "priority": "secondary",
@@ -9820,23 +9820,23 @@
      "alt_spreads": [
       {
        "team": "Navy",
-       "line": 0.0,
-       "prob": 0.4012
+       "line": 0.5,
+       "prob": 0.415
       },
       {
        "team": "Memphis",
-       "line": -6.0,
-       "prob": 0.4118
+       "line": -6.5,
+       "prob": 0.4227
       },
       {
        "team": "Navy",
-       "line": 6.0,
-       "prob": 0.5608
+       "line": 6.5,
+       "prob": 0.5773
       },
       {
        "team": "Memphis",
-       "line": 0.0,
-       "prob": 0.5741
+       "line": -0.5,
+       "prob": 0.585
       }
      ]
     },
@@ -12149,8 +12149,8 @@
      "frozen": false,
      "line": 16.5,
      "total_line": 46.5,
-     "model_margin": 19.0,
-     "blend_margin": 17.25,
+     "model_margin": 18.2,
+     "blend_margin": 17.009999999999998,
      "proj_total": 46.71872727272727,
      "factors": [
       "QB: HOME QB PLAYING Josh Allen [verified 2026-11-12] | AWAY QB PLAYING Kyle McCord [auto espn 2026-11-15]"
@@ -12163,7 +12163,7 @@
        "team": "Buffalo Bills",
        "line": -16.5,
        "price": -112.0,
-       "proj": 19.0,
+       "proj": 18.2,
        "prob": 0.5989,
        "edge": null,
        "edge_unit": "pts",
@@ -12199,9 +12199,9 @@
        "line": 0.0,
        "price": 900.0,
        "price_estimated": false,
-       "proj": 17.25,
-       "prob": 0.0818,
-       "edge": -0.0182,
+       "proj": 17.01,
+       "prob": 0.0847,
+       "edge": -0.0153,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -12224,7 +12224,7 @@
        "base_line": 16.5,
        "line": 22.5,
        "price": 0.0,
-       "prob": 0.7122,
+       "prob": 0.7202,
        "push": 0,
        "crosses": [],
        "selection": "Miami Dolphins +16.5 -> +22.5",
@@ -12256,22 +12256,22 @@
       {
        "team": "Buffalo Bills",
        "line": -19.5,
-       "prob": 0.4021
+       "prob": 0.3945
       },
       {
        "team": "Miami Dolphins",
        "line": 13.5,
-       "prob": 0.4094
+       "prob": 0.417
       },
       {
        "team": "Buffalo Bills",
        "line": -13.5,
-       "prob": 0.5906
+       "prob": 0.583
       },
       {
        "team": "Miami Dolphins",
        "line": 19.5,
-       "prob": 0.5979
+       "prob": 0.6055
       }
      ]
     },
@@ -13500,10 +13500,10 @@
      "date": "2026-11-21",
      "frozen": false,
      "line": -6.5,
-     "total_line": 43.5,
+     "total_line": 42.5,
      "model_margin": -4.799999999999999,
      "blend_margin": -6.2535,
-     "proj_total": 44.64230769230769,
+     "proj_total": 43.94230769230769,
      "factors": [
       "weather: 63F, 3 | no severity"
      ],
@@ -13530,15 +13530,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 43.5,
-       "price": -105.0,
-       "proj": 44.64,
-       "prob": 0.514,
-       "edge": 1.14,
+       "line": 42.5,
+       "price": -115.0,
+       "proj": 43.94,
+       "prob": 0.5177,
+       "edge": 1.44,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 43.5",
+       "selection": "Over 42.5",
        "game_id": "reckwNilHUe4AfHjo",
        "game": "Iowa @ Illinois",
        "priority": "primary",
@@ -13592,13 +13592,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 43.5,
-       "line": 37.5,
+       "base_line": 42.5,
+       "line": 36.5,
        "price": 0.0,
-       "prob": 0.6148,
+       "prob": 0.6191,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 43.5 -> 37.5",
+       "selection": "Over 42.5 -> 36.5",
        "game_id": "reckwNilHUe4AfHjo",
        "game": "Iowa @ Illinois",
        "priority": "secondary",
@@ -14859,8 +14859,8 @@
      "frozen": false,
      "line": 2.5,
      "total_line": 44.5,
-     "model_margin": 5.8,
-     "blend_margin": 3.4899999999999998,
+     "model_margin": 6.1,
+     "blend_margin": 3.58,
      "proj_total": 45.69175,
      "factors": [
       "QB: HOME QB PLAYING Bryce Young [auto espn 2026-11-15] | AWAY QB PLAYING Jacoby Brissett [auto espn 2026-11-15]",
@@ -14874,7 +14874,7 @@
        "team": "Carolina Panthers",
        "line": -1.5,
        "price": -110.0,
-       "proj": 5.8,
+       "proj": 6.1,
        "prob": 0.6297,
        "edge": null,
        "edge_unit": "pts",
@@ -14910,9 +14910,9 @@
        "line": 0.0,
        "price": -130.0,
        "price_estimated": false,
-       "proj": 3.49,
-       "prob": 0.611,
-       "edge": 0.0458,
+       "proj": 3.58,
+       "prob": 0.6138,
+       "edge": 0.0486,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -14935,7 +14935,7 @@
        "base_line": -2.5,
        "line": 3.5,
        "price": 0.0,
-       "prob": 0.7543,
+       "prob": 0.7569,
        "push": 0,
        "crosses": [
         3
@@ -14969,22 +14969,22 @@
       {
        "team": "Carolina Panthers",
        "line": -5.5,
-       "prob": 0.4198
+       "prob": 0.4225
       },
       {
        "team": "Baltimore Ravens",
        "line": -0.5,
-       "prob": 0.3805
+       "prob": 0.3778
       },
       {
        "team": "Carolina Panthers",
        "line": 0.5,
-       "prob": 0.6195
+       "prob": 0.6222
       },
       {
        "team": "Baltimore Ravens",
        "line": 5.5,
-       "prob": 0.5802
+       "prob": 0.5775
       }
      ]
     },
@@ -14996,8 +14996,8 @@
      "frozen": false,
      "line": 10.0,
      "total_line": 44.5,
-     "model_margin": 7.3,
-     "blend_margin": 9.19,
+     "model_margin": 7.4,
+     "blend_margin": 9.22,
      "proj_total": 45.558420454545455,
      "factors": [
       "QB: HOME QB PLAYING C.J. Stroud [auto espn 2026-11-15] | AWAY QB PLAYING Daniel Jones [auto espn 2026-11-15]",
@@ -15011,7 +15011,7 @@
        "team": "Indianapolis Colts",
        "line": 10.0,
        "price": -108.0,
-       "proj": 7.3,
+       "proj": 7.4,
        "prob": 0.58,
        "edge": null,
        "edge_unit": "pts",
@@ -15047,9 +15047,9 @@
        "line": 0.0,
        "price": 370.0,
        "price_estimated": false,
-       "proj": 9.19,
-       "prob": 0.2289,
-       "edge": 0.0162,
+       "proj": 9.22,
+       "prob": 0.2282,
+       "edge": 0.0154,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -15072,7 +15072,7 @@
        "base_line": 10.0,
        "line": 16.0,
        "price": 0.0,
-       "prob": 0.7549,
+       "prob": 0.754,
        "push": 0.0251,
        "crosses": [],
        "selection": "Indianapolis Colts +10 -> +16",
@@ -15104,22 +15104,22 @@
       {
        "team": "Houston Texans",
        "line": -13.0,
-       "prob": 0.3369
+       "prob": 0.3378
       },
       {
        "team": "Indianapolis Colts",
        "line": 7.0,
-       "prob": 0.4405
+       "prob": 0.4396
       },
       {
        "team": "Houston Texans",
        "line": -7.0,
-       "prob": 0.5165
+       "prob": 0.5174
       },
       {
        "team": "Indianapolis Colts",
        "line": 13.0,
-       "prob": 0.6353
+       "prob": 0.6344
       }
      ]
     },
@@ -15267,8 +15267,8 @@
      "frozen": false,
      "line": 5.5,
      "total_line": 46.5,
-     "model_margin": 1.6,
-     "blend_margin": 4.33,
+     "model_margin": 4.5,
+     "blend_margin": 5.2,
      "proj_total": 46.000125,
      "factors": [
       "QB: HOME QB PLAYING Jared Goff [verified 2026-11-12] | AWAY QB QUESTIONABLE Baker Mayfield -> Jalon Daniels [auto espn 2026-11-15]",
@@ -15284,7 +15284,7 @@
        "team": "Tampa Bay Buccaneers",
        "line": 3.5,
        "price": -108.0,
-       "proj": 1.6,
+       "proj": 4.5,
        "prob": 0.5957,
        "edge": null,
        "edge_unit": "pts",
@@ -15320,9 +15320,9 @@
        "line": 0.0,
        "price": 195.0,
        "price_estimated": false,
-       "proj": 4.33,
-       "prob": 0.3633,
-       "edge": 0.0243,
+       "proj": 5.2,
+       "prob": 0.3372,
+       "edge": -0.0018,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -15345,7 +15345,7 @@
        "base_line": 5.5,
        "line": 11.5,
        "price": 0.0,
-       "prob": 0.7802,
+       "prob": 0.7544,
        "push": 0,
        "crosses": [
         7
@@ -15379,22 +15379,22 @@
       {
        "team": "Detroit Lions",
        "line": -8.5,
-       "prob": 0.3402
+       "prob": 0.3653
       },
       {
        "team": "Tampa Bay Buccaneers",
        "line": 2.5,
-       "prob": 0.4403
+       "prob": 0.414
       },
       {
        "team": "Detroit Lions",
        "line": -2.5,
-       "prob": 0.5597
+       "prob": 0.586
       },
       {
        "team": "Tampa Bay Buccaneers",
        "line": 8.5,
-       "prob": 0.6598
+       "prob": 0.6347
       }
      ]
     },
@@ -15590,18 +15590,18 @@
        "side": "home",
        "team": "Kansas State",
        "line": 0.0,
-       "price": 295.0,
+       "price": 270.0,
        "price_estimated": false,
        "proj": -7.72,
        "prob": 0.3036,
-       "edge": 0.0504,
+       "edge": 0.0333,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Kansas State ML +295",
+       "selection": "Kansas State ML +270",
        "game_id": "recua2UhDbDkVPPou",
        "game": "Arizona @ Kansas State",
        "priority": "primary",
@@ -15676,8 +15676,8 @@
      "frozen": false,
      "line": -4.5,
      "total_line": 51.5,
-     "model_margin": -5.300000000000001,
-     "blend_margin": -4.74,
+     "model_margin": -6.1,
+     "blend_margin": -4.9799999999999995,
      "proj_total": 51.5,
      "factors": [],
      "total_factor_why": [],
@@ -15688,7 +15688,7 @@
        "team": "Cincinnati Bengals",
        "line": -4.5,
        "price": -110.0,
-       "proj": -5.300000000000001,
+       "proj": -6.1,
        "prob": 0.545,
        "edge": null,
        "edge_unit": "pts",
@@ -15724,9 +15724,9 @@
        "line": 0.0,
        "price": 195.0,
        "price_estimated": false,
-       "proj": -4.74,
-       "prob": 0.3509,
-       "edge": 0.0119,
+       "proj": -4.98,
+       "prob": 0.3437,
+       "edge": 0.0048,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -15749,7 +15749,7 @@
        "base_line": 4.5,
        "line": 10.5,
        "price": 0.0,
-       "prob": 0.7391,
+       "prob": 0.7317,
        "push": 0,
        "crosses": [
         7
@@ -15783,22 +15783,22 @@
       {
        "team": "Washington Commanders",
        "line": 1.5,
-       "prob": 0.3999
+       "prob": 0.3927
       },
       {
        "team": "Cincinnati Bengals",
        "line": -7.5,
-       "prob": 0.3797
+       "prob": 0.3868
       },
       {
        "team": "Washington Commanders",
        "line": 7.5,
-       "prob": 0.6203
+       "prob": 0.6132
       },
       {
        "team": "Cincinnati Bengals",
        "line": -1.5,
-       "prob": 0.6001
+       "prob": 0.6073
       }
      ]
     },
@@ -16083,8 +16083,8 @@
      "frozen": false,
      "line": 7.5,
      "total_line": 53.5,
-     "model_margin": 9.9,
-     "blend_margin": 8.22,
+     "model_margin": 10.0,
+     "blend_margin": 8.25,
      "proj_total": 51.68060227272727,
      "factors": [
       "QB: HOME QB PLAYING Dak Prescott [auto espn 2026-11-15] | AWAY QB PLAYING Cam Ward [auto espn 2026-11-15]",
@@ -16098,7 +16098,7 @@
        "team": "Dallas Cowboys",
        "line": -7.5,
        "price": -115.0,
-       "proj": 9.9,
+       "proj": 10.0,
        "prob": 0.5546,
        "edge": null,
        "edge_unit": "pts",
@@ -16134,9 +16134,9 @@
        "line": 0.0,
        "price": 320.0,
        "price_estimated": false,
-       "proj": 8.22,
-       "prob": 0.2534,
-       "edge": 0.0153,
+       "proj": 8.25,
+       "prob": 0.2526,
+       "edge": 0.0145,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -16159,7 +16159,7 @@
        "base_line": -7.5,
        "line": -1.5,
        "price": 0.0,
-       "prob": 0.7294,
+       "prob": 0.7303,
        "push": 0,
        "crosses": [
         3,
@@ -16194,22 +16194,22 @@
       {
        "team": "Dallas Cowboys",
        "line": -10.5,
-       "prob": 0.3922
+       "prob": 0.3931
       },
       {
        "team": "Tennessee Titans",
        "line": 4.5,
-       "prob": 0.4068
+       "prob": 0.4059
       },
       {
        "team": "Dallas Cowboys",
        "line": -4.5,
-       "prob": 0.5932
+       "prob": 0.5941
       },
       {
        "team": "Tennessee Titans",
        "line": 10.5,
-       "prob": 0.6078
+       "prob": 0.6069
       }
      ]
     },
@@ -16507,9 +16507,9 @@
          "market_kind": "moneyline",
          "side": "home",
          "prob": 0.3036,
-         "price": 295.0,
+         "price": 270.0,
          "pro_favorite": false,
-         "selection": "Kansas State ML +295",
+         "selection": "Kansas State ML +270",
          "game": "Arizona @ Kansas State",
          "line": 0.0,
          "grade_market": "moneyline"
@@ -16517,10 +16517,10 @@
        ],
        "n_legs": 2,
        "prob": 0.1622,
-       "price": 654,
-       "break_even_prob": 0.1326,
-       "break_even_price": 654,
-       "edge": 0.0296,
+       "price": 606,
+       "break_even_prob": 0.1416,
+       "break_even_price": 606,
+       "edge": 0.0207,
        "edge_unit": "prob",
        "tier": "Lean",
        "units": 0.25,
@@ -16534,9 +16534,9 @@
          "market_kind": "moneyline",
          "side": "home",
          "prob": 0.3036,
-         "price": 295.0,
+         "price": 270.0,
          "pro_favorite": false,
-         "selection": "Kansas State ML +295",
+         "selection": "Kansas State ML +270",
          "game": "Arizona @ Kansas State",
          "line": 0.0,
          "grade_market": "moneyline"
@@ -16556,10 +16556,10 @@
        ],
        "n_legs": 2,
        "prob": 0.1621,
-       "price": 654,
-       "break_even_prob": 0.1326,
-       "break_even_price": 654,
-       "edge": 0.0295,
+       "price": 606,
+       "break_even_prob": 0.1416,
+       "break_even_price": 606,
+       "edge": 0.0206,
        "edge_unit": "prob",
        "tier": "Lean",
        "units": 0.25,
@@ -16585,9 +16585,9 @@
          "market_kind": "moneyline",
          "side": "home",
          "prob": 0.3036,
-         "price": 295.0,
+         "price": 270.0,
          "pro_favorite": false,
-         "selection": "Kansas State ML +295",
+         "selection": "Kansas State ML +270",
          "game": "Arizona @ Kansas State",
          "line": 0.0,
          "grade_market": "moneyline"
@@ -16607,49 +16607,10 @@
        ],
        "n_legs": 3,
        "prob": 0.0866,
-       "price": 1340,
-       "break_even_prob": 0.0695,
-       "break_even_price": 1340,
-       "edge": 0.0172,
-       "edge_unit": "prob",
-       "tier": "No Play",
-       "units": 0.0,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "rectlJ1OyHCjFTlpM",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.5,
-         "price": -115.0,
-         "pro_favorite": true,
-         "selection": "Massachusetts -2.5 (spread)",
-         "game": "Akron @ Massachusetts",
-         "line": -2.5,
-         "grade_market": "spread"
-        },
-        {
-         "game_id": "recua2UhDbDkVPPou",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.3036,
-         "price": 295.0,
-         "pro_favorite": false,
-         "selection": "Kansas State ML +295",
-         "game": "Arizona @ Kansas State",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.1518,
-       "price": 638,
-       "break_even_prob": 0.1354,
-       "break_even_price": 638,
-       "edge": 0.0164,
+       "price": 1249,
+       "break_even_prob": 0.0742,
+       "break_even_price": 1249,
+       "edge": 0.0125,
        "edge_unit": "prob",
        "tier": "No Play",
        "units": 0.0,
@@ -16689,6 +16650,45 @@
        "break_even_prob": 0.2744,
        "break_even_price": 264,
        "edge": 0.011,
+       "edge_unit": "prob",
+       "tier": "No Play",
+       "units": 0.0,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "rectlJ1OyHCjFTlpM",
+         "market_kind": "spread",
+         "side": "home",
+         "prob": 0.5,
+         "price": -115.0,
+         "pro_favorite": true,
+         "selection": "Massachusetts -2.5 (spread)",
+         "game": "Akron @ Massachusetts",
+         "line": -2.5,
+         "grade_market": "spread"
+        },
+        {
+         "game_id": "recua2UhDbDkVPPou",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.3036,
+         "price": 270.0,
+         "pro_favorite": false,
+         "selection": "Kansas State ML +270",
+         "game": "Arizona @ Kansas State",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.1518,
+       "price": 592,
+       "break_even_prob": 0.1446,
+       "break_even_price": 592,
+       "edge": 0.0072,
        "edge_unit": "prob",
        "tier": "No Play",
        "units": 0.0,
@@ -18983,5 +18983,5 @@
    "NFL teaser_leg: n=44, shrink 1.15 -> 1.15 (no meaningful gain; best 1.2, Brier gain 0.0001)"
   ]
  },
- "narrative_sha256": "cc0fea7cd2c38c991e1562df6c035160557d43fbe66bbc90e3aa549375e9b387"
+ "narrative_sha256": "182eeda868d2afe3c69fd7952453420fc0a960fe73ce5861398ab0bb007790d1"
 }
