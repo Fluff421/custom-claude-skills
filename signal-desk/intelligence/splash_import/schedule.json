@@ -4149,6 +4149,35 @@
         }
       ],
       "ledger_record_id": "rec1POGweSA4BNCwL"
+    },
+    {
+      "reference_id": "repo-game:5adb6482a6c4553a49d527f4",
+      "league": "NCAAF",
+      "date_central": "2026-11-18",
+      "away_team": "Akron",
+      "home_team": "UMass",
+      "kickoff_central": "2026-11-18 18:00",
+      "early_home_margin": 3.5,
+      "early_total": 46.5,
+      "first_source": {
+        "date_code": "SPL-L-20261116-1356",
+        "input_sha256": "25823780c4361b4a689af6536db82a503878359335deb19326fb1a83ccdb1de1",
+        "extracted_at_utc": "2026-11-16T19:56:00Z",
+        "kickoff_central": "2026-11-18 18:00",
+        "away_team": "Akron",
+        "home_team": "UMass"
+      },
+      "captures": [
+        {
+          "date_code": "SPL-L-20261116-1356",
+          "input_sha256": "25823780c4361b4a689af6536db82a503878359335deb19326fb1a83ccdb1de1",
+          "extracted_at_utc": "2026-11-16T19:56:00Z",
+          "kickoff_central": "2026-11-18 18:00",
+          "away_team": "Akron",
+          "home_team": "UMass"
+        }
+      ],
+      "ledger_record_id": null
     }
   ]
 }
