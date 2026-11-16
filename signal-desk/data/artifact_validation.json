@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T03:39:31.764538+00:00",
+  "checked_at": "2026-11-16T04:39:27.067217+00:00",
   "central_date": "2026-11-15",
   "ready": false,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.019,
+      "age_hours": 0.018,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 52.559,
+      "age_hours": 53.558,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,42 +26,42 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 52.601,
+      "age_hours": 53.601,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.019,
+      "age_hours": 0.018,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.042,
+      "age_hours": 0.04,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "ok",
-      "last_good_age_hours": 8.626,
-      "age_hours": 8.626
+      "last_good_age_hours": 9.625,
+      "age_hours": 9.625
     },
     "espn-sync.yml": {
-      "age_hours": 0.208,
+      "age_hours": 1.207,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 4.485,
+      "age_hours": 5.484,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 8.859,
+      "age_hours": 9.858,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "picks.yml: age 4.49h outside [0, 4)h (5m clock tolerance)"
+    "picks.yml: age 5.48h outside [0, 4)h (5m clock tolerance)"
   ],
   "warnings": [
-    "splash_board: 52.56h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 52.60h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 53.56h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 53.60h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "degraded": [],
   "paper_picks_only": true
