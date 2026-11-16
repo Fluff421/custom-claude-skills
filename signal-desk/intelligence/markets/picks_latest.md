@@ -43,7 +43,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Delaware @ New Mexico State | total | Under 53.5 | 50% | +0.2 pts | No Play | 0 |
 | Delaware @ New Mexico State | moneyline | New Mexico State ML +140 | 41% | -1.1% | No Play | 0 |
 | UTEP @ Air Force | spread | Air Force -21.5 (spread) | 50% |  | No Play | 0 |
-| UTEP @ Air Force | total | Under 46.5 | 53% | +2.5 pts | Lean | 0.5 |
+| UTEP @ Air Force | total | Under 45.5 | 53% | +2.2 pts | No Play | 0 |
 | UTEP @ Air Force | moneyline | Air Force ML -2100 | 94% | -1.7% | No Play | 0 |
 | Rutgers @ Penn State | spread | Rutgers +22.5 (spread) | 50% |  | No Play | 0 |
 | Rutgers @ Penn State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
@@ -92,12 +92,12 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Utah State @ Oregon State | moneyline | Utah State ML +280 | 26% | -0.3% | No Play | 0 |
 | Houston @ West Virginia | spread | Houston -7 (spread) | 50% |  | No Play | 0 |
 | Houston @ West Virginia | total | Under 70.5 | 53% | +2.5 pts | No Play | 0 |
-| Houston @ West Virginia | moneyline | West Virginia ML +250 | 29% | +0.1% | No Play | 0 |
+| Houston @ West Virginia | moneyline | West Virginia ML +250 | 31% | +2.0% | No Play | 0 |
 | Kentucky @ Missouri | spread | Kentucky +6 (spread) | 51% |  | No Play | 0 |
 | Kentucky @ Missouri | total | Over 48.5 | 52% | +1.5 pts | No Play | 0 |
 | Kentucky @ Missouri | moneyline | Kentucky ML +180 | 36% | +0.5% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
-| Clemson @ Duke | total | Over 43.5 | 51% | +1.1 pts | No Play | 0 |
+| Clemson @ Duke | total | Over 42.5 | 52% | +1.4 pts | No Play | 0 |
 | Clemson @ Duke | moneyline | Duke ML -485 | 81% | -1.9% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 63.5 | 51% | +0.7 pts | No Play | 0 |
@@ -106,7 +106,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | UCLA @ Michigan | total | Over 38.5 | 51% | +1.0 pts | No Play | 0 |
 | UCLA @ Michigan | moneyline | Michigan ML +154 | 40% | +0.8% | No Play | 0 |
 | Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
-| Colorado @ Cincinnati | total | Under 60.5 | 52% | +1.3 pts | No Play | 0 |
+| Colorado @ Cincinnati | total | Under 59.5 | 51% | +1.0 pts | No Play | 0 |
 | Colorado @ Cincinnati | moneyline | Colorado ML +136 | 42% | -0.7% | No Play | 0 |
 | Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
 | Georgia Southern @ Troy | total | Over 48.5 | 50% | +0.2 pts | No Play | 0 |
@@ -124,8 +124,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Oregon @ Michigan State | total | Over 44.5 | 52% | +1.7 pts | No Play | 0 |
 | Oregon @ Michigan State | moneyline | Oregon ML -750 | 86% | -1.7% | No Play | 0 |
 | NC State @ Florida State | spread | Florida State -9.5 (spread) | 50% |  | No Play | 0 |
-| NC State @ Florida State | total | Over 54.5 | 51% | +0.6 pts | No Play | 0 |
-| NC State @ Florida State | moneyline | NC State ML +285 | 26% | -0.2% | No Play | 0 |
+| NC State @ Florida State | total | Over 55.5 | 50% | +0.3 pts | No Play | 0 |
+| NC State @ Florida State | moneyline | NC State ML +295 | 26% | +0.5% | No Play | 0 |
 | Stanford @ California | spread | California +1.5 (spread) | 51% |  | No Play | 0 |
 | Stanford @ California | total | Under 56.5 | 50% | +0.3 pts | No Play | 0 |
 | Stanford @ California | moneyline | Stanford ML -130 | 55% | -1.4% | No Play | 0 |
@@ -202,16 +202,15 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Missouri State @ Jacksonville State | total | Under 52.5 | 50% | +0.0 pts | No Play | 0 |
 | Missouri State @ Jacksonville State | moneyline | Missouri State ML +320 | 23% | -0.3% | No Play | 0 |
 | Western Kentucky @ Liberty | spread | Liberty -14.5 (spread) | 52% |  | No Play | 0 |
-| Western Kentucky @ Liberty | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
-| Western Kentucky @ Liberty | moneyline | Western Kentucky ML +575 | 13% | -2.1% | No Play | 0 |
+| Western Kentucky @ Liberty | total | Under 53.5 | 50% | +0.1 pts | No Play | 0 |
+| Western Kentucky @ Liberty | moneyline | Liberty ML -850 | 88% | -1.1% | No Play | 0 |
 
 ### NCAAF Best parlays
 
 - Under 65.5 + Over 41.5: model 28.5%, needs +268 to break even (reference payout +268), edge +1.3%, No Play
-- Under 46.5 + Over 41.5: model 28.4%, needs +265 to break even (reference payout +265), edge +0.9%, No Play
-- Under 46.5 + Under 65.5 + Over 41.5: model 15.2%, needs +596 to break even (reference payout +596), edge +0.8%, No Play
-- Under 46.5 + Under 65.5: model 28.4%, needs +261 to break even (reference payout +261), edge +0.7%, No Play
 - Under 65.5 + Over 41.5 + Massachusetts -2.5 (spread): model 14.3%, needs +587 to break even (reference payout +587), edge -0.3%, No Play
+- Over 41.5 + Massachusetts -2.5 (spread): model 26.7%, needs +260 to break even (reference payout +260), edge -1.1%, No Play
+- Under 65.5 + Massachusetts -2.5 (spread): model 26.7%, needs +257 to break even (reference payout +257), edge -1.3%, No Play
 
 ## NFL
 
@@ -222,7 +221,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +170 | 35% | -1.6% | No Play | 0 |
 | Los Angeles Chargers @ Baltimore Ravens | spread | Los Angeles Chargers +4.5 (spread) | 59% |  | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | total | Over 39.5 | 57% | +1.6 pts | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +190 | 39% | +4.8% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 39% | +4.2% | Lean | 0.5 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 57% | +1.5 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1600 | 95% | +1.3% | No Play | 0 |
