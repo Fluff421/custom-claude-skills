@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "generated_at": "2026-11-16T02:39:25+00:00",
+ "generated_at": "2026-11-16T03:07:42+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -6037,7 +6037,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-16T02:38:53+00:00",
+   "generated_at": "2026-11-16T03:07:11+00:00",
    "date": "2026-11-15",
    "games": [
     {
@@ -7704,7 +7704,7 @@
        "market": "total",
        "side": "over",
        "line": 50.5,
-       "price": -120.0,
+       "price": -112.0,
        "proj": 52.16,
        "prob": 0.5203,
        "edge": 1.66,
@@ -7722,18 +7722,18 @@
        "side": "away",
        "team": "Pittsburgh",
        "line": 0.0,
-       "price": 380.0,
+       "price": 410.0,
        "price_estimated": false,
        "proj": 13.08,
        "prob": 0.1918,
-       "edge": -0.0166,
+       "edge": -0.0043,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Pittsburgh ML +380",
+       "selection": "Pittsburgh ML +410",
        "game_id": "rec93kjwVAFgdDJ3w",
        "game": "Pittsburgh @ Louisville",
        "priority": "primary",
@@ -9564,10 +9564,10 @@
      "league": "NCAAF",
      "date": "2026-11-21",
      "frozen": false,
-     "line": -1.5,
+     "line": 1.5,
      "total_line": 45.5,
      "model_margin": 0.0,
-     "blend_margin": -1.2825,
+     "blend_margin": 1.2825,
      "proj_total": 47.184615384615384,
      "factors": [
       "weather: 67F, 1 | no severity"
@@ -9579,7 +9579,7 @@
        "side": "home",
        "team": "Tennessee",
        "line": 1.5,
-       "price": -118.0,
+       "price": -102.0,
        "proj": 0.0,
        "prob": 0.5004,
        "edge": null,
@@ -9590,7 +9590,7 @@
        "game_id": "recJSChs4B4va8L8L",
        "game": "LSU @ Tennessee",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       },
       {
        "market": "total",
@@ -9611,21 +9611,21 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "LSU",
+       "side": "home",
+       "team": "Tennessee",
        "line": 0.0,
-       "price": -112.0,
+       "price": -108.0,
        "price_estimated": false,
-       "proj": -1.28,
+       "proj": 1.28,
        "prob": 0.534,
-       "edge": 0.0057,
+       "edge": 0.0148,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "LSU ML -112",
+       "selection": "Tennessee ML -108",
        "game_id": "recJSChs4B4va8L8L",
        "game": "LSU @ Tennessee",
        "priority": "primary",
@@ -9636,8 +9636,8 @@
       {
        "market": "teaser_leg",
        "kind": "spread",
-       "side": "home",
-       "team": "Tennessee",
+       "side": "away",
+       "team": "LSU",
        "base_line": 1.5,
        "line": 7.5,
        "price": 0.0,
@@ -9647,7 +9647,7 @@
         3,
         7
        ],
-       "selection": "Tennessee +1.5 -> +7.5 (crosses 3 and 7)",
+       "selection": "LSU +1.5 -> +7.5 (crosses 3 and 7)",
        "game_id": "recJSChs4B4va8L8L",
        "game": "LSU @ Tennessee",
        "priority": "secondary",
@@ -9675,23 +9675,23 @@
      "alt_spreads": [
       {
        "team": "Tennessee",
-       "line": -1.5,
-       "prob": 0.429
-      },
-      {
-       "team": "LSU",
        "line": -4.5,
        "prob": 0.4113
       },
       {
+       "team": "LSU",
+       "line": -1.5,
+       "prob": 0.429
+      },
+      {
        "team": "Tennessee",
-       "line": 4.5,
-       "prob": 0.5887
+       "line": 1.5,
+       "prob": 0.571
       },
       {
        "team": "LSU",
-       "line": 1.5,
-       "prob": 0.571
+       "line": 4.5,
+       "prob": 0.5887
       }
      ]
     },
@@ -12336,18 +12336,18 @@
        "side": "away",
        "team": "Clemson",
        "line": 0.0,
-       "price": 350.0,
+       "price": 380.0,
        "price_estimated": false,
        "proj": 11.46,
        "prob": 0.2227,
-       "edge": 0.0004,
+       "edge": 0.0143,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Clemson ML +350",
+       "selection": "Clemson ML +380",
        "game_id": "recVzWaVEiRUnKtxe",
        "game": "Clemson @ Duke",
        "priority": "primary",
@@ -13804,7 +13804,7 @@
        "market": "total",
        "side": "under",
        "line": 55.5,
-       "price": -115.0,
+       "price": -110.0,
        "proj": 55.48,
        "prob": 0.5003,
        "edge": 0.02,
@@ -17083,18 +17083,18 @@
        "side": "away",
        "team": "Tampa Bay Buccaneers",
        "line": 0.0,
-       "price": 205.0,
+       "price": 190.0,
        "price_estimated": false,
        "proj": 4.33,
        "prob": 0.3633,
-       "edge": 0.0354,
+       "edge": 0.0184,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
-       "tier": "Lean",
-       "units": 0.5,
-       "selection": "Tampa Bay Buccaneers ML +205",
+       "tier": "No Play",
+       "units": 0.0,
+       "selection": "Tampa Bay Buccaneers ML +190",
        "game_id": "recsW4vpBY2bJSIzc",
        "game": "Tampa Bay Buccaneers @ Detroit Lions",
        "priority": "primary",
@@ -20849,5 +20849,5 @@
    "NFL teaser_leg: n=44, shrink 1.15 -> 1.15 (no meaningful gain; best 1.2, Brier gain 0.0001)"
   ]
  },
- "narrative_sha256": "d2e416dbc259fcbe725b8eb18358e393e230e88a765f0cd5ce7ed13de328f824"
+ "narrative_sha256": "764132439e4314ab1ba7178b66236b74a0ccbc5e63729e137e8db81b5e97805c"
 }

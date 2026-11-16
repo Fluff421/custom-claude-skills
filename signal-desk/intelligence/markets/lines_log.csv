@@ -1678,3 +1678,8 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-16T02:38:53+00:00,recjfxvQjakyxptWi,401856753,NCAAF,Georgia @ South Carolina,2026-11-21,Draft Kings,-16.5,51.5,550,-800,-105.0,-115.0,-110.0,-110.0,-10.5
 2026-11-16T02:38:53+00:00,recqHN0qEss3RtmUZ,401873068,NFL,Baltimore Ravens @ Carolina Panthers,2026-11-22,Draft Kings,2.5,44.5,-130,110,-110.0,-110.0,-108.0,-112.0,-4.5
 2026-11-16T02:38:53+00:00,recqmMdr0PsqZrEg8,401873066,NFL,Indianapolis Colts @ Houston Texans,2026-11-19,Draft Kings,10.0,44.5,-485,370,-112.0,-108.0,-105.0,-115.0,5.5
+2026-11-16T03:07:11+00:00,rec93kjwVAFgdDJ3w,401858306,NCAAF,Pittsburgh @ Louisville,2026-11-20,Draft Kings,13.5,50.5,-550,410,-105.0,-115.0,-112.0,-108.0,12.5
+2026-11-16T03:07:11+00:00,recJSChs4B4va8L8L,401856754,NCAAF,LSU @ Tennessee,2026-11-21,Draft Kings,1.5,45.5,-108,-112,-102.0,-118.0,-115.0,-105.0,-1.5
+2026-11-16T03:07:11+00:00,recVzWaVEiRUnKtxe,401858303,NCAAF,Clemson @ Duke,2026-11-20,Draft Kings,11.5,43.5,-500,380,-112.0,-108.0,-110.0,-110.0,8.5
+2026-11-16T03:07:11+00:00,recbrlyZmvtoBNnel,401858308,NCAAF,Stanford @ California,2026-11-21,Draft Kings,-2.5,55.5,110,-130,-110.0,-110.0,-110.0,-110.0,-1.5
+2026-11-16T03:07:11+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,Draft Kings,5.5,46.5,-230,190,-112.0,-108.0,-110.0,-110.0,4.5

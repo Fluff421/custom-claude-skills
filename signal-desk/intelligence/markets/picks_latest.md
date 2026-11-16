@@ -26,7 +26,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Eastern Michigan @ Western Michigan | moneyline | Eastern Michigan ML +490 | 16% | -1.2% | No Play | 0 |
 | Pittsburgh @ Louisville | spread | Pittsburgh +12.5 (spread) | 51% |  | No Play | 0 |
 | Pittsburgh @ Louisville | total | Over 50.5 | 52% | +1.7 pts | No Play | 0 |
-| Pittsburgh @ Louisville | moneyline | Pittsburgh ML +380 | 19% | -1.7% | No Play | 0 |
+| Pittsburgh @ Louisville | moneyline | Pittsburgh ML +410 | 19% | -0.4% | No Play | 0 |
 | Northern Illinois @ North Dakota State | spread | Northern Illinois +24.5 (spread) | 50% |  | No Play | 0 |
 | Northern Illinois @ North Dakota State | total | Over 45.5 | 51% | +0.7 pts | No Play | 0 |
 | Northern Illinois @ North Dakota State | moneyline | North Dakota State ML -3600 | 96% | -1.7% | No Play | 0 |
@@ -53,7 +53,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | UL Monroe @ App State | moneyline | UL Monroe ML +500 | 17% | +0.3% | No Play | 0 |
 | LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
 | LSU @ Tennessee | total | Over 45.5 | 52% | +1.7 pts | No Play | 0 |
-| LSU @ Tennessee | moneyline | LSU ML -112 | 53% | +0.6% | No Play | 0 |
+| LSU @ Tennessee | moneyline | Tennessee ML -108 | 53% | +1.5% | No Play | 0 |
 | BYU @ Kansas | spread | BYU -7.5 (spread) | 50% |  | No Play | 0 |
 | BYU @ Kansas | total | Under 48.5 | 51% | +0.9 pts | No Play | 0 |
 | BYU @ Kansas | moneyline | Kansas ML +195 | 35% | +1.1% | No Play | 0 |
@@ -98,7 +98,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Kentucky @ Missouri | moneyline | Kentucky ML +164 | 36% | -1.7% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
 | Clemson @ Duke | total | Over 43.5 | 51% | +1.1 pts | No Play | 0 |
-| Clemson @ Duke | moneyline | Clemson ML +350 | 22% | +0.0% | No Play | 0 |
+| Clemson @ Duke | moneyline | Clemson ML +380 | 22% | +1.4% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 63.5 | 51% | +0.7 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +170 | 36% | -0.9% | No Play | 0 |
@@ -251,7 +251,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Indianapolis Colts @ Houston Texans | moneyline | Indianapolis Colts ML +370 | 23% | +1.6% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 46.5 | 52% | +0.5 pts | No Play | 0 |
-| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +205 | 36% | +3.5% | Lean | 0.5 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +190 | 36% | +1.8% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 53.5 | 57% | +1.8 pts | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Tennessee Titans ML +320 | 25% | +1.5% | No Play | 0 |
