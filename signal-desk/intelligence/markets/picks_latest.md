@@ -8,7 +8,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 |---|---|---|---|---|---|---|
 | Oklahoma State @ Arizona State | spread | Oklahoma State -4 (spread) | 51% |  | No Play | 0 |
 | Oklahoma State @ Arizona State | total | Under 61.5 | 50% | +0.0 pts | No Play | 0 |
-| Oklahoma State @ Arizona State | moneyline | Arizona State ML +145 | 41% | +0.0% | No Play | 0 |
+| Oklahoma State @ Arizona State | moneyline | Arizona State ML +142 | 41% | -0.5% | No Play | 0 |
 | Charlotte @ Tulsa | spread | Tulsa -18.5 (spread) | 52% |  | No Play | 0 |
 | Charlotte @ Tulsa | total | Over 52.5 | 51% | +1.0 pts | No Play | 0 |
 | Charlotte @ Tulsa | moneyline | Tulsa ML -1450 | 94% | +0.0% | No Play | 0 |
@@ -166,7 +166,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Indiana @ Washington | total | Over 43.5 | 52% | +1.4 pts | No Play | 0 |
 | Indiana @ Washington | moneyline | Washington ML +260 | 29% | +1.6% | No Play | 0 |
 | Wake Forest @ Georgia Tech | spread | Georgia Tech +21 (spread) | 50% |  | No Play | 0 |
-| Wake Forest @ Georgia Tech | total | Under 57.5 | 52% | +1.3 pts | No Play | 0 |
+| Wake Forest @ Georgia Tech | total | Under 56.5 | 51% | +1.0 pts | No Play | 0 |
 | Wake Forest @ Georgia Tech | moneyline | Georgia Tech ML +900 | 8% | -1.9% | No Play | 0 |
 | Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
@@ -194,7 +194,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Arizona @ Kansas State | moneyline | Kansas State ML +295 | 30% | +5.0% | Lean | 0.5 |
 | New Mexico @ Wyoming | spread | New Mexico -10.5 (spread) | 51% |  | No Play | 0 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | +2.8 pts | Lean | 0.5 |
-| New Mexico @ Wyoming | moneyline | Wyoming ML +260 | 26% | -1.3% | No Play | 0 |
+| New Mexico @ Wyoming | moneyline | Wyoming ML +260 | 28% | +0.6% | No Play | 0 |
 | UNLV @ San José State | spread | UNLV -4 (spread) | 51% |  | No Play | 0 |
 | UNLV @ San José State | total | Over 46.5 | 51% | +0.5 pts | No Play | 0 |
 | UNLV @ San José State | moneyline | UNLV ML -205 | 66% | -1.4% | No Play | 0 |
@@ -207,11 +207,11 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 ### NCAAF Best parlays
 
-- Kansas State ML +295 + Over 37.5: model 16.2%, needs +671 to break even (reference payout +671), edge +3.2%, Lean
 - Under 65.5 + Kansas State ML +295: model 16.2%, needs +654 to break even (reference payout +654), edge +3.0%, Lean
-- Under 65.5 + Kansas State ML +295 + Over 37.5: model 8.7%, needs +1372 to break even (reference payout +1372), edge +1.9%, No Play
-- Under 65.5 + Over 37.5: model 28.5%, needs +273 to break even (reference payout +273), edge +1.7%, No Play
+- Kansas State ML +295 + Over 37.5: model 16.2%, needs +654 to break even (reference payout +654), edge +2.9%, Lean
+- Under 65.5 + Kansas State ML +295 + Over 37.5: model 8.7%, needs +1340 to break even (reference payout +1340), edge +1.7%, No Play
 - Massachusetts -2.5 (spread) + Kansas State ML +295: model 15.2%, needs +638 to break even (reference payout +638), edge +1.6%, No Play
+- Under 65.5 + Over 37.5: model 28.5%, needs +264 to break even (reference payout +264), edge +1.1%, No Play
 
 ## NFL
 
@@ -253,6 +253,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 46.5 | 52% | +0.5 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +195 | 36% | +2.4% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Over 51.5 | 50% | +0.0 pts | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Washington Commanders ML +195 | 35% | +1.2% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
