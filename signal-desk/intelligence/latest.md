@@ -161,7 +161,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Los Angeles Chargers @ Baltimore Ravens | total | Over 38.5 | 59% | Lean | 0.5 |
+| Los Angeles Chargers @ Baltimore Ravens | total | Over 39.5 | 57% | Lean | 0.5 |
 | Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +185 | 39% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 65.5 | 53% | Lean | 0.5 |
@@ -174,9 +174,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread) | model 61.6%, needs +104 to break even, edge +12.6%, Max Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread) | model 37.4%, needs +293 to break even, edge +12.0%, Max Play
 - NFL parlay: Over 40.5 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread) | model 36.7%, needs +293 to break even, edge +11.3%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 40.5 -> 34.5 | model 48.1%, needs +160 to break even, edge +9.6%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Over 38.5 -> 32.5 | model 47.5%, needs +160 to break even, edge +9.1%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Over 38.5 -> 32.5 + Under 53.5 -> 59.5 | model 47.5%, needs +160 to break even, edge +9.1%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 40.5 -> 34.5 | model 47.5%, needs +160 to break even, edge +9.1%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5 | model 47.0%, needs +160 to break even, edge +8.5%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Under 53.5 -> 59.5 | model 47.0%, needs +160 to break even, edge +8.5%, Max Play
 
 ## Results and learning by market
 
