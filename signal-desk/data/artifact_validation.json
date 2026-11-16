@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T00:39:21.116797+00:00",
+  "checked_at": "2026-11-16T01:39:02.619020+00:00",
   "central_date": "2026-11-15",
   "ready": true,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.018,
+      "age_hours": 0.013,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 49.556,
+      "age_hours": 50.551,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,40 +26,40 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 49.6,
+      "age_hours": 50.6,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.018,
+      "age_hours": 0.013,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.039,
+      "age_hours": 0.034,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "ok",
-      "last_good_age_hours": 5.623,
-      "age_hours": 5.623
+      "last_good_age_hours": 6.618,
+      "age_hours": 6.618
     },
     "espn-sync.yml": {
-      "age_hours": 0.205,
+      "age_hours": 1.2,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 1.483,
+      "age_hours": 2.477,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 5.856,
+      "age_hours": 6.851,
       "max_age_hours": 26
     }
   },
   "errors": [],
   "warnings": [
-    "splash_board: 49.56h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 49.60h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 50.55h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 50.60h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "degraded": [],
   "paper_picks_only": true

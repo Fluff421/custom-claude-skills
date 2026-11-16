@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-16T00:39:38.262166+00:00",
- "snapshot_age_hours": 49.6,
+ "generated_at": "2026-11-16T01:39:01.441327+00:00",
+ "snapshot_age_hours": 50.6,
  "games": [
   {
    "game": "Pittsburgh Steelers @ Cincinnati Bengals",
@@ -49,56 +49,6 @@
     "tier": "No Play",
     "prob": 0.6376,
     "edge": -0.0027,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "San Francisco 49ers @ Dallas Cowboys",
-   "record_id": "repo-game:9843699497170cefb7f80875",
-   "league": "NFL",
-   "date": "2026-11-15",
-   "snapshot_id": "SPL-L-20261113-1706",
-   "captured_at_central": "2026-11-13 17:06:00 CST",
-   "splash_home_margin": -4.5,
-   "splash_total": 55.5,
-   "import_home_margin": -4.5,
-   "import_total": 55.5,
-   "reference_origin": "repository",
-   "ledger_record_id": "recAWaU5OhKm6iTgv",
-   "model_status": "available",
-   "spread": {
-    "pick": "Dallas Cowboys +4.5",
-    "side": "home",
-    "tier": "Lean",
-    "prob": 0.5769,
-    "edge": 2.4,
-    "proj": -2.3000000000000007,
-    "import_side": "home",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Dallas Cowboys +10.5 (teased)",
-     "prob": 0.7316
-    }
-   },
-   "total": {
-    "pick": "Under 55.5",
-    "side": "under",
-    "tier": "Lean",
-    "prob": 0.57,
-    "edge": 1.76,
-    "proj": 53.74,
-    "import_side": "under",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Under 61.5 (teased)",
-     "prob": 0.7813
-    }
-   },
-   "moneyline": {
-    "pick": "Dallas Cowboys ML +180",
-    "tier": "No Play",
-    "prob": 0.3793,
-    "edge": 0.0222,
     "model_ml_side": "home"
    }
   },
