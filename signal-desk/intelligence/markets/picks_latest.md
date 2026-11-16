@@ -134,7 +134,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Iowa State @ UCF | moneyline | UCF ML -125 | 56% | +0.1% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
 | SMU @ Notre Dame | total | Under 56.5 | 53% | +2.2 pts | No Play | 0 |
-| SMU @ Notre Dame | moneyline | SMU ML +900 | 8% | -1.6% | No Play | 0 |
+| SMU @ Notre Dame | moneyline | SMU ML +950 | 8% | -1.1% | No Play | 0 |
 | Coastal Carolina @ Louisiana | spread | Louisiana -7.5 (spread) | 52% |  | No Play | 0 |
 | Coastal Carolina @ Louisiana | total | Over 51.5 | 50% | +0.2 pts | No Play | 0 |
 | Coastal Carolina @ Louisiana | moneyline | Coastal Carolina ML +320 | 24% | +0.2% | No Play | 0 |
@@ -262,9 +262,9 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +117 to break even (reference payout +117), edge +16.7%, Max Play
-- Kansas City Chiefs ML -1600 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +119 to break even (reference payout +119), edge +15.0%, Max Play
 - Denver Broncos ML -550 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 56.2%, needs +141 to break even (reference payout +141), edge +14.7%, Max Play
 - Kansas City Chiefs ML -1600 + Denver Broncos ML -550 + Buffalo Bills ML -1450: model 89.2%, needs -292 to break even (reference payout -292), edge +14.7%, Max Play
+- Kansas City Chiefs ML -1600 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +117 to break even (reference payout +117), edge +14.6%, Max Play
 - Kansas City Chiefs ML -1600 + Denver Broncos ML -550 + Carolina Panthers -1.5 (spread): model 56.2%, needs +140 to break even (reference payout +140), edge +14.5%, Max Play
 
 ### NFL Best 6-point teasers
