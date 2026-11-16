@@ -31,7 +31,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Northern Illinois @ North Dakota State | total | Over 45.5 | 51% | +0.7 pts | No Play | 0 |
 | Northern Illinois @ North Dakota State | moneyline | North Dakota State ML -3200 | 96% | -1.4% | No Play | 0 |
 | Colorado State @ Fresno State | spread | Colorado State +20.5 (spread) | 50% |  | No Play | 0 |
-| Colorado State @ Fresno State | total | Under 64.5 | 51% | +0.4 pts | No Play | 0 |
+| Colorado State @ Fresno State | total | Under 65.5 | 51% | +0.7 pts | No Play | 0 |
 | Colorado State @ Fresno State | moneyline | Colorado State ML +850 | 9% | -1.8% | No Play | 0 |
 | Virginia Tech @ Miami | spread | Miami -18.5 (spread) | 52% |  | No Play | 0 |
 | Virginia Tech @ Miami | total | Under 61.5 | 51% | +0.5 pts | No Play | 0 |
@@ -43,13 +43,13 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Delaware @ New Mexico State | total | Under 53.5 | 50% | +0.2 pts | No Play | 0 |
 | Delaware @ New Mexico State | moneyline | New Mexico State ML +140 | 41% | -1.1% | No Play | 0 |
 | UTEP @ Air Force | spread | Air Force -21.5 (spread) | 50% |  | No Play | 0 |
-| UTEP @ Air Force | total | Under 45.5 | 53% | +2.2 pts | No Play | 0 |
+| UTEP @ Air Force | total | Under 46.5 | 53% | +2.5 pts | Lean | 0.5 |
 | UTEP @ Air Force | moneyline | Air Force ML -2100 | 94% | -1.7% | No Play | 0 |
 | Rutgers @ Penn State | spread | Rutgers +22.5 (spread) | 50% |  | No Play | 0 |
 | Rutgers @ Penn State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
 | Rutgers @ Penn State | moneyline | Penn State ML -2400 | 95% | -1.3% | No Play | 0 |
 | UL Monroe @ App State | spread | App State -13.5 (spread) | 51% |  | No Play | 0 |
-| UL Monroe @ App State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
+| UL Monroe @ App State | total | Over 49.5 | 51% | +1.1 pts | No Play | 0 |
 | UL Monroe @ App State | moneyline | UL Monroe ML +455 | 17% | -1.0% | No Play | 0 |
 | LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
 | LSU @ Tennessee | total | Over 46.5 | 52% | +1.4 pts | No Play | 0 |
@@ -70,8 +70,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Rice @ Temple | total | Over 48.5 | 52% | +1.6 pts | No Play | 0 |
 | Rice @ Temple | moneyline | Temple ML -148 | 59% | -1.0% | No Play | 0 |
 | Washington State @ Texas State | spread | Washington State +14 (spread) | 51% |  | No Play | 0 |
-| Washington State @ Texas State | total | Under 60.5 | 51% | +0.5 pts | No Play | 0 |
-| Washington State @ Texas State | moneyline | Washington State ML +320 | 24% | +0.4% | No Play | 0 |
+| Washington State @ Texas State | total | Under 61.5 | 51% | +0.8 pts | No Play | 0 |
+| Washington State @ Texas State | moneyline | Washington State ML +330 | 24% | +1.0% | No Play | 0 |
 | Memphis @ Navy | spread | Memphis -3 (spread) | 51% |  | No Play | 0 |
 | Memphis @ Navy | total | Under 66.5 | 52% | +1.8 pts | No Play | 0 |
 | Memphis @ Navy | moneyline | Navy ML +142 | 40% | -1.2% | No Play | 0 |
@@ -85,7 +85,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Maryland @ USC | total | Under 57.5 | 50% | +0.4 pts | No Play | 0 |
 | Maryland @ USC | moneyline | USC ML -900 | 88% | -1.8% | No Play | 0 |
 | Wisconsin @ Purdue | spread | Purdue +6 (spread) | 50% |  | No Play | 0 |
-| Wisconsin @ Purdue | total | Over 44.5 | 52% | +1.2 pts | No Play | 0 |
+| Wisconsin @ Purdue | total | Over 45.5 | 51% | +0.9 pts | No Play | 0 |
 | Wisconsin @ Purdue | moneyline | Purdue ML +180 | 35% | -0.8% | No Play | 0 |
 | Utah State @ Oregon State | spread | Oregon State -9.5 (spread) | 51% |  | No Play | 0 |
 | Utah State @ Oregon State | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
@@ -98,7 +98,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Kentucky @ Missouri | moneyline | Kentucky ML +180 | 36% | +0.5% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
 | Clemson @ Duke | total | Over 42.5 | 52% | +1.4 pts | No Play | 0 |
-| Clemson @ Duke | moneyline | Duke ML -485 | 81% | -1.9% | No Play | 0 |
+| Clemson @ Duke | moneyline | Clemson ML +370 | 21% | -0.7% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 63.5 | 51% | +0.7 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 39% | +0.0% | No Play | 0 |
@@ -106,7 +106,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | UCLA @ Michigan | total | Over 38.5 | 51% | +1.0 pts | No Play | 0 |
 | UCLA @ Michigan | moneyline | Michigan ML +154 | 40% | +0.8% | No Play | 0 |
 | Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
-| Colorado @ Cincinnati | total | Under 59.5 | 51% | +1.0 pts | No Play | 0 |
+| Colorado @ Cincinnati | total | Under 58.5 | 51% | +0.7 pts | No Play | 0 |
 | Colorado @ Cincinnati | moneyline | Colorado ML +136 | 42% | -0.7% | No Play | 0 |
 | Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
 | Georgia Southern @ Troy | total | Over 48.5 | 50% | +0.2 pts | No Play | 0 |
@@ -169,7 +169,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Wake Forest @ Georgia Tech | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
 | Wake Forest @ Georgia Tech | moneyline | Georgia Tech ML +900 | 8% | -1.9% | No Play | 0 |
 | Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
-| Florida International @ Kennesaw State | total | Over 45.5 | 51% | +0.6 pts | No Play | 0 |
+| Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
 | Florida International @ Kennesaw State | moneyline | Florida International ML +142 | 40% | -0.9% | No Play | 0 |
 | Central Michigan @ Buffalo | spread | Buffalo -1.5 (spread) | 50% |  | No Play | 0 |
 | Central Michigan @ Buffalo | total | Over 43.5 | 52% | +1.3 pts | No Play | 0 |
@@ -208,9 +208,10 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 ### NCAAF Best parlays
 
 - Under 65.5 + Over 41.5: model 28.5%, needs +268 to break even (reference payout +268), edge +1.3%, No Play
+- Under 46.5 + Over 41.5: model 28.4%, needs +265 to break even (reference payout +265), edge +0.9%, No Play
+- Under 46.5 + Under 65.5 + Over 41.5: model 15.2%, needs +596 to break even (reference payout +596), edge +0.8%, No Play
+- Under 46.5 + Under 65.5: model 28.4%, needs +261 to break even (reference payout +261), edge +0.7%, No Play
 - Under 65.5 + Over 41.5 + Massachusetts -2.5 (spread): model 14.3%, needs +587 to break even (reference payout +587), edge -0.3%, No Play
-- Over 41.5 + Massachusetts -2.5 (spread): model 26.7%, needs +260 to break even (reference payout +260), edge -1.1%, No Play
-- Under 65.5 + Massachusetts -2.5 (spread): model 26.7%, needs +257 to break even (reference payout +257), edge -1.3%, No Play
 
 ## NFL
 
