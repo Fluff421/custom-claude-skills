@@ -165,7 +165,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -535 | 89% | Lean | 0.5 |
 | UTEP @ Air Force | total | Under 47.5 | 53% | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -270 | 76% | Lean | 0.5 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1350 | 104% | Max Play | 1.0 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | Strong Play | 1.0 |

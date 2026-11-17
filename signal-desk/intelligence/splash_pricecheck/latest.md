@@ -1,6 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-17 07:39Z
+# Pick-time check at the newest Splash lines, 2026-11-17 08:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
+
+Warning: the newest Splash snapshot is 13 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 1 games are unpriced; stored owner lines are not model recommendations.
 

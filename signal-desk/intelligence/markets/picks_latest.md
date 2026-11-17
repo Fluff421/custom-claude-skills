@@ -240,7 +240,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 62% | +0.6% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 52% | +0.4 pts | No Play | 0 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | +3.5% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -270 | 76% | +3.1% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | spread | Buffalo Bills -16.5 (spread) | 60% |  | Strong Play | 1 |
 | Miami Dolphins @ Buffalo Bills | total | Under 45.5 | 56% | +1.4 pts | No Play | 0 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1350 | 104% | +10.9% | Max Play | 1 |
@@ -249,7 +249,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | +6.1% | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 55% | +1.1 pts | No Play | 0 |
-| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -675 | 89% | +1.5% | No Play | 0 |
+| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -650 | 89% | +1.9% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 46.5 | 52% | +0.5 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -270 | 74% | +0.8% | No Play | 0 |
