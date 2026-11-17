@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T04:48:39.765978+00:00",
+  "checked_at": "2026-11-17T05:39:20.866224+00:00",
   "central_date": "2026-11-16",
   "ready": true,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.016,
+      "age_hours": 0.02,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 8.878,
+      "age_hours": 9.722,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,41 +26,41 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 8.901,
+      "age_hours": 9.701,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.016,
+      "age_hours": 0.021,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.042,
+      "age_hours": 0.039,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "degraded",
-      "last_good_age_hours": 33.778,
-      "age_hours": 6.358
+      "last_good_age_hours": 34.623,
+      "age_hours": 7.203
     },
     "espn-sync.yml": {
-      "age_hours": 0.756,
+      "age_hours": 1.601,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 0.628,
+      "age_hours": 1.473,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 6.848,
+      "age_hours": 7.693,
       "max_age_hours": 26
     }
   },
   "errors": [],
   "warnings": [
-    "splash_board: 8.88h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 8.90h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "injury-pull.yml: latest run is not healthy, successful and LIVE; last good pull 33.78h ago. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
+    "splash_board: 9.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 9.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "injury-pull.yml: latest run is not healthy, successful and LIVE; last good pull 34.62h ago. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
   ],
   "degraded": [
     "injury_data"
