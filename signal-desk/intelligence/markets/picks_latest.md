@@ -100,7 +100,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Kentucky @ Missouri | moneyline | Kentucky ML +180 | 36% | +0.5% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
 | Clemson @ Duke | total | Over 40.5 | 54% | +3.0 pts | Lean | 0.5 |
-| Clemson @ Duke | moneyline | Clemson ML +390 | 21% | +0.2% | No Play | 0 |
+| Clemson @ Duke | moneyline | Clemson ML +400 | 19% | -1.0% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 65.5 | 53% | +2.9 pts | Lean | 0.5 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 40% | +1.1% | No Play | 0 |
@@ -228,8 +228,8 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arizona Cardinals @ Kansas City Chiefs | total | Under 41.5 | 52% | +0.5 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1450 | 101% | +7.6% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | total | Under 48.5 | 52% | +0.4 pts | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -700 | 90% | +2.5% | No Play | 0 |
+| New Orleans Saints @ Chicago Bears | total | Under 49.5 | 53% | +0.7 pts | No Play | 0 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -675 | 90% | +2.9% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
