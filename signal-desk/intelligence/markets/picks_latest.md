@@ -82,7 +82,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | North Carolina @ Virginia | moneyline | Virginia ML -118 | 52% | -1.7% | No Play | 0 |
 | East Carolina @ Army | spread | Army -4.5 (spread) | 50% |  | No Play | 0 |
 | East Carolina @ Army | total | Over 44.5 | 53% | +2.4 pts | No Play | 0 |
-| East Carolina @ Army | moneyline | East Carolina ML +185 | 36% | +1.0% | No Play | 0 |
+| East Carolina @ Army | moneyline | East Carolina ML +180 | 36% | +0.4% | No Play | 0 |
 | Maryland @ USC | spread | USC -16.5 (spread) | 51% |  | No Play | 0 |
 | Maryland @ USC | total | Under 57.5 | 50% | +0.4 pts | No Play | 0 |
 | Maryland @ USC | moneyline | USC ML -900 | 88% | -1.8% | No Play | 0 |
@@ -100,7 +100,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Kentucky @ Missouri | moneyline | Kentucky ML +180 | 36% | +0.5% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
 | Clemson @ Duke | total | Over 40.5 | 52% | +2.0 pts | No Play | 0 |
-| Clemson @ Duke | moneyline | Clemson ML +390 | 19% | -1.4% | No Play | 0 |
+| Clemson @ Duke | moneyline | Clemson ML +390 | 21% | +0.2% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 40% | +1.1% | No Play | 0 |
@@ -211,7 +211,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 
 ### NCAAF Best parlays
 
-- Under 53.5 + Massachusetts -2.5 (spread): model 27.2%, needs +257 to break even (reference payout +257), edge -0.8%, No Play
+- Under 53.5 + Massachusetts -2.5 (spread): model 27.2%, needs +253 to break even (reference payout +253), edge -1.1%, No Play
 
 ## NFL
 
@@ -231,7 +231,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -550 | 89% | +4.7% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 40.5 | 53% | +0.7 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -162 | 67% | +4.7% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -180 | 68% | +3.6% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 63% | +0.7% | No Play | 0 |
@@ -243,16 +243,16 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1200 | 104% | +11.7% | Max Play | 1 |
 | Baltimore Ravens @ Carolina Panthers | spread | Carolina Panthers -1.5 (spread) | 63% |  | Max Play | 1 |
 | Baltimore Ravens @ Carolina Panthers | total | Over 43.5 | 56% | +1.3 pts | No Play | 0 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -148 | 65% | +5.2% | Lean | 0.5 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | +6.2% | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 55% | +1.1 pts | No Play | 0 |
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -700 | 91% | +3.1% | Lean | 0.5 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
-| Tampa Bay Buccaneers @ Detroit Lions | total | Under 46.5 | 52% | +0.5 pts | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | total | Under 45.5 | 51% | +0.2 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -270 | 74% | +0.7% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 52.5 | 56% | +1.2 pts | No Play | 0 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -290 | 76% | +1.3% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.8% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -425 | 84% | +3.5% | Lean | 0.5 |
