@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T17:39:31.714985+00:00",
- "snapshot_age_hours": 21.7,
+ "generated_at": "2026-11-17T18:39:16.112704+00:00",
+ "snapshot_age_hours": 22.7,
  "games": [
   {
    "game": "Ball State @ Ohio",
@@ -3636,8 +3636,8 @@
     "pick": "New Orleans Saints +10.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5097,
-    "edge": -0.3,
+    "prob": 0.5129,
+    "edge": -0.4,
     "proj": 9.0,
     "import_side": "",
     "import_tier": "",
