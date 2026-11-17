@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T15:40:05.347048+00:00",
- "snapshot_age_hours": 19.7,
+ "generated_at": "2026-11-17T16:39:36.787013+00:00",
+ "snapshot_age_hours": 20.7,
  "games": [
   {
    "game": "Ball State @ Ohio",
@@ -95,10 +95,10 @@
     }
    },
    "moneyline": {
-    "pick": "Western Michigan ML -690",
+    "pick": "Eastern Michigan ML +500",
     "tier": "No Play",
-    "prob": 0.8611,
-    "edge": -0.0123,
+    "prob": 0.1495,
+    "edge": -0.0172,
     "model_ml_side": "home"
    }
   },
@@ -563,9 +563,9 @@
    "moneyline": {
     "pick": "West Virginia ML +245",
     "tier": "No Play",
-    "prob": 0.3029,
-    "edge": 0.0131,
-    "model_ml_side": "away"
+    "prob": 0.2868,
+    "edge": -0.003,
+    "model_ml_side": "home"
    }
   },
   {
