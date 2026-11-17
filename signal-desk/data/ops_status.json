@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-17T11:38:18Z",
+ "generated_at_utc": "2026-11-17T12:39:25Z",
  "generated_for_central_date": "2026-11-17",
  "graded_picks_csv_rows": 224,
  "ledger_health": {
@@ -86,6 +86,24 @@
    "file": "espn-sync.yml",
    "runs": [
     {
+     "run_id": 44083235767,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44083235767",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-17T12:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 81,
+      "rows_changed": 79,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44055679192,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44055679192",
      "event": "workflow_dispatch",
@@ -138,24 +156,6 @@
       "rows_changed": 79,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44010290963,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44010290963",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-17T03:27:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 79,
-      "rows_changed": 79,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -166,6 +166,21 @@
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "runs": [
+    {
+     "run_id": 44084987239,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44084987239",
+     "event": "workflow_run",
+     "created_at": "2026-11-17T12:38:09Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44015376807,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44015376807",
@@ -210,24 +225,14 @@
       "units_recapped": 0,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 43943729847,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43943729847",
-     "event": "schedule",
-     "created_at": "2026-11-16T19:51:41Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "new_picks": 0,
-      "units_recapped": 0,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [
+    {
+     "run_id": 44084236570,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44084236570",
+     "created_at": "2026-11-17T12:33:21Z"
+    },
     {
      "run_id": 43970224857,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43970224857",
@@ -247,11 +252,6 @@
      "run_id": 43643436964,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43643436964",
      "created_at": "2026-11-14T21:33:22Z"
-    },
-    {
-     "run_id": 43595407168,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43595407168",
-     "created_at": "2026-11-14T12:33:22Z"
     }
    ],
    "gate_skipped": [],
@@ -261,6 +261,22 @@
    "workflow": "Close & Grade",
    "file": "close-grade.yml",
    "runs": [
+    {
+     "run_id": 44084816633,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44084816633",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-17T12:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 19,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44075632629,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44075632629",
@@ -308,22 +324,6 @@
       "calibration_upserts": 19,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44048269562,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44048269562",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-17T08:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 19,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -334,6 +334,32 @@
    "workflow": "NCAAF Injury Pull",
    "file": "injury-pull.yml",
    "runs": [
+    {
+     "run_id": 44084187688,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44084187688",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-17T12:33:02Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: DraftEdge parsed 466 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizon"
+      ],
+      "mode": "LIVE",
+      "injury_games_expected": 0,
+      "injury_games_covered": 0,
+      "injury_games_not_yet_due": 0,
+      "injury_games_overdue": 0,
+      "injury_games_independent": 0,
+      "fpi_missing": 0
+     },
+     "error_lines": [
+      "ERROR: DraftEdge parsed 466 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizo"
+     ]
+    },
     {
      "run_id": 43970188996,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43970188996",
@@ -395,6 +421,20 @@
    "workflow": "Context & Calibrate",
    "file": "context-calibrate.yml",
    "runs": [
+    {
+     "run_id": 44081057345,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44081057345",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-17T12:13:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "rows_updated": 81,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 43965313967,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43965313967",
@@ -529,7 +569,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-17T04:03:19Z",
-   "age_h": 7.6,
+   "age_h": 8.6,
    "status": "missed"
   },
   {
@@ -538,7 +578,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-17T04:10:59Z",
-   "age_h": 7.5,
+   "age_h": 8.5,
    "status": "missed"
   },
   {
@@ -547,7 +587,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-17T04:46:10Z",
-   "age_h": 6.9,
+   "age_h": 7.9,
    "status": "missed"
   },
   {
@@ -556,7 +596,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-16T21:57:47Z",
-   "age_h": 13.7,
+   "age_h": 14.7,
    "status": "ok"
   },
   {
@@ -565,7 +605,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-16T23:02:12Z",
-   "age_h": 12.6,
+   "age_h": 13.6,
    "status": "ok"
   },
   {
@@ -575,7 +615,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-17T03:02:36Z",
-   "age_h": 8.6,
+   "age_h": 9.6,
    "status": "ok"
   },
   {
@@ -585,7 +625,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-16T22:27:11Z",
-   "age_h": 13.2,
+   "age_h": 14.2,
    "status": "ok"
   }
  ],
