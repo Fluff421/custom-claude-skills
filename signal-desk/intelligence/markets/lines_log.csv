@@ -2178,3 +2178,8 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-17T23:10:16+00:00,recMnEBPakZAQmbNs,401860920,NCAAF,Washington State @ Texas State,2026-11-21,Draft Kings,11.5,61.5,-440,340,-105.0,-115.0,-110.0,-110.0,14.5
 2026-11-17T23:10:16+00:00,recme91BfkgcKJOOr,401858310,NCAAF,Wake Forest @ Georgia Tech,2026-11-20,Draft Kings,-20.5,56.5,900,-1600,-105.0,-115.0,-110.0,-110.0,-20.5
 2026-11-17T23:10:16+00:00,recqmMdr0PsqZrEg8,401873066,NFL,Indianapolis Colts @ Houston Texans,2026-11-19,Draft Kings,12.5,44.5,-700,500,-108.0,-112.0,-105.0,-115.0,5.5
+2026-11-17T23:39:15+00:00,rec4RUwyyQD8hIgZd,401866466,NCAAF,Miami (OH) @ Kent State,2026-11-17,Draft Kings,-9.5,46.5,295,-375,-108.0,-112.0,-108.0,-112.0,-8.5
+2026-11-17T23:39:15+00:00,recA8wbdTRMKXNzCn,401873075,NFL,Las Vegas Raiders @ Denver Broncos,2026-11-22,Draft Kings,10.0,40.5,-600,440,-112.0,-108.0,-112.0,-108.0,8.5
+2026-11-17T23:39:15+00:00,recDCa1TW7radKDSJ,401873074,NFL,New York Jets @ Los Angeles Chargers,2026-11-22,Draft Kings,3.5,41.5,-180,150,-102.0,-118.0,-105.0,-115.0,9.5
+2026-11-17T23:39:15+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,Draft Kings,7.0,44.5,-310,250,-112.0,-108.0,-102.0,-118.0,4.5
+2026-11-17T23:39:15+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.5,53.5,240,-298,-118.0,-102.0,-110.0,-110.0,-1.5
