@@ -1,4 +1,4 @@
-# Signal Desk intelligence report, 2026-11-16
+# Signal Desk intelligence report, 2026-11-17
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
@@ -149,9 +149,10 @@ By size of base edge:
 
 ## Data gaps right now
 
-- 79 of 79 upcoming games have no Splash line (tracking picks use the ESPN line): Oklahoma State @ Arizona State; Pittsburgh Steelers @ Philadelphia Eagles; Arizona Cardinals @ Kansas City Chiefs; Charlotte @ Tulsa; New Orleans Saints @ Chicago Bears; North Texas @ Tulane; Miami (OH) @ Kent State; Utah @ TCU
+- 81 of 81 upcoming games have no Splash line (tracking picks use the ESPN line): Oklahoma State @ Arizona State; Pittsburgh Steelers @ Philadelphia Eagles; Arizona Cardinals @ Kansas City Chiefs; Charlotte @ Tulsa; New Orleans Saints @ Chicago Bears; North Texas @ Tulane; Miami (OH) @ Kent State; Utah @ TCU
+- 2 upcoming games have no injury notes
 - 1 games inside the forecast window have no weather note
-- NCAAF quarterback checks cover 0 of 66 games (comes from the Grok feed only)
+- NCAAF quarterback checks cover 0 of 68 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
 

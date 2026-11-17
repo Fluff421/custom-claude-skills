@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T05:38:45+00:00",
- "date": "2026-11-16",
+ "generated_at": "2026-11-17T06:39:05+00:00",
+ "date": "2026-11-17",
  "games": [
   {
    "game_id": "rec0Aocy50yJHXK5L",
@@ -272,143 +272,6 @@
      "team": "Pittsburgh Steelers",
      "line": -1.5,
      "prob": 0.5776
-    }
-   ]
-  },
-  {
-   "game_id": "rec1POGweSA4BNCwL",
-   "game": "Los Angeles Chargers @ Baltimore Ravens",
-   "league": "NFL",
-   "date": "2026-11-16",
-   "frozen": true,
-   "line": 4.5,
-   "total_line": 39.5,
-   "model_margin": -0.7999999999999998,
-   "blend_margin": 2.91,
-   "proj_total": 41.127022727272724,
-   "factors": [
-    "QB: HOME QB PLAYING Jacoby Brissett [auto espn 2026-11-16] | AWAY QB PLAYING Justin Herbert [auto espn 2026-11-16]",
-    "weather: 45F, 33 | no severity"
-   ],
-   "total_factor_why": [],
-   "picks": [
-    {
-     "market": "spread",
-     "side": "away",
-     "team": "Los Angeles Chargers",
-     "line": 4.5,
-     "price": -110.0,
-     "proj": -0.7999999999999998,
-     "prob": 0.5926,
-     "edge": null,
-     "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
-     "selection": "Los Angeles Chargers +4.5 (spread)",
-     "game_id": "rec1POGweSA4BNCwL",
-     "game": "Los Angeles Chargers @ Baltimore Ravens",
-     "priority": "primary",
-     "pro_favorite": false
-    },
-    {
-     "market": "total",
-     "side": "over",
-     "line": 39.5,
-     "price": -110.0,
-     "proj": 41.13,
-     "prob": 0.5743,
-     "edge": 1.63,
-     "edge_unit": "pts",
-     "tier": "Lean",
-     "units": 0.5,
-     "selection": "Over 39.5",
-     "game_id": "rec1POGweSA4BNCwL",
-     "game": "Los Angeles Chargers @ Baltimore Ravens",
-     "priority": "primary",
-     "pro_favorite": false
-    },
-    {
-     "market": "moneyline",
-     "side": "away",
-     "team": "Los Angeles Chargers",
-     "line": 0.0,
-     "price": 173,
-     "price_estimated": true,
-     "proj": 2.91,
-     "prob": 0.3792,
-     "edge": 0.0129,
-     "edge_unit": "prob",
-     "price_source": "estimated",
-     "quote_captured_at": null,
-     "quote_snapshot_id": null,
-     "tier": "No Play",
-     "units": 0.0,
-     "selection": "Los Angeles Chargers ML +173 (price estimated from the line)",
-     "game_id": "rec1POGweSA4BNCwL",
-     "game": "Los Angeles Chargers @ Baltimore Ravens",
-     "priority": "primary",
-     "pro_favorite": false
-    }
-   ],
-   "teaser_legs": [
-    {
-     "market": "teaser_leg",
-     "kind": "spread",
-     "side": "away",
-     "team": "Los Angeles Chargers",
-     "base_line": 4.5,
-     "line": 10.5,
-     "price": 0.0,
-     "prob": 0.755,
-     "push": 0,
-     "crosses": [
-      7
-     ],
-     "selection": "Los Angeles Chargers +4.5 -> +10.5 (crosses 7)",
-     "game_id": "rec1POGweSA4BNCwL",
-     "game": "Los Angeles Chargers @ Baltimore Ravens",
-     "priority": "secondary",
-     "tier": "No Play",
-     "units": 0.0
-    },
-    {
-     "market": "teaser_leg",
-     "kind": "total",
-     "side": "over",
-     "base_line": 39.5,
-     "line": 33.5,
-     "price": 0.0,
-     "prob": 0.7772,
-     "push": 0.0,
-     "crosses": [],
-     "selection": "Over 39.5 -> 33.5",
-     "game_id": "rec1POGweSA4BNCwL",
-     "game": "Los Angeles Chargers @ Baltimore Ravens",
-     "priority": "secondary",
-     "tier": "No Play",
-     "units": 0.0
-    }
-   ],
-   "alt_spreads": [
-    {
-     "team": "Baltimore Ravens",
-     "line": -7.5,
-     "prob": 0.327
-    },
-    {
-     "team": "Los Angeles Chargers",
-     "line": 1.5,
-     "prob": 0.4551
-    },
-    {
-     "team": "Baltimore Ravens",
-     "line": -1.5,
-     "prob": 0.5449
-    },
-    {
-     "team": "Los Angeles Chargers",
-     "line": 7.5,
-     "prob": 0.673
     }
    ]
   },
@@ -5209,18 +5072,18 @@
      "side": "away",
      "team": "Clemson",
      "line": 0.0,
-     "price": 370.0,
+     "price": 390.0,
      "price_estimated": false,
      "proj": 12.31,
      "prob": 0.206,
-     "edge": -0.0067,
+     "edge": 0.002,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Clemson ML +370",
+     "selection": "Clemson ML +390",
      "game_id": "recVzWaVEiRUnKtxe",
      "game": "Clemson @ Duke",
      "priority": "primary",
@@ -6915,6 +6778,46 @@
      "prob": 0.5917
     }
    ]
+  },
+  {
+   "game_id": "reccZYYXF5frCqEUV",
+   "game": "Kent State @ Eastern Michigan",
+   "league": "NCAAF",
+   "date": "2026-11-24",
+   "frozen": false,
+   "line": null,
+   "total_line": null,
+   "model_margin": 8.2,
+   "blend_margin": 8.2,
+   "proj_total": null,
+   "factors": [],
+   "total_factor_why": null,
+   "picks": [
+    {
+     "market": "moneyline",
+     "side": "home",
+     "team": "Eastern Michigan",
+     "line": 0.0,
+     "price": -110.0,
+     "price_estimated": true,
+     "proj": 8.2,
+     "prob": 0.7076,
+     "edge": 0.1838,
+     "edge_unit": "prob",
+     "price_source": "estimated",
+     "quote_captured_at": null,
+     "quote_snapshot_id": null,
+     "tier": "No Play",
+     "units": 0.0,
+     "selection": "Eastern Michigan ML -110 (price estimated from the line)",
+     "game_id": "reccZYYXF5frCqEUV",
+     "game": "Kent State @ Eastern Michigan",
+     "priority": "primary",
+     "pro_favorite": false
+    }
+   ],
+   "teaser_legs": [],
+   "alt_spreads": []
   },
   {
    "game_id": "reccsGQ0WZVRNDL66",
@@ -9499,10 +9402,10 @@
    "league": "NCAAF",
    "date": "2026-11-21",
    "frozen": false,
-   "line": -1.5,
+   "line": 1.5,
    "total_line": 56.5,
    "model_margin": -4.4,
-   "blend_margin": -1.9205,
+   "blend_margin": 0.6445,
    "proj_total": 56.36153846153846,
    "factors": [
     "weather: 59F, wind 3mph, precip 1% | sev=0.00 | open-meteo"
@@ -9514,7 +9417,7 @@
      "side": "away",
      "team": "Georgia State",
      "line": -1.5,
-     "price": -108.0,
+     "price": -118.0,
      "proj": -4.4,
      "prob": 0.5081,
      "edge": null,
@@ -9525,7 +9428,7 @@
      "game_id": "recr1qJDVd2AaP7Oh",
      "game": "Georgia State @ Marshall",
      "priority": "primary",
-     "pro_favorite": true
+     "pro_favorite": false
     },
     {
      "market": "total",
@@ -9546,21 +9449,21 @@
     },
     {
      "market": "moneyline",
-     "side": "away",
-     "team": "Georgia State",
+     "side": "home",
+     "team": "Marshall",
      "line": 0.0,
-     "price": -115.0,
+     "price": -110.0,
      "price_estimated": false,
-     "proj": -1.92,
-     "prob": 0.5509,
-     "edge": 0.016,
+     "proj": 0.64,
+     "prob": 0.5171,
+     "edge": -0.0067,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Georgia State ML -115",
+     "selection": "Marshall ML -110",
      "game_id": "recr1qJDVd2AaP7Oh",
      "game": "Georgia State @ Marshall",
      "priority": "primary",
@@ -9573,15 +9476,16 @@
      "kind": "spread",
      "side": "away",
      "team": "Georgia State",
-     "base_line": -1.5,
-     "line": 4.5,
+     "base_line": 1.5,
+     "line": 7.5,
      "price": 0.0,
-     "prob": 0.5921,
+     "prob": 0.6019,
      "push": 0,
      "crosses": [
-      3
+      3,
+      7
      ],
-     "selection": "Georgia State -1.5 -> +4.5 (crosses 3)",
+     "selection": "Georgia State +1.5 -> +7.5 (crosses 3 and 7)",
      "game_id": "recr1qJDVd2AaP7Oh",
      "game": "Georgia State @ Marshall",
      "priority": "secondary",
@@ -9609,25 +9513,65 @@
    "alt_spreads": [
     {
      "team": "Marshall",
-     "line": -1.5,
-     "prob": 0.4128
+     "line": -4.5,
+     "prob": 0.3952
     },
     {
      "team": "Georgia State",
-     "line": -4.5,
-     "prob": 0.4276
+     "line": -1.5,
+     "prob": 0.4454
     },
     {
      "team": "Marshall",
-     "line": 4.5,
-     "prob": 0.5724
+     "line": 1.5,
+     "prob": 0.5546
     },
     {
      "team": "Georgia State",
-     "line": 1.5,
-     "prob": 0.5872
+     "line": 4.5,
+     "prob": 0.6048
     }
    ]
+  },
+  {
+   "game_id": "recrI4L4xg2U92x5o",
+   "game": "Miami (OH) @ Western Michigan",
+   "league": "NCAAF",
+   "date": "2026-11-24",
+   "frozen": false,
+   "line": null,
+   "total_line": null,
+   "model_margin": 8.8,
+   "blend_margin": 8.8,
+   "proj_total": null,
+   "factors": [],
+   "total_factor_why": null,
+   "picks": [
+    {
+     "market": "moneyline",
+     "side": "home",
+     "team": "Western Michigan",
+     "line": 0.0,
+     "price": -110.0,
+     "price_estimated": true,
+     "proj": 8.8,
+     "prob": 0.7212,
+     "edge": 0.1973,
+     "edge_unit": "prob",
+     "price_source": "estimated",
+     "quote_captured_at": null,
+     "quote_snapshot_id": null,
+     "tier": "No Play",
+     "units": 0.0,
+     "selection": "Western Michigan ML -110 (price estimated from the line)",
+     "game_id": "recrI4L4xg2U92x5o",
+     "game": "Miami (OH) @ Western Michigan",
+     "priority": "primary",
+     "pro_favorite": false
+    }
+   ],
+   "teaser_legs": [],
+   "alt_spreads": []
   },
   {
    "game_id": "recsW4vpBY2bJSIzc",
@@ -10097,18 +10041,18 @@
      "side": "away",
      "team": "Cincinnati Bengals",
      "line": 0.0,
-     "price": -305.0,
+     "price": -290.0,
      "price_estimated": false,
      "proj": -6.38,
      "prob": 0.7559,
-     "edge": 0.0028,
+     "edge": 0.0123,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Cincinnati Bengals ML -305",
+     "selection": "Cincinnati Bengals ML -290",
      "game_id": "recvStneVWJBEWYU3",
      "game": "Cincinnati Bengals @ Washington Commanders",
      "priority": "primary",
@@ -11575,5 +11519,8 @@
    ]
   }
  },
- "markets_not_yet_posted": []
+ "markets_not_yet_posted": [
+  "Kent State @ Eastern Michigan (2026-11-24)",
+  "Miami (OH) @ Western Michigan (2026-11-24)"
+ ]
 }

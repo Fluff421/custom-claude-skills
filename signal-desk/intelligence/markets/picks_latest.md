@@ -1,6 +1,8 @@
-# Signal Desk: every bet, every game (2026-11-16)
+# Signal Desk: every bet, every game (2026-11-17)
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
+
+Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Michigan (2026-11-24), Miami (OH) @ Western Michigan (2026-11-24)
 
 ## NCAAF
 
@@ -98,7 +100,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Kentucky @ Missouri | moneyline | Kentucky ML +180 | 36% | +0.5% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
 | Clemson @ Duke | total | Over 40.5 | 52% | +2.0 pts | No Play | 0 |
-| Clemson @ Duke | moneyline | Clemson ML +370 | 21% | -0.7% | No Play | 0 |
+| Clemson @ Duke | moneyline | Clemson ML +390 | 21% | +0.2% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 40% | +1.1% | No Play | 0 |
@@ -132,6 +134,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Iowa State @ UCF | spread | UCF -1.5 (spread) | 51% |  | No Play | 0 |
 | Iowa State @ UCF | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
 | Iowa State @ UCF | moneyline | UCF ML -125 | 56% | +0.1% | No Play | 0 |
+| Kent State @ Eastern Michigan | moneyline | Eastern Michigan ML -110 (price estimated from the line) | 71% | +18.4% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
 | SMU @ Notre Dame | total | Under 56.5 | 53% | +2.2 pts | No Play | 0 |
 | SMU @ Notre Dame | moneyline | SMU ML +950 | 8% | -1.1% | No Play | 0 |
@@ -185,7 +188,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Vanderbilt @ Florida | moneyline | Vanderbilt ML +410 | 18% | -1.3% | No Play | 0 |
 | Georgia State @ Marshall | spread | Georgia State -1.5 (spread) | 51% |  | No Play | 0 |
 | Georgia State @ Marshall | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
-| Georgia State @ Marshall | moneyline | Georgia State ML -115 | 55% | +1.6% | No Play | 0 |
+| Georgia State @ Marshall | moneyline | Marshall ML -110 | 52% | -0.7% | No Play | 0 |
+| Miami (OH) @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 72% | +19.7% | No Play | 0 |
 | Akron @ Massachusetts | spread | Massachusetts -2.5 (spread) | 50% |  | Lean | 0.5 |
 | Akron @ Massachusetts | total | Over 46.5 | 52% | +1.3 pts | No Play | 0 |
 | Akron @ Massachusetts | moneyline | Massachusetts ML -162 | 60% | -1.4% | No Play | 0 |
@@ -251,7 +255,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -278 | 74% | +0.3% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 52.5 | 56% | +1.2 pts | No Play | 0 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -305 | 76% | +0.3% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -290 | 76% | +1.2% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -425 | 84% | +3.5% | Lean | 0.5 |

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T05:39:40.383066+00:00",
- "snapshot_age_hours": 9.7,
+ "generated_at": "2026-11-17T06:39:25.403871+00:00",
+ "snapshot_age_hours": 10.7,
  "games": [
   {
    "game": "Ball State @ Ohio",
@@ -47,8 +47,8 @@
    "moneyline": {
     "pick": "Ball State ML +365",
     "tier": "No Play",
-    "prob": 0.2195,
-    "edge": 0.0044,
+    "prob": 0.2059,
+    "edge": -0.0091,
     "model_ml_side": "home"
    }
   },
@@ -1863,8 +1863,8 @@
    "moneyline": {
     "pick": "Georgia State ML -111",
     "tier": "No Play",
-    "prob": 0.5628,
-    "edge": 0.0367,
+    "prob": 0.5072,
+    "edge": -0.0189,
     "model_ml_side": "away"
    }
   },
@@ -2763,9 +2763,9 @@
    "moneyline": {
     "pick": "Southern Miss ML +158",
     "tier": "No Play",
-    "prob": 0.3926,
-    "edge": 0.005,
-    "model_ml_side": "home"
+    "prob": 0.4016,
+    "edge": 0.014,
+    "model_ml_side": "away"
    }
   },
   {
