@@ -167,7 +167,6 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1200 | 104% | Max Play | 1.0 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | Strong Play | 1.0 |
-| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -700 | 91% | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -425 | 84% | Lean | 0.5 |
 - NCAAF parlay: Under 54.5 + Massachusetts -2.5 (spread) | model 27.4%, needs +257 to break even, edge -0.6%, No Play
 - NFL parlay: Kansas City Chiefs ML -1450 + Buffalo Bills ML -1200 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +117 to break even, edge +16.7%, Max Play
