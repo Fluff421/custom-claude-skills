@@ -145,7 +145,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | UTSA @ UAB | total | Over 51.5 | 51% | +0.8 pts | No Play | 0 |
 | UTSA @ UAB | moneyline | UAB ML +195 | 33% | -0.9% | No Play | 0 |
 | San Diego State @ Boise State | spread | Boise State -16.5 (spread) | 52% |  | No Play | 0 |
-| San Diego State @ Boise State | total | Under 61.5 | 50% | +0.1 pts | No Play | 0 |
+| San Diego State @ Boise State | total | Under 62.5 | 50% | +0.4 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | San Diego State ML +600 | 12% | -1.9% | No Play | 0 |
 | Ball State @ Ohio | spread | Ohio -9.5 (spread) | 51% |  | No Play | 0 |
 | Ball State @ Ohio | total | Over 50.5 | 51% | +1.0 pts | No Play | 0 |

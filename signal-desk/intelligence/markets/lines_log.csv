@@ -2136,3 +2136,5 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-17T19:39:20+00:00,recDCa1TW7radKDSJ,401873074,NFL,New York Jets @ Los Angeles Chargers,2026-11-22,Draft Kings,3.5,41.5,-180,150,-102.0,-118.0,-105.0,-115.0,9.5
 2026-11-17T19:39:20+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,Draft Kings,3.0,45.5,-162,136,-112.0,-108.0,-112.0,-108.0,3.5
 2026-11-17T19:39:20+00:00,recRDfetvKLmGizti,401860919,NCAAF,Utah State @ Oregon State,2026-11-21,Draft Kings,9.5,50.5,-355,280,-112.0,-108.0,-115.0,-105.0,10.0
+2026-11-17T19:47:22+00:00,rec0Aocy50yJHXK5L,401856870,NCAAF,Oklahoma State @ Arizona State,2026-11-21,DraftKings,-3.0,61.5,130,-155,-108.0,-112.0,-108.0,-112.0,-4.0
+2026-11-17T19:47:22+00:00,recfU2ZV1porTqF2q,401860925,NCAAF,San Diego State @ Boise State,2026-11-21,DraftKings,16.5,62.5,-900,600,-112.0,-108.0,-102.0,-118.0,18.5
