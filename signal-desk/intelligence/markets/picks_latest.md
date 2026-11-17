@@ -18,7 +18,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | North Texas @ Tulane | total | Over 57.5 | 51% | +0.7 pts | No Play | 0 |
 | North Texas @ Tulane | moneyline | Tulane ML +205 | 32% | -0.5% | No Play | 0 |
 | Miami (OH) @ Kent State | spread | Miami (OH) -8.5 (spread) | 51% |  | No Play | 0 |
-| Miami (OH) @ Kent State | total | Over 45.5 | 52% | +1.8 pts | No Play | 0 |
+| Miami (OH) @ Kent State | total | Over 44.5 | 53% | +2.1 pts | No Play | 0 |
 | Miami (OH) @ Kent State | moneyline | Kent State ML +280 | 25% | -0.9% | No Play | 0 |
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 46.5 | 50% | +0.0 pts | No Play | 0 |
@@ -222,16 +222,16 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -218 | 66% | -2.1% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 41.5 | 55% | +1.2 pts | No Play | 0 |
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1800 | 101% | +6.4% | Strong Play | 1 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1450 | 101% | +7.6% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 49.5 | 53% | +0.7 pts | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -650 | 90% | +3.3% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -675 | 90% | +2.9% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -550 | 89% | +4.7% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 40.5 | 53% | +0.7 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -155 | 67% | +5.8% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -162 | 67% | +4.7% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 63% | +0.7% | No Play | 0 |
@@ -240,10 +240,10 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | +3.7% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | spread | Buffalo Bills -16.5 (spread) | 60% |  | Strong Play | 1 |
 | Miami Dolphins @ Buffalo Bills | total | Over 45.5 | 52% | +0.5 pts | No Play | 0 |
-| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1350 | 104% | +10.9% | Max Play | 1 |
+| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1200 | 104% | +11.7% | Max Play | 1 |
 | Baltimore Ravens @ Carolina Panthers | spread | Carolina Panthers -1.5 (spread) | 63% |  | Max Play | 1 |
 | Baltimore Ravens @ Carolina Panthers | total | Over 43.5 | 56% | +1.3 pts | No Play | 0 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -135 | 65% | +7.5% | Strong Play | 1 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -148 | 65% | +5.2% | Lean | 0.5 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 55% | +1.1 pts | No Play | 0 |
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -700 | 91% | +3.1% | Lean | 0.5 |
@@ -259,11 +259,11 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1800 + Buffalo Bills ML -1350 + Carolina Panthers -1.5 (spread): model 62.8%, needs +116 to break even (reference payout +116), edge +16.6%, Max Play
-- Denver Broncos ML -550 + Buffalo Bills ML -1350 + Carolina Panthers -1.5 (spread): model 56.2%, needs +142 to break even (reference payout +142), edge +14.9%, Max Play
-- Kansas City Chiefs ML -1800 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1350: model 60.7%, needs +116 to break even (reference payout +116), edge +14.5%, Max Play
-- Kansas City Chiefs ML -1800 + Denver Broncos ML -550 + Buffalo Bills ML -1350: model 89.1%, needs -294 to break even (reference payout -294), edge +14.5%, Max Play
-- Chicago Bears ML -650 + Buffalo Bills ML -1350 + Carolina Panthers -1.5 (spread): model 56.6%, needs +137 to break even (reference payout +137), edge +14.3%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1200 + Carolina Panthers -1.5 (spread): model 62.8%, needs +114 to break even (reference payout +114), edge +16.1%, Max Play
+- Kansas City Chiefs ML -1450 + Denver Broncos ML -550 + Buffalo Bills ML -1200: model 89.1%, needs -271 to break even (reference payout -271), edge +16.0%, Max Play
+- Kansas City Chiefs ML -1450 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1200: model 60.7%, needs +121 to break even (reference payout +121), edge +15.5%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1200 + Houston Texans ML -700: model 90.4%, needs -309 to break even (reference payout -309), edge +14.8%, Max Play
+- Kansas City Chiefs ML -1450 + Over 40.5 + Buffalo Bills ML -1200: model 59.6%, needs +123 to break even (reference payout +123), edge +14.7%, Max Play
 
 ### NFL Best 6-point teasers
 
