@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T19:47:28.160501+00:00",
- "snapshot_age_hours": 23.9,
+ "generated_at": "2026-11-17T20:39:20.225583+00:00",
+ "snapshot_age_hours": 24.7,
  "games": [
   {
    "game": "Ball State @ Ohio",
@@ -178,7 +178,7 @@
    "splash_home_margin": 1.5,
    "splash_total": 43.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 45.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recnHVgb9SkOiKX4F",
    "model_status": "",
@@ -203,8 +203,8 @@
     "prob": 0.5164,
     "edge": 1.34,
     "proj": 44.84,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 37.5 (teased)",
      "prob": 0.7138
@@ -228,7 +228,7 @@
    "splash_home_margin": 2.5,
    "splash_total": 48.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 50.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recM3d3pDzeM82Vu7",
    "model_status": "",
@@ -253,8 +253,8 @@
     "prob": 0.5189,
     "edge": 1.55,
     "proj": 50.05,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 42.5 (teased)",
      "prob": 0.7192
@@ -278,7 +278,7 @@
    "splash_home_margin": 10.5,
    "splash_total": 44.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 44.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recqmMdr0PsqZrEg8",
    "model_status": "",
@@ -303,8 +303,8 @@
     "prob": 0.5491,
     "edge": 1.07,
     "proj": 45.57,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 38.5 (teased)",
      "prob": 0.7603
@@ -328,7 +328,7 @@
    "splash_home_margin": -7.5,
    "splash_total": 52.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 52.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recua2UhDbDkVPPou",
    "model_status": "",
@@ -353,8 +353,8 @@
     "prob": 0.502,
     "edge": 0.16,
     "proj": 52.66,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 46.5 (teased)",
      "prob": 0.6823
@@ -378,7 +378,7 @@
    "splash_home_margin": -5.5,
    "splash_total": 47.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 47.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recK5gQdrnEtoOsx1",
    "model_status": "",
@@ -403,8 +403,8 @@
     "prob": 0.5071,
     "edge": 0.58,
     "proj": 46.92,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 53.5 (teased)",
      "prob": 0.6935
@@ -428,7 +428,7 @@
    "splash_home_margin": 15.5,
    "splash_total": 48.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 48.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recZOQAfGgbic7P1U",
    "model_status": "",
@@ -453,8 +453,8 @@
     "prob": 0.517,
     "edge": 1.38,
     "proj": 49.88,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 42.5 (teased)",
      "prob": 0.715
@@ -478,7 +478,7 @@
    "splash_home_margin": 12.5,
    "splash_total": 43.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 40.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recVzWaVEiRUnKtxe",
    "model_status": "",
@@ -503,8 +503,8 @@
     "prob": 0.5136,
     "edge": 1.11,
     "proj": 44.61,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 37.5 (teased)",
      "prob": 0.7077
@@ -528,7 +528,7 @@
    "splash_home_margin": -7.5,
    "splash_total": 69.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 70.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recToWBPBfb5WBsfg",
    "model_status": "",
@@ -553,8 +553,8 @@
     "prob": 0.5266,
     "edge": 2.18,
     "proj": 67.32,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 75.5 (teased)",
      "prob": 0.7354
@@ -578,7 +578,7 @@
    "splash_home_margin": -8.5,
    "splash_total": 43.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 43.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recmc7tB3CJ37uijP",
    "model_status": "",
@@ -603,8 +603,8 @@
     "prob": 0.5167,
     "edge": 1.36,
     "proj": 44.86,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 37.5 (teased)",
      "prob": 0.7144
@@ -628,7 +628,7 @@
    "splash_home_margin": 2.5,
    "splash_total": 53.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 49.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recc6qdhTMFRHffs3",
    "model_status": "",
@@ -653,8 +653,8 @@
     "prob": 0.5078,
     "edge": 0.64,
     "proj": 52.86,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 59.5 (teased)",
      "prob": 0.6952
@@ -678,7 +678,7 @@
    "splash_home_margin": -7.5,
    "splash_total": 37.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 37.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recw0kmXuAmJD63eT",
    "model_status": "",
@@ -703,8 +703,8 @@
     "prob": 0.5235,
     "edge": 1.92,
     "proj": 39.42,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 31.5 (teased)",
      "prob": 0.7287
@@ -728,7 +728,7 @@
    "splash_home_margin": -6.5,
    "splash_total": 57.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 55.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec44JC9PdqsCABEI",
    "model_status": "",
@@ -753,8 +753,8 @@
     "prob": 0.5088,
     "edge": 0.72,
     "proj": 58.22,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 51.5 (teased)",
      "prob": 0.6973
@@ -778,7 +778,7 @@
    "splash_home_margin": -3.5,
    "splash_total": 41.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 41.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recYeYfNuUaynHFDk",
    "model_status": "",
@@ -803,8 +803,8 @@
     "prob": 0.5235,
     "edge": 1.92,
     "proj": 43.42,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 35.5 (teased)",
      "prob": 0.7287
@@ -828,7 +828,7 @@
    "splash_home_margin": -16.5,
    "splash_total": 44.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 45.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recac1dbqIyFo0A9Q",
    "model_status": "",
@@ -853,8 +853,8 @@
     "prob": 0.5203,
     "edge": 1.66,
     "proj": 46.16,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 38.5 (teased)",
      "prob": 0.7222
@@ -878,7 +878,7 @@
    "splash_home_margin": 13.5,
    "splash_total": 49.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 50.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec93kjwVAFgdDJ3w",
    "model_status": "",
@@ -903,8 +903,8 @@
     "prob": 0.524,
     "edge": 1.96,
     "proj": 51.46,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 43.5 (teased)",
      "prob": 0.7299
@@ -928,7 +928,7 @@
    "splash_home_margin": -3.5,
    "splash_total": 56.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 55.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recaECO9clr72nsCg",
    "model_status": "",
@@ -953,8 +953,8 @@
     "prob": 0.5141,
     "edge": 1.15,
     "proj": 55.35,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 62.5 (teased)",
      "prob": 0.7089
@@ -978,7 +978,7 @@
    "splash_home_margin": -4.5,
    "splash_total": 38.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 37.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recXpXlNLRxQUbMzq",
    "model_status": "",
@@ -1003,8 +1003,8 @@
     "prob": 0.5226,
     "edge": 1.85,
     "proj": 40.35,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 32.5 (teased)",
      "prob": 0.7269
@@ -1028,7 +1028,7 @@
    "splash_home_margin": 22.5,
    "splash_total": 46.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 47.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recGIwXjOoAurvelH",
    "model_status": "",
@@ -1053,8 +1053,8 @@
     "prob": 0.514,
     "edge": 1.14,
     "proj": 45.36,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 52.5 (teased)",
      "prob": 0.7086
@@ -1078,7 +1078,7 @@
    "splash_home_margin": -6.5,
    "splash_total": 52.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 51.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recefcdnczVxSC180",
    "model_status": "",
@@ -1103,8 +1103,8 @@
     "prob": 0.5061,
     "edge": 0.5,
     "proj": 53.0,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 46.5 (teased)",
      "prob": 0.6914
@@ -1128,7 +1128,7 @@
    "splash_home_margin": -7.5,
    "splash_total": 46.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 46.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec6BLj4UmECM0x14",
    "model_status": "",
@@ -1153,8 +1153,8 @@
     "prob": 0.5003,
     "edge": 0.02,
     "proj": 46.52,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 40.5 (teased)",
      "prob": 0.6785
@@ -1178,7 +1178,7 @@
    "splash_home_margin": 20.5,
    "splash_total": 60.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 61.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recDgZz8WbWMArNoK",
    "model_status": "",
@@ -1203,8 +1203,8 @@
     "prob": 0.5126,
     "edge": 1.02,
     "proj": 59.48,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 66.5 (teased)",
      "prob": 0.7055
@@ -1228,7 +1228,7 @@
    "splash_home_margin": -20.5,
    "splash_total": 56.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 56.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recme91BfkgcKJOOr",
    "model_status": "",
@@ -1253,8 +1253,8 @@
     "prob": 0.5018,
     "edge": 0.15,
     "proj": 56.35,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 62.5 (teased)",
      "prob": 0.6819
@@ -1278,7 +1278,7 @@
    "splash_home_margin": 20.5,
    "splash_total": 46.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 47.5,
    "reference_origin": "airtable",
    "ledger_record_id": "reco43lfDzDl964jd",
    "model_status": "",
@@ -1303,8 +1303,8 @@
     "prob": 0.5105,
     "edge": 0.85,
     "proj": 47.35,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 40.5 (teased)",
      "prob": 0.701
@@ -1328,7 +1328,7 @@
    "splash_home_margin": 13.5,
    "splash_total": 53.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 52.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recLt1iFDmwEIQ3ES",
    "model_status": "",
@@ -1353,8 +1353,8 @@
     "prob": 0.5082,
     "edge": 0.67,
     "proj": 54.17,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 47.5 (teased)",
      "prob": 0.696
@@ -1378,7 +1378,7 @@
    "splash_home_margin": 22.5,
    "splash_total": 52.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 52.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec1d30amiX7lhIdw",
    "model_status": "",
@@ -1403,8 +1403,8 @@
     "prob": 0.5125,
     "edge": 1.02,
     "proj": 53.52,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 46.5 (teased)",
      "prob": 0.7053
@@ -1428,7 +1428,7 @@
    "splash_home_margin": 10.5,
    "splash_total": 51.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 50.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recdKfOxzoWpwNzmE",
    "model_status": "",
@@ -1453,8 +1453,8 @@
     "prob": 0.5025,
     "edge": 0.21,
     "proj": 51.71,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 45.5 (teased)",
      "prob": 0.6835
@@ -1478,7 +1478,7 @@
    "splash_home_margin": 3.5,
    "splash_total": 60.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 58.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recXzSOfVwhnqiJ0H",
    "model_status": "",
@@ -1503,8 +1503,8 @@
     "prob": 0.5161,
     "edge": 1.32,
     "proj": 59.18,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 66.5 (teased)",
      "prob": 0.7132
@@ -1528,7 +1528,7 @@
    "splash_home_margin": 19.5,
    "splash_total": 63.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 65.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recBWcZ5vJx1Anl8m",
    "model_status": "",
@@ -1553,8 +1553,8 @@
     "prob": 0.5017,
     "edge": 0.14,
     "proj": 63.36,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 69.5 (teased)",
      "prob": 0.6816
@@ -1578,7 +1578,7 @@
    "splash_home_margin": -3.5,
    "splash_total": 52.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 54.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recG7zCYLcccieCvX",
    "model_status": "",
@@ -1603,8 +1603,8 @@
     "prob": 0.5408,
     "edge": 3.36,
     "proj": 49.14,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Under 58.5 (teased)",
      "prob": 0.7643
@@ -1628,7 +1628,7 @@
    "splash_home_margin": 5.5,
    "splash_total": 44.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 45.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recPwaY9Z3nCJdrSP",
    "model_status": "",
@@ -1653,8 +1653,8 @@
     "prob": 0.5294,
     "edge": 2.41,
     "proj": 46.91,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 38.5 (teased)",
      "prob": 0.7412
@@ -1678,7 +1678,7 @@
    "splash_home_margin": 3.5,
    "splash_total": 44.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 44.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recmwmcZbfaOar6zX",
    "model_status": "",
@@ -1703,8 +1703,8 @@
     "prob": 0.5003,
     "edge": 0.02,
     "proj": 44.52,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 38.5 (teased)",
      "prob": 0.6785
@@ -1728,7 +1728,7 @@
    "splash_home_margin": -16.5,
    "splash_total": 50.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 51.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recjfxvQjakyxptWi",
    "model_status": "",
@@ -1753,8 +1753,8 @@
     "prob": 0.5213,
     "edge": 1.74,
     "proj": 52.24,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 44.5 (teased)",
      "prob": 0.7243
@@ -1778,7 +1778,7 @@
    "splash_home_margin": -8.5,
    "splash_total": 48.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 48.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recYOvQDevjUN0yyb",
    "model_status": "",
@@ -1803,8 +1803,8 @@
     "prob": 0.5028,
     "edge": 0.23,
     "proj": 48.73,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 42.5 (teased)",
      "prob": 0.6841
@@ -1828,7 +1828,7 @@
    "splash_home_margin": -1.5,
    "splash_total": 59.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 56.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recr1qJDVd2AaP7Oh",
    "model_status": "",
@@ -1853,8 +1853,8 @@
     "prob": 0.5127,
     "edge": 1.04,
     "proj": 58.46,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 65.5 (teased)",
      "prob": 0.7059
@@ -1878,7 +1878,7 @@
    "splash_home_margin": 3.5,
    "splash_total": 40.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 40.5,
    "reference_origin": "airtable",
    "ledger_record_id": "reckadkLKADB9o91J",
    "model_status": "",
@@ -1903,8 +1903,8 @@
     "prob": 0.5139,
     "edge": 1.14,
     "proj": 41.64,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 34.5 (teased)",
      "prob": 0.7085
@@ -1928,7 +1928,7 @@
    "splash_home_margin": -8.5,
    "splash_total": 41.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 40.5,
    "reference_origin": "airtable",
    "ledger_record_id": "reckwNilHUe4AfHjo",
    "model_status": "",
@@ -1953,8 +1953,8 @@
     "prob": 0.5213,
     "edge": 1.74,
     "proj": 43.24,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 35.5 (teased)",
      "prob": 0.7243
@@ -1978,7 +1978,7 @@
    "splash_home_margin": 5.5,
    "splash_total": 48.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 48.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recTubW1MtzrvvEmY",
    "model_status": "",
@@ -2003,8 +2003,8 @@
     "prob": 0.5081,
     "edge": 0.66,
     "proj": 49.16,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 42.5 (teased)",
      "prob": 0.6958
@@ -2028,7 +2028,7 @@
    "splash_home_margin": -1.5,
    "splash_total": 45.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 46.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recJSChs4B4va8L8L",
    "model_status": "",
@@ -2053,8 +2053,8 @@
     "prob": 0.5206,
     "edge": 1.68,
     "proj": 47.18,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 39.5 (teased)",
      "prob": 0.7228
@@ -2078,7 +2078,7 @@
    "splash_home_margin": 17.5,
    "splash_total": 56.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 57.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recQNpjWq2QAzVyzV",
    "model_status": "",
@@ -2103,8 +2103,8 @@
     "prob": 0.501,
     "edge": 0.08,
     "proj": 56.42,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 62.5 (teased)",
      "prob": 0.68
@@ -2128,7 +2128,7 @@
    "splash_home_margin": -3.5,
    "splash_total": 66.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 67.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recMonDLWOdqgAwh1",
    "model_status": "",
@@ -2153,8 +2153,8 @@
     "prob": 0.5218,
     "edge": 1.78,
     "proj": 64.72,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 72.5 (teased)",
      "prob": 0.7252
@@ -2178,7 +2178,7 @@
    "splash_home_margin": -5.5,
    "splash_total": 48.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 48.5,
    "reference_origin": "airtable",
    "ledger_record_id": "reclfwgx3nE8GccBt",
    "model_status": "",
@@ -2203,8 +2203,8 @@
     "prob": 0.5122,
     "edge": 0.99,
     "proj": 49.49,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 42.5 (teased)",
      "prob": 0.7047
@@ -2228,7 +2228,7 @@
    "splash_home_margin": 10.5,
    "splash_total": 52.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 52.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recz7zcoPWllbpqme",
    "model_status": "",
@@ -2253,8 +2253,8 @@
     "prob": 0.5004,
     "edge": 0.03,
     "proj": 52.47,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 58.5 (teased)",
      "prob": 0.6787
@@ -2278,7 +2278,7 @@
    "splash_home_margin": 9.5,
    "splash_total": 54.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 56.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recbOcEvmsfMxwOqx",
    "model_status": "",
@@ -2303,8 +2303,8 @@
     "prob": 0.5069,
     "edge": 0.57,
     "proj": 55.07,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 48.5 (teased)",
      "prob": 0.6932
@@ -2328,7 +2328,7 @@
    "splash_home_margin": 1.5,
    "splash_total": 43.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 43.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recN1veRxzuLsTCnY",
    "model_status": "",
@@ -2353,8 +2353,8 @@
     "prob": 0.5237,
     "edge": 1.94,
     "proj": 45.44,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 37.5 (teased)",
      "prob": 0.7293
@@ -2378,7 +2378,7 @@
    "splash_home_margin": 25.5,
    "splash_total": 45.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 43.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recBHbl1JKZVHdRA3",
    "model_status": "",
@@ -2403,8 +2403,8 @@
     "prob": 0.5088,
     "edge": 0.72,
     "proj": 46.22,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 39.5 (teased)",
      "prob": 0.6973
@@ -2428,7 +2428,7 @@
    "splash_home_margin": -2.5,
    "splash_total": 41.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 42.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recniM822SJeAquSD",
    "model_status": "",
@@ -2453,8 +2453,8 @@
     "prob": 0.5328,
     "edge": 2.69,
     "proj": 44.19,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 35.5 (teased)",
      "prob": 0.748
@@ -2478,7 +2478,7 @@
    "splash_home_margin": -3.5,
    "splash_total": 61.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 61.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec0Aocy50yJHXK5L",
    "model_status": "",
@@ -2503,8 +2503,8 @@
     "prob": 0.5004,
     "edge": 0.03,
     "proj": 61.47,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 67.5 (teased)",
      "prob": 0.6787
@@ -2528,7 +2528,7 @@
    "splash_home_margin": 12.5,
    "splash_total": 47.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 47.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recKu4Hkua702ro6Z",
    "model_status": "",
@@ -2553,8 +2553,8 @@
     "prob": 0.5185,
     "edge": 1.51,
     "proj": 49.01,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 41.5 (teased)",
      "prob": 0.7183
@@ -2578,7 +2578,7 @@
    "splash_home_margin": 24.5,
    "splash_total": 50.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 50.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recGL898w9ReY8dS7",
    "model_status": "",
@@ -2603,8 +2603,8 @@
     "prob": 0.5096,
     "edge": 0.78,
     "proj": 51.28,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 44.5 (teased)",
      "prob": 0.6991
@@ -2628,7 +2628,7 @@
    "splash_home_margin": 20.5,
    "splash_total": 56.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 56.5,
    "reference_origin": "airtable",
    "ledger_record_id": "reccsGQ0WZVRNDL66",
    "model_status": "",
@@ -2653,8 +2653,8 @@
     "prob": 0.5007,
     "edge": 0.06,
     "proj": 56.44,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 62.5 (teased)",
      "prob": 0.6794
@@ -2678,7 +2678,7 @@
    "splash_home_margin": 16.5,
    "splash_total": 62.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 62.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recfU2ZV1porTqF2q",
    "model_status": "",
@@ -2703,8 +2703,8 @@
     "prob": 0.5048,
     "edge": 0.39,
     "proj": 62.11,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 68.5 (teased)",
      "prob": 0.6885
@@ -2728,7 +2728,7 @@
    "splash_home_margin": -4.5,
    "splash_total": 64.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 65.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recXURSFbLylyhUuX",
    "model_status": "",
@@ -2753,8 +2753,8 @@
     "prob": 0.5119,
     "edge": 0.97,
     "proj": 63.53,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 70.5 (teased)",
      "prob": 0.7041
@@ -2778,7 +2778,7 @@
    "splash_home_margin": -1.5,
    "splash_total": 65.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 64.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recKzofFT2KhKZZLW",
    "model_status": "",
@@ -2803,8 +2803,8 @@
     "prob": 0.5238,
     "edge": 1.95,
     "proj": 63.55,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 71.5 (teased)",
      "prob": 0.7296
@@ -2828,7 +2828,7 @@
    "splash_home_margin": -2.5,
    "splash_total": 55.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 56.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recbrlyZmvtoBNnel",
    "model_status": "",
@@ -2853,8 +2853,8 @@
     "prob": 0.5174,
     "edge": 1.42,
     "proj": 54.08,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 61.5 (teased)",
      "prob": 0.716
@@ -2878,7 +2878,7 @@
    "splash_home_margin": -2.5,
    "splash_total": 50.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 50.5,
    "reference_origin": "airtable",
    "ledger_record_id": "reclpEtKIWqsf5G0x",
    "model_status": "",
@@ -2903,8 +2903,8 @@
     "prob": 0.5098,
     "edge": 0.8,
     "proj": 51.3,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 44.5 (teased)",
      "prob": 0.6994
@@ -2928,7 +2928,7 @@
    "splash_home_margin": 7.5,
    "splash_total": 38.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 38.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recEzeedDH6I9Ar1Z",
    "model_status": "",
@@ -2953,8 +2953,8 @@
     "prob": 0.5003,
     "edge": 0.02,
     "proj": 38.48,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 44.5 (teased)",
      "prob": 0.6784
@@ -2978,7 +2978,7 @@
    "splash_home_margin": 13.5,
    "splash_total": 50.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 49.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recJ4QxjGXRfB3M2T",
    "model_status": "",
@@ -3003,8 +3003,8 @@
     "prob": 0.5103,
     "edge": 0.84,
     "proj": 51.34,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 44.5 (teased)",
      "prob": 0.7007
@@ -3028,7 +3028,7 @@
    "splash_home_margin": -6.5,
    "splash_total": 47.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 46.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recwwACNg0gi1waTR",
    "model_status": "",
@@ -3053,8 +3053,8 @@
     "prob": 0.5148,
     "edge": 1.21,
     "proj": 46.29,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 53.5 (teased)",
      "prob": 0.7104
@@ -3078,7 +3078,7 @@
    "splash_home_margin": 9.5,
    "splash_total": 51.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 50.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recRDfetvKLmGizti",
    "model_status": "",
@@ -3103,8 +3103,8 @@
     "prob": 0.5068,
     "edge": 0.55,
     "proj": 52.05,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 45.5 (teased)",
      "prob": 0.6929
@@ -3128,7 +3128,7 @@
    "splash_home_margin": 13.5,
    "splash_total": 47.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 47.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recpW9ay3UffPGJ1K",
    "model_status": "",
@@ -3153,8 +3153,8 @@
     "prob": 0.5247,
     "edge": 2.02,
     "proj": 49.52,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 41.5 (teased)",
      "prob": 0.7313
@@ -3178,7 +3178,7 @@
    "splash_home_margin": 11.5,
    "splash_total": 60.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 61.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recMnEBPakZAQmbNs",
    "model_status": "",
@@ -3203,8 +3203,8 @@
     "prob": 0.5061,
     "edge": 0.5,
     "proj": 60.0,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 66.5 (teased)",
      "prob": 0.6914
@@ -3228,7 +3228,7 @@
    "splash_home_margin": 16.5,
    "splash_total": 52.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 53.5,
    "reference_origin": "airtable",
    "ledger_record_id": "reczK8E46Un8CWWGS",
    "model_status": "",
@@ -3253,8 +3253,8 @@
     "prob": 0.502,
     "edge": 0.16,
     "proj": 52.66,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 46.5 (teased)",
      "prob": 0.6822
@@ -3278,7 +3278,7 @@
    "splash_home_margin": -5.5,
    "splash_total": 44.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 46.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recR82R3QD7Y8IyK9",
    "model_status": "",
@@ -3303,8 +3303,8 @@
     "prob": 0.5257,
     "edge": 2.1,
     "proj": 46.6,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 38.5 (teased)",
      "prob": 0.7334
@@ -3328,7 +3328,7 @@
    "splash_home_margin": 15.5,
    "splash_total": 41.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 41.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec1bMW82Gl2PPIzw",
    "model_status": "",
@@ -3353,8 +3353,8 @@
     "prob": 0.5533,
     "edge": 1.16,
     "proj": 42.66,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 35.5 (teased)",
      "prob": 0.7631
@@ -3378,7 +3378,7 @@
    "splash_home_margin": 1.5,
    "splash_total": 44.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 43.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recqHN0qEss3RtmUZ",
    "model_status": "",
@@ -3403,8 +3403,8 @@
     "prob": 0.545,
     "edge": 0.98,
     "proj": 45.48,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 38.5 (teased)",
      "prob": 0.7575
@@ -3428,7 +3428,7 @@
    "splash_home_margin": -6.5,
    "splash_total": 46.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 46.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recLDCpyeKOzU0eyq",
    "model_status": "",
@@ -3453,8 +3453,8 @@
     "prob": 0.5195,
     "edge": 0.42,
     "proj": 46.08,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 52.5 (teased)",
      "prob": 0.7397
@@ -3478,7 +3478,7 @@
    "splash_home_margin": 9.5,
    "splash_total": 40.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 40.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recA8wbdTRMKXNzCn",
    "model_status": "",
@@ -3503,8 +3503,8 @@
     "prob": 0.5968,
     "edge": 2.13,
     "proj": 42.63,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Over 34.5 (teased)",
      "prob": 0.7918
@@ -3528,7 +3528,7 @@
    "splash_home_margin": 16.5,
    "splash_total": 45.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 45.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recbVlXXw82NMUHyI",
    "model_status": "",
@@ -3553,8 +3553,8 @@
     "prob": 0.5206,
     "edge": 0.45,
     "proj": 45.95,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 39.5 (teased)",
      "prob": 0.7405
@@ -3578,7 +3578,7 @@
    "splash_home_margin": 3.0,
    "splash_total": 45.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 45.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recElzL7HxGEOOWIt",
    "model_status": "",
@@ -3603,8 +3603,8 @@
     "prob": 0.5246,
     "edge": 0.54,
     "proj": 44.96,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 51.5 (teased)",
      "prob": 0.7433
@@ -3628,7 +3628,7 @@
    "splash_home_margin": 10.5,
    "splash_total": 48.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 48.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec1s3f7B7DvAfqb3",
    "model_status": "",
@@ -3653,8 +3653,8 @@
     "prob": 0.5178,
     "edge": 0.39,
     "proj": 48.11,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 54.5 (teased)",
      "prob": 0.7385
@@ -3678,7 +3678,7 @@
    "splash_home_margin": 3.5,
    "splash_total": 40.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 41.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recDCa1TW7radKDSJ",
    "model_status": "",
@@ -3703,8 +3703,8 @@
     "prob": 0.5311,
     "edge": 0.68,
     "proj": 41.18,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 34.5 (teased)",
      "prob": 0.7479
@@ -3728,7 +3728,7 @@
    "splash_home_margin": -4.5,
    "splash_total": 38.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 38.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec0gY90aols8kKfi",
    "model_status": "",
@@ -3753,8 +3753,8 @@
     "prob": 0.5543,
     "edge": 1.19,
     "proj": 39.69,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 32.5 (teased)",
      "prob": 0.7638
@@ -3778,7 +3778,7 @@
    "splash_home_margin": 6.5,
    "splash_total": 46.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 45.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recsW4vpBY2bJSIzc",
    "model_status": "",
@@ -3803,8 +3803,8 @@
     "prob": 0.5229,
     "edge": 0.5,
     "proj": 46.0,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 52.5 (teased)",
      "prob": 0.7421
@@ -3828,7 +3828,7 @@
    "splash_home_margin": 7.5,
    "splash_total": 54.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 54.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recwzEr4ONJw6Vsml",
    "model_status": "",
@@ -3853,8 +3853,8 @@
     "prob": 0.5674,
     "edge": 1.47,
     "proj": 53.03,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 60.5 (teased)",
      "prob": 0.7726
@@ -3878,7 +3878,7 @@
    "splash_home_margin": -5.5,
    "splash_total": 52.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 52.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recvStneVWJBEWYU3",
    "model_status": "",
@@ -3903,8 +3903,8 @@
     "prob": 0.5572,
     "edge": 1.25,
     "proj": 51.25,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 58.5 (teased)",
      "prob": 0.7658
