@@ -100,7 +100,7 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 | Kentucky @ Missouri | moneyline | Kentucky ML +180 | 36% | +0.5% | No Play | 0 |
 | Clemson @ Duke | spread | Clemson +8.5 (spread) | 51% |  | No Play | 0 |
 | Clemson @ Duke | total | Over 40.5 | 52% | +2.0 pts | No Play | 0 |
-| Clemson @ Duke | moneyline | Clemson ML +370 | 22% | +1.0% | No Play | 0 |
+| Clemson @ Duke | moneyline | Clemson ML +370 | 21% | -0.7% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 66.5 | 52% | +1.6 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 39% | +0.0% | No Play | 0 |

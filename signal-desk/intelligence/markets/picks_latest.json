@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T03:38:34+00:00",
+ "generated_at": "2026-11-17T04:11:10+00:00",
  "date": "2026-11-16",
  "games": [
   {
@@ -5159,10 +5159,10 @@
    "league": "NCAAF",
    "date": "2026-11-20",
    "frozen": false,
-   "line": 11.5,
+   "line": 12.5,
    "total_line": 40.5,
    "model_margin": 11.2,
-   "blend_margin": 11.4565,
+   "blend_margin": 12.3115,
    "proj_total": 42.50769230769231,
    "factors": [
     "weather: 60F, wind 5mph, precip 2% | sev=0.00 | open-meteo"
@@ -5174,7 +5174,7 @@
      "side": "away",
      "team": "Clemson",
      "line": 8.5,
-     "price": -108.0,
+     "price": -112.0,
      "proj": 11.2,
      "prob": 0.5069,
      "edge": null,
@@ -5211,9 +5211,9 @@
      "line": 0.0,
      "price": 370.0,
      "price_estimated": false,
-     "proj": 11.46,
-     "prob": 0.2227,
-     "edge": 0.0099,
+     "proj": 12.31,
+     "prob": 0.206,
+     "edge": -0.0067,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
@@ -5233,13 +5233,13 @@
      "kind": "spread",
      "side": "away",
      "team": "Clemson",
-     "base_line": 11.5,
-     "line": 17.5,
+     "base_line": 12.5,
+     "line": 18.5,
      "price": 0.0,
-     "prob": 0.5934,
+     "prob": 0.5951,
      "push": 0,
      "crosses": [],
-     "selection": "Clemson +11.5 -> +17.5",
+     "selection": "Clemson +12.5 -> +18.5",
      "game_id": "recVzWaVEiRUnKtxe",
      "game": "Clemson @ Duke",
      "priority": "secondary",
@@ -5267,23 +5267,23 @@
    "alt_spreads": [
     {
      "team": "Duke",
-     "line": -14.5,
-     "prob": 0.4044
+     "line": -15.5,
+     "prob": 0.4013
     },
     {
      "team": "Clemson",
-     "line": 8.5,
-     "prob": 0.4358
+     "line": 9.5,
+     "prob": 0.4387
     },
     {
      "team": "Duke",
-     "line": -8.5,
-     "prob": 0.5642
+     "line": -9.5,
+     "prob": 0.5613
     },
     {
      "team": "Clemson",
-     "line": 14.5,
-     "prob": 0.5956
+     "line": 15.5,
+     "prob": 0.5987
     }
    ]
   },
