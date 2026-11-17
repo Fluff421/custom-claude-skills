@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-16T22:25:36.000Z"
+   "updated": "2026-11-17T12:38:00.000Z"
   },
   "NFL": {
    "forward": {
@@ -76,9 +76,9 @@
    },
    "gate": {
     "Lean": {
-     "mean": 0.417,
-     "n": 24,
-     "se": 0.187,
+     "mean": 0.4,
+     "n": 25,
+     "se": 0.18,
      "status": "earned"
     },
     "Max Play": {
@@ -132,7 +132,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-16T22:25:36.000Z"
+   "updated": "2026-11-17T12:38:00.000Z"
   }
  },
  "report_cards": {
@@ -251,11 +251,11 @@
     "wins": 55
    },
    "unknown": 0,
-   "updated": "2026-11-16T22:25:36.000Z"
+   "updated": "2026-11-17T12:38:00.000Z"
   },
   "NFL": {
    "espn": {
-    "brier": 0.2626,
+    "brier": 0.2557,
     "calibration": [
      {
       "actual": 0.2,
@@ -264,10 +264,10 @@
       "pred": 0.533
      },
      {
-      "actual": 0.667,
+      "actual": 0.714,
       "bucket": "55%-60%",
-      "n": 6,
-      "pred": 0.578
+      "n": 7,
+      "pred": 0.58
      },
      {
       "actual": 1.0,
@@ -282,23 +282,23 @@
       "pred": 0.695
      }
     ],
-    "clv_mean": 0.192,
-    "clv_n": 13,
-    "clv_se": 0.133,
-    "hit_rate": 0.462,
-    "log_loss": 0.7202,
+    "clv_mean": 0.179,
+    "clv_n": 14,
+    "clv_se": 0.124,
+    "hit_rate": 0.5,
+    "log_loss": 0.7061,
     "losses": 7,
-    "n": 13,
-    "n_prob": 13,
+    "n": 14,
+    "n_prob": 14,
     "pushes": 0,
     "tiers": {
      "Lean": {
-      "clv_mean": 0.286,
-      "clv_n": 7,
-      "clv_se": 0.184,
+      "clv_mean": 0.25,
+      "clv_n": 8,
+      "clv_se": 0.164,
       "losses": 4,
-      "n": 7,
-      "wins": 3
+      "n": 8,
+      "wins": 4
      },
      "Max Play": {
       "clv_mean": 1.0,
@@ -325,7 +325,7 @@
       "wins": 2
      }
     },
-    "wins": 6
+    "wins": 7
    },
    "learn_mode": "all",
    "splash": {
@@ -402,7 +402,7 @@
     "wins": 16
    },
    "unknown": 0,
-   "updated": "2026-11-16T22:25:36.000Z"
+   "updated": "2026-11-17T12:38:00.000Z"
   }
  },
  "sigma": {
@@ -439,7 +439,7 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-16T22:25:36.000Z"
+   "updated": "2026-11-17T12:38:00.000Z"
   },
   "NFL": {
    "n_eff": 689.8,
@@ -474,7 +474,7 @@
    },
    "sigma": 12.38,
    "target": 12.38,
-   "updated": "2026-11-16T22:25:36.000Z"
+   "updated": "2026-11-17T12:38:00.000Z"
   }
  }
 }
