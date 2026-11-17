@@ -2,8 +2,6 @@
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
-Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Carolina Panthers (2026-11-22), New York Jets @ Los Angeles Chargers (2026-11-22)
-
 ## NCAAF
 
 | Game | Market | Pick | Prob | Edge | Tier | Units |
@@ -232,7 +230,7 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -550 | 89% | +4.7% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Under 40.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -156 (price estimated from the line) | 64% | +2.9% | No Play | 0 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -166 | 64% | +1.4% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 62% | +0.6% | No Play | 0 |
@@ -244,7 +242,7 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1450 | 104% | +10.4% | Max Play | 1 |
 | Baltimore Ravens @ Carolina Panthers | spread | Carolina Panthers -1.5 (spread) | 63% |  | Max Play | 1 |
 | Baltimore Ravens @ Carolina Panthers | total | Over 44.5 | 55% | +1.0 pts | No Play | 0 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -146 (price estimated from the line) | 65% | +5.4% | No Play | 0 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | +6.1% | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 55% | +1.1 pts | No Play | 0 |
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -650 | 89% | +1.9% | No Play | 0 |
@@ -260,11 +258,11 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1800 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +115 to break even (reference payout +115), edge +16.4%, Max Play
-- Denver Broncos ML -550 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 56.2%, needs +141 to break even (reference payout +141), edge +14.7%, Max Play
+- Kansas City Chiefs ML -1800 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +111 to break even (reference payout +111), edge +15.4%, Max Play
 - Kansas City Chiefs ML -1800 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +115 to break even (reference payout +115), edge +14.3%, Max Play
-- Kansas City Chiefs ML -1800 + Denver Broncos ML -550 + Carolina Panthers -1.5 (spread): model 56.2%, needs +138 to break even (reference payout +138), edge +14.2%, Max Play
 - Kansas City Chiefs ML -1800 + Denver Broncos ML -550 + Buffalo Bills ML -1450: model 89.2%, needs -300 to break even (reference payout -300), edge +14.2%, Max Play
+- Denver Broncos ML -550 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 56.2%, needs +136 to break even (reference payout +136), edge +13.9%, Max Play
+- Kansas City Chiefs ML -1800 + Over 40.5 + Buffalo Bills ML -1450: model 59.6%, needs +117 to break even (reference payout +117), edge +13.5%, Max Play
 
 ### NFL Best 6-point teasers
 

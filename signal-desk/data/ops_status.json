@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-11-17T03:38:10Z",
+ "generated_at_utc": "2026-11-17T04:38:19Z",
  "generated_for_central_date": "2026-11-16",
- "graded_picks_csv_rows": 223,
+ "graded_picks_csv_rows": 224,
  "ledger_health": {
   "games_today_or_later": 80,
   "games_before_today": 78,
@@ -59,7 +59,7 @@
    "upcoming_espn_data_stale": {
     "count": 1,
     "games": [
-     "Los Angeles Chargers @ Baltimore Ravens (NFL, 2026-11-16) (6 h)"
+     "Los Angeles Chargers @ Baltimore Ravens (NFL, 2026-11-16) (7 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -84,6 +84,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 44014456257,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44014456257",
+     "event": "schedule",
+     "created_at": "2026-11-17T04:03:19Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 79,
+      "rows_changed": 79,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44010290963,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44010290963",
@@ -137,24 +155,6 @@
       "rows_changed": 80,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 43942454614,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43942454614",
-     "event": "schedule",
-     "created_at": "2026-11-16T19:44:23Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 80,
-      "rows_changed": 17,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -165,6 +165,21 @@
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "runs": [
+    {
+     "run_id": 44015376807,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44015376807",
+     "event": "schedule",
+     "created_at": "2026-11-17T04:10:59Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 43969955217,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43969955217",
@@ -200,21 +215,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43943729847",
      "event": "schedule",
      "created_at": "2026-11-16T19:51:41Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "new_picks": 0,
-      "units_recapped": 0,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43871885801,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43871885801",
-     "event": "workflow_run",
-     "created_at": "2026-11-16T13:01:38Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -261,6 +261,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44018416984,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44018416984",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-17T04:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 1,
+      "leg_patches": 0,
+      "calibration_upserts": 19,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44011463505,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44011463505",
      "event": "workflow_dispatch",
@@ -297,22 +313,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43996927065",
      "event": "workflow_dispatch",
      "created_at": "2026-11-17T01:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 19,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 43989058690,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43989058690",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-17T00:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -578,18 +578,18 @@
    "file": "espn-sync.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-16T19:44:23Z",
-   "age_h": 7.9,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-17T04:03:19Z",
+   "age_h": 0.6,
+   "status": "ok"
   },
   {
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-16T19:51:41Z",
-   "age_h": 7.8,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-17T04:10:59Z",
+   "age_h": 0.5,
+   "status": "ok"
   },
   {
    "workflow": "Close & Grade",
@@ -597,7 +597,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-16T22:29:26Z",
-   "age_h": 5.1,
+   "age_h": 6.1,
    "status": "missed"
   },
   {
@@ -606,7 +606,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-16T21:57:47Z",
-   "age_h": 5.7,
+   "age_h": 6.7,
    "status": "ok"
   },
   {
@@ -615,7 +615,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-16T23:02:12Z",
-   "age_h": 4.6,
+   "age_h": 5.6,
    "status": "ok"
   },
   {
@@ -625,7 +625,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-17T03:02:36Z",
-   "age_h": 0.6,
+   "age_h": 1.6,
    "status": "ok"
   },
   {
@@ -635,7 +635,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-16T22:27:11Z",
-   "age_h": 5.2,
+   "age_h": 6.2,
    "status": "ok"
   }
  ],
