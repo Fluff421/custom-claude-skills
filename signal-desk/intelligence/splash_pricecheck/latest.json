@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T02:39:42.262567+00:00",
- "snapshot_age_hours": 6.7,
+ "generated_at": "2026-11-17T03:38:50.257155+00:00",
+ "snapshot_age_hours": 7.7,
  "games": [
   {
    "game": "Los Angeles Chargers @ Baltimore Ravens",
@@ -97,8 +97,8 @@
    "moneyline": {
     "pick": "Ball State ML +365",
     "tier": "No Play",
-    "prob": 0.2059,
-    "edge": -0.0091,
+    "prob": 0.2195,
+    "edge": 0.0044,
     "model_ml_side": "home"
    }
   },
@@ -263,8 +263,8 @@
    "moneyline": {
     "pick": "Buffalo ML -122",
     "tier": "No Play",
-    "prob": 0.5709,
-    "edge": 0.0214,
+    "prob": 0.5525,
+    "edge": 0.003,
     "model_ml_side": "home"
    }
   },
@@ -336,8 +336,8 @@
     "pick": "Indianapolis Colts +10.5",
     "side": "away",
     "tier": "Strong Play",
-    "prob": 0.6236,
-    "edge": -3.9,
+    "prob": 0.5863,
+    "edge": -2.7,
     "proj": 7.4,
     "import_side": "",
     "import_tier": "",
@@ -563,8 +563,8 @@
    "moneyline": {
     "pick": "Clemson ML +390",
     "tier": "No Play",
-    "prob": 0.2097,
-    "edge": 0.0057,
+    "prob": 0.2234,
+    "edge": 0.0193,
     "model_ml_side": "away"
    }
   },
@@ -3585,9 +3585,9 @@
    "spread": {
     "pick": "Buffalo Bills -16.5",
     "side": "home",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": 2.1,
+    "tier": "Strong Play",
+    "prob": 0.58,
+    "edge": 2.5,
     "proj": 18.2,
     "import_side": "",
     "import_tier": "",
@@ -3637,7 +3637,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.6,
+    "edge": 1.5,
     "proj": 2.9999999999999996,
     "import_side": "",
     "import_tier": "",
@@ -3735,9 +3735,9 @@
    "spread": {
     "pick": "Los Angeles Chargers -3.5",
     "side": "home",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": 1.0,
+    "tier": "No Play",
+    "prob": 0.529,
+    "edge": 0.9,
     "proj": 4.1,
     "import_side": "",
     "import_tier": "",

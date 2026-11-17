@@ -209,10 +209,10 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 
 ### NCAAF Best parlays
 
-- Under 47.5 + Over 41.5: model 28.5%, needs +257 to break even (reference payout +257), edge +0.5%, No Play
-- Under 47.5 + Over 41.5 + Massachusetts -2.5 (spread): model 14.3%, needs +567 to break even (reference payout +567), edge -0.7%, No Play
+- Under 47.5 + Over 41.5: model 28.5%, needs +264 to break even (reference payout +264), edge +1.1%, No Play
+- Under 47.5 + Over 41.5 + Massachusetts -2.5 (spread): model 14.3%, needs +581 to break even (reference payout +581), edge -0.4%, No Play
+- Under 47.5 + Massachusetts -2.5 (spread): model 26.7%, needs +257 to break even (reference payout +257), edge -1.3%, No Play
 - Over 41.5 + Massachusetts -2.5 (spread): model 26.7%, needs +257 to break even (reference payout +257), edge -1.3%, No Play
-- Under 47.5 + Massachusetts -2.5 (spread): model 26.7%, needs +250 to break even (reference payout +250), edge -1.9%, No Play
 
 ## NFL
 
@@ -221,9 +221,6 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Over 38.5 | 55% | +1.2 pts | No Play | 0 |
 | Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -218 | 66% | -2.1% | No Play | 0 |
-| Los Angeles Chargers @ Baltimore Ravens | spread | Los Angeles Chargers +4.5 (spread) | 59% |  | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | total | Over 39.5 | 57% | +1.6 pts | Lean | 0.5 |
-| Los Angeles Chargers @ Baltimore Ravens | moneyline | Los Angeles Chargers ML +180 | 41% | +5.1% | Lean | 0.5 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 41.5 | 55% | +1.2 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1800 | 101% | +6.7% | Strong Play | 1 |
@@ -232,7 +229,7 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -700 | 90% | +2.5% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -535 | 89% | +5.1% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -550 | 89% | +4.7% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Under 40.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -156 (price estimated from the line) | 64% | +2.9% | No Play | 0 |
@@ -241,7 +238,7 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 62% | +0.6% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 52% | +0.4 pts | No Play | 0 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -278 | 76% | +2.5% | No Play | 0 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | +3.5% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | spread | Buffalo Bills -16.5 (spread) | 60% |  | Strong Play | 1 |
 | Miami Dolphins @ Buffalo Bills | total | Under 45.5 | 56% | +1.4 pts | No Play | 0 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1450 | 104% | +10.4% | Max Play | 1 |
@@ -256,7 +253,7 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -278 | 74% | +0.3% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 52.5 | 56% | +1.2 pts | No Play | 0 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.7% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -305 | 76% | +0.3% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -425 | 84% | +3.5% | Lean | 0.5 |
@@ -264,16 +261,16 @@ Markets not yet posted (no pick until a line is listed): Baltimore Ravens @ Caro
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1800 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +115 to break even (reference payout +115), edge +16.4%, Max Play
-- Denver Broncos ML -535 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 56.2%, needs +142 to break even (reference payout +142), edge +14.9%, Max Play
-- Kansas City Chiefs ML -1800 + Denver Broncos ML -535 + Buffalo Bills ML -1450: model 89.2%, needs -295 to break even (reference payout -295), edge +14.5%, Max Play
-- Kansas City Chiefs ML -1800 + Denver Broncos ML -535 + Carolina Panthers -1.5 (spread): model 56.2%, needs +139 to break even (reference payout +139), edge +14.4%, Max Play
-- Los Angeles Chargers +4.5 (spread) + Kansas City Chiefs ML -1800 + Buffalo Bills ML -1450: model 59.1%, needs +123 to break even (reference payout +123), edge +14.4%, Max Play
+- Denver Broncos ML -550 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 56.2%, needs +141 to break even (reference payout +141), edge +14.7%, Max Play
+- Kansas City Chiefs ML -1800 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +115 to break even (reference payout +115), edge +14.3%, Max Play
+- Kansas City Chiefs ML -1800 + Denver Broncos ML -550 + Carolina Panthers -1.5 (spread): model 56.2%, needs +138 to break even (reference payout +138), edge +14.2%, Max Play
+- Kansas City Chiefs ML -1800 + Denver Broncos ML -550 + Buffalo Bills ML -1450: model 89.2%, needs -300 to break even (reference payout -300), edge +14.2%, Max Play
 
 ### NFL Best 6-point teasers
 
-- Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Under 54.5 -> 60.5: model 47.5%, needs +160 to break even (reference payout +160), edge +9.1%, Max Play
-- Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Under 45.5 -> 51.5: model 47.3%, needs +160 to break even (reference payout +160), edge +8.8%, Max Play
-- Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Under 52.5 -> 58.5: model 47.1%, needs +160 to break even (reference payout +160), edge +8.7%, Max Play
 - Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 45.5 -> 51.5: model 47.0%, needs +160 to break even (reference payout +160), edge +8.6%, Max Play
-- Over 40.5 -> 34.5 + Over 39.5 -> 33.5 + Over 38.5 -> 32.5: model 47.0%, needs +160 to break even (reference payout +160), edge +8.5%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 52.5 -> 58.5: model 46.9%, needs +160 to break even (reference payout +160), edge +8.4%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 38.5 -> 32.5: model 46.7%, needs +160 to break even (reference payout +160), edge +8.3%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 41.5 -> 35.5: model 46.7%, needs +160 to break even (reference payout +160), edge +8.2%, Max Play
+- Over 40.5 -> 34.5 + Under 45.5 -> 51.5 + Under 52.5 -> 58.5: model 46.6%, needs +160 to break even (reference payout +160), edge +8.2%, Max Play
 
