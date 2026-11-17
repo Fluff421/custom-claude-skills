@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-17T21:54:39Z",
+ "generated_at_utc": "2026-11-17T22:38:16Z",
  "generated_for_central_date": "2026-11-17",
  "graded_picks_csv_rows": 224,
  "ledger_health": {
@@ -267,6 +267,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44191781057,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44191781057",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-17T22:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 19,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44181677151,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44181677151",
      "event": "workflow_dispatch",
@@ -310,22 +326,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44160497570",
      "event": "workflow_dispatch",
      "created_at": "2026-11-17T19:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 19,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44149779625,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44149779625",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-17T18:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -536,6 +536,19 @@
    "file": "snapshot.yml",
    "runs": [
     {
+     "run_id": 44184664424,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44184664424",
+     "event": "schedule",
+     "created_at": "2026-11-17T21:54:28Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44179022690,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44179022690",
      "event": "schedule",
@@ -548,24 +561,11 @@
      "summary": {
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 43975637788,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43975637788",
-     "event": "schedule",
-     "created_at": "2026-11-16T23:02:12Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
    "gate_skipped": [],
-   "latest_health": "warn"
+   "latest_health": "ok"
   },
   {
    "workflow": "BIM Grader",
@@ -612,7 +612,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-17T16:19:37Z",
-   "age_h": 5.6,
+   "age_h": 6.3,
    "status": "missed"
   },
   {
@@ -621,7 +621,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-17T16:29:03Z",
-   "age_h": 5.4,
+   "age_h": 6.2,
    "status": "missed"
   },
   {
@@ -630,7 +630,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-17T14:52:04Z",
-   "age_h": 7.0,
+   "age_h": 7.8,
    "status": "missed"
   },
   {
@@ -639,7 +639,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T20:52:01Z",
-   "age_h": 1.0,
+   "age_h": 1.8,
    "status": "ok"
   },
   {
@@ -648,7 +648,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T21:54:28Z",
-   "age_h": 0.0,
+   "age_h": 0.7,
    "status": "ok"
   },
   {
@@ -658,7 +658,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-17T03:02:36Z",
-   "age_h": 18.9,
+   "age_h": 19.6,
    "status": "ok"
   },
   {
@@ -668,7 +668,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-17T21:14:35Z",
-   "age_h": 0.7,
+   "age_h": 1.4,
    "status": "ok"
   }
  ],
