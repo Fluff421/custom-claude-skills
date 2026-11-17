@@ -19,17 +19,17 @@ Overall graded picks: 109-113 (Brier 0.2572).
 | New York Jets @ Los Angeles Chargers | 2026-11-22 | Lean | Los Angeles Chargers -1.5 (spread) | 0.5 | 53.9% |  |
 | Cincinnati Bengals @ Washington Commanders | 2026-11-23 | Lean | Cincinnati Bengals -4.5 (spread) | 0.5 | 54.5% |  |
 | Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | Lean | Pittsburgh Steelers -4.5 (spread) | 0.5 | 55.8% |  |
-- Baltimore Ravens @ Carolina Panthers: weather: 65F, 3 | no severity
-- Miami Dolphins @ Buffalo Bills: weather: 60F, wind 9mph, precip 34% | sev=0.00 | open-meteo
-- Jacksonville Jaguars @ New York Giants: weather: 56F, wind 9mph, precip 28% | sev=0.00 | open-meteo
+- Baltimore Ravens @ Carolina Panthers: weather: 56F, wind 9mph, precip 15% | sev=0.00 | open-meteo
+- Miami Dolphins @ Buffalo Bills: weather: 59F, wind 7mph, precip 36% | sev=0.00 | open-meteo
+- Jacksonville Jaguars @ New York Giants: weather: 57F, wind 12mph, precip 32% | sev=0.25 | open-meteo
 - Indianapolis Colts @ Houston Texans: weather: indoor | sev=0.00
 - Tampa Bay Buccaneers @ Detroit Lions: QB: HOME QB PLAYING Jared Goff [auto espn 2026-11-17] | AWAY QB QUESTIONABLE Baker Mayfield -> Jalon Daniels [auto espn 2026-11-17]; weather: indoor | sev=0.00
-- Las Vegas Raiders @ Denver Broncos: weather: 49F, wind 5mph, precip 0% | sev=0.00 | open-meteo
+- Las Vegas Raiders @ Denver Broncos: weather: 50F, wind 6mph, precip 0% | sev=0.00 | open-meteo
 - Tennessee Titans @ Dallas Cowboys: weather: indoor | sev=0.00
-- Akron @ Massachusetts: weather: 43F, wind 6mph, precip 0% | sev=0.00 | open-meteo
-- New York Jets @ Los Angeles Chargers: QB: HOME QB PLAYING Justin Herbert [auto espn 2026-11-17] | AWAY QB QUESTIONABLE Geno Smith -> Cade Klubnik [auto espn 2026-11-17]; weather: 60F, wind 5mph, precip 16% | sev=0.00 | open-meteo
-- Cincinnati Bengals @ Washington Commanders: weather: 48F, 33 | no severity
-- Pittsburgh Steelers @ Philadelphia Eagles: weather: 55F, wind 7mph, precip 34% | sev=0.00 | open-meteo
+- Akron @ Massachusetts: weather: 42F, wind 5mph, precip 0% | sev=0.00 | open-meteo
+- New York Jets @ Los Angeles Chargers: QB: HOME QB PLAYING Justin Herbert [auto espn 2026-11-17] | AWAY QB QUESTIONABLE Geno Smith -> Cade Klubnik [auto espn 2026-11-17]; weather: 62F, wind 9mph, precip 10% | sev=0.00 | open-meteo
+- Cincinnati Bengals @ Washington Commanders: weather: 49F, 34 | no severity
+- Pittsburgh Steelers @ Philadelphia Eagles: weather: 57F, wind 10mph, precip 30% | sev=0.00 | open-meteo
 
 Tracking picks (paper, 0u): 68. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread)
 
@@ -129,8 +129,8 @@ By size of base edge:
 
 ## What the learner currently believes
 
-- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 43 (20 with factor records); last calibrated 2026-11-17T12:38:00.000Z
-- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 181 (62 with factor records); last calibrated 2026-11-17T12:38:00.000Z
+- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 43 (20 with factor records); last calibrated 2026-11-17T21:04:00.000Z
+- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 181 (62 with factor records); last calibrated 2026-11-17T21:04:00.000Z
 
 ## What changes automatically, and how close each change is
 
@@ -160,22 +160,44 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1450 | 101% | Strong Play | 1.0 |
+| Miami (OH) @ Kent State | total | Over 44.5 | 54% | Lean | 0.5 |
+| Eastern Michigan @ Western Michigan | total | Over 46.5 | 53% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -550 | 89% | Lean | 0.5 |
+| Northern Illinois @ North Dakota State | total | Over 43.5 | 55% | Lean | 0.5 |
+| Colorado State @ Fresno State | total | Under 65.5 | 53% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -180 | 68% | Lean | 0.5 |
-| Delaware @ New Mexico State | total | Under 54.5 | 55% | Lean | 0.5 |
+| LSU @ Tennessee | total | Over 45.5 | 54% | Lean | 0.5 |
+| Old Dominion @ UConn | total | Over 47.5 | 53% | Lean | 0.5 |
+| South Florida @ Florida Atlantic | total | Under 64.5 | 54% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | Lean | 0.5 |
+| Memphis @ Navy | total | Under 67.5 | 54% | Lean | 0.5 |
+| North Carolina @ Virginia | total | Over 43.5 | 55% | Lean | 0.5 |
+| East Carolina @ Army | total | Over 45.5 | 54% | Lean | 0.5 |
+| Wisconsin @ Purdue | total | Over 46.5 | 53% | Lean | 0.5 |
+| Utah State @ Oregon State | total | Over 50.5 | 54% | Lean | 0.5 |
+| Clemson @ Duke | total | Over 40.5 | 54% | Lean | 0.5 |
+| South Alabama @ Southern Miss | total | Under 65.5 | 53% | Lean | 0.5 |
+| UCLA @ Michigan | total | Over 37.5 | 57% | Strong Play | 1.0 |
+| Ohio State @ Nebraska | total | Over 41.5 | 54% | Lean | 0.5 |
+| Oregon @ Michigan State | total | Over 45.5 | 54% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1450 | 104% | Max Play | 1.0 |
+| Florida International @ Kennesaw State | total | Over 44.5 | 54% | Lean | 0.5 |
+| Arkansas @ Texas | total | Over 47.5 | 53% | Lean | 0.5 |
+| Vanderbilt @ Florida | total | Over 47.5 | 53% | Lean | 0.5 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | Strong Play | 1.0 |
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -700 | 91% | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -375 | 84% | Lean | 0.5 |
-- NCAAF parlay: Under 54.5 + Massachusetts -2.5 (spread) | model 27.4%, needs +257 to break even, edge -0.6%, No Play
+| New Mexico @ Wyoming | total | Over 37.5 | 56% | Strong Play | 1.0 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -380 | 84% | Lean | 0.5 |
+- NCAAF parlay: Over 37.5 + Over 37.5 | model 31.5%, needs +257 to break even, edge +3.5%, Lean
+- NCAAF parlay: Under 64.5 + Over 37.5 | model 30.1%, needs +268 to break even, edge +2.9%, Lean
+- NCAAF parlay: Under 65.5 + Over 37.5 | model 29.7%, needs +273 to break even, edge +2.9%, Lean
 - NFL parlay: Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +114 to break even, edge +16.0%, Max Play
-- NFL parlay: Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Dallas Cowboys ML -375 | model 84.3%, needs -224 to break even, edge +15.2%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1450 + Denver Broncos ML -550 + Buffalo Bills ML -1450 | model 89.1%, needs -285 to break even, edge +15.0%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380 | model 84.3%, needs -226 to break even, edge +15.0%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 43.5 -> 37.5 | model 46.9%, needs +160 to break even, edge +8.5%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 46.5 -> 52.5 | model 46.9%, needs +160 to break even, edge +8.4%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 52.5 -> 58.5 | model 46.9%, needs +160 to break even, edge +8.4%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 38.5 -> 32.5 | model 46.7%, needs +160 to break even, edge +8.3%, Max Play
 
 ## Results and learning by market
 

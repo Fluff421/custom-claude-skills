@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T20:39:21.790130+00:00",
+  "checked_at": "2026-11-17T21:06:29.625241+00:00",
   "central_date": "2026-11-17",
   "ready": false,
   "policy": {
@@ -14,45 +14,45 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.016,
+      "age_hours": 0.018,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 24.723,
+      "age_hours": 25.175,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.0,
+      "age_hours": 0.001,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 24.7,
+      "age_hours": 25.201,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.016,
+      "age_hours": 0.018,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.039,
+      "age_hours": 0.491,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "degraded",
       "last_good_age_hours": null,
-      "age_hours": 8.105
+      "age_hours": 8.558
     },
     "espn-sync.yml": {
-      "age_hours": 2.205,
+      "age_hours": 2.658,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 0.87,
+      "age_hours": 0.04,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 8.439,
+      "age_hours": 0.241,
       "max_age_hours": 26
     }
   },
@@ -60,8 +60,8 @@
     "close_grade: latest run is not healthy, successful and LIVE"
   ],
   "warnings": [
-    "splash_board: 24.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 24.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "splash_board: 25.17h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 25.20h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
     "injury-pull.yml: latest run is not healthy, successful and LIVE; no good pull on record. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
   ],
   "degraded": [

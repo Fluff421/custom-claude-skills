@@ -18,7 +18,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | North Texas @ Tulane | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
 | North Texas @ Tulane | moneyline | Tulane ML +195 | 33% | -0.6% | No Play | 0 |
 | Miami (OH) @ Kent State | spread | Miami (OH) -8.5 (spread) | 51% |  | No Play | 0 |
-| Miami (OH) @ Kent State | total | Over 45.5 | 54% | +3.1 pts | Lean | 0.5 |
+| Miami (OH) @ Kent State | total | Over 44.5 | 54% | +3.5 pts | Lean | 0.5 |
 | Miami (OH) @ Kent State | moneyline | Kent State ML +280 | 25% | -0.9% | No Play | 0 |
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 46.5 | 50% | +0.0 pts | No Play | 0 |
@@ -211,11 +211,11 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 
 ### NCAAF Best parlays
 
-- Over 45.5 + Over 37.5: model 29.9%, needs +278 to break even (reference payout +278), edge +3.5%, Lean
 - Over 37.5 + Over 37.5: model 31.5%, needs +257 to break even (reference payout +257), edge +3.5%, Lean
-- Over 45.5 + Over 37.5: model 30.5%, needs +270 to break even (reference payout +270), edge +3.5%, Lean
-- Over 45.5 + Under 64.5: model 29.1%, needs +281 to break even (reference payout +281), edge +2.9%, Lean
 - Under 64.5 + Over 37.5: model 30.1%, needs +268 to break even (reference payout +268), edge +2.9%, Lean
+- Under 65.5 + Over 37.5: model 29.7%, needs +273 to break even (reference payout +273), edge +2.9%, Lean
+- Over 43.5 + Over 37.5: model 30.3%, needs +264 to break even (reference payout +264), edge +2.9%, Lean
+- Under 64.5 + Over 37.5: model 30.7%, needs +260 to break even (reference payout +260), edge +2.9%, Lean
 
 ## NFL
 
@@ -229,7 +229,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1450 | 101% | +7.6% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 52% | +0.4 pts | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -700 | 90% | +2.5% | No Play | 0 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -675 | 90% | +2.9% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -550 | 89% | +4.7% | Lean | 0.5 |
