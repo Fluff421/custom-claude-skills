@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T21:22:09.857297+00:00",
- "snapshot_age_hours": 25.4,
+ "generated_at": "2026-11-17T21:39:03.251487+00:00",
+ "snapshot_age_hours": 25.7,
  "games": [
   {
    "game": "Ball State @ Ohio",
@@ -12,7 +12,7 @@
    "splash_home_margin": 10.5,
    "splash_total": 49.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 50.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recgTuA6DV2pntuLf",
    "model_status": "",
@@ -37,8 +37,8 @@
     "prob": 0.517,
     "edge": 1.38,
     "proj": 50.88,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 43.5 (teased)",
      "prob": 0.715
@@ -62,7 +62,7 @@
    "splash_home_margin": 14.5,
    "splash_total": 46.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 46.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec79Vw8JvKoyUGgW",
    "model_status": "",
@@ -87,18 +87,18 @@
     "prob": 0.5347,
     "edge": 2.85,
     "proj": 49.35,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Over 40.5 (teased)",
      "prob": 0.752
     }
    },
    "moneyline": {
-    "pick": "Eastern Michigan ML +500",
+    "pick": "Western Michigan ML -690",
     "tier": "No Play",
-    "prob": 0.1495,
-    "edge": -0.0172,
+    "prob": 0.8611,
+    "edge": -0.0123,
     "model_ml_side": "home"
    }
   },
@@ -112,7 +112,7 @@
    "splash_home_margin": -8.5,
    "splash_total": 46.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 44.5,
    "reference_origin": "airtable",
    "ledger_record_id": "rec4RUwyyQD8hIgZd",
    "model_status": "",
@@ -137,8 +137,8 @@
     "prob": 0.5347,
     "edge": 2.85,
     "proj": 49.35,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "over",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Over 40.5 (teased)",
      "prob": 0.752
@@ -285,9 +285,9 @@
    "spread": {
     "pick": "Indianapolis Colts +10.5",
     "side": "away",
-    "tier": "Strong Play",
-    "prob": 0.58,
-    "edge": -2.5,
+    "tier": "Lean",
+    "prob": 0.5,
+    "edge": -2.4,
     "proj": 7.4,
     "import_side": "",
     "import_tier": "",
@@ -763,8 +763,8 @@
    "moneyline": {
     "pick": "Tulane ML +205",
     "tier": "No Play",
-    "prob": 0.3116,
-    "edge": -0.0163,
+    "prob": 0.3199,
+    "edge": -0.008,
     "model_ml_side": "away"
    }
   },
@@ -3537,7 +3537,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 2.3,
+    "edge": 1.7,
     "proj": 18.299999999999997,
     "import_side": "",
     "import_tier": "",
@@ -3636,8 +3636,8 @@
     "pick": "New Orleans Saints +10.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5032,
-    "edge": -0.1,
+    "prob": 0.5,
+    "edge": -0.0,
     "proj": 9.0,
     "import_side": "",
     "import_tier": "",
