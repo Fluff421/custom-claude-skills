@@ -1999,3 +1999,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-16T23:38:36+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,DraftKings,3.0,46.5,-170,142,-112.0,-108.0,-108.0,-112.0,3.5
 2026-11-16T23:38:36+00:00,recLDCpyeKOzU0eyq,401873069,NFL,Jacksonville Jaguars @ New York Giants,2026-11-22,DraftKings,-6.0,46.5,215,-265,-110.0,-110.0,-110.0,-110.0,-1.5
 2026-11-16T23:38:36+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,DraftKings,6.5,46.5,-278,225,-108.0,-112.0,-110.0,-110.0,4.5
+2026-11-17T00:38:51+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,DraftKings,11.5,48.5,-700,500,-112.0,-108.0,-115.0,-105.0,6.5
+2026-11-17T00:38:51+00:00,recA8wbdTRMKXNzCn,401873075,NFL,Las Vegas Raiders @ Denver Broncos,2026-11-22,DraftKings,10.0,40.5,-535,400,-110.0,-110.0,-108.0,-112.0,8.5
+2026-11-17T00:38:51+00:00,recDCa1TW7radKDSJ,401873074,NFL,New York Jets @ Los Angeles Chargers,2026-11-22,DraftKings,3.0,40.5,-175,145,-110.0,-110.0,-108.0,-112.0,9.5
+2026-11-17T00:38:51+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,DraftKings,3.0,46.5,-162,136,-112.0,-108.0,-108.0,-112.0,3.5
+2026-11-17T00:38:51+00:00,recbVlXXw82NMUHyI,401873070,NFL,Miami Dolphins @ Buffalo Bills,2026-11-22,DraftKings,16.5,45.5,-1350,800,-108.0,-112.0,-110.0,-110.0,11.5
+2026-11-17T00:38:51+00:00,recnHVgb9SkOiKX4F,401866469,NCAAF,Central Michigan @ Buffalo,2026-11-18,DraftKings,2.5,45.5,-125,105,-110.0,-110.0,-102.0,-118.0,1.5
+2026-11-17T00:38:51+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,DraftKings,6.5,46.5,-285,230,-108.0,-112.0,-110.0,-110.0,4.5
+2026-11-17T00:38:51+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.5,52.5,240,-298,-112.0,-108.0,-115.0,-105.0,-1.5
+2026-11-17T00:38:51+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,DraftKings,8.5,54.5,-440,340,-105.0,-115.0,-120.0,100.0,6.5
