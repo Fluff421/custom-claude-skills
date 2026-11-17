@@ -81,7 +81,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | North Carolina @ Virginia | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
 | North Carolina @ Virginia | moneyline | Virginia ML -118 | 52% | -1.7% | No Play | 0 |
 | East Carolina @ Army | spread | Army -4.5 (spread) | 50% |  | No Play | 0 |
-| East Carolina @ Army | total | Over 44.5 | 53% | +2.4 pts | No Play | 0 |
+| East Carolina @ Army | total | Over 45.5 | 53% | +2.1 pts | No Play | 0 |
 | East Carolina @ Army | moneyline | East Carolina ML +180 | 36% | +0.4% | No Play | 0 |
 | Maryland @ USC | spread | USC -16.5 (spread) | 51% |  | No Play | 0 |
 | Maryland @ USC | total | Under 57.5 | 50% | +0.4 pts | No Play | 0 |
@@ -126,7 +126,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Oregon @ Michigan State | total | Over 45.5 | 52% | +1.4 pts | No Play | 0 |
 | Oregon @ Michigan State | moneyline | Oregon ML -750 | 86% | -1.7% | No Play | 0 |
 | NC State @ Florida State | spread | Florida State -9.5 (spread) | 50% |  | No Play | 0 |
-| NC State @ Florida State | total | Over 55.5 | 50% | +0.3 pts | No Play | 0 |
+| NC State @ Florida State | total | Under 56.5 | 50% | +0.0 pts | No Play | 0 |
 | NC State @ Florida State | moneyline | NC State ML +295 | 26% | +0.5% | No Play | 0 |
 | Stanford @ California | spread | California +1.5 (spread) | 51% |  | No Play | 0 |
 | Stanford @ California | total | Under 56.5 | 52% | +1.7 pts | No Play | 0 |
@@ -149,7 +149,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | San Diego State @ Boise State | moneyline | San Diego State ML +600 | 12% | -1.9% | No Play | 0 |
 | Ball State @ Ohio | spread | Ohio -9.5 (spread) | 51% |  | No Play | 0 |
 | Ball State @ Ohio | total | Over 49.5 | 52% | +1.3 pts | No Play | 0 |
-| Ball State @ Ohio | moneyline | Ball State ML +350 | 21% | -0.8% | No Play | 0 |
+| Ball State @ Ohio | moneyline | Ball State ML +360 | 21% | -0.3% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
 | Georgia @ South Carolina | total | Over 50.5 | 52% | +1.7 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | South Carolina ML +575 | 14% | -1.0% | No Play | 0 |
@@ -259,7 +259,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1200 + Carolina Panthers -1.5 (spread): model 62.8%, needs +114 to break even (reference payout +114), edge +16.1%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1200 + Carolina Panthers -1.5 (spread): model 62.8%, needs +117 to break even (reference payout +117), edge +16.7%, Max Play
 - Kansas City Chiefs ML -1450 + Denver Broncos ML -550 + Buffalo Bills ML -1200: model 89.1%, needs -271 to break even (reference payout -271), edge +16.0%, Max Play
 - Kansas City Chiefs ML -1450 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1200: model 60.7%, needs +121 to break even (reference payout +121), edge +15.5%, Max Play
 - Kansas City Chiefs ML -1450 + Buffalo Bills ML -1200 + Houston Texans ML -700: model 90.4%, needs -309 to break even (reference payout -309), edge +14.8%, Max Play
