@@ -16,8 +16,8 @@ Overall graded picks: 109-113 (Brier 0.2572).
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | Lean | Denver Broncos -8.5 (spread) | 0.5 | 54.8% |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | Lean | Dallas Cowboys -7.5 (spread) | 0.5 | 55.5% |  |
 | Akron @ Massachusetts | 2026-11-18 | Lean | Massachusetts -2.5 (spread) | 0.5 | 50.0% |  |
-| Cincinnati Bengals @ Washington Commanders | 2026-11-23 | Lean | Cincinnati Bengals -4.5 (spread) | 0.5 | 54.5% |  |
 | New York Jets @ Los Angeles Chargers | 2026-11-22 | Lean | Los Angeles Chargers -1.5 (spread) | 0.5 | 53.9% |  |
+| Cincinnati Bengals @ Washington Commanders | 2026-11-23 | Lean | Cincinnati Bengals -4.5 (spread) | 0.5 | 54.5% |  |
 | Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | Lean | Pittsburgh Steelers -4.5 (spread) | 0.5 | 55.8% |  |
 - Baltimore Ravens @ Carolina Panthers: weather: 56F, wind 8mph, precip 15% | sev=0.00 | open-meteo
 - Miami Dolphins @ Buffalo Bills: weather: 56F, wind 16mph, precip 27% | sev=0.60 | open-meteo
@@ -27,8 +27,8 @@ Overall graded picks: 109-113 (Brier 0.2572).
 - Las Vegas Raiders @ Denver Broncos: weather: 47F, wind 7mph, precip 1% | sev=0.00 | open-meteo
 - Tennessee Titans @ Dallas Cowboys: weather: indoor | sev=0.00
 - Akron @ Massachusetts: weather: 44F, wind 4mph, precip 0% | sev=0.00 | open-meteo
-- Cincinnati Bengals @ Washington Commanders: weather: 48F, 33 | no severity
 - New York Jets @ Los Angeles Chargers: QB: HOME QB PLAYING Justin Herbert [auto espn 2026-11-16] | AWAY QB QUESTIONABLE Geno Smith -> Cade Klubnik [auto espn 2026-11-16]; weather: 65F, wind 18mph, precip 11% | sev=0.60 | open-meteo
+- Cincinnati Bengals @ Washington Commanders: weather: 48F, 33 | no severity
 - Pittsburgh Steelers @ Philadelphia Eagles: weather: 60F, wind 3mph, precip 23% | sev=0.00 | open-meteo
 
 Tracking picks (paper, 0u): 68. Examples: Virginia Tech @ Miami -> Miami -18.5 (spread); Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); UTEP @ Air Force -> Air Force -21.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread)
@@ -164,21 +164,22 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -650 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -535 | 89% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -155 | 67% | Lean | 0.5 |
 | UTEP @ Air Force | total | Under 47.5 | 53% | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -270 | 76% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | Lean | 0.5 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1350 | 104% | Max Play | 1.0 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | Strong Play | 1.0 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -135 | 65% | Strong Play | 1.0 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -425 | 84% | Lean | 0.5 |
 - NCAAF parlay: Under 47.5 + Over 41.5 | model 28.5%, needs +264 to break even, edge +1.1%, No Play
 - NCAAF parlay: Under 47.5 + Over 41.5 + Massachusetts -2.5 (spread) | model 14.3%, needs +581 to break even, edge -0.4%, No Play
 - NCAAF parlay: Under 47.5 + Massachusetts -2.5 (spread) | model 26.7%, needs +257 to break even, edge -1.3%, No Play
-- NFL parlay: Kansas City Chiefs ML -1800 + Buffalo Bills ML -1350 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +112 to break even, edge +15.7%, Max Play
-- NFL parlay: Kansas City Chiefs ML -1800 + Denver Broncos ML -535 + Buffalo Bills ML -1350 | model 89.2%, needs -289 to break even, edge +14.9%, Max Play
-- NFL parlay: Kansas City Chiefs ML -1800 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1350 | model 60.7%, needs +116 to break even, edge +14.5%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1800 + Buffalo Bills ML -1350 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +116 to break even, edge +16.6%, Max Play
+- NFL parlay: Denver Broncos ML -535 + Buffalo Bills ML -1350 + Carolina Panthers -1.5 (spread) | model 56.2%, needs +143 to break even, edge +15.1%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1800 + Denver Broncos ML -535 + Buffalo Bills ML -1350 | model 89.1%, needs -289 to break even, edge +14.8%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 45.5 -> 51.5 | model 47.0%, needs +160 to break even, edge +8.6%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 43.5 -> 37.5 | model 47.0%, needs +160 to break even, edge +8.5%, Max Play
 - NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 52.5 -> 58.5 | model 46.9%, needs +160 to break even, edge +8.4%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 38.5 -> 32.5 | model 46.7%, needs +160 to break even, edge +8.3%, Max Play
 
 ## Results and learning by market
 

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-17T08:39:35+00:00",
+ "generated_at": "2026-11-17T09:39:04+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -108,19 +108,6 @@
    ]
   },
   {
-   "game": "Cincinnati Bengals @ Washington Commanders",
-   "date": "2026-11-23",
-   "league": "NFL",
-   "tier": "Lean",
-   "pick": "Cincinnati Bengals -4.5 (spread)",
-   "units": 0.5,
-   "prob": 0.545,
-   "adj_edge": null,
-   "why": [
-    "weather: 48F, 33 | no severity"
-   ]
-  },
-  {
    "game": "New York Jets @ Los Angeles Chargers",
    "date": "2026-11-22",
    "league": "NFL",
@@ -132,6 +119,19 @@
    "why": [
     "QB: HOME QB PLAYING Justin Herbert [auto espn 2026-11-16] | AWAY QB QUESTIONABLE Geno Smith -> Cade Klubnik [auto espn 2026-11-16]",
     "weather: 65F, wind 18mph, precip 11% | sev=0.60 | open-meteo"
+   ]
+  },
+  {
+   "game": "Cincinnati Bengals @ Washington Commanders",
+   "date": "2026-11-23",
+   "league": "NFL",
+   "tier": "Lean",
+   "pick": "Cincinnati Bengals -4.5 (spread)",
+   "units": 0.5,
+   "prob": 0.545,
+   "adj_edge": null,
+   "why": [
+    "weather: 48F, 33 | no severity"
    ]
   },
   {
@@ -630,18 +630,18 @@
    ]
   },
   {
+   "game": "Minnesota Vikings @ San Francisco 49ers",
+   "pick": "San Francisco 49ers -3.5 (spread)",
+   "prob": 0.529,
+   "why": []
+  },
+  {
    "game": "Central Michigan @ Buffalo",
    "pick": "Buffalo -1.5 (spread)",
    "prob": 0.5046,
    "why": [
     "weather: 47F, 34 | no severity"
    ]
-  },
-  {
-   "game": "Minnesota Vikings @ San Francisco 49ers",
-   "pick": "San Francisco 49ers -3.5 (spread)",
-   "prob": 0.529,
-   "why": []
   },
   {
    "game": "North Carolina @ Virginia",
@@ -5624,7 +5624,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-17T08:39:12+00:00",
+   "generated_at": "2026-11-17T09:38:47+00:00",
    "date": "2026-11-17",
    "games": [
     {
@@ -5689,7 +5689,7 @@
        "prob": 0.4084,
        "edge": -0.0154,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -5826,7 +5826,7 @@
        "prob": 0.6643,
        "edge": -0.0212,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -5908,8 +5908,8 @@
      "frozen": false,
      "line": 16.5,
      "total_line": 41.5,
-     "model_margin": 13.3,
-     "blend_margin": 15.540000000000001,
+     "model_margin": 12.9,
+     "blend_margin": 15.42,
      "proj_total": 42.664634615384614,
      "factors": [
       "QB: HOME QB PLAYING Patrick Mahomes [auto espn 2026-11-16] | AWAY QB PLAYING Carson Beck [auto espn 2026-11-16]",
@@ -5923,7 +5923,7 @@
        "team": "Kansas City Chiefs",
        "line": -14.0,
        "price": -105.0,
-       "proj": 13.3,
+       "proj": 12.9,
        "prob": 0.5193,
        "edge": null,
        "edge_unit": "pts",
@@ -5959,11 +5959,11 @@
        "line": 0.0,
        "price": -1800.0,
        "price_estimated": false,
-       "proj": 15.54,
-       "prob": 1.0139,
-       "edge": 0.0665,
+       "proj": 15.42,
+       "prob": 1.0116,
+       "edge": 0.0642,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Strong Play",
@@ -5984,7 +5984,7 @@
        "base_line": 16.5,
        "line": 22.5,
        "price": 0.0,
-       "prob": 0.7326,
+       "prob": 0.7358,
        "push": 0,
        "crosses": [],
        "selection": "Arizona Cardinals +16.5 -> +22.5",
@@ -6016,22 +6016,22 @@
       {
        "team": "Kansas City Chiefs",
        "line": -19.5,
-       "prob": 0.349
+       "prob": 0.3453
       },
       {
        "team": "Arizona Cardinals",
        "line": 13.5,
-       "prob": 0.4641
+       "prob": 0.468
       },
       {
        "team": "Kansas City Chiefs",
        "line": -13.5,
-       "prob": 0.5359
+       "prob": 0.532
       },
       {
        "team": "Arizona Cardinals",
        "line": 19.5,
-       "prob": 0.651
+       "prob": 0.6547
       }
      ]
     },
@@ -6097,7 +6097,7 @@
        "prob": 0.9356,
        "edge": -0.0189,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6232,7 +6232,7 @@
        "prob": 0.8996,
        "edge": 0.0329,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
@@ -6366,7 +6366,7 @@
        "prob": 0.3224,
        "edge": -0.0055,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6502,7 +6502,7 @@
        "prob": 0.254,
        "edge": -0.0091,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6636,7 +6636,7 @@
        "prob": 0.315,
        "edge": 0.0025,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6770,7 +6770,7 @@
        "prob": 0.1572,
        "edge": -0.0122,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6904,7 +6904,7 @@
        "prob": 0.192,
        "edge": -0.004,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6984,8 +6984,8 @@
      "frozen": false,
      "line": 10.0,
      "total_line": 40.5,
-     "model_margin": 11.8,
-     "blend_margin": 10.540000000000001,
+     "model_margin": 11.7,
+     "blend_margin": 10.51,
      "proj_total": 42.62633653846154,
      "factors": [
       "QB: HOME QB PLAYING Bo Nix [auto espn 2026-11-16] | AWAY QB PLAYING Fernando Mendoza [auto espn 2026-11-16]",
@@ -6999,7 +6999,7 @@
        "team": "Denver Broncos",
        "line": -8.5,
        "price": -110.0,
-       "proj": 11.8,
+       "proj": 11.7,
        "prob": 0.5482,
        "edge": null,
        "edge_unit": "pts",
@@ -7035,11 +7035,11 @@
        "line": 0.0,
        "price": -535.0,
        "price_estimated": false,
-       "proj": 10.54,
-       "prob": 0.8935,
-       "edge": 0.051,
+       "proj": 10.51,
+       "prob": 0.8927,
+       "edge": 0.0501,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
@@ -7060,7 +7060,7 @@
        "base_line": 10.0,
        "line": 16.0,
        "price": 0.0,
-       "prob": 0.6842,
+       "prob": 0.6851,
        "push": 0.0266,
        "crosses": [],
        "selection": "Las Vegas Raiders +10 -> +16",
@@ -7092,22 +7092,22 @@
       {
        "team": "Denver Broncos",
        "line": -13.0,
-       "prob": 0.3771
+       "prob": 0.3762
       },
       {
        "team": "Las Vegas Raiders",
        "line": 7.0,
-       "prob": 0.3991
+       "prob": 0.4
       },
       {
        "team": "Denver Broncos",
        "line": -7.0,
-       "prob": 0.5587
+       "prob": 0.5577
       },
       {
        "team": "Las Vegas Raiders",
        "line": 13.0,
-       "prob": 0.5942
+       "prob": 0.5951
       }
      ]
     },
@@ -7173,7 +7173,7 @@
        "prob": 0.9562,
        "edge": -0.0135,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7307,7 +7307,7 @@
        "prob": 0.0868,
        "edge": -0.0185,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7387,8 +7387,8 @@
      "frozen": false,
      "line": 3.0,
      "total_line": 40.5,
-     "model_margin": 4.1,
-     "blend_margin": 3.33,
+     "model_margin": 6.3999999999999995,
+     "blend_margin": 4.02,
      "proj_total": 39.37919580419581,
      "factors": [
       "QB: HOME QB PLAYING Justin Herbert [auto espn 2026-11-16] | AWAY QB QUESTIONABLE Geno Smith -> Cade Klubnik [auto espn 2026-11-16]",
@@ -7404,8 +7404,8 @@
        "side": "home",
        "team": "Los Angeles Chargers",
        "line": -1.5,
-       "price": -115.0,
-       "proj": 4.1,
+       "price": -105.0,
+       "proj": 6.3999999999999995,
        "prob": 0.5386,
        "edge": null,
        "edge_unit": "pts",
@@ -7421,7 +7421,7 @@
        "market": "total",
        "side": "under",
        "line": 40.5,
-       "price": -110.0,
+       "price": -115.0,
        "proj": 39.38,
        "prob": 0.5513,
        "edge": 1.12,
@@ -7439,18 +7439,18 @@
        "side": "home",
        "team": "Los Angeles Chargers",
        "line": 0.0,
-       "price": -166.0,
+       "price": -155.0,
        "price_estimated": false,
-       "proj": 3.33,
-       "prob": 0.6378,
-       "edge": 0.0138,
+       "proj": 4.02,
+       "prob": 0.6655,
+       "edge": 0.0577,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
-       "tier": "No Play",
-       "units": 0.0,
-       "selection": "Los Angeles Chargers ML -166",
+       "tier": "Lean",
+       "units": 0.5,
+       "selection": "Los Angeles Chargers ML -155",
        "game_id": "recDCa1TW7radKDSJ",
        "game": "New York Jets @ Los Angeles Chargers",
        "priority": "primary",
@@ -7461,17 +7461,17 @@
       {
        "market": "teaser_leg",
        "kind": "spread",
-       "side": "away",
-       "team": "New York Jets",
-       "base_line": 3.0,
-       "line": 9.0,
+       "side": "home",
+       "team": "Los Angeles Chargers",
+       "base_line": -3.0,
+       "line": 3.0,
        "price": 0.0,
-       "prob": 0.6878,
-       "push": 0.0258,
+       "prob": 0.6882,
+       "push": 0.0464,
        "crosses": [
-        7
+        3
        ],
-       "selection": "New York Jets +3 -> +9 (crosses 7)",
+       "selection": "Los Angeles Chargers -3 -> +3 (crosses 3)",
        "game_id": "recDCa1TW7radKDSJ",
        "game": "New York Jets @ Los Angeles Chargers",
        "priority": "secondary",
@@ -7500,22 +7500,22 @@
       {
        "team": "Los Angeles Chargers",
        "line": -6.0,
-       "prob": 0.38
+       "prob": 0.4004
       },
       {
        "team": "New York Jets",
        "line": 0.0,
-       "prob": 0.3852
+       "prob": 0.365
       },
       {
        "team": "Los Angeles Chargers",
        "line": 0.0,
-       "prob": 0.5872
+       "prob": 0.6078
       },
       {
        "team": "New York Jets",
        "line": 6.0,
-       "prob": 0.5851
+       "prob": 0.5642
       }
      ]
     },
@@ -7583,7 +7583,7 @@
        "prob": 0.9235,
        "edge": -0.0177,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7663,8 +7663,8 @@
      "frozen": false,
      "line": 3.0,
      "total_line": 46.5,
-     "model_margin": 2.9999999999999996,
-     "blend_margin": 3.0,
+     "model_margin": 3.0999999999999996,
+     "blend_margin": 3.03,
      "proj_total": 45.663,
      "factors": [
       "QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-16] | AWAY QB PLAYING Kirk Cousins [auto espn 2026-11-16]"
@@ -7677,7 +7677,7 @@
        "team": "San Francisco 49ers",
        "line": -3.5,
        "price": -112.0,
-       "proj": 2.9999999999999996,
+       "proj": 3.0999999999999996,
        "prob": 0.529,
        "edge": null,
        "edge_unit": "pts",
@@ -7713,11 +7713,11 @@
        "line": 0.0,
        "price": -162.0,
        "price_estimated": false,
-       "proj": 3.0,
-       "prob": 0.6245,
-       "edge": 0.0061,
+       "proj": 3.03,
+       "prob": 0.6257,
+       "edge": 0.0074,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7738,7 +7738,7 @@
        "base_line": 3.0,
        "line": 9.0,
        "price": 0.0,
-       "prob": 0.6968,
+       "prob": 0.696,
        "push": 0.0255,
        "crosses": [
         7
@@ -7772,22 +7772,22 @@
       {
        "team": "San Francisco 49ers",
        "line": -6.0,
-       "prob": 0.3703
+       "prob": 0.3712
       },
       {
        "team": "Minnesota Vikings",
        "line": 0.0,
-       "prob": 0.3949
+       "prob": 0.394
       },
       {
        "team": "San Francisco 49ers",
        "line": 0.0,
-       "prob": 0.5773
+       "prob": 0.5782
       },
       {
        "team": "Minnesota Vikings",
        "line": 6.0,
-       "prob": 0.5949
+       "prob": 0.594
       }
      ]
     },
@@ -7855,7 +7855,7 @@
        "prob": 0.3193,
        "edge": 0.0294,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7989,7 +7989,7 @@
        "prob": 0.4059,
        "edge": -0.0107,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8127,7 +8127,7 @@
        "prob": 0.9372,
        "edge": -0.0173,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8261,7 +8261,7 @@
        "prob": 0.947,
        "edge": -0.013,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8395,7 +8395,7 @@
        "prob": 0.1705,
        "edge": -0.0096,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8529,7 +8529,7 @@
        "prob": 0.5337,
        "edge": -0.0012,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8668,7 +8668,7 @@
        "prob": 0.3498,
        "edge": -0.001,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8804,7 +8804,7 @@
        "prob": 0.1832,
        "edge": -0.0168,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -8938,7 +8938,7 @@
        "prob": 0.5421,
        "edge": 0.0072,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9021,8 +9021,8 @@
      "frozen": false,
      "line": -6.0,
      "total_line": 46.5,
-     "model_margin": -7.699999999999999,
-     "blend_margin": -6.51,
+     "model_margin": -7.899999999999999,
+     "blend_margin": -6.569999999999999,
      "proj_total": 46.075874999999996,
      "factors": [
       "QB: HOME QB PLAYING J.J. McCarthy [auto espn 2026-11-16] | AWAY QB PLAYING Trevor Lawrence [auto espn 2026-11-16]",
@@ -9036,7 +9036,7 @@
        "team": "Jacksonville Jaguars",
        "line": -6.0,
        "price": -110.0,
-       "proj": -7.699999999999999,
+       "proj": -7.899999999999999,
        "prob": 0.6082,
        "edge": null,
        "edge_unit": "pts",
@@ -9070,18 +9070,18 @@
        "side": "away",
        "team": "Jacksonville Jaguars",
        "line": 0.0,
-       "price": -270.0,
+       "price": -265.0,
        "price_estimated": false,
-       "proj": -6.51,
-       "prob": 0.7607,
-       "edge": 0.0309,
+       "proj": -6.57,
+       "prob": 0.7628,
+       "edge": 0.0368,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Jacksonville Jaguars ML -270",
+       "selection": "Jacksonville Jaguars ML -265",
        "game_id": "recLDCpyeKOzU0eyq",
        "game": "Jacksonville Jaguars @ New York Giants",
        "priority": "primary",
@@ -9097,7 +9097,7 @@
        "base_line": 6.0,
        "line": 12.0,
        "price": 0.0,
-       "prob": 0.6856,
+       "prob": 0.6839,
        "push": 0.0262,
        "crosses": [
         7
@@ -9131,22 +9131,22 @@
       {
        "team": "New York Giants",
        "line": 3.0,
-       "prob": 0.3752
+       "prob": 0.3734
       },
       {
        "team": "Jacksonville Jaguars",
        "line": -9.0,
-       "prob": 0.3761
+       "prob": 0.3779
       },
       {
        "team": "New York Giants",
        "line": 9.0,
-       "prob": 0.5956
+       "prob": 0.5937
       },
       {
        "team": "Jacksonville Jaguars",
        "line": -3.0,
-       "prob": 0.5722
+       "prob": 0.574
       }
      ]
     },
@@ -9212,7 +9212,7 @@
        "prob": 0.1817,
        "edge": -0.0088,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9346,7 +9346,7 @@
        "prob": 0.5864,
        "edge": -0.0104,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9482,7 +9482,7 @@
        "prob": 0.2424,
        "edge": 0.0099,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9616,7 +9616,7 @@
        "prob": 0.4007,
        "edge": -0.0125,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9752,7 +9752,7 @@
        "prob": 0.5244,
        "edge": -0.0168,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -9889,7 +9889,7 @@
        "prob": 0.361,
        "edge": 0.0101,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10025,7 +10025,7 @@
        "prob": 0.8824,
        "edge": -0.0176,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10161,7 +10161,7 @@
        "prob": 0.3497,
        "edge": -0.0075,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10299,7 +10299,7 @@
        "prob": 0.2603,
        "edge": -0.0029,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10433,7 +10433,7 @@
        "prob": 0.3059,
        "edge": 0.0202,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10567,7 +10567,7 @@
        "prob": 0.3624,
        "edge": 0.0053,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10703,7 +10703,7 @@
        "prob": 0.1902,
        "edge": -0.0139,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10837,7 +10837,7 @@
        "prob": 0.4048,
        "edge": 0.0111,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -10973,7 +10973,7 @@
        "prob": 0.4127,
        "edge": 0.019,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11109,7 +11109,7 @@
        "prob": 0.4166,
        "edge": -0.0071,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11245,7 +11245,7 @@
        "prob": 0.2866,
        "edge": 0.0088,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11379,7 +11379,7 @@
        "prob": 0.4042,
        "edge": -0.0195,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11515,7 +11515,7 @@
        "prob": 0.1468,
        "edge": -0.0132,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11649,7 +11649,7 @@
        "prob": 0.4082,
        "edge": -0.005,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11785,7 +11785,7 @@
        "prob": 0.865,
        "edge": -0.0174,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11919,7 +11919,7 @@
        "prob": 0.2577,
        "edge": 0.0046,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11999,8 +11999,8 @@
      "frozen": false,
      "line": 16.5,
      "total_line": 45.5,
-     "model_margin": 18.2,
-     "blend_margin": 17.009999999999998,
+     "model_margin": 18.299999999999997,
+     "blend_margin": 17.04,
      "proj_total": 44.149625,
      "factors": [
       "QB: HOME QB PLAYING Josh Allen [auto espn 2026-11-16] | AWAY QB PLAYING Kyle McCord [auto espn 2026-11-16]",
@@ -12016,7 +12016,7 @@
        "team": "Buffalo Bills",
        "line": -16.5,
        "price": -108.0,
-       "proj": 18.2,
+       "proj": 18.299999999999997,
        "prob": 0.5989,
        "edge": null,
        "edge_unit": "pts",
@@ -12052,11 +12052,11 @@
        "line": 0.0,
        "price": -1350.0,
        "price_estimated": false,
-       "proj": 17.01,
-       "prob": 1.0399,
-       "edge": 0.1088,
+       "proj": 17.04,
+       "prob": 1.0403,
+       "edge": 0.1093,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Max Play",
@@ -12077,7 +12077,7 @@
        "base_line": 16.5,
        "line": 22.5,
        "price": 0.0,
-       "prob": 0.6915,
+       "prob": 0.6906,
        "push": 0,
        "crosses": [],
        "selection": "Miami Dolphins +16.5 -> +22.5",
@@ -12109,22 +12109,22 @@
       {
        "team": "Buffalo Bills",
        "line": -19.5,
-       "prob": 0.3945
+       "prob": 0.3954
       },
       {
        "team": "Miami Dolphins",
        "line": 13.5,
-       "prob": 0.417
+       "prob": 0.4161
       },
       {
        "team": "Buffalo Bills",
        "line": -13.5,
-       "prob": 0.583
+       "prob": 0.5839
       },
       {
        "team": "Miami Dolphins",
        "line": 19.5,
-       "prob": 0.6055
+       "prob": 0.6046
       }
      ]
     },
@@ -12190,7 +12190,7 @@
        "prob": 0.5513,
        "edge": -0.0139,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12329,7 +12329,7 @@
        "prob": 0.5566,
        "edge": 0.0011,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12508,7 +12508,7 @@
        "prob": 0.0837,
        "edge": -0.0115,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12642,7 +12642,7 @@
        "prob": 0.2403,
        "edge": 0.0022,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12776,7 +12776,7 @@
        "prob": 0.33,
        "edge": -0.0089,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12912,7 +12912,7 @@
        "prob": 0.1236,
        "edge": -0.0193,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13046,7 +13046,7 @@
        "prob": 0.2141,
        "edge": -0.0081,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13182,7 +13182,7 @@
        "prob": 0.1382,
        "edge": -0.0099,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13318,7 +13318,7 @@
        "prob": 0.3949,
        "edge": 0.0103,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13454,7 +13454,7 @@
        "prob": 0.2979,
        "edge": 0.0201,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13588,7 +13588,7 @@
        "prob": 0.361,
        "edge": 0.0039,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13724,7 +13724,7 @@
        "prob": 0.5718,
        "edge": -0.0026,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13860,7 +13860,7 @@
        "prob": 0.2939,
        "edge": 0.0081,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -13997,7 +13997,7 @@
        "prob": 0.0813,
        "edge": -0.0187,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14133,7 +14133,7 @@
        "prob": 0.4044,
        "edge": -0.0088,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14269,7 +14269,7 @@
        "prob": 0.5459,
        "edge": 0.0046,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14407,7 +14407,7 @@
        "prob": 0.6051,
        "edge": -0.0028,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14543,7 +14543,7 @@
        "prob": 0.0817,
        "edge": -0.0183,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14677,7 +14677,7 @@
        "prob": 0.1832,
        "edge": -0.0129,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -14756,10 +14756,10 @@
      "date": "2026-11-22",
      "frozen": false,
      "line": 2.5,
-     "total_line": 44.5,
-     "model_margin": 6.1,
-     "blend_margin": 3.58,
-     "proj_total": 45.524125000000005,
+     "total_line": 43.5,
+     "model_margin": 6.2,
+     "blend_margin": 3.6100000000000003,
+     "proj_total": 44.824125,
      "factors": [
       "QB: HOME QB PLAYING Bryce Young [auto espn 2026-11-16] | AWAY QB PLAYING Jacoby Brissett [auto espn 2026-11-16]",
       "weather: 56F, wind 8mph, precip 15% | sev=0.00 | open-meteo"
@@ -14771,8 +14771,8 @@
        "side": "home",
        "team": "Carolina Panthers",
        "line": -1.5,
-       "price": -115.0,
-       "proj": 6.1,
+       "price": -110.0,
+       "proj": 6.2,
        "prob": 0.6297,
        "edge": null,
        "edge_unit": "pts",
@@ -14787,15 +14787,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 44.5,
-       "price": -110.0,
-       "proj": 45.52,
-       "prob": 0.5469,
-       "edge": 1.02,
+       "line": 43.5,
+       "price": -118.0,
+       "proj": 44.82,
+       "prob": 0.5606,
+       "edge": 1.32,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 44.5",
+       "selection": "Over 43.5",
        "game_id": "recqHN0qEss3RtmUZ",
        "game": "Baltimore Ravens @ Carolina Panthers",
        "priority": "primary",
@@ -14806,18 +14806,18 @@
        "side": "home",
        "team": "Carolina Panthers",
        "line": 0.0,
-       "price": -142.0,
+       "price": -135.0,
        "price_estimated": false,
-       "proj": 3.58,
-       "prob": 0.6479,
-       "edge": 0.0611,
+       "proj": 3.61,
+       "prob": 0.6491,
+       "edge": 0.0746,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Strong Play",
        "units": 1.0,
-       "selection": "Carolina Panthers ML -142",
+       "selection": "Carolina Panthers ML -135",
        "game_id": "recqHN0qEss3RtmUZ",
        "game": "Baltimore Ravens @ Carolina Panthers",
        "priority": "primary",
@@ -14833,7 +14833,7 @@
        "base_line": -2.5,
        "line": 3.5,
        "price": 0.0,
-       "prob": 0.7234,
+       "prob": 0.7242,
        "push": 0,
        "crosses": [
         3
@@ -14849,13 +14849,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 44.5,
-       "line": 38.5,
+       "base_line": 43.5,
+       "line": 37.5,
        "price": 0.0,
-       "prob": 0.7588,
+       "prob": 0.768,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 44.5 -> 38.5",
+       "selection": "Over 43.5 -> 37.5",
        "game_id": "recqHN0qEss3RtmUZ",
        "game": "Baltimore Ravens @ Carolina Panthers",
        "priority": "secondary",
@@ -14867,22 +14867,22 @@
       {
        "team": "Carolina Panthers",
        "line": -5.5,
-       "prob": 0.4225
+       "prob": 0.4234
       },
       {
        "team": "Baltimore Ravens",
        "line": -0.5,
-       "prob": 0.3778
+       "prob": 0.377
       },
       {
        "team": "Carolina Panthers",
        "line": 0.5,
-       "prob": 0.6222
+       "prob": 0.623
       },
       {
        "team": "Baltimore Ravens",
        "line": 5.5,
-       "prob": 0.5775
+       "prob": 0.5766
       }
      ]
     },
@@ -14908,7 +14908,7 @@
        "side": "away",
        "team": "Indianapolis Colts",
        "line": 10.0,
-       "price": -110.0,
+       "price": -105.0,
        "proj": 7.4,
        "prob": 0.58,
        "edge": null,
@@ -14949,7 +14949,7 @@
        "prob": 0.8856,
        "edge": 0.0189,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15083,7 +15083,7 @@
        "prob": 0.5171,
        "edge": -0.0067,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15206,8 +15206,8 @@
      "frozen": false,
      "line": 6.5,
      "total_line": 46.5,
-     "model_margin": 4.5,
-     "blend_margin": 5.9,
+     "model_margin": 4.4,
+     "blend_margin": 5.87,
      "proj_total": 46.000125,
      "factors": [
       "QB: HOME QB PLAYING Jared Goff [auto espn 2026-11-16] | AWAY QB QUESTIONABLE Baker Mayfield -> Jalon Daniels [auto espn 2026-11-16]",
@@ -15223,7 +15223,7 @@
        "team": "Tampa Bay Buccaneers",
        "line": 3.5,
        "price": -112.0,
-       "proj": 4.5,
+       "proj": 4.4,
        "prob": 0.5957,
        "edge": null,
        "edge_unit": "pts",
@@ -15259,11 +15259,11 @@
        "line": 0.0,
        "price": -270.0,
        "price_estimated": false,
-       "proj": 5.9,
-       "prob": 0.7381,
-       "edge": 0.0084,
+       "proj": 5.87,
+       "prob": 0.737,
+       "edge": 0.0073,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15284,7 +15284,7 @@
        "base_line": 6.5,
        "line": 12.5,
        "price": 0.0,
-       "prob": 0.7279,
+       "prob": 0.7287,
        "push": 0,
        "crosses": [
         7
@@ -15318,22 +15318,22 @@
       {
        "team": "Detroit Lions",
        "line": -9.5,
-       "prob": 0.3581
+       "prob": 0.3573
       },
       {
        "team": "Tampa Bay Buccaneers",
        "line": 3.5,
-       "prob": 0.4464
+       "prob": 0.4473
       },
       {
        "team": "Detroit Lions",
        "line": -3.5,
-       "prob": 0.5536
+       "prob": 0.5527
       },
       {
        "team": "Tampa Bay Buccaneers",
        "line": 9.5,
-       "prob": 0.6419
+       "prob": 0.6427
       }
      ]
     },
@@ -15399,7 +15399,7 @@
        "prob": 0.604,
        "edge": -0.0144,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15535,7 +15535,7 @@
        "prob": 0.3136,
        "edge": 0.0151,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15617,8 +15617,8 @@
      "frozen": false,
      "line": -6.5,
      "total_line": 52.5,
-     "model_margin": -6.1,
-     "blend_margin": -6.38,
+     "model_margin": -6.199999999999999,
+     "blend_margin": -6.41,
      "proj_total": 51.250125,
      "factors": [
       "QB: HOME QB PLAYING Jayden Daniels [auto espn 2026-11-16] | AWAY QB PLAYING Joe Burrow [auto espn 2026-11-16]",
@@ -15631,8 +15631,8 @@
        "side": "away",
        "team": "Cincinnati Bengals",
        "line": -4.5,
-       "price": -108.0,
-       "proj": -6.1,
+       "price": -102.0,
+       "proj": -6.199999999999999,
        "prob": 0.545,
        "edge": null,
        "edge_unit": "pts",
@@ -15668,11 +15668,11 @@
        "line": 0.0,
        "price": -290.0,
        "price_estimated": false,
-       "proj": -6.38,
-       "prob": 0.7559,
-       "edge": 0.0123,
+       "proj": -6.41,
+       "prob": 0.757,
+       "edge": 0.0134,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15693,7 +15693,7 @@
        "base_line": 6.5,
        "line": 12.5,
        "price": 0.0,
-       "prob": 0.7152,
+       "prob": 0.7144,
        "push": 0,
        "crosses": [
         7
@@ -15727,22 +15727,22 @@
       {
        "team": "Washington Commanders",
        "line": 3.5,
-       "prob": 0.4318
+       "prob": 0.4309
       },
       {
        "team": "Cincinnati Bengals",
        "line": -9.5,
-       "prob": 0.3723
+       "prob": 0.3732
       },
       {
        "team": "Washington Commanders",
        "line": 9.5,
-       "prob": 0.6277
+       "prob": 0.6268
       },
       {
        "team": "Cincinnati Bengals",
        "line": -3.5,
-       "prob": 0.5682
+       "prob": 0.5691
       }
      ]
     },
@@ -15810,7 +15810,7 @@
        "prob": 0.2836,
        "edge": -0.0062,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -15947,7 +15947,7 @@
        "prob": 0.3205,
        "edge": -0.0021,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -16082,7 +16082,7 @@
        "prob": 0.8447,
        "edge": 0.0352,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
@@ -16216,7 +16216,7 @@
        "prob": 0.2349,
        "edge": -0.0032,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -16350,7 +16350,7 @@
        "prob": 0.884,
        "edge": -0.0108,
        "edge_unit": "prob",
-       "price_source": "Draft Kings",
+       "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -16606,7 +16606,7 @@
          "game_id": "rec1bMW82Gl2PPIzw",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 1.0139,
+         "prob": 1.0116,
          "price": -1800.0,
          "pro_favorite": true,
          "selection": "Kansas City Chiefs ML -1800",
@@ -16618,7 +16618,7 @@
          "game_id": "recbVlXXw82NMUHyI",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 1.0399,
+         "prob": 1.0403,
          "price": -1350.0,
          "pro_favorite": true,
          "selection": "Buffalo Bills ML -1350",
@@ -16631,7 +16631,7 @@
          "market_kind": "spread",
          "side": "home",
          "prob": 0.6297,
-         "price": -115.0,
+         "price": -110.0,
          "pro_favorite": true,
          "selection": "Carolina Panthers -1.5 (spread)",
          "game": "Baltimore Ravens @ Carolina Panthers",
@@ -16641,10 +16641,10 @@
        ],
        "n_legs": 3,
        "prob": 0.6284,
-       "price": 112,
-       "break_even_prob": 0.4718,
-       "break_even_price": 112,
-       "edge": 0.1567,
+       "price": 116,
+       "break_even_prob": 0.462,
+       "break_even_price": 116,
+       "edge": 0.1664,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -16654,22 +16654,10 @@
        "market": "parlay",
        "legs": [
         {
-         "game_id": "rec1bMW82Gl2PPIzw",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 1.0139,
-         "price": -1800.0,
-         "pro_favorite": true,
-         "selection": "Kansas City Chiefs ML -1800",
-         "game": "Arizona Cardinals @ Kansas City Chiefs",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
          "game_id": "recA8wbdTRMKXNzCn",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 0.8935,
+         "prob": 0.8927,
          "price": -535.0,
          "pro_favorite": true,
          "selection": "Denver Broncos ML -535",
@@ -16681,21 +16669,33 @@
          "game_id": "recbVlXXw82NMUHyI",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 1.0399,
+         "prob": 1.0403,
          "price": -1350.0,
          "pro_favorite": true,
          "selection": "Buffalo Bills ML -1350",
          "game": "Miami Dolphins @ Buffalo Bills",
          "line": 0.0,
          "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recqHN0qEss3RtmUZ",
+         "market_kind": "spread",
+         "side": "home",
+         "prob": 0.6297,
+         "price": -110.0,
+         "pro_favorite": true,
+         "selection": "Carolina Panthers -1.5 (spread)",
+         "game": "Baltimore Ravens @ Carolina Panthers",
+         "line": -1.5,
+         "grade_market": "spread"
         }
        ],
        "n_legs": 3,
-       "prob": 0.8917,
-       "price": -289,
-       "break_even_prob": 0.7431,
-       "break_even_price": -289,
-       "edge": 0.1486,
+       "prob": 0.5616,
+       "price": 143,
+       "break_even_prob": 0.4109,
+       "break_even_price": 143,
+       "edge": 0.1507,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -16708,7 +16708,58 @@
          "game_id": "rec1bMW82Gl2PPIzw",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 1.0139,
+         "prob": 1.0116,
+         "price": -1800.0,
+         "pro_favorite": true,
+         "selection": "Kansas City Chiefs ML -1800",
+         "game": "Arizona Cardinals @ Kansas City Chiefs",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recA8wbdTRMKXNzCn",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8927,
+         "price": -535.0,
+         "pro_favorite": true,
+         "selection": "Denver Broncos ML -535",
+         "game": "Las Vegas Raiders @ Denver Broncos",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recbVlXXw82NMUHyI",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 1.0403,
+         "price": -1350.0,
+         "pro_favorite": true,
+         "selection": "Buffalo Bills ML -1350",
+         "game": "Miami Dolphins @ Buffalo Bills",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.8909,
+       "price": -289,
+       "break_even_prob": 0.7431,
+       "break_even_price": -289,
+       "edge": 0.1478,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "rec1bMW82Gl2PPIzw",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 1.0116,
          "price": -1800.0,
          "pro_favorite": true,
          "selection": "Kansas City Chiefs ML -1800",
@@ -16732,7 +16783,7 @@
          "game_id": "recbVlXXw82NMUHyI",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 1.0399,
+         "prob": 1.0403,
          "price": -1350.0,
          "pro_favorite": true,
          "selection": "Buffalo Bills ML -1350",
@@ -16756,61 +16807,10 @@
        "market": "parlay",
        "legs": [
         {
-         "game_id": "recA8wbdTRMKXNzCn",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8935,
-         "price": -535.0,
-         "pro_favorite": true,
-         "selection": "Denver Broncos ML -535",
-         "game": "Las Vegas Raiders @ Denver Broncos",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recbVlXXw82NMUHyI",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 1.0399,
-         "price": -1350.0,
-         "pro_favorite": true,
-         "selection": "Buffalo Bills ML -1350",
-         "game": "Miami Dolphins @ Buffalo Bills",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recqHN0qEss3RtmUZ",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.6297,
-         "price": -115.0,
-         "pro_favorite": true,
-         "selection": "Carolina Panthers -1.5 (spread)",
-         "game": "Baltimore Ravens @ Carolina Panthers",
-         "line": -1.5,
-         "grade_market": "spread"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.5621,
-       "price": 138,
-       "break_even_prob": 0.4196,
-       "break_even_price": 138,
-       "edge": 0.1425,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
          "game_id": "rec1bMW82Gl2PPIzw",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 1.0139,
+         "prob": 1.0116,
          "price": -1800.0,
          "pro_favorite": true,
          "selection": "Kansas City Chiefs ML -1800",
@@ -16820,35 +16820,35 @@
         },
         {
          "game_id": "recA8wbdTRMKXNzCn",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.5968,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Over 40.5",
-         "game": "Las Vegas Raiders @ Denver Broncos",
-         "line": 40.5,
-         "grade_market": "total"
-        },
-        {
-         "game_id": "recbVlXXw82NMUHyI",
          "market_kind": "moneyline",
          "side": "home",
-         "prob": 1.0399,
-         "price": -1350.0,
+         "prob": 0.8927,
+         "price": -535.0,
          "pro_favorite": true,
-         "selection": "Buffalo Bills ML -1350",
-         "game": "Miami Dolphins @ Buffalo Bills",
+         "selection": "Denver Broncos ML -535",
+         "game": "Las Vegas Raiders @ Denver Broncos",
          "line": 0.0,
          "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recqHN0qEss3RtmUZ",
+         "market_kind": "spread",
+         "side": "home",
+         "prob": 0.6297,
+         "price": -110.0,
+         "pro_favorite": true,
+         "selection": "Carolina Panthers -1.5 (spread)",
+         "game": "Baltimore Ravens @ Carolina Panthers",
+         "line": -1.5,
+         "grade_market": "spread"
         }
        ],
        "n_legs": 3,
-       "prob": 0.5956,
-       "price": 118,
-       "break_even_prob": 0.458,
-       "break_even_price": 118,
-       "edge": 0.1376,
+       "prob": 0.5616,
+       "price": 139,
+       "break_even_prob": 0.4181,
+       "break_even_price": 139,
+       "edge": 0.1435,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -16945,6 +16945,63 @@
          "base_line": 54.5
         },
         {
+         "game_id": "recqHN0qEss3RtmUZ",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.768,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 43.5 -> 37.5",
+         "game": "Baltimore Ravens @ Carolina Panthers",
+         "line": 37.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 43.5
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.4698,
+       "price": 160.0,
+       "break_even_prob": 0.3846,
+       "break_even_price": 160,
+       "edge": 0.0852,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "teaser",
+       "legs": [
+        {
+         "game_id": "recA8wbdTRMKXNzCn",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.7918,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 40.5 -> 34.5",
+         "game": "Las Vegas Raiders @ Denver Broncos",
+         "line": 34.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 40.5
+        },
+        {
+         "game_id": "recwzEr4ONJw6Vsml",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7726,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 54.5 -> 60.5",
+         "game": "Tennessee Titans @ Dallas Cowboys",
+         "line": 60.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 54.5
+        },
+        {
          "game_id": "recvStneVWJBEWYU3",
          "market_kind": "total",
          "side": "under",
@@ -16965,6 +17022,63 @@
        "break_even_prob": 0.3846,
        "break_even_price": 160,
        "edge": 0.0839,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "teaser",
+       "legs": [
+        {
+         "game_id": "recA8wbdTRMKXNzCn",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.7918,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 40.5 -> 34.5",
+         "game": "Las Vegas Raiders @ Denver Broncos",
+         "line": 34.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 40.5
+        },
+        {
+         "game_id": "recbVlXXw82NMUHyI",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7688,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 45.5 -> 51.5",
+         "game": "Miami Dolphins @ Buffalo Bills",
+         "line": 51.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 45.5
+        },
+        {
+         "game_id": "recqHN0qEss3RtmUZ",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.768,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 43.5 -> 37.5",
+         "game": "Baltimore Ravens @ Carolina Panthers",
+         "line": 37.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 43.5
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.4675,
+       "price": 160.0,
+       "break_even_prob": 0.3846,
+       "break_even_price": 160,
+       "edge": 0.0829,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -17022,120 +17136,6 @@
        "break_even_prob": 0.3846,
        "break_even_price": 160,
        "edge": 0.0826,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "teaser",
-       "legs": [
-        {
-         "game_id": "recA8wbdTRMKXNzCn",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.7918,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 40.5 -> 34.5",
-         "game": "Las Vegas Raiders @ Denver Broncos",
-         "line": 34.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 40.5
-        },
-        {
-         "game_id": "recwzEr4ONJw6Vsml",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.7726,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 54.5 -> 60.5",
-         "game": "Tennessee Titans @ Dallas Cowboys",
-         "line": 60.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 54.5
-        },
-        {
-         "game_id": "rec1bMW82Gl2PPIzw",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.7631,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 41.5 -> 35.5",
-         "game": "Arizona Cardinals @ Kansas City Chiefs",
-         "line": 35.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 41.5
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.4668,
-       "price": 160.0,
-       "break_even_prob": 0.3846,
-       "break_even_price": 160,
-       "edge": 0.0822,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "teaser",
-       "legs": [
-        {
-         "game_id": "recA8wbdTRMKXNzCn",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.7918,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 40.5 -> 34.5",
-         "game": "Las Vegas Raiders @ Denver Broncos",
-         "line": 34.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 40.5
-        },
-        {
-         "game_id": "recbVlXXw82NMUHyI",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.7688,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 45.5 -> 51.5",
-         "game": "Miami Dolphins @ Buffalo Bills",
-         "line": 51.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 45.5
-        },
-        {
-         "game_id": "recvStneVWJBEWYU3",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.7658,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 52.5 -> 58.5",
-         "game": "Cincinnati Bengals @ Washington Commanders",
-         "line": 58.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 52.5
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.4662,
-       "price": 160.0,
-       "break_even_prob": 0.3846,
-       "break_even_price": 160,
-       "edge": 0.0816,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -18970,5 +18970,5 @@
    "NFL teaser_leg: n=66, shrink 1.0 -> 1.0 (no meaningful gain; best 0.9, Brier gain 0.0006)"
   ]
  },
- "narrative_sha256": "67be4d56cdececcffa04953f5f903468a50c5c0c8be73fa298630c32b7dfff9f"
+ "narrative_sha256": "c14c0130b3e9e3b1ba25c9a9ffe1c97ab47f7417992023af2b5ff67aaa275221"
 }
