@@ -12,6 +12,7 @@ Overall graded picks: 110-115 (Brier 0.2572).
 | Miami Dolphins @ Buffalo Bills | 2026-11-22 | Strong Play | Buffalo Bills -16.5 (spread) | 1 | 59.9% |  |
 | Jacksonville Jaguars @ New York Giants | 2026-11-22 | Strong Play | Jacksonville Jaguars -6 (spread) | 1 | 60.8% |  |
 | Indianapolis Colts @ Houston Texans | 2026-11-19 | Strong Play | Indianapolis Colts +10 (spread) | 1 | 58.0% |  |
+| Green Bay Packers @ Los Angeles Rams | 2026-11-25 | Strong Play | Los Angeles Rams -3.5 (spread) | 1 | 58.6% |  |
 | Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | Strong Play | Tampa Bay Buccaneers +3.5 (spread) | 1 | 59.6% |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | Lean | Denver Broncos -8.5 (spread) | 0.5 | 54.8% |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | Lean | Dallas Cowboys -7.5 (spread) | 0.5 | 55.5% |  |
@@ -23,6 +24,7 @@ Overall graded picks: 110-115 (Brier 0.2572).
 - Miami Dolphins @ Buffalo Bills: weather: 59F, wind 7mph, precip 36% | sev=0.00 | open-meteo
 - Jacksonville Jaguars @ New York Giants: weather: 57F, wind 12mph, precip 32% | sev=0.25 | open-meteo
 - Indianapolis Colts @ Houston Texans: weather: indoor | sev=0.00
+- Green Bay Packers @ Los Angeles Rams: 
 - Tampa Bay Buccaneers @ Detroit Lions: QB: HOME QB PLAYING Jared Goff [auto espn 2026-11-17] | AWAY QB QUESTIONABLE Baker Mayfield -> Jalon Daniels [auto espn 2026-11-17]; weather: indoor | sev=0.00
 - Las Vegas Raiders @ Denver Broncos: weather: 50F, wind 6mph, precip 0% | sev=0.00 | open-meteo
 - Tennessee Titans @ Dallas Cowboys: weather: indoor | sev=0.00
@@ -160,7 +162,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1600 | 101% | Strong Play | 1.0 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -650 | 90% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | Lean | 0.5 |
 | Northern Illinois @ North Dakota State | total | Over 43.5 | 55% | Lean | 0.5 |
@@ -184,7 +186,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Arkansas @ Texas | total | Over 46.5 | 53% | Lean | 0.5 |
 | Vanderbilt @ Florida | total | Over 46.5 | 54% | Lean | 0.5 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | Strong Play | 1.0 |
-| Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | Lean | 0.5 |
+| Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 58% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 56% | Strong Play | 1.0 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -380 | 84% | Lean | 0.5 |
 - NCAAF parlay: Over 37.5 + Over 37.5 | model 31.5%, needs +257 to break even, edge +3.5%, Lean
@@ -193,9 +195,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +112 to break even, edge +15.8%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380 | model 84.3%, needs -230 to break even, edge +14.6%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1600 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450 | model 60.7%, needs +117 to break even, edge +14.6%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Under 54.5 -> 60.5 | model 47.4%, needs +160 to break even, edge +8.9%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Under 46.5 -> 52.5 | model 47.0%, needs +160 to break even, edge +8.6%, Max Play
-- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 46.5 -> 52.5 | model 46.9%, needs +160 to break even, edge +8.4%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 54.5 -> 60.5 | model 47.9%, needs +160 to break even, edge +9.5%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 46.5 -> 52.5 | model 47.6%, needs +160 to break even, edge +9.1%, Max Play
+- NFL teaser: Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 38.5 -> 32.5 | model 47.4%, needs +160 to break even, edge +8.9%, Max Play
 
 ## Results and learning by market
 

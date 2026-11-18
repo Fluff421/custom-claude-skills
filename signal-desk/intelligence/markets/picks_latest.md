@@ -220,7 +220,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1600 | 101% | +7.1% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 52% | +0.4 pts | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -650 | 90% | +3.3% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | +3.8% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
@@ -249,7 +249,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Tampa Bay Buccaneers @ Detroit Lions | total | Over 43.5 | 52% | +0.4 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +280 | 25% | -1.4% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | +1.6 pts | Lean | 0.5 |
+| Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 58% | +1.9 pts | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.8% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
@@ -260,14 +260,14 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 - Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +112 to break even (reference payout +112), edge +15.8%, Max Play
 - Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380: model 84.3%, needs -230 to break even (reference payout -230), edge +14.6%, Max Play
 - Kansas City Chiefs ML -1600 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +117 to break even (reference payout +117), edge +14.6%, Max Play
+- Kansas City Chiefs ML -1600 + Chicago Bears ML -625 + Buffalo Bills ML -1450: model 89.8%, needs -315 to break even (reference payout -315), edge +13.9%, Max Play
 - Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Tampa Bay Buccaneers +3.5 (spread): model 59.5%, needs +119 to break even (reference payout +119), edge +13.7%, Max Play
-- Kansas City Chiefs ML -1600 + Denver Broncos ML -600 + Buffalo Bills ML -1450: model 89.1%, needs -308 to break even (reference payout -308), edge +13.6%, Max Play
 
 ### NFL Best 6-point teasers
 
-- Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Under 54.5 -> 60.5: model 47.4%, needs +160 to break even (reference payout +160), edge +8.9%, Max Play
-- Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Under 46.5 -> 52.5: model 47.0%, needs +160 to break even (reference payout +160), edge +8.6%, Max Play
-- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 46.5 -> 52.5: model 46.9%, needs +160 to break even (reference payout +160), edge +8.4%, Max Play
-- Over 40.5 -> 34.5 + Under 53.5 -> 59.5 + Over 38.5 -> 32.5: model 46.9%, needs +160 to break even (reference payout +160), edge +8.4%, Max Play
-- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 38.5 -> 32.5: model 46.7%, needs +160 to break even (reference payout +160), edge +8.3%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 54.5 -> 60.5: model 47.9%, needs +160 to break even (reference payout +160), edge +9.5%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Under 46.5 -> 52.5: model 47.6%, needs +160 to break even (reference payout +160), edge +9.1%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 38.5 -> 32.5: model 47.4%, needs +160 to break even (reference payout +160), edge +8.9%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 44.5 -> 38.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.7%, Max Play
+- Over 40.5 -> 34.5 + Under 54.5 -> 60.5 + Over 44.5 -> 38.5: model 47.0%, needs +160 to break even (reference payout +160), edge +8.6%, Max Play
 
