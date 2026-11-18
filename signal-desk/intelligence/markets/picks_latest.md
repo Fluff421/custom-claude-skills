@@ -106,7 +106,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Colorado @ Cincinnati | moneyline | Colorado ML +136 | 42% | -0.7% | No Play | 0 |
 | Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
 | Georgia Southern @ Troy | total | Over 48.5 | 50% | +0.2 pts | No Play | 0 |
-| Georgia Southern @ Troy | moneyline | Troy ML +260 | 29% | +0.9% | No Play | 0 |
+| Georgia Southern @ Troy | moneyline | Troy ML +270 | 29% | +1.6% | No Play | 0 |
 | Ohio State @ Nebraska | spread | Ohio State -5.5 (spread) | 51% |  | No Play | 0 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | +2.8 pts | Lean | 0.5 |
 | Ohio State @ Nebraska | moneyline | Nebraska ML +136 | 40% | -1.9% | No Play | 0 |
@@ -117,7 +117,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Texas Tech @ Baylor | total | Over 55.5 | 50% | +0.0 pts | No Play | 0 |
 | Texas Tech @ Baylor | moneyline | Baylor ML +142 | 41% | -0.5% | No Play | 0 |
 | Oregon @ Michigan State | spread | Oregon -13.5 (spread) | 50% |  | No Play | 0 |
-| Oregon @ Michigan State | total | Over 45.5 | 52% | +1.4 pts | No Play | 0 |
+| Oregon @ Michigan State | total | Over 44.5 | 52% | +1.7 pts | No Play | 0 |
 | Oregon @ Michigan State | moneyline | Michigan State ML +575 | 14% | -1.3% | No Play | 0 |
 | NC State @ Florida State | spread | Florida State -9.5 (spread) | 50% |  | No Play | 0 |
 | NC State @ Florida State | total | Under 56.5 | 50% | +0.0 pts | No Play | 0 |
@@ -126,7 +126,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Stanford @ California | total | Under 56.5 | 52% | +1.7 pts | No Play | 0 |
 | Stanford @ California | moneyline | Stanford ML -130 | 55% | -1.4% | No Play | 0 |
 | Iowa State @ UCF | spread | UCF -1.5 (spread) | 51% |  | No Play | 0 |
-| Iowa State @ UCF | total | Over 49.5 | 52% | +2.0 pts | No Play | 0 |
+| Iowa State @ UCF | total | Over 48.5 | 53% | +2.3 pts | No Play | 0 |
 | Iowa State @ UCF | moneyline | UCF ML -130 | 56% | -0.9% | No Play | 0 |
 | Kent State @ Eastern Michigan | moneyline | Eastern Michigan ML -110 (price estimated from the line) | 71% | +18.4% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
@@ -142,7 +142,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | San Diego State @ Boise State | total | Under 61.5 | 50% | +0.1 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | San Diego State ML +600 | 12% | -1.9% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
-| Georgia @ South Carolina | total | Over 51.5 | 52% | +1.4 pts | No Play | 0 |
+| Georgia @ South Carolina | total | Over 50.5 | 52% | +1.7 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | South Carolina ML +575 | 14% | -1.0% | No Play | 0 |
 | Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 40.5 | 51% | +1.1 pts | No Play | 0 |
@@ -161,13 +161,13 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Indiana @ Washington | moneyline | Washington ML +250 | 29% | +0.8% | No Play | 0 |
 | Wake Forest @ Georgia Tech | spread | Georgia Tech +21 (spread) | 50% |  | No Play | 0 |
 | Wake Forest @ Georgia Tech | total | Under 56.5 | 51% | +1.0 pts | No Play | 0 |
-| Wake Forest @ Georgia Tech | moneyline | Georgia Tech ML +900 | 9% | -1.4% | No Play | 0 |
+| Wake Forest @ Georgia Tech | moneyline | Georgia Tech ML +900 | 8% | -1.9% | No Play | 0 |
 | Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
 | Florida International @ Kennesaw State | moneyline | Florida International ML +136 | 40% | -1.9% | No Play | 0 |
 | Central Michigan @ Buffalo | spread | Buffalo -1.5 (spread) | 50% |  | No Play | 0 |
 | Central Michigan @ Buffalo | total | Over 45.5 | 51% | +0.7 pts | No Play | 0 |
-| Central Michigan @ Buffalo | moneyline | Buffalo ML -118 | 55% | +0.5% | No Play | 0 |
+| Central Michigan @ Buffalo | moneyline | Buffalo ML -142 | 57% | -1.8% | No Play | 0 |
 | Northwestern @ Minnesota | spread | Northwestern -3 (spread) | 52% |  | No Play | 0 |
 | Northwestern @ Minnesota | total | Over 42.5 | 52% | +1.5 pts | No Play | 0 |
 | Northwestern @ Minnesota | moneyline | Northwestern ML -155 | 61% | -0.3% | No Play | 0 |
@@ -247,7 +247,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -750 | 91% | +2.4% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Over 43.5 | 52% | +0.4 pts | No Play | 0 |
-| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +275 | 25% | -1.8% | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +280 | 25% | -1.4% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.8% | No Play | 0 |
