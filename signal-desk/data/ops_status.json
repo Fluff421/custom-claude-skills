@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-18T00:38:28Z",
+ "generated_at_utc": "2026-11-18T01:38:21Z",
  "generated_for_central_date": "2026-11-17",
  "graded_picks_csv_rows": 224,
  "ledger_health": {
@@ -60,8 +60,12 @@
     "games": []
    },
    "upcoming_espn_data_stale": {
-    "count": 0,
-    "games": []
+    "count": 3,
+    "games": [
+     "Miami (OH) @ Kent State (NCAAF, 2026-11-17) (4 h)",
+     "Eastern Michigan @ Western Michigan (NCAAF, 2026-11-17) (4 h)",
+     "Ball State @ Ohio (NCAAF, 2026-11-17) (4 h)"
+    ]
    },
    "past_date_no_closing_line": {
     "count": 0,
@@ -83,6 +87,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 44213072931,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44213072931",
+     "event": "schedule",
+     "created_at": "2026-11-18T01:05:25Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 78,
+      "rows_changed": 13,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44207906160,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44207906160",
@@ -136,24 +158,6 @@
       "rows_changed": 19,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44124472676,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44124472676",
-     "event": "schedule",
-     "created_at": "2026-11-17T16:19:37Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 81,
-      "rows_changed": 79,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -164,6 +168,21 @@
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "runs": [
+    {
+     "run_id": 44214855933,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44214855933",
+     "event": "schedule",
+     "created_at": "2026-11-18T01:19:03Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44175881906,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44175881906",
@@ -199,21 +218,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44126269419",
      "event": "schedule",
      "created_at": "2026-11-17T16:29:03Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "new_picks": 0,
-      "units_recapped": 0,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44084987239,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44084987239",
-     "event": "workflow_run",
-     "created_at": "2026-11-17T12:38:09Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -265,6 +269,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44217161928,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44217161928",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-18T01:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 19,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44209282686,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44209282686",
      "event": "workflow_dispatch",
@@ -301,22 +321,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44196628111",
      "event": "schedule",
      "created_at": "2026-11-17T23:08:09Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 19,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44191781057,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44191781057",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-17T22:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -562,18 +566,18 @@
    "file": "espn-sync.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-17T16:19:37Z",
-   "age_h": 8.3,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-18T01:05:25Z",
+   "age_h": 0.5,
+   "status": "ok"
   },
   {
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-17T16:29:03Z",
-   "age_h": 8.2,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-18T01:19:03Z",
+   "age_h": 0.3,
+   "status": "ok"
   },
   {
    "workflow": "Close & Grade",
@@ -581,8 +585,8 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-17T23:08:09Z",
-   "age_h": 1.5,
-   "status": "ok"
+   "age_h": 2.5,
+   "status": "missed"
   },
   {
    "workflow": "Context & Calibrate",
@@ -590,7 +594,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T20:52:01Z",
-   "age_h": 3.8,
+   "age_h": 4.8,
    "status": "ok"
   },
   {
@@ -599,7 +603,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T21:54:28Z",
-   "age_h": 2.7,
+   "age_h": 3.7,
    "status": "ok"
   },
   {
@@ -609,7 +613,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-17T03:02:36Z",
-   "age_h": 21.6,
+   "age_h": 22.6,
    "status": "ok"
   },
   {
@@ -618,8 +622,8 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-17T21:14:35Z",
-   "age_h": 3.4,
-   "status": "ok"
+   "age_h": 4.4,
+   "status": "missed"
   }
  ],
  "how_to_read": "workflow health: ok / warn / degraded / failed / unknown. 'success' conclusions are judged from log text, not trusted. Postponed games and schedule_health: ok / missed per workflow (last SCHEDULED run vs tolerated gap; manual runs do not count). same-day games can appear in the ledger_health lists; they are leads, not verdicts."

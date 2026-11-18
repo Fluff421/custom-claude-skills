@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated_at": "2026-11-18T00:39:26+00:00",
+ "generated_at": "2026-11-18T01:39:22+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -5623,7 +5623,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-18T00:39:03+00:00",
+   "generated_at": "2026-11-18T01:38:53+00:00",
    "date": "2026-11-17",
    "games": [
     {
@@ -6229,18 +6229,18 @@
        "side": "home",
        "team": "Chicago Bears",
        "line": 0.0,
-       "price": -700.0,
+       "price": -650.0,
        "price_estimated": false,
        "proj": 10.75,
        "prob": 0.8996,
-       "edge": 0.0246,
+       "edge": 0.0329,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
-       "tier": "No Play",
-       "units": 0.0,
-       "selection": "Chicago Bears ML -700",
+       "tier": "Lean",
+       "units": 0.5,
+       "selection": "Chicago Bears ML -650",
        "game_id": "rec1s3f7B7DvAfqb3",
        "game": "New Orleans Saints @ Chicago Bears",
        "priority": "primary",
@@ -11078,7 +11078,7 @@
        "side": "home",
        "team": "Cincinnati",
        "line": -2.5,
-       "price": -112.0,
+       "price": -115.0,
        "proj": 4.1,
        "prob": 0.5046,
        "edge": null,
@@ -11758,7 +11758,7 @@
        "side": "away",
        "team": "Oregon",
        "line": -13.5,
-       "price": -108.0,
+       "price": -115.0,
        "proj": -16.3,
        "prob": 0.5027,
        "edge": null,
@@ -11790,25 +11790,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Oregon",
+       "side": "home",
+       "team": "Michigan State",
        "line": 0.0,
-       "price": -750.0,
+       "price": 550.0,
        "price_estimated": false,
        "proj": -16.47,
-       "prob": 0.865,
-       "edge": -0.0174,
+       "prob": 0.135,
+       "edge": -0.0188,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Oregon ML -750",
+       "selection": "Michigan State ML +550",
        "game_id": "recac1dbqIyFo0A9Q",
        "game": "Oregon @ Michigan State",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -16815,6 +16815,57 @@
          "grade_market": "moneyline"
         },
         {
+         "game_id": "rec1s3f7B7DvAfqb3",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8996,
+         "price": -650.0,
+         "pro_favorite": true,
+         "selection": "Chicago Bears ML -650",
+         "game": "New Orleans Saints @ Chicago Bears",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recbVlXXw82NMUHyI",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 1.0403,
+         "price": -1450.0,
+         "pro_favorite": true,
+         "selection": "Buffalo Bills ML -1450",
+         "game": "Miami Dolphins @ Buffalo Bills",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.8978,
+       "price": -308,
+       "break_even_prob": 0.7548,
+       "break_even_price": -308,
+       "edge": 0.143,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "rec1bMW82Gl2PPIzw",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 1.0116,
+         "price": -1350.0,
+         "pro_favorite": true,
+         "selection": "Kansas City Chiefs ML -1350",
+         "game": "Arizona Cardinals @ Kansas City Chiefs",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
          "game_id": "recbVlXXw82NMUHyI",
          "market_kind": "moneyline",
          "side": "home",
@@ -16845,57 +16896,6 @@
        "break_even_prob": 0.4522,
        "break_even_price": 121,
        "edge": 0.1423,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "rec1bMW82Gl2PPIzw",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 1.0116,
-         "price": -1350.0,
-         "pro_favorite": true,
-         "selection": "Kansas City Chiefs ML -1350",
-         "game": "Arizona Cardinals @ Kansas City Chiefs",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recA8wbdTRMKXNzCn",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8927,
-         "price": -625.0,
-         "pro_favorite": true,
-         "selection": "Denver Broncos ML -625",
-         "game": "Las Vegas Raiders @ Denver Broncos",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recbVlXXw82NMUHyI",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 1.0403,
-         "price": -1450.0,
-         "pro_favorite": true,
-         "selection": "Buffalo Bills ML -1450",
-         "game": "Miami Dolphins @ Buffalo Bills",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.8909,
-       "price": -301,
-       "break_even_prob": 0.7508,
-       "break_even_price": -301,
-       "edge": 0.1401,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -19017,5 +19017,5 @@
    "NFL teaser_leg: n=68, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0003)"
   ]
  },
- "narrative_sha256": "f1a60a9fb3aa4e863c92646fe321a875382b59dc858b47f72f5746d00eb49cbf"
+ "narrative_sha256": "699a6ac898bf9842f36d99b3f810b942001b7dca181b611783e066bbfff85efb"
 }

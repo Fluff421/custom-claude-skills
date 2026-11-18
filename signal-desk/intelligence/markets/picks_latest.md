@@ -20,6 +20,9 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Utah @ TCU | spread | Utah -5.5 (spread) | 51% |  | No Play | 0 |
 | Utah @ TCU | total | Over 46.5 | 50% | +0.0 pts | No Play | 0 |
 | Utah @ TCU | moneyline | TCU ML +220 | 32% | +0.2% | No Play | 0 |
+| Eastern Michigan @ Western Michigan | spread | Western Michigan -14.5 (spread) | 51% |  | No Play | 0 |
+| Eastern Michigan @ Western Michigan | total | Over 45.5 | 54% | +3.1 pts | Lean | 0.5 |
+| Eastern Michigan @ Western Michigan | moneyline | Western Michigan ML -950 | 89% | -1.3% | No Play | 0 |
 | Pittsburgh @ Louisville | spread | Pittsburgh +12.5 (spread) | 51% |  | No Play | 0 |
 | Pittsburgh @ Louisville | total | Over 50.5 | 52% | +1.6 pts | No Play | 0 |
 | Pittsburgh @ Louisville | moneyline | Pittsburgh ML +425 | 18% | -0.6% | No Play | 0 |
@@ -219,7 +222,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arizona Cardinals @ Kansas City Chiefs | total | Under 41.5 | 52% | +0.5 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1350 | 101% | +8.1% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | total | Under 48.5 | 52% | +0.4 pts | No Play | 0 |
+| New Orleans Saints @ Chicago Bears | total | Under 49.5 | 53% | +0.7 pts | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -650 | 90% | +3.3% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
