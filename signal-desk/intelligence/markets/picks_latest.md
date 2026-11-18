@@ -118,7 +118,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Texas Tech @ Baylor | moneyline | Baylor ML +142 | 41% | -0.5% | No Play | 0 |
 | Oregon @ Michigan State | spread | Oregon -13.5 (spread) | 50% |  | No Play | 0 |
 | Oregon @ Michigan State | total | Over 44.5 | 52% | +1.7 pts | No Play | 0 |
-| Oregon @ Michigan State | moneyline | Michigan State ML +575 | 14% | -1.3% | No Play | 0 |
+| Oregon @ Michigan State | moneyline | Michigan State ML +600 | 14% | -0.8% | No Play | 0 |
 | NC State @ Florida State | spread | Florida State -9.5 (spread) | 50% |  | No Play | 0 |
 | NC State @ Florida State | total | Under 56.5 | 50% | +0.0 pts | No Play | 0 |
 | NC State @ Florida State | moneyline | NC State ML +310 | 24% | -0.4% | No Play | 0 |
@@ -140,7 +140,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | UTSA @ UAB | moneyline | UAB ML +200 | 33% | -0.3% | No Play | 0 |
 | San Diego State @ Boise State | spread | Boise State -16.5 (spread) | 52% |  | No Play | 0 |
 | San Diego State @ Boise State | total | Under 61.5 | 50% | +0.1 pts | No Play | 0 |
-| San Diego State @ Boise State | moneyline | San Diego State ML +600 | 12% | -1.9% | No Play | 0 |
+| San Diego State @ Boise State | moneyline | Boise State ML -900 | 89% | -1.2% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
 | Georgia @ South Carolina | total | Under 51.5 | 51% | +0.7 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | South Carolina ML +575 | 14% | -1.0% | No Play | 0 |
