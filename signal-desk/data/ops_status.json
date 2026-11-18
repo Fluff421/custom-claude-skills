@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-18T07:38:17Z",
+ "generated_at_utc": "2026-11-18T08:38:15Z",
  "generated_for_central_date": "2026-11-18",
  "graded_picks_csv_rows": 227,
  "ledger_health": {
@@ -227,6 +227,11 @@
    ],
    "skipped_chains": [
     {
+     "run_id": 44262292363,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44262292363",
+     "created_at": "2026-11-18T07:52:35Z"
+    },
+    {
      "run_id": 44252196103,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44252196103",
      "created_at": "2026-11-18T06:33:20Z"
@@ -269,6 +274,22 @@
    "workflow": "Close & Grade",
    "file": "close-grade.yml",
    "runs": [
+    {
+     "run_id": 44268536862,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44268536862",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-18T08:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 20,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44260281209,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44260281209",
@@ -316,22 +337,6 @@
       "calibration_upserts": 20,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44239133237,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44239133237",
-     "event": "schedule",
-     "created_at": "2026-11-18T04:42:06Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 20,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -342,6 +347,32 @@
    "workflow": "NCAAF Injury Pull",
    "file": "injury-pull.yml",
    "runs": [
+    {
+     "run_id": 44262261460,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44262261460",
+     "event": "schedule",
+     "created_at": "2026-11-18T07:52:21Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: DraftEdge parsed 453 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizon"
+      ],
+      "mode": "LIVE",
+      "injury_games_expected": 0,
+      "injury_games_covered": 0,
+      "injury_games_not_yet_due": 0,
+      "injury_games_overdue": 0,
+      "injury_games_independent": 0,
+      "fpi_missing": 0
+     },
+     "error_lines": [
+      "ERROR: DraftEdge parsed 453 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizo"
+     ]
+    },
     {
      "run_id": 44252160065,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44252160065",
@@ -399,32 +430,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44084187688",
      "event": "workflow_dispatch",
      "created_at": "2026-11-17T12:33:02Z",
-     "conclusion": "failure",
-     "health": "failed",
-     "reasons": [
-      "conclusion=failure"
-     ],
-     "summary": {
-      "warnings": [
-       "WARN: DraftEdge parsed 466 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizon"
-      ],
-      "mode": "LIVE",
-      "injury_games_expected": 0,
-      "injury_games_covered": 0,
-      "injury_games_not_yet_due": 0,
-      "injury_games_overdue": 0,
-      "injury_games_independent": 0,
-      "fpi_missing": 0
-     },
-     "error_lines": [
-      "ERROR: DraftEdge parsed 466 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizo"
-     ]
-    },
-    {
-     "run_id": 43970188996,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43970188996",
-     "event": "schedule",
-     "created_at": "2026-11-16T22:27:11Z",
      "conclusion": "failure",
      "health": "failed",
      "reasons": [
@@ -580,7 +585,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-18T01:05:25Z",
-   "age_h": 6.5,
+   "age_h": 7.5,
    "status": "missed"
   },
   {
@@ -589,7 +594,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-18T01:19:03Z",
-   "age_h": 6.3,
+   "age_h": 7.3,
    "status": "missed"
   },
   {
@@ -598,7 +603,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-18T04:42:06Z",
-   "age_h": 2.9,
+   "age_h": 3.9,
    "status": "missed"
   },
   {
@@ -607,7 +612,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T20:52:01Z",
-   "age_h": 10.8,
+   "age_h": 11.8,
    "status": "ok"
   },
   {
@@ -616,7 +621,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T21:54:28Z",
-   "age_h": 9.7,
+   "age_h": 10.7,
    "status": "ok"
   },
   {
@@ -626,7 +631,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-17T03:02:36Z",
-   "age_h": 28.6,
+   "age_h": 29.6,
    "status": "ok"
   },
   {
@@ -634,9 +639,9 @@
    "file": "injury-pull.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-17T21:14:35Z",
-   "age_h": 10.4,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-18T07:52:21Z",
+   "age_h": 0.8,
+   "status": "ok"
   }
  ],
  "how_to_read": "workflow health: ok / warn / degraded / failed / unknown. 'success' conclusions are judged from log text, not trusted. Postponed games and schedule_health: ok / missed per workflow (last SCHEDULED run vs tolerated gap; manual runs do not count). same-day games can appear in the ledger_health lists; they are leads, not verdicts."
