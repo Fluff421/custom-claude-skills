@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T17:39:41.954472+00:00",
- "snapshot_age_hours": 45.7,
+ "generated_at": "2026-11-18T18:39:26.425343+00:00",
+ "snapshot_age_hours": 46.7,
  "games": [
   {
    "game": "Akron @ UMass",
@@ -311,10 +311,10 @@
     }
    },
    "moneyline": {
-    "pick": "Bowling Green ML +530",
+    "pick": "Toledo ML -719",
     "tier": "No Play",
-    "prob": 0.1447,
-    "edge": -0.014,
+    "prob": 0.8656,
+    "edge": -0.0123,
     "model_ml_side": "away"
    }
   },
@@ -613,8 +613,8 @@
    "moneyline": {
     "pick": "Tulane ML +205",
     "tier": "No Play",
-    "prob": 0.3199,
-    "edge": -0.008,
+    "prob": 0.3116,
+    "edge": -0.0163,
     "model_ml_side": "away"
    }
   },
@@ -1763,8 +1763,8 @@
    "moneyline": {
     "pick": "Hawai'i ML +146",
     "tier": "No Play",
-    "prob": 0.3949,
-    "edge": -0.0116,
+    "prob": 0.3859,
+    "edge": -0.0206,
     "model_ml_side": "away"
    }
   },
@@ -2163,9 +2163,9 @@
    "moneyline": {
     "pick": "NC State ML +310",
     "tier": "No Play",
-    "prob": 0.2443,
-    "edge": 0.0004,
-    "model_ml_side": "home"
+    "prob": 0.237,
+    "edge": -0.0069,
+    "model_ml_side": "away"
    }
   },
   {
@@ -3285,9 +3285,9 @@
    "spread": {
     "pick": "Jacksonville Jaguars -6.5",
     "side": "away",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": -1.1,
+    "tier": "No Play",
+    "prob": 0.529,
+    "edge": -0.9,
     "proj": -7.899999999999999,
     "import_side": "",
     "import_tier": "",
@@ -3387,7 +3387,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.6,
+    "edge": 2.0,
     "proj": 18.2,
     "import_side": "",
     "import_tier": "",
@@ -3436,8 +3436,8 @@
     "pick": "San Francisco 49ers -3",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5258,
-    "edge": 0.8,
+    "prob": 0.5097,
+    "edge": 0.3,
     "proj": 2.9999999999999996,
     "import_side": "",
     "import_tier": "",
@@ -3536,8 +3536,8 @@
     "pick": "Los Angeles Chargers -3.5",
     "side": "home",
     "tier": "Lean",
-    "prob": 0.5373,
-    "edge": 4.3,
+    "prob": 0.5398,
+    "edge": 4.4,
     "proj": 6.3,
     "import_side": "",
     "import_tier": "",
@@ -3563,8 +3563,8 @@
    "moneyline": {
     "pick": "Los Angeles Chargers ML -180",
     "tier": "No Play",
-    "prob": 0.6358,
-    "edge": -0.0071,
+    "prob": 0.6252,
+    "edge": -0.0176,
     "model_ml_side": "home"
    }
   },
@@ -3713,8 +3713,8 @@
    "moneyline": {
     "pick": "Tennessee Titans ML +350",
     "tier": "No Play",
-    "prob": 0.237,
-    "edge": 0.0148,
+    "prob": 0.2546,
+    "edge": 0.0324,
     "model_ml_side": "home"
    }
   },
