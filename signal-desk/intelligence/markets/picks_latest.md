@@ -40,10 +40,10 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Delaware @ New Mexico State | moneyline | New Mexico State ML +140 | 42% | +0.0% | No Play | 0 |
 | UTEP @ Air Force | spread | Air Force -21.5 (spread) | 50% |  | No Play | 0 |
 | UTEP @ Air Force | total | Under 47.5 | 53% | +2.8 pts | Lean | 0.5 |
-| UTEP @ Air Force | moneyline | Air Force ML -2100 | 94% | -1.1% | No Play | 0 |
+| UTEP @ Air Force | moneyline | Air Force ML -2100 | 94% | -1.7% | No Play | 0 |
 | Rutgers @ Penn State | spread | Rutgers +22.5 (spread) | 50% |  | No Play | 0 |
 | Rutgers @ Penn State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
-| Rutgers @ Penn State | moneyline | Penn State ML -2400 | 95% | -1.3% | No Play | 0 |
+| Rutgers @ Penn State | moneyline | Rutgers ML +1300 | 5% | -1.8% | No Play | 0 |
 | UL Monroe @ App State | spread | App State -13.5 (spread) | 51% |  | No Play | 0 |
 | UL Monroe @ App State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
 | UL Monroe @ App State | moneyline | UL Monroe ML +455 | 17% | -1.0% | No Play | 0 |
@@ -61,7 +61,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | South Florida @ Florida Atlantic | moneyline | South Florida ML -115 | 54% | +0.7% | No Play | 0 |
 | Arkansas State @ Louisiana Tech | spread | Arkansas State +16.5 (spread) | 51% |  | No Play | 0 |
 | Arkansas State @ Louisiana Tech | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
-| Arkansas State @ Louisiana Tech | moneyline | Arkansas State ML +425 | 18% | -0.9% | No Play | 0 |
+| Arkansas State @ Louisiana Tech | moneyline | Arkansas State ML +410 | 18% | -1.4% | No Play | 0 |
 | Rice @ Temple | spread | Temple -4 (spread) | 50% |  | No Play | 0 |
 | Rice @ Temple | total | Over 51.5 | 51% | +0.7 pts | No Play | 0 |
 | Rice @ Temple | moneyline | Temple ML -148 | 59% | -1.0% | No Play | 0 |
@@ -142,7 +142,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | San Diego State @ Boise State | total | Over 60.5 | 50% | +0.2 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | Boise State ML -900 | 89% | -1.2% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
-| Georgia @ South Carolina | total | Under 50.5 | 50% | +0.4 pts | No Play | 0 |
+| Georgia @ South Carolina | total | Under 51.5 | 51% | +0.7 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | South Carolina ML +575 | 14% | -1.0% | No Play | 0 |
 | Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
@@ -182,8 +182,8 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Georgia State @ Marshall | moneyline | Marshall ML -115 | 52% | -1.8% | No Play | 0 |
 | Miami (OH) @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 69% | +17.0% | No Play | 0 |
 | Akron @ Massachusetts | spread | Massachusetts -2.5 (spread) | 50% |  | Lean | 0.5 |
-| Akron @ Massachusetts | total | Over 47.5 | 51% | +1.0 pts | No Play | 0 |
-| Akron @ Massachusetts | moneyline | Akron ML +150 | 38% | -1.5% | No Play | 0 |
+| Akron @ Massachusetts | total | Over 46.5 | 52% | +1.3 pts | No Play | 0 |
+| Akron @ Massachusetts | moneyline | Massachusetts ML -166 | 60% | -2.0% | No Play | 0 |
 | Arizona @ Kansas State | spread | Kansas State +10.5 (spread) | 51% |  | No Play | 0 |
 | Arizona @ Kansas State | total | Under 52.5 | 51% | +1.1 pts | No Play | 0 |
 | Arizona @ Kansas State | moneyline | Kansas State ML +235 | 31% | +1.5% | No Play | 0 |
@@ -203,9 +203,9 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 ### NCAAF Best parlays
 
 - Under 54.5 + Under 47.5: model 29.3%, needs +264 to break even (reference payout +264), edge +1.8%, No Play
-- Under 54.5 + Under 47.5 + Massachusetts -2.5 (spread): model 14.6%, needs +602 to break even (reference payout +602), edge +0.4%, No Play
-- Under 54.5 + Massachusetts -2.5 (spread): model 27.4%, needs +268 to break even (reference payout +268), edge +0.2%, No Play
-- Under 47.5 + Massachusetts -2.5 (spread): model 26.7%, needs +268 to break even (reference payout +268), edge -0.5%, No Play
+- Under 54.5 + Under 47.5 + Massachusetts -2.5 (spread): model 14.6%, needs +596 to break even (reference payout +596), edge +0.3%, No Play
+- Under 54.5 + Massachusetts -2.5 (spread): model 27.4%, needs +264 to break even (reference payout +264), edge -0.0%, No Play
+- Under 47.5 + Massachusetts -2.5 (spread): model 26.7%, needs +264 to break even (reference payout +264), edge -0.7%, No Play
 
 ## NFL
 
@@ -228,7 +228,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -185 | 66% | +1.1% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 41.5 | 52% | +0.4 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -155 | 66% | +5.7% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -162 | 66% | +4.6% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 45.5 | 52% | +0.5 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 62% | +0.6% | No Play | 0 |
