@@ -2313,3 +2313,5 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-18T20:55:01+00:00,recac1dbqIyFo0A9Q,401858529,NCAAF,Oregon @ Michigan State,2026-11-20,Draft Kings,-16.5,44.5,600,-900,-105.0,-115.0,-110.0,-110.0,-12.5
 2026-11-18T20:55:01+00:00,recfU2ZV1porTqF2q,401860925,NCAAF,San Diego State @ Boise State,2026-11-21,Draft Kings,17.5,61.5,-900,600,-102.0,-118.0,-118.0,-102.0,18.5
 2026-11-18T20:55:01+00:00,reckwNilHUe4AfHjo,401858527,NCAAF,Iowa @ Illinois,2026-11-21,Draft Kings,-8.5,40.5,260,-325,-110.0,-110.0,-120.0,100.0,-5.5
+2026-11-18T20:57:03+00:00,recac1dbqIyFo0A9Q,401858529,NCAAF,Oregon @ Michigan State,2026-11-20,DraftKings,-16.5,44.5,575,-850,-105.0,-115.0,-110.0,-110.0,-12.5
+2026-11-18T20:57:03+00:00,reckwNilHUe4AfHjo,401858527,NCAAF,Iowa @ Illinois,2026-11-21,DraftKings,-8.5,40.5,260,-325,-110.0,-110.0,-118.0,-102.0,-5.5
