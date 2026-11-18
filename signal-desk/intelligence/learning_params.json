@@ -4,7 +4,7 @@
    "forward": {
     "corr": null,
     "lo90": null,
-    "n": 0,
+    "n": 3,
     "ready": false
    },
    "gate": {
@@ -65,7 +65,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-17T21:04:00.000Z"
+   "updated": "2026-11-18T12:46:21.000Z"
   },
   "NFL": {
    "forward": {
@@ -132,29 +132,29 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-17T21:04:00.000Z"
+   "updated": "2026-11-18T12:46:21.000Z"
   }
  },
  "report_cards": {
   "NCAAF": {
    "espn": {
-    "brier": 0.2498,
+    "brier": 0.2501,
     "calibration": [
      {
-      "actual": 0.5,
+      "actual": 0.492,
       "bucket": "50%-55%",
-      "n": 62,
-      "pred": 0.507
+      "n": 65,
+      "pred": 0.508
      }
     ],
-    "clv_mean": -0.078,
-    "clv_n": 64,
-    "clv_se": 0.167,
-    "hit_rate": 0.5,
-    "log_loss": 0.6927,
-    "losses": 31,
-    "n": 64,
-    "n_prob": 62,
+    "clv_mean": -0.037,
+    "clv_n": 67,
+    "clv_se": 0.161,
+    "hit_rate": 0.492,
+    "log_loss": 0.6933,
+    "losses": 33,
+    "n": 67,
+    "n_prob": 65,
     "pushes": 2,
     "tiers": {
      "Lean": {
@@ -166,15 +166,15 @@
       "wins": 0
      },
      "No Play": {
-      "clv_mean": -0.056,
-      "clv_n": 63,
-      "clv_se": 0.168,
-      "losses": 30,
-      "n": 63,
-      "wins": 31
+      "clv_mean": -0.015,
+      "clv_n": 66,
+      "clv_se": 0.162,
+      "losses": 32,
+      "n": 66,
+      "wins": 32
      }
     },
-    "wins": 31
+    "wins": 32
    },
    "learn_mode": "all",
    "splash": {
@@ -251,7 +251,7 @@
     "wins": 55
    },
    "unknown": 0,
-   "updated": "2026-11-17T21:04:00.000Z"
+   "updated": "2026-11-18T12:46:21.000Z"
   },
   "NFL": {
    "espn": {
@@ -402,7 +402,7 @@
     "wins": 16
    },
    "unknown": 0,
-   "updated": "2026-11-17T21:04:00.000Z"
+   "updated": "2026-11-18T12:46:21.000Z"
   }
  },
  "sigma": {
@@ -439,7 +439,7 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-17T21:04:00.000Z"
+   "updated": "2026-11-18T12:46:21.000Z"
   },
   "NFL": {
    "n_eff": 689.8,
@@ -474,7 +474,7 @@
    },
    "sigma": 12.38,
    "target": 12.38,
-   "updated": "2026-11-17T21:04:00.000Z"
+   "updated": "2026-11-18T12:46:21.000Z"
   }
  }
 }
