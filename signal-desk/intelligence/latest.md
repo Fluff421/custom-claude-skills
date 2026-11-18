@@ -165,7 +165,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | Lean | 0.5 |
 | Northern Illinois @ North Dakota State | total | Over 43.5 | 55% | Lean | 0.5 |
 | Colorado State @ Fresno State | total | Under 65.5 | 53% | Lean | 0.5 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -180 | 68% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -185 | 68% | Lean | 0.5 |
 | LSU @ Tennessee | total | Over 45.5 | 54% | Lean | 0.5 |
 | Old Dominion @ UConn | total | Over 47.5 | 53% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 64.5 | 54% | Lean | 0.5 |
@@ -183,7 +183,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1450 | 104% | Max Play | 1.0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 54% | Lean | 0.5 |
 | Arkansas @ Texas | total | Over 46.5 | 53% | Lean | 0.5 |
-| Vanderbilt @ Florida | total | Over 47.5 | 53% | Lean | 0.5 |
+| Vanderbilt @ Florida | total | Over 46.5 | 54% | Lean | 0.5 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | Strong Play | 1.0 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 56% | Strong Play | 1.0 |

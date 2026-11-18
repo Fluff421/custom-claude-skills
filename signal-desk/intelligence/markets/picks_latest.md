@@ -76,7 +76,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | North Carolina @ Virginia | moneyline | Virginia ML -118 | 52% | -1.7% | No Play | 0 |
 | East Carolina @ Army | spread | Army -4.5 (spread) | 50% |  | No Play | 0 |
 | East Carolina @ Army | total | Over 45.5 | 54% | +3.1 pts | Lean | 0.5 |
-| East Carolina @ Army | moneyline | East Carolina ML +180 | 36% | +0.4% | No Play | 0 |
+| East Carolina @ Army | moneyline | East Carolina ML +180 | 35% | -0.7% | No Play | 0 |
 | Maryland @ USC | spread | USC -16.5 (spread) | 51% |  | No Play | 0 |
 | Maryland @ USC | total | Under 57.5 | 51% | +0.5 pts | No Play | 0 |
 | Maryland @ USC | moneyline | USC ML -900 | 88% | -1.8% | No Play | 0 |
@@ -175,7 +175,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arkansas @ Texas | total | Over 46.5 | 53% | +2.9 pts | Lean | 0.5 |
 | Arkansas @ Texas | moneyline | Arkansas ML +900 | 8% | -1.8% | No Play | 0 |
 | Vanderbilt @ Florida | spread | Vanderbilt +13.5 (spread) | 50% |  | No Play | 0 |
-| Vanderbilt @ Florida | total | Over 47.5 | 53% | +2.7 pts | Lean | 0.5 |
+| Vanderbilt @ Florida | total | Over 46.5 | 54% | +3.0 pts | Lean | 0.5 |
 | Vanderbilt @ Florida | moneyline | Vanderbilt ML +410 | 18% | -1.3% | No Play | 0 |
 | Georgia State @ Marshall | spread | Georgia State -1.5 (spread) | 51% |  | No Play | 0 |
 | Georgia State @ Marshall | total | Over 56.5 | 50% | +0.3 pts | No Play | 0 |
@@ -226,7 +226,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | +3.1% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 41.5 | 52% | +0.4 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -180 | 68% | +3.6% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -185 | 68% | +3.0% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 45.5 | 52% | +0.5 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 63% | +0.7% | No Play | 0 |
@@ -243,8 +243,8 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 55% | +1.1 pts | No Play | 0 |
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -750 | 91% | +2.4% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
-| Tampa Bay Buccaneers @ Detroit Lions | total | Over 44.5 | 50% | +0.1 pts | No Play | 0 |
-| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -305 | 75% | -0.3% | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | total | Over 43.5 | 52% | +0.4 pts | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +275 | 25% | -1.7% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | +1.6 pts | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.8% | No Play | 0 |
