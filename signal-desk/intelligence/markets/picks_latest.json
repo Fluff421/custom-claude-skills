@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:38:51+00:00",
+ "generated_at": "2026-11-18T12:15:22+00:00",
  "date": "2026-11-18",
  "games": [
   {
@@ -1240,6 +1240,24 @@
    "factors": [],
    "total_factor_why": [],
    "picks": [
+    {
+     "market": "spread",
+     "side": "home",
+     "team": "Los Angeles Rams",
+     "line": -3.5,
+     "price": -120.0,
+     "proj": 4.800000000000001,
+     "prob": 0.5863,
+     "edge": null,
+     "edge_unit": "pts",
+     "tier": "Strong Play",
+     "units": 1.0,
+     "selection": "Los Angeles Rams -3.5 (spread)",
+     "game_id": "recAtdjulTlSZk3jZ",
+     "game": "Green Bay Packers @ Los Angeles Rams",
+     "priority": "primary",
+     "pro_favorite": true
+    },
     {
      "market": "total",
      "side": "over",
@@ -9447,10 +9465,10 @@
    "league": "NCAAF",
    "date": "2026-11-18",
    "frozen": false,
-   "line": 3.0,
+   "line": 3.5,
    "total_line": 46.5,
    "model_margin": 9.600000000000001,
-   "blend_margin": 3.9570000000000003,
+   "blend_margin": 4.3845,
    "proj_total": 47.78076923076923,
    "factors": [
     "weather: 42F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
@@ -9462,7 +9480,7 @@
      "side": "home",
      "team": "Massachusetts",
      "line": -2.5,
-     "price": -118.0,
+     "price": -102.0,
      "proj": 9.600000000000001,
      "prob": 0.5,
      "edge": null,
@@ -9499,9 +9517,9 @@
      "line": 0.0,
      "price": -162.0,
      "price_estimated": false,
-     "proj": 3.96,
-     "prob": 0.604,
-     "edge": -0.0144,
+     "proj": 4.38,
+     "prob": 0.6149,
+     "edge": -0.0034,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
@@ -9521,15 +9539,15 @@
      "kind": "spread",
      "side": "home",
      "team": "Massachusetts",
-     "base_line": -3.0,
-     "line": 3.0,
+     "base_line": -3.5,
+     "line": 2.5,
      "price": 0.0,
-     "prob": 0.5888,
-     "push": 0.0307,
+     "prob": 0.5944,
+     "push": 0,
      "crosses": [
       3
      ],
-     "selection": "Massachusetts -3 -> +3 (crosses 3)",
+     "selection": "Massachusetts -3.5 -> +2.5 (crosses 3)",
      "game_id": "rectlJ1OyHCjFTlpM",
      "game": "Akron @ Massachusetts",
      "priority": "secondary",
@@ -9557,23 +9575,23 @@
    "alt_spreads": [
     {
      "team": "Massachusetts",
-     "line": -6.0,
-     "prob": 0.4273
+     "line": -6.5,
+     "prob": 0.4383
     },
     {
      "team": "Akron",
-     "line": 0.0,
-     "prob": 0.3859
+     "line": 0.5,
+     "prob": 0.3996
     },
     {
      "team": "Massachusetts",
-     "line": 0.0,
-     "prob": 0.5896
+     "line": -0.5,
+     "prob": 0.6004
     },
     {
      "team": "Akron",
-     "line": 6.0,
-     "prob": 0.5451
+     "line": 6.5,
+     "prob": 0.5617
     }
    ]
   },

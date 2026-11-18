@@ -183,7 +183,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Miami (OH) @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 72% | +19.7% | No Play | 0 |
 | Akron @ Massachusetts | spread | Massachusetts -2.5 (spread) | 50% |  | Lean | 0.5 |
 | Akron @ Massachusetts | total | Over 46.5 | 52% | +1.3 pts | No Play | 0 |
-| Akron @ Massachusetts | moneyline | Massachusetts ML -162 | 60% | -1.4% | No Play | 0 |
+| Akron @ Massachusetts | moneyline | Massachusetts ML -162 | 61% | -0.3% | No Play | 0 |
 | Arizona @ Kansas State | spread | Kansas State +10.5 (spread) | 51% |  | No Play | 0 |
 | Arizona @ Kansas State | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
 | Arizona @ Kansas State | moneyline | Kansas State ML +235 | 31% | +1.5% | No Play | 0 |
@@ -224,6 +224,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Over 46.5 | 50% | +0.0 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -198 | 66% | -0.4% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
