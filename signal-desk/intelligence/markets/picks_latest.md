@@ -183,7 +183,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Miami (OH) @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 72% | +19.7% | No Play | 0 |
 | Akron @ Massachusetts | spread | Massachusetts -2.5 (spread) | 50% |  | Lean | 0.5 |
 | Akron @ Massachusetts | total | Over 47.5 | 51% | +1.0 pts | No Play | 0 |
-| Akron @ Massachusetts | moneyline | Massachusetts ML -175 | 61% | -2.1% | No Play | 0 |
+| Akron @ Massachusetts | moneyline | Akron ML +150 | 39% | -1.5% | No Play | 0 |
 | Arizona @ Kansas State | spread | Kansas State +10.5 (spread) | 51% |  | No Play | 0 |
 | Arizona @ Kansas State | total | Under 52.5 | 51% | +1.1 pts | No Play | 0 |
 | Arizona @ Kansas State | moneyline | Kansas State ML +235 | 31% | +1.5% | No Play | 0 |
@@ -223,13 +223,13 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | +3.8% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | +3.1% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -185 | 66% | +1.1% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 41.5 | 52% | +0.4 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -175 | 66% | +2.8% | No Play | 0 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -162 | 66% | +4.6% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 45.5 | 52% | +0.5 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -162 | 62% | +0.6% | No Play | 0 |

@@ -164,7 +164,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1350 | 100% | Strong Play | 1.0 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -162 | 66% | Lean | 0.5 |
 | Delaware @ New Mexico State | total | Under 54.5 | 53% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 64.5 | 53% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | Lean | 0.5 |
