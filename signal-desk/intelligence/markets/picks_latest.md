@@ -247,7 +247,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -750 | 91% | +2.4% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Over 43.5 | 52% | +0.4 pts | No Play | 0 |
-| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +280 | 25% | -1.4% | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +275 | 25% | -1.8% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.8% | No Play | 0 |

@@ -2229,3 +2229,7 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-18T12:39:30+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,Draft Kings,11.5,48.5,-625,455,-112.0,-108.0,-115.0,-105.0,6.5
 2026-11-18T12:39:30+00:00,rectlJ1OyHCjFTlpM,401866467,NCAAF,Akron @ Massachusetts,2026-11-18,Draft Kings,3.5,46.5,-162,136,-105.0,-115.0,-110.0,-110.0,3.5
 2026-11-18T12:39:30+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.5,54.5,240,-298,-118.0,-102.0,-105.0,-115.0,-1.5
+2026-11-18T13:39:03+00:00,recBHbl1JKZVHdRA3,401864543,NCAAF,Northern Illinois @ North Dakota State,2026-11-21,Draft Kings,25.5,43.5,-3200,1400,-105.0,-115.0,-115.0,-105.0,25.5
+2026-11-18T13:39:03+00:00,recJ4QxjGXRfB3M2T,401869929,NCAAF,UL Monroe @ App State,2026-11-21,Draft Kings,14.0,50.5,-625,455,-110.0,-110.0,-105.0,-115.0,13.5
+2026-11-18T13:39:03+00:00,reccsGQ0WZVRNDL66,401858307,NCAAF,SMU @ Notre Dame,2026-11-21,Draft Kings,20.5,56.5,-1650,950,-112.0,-108.0,-112.0,-108.0,17.5
+2026-11-18T13:39:03+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,Draft Kings,7.0,43.5,-345,275,-112.0,-108.0,-118.0,-102.0,4.5
