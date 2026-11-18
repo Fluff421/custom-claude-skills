@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T21:37:48+00:00",
+ "generated_at": "2026-11-18T21:40:22+00:00",
  "date": "2026-11-18",
  "games": [
   {
@@ -1964,18 +1964,18 @@
      "side": "home",
      "team": "San Francisco 49ers",
      "line": 0.0,
-     "price": -155.0,
+     "price": -162.0,
      "price_estimated": false,
      "proj": 3.0,
      "prob": 0.6245,
-     "edge": 0.0166,
+     "edge": 0.0061,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "San Francisco 49ers ML -155",
+     "selection": "San Francisco 49ers ML -162",
      "game_id": "recElzL7HxGEOOWIt",
      "game": "Minnesota Vikings @ San Francisco 49ers",
      "priority": "primary",
