@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T20:58:12.484803+00:00",
- "snapshot_age_hours": 49.0,
+ "generated_at": "2026-11-18T21:38:18.889651+00:00",
+ "snapshot_age_hours": 49.7,
  "games": [
   {
    "game": "Akron @ UMass",
@@ -137,7 +137,7 @@
     "side": "away",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": -1.1,
+    "edge": -2.1,
     "proj": 7.4,
     "import_side": "",
     "import_tier": "",
@@ -913,8 +913,8 @@
    "moneyline": {
     "pick": "UTEP ML +1280",
     "tier": "No Play",
-    "prob": 0.0549,
-    "edge": -0.0175,
+    "prob": 0.0603,
+    "edge": -0.0121,
     "model_ml_side": "away"
    }
   },
@@ -2563,8 +2563,8 @@
    "moneyline": {
     "pick": "Boise State ML -781",
     "tier": "No Play",
-    "prob": 0.8861,
-    "edge": -0.0004,
+    "prob": 0.8948,
+    "edge": 0.0083,
     "model_ml_side": "home"
    }
   },
@@ -3235,9 +3235,9 @@
    "spread": {
     "pick": "Carolina Panthers -1.5",
     "side": "home",
-    "tier": "Max Play",
-    "prob": 0.6297,
-    "edge": 4.1,
+    "tier": "Strong Play",
+    "prob": 0.6236,
+    "edge": 3.9,
     "proj": 6.1000000000000005,
     "import_side": "",
     "import_tier": "",
@@ -3286,8 +3286,8 @@
     "pick": "Jacksonville Jaguars -6.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5258,
-    "edge": -0.8,
+    "prob": 0.5161,
+    "edge": -0.5,
     "proj": -7.899999999999999,
     "import_side": "",
     "import_tier": "",
@@ -3486,8 +3486,8 @@
     "pick": "New Orleans Saints +10.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5161,
-    "edge": -0.5,
+    "prob": 0.5129,
+    "edge": -0.4,
     "proj": 9.0,
     "import_side": "",
     "import_tier": "",
@@ -3637,7 +3637,7 @@
     "side": "away",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": -2.6,
+    "edge": -1.8,
     "proj": 4.5,
     "import_side": "",
     "import_tier": "",
@@ -3687,7 +3687,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.3,
+    "edge": 1.5,
     "proj": 10.0,
     "import_side": "",
     "import_tier": "",
