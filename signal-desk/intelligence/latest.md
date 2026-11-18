@@ -165,7 +165,6 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | Lean | 0.5 |
 | Northern Illinois @ North Dakota State | total | Over 43.5 | 55% | Lean | 0.5 |
 | Colorado State @ Fresno State | total | Under 65.5 | 53% | Lean | 0.5 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -185 | 68% | Lean | 0.5 |
 | LSU @ Tennessee | total | Over 45.5 | 54% | Lean | 0.5 |
 | Old Dominion @ UConn | total | Over 47.5 | 53% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 64.5 | 54% | Lean | 0.5 |

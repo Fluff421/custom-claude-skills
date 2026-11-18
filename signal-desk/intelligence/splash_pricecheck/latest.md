@@ -1,8 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-18 08:39Z
+# Pick-time check at the newest Splash lines, 2026-11-18 09:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 37 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 38 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 1 games are unpriced; stored owner lines are not model recommendations.
 
@@ -14,11 +14,11 @@ Warning: the newest Splash snapshot is 37 hours old. Paste a fresh File 1 dump b
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
-| Arizona Cardinals @ Kansas City Chiefs | 2026-11-22 | spread | Arizona Cardinals +15.5 | Max Play | 62.7% | -4.0 |  |
-| Baltimore Ravens @ Carolina Panthers | 2026-11-22 | spread | Carolina Panthers -1.5 | Max Play | 63.9% | 4.4 |  |
+| Baltimore Ravens @ Carolina Panthers | 2026-11-22 | spread | Carolina Panthers -1.5 | Max Play | 63.6% | 4.3 |  |
 | Indianapolis Colts @ Houston Texans | 2026-11-19 | spread | Indianapolis Colts +10.5 | Strong Play | 58.0% | -2.5 |  |
 | New Mexico @ Wyoming | 2026-11-20 | total | Over 37.5 | Strong Play | 55.6% | 4.67 |  |
 | UCLA @ Michigan | 2026-11-20 | total | Over 38.5 | Strong Play | 56.3% | 5.25 |  |
+| Arizona Cardinals @ Kansas City Chiefs | 2026-11-22 | spread | Arizona Cardinals +15.5 | Strong Play | 62.4% | -3.9 |  |
 | Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Strong Play | 58.0% | 2.5 |  |
 | Central Michigan @ Buffalo | 2026-11-18 | total | Over 43.5 | Lean | 53.5% | 2.87 | was over No Play at the early line |
 | Ohio State @ Nebraska | 2026-11-20 | total | Over 41.5 | Lean | 53.8% | 3.16 |  |
@@ -40,9 +40,9 @@ Warning: the newest Splash snapshot is 37 hours old. Paste a fresh File 1 dump b
 | Jacksonville Jaguars @ New York Giants | 2026-11-22 | spread | Jacksonville Jaguars -6.5 | Lean | 50.0% | -1.1 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | spread | Denver Broncos -9.5 | Lean | 50.0% | 2.2 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | total | Over 40.5 | Lean | 59.7% | 2.13 |  |
-| Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.4 |  |
-| New York Jets @ Los Angeles Chargers | 2026-11-22 | spread | Los Angeles Chargers -3.5 | Lean | 54.0% | 4.4 |  |
-| Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | spread | Tampa Bay Buccaneers +6.5 | Lean | 50.0% | -2.3 |  |
+| Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.3 |  |
+| New York Jets @ Los Angeles Chargers | 2026-11-22 | spread | Los Angeles Chargers -3.5 | Lean | 53.7% | 4.3 |  |
+| Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | spread | Tampa Bay Buccaneers +6.5 | Lean | 50.0% | -2.2 |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | spread | Dallas Cowboys -7.5 | Lean | 50.0% | 1.3 |  |
 
 Tier or side changed since the early-week line:
