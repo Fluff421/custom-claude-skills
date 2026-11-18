@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-18T06:38:14Z",
+ "generated_at_utc": "2026-11-18T07:38:17Z",
  "generated_for_central_date": "2026-11-18",
  "graded_picks_csv_rows": 227,
  "ledger_health": {
@@ -270,6 +270,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44260281209,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44260281209",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-18T07:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 20,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44252656834,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44252656834",
      "event": "workflow_dispatch",
@@ -306,22 +322,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44239133237",
      "event": "schedule",
      "created_at": "2026-11-18T04:42:06Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 20,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44238565440,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44238565440",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-18T04:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -566,20 +566,6 @@
       "rows_updated": 0,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 43932464926,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/43932464926",
-     "event": "schedule",
-     "created_at": "2026-11-16T18:47:05Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "rows_updated": 0,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -594,7 +580,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-18T01:05:25Z",
-   "age_h": 5.5,
+   "age_h": 6.5,
    "status": "missed"
   },
   {
@@ -603,7 +589,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-18T01:19:03Z",
-   "age_h": 5.3,
+   "age_h": 6.3,
    "status": "missed"
   },
   {
@@ -612,8 +598,8 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-18T04:42:06Z",
-   "age_h": 1.9,
-   "status": "ok"
+   "age_h": 2.9,
+   "status": "missed"
   },
   {
    "workflow": "Context & Calibrate",
@@ -621,7 +607,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T20:52:01Z",
-   "age_h": 9.8,
+   "age_h": 10.8,
    "status": "ok"
   },
   {
@@ -630,7 +616,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-17T21:54:28Z",
-   "age_h": 8.7,
+   "age_h": 9.7,
    "status": "ok"
   },
   {
@@ -640,7 +626,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-17T03:02:36Z",
-   "age_h": 27.6,
+   "age_h": 28.6,
    "status": "ok"
   },
   {
@@ -649,7 +635,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-17T21:14:35Z",
-   "age_h": 9.4,
+   "age_h": 10.4,
    "status": "missed"
   }
  ],

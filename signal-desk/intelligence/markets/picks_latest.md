@@ -197,7 +197,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Missouri State @ Jacksonville State | total | Under 52.5 | 50% | +0.0 pts | No Play | 0 |
 | Missouri State @ Jacksonville State | moneyline | Missouri State ML +320 | 23% | -0.3% | No Play | 0 |
 | Western Kentucky @ Liberty | spread | Liberty -14.5 (spread) | 52% |  | No Play | 0 |
-| Western Kentucky @ Liberty | total | Under 53.5 | 50% | +0.1 pts | No Play | 0 |
+| Western Kentucky @ Liberty | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
 | Western Kentucky @ Liberty | moneyline | Liberty ML -850 | 88% | -1.1% | No Play | 0 |
 
 ### NCAAF Best parlays
@@ -205,8 +205,8 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 - Over 37.5 + Over 37.5: model 31.5%, needs +257 to break even (reference payout +257), edge +3.5%, Lean
 - Under 64.5 + Over 37.5: model 30.1%, needs +268 to break even (reference payout +268), edge +2.9%, Lean
 - Under 65.5 + Over 37.5: model 29.7%, needs +273 to break even (reference payout +273), edge +2.9%, Lean
+- Under 65.5 + Over 37.5: model 29.7%, needs +273 to break even (reference payout +273), edge +2.9%, Lean
 - Over 43.5 + Over 37.5: model 30.3%, needs +264 to break even (reference payout +264), edge +2.9%, Lean
-- Under 64.5 + Over 37.5: model 30.7%, needs +260 to break even (reference payout +260), edge +2.9%, Lean
 
 ## NFL
 

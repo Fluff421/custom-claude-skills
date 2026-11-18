@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_at": "2026-11-18T06:38:59+00:00",
+ "generated_at": "2026-11-18T07:39:20+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -5662,7 +5662,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-18T06:38:39+00:00",
+   "generated_at": "2026-11-18T07:38:48+00:00",
    "date": "2026-11-18",
    "games": [
     {
@@ -7177,7 +7177,7 @@
        "market": "total",
        "side": "under",
        "line": 65.5,
-       "price": -110.0,
+       "price": -105.0,
        "proj": 62.65,
        "prob": 0.5347,
        "edge": 2.85,
@@ -16066,10 +16066,10 @@
      "date": "2026-11-21",
      "frozen": false,
      "line": 17.5,
-     "total_line": 53.5,
+     "total_line": 52.5,
      "model_margin": 19.900000000000002,
      "blend_margin": 17.848,
-     "proj_total": 53.36153846153846,
+     "proj_total": 52.66153846153846,
      "factors": [
       "weather: 61F, wind 7mph, precip 4% | sev=0.00 | open-meteo"
      ],
@@ -16095,16 +16095,16 @@
       },
       {
        "market": "total",
-       "side": "under",
-       "line": 53.5,
-       "price": -110.0,
-       "proj": 53.36,
-       "prob": 0.5017,
-       "edge": 0.14,
+       "side": "over",
+       "line": 52.5,
+       "price": -112.0,
+       "proj": 52.66,
+       "prob": 0.502,
+       "edge": 0.16,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 53.5",
+       "selection": "Over 52.5",
        "game_id": "reczK8E46Un8CWWGS",
        "game": "Western Kentucky @ Liberty",
        "priority": "primary",
@@ -16155,14 +16155,14 @@
       {
        "market": "teaser_leg",
        "kind": "total",
-       "side": "under",
-       "base_line": 53.5,
-       "line": 59.5,
+       "side": "over",
+       "base_line": 52.5,
+       "line": 46.5,
        "price": 0.0,
-       "prob": 0.5999,
+       "prob": 0.6002,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 53.5 -> 59.5",
+       "selection": "Over 52.5 -> 46.5",
        "game_id": "reczK8E46Un8CWWGS",
        "game": "Western Kentucky @ Liberty",
        "priority": "secondary",
@@ -16279,6 +16279,45 @@
        "market": "parlay",
        "legs": [
         {
+         "game_id": "recBWcZ5vJx1Anl8m",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.5347,
+         "price": -105.0,
+         "pro_favorite": false,
+         "selection": "Under 65.5",
+         "game": "Colorado State @ Fresno State",
+         "line": 65.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recw0kmXuAmJD63eT",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.5562,
+         "price": -110.0,
+         "pro_favorite": false,
+         "selection": "Over 37.5",
+         "game": "New Mexico @ Wyoming",
+         "line": 37.5,
+         "grade_market": "total"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.2974,
+       "price": 273,
+       "break_even_prob": 0.2683,
+       "break_even_price": 273,
+       "edge": 0.0291,
+       "edge_unit": "prob",
+       "tier": "Lean",
+       "units": 0.25,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
          "game_id": "recXURSFbLylyhUuX",
          "market_kind": "total",
          "side": "under",
@@ -16348,45 +16387,6 @@
        "break_even_prob": 0.2744,
        "break_even_price": 264,
        "edge": 0.029,
-       "edge_unit": "prob",
-       "tier": "Lean",
-       "units": 0.25,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recKzofFT2KhKZZLW",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.5416,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Under 64.5",
-         "game": "South Florida @ Florida Atlantic",
-         "line": 64.5,
-         "grade_market": "total"
-        },
-        {
-         "game_id": "recXpXlNLRxQUbMzq",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.5661,
-         "price": -115.0,
-         "pro_favorite": false,
-         "selection": "Over 37.5",
-         "game": "UCLA @ Michigan",
-         "line": 37.5,
-         "grade_market": "total"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.3066,
-       "price": 260,
-       "break_even_prob": 0.2777,
-       "break_even_price": 260,
-       "edge": 0.0289,
        "edge_unit": "prob",
        "tier": "Lean",
        "units": 0.25,
