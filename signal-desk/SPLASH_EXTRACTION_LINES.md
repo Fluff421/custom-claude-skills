@@ -1,85 +1,112 @@
 # File 1: Splash Sports line extraction
 
-Use the owner-run browser extraction while the actual contest board is open. This prompt does not authorize betting or publication. The full [import contract](SPLASH_IMPORT.md) defines validation and the [chat prompts](CHAT_PROMPTS.md) handle approved submission.
+Version 2026-11-16. Owner-run extraction while the actual contest board is open. It works in Gemini in Chrome (side panel) or in Perplexity Computer's browser. This prompt does not authorize betting or publication. The [import contract](SPLASH_IMPORT.md) defines validation, [`splash_preflight.py`](splash_preflight.py) checks the result before submission, and [CHAT_PROMPTS.md](CHAT_PROMPTS.md) handles the approved submission.
+
+## Why this version exists
+
+The 2026-11-16 capture `SPL-L-20261116-1356` was rejected with `game_count must contain nonnegative integer counts`. The extractor wrote the page widget number `64` as a bare integer, while the games array held 79 games (13 NFL, 66 NCAAF), and it still reported no warnings. Root causes in the old prompt: `game_count` had no literal shape, there was no separate place for page widgets, there was no mandatory self-check that turns a mismatch into a warning, and `notes` had no defined type. This version fixes each one with an exact skeleton, enums and a final checklist.
 
 ## Owner steps
 
-Open the intended NFL/NCAAF slate, load all applicable dates/tabs/pages, and paste the complete prompt below. Save only the returned JSON with its actual date_code as the filename. Submit soon after observation, preferably within four hours; the import hard limit is 24 hours.
+1. Open the intended NFL/NCAAF slate. Load every league tab, date and page, and press every show-more button.
+2. Paste the complete prompt below. If the reply starts with `STOP:`, fix what it names and run it again.
+3. Save only the returned JSON, named exactly `<date_code>.json`.
+4. Run the preflight (CHAT_PROMPTS.md, "Perplexity Computer route") and fix every ERROR by re-extracting, never by hand-editing.
+5. Submit within 4 hours if you can. The importer's hard limit is 24 hours from capture to processing, including any owner review.
 
 ```text
-Extract the complete intended NFL/NCAAF slate from the actual Splash
-Sports contest board open in my browser. Read only that owner's source,
-including its accessible game details, league tabs, pagination and
-show-more/lazy-loaded entries. Do not submit or change picks or accounts.
-Use no memory, outside schedule or invented team-name expansion.
+TASK: Extract Splash Sports lines into ONE JSON object for Signal Desk.
 
-Build the games array FIRST from actually observed games. Deduplicate
-repeat displays. Establish each league from its actual section/details.
-Compute game_count by counting the finished array's NFL and NCAAF tags.
-Independently recount and require their sum to equal games.length.
-Do not copy a page-wide widget into game_count. Preserve widget values
-and their source scope separately in notes. Do not reclassify, invent
-or omit games to make a counter agree. Describe inaccessible coverage
-or uncertain classification in warnings and retain all observed rows.
+SOURCE RULES
+- Read only the Splash Sports contest board open in my browser, including
+  its league tabs, dates, pagination, show-more and game detail panels.
+- Do not place, change or submit picks. Do not change any account setting.
+- Use no memory, no outside schedule, no other website and no guessed data.
 
-Copy team labels as shown; use a full name only if source details provide
-it. Explicit A at B or A @ B establishes away=A, home=B; missing separate
-home/away badges alone does not make that explicit notation uncertain.
-Visual order alone does not establish orientation. Record actual
-orientation evidence in notes. Set home_away_certain false if unresolved.
-Keep unavailable venue and game_status null; absent optional status is
-an informational note, not invented live/final status.
+HARD STOPS. Reply with one line starting "STOP:" and no JSON when:
+- the page is not a Splash Sports contest board with NFL or NCAAF games;
+- you cannot read the current date and time (ask me for it);
+- a league tab, page or show-more list could not be loaded.
 
-Use the actual current observation clock. If unavailable, ask me.
-Record equivalent extracted_at_utc and extracted_at_central instants,
-using America/Chicago with the game's correct CST/CDT rules.
-For every game preserve kickoff_as_shown, its source timezone, actual
-game date and converted Central kickoff, including date rollover.
-If date/time/year/zone is unknown, use null and a specific warning.
-Never manufacture midnight, copy extraction time as kickoff, or infer
-a game year merely from today's year or a contest title.
+STEP 1. Build the games array first.
+- One object per real game actually shown. Remove repeat displays of the
+  same game. Never invent, merge or drop a game to make a count agree.
+- league: exactly "NFL" or "NCAAF", from the board's own section or detail.
+- away_team, home_team: copy the labels exactly as shown. Use a longer
+  name only if the board itself shows it.
+- Orientation: "A at B" or "A @ B" means away_team = A, home_team = B.
+  Set home_away_certain to true only with that explicit notation or an
+  explicit home/away badge. Screen order alone is NOT evidence; then set
+  false and add a warning naming the game.
 
-Copy each team's OWN signed spread, actual total and displayed American
-prices. Use number 0 for PK. Away/home spreads must be opposites; preserve
-and flag discrepancies rather than fixing signs. Preserve displayed
-+100 exactly, including when the board consistently uses even money.
-Use null for unavailable prices. Do not insert -110 or estimate a
-moneyline from a spread. Preserve unsupported extra markets separately.
+STEP 2. Times. All Central times use America/Chicago.
+- kickoff_as_shown: the game's kickoff text exactly as displayed,
+  including its zone, e.g. "Tue, Nov 17, 6:00 PM EST".
+- kickoff_central: that kickoff converted to Central, "YYYY-MM-DD HH:MM",
+  24-hour clock, with the correct date if the conversion crosses midnight.
+- kickoff_tz: ONLY "CST" or "CDT" (CST from early November to mid March,
+  otherwise CDT), or null. Never write EST, ET, PST, UTC or any other
+  zone here. The source zone stays inside kickoff_as_shown.
+- If a kickoff date, time or year is not shown, set kickoff_central and
+  kickoff_tz to null and add a warning naming the game. Never use the
+  extraction time, midnight, today's year or the contest title instead.
+- Use the real current clock for extraction. extracted_at_central is
+  "YYYY-MM-DD HH:MM:SS CST" (or CDT). extracted_at_utc is the SAME
+  instant as "YYYY-MM-DDTHH:MM:SSZ". date_code is
+  "SPL-L-YYYYMMDD-HHMM" from the Central date and minute.
 
-For this NEW capture, return one original UTF-8 JSON object on a single
-line, without indentation, a Markdown fence, commentary, BOM or terminal
-newline. Keep all observed fields and entries; never omit observations
-to make the file smaller. This compact output rule does NOT authorize
-minifying, reserializing or changing an already captured original.
-Use this structure:
-schema: "signal-desk.splash-lines.v1"
-source: "Splash Sports Lines"
-date_code: SPL-L-YYYYMMDD-HHMM from actual Central observation time
-extracted_at_central: YYYY-MM-DD HH:MM:SS CST or CDT
-extracted_at_utc: ISO 8601 UTC with Z, same observed instant
-page_url, page_title, contest_name, page_timezone: actual source or null
-game_count: NFL and NCAAF integer counts computed from games
-notes: informational source limitations and preserved page-widget scope
-warnings: unresolved required observations or coverage concerns only
-games: complete observed array, each object containing:
-  source: "Splash Sports Lines"
-  date_code: the same actual parent code
-  league: NFL or NCAAF from source classification
-  away_team, home_team: observed source names
-  home_away_certain: boolean with source evidence in notes if helpful
-  venue: actual observed value or null
-  kickoff_as_shown: original displayed date/time text
-  kickoff_central: actual YYYY-MM-DD HH:MM or null
-  kickoff_tz: CST or CDT or null
-  game_status: actual observed status or null
-  away_spread, home_spread, total: numeric observed values or null
-  away_spread_price, home_spread_price, over_price, under_price:
-    actual American numeric prices or null
-  away_ml, home_ml: actual American numeric prices or null
-  other_markets: array of actual market/selection/line/price/source text
+STEP 3. Numbers.
+- away_spread, home_spread: each team's own signed spread as a number.
+  PK = 0. They must be exact opposites. If the board shows otherwise,
+  copy what is shown and add a warning; never fix a sign.
+- total: the game total as a number.
+- away_spread_price, home_spread_price, over_price, under_price,
+  away_ml, home_ml: American odds as numbers, e.g. 100, -110, 500, -690.
+  This contest uses Even line odds, so +100 shown on spreads and totals
+  is correct; write 100. Use null when a price is not shown. Never
+  insert -110 and never estimate a moneyline from a spread.
+- Numbers are JSON numbers, not strings. No "+" sign, no quotes.
+- Markets other than spread, total and moneyline go in other_markets as
+  objects {"market","selection","line","price","as_shown"}; else [].
 
-Before output, check the array-derived counts again. Preserve truthful
-warnings rather than declaring an unresolved source import-ready.
-The JSON may contain private contest/account details; saving or extracting
-does not authorize publishing those details to a public repository.
+STEP 4. Counts and page widgets.
+- game_count is an OBJECT with exactly two integer keys counted from the
+  finished games array: {"NFL": <count of NFL games>, "NCAAF": <count of
+  NCAAF games>}. NFL + NCAAF must equal the number of games in the array.
+- NEVER copy a page header, banner, badge or widget number into
+  game_count. Record those in page_widgets as
+  {"label": "...", "value": "...", "scope": "..."} instead.
+
+STEP 5. notes and warnings. Both are JSON arrays of strings.
+- notes: informational facts only (for example "Board uses Even odds").
+- warnings: ONLY problems that are still unresolved: a missing kickoff,
+  uncertain orientation, a spread sign mismatch, a tab that would not
+  load, a count that does not reconcile. Any warning blocks import until
+  I resolve it, so never hide a real problem in notes, and never invent a
+  warning. Use [] when there is none.
+
+OUTPUT FORMAT. Exactly this key order and these keys. Do not repeat
+source or date_code inside each game; the parent values apply.
+{"schema":"signal-desk.splash-lines.v1","source":"Splash Sports Lines","date_code":"SPL-L-YYYYMMDD-HHMM","extracted_at_central":"YYYY-MM-DD HH:MM:SS CST","extracted_at_utc":"YYYY-MM-DDTHH:MM:SSZ","page_url":"... or null","page_title":"... or null","contest_name":"... or null","page_timezone":"... or null","game_count":{"NFL":0,"NCAAF":0},"page_widgets":[],"notes":[],"warnings":[],"games":[{"league":"NCAAF","away_team":"...","home_team":"...","home_away_certain":true,"venue":null,"kickoff_as_shown":"...","kickoff_central":"YYYY-MM-DD HH:MM","kickoff_tz":"CST","game_status":null,"away_spread":0,"home_spread":0,"total":0,"away_spread_price":100,"home_spread_price":100,"over_price":100,"under_price":100,"away_ml":null,"home_ml":null,"other_markets":[]}]}
+- venue and game_status: the shown value or null. Do not invent status.
+- Return the JSON object only, on ONE line: no Markdown fence, no
+  commentary before or after, no indentation, no trailing newline.
+- Keep every observed game and field. Never shorten the file by dropping
+  observations.
+
+FINAL SELF-CHECK. Do every item silently, then output.
+1. Count NFL and NCAAF objects in games one more time; game_count must
+   equal those counts and their sum must equal the array length. If you
+   cannot make them agree truthfully, keep the true array counts and add a
+   warning that explains the difference.
+2. Every kickoff_tz is "CST", "CDT" or null. None is EST or ET.
+3. Every away_spread equals minus home_spread, or a warning names it.
+4. Every price is a number or null, never a string, never invented.
+5. extracted_at_central and extracted_at_utc are the same instant and the
+   date_code matches the Central date and minute.
+6. No game appears twice, in either orientation.
+7. The output parses as one JSON object.
+
+PRIVACY: the JSON contains contest and account details. Producing it does
+not authorize publishing it.
 ```
