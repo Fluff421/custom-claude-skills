@@ -1,8 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-18 05:39Z
+# Pick-time check at the newest Splash lines, 2026-11-18 06:38Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 34 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 35 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 1 games are unpriced; stored owner lines are not model recommendations.
 
@@ -40,7 +40,7 @@ Warning: the newest Splash snapshot is 34 hours old. Paste a fresh File 1 dump b
 | Jacksonville Jaguars @ New York Giants | 2026-11-22 | spread | Jacksonville Jaguars -6.5 | Lean | 50.0% | -1.1 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | spread | Denver Broncos -9.5 | Lean | 50.0% | 2.2 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | total | Over 40.5 | Lean | 59.7% | 2.13 |  |
-| Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.7 |  |
+| Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.4 |  |
 | New York Jets @ Los Angeles Chargers | 2026-11-22 | spread | Los Angeles Chargers -3.5 | Lean | 54.0% | 4.4 |  |
 | Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | spread | Tampa Bay Buccaneers +6.5 | Lean | 50.0% | -2.3 |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | spread | Dallas Cowboys -7.5 | Lean | 50.0% | 1.3 |  |

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T05:39:53.708484+00:00",
- "snapshot_age_hours": 33.7,
+ "generated_at": "2026-11-18T06:38:59.260238+00:00",
+ "snapshot_age_hours": 34.7,
  "games": [
   {
    "game": "Akron @ UMass",
@@ -1513,8 +1513,8 @@
    "moneyline": {
     "pick": "East Carolina ML +176",
     "tier": "No Play",
-    "prob": 0.3652,
-    "edge": 0.0029,
+    "prob": 0.3564,
+    "edge": -0.0059,
     "model_ml_side": "away"
    }
   },
@@ -3387,7 +3387,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.7,
+    "edge": 1.4,
     "proj": 18.299999999999997,
     "import_side": "",
     "import_tier": "",

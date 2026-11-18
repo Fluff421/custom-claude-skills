@@ -1,4 +1,4 @@
-# Signal Desk: every bet, every game (2026-11-17)
+# Signal Desk: every bet, every game (2026-11-18)
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
@@ -223,7 +223,9 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -650 | 90% | +3.3% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | +3.1% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | total | Over 46.5 | 50% | +0.0 pts | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -198 | 66% | -0.4% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 41.5 | 52% | +0.4 pts | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -185 | 68% | +3.0% | Lean | 0.5 |
@@ -250,15 +252,15 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.8% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -395 | 84% | +4.7% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -380 | 84% | +5.3% | Lean | 0.5 |
 
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +114 to break even (reference payout +114), edge +16.0%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380: model 84.3%, needs -226 to break even (reference payout -226), edge +15.0%, Max Play
 - Kansas City Chiefs ML -1450 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +118 to break even (reference payout +118), edge +14.9%, Max Play
-- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Dallas Cowboys ML -395: model 84.3%, needs -231 to break even (reference payout -231), edge +14.5%, Max Play
+- Kansas City Chiefs ML -1450 + Denver Broncos ML -600 + Buffalo Bills ML -1450: model 89.1%, needs -300 to break even (reference payout -300), edge +14.1%, Max Play
 - Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Tampa Bay Buccaneers +3.5 (spread): model 59.5%, needs +120 to break even (reference payout +120), edge +14.0%, Max Play
-- Kansas City Chiefs ML -1450 + Chicago Bears ML -650 + Buffalo Bills ML -1450: model 89.8%, needs -314 to break even (reference payout -314), edge +13.9%, Max Play
 
 ### NFL Best 6-point teasers
 
