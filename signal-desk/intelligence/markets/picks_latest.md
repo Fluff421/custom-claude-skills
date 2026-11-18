@@ -100,7 +100,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 41% | +1.1% | No Play | 0 |
 | UCLA @ Michigan | spread | Michigan +5.5 (spread) | 52% |  | No Play | 0 |
 | UCLA @ Michigan | total | Over 37.5 | 52% | +1.3 pts | No Play | 0 |
-| UCLA @ Michigan | moneyline | Michigan ML +150 | 41% | +1.3% | No Play | 0 |
+| UCLA @ Michigan | moneyline | Michigan ML +145 | 41% | +0.4% | No Play | 0 |
 | Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
 | Colorado @ Cincinnati | total | Under 58.5 | 51% | +0.7 pts | No Play | 0 |
 | Colorado @ Cincinnati | moneyline | Colorado ML +136 | 42% | -0.7% | No Play | 0 |
@@ -142,7 +142,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | San Diego State @ Boise State | total | Over 60.5 | 50% | +0.2 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | Boise State ML -900 | 89% | -1.2% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
-| Georgia @ South Carolina | total | Under 51.5 | 51% | +0.7 pts | No Play | 0 |
+| Georgia @ South Carolina | total | Under 50.5 | 50% | +0.4 pts | No Play | 0 |
 | Georgia @ South Carolina | moneyline | South Carolina ML +575 | 14% | -1.0% | No Play | 0 |
 | Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
@@ -249,15 +249,15 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +270 | 25% | -2.1% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -305 | 76% | +0.4% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -310 | 76% | +0.1% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 55.5 | 58% | +1.8 pts | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -375 | 84% | +5.5% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -380 | 84% | +5.3% | Lean | 0.5 |
 
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +115 to break even (reference payout +115), edge +16.2%, Max Play
-- Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Dallas Cowboys ML -375: model 84.2%, needs -220 to break even (reference payout -220), edge +15.5%, Max Play
+- Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380: model 84.2%, needs -222 to break even (reference payout -222), edge +15.3%, Max Play
 - Kansas City Chiefs ML -1350 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +119 to break even (reference payout +119), edge +15.0%, Max Play
 - Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Under 54.5: model 61.6%, needs +115 to break even (reference payout +115), edge +15.0%, Max Play
 - Kansas City Chiefs ML -1350 + Chicago Bears ML -625 + Buffalo Bills ML -1450: model 89.7%, needs -301 to break even (reference payout -301), edge +14.6%, Max Play
