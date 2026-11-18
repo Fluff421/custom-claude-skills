@@ -1,8 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-18 14:40Z
+# Pick-time check at the newest Splash lines, 2026-11-18 15:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 43 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 44 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 1 games are unpriced; stored owner lines are not model recommendations.
 
@@ -17,11 +17,11 @@ Warning: the newest Splash snapshot is 43 hours old. Paste a fresh File 1 dump b
 | Baltimore Ravens @ Carolina Panthers | 2026-11-22 | spread | Carolina Panthers -1.5 | Max Play | 63.6% | 4.3 |  |
 | Indianapolis Colts @ Houston Texans | 2026-11-19 | spread | Indianapolis Colts +10.5 | Strong Play | 58.0% | -2.5 |  |
 | Arizona Cardinals @ Kansas City Chiefs | 2026-11-22 | spread | Arizona Cardinals +15.5 | Strong Play | 59.9% | -3.1 |  |
-| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Strong Play | 58.0% | 2.5 |  |
+| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Strong Play | 58.3% | 2.6 |  |
 | New Mexico @ Wyoming | 2026-11-20 | total | Over 37.5 | Lean | 53.4% | 2.79 |  |
 | Ohio State @ Nebraska | 2026-11-20 | total | Over 41.5 | Lean | 53.4% | 2.79 |  |
 | South Florida @ Florida Atlantic | 2026-11-21 | total | Under 65.5 | Lean | 53.4% | 2.83 |  |
-| Jacksonville Jaguars @ New York Giants | 2026-11-22 | spread | Jacksonville Jaguars -6.5 | Lean | 50.0% | -1.3 |  |
+| Jacksonville Jaguars @ New York Giants | 2026-11-22 | spread | Jacksonville Jaguars -6.5 | Lean | 50.0% | -1.1 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | spread | Denver Broncos -9.5 | Lean | 50.0% | 2.4 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | total | Over 40.5 | Lean | 59.7% | 2.13 |  |
 | Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.6 |  |

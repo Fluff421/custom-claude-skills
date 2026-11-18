@@ -27,7 +27,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Northern Illinois @ North Dakota State | total | Over 43.5 | 52% | +1.3 pts | No Play | 0 |
 | Northern Illinois @ North Dakota State | moneyline | North Dakota State ML -3200 | 96% | -1.4% | No Play | 0 |
 | Colorado State @ Fresno State | spread | Colorado State +20.5 (spread) | 50% |  | No Play | 0 |
-| Colorado State @ Fresno State | total | Under 65.5 | 51% | +0.7 pts | No Play | 0 |
+| Colorado State @ Fresno State | total | Under 66.5 | 51% | +1.0 pts | No Play | 0 |
 | Colorado State @ Fresno State | moneyline | Colorado State ML +850 | 9% | -1.8% | No Play | 0 |
 | Virginia Tech @ Miami | spread | Miami -18.5 (spread) | 52% |  | No Play | 0 |
 | Virginia Tech @ Miami | total | Under 61.5 | 51% | +0.5 pts | No Play | 0 |
@@ -63,7 +63,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arkansas State @ Louisiana Tech | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
 | Arkansas State @ Louisiana Tech | moneyline | Arkansas State ML +425 | 18% | -0.9% | No Play | 0 |
 | Rice @ Temple | spread | Temple -4 (spread) | 50% |  | No Play | 0 |
-| Rice @ Temple | total | Over 50.5 | 51% | +0.9 pts | No Play | 0 |
+| Rice @ Temple | total | Over 51.5 | 51% | +0.7 pts | No Play | 0 |
 | Rice @ Temple | moneyline | Temple ML -148 | 59% | -1.0% | No Play | 0 |
 | Washington State @ Texas State | spread | Washington State +14 (spread) | 51% |  | No Play | 0 |
 | Washington State @ Texas State | total | Under 61.5 | 51% | +0.8 pts | No Play | 0 |
@@ -127,7 +127,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Stanford @ California | moneyline | Stanford ML -130 | 55% | -1.4% | No Play | 0 |
 | Iowa State @ UCF | spread | UCF -1.5 (spread) | 51% |  | No Play | 0 |
 | Iowa State @ UCF | total | Over 48.5 | 53% | +2.3 pts | No Play | 0 |
-| Iowa State @ UCF | moneyline | UCF ML -130 | 56% | -0.9% | No Play | 0 |
+| Iowa State @ UCF | moneyline | UCF ML -125 | 56% | +0.1% | No Play | 0 |
 | Kent State @ Eastern Michigan | moneyline | Eastern Michigan ML -110 (price estimated from the line) | 71% | +18.4% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
 | SMU @ Notre Dame | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
@@ -137,7 +137,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Coastal Carolina @ Louisiana | moneyline | Coastal Carolina ML +320 | 24% | +0.2% | No Play | 0 |
 | UTSA @ UAB | spread | UAB +6.5 (spread) | 50% |  | No Play | 0 |
 | UTSA @ UAB | total | Over 51.5 | 51% | +0.8 pts | No Play | 0 |
-| UTSA @ UAB | moneyline | UAB ML +195 | 33% | -0.9% | No Play | 0 |
+| UTSA @ UAB | moneyline | UAB ML +200 | 33% | -0.3% | No Play | 0 |
 | San Diego State @ Boise State | spread | Boise State -16.5 (spread) | 52% |  | No Play | 0 |
 | San Diego State @ Boise State | total | Under 61.5 | 50% | +0.1 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | San Diego State ML +600 | 12% | -1.9% | No Play | 0 |
@@ -179,11 +179,11 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Vanderbilt @ Florida | moneyline | Vanderbilt ML +410 | 18% | -1.3% | No Play | 0 |
 | Georgia State @ Marshall | spread | Georgia State -1.5 (spread) | 51% |  | No Play | 0 |
 | Georgia State @ Marshall | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
-| Georgia State @ Marshall | moneyline | Marshall ML -110 | 52% | -0.7% | No Play | 0 |
+| Georgia State @ Marshall | moneyline | Marshall ML -115 | 52% | -1.8% | No Play | 0 |
 | Miami (OH) @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 72% | +19.7% | No Play | 0 |
 | Akron @ Massachusetts | spread | Massachusetts -2.5 (spread) | 50% |  | Lean | 0.5 |
-| Akron @ Massachusetts | total | Over 46.5 | 52% | +1.3 pts | No Play | 0 |
-| Akron @ Massachusetts | moneyline | Massachusetts ML -162 | 61% | -0.3% | No Play | 0 |
+| Akron @ Massachusetts | total | Over 47.5 | 51% | +1.0 pts | No Play | 0 |
+| Akron @ Massachusetts | moneyline | Massachusetts ML -170 | 61% | -1.5% | No Play | 0 |
 | Arizona @ Kansas State | spread | Kansas State +10.5 (spread) | 51% |  | No Play | 0 |
 | Arizona @ Kansas State | total | Under 52.5 | 51% | +1.1 pts | No Play | 0 |
 | Arizona @ Kansas State | moneyline | Kansas State ML +235 | 31% | +1.5% | No Play | 0 |
@@ -197,7 +197,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Missouri State @ Jacksonville State | total | Under 52.5 | 50% | +0.0 pts | No Play | 0 |
 | Missouri State @ Jacksonville State | moneyline | Missouri State ML +320 | 23% | -0.3% | No Play | 0 |
 | Western Kentucky @ Liberty | spread | Liberty -14.5 (spread) | 52% |  | No Play | 0 |
-| Western Kentucky @ Liberty | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
+| Western Kentucky @ Liberty | total | Under 53.5 | 50% | +0.1 pts | No Play | 0 |
 | Western Kentucky @ Liberty | moneyline | Liberty ML -850 | 88% | -1.1% | No Play | 0 |
 
 ### NCAAF Best parlays
@@ -214,19 +214,19 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 |---|---|---|---|---|---|---|
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Over 38.5 | 55% | +1.2 pts | No Play | 0 |
-| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -218 | 66% | -2.1% | No Play | 0 |
+| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -205 | 66% | -0.8% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 41.5 | 55% | +1.2 pts | No Play | 0 |
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1600 | 101% | +7.1% | Strong Play | 1 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1450 | 100% | +6.3% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 55% | +1.1 pts | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | +3.8% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | +3.1% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
-| Green Bay Packers @ Los Angeles Rams | total | Under 46.5 | 53% | +0.7 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -198 | 66% | -0.4% | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -185 | 66% | +1.1% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 41.5 | 52% | +0.4 pts | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -185 | 68% | +2.9% | No Play | 0 |
@@ -247,7 +247,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -750 | 91% | +2.4% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Over 43.5 | 52% | +0.4 pts | No Play | 0 |
-| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +280 | 25% | -1.4% | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +270 | 25% | -2.1% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -298 | 76% | +0.8% | No Play | 0 |
@@ -257,11 +257,11 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +112 to break even (reference payout +112), edge +15.8%, Max Play
-- Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380: model 84.3%, needs -230 to break even (reference payout -230), edge +14.6%, Max Play
-- Kansas City Chiefs ML -1600 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +117 to break even (reference payout +117), edge +14.6%, Max Play
-- Kansas City Chiefs ML -1600 + Buffalo Bills ML -1450 + Under 54.5: model 61.7%, needs +112 to break even (reference payout +112), edge +14.6%, Max Play
-- Kansas City Chiefs ML -1600 + Chicago Bears ML -625 + Buffalo Bills ML -1450: model 89.8%, needs -315 to break even (reference payout -315), edge +13.9%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +114 to break even (reference payout +114), edge +16.0%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380: model 84.2%, needs -226 to break even (reference payout -226), edge +14.9%, Max Play
+- Kansas City Chiefs ML -1450 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +118 to break even (reference payout +118), edge +14.8%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Under 54.5: model 61.6%, needs +114 to break even (reference payout +114), edge +14.8%, Max Play
+- Kansas City Chiefs ML -1450 + Chicago Bears ML -625 + Buffalo Bills ML -1450: model 89.7%, needs -307 to break even (reference payout -307), edge +14.3%, Max Play
 
 ### NFL Best 6-point teasers
 
