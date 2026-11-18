@@ -165,7 +165,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | Lean | 0.5 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -162 | 66% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -155 | 66% | Lean | 0.5 |
 | Delaware @ New Mexico State | total | Under 54.5 | 55% | Lean | 0.5 |
 | UTEP @ Air Force | total | Under 47.5 | 53% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | Lean | 0.5 |
@@ -181,8 +181,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Dallas Cowboys ML -375 | model 84.2%, needs -220 to break even, edge +15.5%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1350 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450 | model 60.7%, needs +119 to break even, edge +15.0%, Max Play
 - NFL teaser: Under 54.5 -> 60.5 + Over 40.5 -> 34.5 + Under 55.5 -> 61.5 | model 49.8%, needs +160 to break even, edge +11.4%, Max Play
+- NFL teaser: Under 54.5 -> 60.5 + Over 40.5 -> 34.5 + Over 43.5 -> 37.5 | model 49.0%, needs +160 to break even, edge +10.6%, Max Play
 - NFL teaser: Under 54.5 -> 60.5 + Over 40.5 -> 34.5 + Over 43.5 -> 37.5 | model 48.9%, needs +160 to break even, edge +10.4%, Max Play
-- NFL teaser: Under 54.5 -> 60.5 + Over 40.5 -> 34.5 + Under 46.5 -> 52.5 | model 48.7%, needs +160 to break even, edge +10.2%, Max Play
 
 ## Results and learning by market
 
