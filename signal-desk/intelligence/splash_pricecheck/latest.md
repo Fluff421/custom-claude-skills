@@ -1,8 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-18 01:39Z
+# Pick-time check at the newest Splash lines, 2026-11-18 02:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 30 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 31 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 1 games are unpriced; stored owner lines are not model recommendations.
 
@@ -10,7 +10,7 @@ Warning: the newest Splash snapshot is 30 hours old. Paste a fresh File 1 dump b
 |---|---|---|---|
 | Akron @ UMass | 2026-11-18 | repo-game:5adb6482a6c4553a49d527f4 | Repository schedule reference only; verified model inputs are unavailable. |
 
-32 Lean-or-better plays at the current Splash lines (79 games checked).
+31 Lean-or-better plays at the current Splash lines (78 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
@@ -20,7 +20,6 @@ Warning: the newest Splash snapshot is 30 hours old. Paste a fresh File 1 dump b
 | New Mexico @ Wyoming | 2026-11-20 | total | Over 37.5 | Strong Play | 55.6% | 4.67 |  |
 | UCLA @ Michigan | 2026-11-20 | total | Over 38.5 | Strong Play | 56.3% | 5.25 |  |
 | Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Strong Play | 58.0% | 2.5 |  |
-| Eastern Michigan @ Western Michigan | 2026-11-17 | total | Over 46.5 | Lean | 53.5% | 2.85 |  |
 | Miami (OH) @ Kent State | 2026-11-17 | total | Over 46.5 | Lean | 53.5% | 2.85 |  |
 | Central Michigan @ Buffalo | 2026-11-18 | total | Over 43.5 | Lean | 53.5% | 2.87 | was over No Play at the early line |
 | Ohio State @ Nebraska | 2026-11-20 | total | Over 41.5 | Lean | 53.8% | 3.16 |  |
