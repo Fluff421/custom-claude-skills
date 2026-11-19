@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T17:40:05.020442+00:00",
- "snapshot_age_hours": 69.7,
+ "generated_at": "2026-11-19T18:39:37.605760+00:00",
+ "snapshot_age_hours": 70.7,
  "games": [
   {
    "game": "Rice @ Temple",
@@ -71,7 +71,7 @@
     "side": "away",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": -2.2,
+    "edge": -2.1,
     "proj": 7.4,
     "import_side": "",
     "import_tier": "",
@@ -445,10 +445,10 @@
     }
    },
    "moneyline": {
-    "pick": "UCF ML -130",
+    "pick": "Iowa State ML +108",
     "tier": "No Play",
-    "prob": 0.5464,
-    "edge": -0.0188,
+    "prob": 0.4721,
+    "edge": -0.0087,
     "model_ml_side": "away"
    }
   },
@@ -1147,8 +1147,8 @@
    "moneyline": {
     "pick": "Arkansas State ML +420",
     "tier": "No Play",
-    "prob": 0.1793,
-    "edge": -0.013,
+    "prob": 0.1733,
+    "edge": -0.019,
     "model_ml_side": "away"
    }
   },
@@ -1797,8 +1797,8 @@
    "moneyline": {
     "pick": "Kentucky ML +176",
     "tier": "No Play",
-    "prob": 0.3674,
-    "edge": 0.0051,
+    "prob": 0.3851,
+    "edge": 0.0228,
     "model_ml_side": "away"
    }
   },
@@ -2995,10 +2995,10 @@
     }
    },
    "moneyline": {
-    "pick": "Washington State ML +310",
+    "pick": "Texas State ML -385",
     "tier": "No Play",
-    "prob": 0.2282,
-    "edge": -0.0157,
+    "prob": 0.7856,
+    "edge": -0.0082,
     "model_ml_side": "away"
    }
   },
@@ -3170,8 +3170,8 @@
     "pick": "Carolina Panthers -1.5",
     "side": "home",
     "tier": "Max Play",
-    "prob": 0.6267,
-    "edge": 4.0,
+    "prob": 0.6358,
+    "edge": 4.3,
     "proj": 6.1000000000000005,
     "import_side": "",
     "import_tier": "",
@@ -3597,8 +3597,8 @@
    "moneyline": {
     "pick": "Tampa Bay Buccaneers ML +215",
     "tier": "No Play",
-    "prob": 0.3085,
-    "edge": -0.0089,
+    "prob": 0.3185,
+    "edge": 0.001,
     "model_ml_side": "home"
    }
   },
@@ -3670,8 +3670,8 @@
     "pick": "Cincinnati Bengals -5.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5097,
-    "edge": -0.3,
+    "prob": 0.5064,
+    "edge": -0.2,
     "proj": -6.199999999999999,
     "import_side": "",
     "import_tier": "",
