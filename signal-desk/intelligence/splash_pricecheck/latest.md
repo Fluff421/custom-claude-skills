@@ -1,16 +1,10 @@
-# Pick-time check at the newest Splash lines, 2026-11-19 05:39Z
+# Pick-time check at the newest Splash lines, 2026-11-19 06:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 58 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 59 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
-1 games are unpriced; stored owner lines are not model recommendations.
-
-| Game | Date | Reference | Status |
-|---|---|---|---|
-| Akron @ UMass | 2026-11-18 | repo-game:5adb6482a6c4553a49d527f4 | Repository schedule reference only; verified model inputs are unavailable. |
-
-15 Lean-or-better plays at the current Splash lines (75 games checked).
+15 Lean-or-better plays at the current Splash lines (74 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|

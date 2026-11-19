@@ -1,4 +1,4 @@
-# Signal Desk intelligence report, 2026-11-18
+# Signal Desk intelligence report, 2026-11-19
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
@@ -149,9 +149,9 @@ By size of base edge:
 
 ## Data gaps right now
 
-- 77 of 77 upcoming games have no Splash line (tracking picks use the ESPN line): Oklahoma State @ Arizona State; Pittsburgh Steelers @ Philadelphia Eagles; Arizona Cardinals @ Kansas City Chiefs; Charlotte @ Tulsa; New Orleans Saints @ Chicago Bears; North Texas @ Tulane; Utah @ TCU; Pittsburgh @ Louisville
+- 81 of 81 upcoming games have no Splash line (tracking picks use the ESPN line): Oklahoma State @ Arizona State; Pittsburgh Steelers @ Philadelphia Eagles; Arizona Cardinals @ Kansas City Chiefs; Charlotte @ Tulsa; New Orleans Saints @ Chicago Bears; North Texas @ Tulane; Utah @ TCU; Pittsburgh @ Louisville
 - 1 games inside the forecast window have no weather note
-- NCAAF quarterback checks cover 0 of 63 games (comes from the Grok feed only)
+- NCAAF quarterback checks cover 0 of 64 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
 
@@ -170,7 +170,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1450 | 104% | Max Play | 1.0 |
 | Northwestern @ Minnesota | total | Over 41.5 | 53% | Lean | 0.5 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -135 | 65% | Strong Play | 1.0 |
-| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -700 | 91% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -395 | 84% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 55.5 | 58% | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -380 | 84% | Lean | 0.5 |
