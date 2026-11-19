@@ -2393,3 +2393,8 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-19T09:39:08+00:00,recKu4Hkua702ro6Z,401861968,NCAAF,Old Dominion @ UConn,2026-11-21,Draft Kings,13.5,47.5,-535,400,-115.0,-105.0,-110.0,-110.0,14.5
 2026-11-19T10:38:57+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,DraftKings,11.5,48.5,-625,455,-112.0,-108.0,-115.0,-105.0,6.5
 2026-11-19T10:38:57+00:00,recQNpjWq2QAzVyzV,401858534,NCAAF,Maryland @ USC,2026-11-21,DraftKings,17.5,57.5,-900,600,-110.0,-110.0,-118.0,-102.0,16.5
+2026-11-19T11:39:05+00:00,rec1bMW82Gl2PPIzw,401873067,NFL,Arizona Cardinals @ Kansas City Chiefs,2026-11-22,Draft Kings,15.5,40.5,-1350,800,-115.0,-105.0,-118.0,-102.0,11.5
+2026-11-19T11:39:05+00:00,recQNpjWq2QAzVyzV,401858534,NCAAF,Maryland @ USC,2026-11-21,Draft Kings,17.5,58.5,-900,600,-110.0,-110.0,-102.0,-118.0,16.5
+2026-11-19T11:39:05+00:00,recjfxvQjakyxptWi,401856753,NCAAF,Georgia @ South Carolina,2026-11-21,Draft Kings,-14.5,51.5,525,-750,-108.0,-112.0,-108.0,-112.0,-10.5
+2026-11-19T11:39:05+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.5,53.5,250,-310,-118.0,-102.0,-115.0,-105.0,-1.5
+2026-11-19T11:39:05+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,Draft Kings,8.5,54.5,-380,300,-105.0,-115.0,-120.0,100.0,6.5
