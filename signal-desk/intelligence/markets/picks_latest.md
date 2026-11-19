@@ -70,7 +70,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Washington State @ Texas State | moneyline | Washington State ML +360 | 21% | -0.9% | No Play | 0 |
 | Memphis @ Navy | spread | Memphis -3 (spread) | 51% |  | No Play | 0 |
 | Memphis @ Navy | total | Under 67.5 | 53% | +2.1 pts | No Play | 0 |
-| Memphis @ Navy | moneyline | Memphis ML -155 | 59% | -2.0% | No Play | 0 |
+| Memphis @ Navy | moneyline | Memphis ML -148 | 59% | -0.9% | No Play | 0 |
 | North Carolina @ Virginia | spread | North Carolina +1.5 (spread) | 52% |  | No Play | 0 |
 | North Carolina @ Virginia | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
 | North Carolina @ Virginia | moneyline | Virginia ML -118 | 52% | -1.7% | No Play | 0 |
