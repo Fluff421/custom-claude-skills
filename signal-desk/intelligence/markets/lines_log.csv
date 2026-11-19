@@ -2349,3 +2349,11 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-19T00:38:32+00:00,recRDfetvKLmGizti,401860919,NCAAF,Utah State @ Oregon State,2026-11-21,DraftKings,9.5,50.5,-355,280,-112.0,-108.0,-108.0,-112.0,10.0
 2026-11-19T00:38:32+00:00,recnHVgb9SkOiKX4F,401866469,NCAAF,Central Michigan @ Buffalo,2026-11-18,DraftKings,2.5,47.5,-142,120,-110.0,-110.0,-105.0,-115.0,1.5
 2026-11-19T00:38:32+00:00,recua2UhDbDkVPPou,401856865,NCAAF,Arizona @ Kansas State,2026-11-20,DraftKings,-7.0,52.5,235,-290,-115.0,-105.0,-105.0,-115.0,-10.5
+2026-11-19T01:39:04+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,Draft Kings,11.5,48.5,-600,440,-112.0,-108.0,-115.0,-105.0,6.5
+2026-11-19T01:39:04+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,Draft Kings,3.0,46.5,-162,136,-110.0,-110.0,-110.0,-110.0,3.5
+2026-11-19T01:39:04+00:00,recQNpjWq2QAzVyzV,401858534,NCAAF,Maryland @ USC,2026-11-21,Draft Kings,17.5,57.5,-900,600,-105.0,-115.0,-118.0,-102.0,16.5
+2026-11-19T01:39:04+00:00,recZOQAfGgbic7P1U,401866468,NCAAF,Bowling Green @ Toledo,2026-11-20,Draft Kings,16.5,48.5,-750,525,-110.0,-110.0,-110.0,-110.0,15.5
+2026-11-19T01:39:04+00:00,recjfxvQjakyxptWi,401856753,NCAAF,Georgia @ South Carolina,2026-11-21,Draft Kings,-15.5,51.5,525,-750,-110.0,-110.0,-102.0,-118.0,-10.5
+2026-11-19T01:39:04+00:00,recme91BfkgcKJOOr,401858310,NCAAF,Wake Forest @ Georgia Tech,2026-11-20,Draft Kings,-20.5,56.5,900,-1600,-110.0,-110.0,-105.0,-115.0,-20.5
+2026-11-19T01:39:04+00:00,recniM822SJeAquSD,401858530,NCAAF,Northwestern @ Minnesota,2026-11-21,Draft Kings,-2.5,41.5,120,-142,-108.0,-112.0,-108.0,-112.0,-3.0
+2026-11-19T01:39:04+00:00,recr1qJDVd2AaP7Oh,401869958,NCAAF,Georgia State @ Marshall,2026-11-21,Draft Kings,2.5,55.5,-130,110,-102.0,-118.0,-108.0,-112.0,-1.5
