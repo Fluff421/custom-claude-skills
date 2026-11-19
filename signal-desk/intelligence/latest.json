@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19T08:39:25+00:00",
+ "generated_at": "2026-11-19T09:39:43+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -214,19 +214,19 @@
    ]
   },
   {
-   "game": "Western Kentucky @ Liberty",
-   "pick": "Liberty -14.5 (spread)",
-   "prob": 0.5209,
-   "why": [
-    "weather: 57F, wind 8mph, precip 3% | sev=0.00 | open-meteo"
-   ]
-  },
-  {
    "game": "Wake Forest @ Georgia Tech",
    "pick": "Georgia Tech +21 (spread)",
    "prob": 0.5031,
    "why": [
     "weather: 62F, 7 | no severity"
+   ]
+  },
+  {
+   "game": "Western Kentucky @ Liberty",
+   "pick": "Liberty -14.5 (spread)",
+   "prob": 0.5209,
+   "why": [
+    "weather: 57F, wind 8mph, precip 3% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -438,19 +438,19 @@
    ]
   },
   {
-   "game": "Ohio State @ Nebraska",
-   "pick": "Ohio State -5.5 (spread)",
-   "prob": 0.5119,
-   "why": [
-    "weather: 54F, wind 13mph, precip 62% | sev=0.40 | open-meteo"
-   ]
-  },
-  {
    "game": "BYU @ Kansas",
    "pick": "BYU -7.5 (spread)",
    "prob": 0.5027,
    "why": [
     "weather: 65F, wind 19mph, precip 19% | sev=0.60 | open-meteo"
+   ]
+  },
+  {
+   "game": "Ohio State @ Nebraska",
+   "pick": "Ohio State -5.5 (spread)",
+   "prob": 0.5119,
+   "why": [
+    "weather: 54F, wind 13mph, precip 62% | sev=0.40 | open-meteo"
    ]
   },
   {
@@ -518,19 +518,19 @@
    ]
   },
   {
-   "game": "Georgia State @ Marshall",
-   "pick": "Georgia State -1.5 (spread)",
-   "prob": 0.5081,
-   "why": [
-    "weather: 54F, wind 4mph, precip 0% | sev=0.00 | open-meteo"
-   ]
-  },
-  {
    "game": "Middle Tennessee @ Sam Houston",
    "pick": "Sam Houston +5.5 (spread)",
    "prob": 0.505,
    "why": [
     "weather: 76F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
+   ]
+  },
+  {
+   "game": "Georgia State @ Marshall",
+   "pick": "Georgia State -1.5 (spread)",
+   "prob": 0.5081,
+   "why": [
+    "weather: 54F, wind 4mph, precip 0% | sev=0.00 | open-meteo"
    ]
   },
   {
@@ -582,19 +582,19 @@
    ]
   },
   {
-   "game": "Hawai'i @ Nevada",
-   "pick": "Nevada -4.5 (spread)",
-   "prob": 0.5031,
-   "why": [
-    "weather: 33F, 36 | no severity"
-   ]
-  },
-  {
    "game": "Syracuse @ Boston College",
    "pick": "Syracuse -3.5 (spread)",
    "prob": 0.5027,
    "why": [
     "weather: 56F, wind 3mph, precip 0% | sev=0.00 | open-meteo"
+   ]
+  },
+  {
+   "game": "Hawai'i @ Nevada",
+   "pick": "Nevada -4.5 (spread)",
+   "prob": 0.5031,
+   "why": [
+    "weather: 33F, 36 | no severity"
    ]
   },
   {
@@ -5633,7 +5633,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-19T08:38:51+00:00",
+   "generated_at": "2026-11-19T09:39:08+00:00",
    "date": "2026-11-19",
    "games": [
     {
@@ -6056,8 +6056,8 @@
      "frozen": false,
      "line": 22.5,
      "total_line": 52.5,
-     "model_margin": 23.799999999999997,
-     "blend_margin": 22.6885,
+     "model_margin": 23.9,
+     "blend_margin": 22.703,
      "proj_total": 53.51538461538462,
      "factors": [
       "weather: 69F, 7 | no severity"
@@ -6070,7 +6070,7 @@
        "team": "Tulsa",
        "line": -18.5,
        "price": -110.0,
-       "proj": 23.799999999999997,
+       "proj": 23.9,
        "prob": 0.5174,
        "edge": null,
        "edge_unit": "pts",
@@ -6106,9 +6106,9 @@
        "line": 0.0,
        "price": -2100.0,
        "price_estimated": false,
-       "proj": 22.69,
-       "prob": 0.9356,
-       "edge": -0.0189,
+       "proj": 22.7,
+       "prob": 0.9358,
+       "edge": -0.0188,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -6131,7 +6131,7 @@
        "base_line": 22.5,
        "line": 28.5,
        "price": 0.0,
-       "prob": 0.5876,
+       "prob": 0.5874,
        "push": 0,
        "crosses": [],
        "selection": "Charlotte +22.5 -> +28.5",
@@ -6163,22 +6163,22 @@
       {
        "team": "Tulsa",
        "line": -25.5,
-       "prob": 0.4159
+       "prob": 0.4163
       },
       {
        "team": "Charlotte",
        "line": 19.5,
-       "prob": 0.4281
+       "prob": 0.4277
       },
       {
        "team": "Tulsa",
        "line": -19.5,
-       "prob": 0.5719
+       "prob": 0.5723
       },
       {
        "team": "Charlotte",
        "line": 25.5,
-       "prob": 0.5841
+       "prob": 0.5837
       }
      ]
     },
@@ -7414,8 +7414,8 @@
      "frozen": false,
      "line": 20.5,
      "total_line": 60.5,
-     "model_margin": 26.400000000000002,
-     "blend_margin": 21.3555,
+     "model_margin": 26.3,
+     "blend_margin": 21.341,
      "proj_total": 59.475,
      "factors": [
       "weather: 78F, wind 12mph, precip 28% | sev=0.25 | open-meteo"
@@ -7430,7 +7430,7 @@
        "team": "Miami",
        "line": -18.5,
        "price": -110.0,
-       "proj": 26.400000000000002,
+       "proj": 26.3,
        "prob": 0.5205,
        "edge": null,
        "edge_unit": "pts",
@@ -7466,9 +7466,9 @@
        "line": 0.0,
        "price": -1600.0,
        "price_estimated": false,
-       "proj": 21.36,
-       "prob": 0.9236,
-       "edge": -0.0175,
+       "proj": 21.34,
+       "prob": 0.9235,
+       "edge": -0.0177,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -7491,7 +7491,7 @@
        "base_line": -20.5,
        "line": -14.5,
        "price": 0.0,
-       "prob": 0.5892,
+       "prob": 0.589,
        "push": 0,
        "crosses": [],
        "selection": "Miami -20.5 -> -14.5",
@@ -7523,22 +7523,22 @@
       {
        "team": "Miami",
        "line": -23.5,
-       "prob": 0.4323
+       "prob": 0.4319
       },
       {
        "team": "Virginia Tech",
        "line": 17.5,
-       "prob": 0.4124
+       "prob": 0.4127
       },
       {
        "team": "Miami",
        "line": -17.5,
-       "prob": 0.5876
+       "prob": 0.5873
       },
       {
        "team": "Virginia Tech",
        "line": 23.5,
-       "prob": 0.5677
+       "prob": 0.5681
       }
      ]
     },
@@ -7580,7 +7580,7 @@
        "market": "total",
        "side": "under",
        "line": 46.5,
-       "price": -110.0,
+       "price": -105.0,
        "proj": 45.66,
        "prob": 0.5384,
        "edge": 0.84,
@@ -7686,8 +7686,8 @@
      "frozen": false,
      "line": 7.5,
      "total_line": 38.5,
-     "model_margin": 4.399999999999999,
-     "blend_margin": 7.0504999999999995,
+     "model_margin": 4.299999999999999,
+     "blend_margin": 7.036,
      "proj_total": 38.47692307692307,
      "factors": [
       "weather: 66F, wind 20mph, precip 20% | sev=0.60 | open-meteo"
@@ -7702,7 +7702,7 @@
        "team": "Texas A&M",
        "line": 7.5,
        "price": -115.0,
-       "proj": 4.399999999999999,
+       "proj": 4.299999999999999,
        "prob": 0.5073,
        "edge": null,
        "edge_unit": "pts",
@@ -7738,9 +7738,9 @@
        "line": 0.0,
        "price": 245.0,
        "price_estimated": false,
-       "proj": 7.05,
-       "prob": 0.3193,
-       "edge": 0.0294,
+       "proj": 7.04,
+       "prob": 0.3196,
+       "edge": 0.0298,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -7763,7 +7763,7 @@
        "base_line": 7.5,
        "line": 13.5,
        "price": 0.0,
-       "prob": 0.5972,
+       "prob": 0.5974,
        "push": 0,
        "crosses": [],
        "selection": "Texas A&M +7.5 -> +13.5",
@@ -7795,22 +7795,22 @@
       {
        "team": "Oklahoma",
        "line": -10.5,
-       "prob": 0.3954
+       "prob": 0.395
       },
       {
        "team": "Texas A&M",
        "line": 4.5,
-       "prob": 0.4394
+       "prob": 0.4398
       },
       {
        "team": "Oklahoma",
        "line": -4.5,
-       "prob": 0.5606
+       "prob": 0.5602
       },
       {
        "team": "Texas A&M",
        "line": 10.5,
-       "prob": 0.6046
+       "prob": 0.605
       }
      ]
     },
@@ -8096,8 +8096,8 @@
      "frozen": false,
      "line": 24.5,
      "total_line": 50.5,
-     "model_margin": 22.0,
-     "blend_margin": 24.1375,
+     "model_margin": 22.2,
+     "blend_margin": 24.1665,
      "proj_total": 51.284615384615385,
      "factors": [
       "weather: 46F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
@@ -8110,7 +8110,7 @@
        "team": "Rutgers",
        "line": 22.5,
        "price": -110.0,
-       "proj": 22.0,
+       "proj": 22.2,
        "prob": 0.5027,
        "edge": null,
        "edge_unit": "pts",
@@ -8141,25 +8141,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Rutgers",
+       "side": "home",
+       "team": "Penn State",
        "line": 0.0,
-       "price": 1300.0,
+       "price": -2800.0,
        "price_estimated": false,
-       "proj": 24.14,
-       "prob": 0.053,
-       "edge": -0.0184,
+       "proj": 24.17,
+       "prob": 0.9472,
+       "edge": -0.0183,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Rutgers ML +1300",
+       "selection": "Penn State ML -2800",
        "game_id": "recGL898w9ReY8dS7",
        "game": "Rutgers @ Penn State",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       }
      ],
      "teaser_legs": [
@@ -8171,7 +8171,7 @@
        "base_line": 24.5,
        "line": 30.5,
        "price": 0.0,
-       "prob": 0.5946,
+       "prob": 0.5942,
        "push": 0,
        "crosses": [],
        "selection": "Rutgers +24.5 -> +30.5",
@@ -8203,22 +8203,22 @@
       {
        "team": "Penn State",
        "line": -27.5,
-       "prob": 0.4026
+       "prob": 0.4033
       },
       {
        "team": "Rutgers",
        "line": 21.5,
-       "prob": 0.4411
+       "prob": 0.4403
       },
       {
        "team": "Penn State",
        "line": -21.5,
-       "prob": 0.5589
+       "prob": 0.5597
       },
       {
        "team": "Rutgers",
        "line": 27.5,
-       "prob": 0.5974
+       "prob": 0.5967
       }
      ]
     },
@@ -8652,7 +8652,7 @@
        "side": "away",
        "team": "Old Dominion",
        "line": 14.0,
-       "price": -110.0,
+       "price": -105.0,
        "proj": 13.9,
        "prob": 0.5031,
        "edge": null,
@@ -9183,8 +9183,8 @@
      "frozen": false,
      "line": 3.0,
      "total_line": 51.5,
-     "model_margin": 5.0,
-     "blend_margin": 3.29,
+     "model_margin": 5.1,
+     "blend_margin": 3.3045,
      "proj_total": 52.146153846153844,
      "factors": [
       "weather: 46F, wind 4mph, precip 0% | sev=0.00 | open-meteo"
@@ -9197,7 +9197,7 @@
        "team": "Temple",
        "line": -4.0,
        "price": -105.0,
-       "proj": 5.0,
+       "proj": 5.1,
        "prob": 0.5,
        "edge": null,
        "edge_unit": "pts",
@@ -9233,9 +9233,9 @@
        "line": 0.0,
        "price": -148.0,
        "price_estimated": false,
-       "proj": 3.29,
-       "prob": 0.5867,
-       "edge": -0.01,
+       "proj": 3.3,
+       "prob": 0.5871,
+       "edge": -0.0097,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -9253,17 +9253,17 @@
       {
        "market": "teaser_leg",
        "kind": "spread",
-       "side": "away",
-       "team": "Rice",
-       "base_line": 3.0,
-       "line": 9.0,
+       "side": "home",
+       "team": "Temple",
+       "base_line": -3.0,
+       "line": 3.0,
        "price": 0.0,
        "prob": 0.5802,
-       "push": 0.0236,
+       "push": 0.0313,
        "crosses": [
-        7
+        3
        ],
-       "selection": "Rice +3 -> +9 (crosses 7)",
+       "selection": "Temple -3 -> +3 (crosses 3)",
        "game_id": "recM3d3pDzeM82Vu7",
        "game": "Rice @ Temple",
        "priority": "secondary",
@@ -9292,22 +9292,22 @@
       {
        "team": "Temple",
        "line": -6.0,
-       "prob": 0.4103
+       "prob": 0.4107
       },
       {
        "team": "Rice",
        "line": 0.0,
-       "prob": 0.4027
+       "prob": 0.4023
       },
       {
        "team": "Temple",
        "line": 0.0,
-       "prob": 0.5726
+       "prob": 0.573
       },
       {
        "team": "Rice",
        "line": 6.0,
-       "prob": 0.5623
+       "prob": 0.5619
       }
      ]
     },
@@ -9976,8 +9976,8 @@
      "frozen": false,
      "line": 17.5,
      "total_line": 57.5,
-     "model_margin": 19.1,
-     "blend_margin": 17.732,
+     "model_margin": 19.2,
+     "blend_margin": 17.7465,
      "proj_total": 57.11923076923077,
      "factors": [
       "weather: 63F, wind 8mph, precip 0% | sev=0.00 | open-meteo"
@@ -9990,7 +9990,7 @@
        "team": "USC",
        "line": -16.5,
        "price": -105.0,
-       "proj": 19.1,
+       "proj": 19.2,
        "prob": 0.507,
        "edge": null,
        "edge_unit": "pts",
@@ -10026,9 +10026,9 @@
        "line": 0.0,
        "price": -900.0,
        "price_estimated": false,
-       "proj": 17.73,
-       "prob": 0.8824,
-       "edge": -0.0176,
+       "proj": 17.75,
+       "prob": 0.8826,
+       "edge": -0.0174,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -10051,7 +10051,7 @@
        "base_line": 17.5,
        "line": 23.5,
        "price": 0.0,
-       "prob": 0.5884,
+       "prob": 0.5882,
        "push": 0,
        "crosses": [],
        "selection": "Maryland +17.5 -> +23.5",
@@ -10083,22 +10083,22 @@
       {
        "team": "USC",
        "line": -20.5,
-       "prob": 0.4138
+       "prob": 0.4142
       },
       {
        "team": "Maryland",
        "line": 14.5,
-       "prob": 0.4303
+       "prob": 0.4299
       },
       {
        "team": "USC",
        "line": -14.5,
-       "prob": 0.5697
+       "prob": 0.5701
       },
       {
        "team": "Maryland",
        "line": 20.5,
-       "prob": 0.5862
+       "prob": 0.5858
       }
      ]
     },
@@ -10656,8 +10656,8 @@
      "frozen": false,
      "line": 13.5,
      "total_line": 40.5,
-     "model_margin": 11.100000000000001,
-     "blend_margin": 13.152000000000001,
+     "model_margin": 11.200000000000001,
+     "blend_margin": 13.166500000000001,
      "proj_total": 42.50769230769231,
      "factors": [
       "weather: 57F, wind 5mph, precip 0% | sev=0.00 | open-meteo"
@@ -10670,7 +10670,7 @@
        "team": "Clemson",
        "line": 8.5,
        "price": -115.0,
-       "proj": 11.100000000000001,
+       "proj": 11.200000000000001,
        "prob": 0.5069,
        "edge": null,
        "edge_unit": "pts",
@@ -10706,9 +10706,9 @@
        "line": 0.0,
        "price": 400.0,
        "price_estimated": false,
-       "proj": 13.15,
-       "prob": 0.1905,
-       "edge": -0.0095,
+       "proj": 13.17,
+       "prob": 0.1902,
+       "edge": -0.0098,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -10731,7 +10731,7 @@
        "base_line": 13.5,
        "line": 19.5,
        "price": 0.0,
-       "prob": 0.5969,
+       "prob": 0.5967,
        "push": 0,
        "crosses": [],
        "selection": "Clemson +13.5 -> +19.5",
@@ -10763,22 +10763,22 @@
       {
        "team": "Duke",
        "line": -16.5,
-       "prob": 0.3978
+       "prob": 0.3982
       },
       {
        "team": "Clemson",
        "line": 10.5,
-       "prob": 0.4457
+       "prob": 0.4453
       },
       {
        "team": "Duke",
        "line": -10.5,
-       "prob": 0.5543
+       "prob": 0.5547
       },
       {
        "team": "Clemson",
        "line": 16.5,
-       "prob": 0.6022
+       "prob": 0.6018
       }
      ]
     },
@@ -11450,8 +11450,8 @@
      "frozen": false,
      "line": -3.0,
      "total_line": 41.5,
-     "model_margin": -7.500000000000002,
-     "blend_margin": -3.6525000000000003,
+     "model_margin": -7.400000000000002,
+     "blend_margin": -3.6380000000000003,
      "proj_total": 42.892307692307696,
      "factors": [
       "weather: 54F, wind 13mph, precip 62% | sev=0.40 | open-meteo"
@@ -11466,7 +11466,7 @@
        "team": "Ohio State",
        "line": -5.5,
        "price": -120.0,
-       "proj": -7.500000000000002,
+       "proj": -7.400000000000002,
        "prob": 0.5119,
        "edge": null,
        "edge_unit": "pts",
@@ -11502,9 +11502,9 @@
        "line": 0.0,
        "price": 136.0,
        "price_estimated": false,
-       "proj": -3.65,
-       "prob": 0.4039,
-       "edge": -0.0199,
+       "proj": -3.64,
+       "prob": 0.4042,
+       "edge": -0.0195,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -11527,7 +11527,7 @@
        "base_line": -3.0,
        "line": 3.0,
        "price": 0.0,
-       "prob": 0.5848,
+       "prob": 0.5846,
        "push": 0.031,
        "crosses": [
         3
@@ -11561,22 +11561,22 @@
       {
        "team": "Nebraska",
        "line": 0.0,
-       "prob": 0.3935
+       "prob": 0.3939
       },
       {
        "team": "Ohio State",
        "line": -6.0,
-       "prob": 0.4195
+       "prob": 0.4192
       },
       {
        "team": "Nebraska",
        "line": 6.0,
-       "prob": 0.553
+       "prob": 0.5533
       },
       {
        "team": "Ohio State",
        "line": 0.0,
-       "prob": 0.5819
+       "prob": 0.5815
       }
      ]
     },
@@ -11588,8 +11588,8 @@
      "frozen": false,
      "line": 16.5,
      "total_line": 48.5,
-     "model_margin": 16.900000000000002,
-     "blend_margin": 16.558,
+     "model_margin": 16.8,
+     "blend_margin": 16.5435,
      "proj_total": 49.88461538461539,
      "factors": [
       "weather: 52F, wind 6mph, precip 0% | sev=0.00 | open-meteo"
@@ -11602,7 +11602,7 @@
        "team": "Toledo",
        "line": -15.5,
        "price": -110.0,
-       "proj": 16.900000000000002,
+       "proj": 16.8,
        "prob": 0.5015,
        "edge": null,
        "edge_unit": "pts",
@@ -11638,9 +11638,9 @@
        "line": 0.0,
        "price": -750.0,
        "price_estimated": false,
-       "proj": 16.56,
-       "prob": 0.8662,
-       "edge": -0.0161,
+       "proj": 16.54,
+       "prob": 0.866,
+       "edge": -0.0163,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -11663,7 +11663,7 @@
        "base_line": 16.5,
        "line": 22.5,
        "price": 0.0,
-       "prob": 0.5911,
+       "prob": 0.5913,
        "push": 0,
        "crosses": [],
        "selection": "Bowling Green +16.5 -> +22.5",
@@ -11695,22 +11695,22 @@
       {
        "team": "Toledo",
        "line": -19.5,
-       "prob": 0.4086
+       "prob": 0.4082
       },
       {
        "team": "Bowling Green",
        "line": 13.5,
-       "prob": 0.432
+       "prob": 0.4324
       },
       {
        "team": "Toledo",
        "line": -13.5,
-       "prob": 0.568
+       "prob": 0.5676
       },
       {
        "team": "Bowling Green",
        "line": 19.5,
-       "prob": 0.5914
+       "prob": 0.5918
       }
      ]
     },
@@ -12539,8 +12539,8 @@
      "frozen": false,
      "line": null,
      "total_line": null,
-     "model_margin": 9.5,
-     "blend_margin": 9.5,
+     "model_margin": 9.3,
+     "blend_margin": 9.3,
      "proj_total": null,
      "factors": [
       "weather: 34F, 7 | no severity"
@@ -12554,9 +12554,9 @@
        "line": 0.0,
        "price": -110.0,
        "price_estimated": true,
-       "proj": 9.5,
-       "prob": 0.7366,
-       "edge": 0.2128,
+       "proj": 9.3,
+       "prob": 0.7322,
+       "edge": 0.2084,
        "edge_unit": "prob",
        "price_source": "estimated",
        "quote_captured_at": null,
@@ -13374,8 +13374,8 @@
      "frozen": false,
      "line": 4.5,
      "total_line": 40.5,
-     "model_margin": 4.0,
-     "blend_margin": 4.4275,
+     "model_margin": 3.9000000000000004,
+     "blend_margin": 4.413,
      "proj_total": 42.16153846153846,
      "factors": [
       "weather: 33F, 36 | no severity"
@@ -13388,7 +13388,7 @@
        "team": "Nevada",
        "line": -4.5,
        "price": -112.0,
-       "proj": 4.0,
+       "proj": 3.9000000000000004,
        "prob": 0.5031,
        "edge": null,
        "edge_unit": "pts",
@@ -13424,9 +13424,9 @@
        "line": 0.0,
        "price": 170.0,
        "price_estimated": false,
-       "proj": 4.43,
-       "prob": 0.384,
-       "edge": 0.0136,
+       "proj": 4.41,
+       "prob": 0.3844,
+       "edge": 0.014,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -13449,7 +13449,7 @@
        "base_line": 4.5,
        "line": 10.5,
        "price": 0.0,
-       "prob": 0.593,
+       "prob": 0.5932,
        "push": 0,
        "crosses": [
         7
@@ -13483,22 +13483,22 @@
       {
        "team": "Nevada",
        "line": -7.5,
-       "prob": 0.4069
+       "prob": 0.4066
       },
       {
        "team": "Hawai'i",
        "line": 1.5,
-       "prob": 0.4232
+       "prob": 0.4235
       },
       {
        "team": "Nevada",
        "line": -1.5,
-       "prob": 0.5768
+       "prob": 0.5765
       },
       {
        "team": "Hawai'i",
        "line": 7.5,
-       "prob": 0.5931
+       "prob": 0.5934
       }
      ]
     },
@@ -14055,8 +14055,8 @@
      "frozen": false,
      "line": -20.5,
      "total_line": 56.5,
-     "model_margin": -19.900000000000002,
-     "blend_margin": -20.413,
+     "model_margin": -20.0,
+     "blend_margin": -20.4275,
      "proj_total": 56.35,
      "factors": [
       "weather: 62F, 7 | no severity"
@@ -14069,7 +14069,7 @@
        "team": "Georgia Tech",
        "line": 21.0,
        "price": -110.0,
-       "proj": -19.900000000000002,
+       "proj": -20.0,
        "prob": 0.5031,
        "edge": null,
        "edge_unit": "pts",
@@ -14105,9 +14105,9 @@
        "line": 0.0,
        "price": 900.0,
        "price_estimated": false,
-       "proj": -20.41,
-       "prob": 0.0858,
-       "edge": -0.0142,
+       "proj": -20.43,
+       "prob": 0.0857,
+       "edge": -0.0143,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -14130,7 +14130,7 @@
        "base_line": 20.5,
        "line": 26.5,
        "price": 0.0,
-       "prob": 0.5918,
+       "prob": 0.5916,
        "push": 0,
        "crosses": [],
        "selection": "Georgia Tech +20.5 -> +26.5",
@@ -14162,22 +14162,22 @@
       {
        "team": "Georgia Tech",
        "line": 17.5,
-       "prob": 0.4372
+       "prob": 0.4368
       },
       {
        "team": "Wake Forest",
        "line": -23.5,
-       "prob": 0.4075
+       "prob": 0.4079
       },
       {
        "team": "Georgia Tech",
        "line": 23.5,
-       "prob": 0.5925
+       "prob": 0.5921
       },
       {
        "team": "Wake Forest",
        "line": -17.5,
-       "prob": 0.5628
+       "prob": 0.5632
       }
      ]
     },
@@ -14189,8 +14189,8 @@
      "frozen": false,
      "line": 3.5,
      "total_line": 44.5,
-     "model_margin": 4.4,
-     "blend_margin": 3.6305,
+     "model_margin": 4.300000000000001,
+     "blend_margin": 3.616,
      "proj_total": 45.4,
      "factors": [
       "weather: 66F, wind 8mph, precip 8% | sev=0.00 | open-meteo"
@@ -14203,7 +14203,7 @@
        "team": "Kennesaw State",
        "line": -3.0,
        "price": -108.0,
-       "proj": 4.4,
+       "proj": 4.300000000000001,
        "prob": 0.5042,
        "edge": null,
        "edge_unit": "pts",
@@ -14239,9 +14239,9 @@
        "line": 0.0,
        "price": 136.0,
        "price_estimated": false,
-       "proj": 3.63,
-       "prob": 0.4044,
-       "edge": -0.0193,
+       "proj": 3.62,
+       "prob": 0.4048,
+       "edge": -0.0189,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -14264,7 +14264,7 @@
        "base_line": 3.5,
        "line": 9.5,
        "price": 0.0,
-       "prob": 0.5887,
+       "prob": 0.5888,
        "push": 0,
        "crosses": [
         7
@@ -14298,22 +14298,22 @@
       {
        "team": "Kennesaw State",
        "line": -6.5,
-       "prob": 0.419
+       "prob": 0.4186
       },
       {
        "team": "Florida International",
        "line": 0.5,
-       "prob": 0.4187
+       "prob": 0.4191
       },
       {
        "team": "Kennesaw State",
        "line": -0.5,
-       "prob": 0.5813
+       "prob": 0.5809
       },
       {
        "team": "Florida International",
        "line": 6.5,
-       "prob": 0.581
+       "prob": 0.5814
       }
      ]
     },
@@ -14325,8 +14325,8 @@
      "frozen": false,
      "line": -2.5,
      "total_line": 41.5,
-     "model_margin": -9.9,
-     "blend_margin": -3.573,
+     "model_margin": -10.0,
+     "blend_margin": -3.5875,
      "proj_total": 44.18846153846154,
      "factors": [
       "weather: 52F, wind 9mph, precip 44% | sev=0.00 | open-meteo"
@@ -14339,7 +14339,7 @@
        "team": "Northwestern",
        "line": -3.0,
        "price": -112.0,
-       "proj": -9.9,
+       "proj": -10.0,
        "prob": 0.5227,
        "edge": null,
        "edge_unit": "pts",
@@ -14375,9 +14375,9 @@
        "line": 0.0,
        "price": -135.0,
        "price_estimated": false,
-       "proj": -3.57,
-       "prob": 0.5941,
-       "edge": 0.0196,
+       "proj": -3.59,
+       "prob": 0.5945,
+       "edge": 0.02,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -14400,7 +14400,7 @@
        "base_line": -2.5,
        "line": 3.5,
        "price": 0.0,
-       "prob": 0.6008,
+       "prob": 0.601,
        "push": 0,
        "crosses": [
         3
@@ -14434,22 +14434,22 @@
       {
        "team": "Minnesota",
        "line": -0.5,
-       "prob": 0.3955
+       "prob": 0.3952
       },
       {
        "team": "Northwestern",
        "line": -5.5,
-       "prob": 0.445
+       "prob": 0.4454
       },
       {
        "team": "Minnesota",
        "line": 5.5,
-       "prob": 0.555
+       "prob": 0.5546
       },
       {
        "team": "Northwestern",
        "line": 0.5,
-       "prob": 0.6045
+       "prob": 0.6048
       }
      ]
     },
@@ -15001,8 +15001,8 @@
      "frozen": false,
      "line": 2.5,
      "total_line": 55.5,
-     "model_margin": -4.5,
-     "blend_margin": 1.485,
+     "model_margin": -4.4,
+     "blend_margin": 1.4995,
      "proj_total": 55.66153846153846,
      "factors": [
       "weather: 54F, wind 4mph, precip 0% | sev=0.00 | open-meteo"
@@ -15015,7 +15015,7 @@
        "team": "Georgia State",
        "line": -1.5,
        "price": -118.0,
-       "proj": -4.5,
+       "proj": -4.4,
        "prob": 0.5081,
        "edge": null,
        "edge_unit": "pts",
@@ -15051,9 +15051,9 @@
        "line": 0.0,
        "price": 110.0,
        "price_estimated": false,
-       "proj": 1.49,
-       "prob": 0.4606,
-       "edge": -0.0156,
+       "proj": 1.5,
+       "prob": 0.4602,
+       "edge": -0.016,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -15076,7 +15076,7 @@
        "base_line": 2.5,
        "line": 8.5,
        "price": 0.0,
-       "prob": 0.6037,
+       "prob": 0.6035,
        "push": 0,
        "crosses": [
         3,
@@ -15111,22 +15111,22 @@
       {
        "team": "Marshall",
        "line": -5.5,
-       "prob": 0.3918
+       "prob": 0.3922
       },
       {
        "team": "Georgia State",
        "line": -0.5,
-       "prob": 0.4488
+       "prob": 0.4485
       },
       {
        "team": "Marshall",
        "line": 0.5,
-       "prob": 0.5512
+       "prob": 0.5515
       },
       {
        "team": "Georgia State",
        "line": 5.5,
-       "prob": 0.6082
+       "prob": 0.6078
       }
      ]
     },
@@ -15138,8 +15138,8 @@
      "frozen": false,
      "line": null,
      "total_line": null,
-     "model_margin": 7.6,
-     "blend_margin": 7.6,
+     "model_margin": 7.699999999999999,
+     "blend_margin": 7.699999999999999,
      "proj_total": null,
      "factors": [
       "weather: 35F, 38 | no severity"
@@ -15153,9 +15153,9 @@
        "line": 0.0,
        "price": -110.0,
        "price_estimated": true,
-       "proj": 7.6,
-       "prob": 0.6937,
-       "edge": 0.1699,
+       "proj": 7.7,
+       "prob": 0.696,
+       "edge": 0.1722,
        "edge_unit": "prob",
        "price_source": "estimated",
        "quote_captured_at": null,
@@ -15708,8 +15708,8 @@
      "frozen": false,
      "line": -7.5,
      "total_line": 37.5,
-     "model_margin": -15.0,
-     "blend_margin": -8.5875,
+     "model_margin": -14.899999999999999,
+     "blend_margin": -8.573,
      "proj_total": 36.792307692307695,
      "factors": [
       "weather: 28F, wind 22mph, precip 1% | sev=1.00 | open-meteo"
@@ -15724,7 +15724,7 @@
        "team": "New Mexico",
        "line": -10.5,
        "price": -105.0,
-       "proj": -15.0,
+       "proj": -14.899999999999999,
        "prob": 0.5062,
        "edge": null,
        "edge_unit": "pts",
@@ -15760,9 +15760,9 @@
        "line": 0.0,
        "price": 245.0,
        "price_estimated": false,
-       "proj": -8.59,
-       "prob": 0.2836,
-       "edge": -0.0062,
+       "proj": -8.57,
+       "prob": 0.2839,
+       "edge": -0.0059,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -15785,7 +15785,7 @@
        "base_line": -7.5,
        "line": -1.5,
        "price": 0.0,
-       "prob": 0.5986,
+       "prob": 0.5984,
        "push": 0,
        "crosses": [
         3,
@@ -15820,22 +15820,22 @@
       {
        "team": "Wyoming",
        "line": 4.5,
-       "prob": 0.4001
+       "prob": 0.4005
       },
       {
        "team": "New Mexico",
        "line": -10.5,
-       "prob": 0.4347
+       "prob": 0.4343
       },
       {
        "team": "Wyoming",
        "line": 10.5,
-       "prob": 0.5653
+       "prob": 0.5657
       },
       {
        "team": "New Mexico",
        "line": -4.5,
-       "prob": 0.5999
+       "prob": 0.5995
       }
      ]
     },
@@ -15847,8 +15847,8 @@
      "frozen": false,
      "line": -7.0,
      "total_line": 46.5,
-     "model_margin": -6.800000000000001,
-     "blend_margin": -6.971,
+     "model_margin": -6.899999999999999,
+     "blend_margin": -6.9855,
      "proj_total": 46.989024725274724,
      "factors": [
       "weather: 53F, wind 6mph, precip 46% | sev=0.00 | open-meteo"
@@ -15861,7 +15861,7 @@
        "team": "UNLV",
        "line": -4.0,
        "price": -108.0,
-       "proj": -6.800000000000001,
+       "proj": -6.899999999999999,
        "prob": 0.5112,
        "edge": null,
        "edge_unit": "pts",
@@ -15897,9 +15897,9 @@
        "line": 0.0,
        "price": 210.0,
        "price_estimated": false,
-       "proj": -6.97,
-       "prob": 0.3212,
-       "edge": -0.0014,
+       "proj": -6.99,
+       "prob": 0.3208,
+       "edge": -0.0018,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -15922,7 +15922,7 @@
        "base_line": 7.0,
        "line": 13.0,
        "price": 0.0,
-       "prob": 0.5853,
+       "prob": 0.5851,
        "push": 0.0234,
        "crosses": [],
        "selection": "San Jos\u00e9 State +7 -> +13",
@@ -15954,22 +15954,22 @@
       {
        "team": "San Jos\u00e9 State",
        "line": 4.0,
-       "prob": 0.4166
+       "prob": 0.4162
       },
       {
        "team": "UNLV",
        "line": -10.0,
-       "prob": 0.3933
+       "prob": 0.3937
       },
       {
        "team": "San Jos\u00e9 State",
        "line": 10.0,
-       "prob": 0.578
+       "prob": 0.5777
       },
       {
        "team": "UNLV",
        "line": -4.0,
-       "prob": 0.5585
+       "prob": 0.5589
       }
      ]
     },

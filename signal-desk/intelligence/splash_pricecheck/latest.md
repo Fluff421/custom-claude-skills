@@ -1,8 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-19 08:39Z
+# Pick-time check at the newest Splash lines, 2026-11-19 09:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 61 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 62 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 15 Lean-or-better plays at the current Splash lines (74 games checked).
 
@@ -13,7 +13,7 @@ Warning: the newest Splash snapshot is 61 hours old. Paste a fresh File 1 dump b
 | Indianapolis Colts @ Houston Texans | 2026-11-19 | spread | Indianapolis Colts +10.5 | Lean | 50.0% | -2.2 |  |
 | UTEP @ Air Force | 2026-11-20 | total | Under 46.5 | Lean | 53.1% | 2.54 |  |
 | Delaware @ New Mexico State | 2026-11-21 | total | Under 52.5 | Lean | 54.1% | 3.36 |  |
-| Northwestern @ Minnesota | 2026-11-21 | spread | Northwestern -2.5 | Lean | 50.0% | -1.01 |  |
+| Northwestern @ Minnesota | 2026-11-21 | spread | Northwestern -2.5 | Lean | 50.0% | -1.03 |  |
 | Northwestern @ Minnesota | 2026-11-21 | total | Over 41.5 | Lean | 53.3% | 2.69 | was over No Play at the early line |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | spread | Denver Broncos -9.5 | Lean | 50.0% | 2.3 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | total | Over 40.5 | Lean | 59.7% | 2.13 |  |
