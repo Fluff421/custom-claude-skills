@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T15:39:21.437838+00:00",
+  "checked_at": "2026-11-19T16:39:21.336891+00:00",
   "central_date": "2026-11-19",
   "ready": true,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.017,
+      "age_hours": 0.013,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 67.723,
+      "age_hours": 68.723,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,11 +26,11 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 67.7,
+      "age_hours": 68.7,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.017,
+      "age_hours": 0.013,
       "max_age_hours": 4
     },
     "close_grade": {
@@ -41,25 +41,25 @@
       "max_age_hours": 4,
       "status": "degraded",
       "last_good_age_hours": null,
-      "age_hours": 0.105
+      "age_hours": 1.105
     },
     "espn-sync.yml": {
-      "age_hours": 0.205,
+      "age_hours": 1.205,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 2.724,
+      "age_hours": 3.724,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 3.439,
+      "age_hours": 4.439,
       "max_age_hours": 26
     }
   },
   "errors": [],
   "warnings": [
-    "splash_board: 67.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 67.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "splash_board: 68.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 68.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
     "injury-pull.yml: latest run is not healthy, successful and LIVE; no good pull on record. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
   ],
   "degraded": [
