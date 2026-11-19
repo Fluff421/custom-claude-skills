@@ -1,14 +1,14 @@
-# Pick-time check at the newest Splash lines, 2026-11-19 21:16Z
+# Pick-time check at the newest Splash lines, 2026-11-19 21:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 73 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 74 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 16 Lean-or-better plays at the current Splash lines (74 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
-| Baltimore Ravens @ Carolina Panthers | 2026-11-22 | spread | Carolina Panthers -1.5 | Max Play | 64.2% | 4.5 |  |
+| Baltimore Ravens @ Carolina Panthers | 2026-11-22 | spread | Carolina Panthers -1.5 | Max Play | 63.9% | 4.4 |  |
 | Arizona Cardinals @ Kansas City Chiefs | 2026-11-22 | spread | Arizona Cardinals +15.5 | Strong Play | 59.0% | -2.8 |  |
 | Indianapolis Colts @ Houston Texans | 2026-11-19 | spread | Indianapolis Colts +10.5 | Lean | 50.0% | -2.2 |  |
 | Northwestern @ Minnesota | 2026-11-21 | spread | Northwestern -2.5 | Lean | 50.0% | -1.03 |  |
@@ -20,9 +20,9 @@ Warning: the newest Splash snapshot is 73 hours old. Paste a fresh File 1 dump b
 | Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.8 |  |
 | New Orleans Saints @ Chicago Bears | 2026-11-22 | total | Under 48.5 | Lean | 60.0% | 2.19 |  |
 | New York Jets @ Los Angeles Chargers | 2026-11-22 | spread | Los Angeles Chargers -3.5 | Lean | 54.0% | 4.4 |  |
-| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Lean | 50.0% | 2.4 |  |
+| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Lean | 50.0% | 2.3 |  |
 | Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | spread | Tampa Bay Buccaneers +6.5 | Lean | 50.0% | -2.2 |  |
-| Tennessee Titans @ Dallas Cowboys | 2026-11-22 | spread | Dallas Cowboys -7.5 | Lean | 50.0% | 1.5 |  |
+| Tennessee Titans @ Dallas Cowboys | 2026-11-22 | spread | Dallas Cowboys -7.5 | Lean | 50.0% | 1.6 |  |
 | Cincinnati Bengals @ Washington Commanders | 2026-11-23 | total | Under 52.5 | Lean | 59.1% | 2.0 |  |
 
 Tier or side changed since the early-week line:

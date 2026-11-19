@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "generated_at": "2026-11-19T21:15:26+00:00",
+ "generated_at": "2026-11-19T21:39:55+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -5668,7 +5668,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-19T21:14:41+00:00",
+   "generated_at": "2026-11-19T21:39:11+00:00",
    "date": "2026-11-19",
    "games": [
     {
@@ -5866,18 +5866,18 @@
        "side": "away",
        "team": "Pittsburgh Steelers",
        "line": 0.0,
-       "price": -207.0,
+       "price": -205.0,
        "price_estimated": false,
        "proj": -3.99,
        "prob": 0.6643,
-       "edge": -0.01,
+       "edge": -0.0078,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Pittsburgh Steelers ML -207",
+       "selection": "Pittsburgh Steelers ML -205",
        "game_id": "rec0gY90aols8kKfi",
        "game": "Pittsburgh Steelers @ Philadelphia Eagles",
        "priority": "primary",
@@ -6817,18 +6817,18 @@
        "side": "home",
        "team": "Denver Broncos",
        "line": 0.0,
-       "price": -568.0,
+       "price": -569.0,
        "price_estimated": false,
        "proj": 10.51,
        "prob": 0.8927,
-       "edge": 0.0424,
+       "edge": 0.0421,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Denver Broncos ML -568",
+       "selection": "Denver Broncos ML -569",
        "game_id": "recA8wbdTRMKXNzCn",
        "game": "Las Vegas Raiders @ Denver Broncos",
        "priority": "primary",
@@ -8957,7 +8957,7 @@
        "side": "away",
        "team": "Jacksonville Jaguars",
        "line": -6.0,
-       "price": -110.0,
+       "price": -109.0,
        "proj": -7.899999999999999,
        "prob": 0.6082,
        "edge": null,
@@ -8992,18 +8992,18 @@
        "side": "away",
        "team": "Jacksonville Jaguars",
        "line": 0.0,
-       "price": -266.0,
+       "price": -264.0,
        "price_estimated": false,
        "proj": -6.57,
        "prob": 0.7628,
-       "edge": 0.0361,
+       "edge": 0.0376,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Jacksonville Jaguars ML -266",
+       "selection": "Jacksonville Jaguars ML -264",
        "game_id": "recLDCpyeKOzU0eyq",
        "game": "Jacksonville Jaguars @ New York Giants",
        "priority": "primary",
@@ -9348,10 +9348,10 @@
      "league": "NCAAF",
      "date": "2026-11-21",
      "frozen": false,
-     "line": 12.5,
+     "line": 13.5,
      "total_line": 62.5,
      "model_margin": 10.4,
-     "blend_margin": 12.195500000000001,
+     "blend_margin": 13.0505,
      "proj_total": 61.40384615384615,
      "factors": [
       "weather: 69F, 3 | no severity"
@@ -9363,7 +9363,7 @@
        "side": "away",
        "team": "Washington State",
        "line": 14.0,
-       "price": -108.0,
+       "price": -115.0,
        "proj": 10.4,
        "prob": 0.5112,
        "edge": null,
@@ -9398,18 +9398,18 @@
        "side": "away",
        "team": "Washington State",
        "line": 0.0,
-       "price": 380.0,
+       "price": 390.0,
        "price_estimated": false,
-       "proj": 12.2,
-       "prob": 0.2083,
-       "edge": -0.0001,
+       "proj": 13.05,
+       "prob": 0.1923,
+       "edge": -0.0118,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Washington State ML +380",
+       "selection": "Washington State ML +390",
        "game_id": "recMnEBPakZAQmbNs",
        "game": "Washington State @ Texas State",
        "priority": "primary",
@@ -9422,13 +9422,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Washington State",
-       "base_line": 12.5,
-       "line": 18.5,
+       "base_line": 13.5,
+       "line": 19.5,
        "price": 0.0,
-       "prob": 0.5966,
+       "prob": 0.5983,
        "push": 0,
        "crosses": [],
-       "selection": "Washington State +12.5 -> +18.5",
+       "selection": "Washington State +13.5 -> +19.5",
        "game_id": "recMnEBPakZAQmbNs",
        "game": "Washington State @ Texas State",
        "priority": "secondary",
@@ -9456,23 +9456,23 @@
      "alt_spreads": [
       {
        "team": "Texas State",
-       "line": -15.5,
-       "prob": 0.3983
+       "line": -16.5,
+       "prob": 0.3952
       },
       {
        "team": "Washington State",
-       "line": 9.5,
-       "prob": 0.4417
+       "line": 10.5,
+       "prob": 0.4484
       },
       {
        "team": "Texas State",
-       "line": -9.5,
-       "prob": 0.5583
+       "line": -10.5,
+       "prob": 0.5516
       },
       {
        "team": "Washington State",
-       "line": 15.5,
-       "prob": 0.6017
+       "line": 16.5,
+       "prob": 0.6048
       }
      ]
     },
@@ -11787,10 +11787,10 @@
      "league": "NCAAF",
      "date": "2026-11-20",
      "frozen": false,
-     "line": -4.0,
+     "line": -4.5,
      "total_line": 55.5,
      "model_margin": -3.4000000000000004,
-     "blend_margin": -3.9130000000000003,
+     "blend_margin": -4.3405000000000005,
      "proj_total": 54.64807692307692,
      "factors": [
       "weather: 75F, wind 14mph, precip 2% | sev=0.25 | open-meteo"
@@ -11804,7 +11804,7 @@
        "side": "away",
        "team": "Texas Tech",
        "line": -1.5,
-       "price": -115.0,
+       "price": -110.0,
        "proj": -3.4000000000000004,
        "prob": 0.5004,
        "edge": null,
@@ -11841,9 +11841,9 @@
        "line": 0.0,
        "price": 160.0,
        "price_estimated": false,
-       "proj": -3.91,
-       "prob": 0.3972,
-       "edge": 0.0125,
+       "proj": -4.34,
+       "prob": 0.3862,
+       "edge": 0.0016,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
@@ -11863,15 +11863,15 @@
        "kind": "spread",
        "side": "home",
        "team": "Baylor",
-       "base_line": 4.0,
-       "line": 10.0,
+       "base_line": 4.5,
+       "line": 10.5,
        "price": 0.0,
-       "prob": 0.5849,
-       "push": 0.0268,
+       "prob": 0.5941,
+       "push": 0,
        "crosses": [
         7
        ],
-       "selection": "Baylor +4 -> +10 (crosses 7)",
+       "selection": "Baylor +4.5 -> +10.5 (crosses 7)",
        "game_id": "recaECO9clr72nsCg",
        "game": "Texas Tech @ Baylor",
        "priority": "secondary",
@@ -11899,23 +11899,23 @@
      "alt_spreads": [
       {
        "team": "Baylor",
-       "line": 1.0,
-       "prob": 0.4115
+       "line": 1.5,
+       "prob": 0.4254
       },
       {
        "team": "Texas Tech",
-       "line": -7.0,
-       "prob": 0.3939
+       "line": -7.5,
+       "prob": 0.4047
       },
       {
        "team": "Baylor",
-       "line": 7.0,
-       "prob": 0.5738
+       "line": 7.5,
+       "prob": 0.5953
       },
       {
        "team": "Texas Tech",
-       "line": -1.0,
-       "prob": 0.5636
+       "line": -1.5,
+       "prob": 0.5746
       }
      ]
     },
@@ -14581,7 +14581,7 @@
        "market": "total",
        "side": "over",
        "line": 47.5,
-       "price": -112.0,
+       "price": -118.0,
        "proj": 48.05,
        "prob": 0.5068,
        "edge": 0.55,
@@ -16145,18 +16145,18 @@
        "side": "home",
        "team": "Dallas Cowboys",
        "line": 0.0,
-       "price": -387.0,
+       "price": -388.0,
        "price_estimated": false,
        "proj": 8.95,
        "prob": 0.8447,
-       "edge": 0.05,
+       "edge": 0.0496,
        "edge_unit": "prob",
        "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Dallas Cowboys ML -387",
+       "selection": "Dallas Cowboys ML -388",
        "game_id": "recwzEr4ONJw6Vsml",
        "game": "Tennessee Titans @ Dallas Cowboys",
        "priority": "primary",
@@ -18910,5 +18910,5 @@
    "NFL teaser_leg: n=68, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0003)"
   ]
  },
- "narrative_sha256": "65df76be46b6c99a29d31fd9e6148de13ac7ffb25db22af8d9285219985afdbd"
+ "narrative_sha256": "2cd98c86a689a09975f1e9d72398ec3587d716cb807f7346d5acfe0c5e1def3d"
 }

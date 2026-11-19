@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T21:16:00.437290+00:00",
- "snapshot_age_hours": 73.3,
+ "generated_at": "2026-11-19T21:39:52.889974+00:00",
+ "snapshot_age_hours": 73.7,
  "games": [
   {
    "game": "Rice @ Temple",
@@ -347,9 +347,9 @@
    "moneyline": {
     "pick": "West Virginia ML +245",
     "tier": "No Play",
-    "prob": 0.3029,
-    "edge": 0.0131,
-    "model_ml_side": "away"
+    "prob": 0.2868,
+    "edge": -0.003,
+    "model_ml_side": "home"
    }
   },
   {
@@ -2395,10 +2395,10 @@
     }
    },
    "moneyline": {
-    "pick": "Rutgers ML +1400",
+    "pick": "Penn State ML -3448",
     "tier": "No Play",
-    "prob": 0.0511,
-    "edge": -0.0155,
+    "prob": 0.9536,
+    "edge": -0.0182,
     "model_ml_side": "away"
    }
   },
@@ -3170,8 +3170,8 @@
     "pick": "Carolina Panthers -1.5",
     "side": "home",
     "tier": "Max Play",
-    "prob": 0.6419,
-    "edge": 4.5,
+    "prob": 0.6389,
+    "edge": 4.4,
     "proj": 6.1000000000000005,
     "import_side": "",
     "import_tier": "",
@@ -3521,7 +3521,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 2.4,
+    "edge": 2.3,
     "proj": -2.8,
     "import_side": "",
     "import_tier": "",
@@ -3621,7 +3621,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.5,
+    "edge": 1.6,
     "proj": 10.0,
     "import_side": "",
     "import_tier": "",

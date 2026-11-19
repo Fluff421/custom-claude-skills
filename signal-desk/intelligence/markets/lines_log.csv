@@ -2538,3 +2538,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-19T21:14:41+00:00,recLDCpyeKOzU0eyq,401873069,NFL,Jacksonville Jaguars @ New York Giants,2026-11-22,Draft Kings,-6.0,46.5,219,-266,-109.0,-110.0,-113.0,-106.0,-1.5
 2026-11-19T21:14:41+00:00,recqmMdr0PsqZrEg8,401873066,NFL,Indianapolis Colts @ Houston Texans,2026-11-19,Draft Kings,12.5,44.5,-690,498,-106.0,-114.0,-104.0,-116.0,5.5
 2026-11-19T21:14:41+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,53.5,238,-292,-107.0,-112.0,-116.0,-103.0,-1.5
+2026-11-19T21:39:11+00:00,rec0gY90aols8kKfi,401873076,NFL,Pittsburgh Steelers @ Philadelphia Eagles,2026-11-22,Draft Kings,-4.5,37.5,171,-205,-114.0,-105.0,-112.0,-107.0,5.5
+2026-11-19T21:39:11+00:00,recA8wbdTRMKXNzCn,401873075,NFL,Las Vegas Raiders @ Denver Broncos,2026-11-22,Draft Kings,10.0,40.5,-569,427,-112.0,-107.0,-107.0,-113.0,8.5
+2026-11-19T21:39:11+00:00,recLDCpyeKOzU0eyq,401873069,NFL,Jacksonville Jaguars @ New York Giants,2026-11-22,Draft Kings,-6.0,46.5,217,-264,-110.0,-109.0,-113.0,-106.0,-1.5
+2026-11-19T21:39:11+00:00,recMnEBPakZAQmbNs,401860920,NCAAF,Washington State @ Texas State,2026-11-21,Draft Kings,13.5,62.5,-520,390,-105.0,-115.0,-108.0,-112.0,14.5
+2026-11-19T21:39:11+00:00,recaECO9clr72nsCg,401856871,NCAAF,Texas Tech @ Baylor,2026-11-20,Draft Kings,-4.5,55.5,160,-192,-110.0,-110.0,-112.0,-108.0,-1.5
+2026-11-19T21:39:11+00:00,reco43lfDzDl964jd,401856755,NCAAF,Arkansas @ Texas,2026-11-21,Draft Kings,20.5,47.5,-1650,950,-112.0,-108.0,-118.0,-102.0,21.0
+2026-11-19T21:39:11+00:00,recqmMdr0PsqZrEg8,401873066,NFL,Indianapolis Colts @ Houston Texans,2026-11-19,Draft Kings,12.5,44.5,-690,500,-106.0,-114.0,-104.0,-116.0,5.5
+2026-11-19T21:39:11+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,53.5,239,-292,-107.0,-112.0,-116.0,-103.0,-1.5
+2026-11-19T21:39:11+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,Draft Kings,8.5,55.5,-388,308,-105.0,-115.0,-104.0,-115.0,6.5
