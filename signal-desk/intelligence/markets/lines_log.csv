@@ -2403,3 +2403,6 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-19T13:39:07+00:00,recGIwXjOoAurvelH,401864545,NCAAF,UTEP @ Air Force,2026-11-20,Draft Kings,22.5,47.5,-2100,1100,-110.0,-110.0,-110.0,-110.0,21.5
 2026-11-19T13:39:07+00:00,recM3d3pDzeM82Vu7,401862830,NCAAF,Rice @ Temple,2026-11-19,Draft Kings,2.5,51.5,-142,120,-115.0,-105.0,-105.0,-115.0,4.0
 2026-11-19T13:39:07+00:00,recdKfOxzoWpwNzmE,401869946,NCAAF,Coastal Carolina @ Louisiana,2026-11-21,Draft Kings,10.5,50.5,-395,310,-105.0,-115.0,-110.0,-110.0,7.5
+2026-11-19T14:39:08+00:00,recA8wbdTRMKXNzCn,401873075,NFL,Las Vegas Raiders @ Denver Broncos,2026-11-22,Draft Kings,10.0,40.5,-600,440,-112.0,-108.0,-112.0,-108.0,8.5
+2026-11-19T14:39:08+00:00,recG7zCYLcccieCvX,401871077,NCAAF,Delaware @ New Mexico State,2026-11-21,Draft Kings,-3.0,54.5,140,-166,-105.0,-115.0,-110.0,-110.0,-4.5
+2026-11-19T14:39:08+00:00,recYOvQDevjUN0yyb,401869953,NCAAF,Georgia Southern @ Troy,2026-11-21,Draft Kings,-9.5,48.5,270,-340,-112.0,-108.0,-110.0,-110.0,-8.5

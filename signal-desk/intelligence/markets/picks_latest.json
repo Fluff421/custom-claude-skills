@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T13:53:50+00:00",
+ "generated_at": "2026-11-19T14:39:08+00:00",
  "date": "2026-11-19",
  "games": [
   {
@@ -1144,18 +1144,18 @@
      "side": "home",
      "team": "Denver Broncos",
      "line": 0.0,
-     "price": -625.0,
+     "price": -600.0,
      "price_estimated": false,
      "proj": 10.51,
      "prob": 0.8927,
-     "edge": 0.0306,
+     "edge": 0.0355,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "Lean",
      "units": 0.5,
-     "selection": "Denver Broncos ML -625",
+     "selection": "Denver Broncos ML -600",
      "game_id": "recA8wbdTRMKXNzCn",
      "game": "Las Vegas Raiders @ Denver Broncos",
      "priority": "primary",
@@ -2193,7 +2193,7 @@
      "side": "home",
      "team": "New Mexico State",
      "line": 3.5,
-     "price": -102.0,
+     "price": -105.0,
      "proj": -4.0,
      "prob": 0.505,
      "edge": null,
@@ -5706,10 +5706,10 @@
    "league": "NCAAF",
    "date": "2026-11-21",
    "frozen": false,
-   "line": -8.5,
+   "line": -9.5,
    "total_line": 48.5,
    "model_margin": -8.200000000000001,
-   "blend_margin": -8.4565,
+   "blend_margin": -9.3115,
    "proj_total": 48.73076923076923,
    "factors": [
     "weather: 63F, wind 9mph, precip 1% | sev=0.00 | open-meteo"
@@ -5721,7 +5721,7 @@
      "side": "home",
      "team": "Troy",
      "line": 9.5,
-     "price": -108.0,
+     "price": -112.0,
      "proj": -8.200000000000001,
      "prob": 0.5092,
      "edge": null,
@@ -5758,9 +5758,9 @@
      "line": 0.0,
      "price": 270.0,
      "price_estimated": false,
-     "proj": -8.46,
-     "prob": 0.2866,
-     "edge": 0.0163,
+     "proj": -9.31,
+     "prob": 0.2675,
+     "edge": -0.0028,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
@@ -5780,13 +5780,13 @@
      "kind": "spread",
      "side": "home",
      "team": "Troy",
-     "base_line": 8.5,
-     "line": 14.5,
+     "base_line": 9.5,
+     "line": 15.5,
      "price": 0.0,
-     "prob": 0.5936,
+     "prob": 0.5952,
      "push": 0,
      "crosses": [],
-     "selection": "Troy +8.5 -> +14.5",
+     "selection": "Troy +9.5 -> +15.5",
      "game_id": "recYOvQDevjUN0yyb",
      "game": "Georgia Southern @ Troy",
      "priority": "secondary",
@@ -5814,23 +5814,23 @@
    "alt_spreads": [
     {
      "team": "Troy",
-     "line": 5.5,
-     "prob": 0.4282
+     "line": 6.5,
+     "prob": 0.4337
     },
     {
      "team": "Georgia Southern",
-     "line": -11.5,
-     "prob": 0.4063
+     "line": -12.5,
+     "prob": 0.4032
     },
     {
      "team": "Troy",
-     "line": 11.5,
-     "prob": 0.5937
+     "line": 12.5,
+     "prob": 0.5968
     },
     {
      "team": "Georgia Southern",
-     "line": -5.5,
-     "prob": 0.5718
+     "line": -6.5,
+     "prob": 0.5663
     }
    ]
   },
