@@ -64,7 +64,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arkansas State @ Louisiana Tech | moneyline | Arkansas State ML +410 | 18% | -1.4% | No Play | 0 |
 | Rice @ Temple | spread | Temple -4 (spread) | 50% |  | No Play | 0 |
 | Rice @ Temple | total | Over 51.5 | 51% | +0.7 pts | No Play | 0 |
-| Rice @ Temple | moneyline | Temple ML -148 | 59% | -1.0% | No Play | 0 |
+| Rice @ Temple | moneyline | Temple ML -142 | 58% | -1.1% | No Play | 0 |
 | Washington State @ Texas State | spread | Washington State +14 (spread) | 51% |  | No Play | 0 |
 | Washington State @ Texas State | total | Under 61.5 | 51% | +0.8 pts | No Play | 0 |
 | Washington State @ Texas State | moneyline | Washington State ML +350 | 22% | +0.3% | No Play | 0 |

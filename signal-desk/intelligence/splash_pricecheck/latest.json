@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T11:39:58.595368+00:00",
- "snapshot_age_hours": 63.7,
+ "generated_at": "2026-11-19T12:39:38.918979+00:00",
+ "snapshot_age_hours": 64.7,
  "games": [
   {
    "game": "Rice @ Temple",
@@ -47,8 +47,8 @@
    "moneyline": {
     "pick": "Temple ML -150",
     "tier": "No Play",
-    "prob": 0.5956,
-    "edge": -0.0044,
+    "prob": 0.5865,
+    "edge": -0.0135,
     "model_ml_side": "home"
    }
   },
@@ -1547,8 +1547,8 @@
    "moneyline": {
     "pick": "South Carolina ML +550",
     "tier": "No Play",
-    "prob": 0.154,
-    "edge": 0.0002,
+    "prob": 0.1654,
+    "edge": 0.0115,
     "model_ml_side": "home"
    }
   },
