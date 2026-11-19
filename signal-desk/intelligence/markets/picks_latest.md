@@ -67,7 +67,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Rice @ Temple | moneyline | Temple ML -148 | 59% | -1.0% | No Play | 0 |
 | Washington State @ Texas State | spread | Washington State +14 (spread) | 51% |  | No Play | 0 |
 | Washington State @ Texas State | total | Under 61.5 | 51% | +0.8 pts | No Play | 0 |
-| Washington State @ Texas State | moneyline | Washington State ML +340 | 22% | -0.2% | No Play | 0 |
+| Washington State @ Texas State | moneyline | Washington State ML +350 | 22% | +0.3% | No Play | 0 |
 | Memphis @ Navy | spread | Memphis -3 (spread) | 51% |  | No Play | 0 |
 | Memphis @ Navy | total | Under 67.5 | 53% | +2.1 pts | No Play | 0 |
 | Memphis @ Navy | moneyline | Navy ML +142 | 41% | -0.1% | No Play | 0 |
