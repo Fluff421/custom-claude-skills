@@ -165,9 +165,6 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
 | Florida International @ Kennesaw State | moneyline | Florida International ML +136 | 40% | -1.9% | No Play | 0 |
-| Central Michigan @ Buffalo | spread | Buffalo -1.5 (spread) | 50% |  | No Play | 0 |
-| Central Michigan @ Buffalo | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
-| Central Michigan @ Buffalo | moneyline | Buffalo ML -142 | 57% | -1.8% | No Play | 0 |
 | Northwestern @ Minnesota | spread | Northwestern -3 (spread) | 52% |  | No Play | 0 |
 | Northwestern @ Minnesota | total | Over 41.5 | 53% | +2.7 pts | Lean | 0.5 |
 | Northwestern @ Minnesota | moneyline | Northwestern ML -142 | 59% | +0.7% | No Play | 0 |
