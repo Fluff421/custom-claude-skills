@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T04:38:53.972312+00:00",
+  "checked_at": "2026-11-19T05:39:04.506878+00:00",
   "central_date": "2026-11-18",
   "ready": true,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.013,
+      "age_hours": 0.014,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 56.715,
+      "age_hours": 57.718,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,40 +26,40 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 56.7,
+      "age_hours": 57.7,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.013,
+      "age_hours": 0.014,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.031,
+      "age_hours": 0.034,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 4,
       "status": "degraded",
       "last_good_age_hours": null,
-      "age_hours": 1.098
+      "age_hours": 2.101
     },
     "espn-sync.yml": {
-      "age_hours": 1.198,
+      "age_hours": 2.201,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 1.833,
+      "age_hours": 2.836,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 8.201,
+      "age_hours": 9.203,
       "max_age_hours": 26
     }
   },
   "errors": [],
   "warnings": [
-    "splash_board: 56.71h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 56.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "splash_board: 57.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 57.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
     "injury-pull.yml: latest run is not healthy, successful and LIVE; no good pull on record. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
   ],
   "degraded": [
