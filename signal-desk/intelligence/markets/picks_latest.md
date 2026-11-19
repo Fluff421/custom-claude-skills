@@ -9,8 +9,8 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Game | Market | Pick | Prob | Edge | Tier | Units |
 |---|---|---|---|---|---|---|
 | Oklahoma State @ Arizona State | spread | Oklahoma State -4 (spread) | 51% |  | No Play | 0 |
-| Oklahoma State @ Arizona State | total | Under 61.5 | 50% | +0.0 pts | No Play | 0 |
-| Oklahoma State @ Arizona State | moneyline | Oklahoma State ML -155 | 59% | -1.6% | No Play | 0 |
+| Oklahoma State @ Arizona State | total | Over 59.5 | 51% | +0.6 pts | No Play | 0 |
+| Oklahoma State @ Arizona State | moneyline | Oklahoma State ML -142 | 58% | -0.6% | No Play | 0 |
 | Charlotte @ Tulsa | spread | Tulsa -18.5 (spread) | 52% |  | No Play | 0 |
 | Charlotte @ Tulsa | total | Over 52.5 | 51% | +1.0 pts | No Play | 0 |
 | Charlotte @ Tulsa | moneyline | Tulsa ML -2100 | 94% | -1.9% | No Play | 0 |
@@ -70,7 +70,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Washington State @ Texas State | moneyline | Washington State ML +340 | 22% | -0.2% | No Play | 0 |
 | Memphis @ Navy | spread | Memphis -3 (spread) | 51% |  | No Play | 0 |
 | Memphis @ Navy | total | Under 67.5 | 53% | +2.1 pts | No Play | 0 |
-| Memphis @ Navy | moneyline | Navy ML +142 | 40% | -1.2% | No Play | 0 |
+| Memphis @ Navy | moneyline | Navy ML +142 | 41% | -0.1% | No Play | 0 |
 | North Carolina @ Virginia | spread | North Carolina +1.5 (spread) | 52% |  | No Play | 0 |
 | North Carolina @ Virginia | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
 | North Carolina @ Virginia | moneyline | Virginia ML -118 | 52% | -1.7% | No Play | 0 |
@@ -78,7 +78,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | East Carolina @ Army | total | Over 45.5 | 53% | +2.1 pts | No Play | 0 |
 | East Carolina @ Army | moneyline | East Carolina ML +190 | 35% | +0.5% | No Play | 0 |
 | Maryland @ USC | spread | USC -16.5 (spread) | 51% |  | No Play | 0 |
-| Maryland @ USC | total | Under 57.5 | 50% | +0.4 pts | No Play | 0 |
+| Maryland @ USC | total | Under 58.5 | 51% | +0.7 pts | No Play | 0 |
 | Maryland @ USC | moneyline | USC ML -900 | 88% | -1.8% | No Play | 0 |
 | Wisconsin @ Purdue | spread | Purdue +6 (spread) | 50% |  | No Play | 0 |
 | Wisconsin @ Purdue | total | Over 46.5 | 51% | +0.6 pts | No Play | 0 |
@@ -127,7 +127,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Stanford @ California | moneyline | Stanford ML -130 | 55% | -1.4% | No Play | 0 |
 | Iowa State @ UCF | spread | UCF -1.5 (spread) | 51% |  | No Play | 0 |
 | Iowa State @ UCF | total | Over 48.5 | 51% | +0.9 pts | No Play | 0 |
-| Iowa State @ UCF | moneyline | UCF ML -125 | 56% | +0.1% | No Play | 0 |
+| Iowa State @ UCF | moneyline | UCF ML -125 | 53% | -2.1% | No Play | 0 |
 | Kent State @ Eastern Michigan | moneyline | Eastern Michigan ML -110 (price estimated from the line) | 74% | +21.3% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
 | SMU @ Notre Dame | total | Under 56.5 | 51% | +0.9 pts | No Play | 0 |
@@ -160,7 +160,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Indiana @ Washington | total | Over 43.5 | 52% | +1.4 pts | No Play | 0 |
 | Indiana @ Washington | moneyline | Washington ML +250 | 29% | +0.8% | No Play | 0 |
 | Wake Forest @ Georgia Tech | spread | Georgia Tech +21 (spread) | 50% |  | No Play | 0 |
-| Wake Forest @ Georgia Tech | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
+| Wake Forest @ Georgia Tech | total | Over 55.5 | 50% | +0.1 pts | No Play | 0 |
 | Wake Forest @ Georgia Tech | moneyline | Georgia Tech ML +900 | 9% | -1.4% | No Play | 0 |
 | Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
@@ -219,7 +219,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -185 | 66% | +1.1% | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -192 | 66% | +0.3% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Over 41.5 | 52% | +0.4 pts | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -162 | 66% | +4.6% | Lean | 0.5 |
