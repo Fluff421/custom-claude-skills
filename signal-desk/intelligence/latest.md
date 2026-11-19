@@ -163,17 +163,17 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1400 | 100% | Strong Play | 1.0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | Lean | 0.5 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -592 | 90% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -640 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -566 | 89% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -570 | 89% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -161 | 66% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 64.5 | 53% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -266 | 76% | Lean | 0.5 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | Lean | 0.5 |
-| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1460 | 104% | Max Play | 1.0 |
-| Chicago Bears @ Detroit Lions | total | Under 54.5 | 59% | Lean | 0.5 |
+| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1440 | 104% | Max Play | 1.0 |
+| Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
 | Northwestern @ Minnesota | total | Over 41.5 | 53% | Lean | 0.5 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -136 | 65% | Strong Play | 1.0 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | Strong Play | 1.0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -398 | 84% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 60% | Lean | 0.5 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | Lean | 0.5 |
@@ -181,12 +181,12 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NCAAF parlay: Over 41.5 + Over 41.5 | model 28.4%, needs +268 to break even, edge +1.2%, No Play
 - NCAAF parlay: Over 41.5 + Over 37.5 | model 28.4%, needs +268 to break even, edge +1.2%, No Play
 - NCAAF parlay: Over 41.5 + Over 37.5 | model 28.5%, needs +264 to break even, edge +1.1%, No Play
-- NFL parlay: Kansas City Chiefs ML -1400 + Buffalo Bills ML -1460 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +114 to break even, edge +16.1%, Max Play
-- NFL parlay: Kansas City Chiefs ML -1400 + Buffalo Bills ML -1460 + Under 53.5 | model 60.3%, needs +124 to break even, edge +15.6%, Max Play
-- NFL parlay: Kansas City Chiefs ML -1400 + Chicago Bears ML -592 + Buffalo Bills ML -1460 | model 89.7%, needs -296 to break even, edge +15.0%, Max Play
-- NFL teaser: Under 53.5 -> 59.5 + Over 40.5 -> 34.5 + Under 54.5 -> 60.5 | model 49.6%, needs +160 to break even, edge +11.2%, Max Play
-- NFL teaser: Under 53.5 -> 59.5 + Over 40.5 -> 34.5 + Under 48.5 -> 54.5 | model 48.9%, needs +160 to break even, edge +10.5%, Max Play
-- NFL teaser: Under 53.5 -> 59.5 + Over 40.5 -> 34.5 + Over 37.5 -> 31.5 | model 48.8%, needs +160 to break even, edge +10.3%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1400 + Buffalo Bills ML -1440 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +114 to break even, edge +16.1%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1400 + Buffalo Bills ML -1440 + Under 53.5 | model 60.3%, needs +124 to break even, edge +15.6%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1400 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1440 | model 60.7%, needs +119 to break even, edge +14.9%, Max Play
+- NFL teaser: Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 50.2%, needs +160 to break even, edge +11.7%, Max Play
+- NFL teaser: Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Under 48.5 -> 54.5 | model 49.2%, needs +160 to break even, edge +10.7%, Max Play
+- NFL teaser: Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Over 37.5 -> 31.5 | model 49.0%, needs +160 to break even, edge +10.5%, Max Play
 
 ## Results and learning by market
 
