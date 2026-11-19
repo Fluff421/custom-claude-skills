@@ -96,7 +96,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Clemson @ Duke | total | Over 40.5 | 52% | +2.0 pts | No Play | 0 |
 | Clemson @ Duke | moneyline | Clemson ML +400 | 19% | -0.9% | No Play | 0 |
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
-| South Alabama @ Southern Miss | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
+| South Alabama @ Southern Miss | total | Under 66.5 | 52% | +1.6 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +154 | 41% | +1.1% | No Play | 0 |
 | UCLA @ Michigan | spread | Michigan +5.5 (spread) | 52% |  | No Play | 0 |
 | UCLA @ Michigan | total | Over 37.5 | 52% | +1.3 pts | No Play | 0 |
@@ -165,6 +165,9 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
 | Florida International @ Kennesaw State | moneyline | Florida International ML +136 | 40% | -1.9% | No Play | 0 |
+| Central Michigan @ Buffalo | spread | Buffalo -1.5 (spread) | 50% |  | No Play | 0 |
+| Central Michigan @ Buffalo | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
+| Central Michigan @ Buffalo | moneyline | Buffalo ML -142 | 57% | -1.8% | No Play | 0 |
 | Northwestern @ Minnesota | spread | Northwestern -3 (spread) | 52% |  | No Play | 0 |
 | Northwestern @ Minnesota | total | Over 41.5 | 53% | +2.7 pts | Lean | 0.5 |
 | Northwestern @ Minnesota | moneyline | Northwestern ML -142 | 59% | +0.7% | No Play | 0 |
@@ -237,7 +240,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -135 | 65% | +7.3% | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 43.5 | 56% | +1.4 pts | No Play | 0 |
-| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -750 | 91% | +2.4% | No Play | 0 |
+| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -700 | 91% | +3.1% | Lean | 0.5 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Over 43.5 | 52% | +0.4 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Tampa Bay Buccaneers ML +270 | 25% | -2.1% | No Play | 0 |
@@ -246,15 +249,15 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -310 | 76% | +0.1% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 55.5 | 58% | +1.8 pts | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -380 | 84% | +5.3% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -395 | 84% | +4.7% | Lean | 0.5 |
 
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Carolina Panthers -1.5 (spread): model 62.8%, needs +115 to break even (reference payout +115), edge +16.2%, Max Play
-- Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380: model 84.2%, needs -222 to break even (reference payout -222), edge +15.3%, Max Play
 - Kansas City Chiefs ML -1350 + Chicago Bears ML -600 + Buffalo Bills ML -1450: model 89.7%, needs -295 to break even (reference payout -295), edge +15.0%, Max Play
 - Kansas City Chiefs ML -1350 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +119 to break even (reference payout +119), edge +15.0%, Max Play
 - Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Under 54.5: model 61.6%, needs +115 to break even (reference payout +115), edge +15.0%, Max Play
+- Kansas City Chiefs ML -1350 + Buffalo Bills ML -1450 + Dallas Cowboys ML -395: model 84.2%, needs -228 to break even (reference payout -228), edge +14.7%, Max Play
 
 ### NFL Best 6-point teasers
 

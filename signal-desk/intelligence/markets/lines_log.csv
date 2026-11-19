@@ -2357,3 +2357,9 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-19T01:39:04+00:00,recme91BfkgcKJOOr,401858310,NCAAF,Wake Forest @ Georgia Tech,2026-11-20,Draft Kings,-20.5,56.5,900,-1600,-110.0,-110.0,-105.0,-115.0,-20.5
 2026-11-19T01:39:04+00:00,recniM822SJeAquSD,401858530,NCAAF,Northwestern @ Minnesota,2026-11-21,Draft Kings,-2.5,41.5,120,-142,-108.0,-112.0,-108.0,-112.0,-3.0
 2026-11-19T01:39:04+00:00,recr1qJDVd2AaP7Oh,401869958,NCAAF,Georgia State @ Marshall,2026-11-21,Draft Kings,2.5,55.5,-130,110,-102.0,-118.0,-108.0,-112.0,-1.5
+2026-11-19T02:38:40+00:00,recDgZz8WbWMArNoK,401858302,NCAAF,Virginia Tech @ Miami,2026-11-20,DraftKings,20.5,60.5,-1600,900,-110.0,-110.0,-115.0,-105.0,16.5
+2026-11-19T02:38:40+00:00,recXURSFbLylyhUuX,401871101,NCAAF,South Alabama @ Southern Miss,2026-11-21,DraftKings,-3.5,66.5,154,-185,-108.0,-112.0,-108.0,-112.0,-5.5
+2026-11-19T02:38:40+00:00,recjfxvQjakyxptWi,401856753,NCAAF,Georgia @ South Carolina,2026-11-21,DraftKings,-15.5,51.5,525,-750,-110.0,-110.0,-108.0,-112.0,-10.5
+2026-11-19T02:38:40+00:00,reco43lfDzDl964jd,401856755,NCAAF,Arkansas @ Texas,2026-11-21,DraftKings,20.5,46.5,-1600,900,-112.0,-108.0,-115.0,-105.0,21.0
+2026-11-19T02:38:40+00:00,recqmMdr0PsqZrEg8,401873066,NFL,Indianapolis Colts @ Houston Texans,2026-11-19,DraftKings,12.5,43.5,-700,500,-108.0,-112.0,-118.0,-102.0,5.5
+2026-11-19T02:38:40+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,DraftKings,8.5,55.5,-395,310,-105.0,-115.0,-102.0,-118.0,6.5
