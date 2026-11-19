@@ -166,7 +166,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Florida International @ Kennesaw State | total | Over 44.5 | 51% | +0.9 pts | No Play | 0 |
 | Florida International @ Kennesaw State | moneyline | Florida International ML +136 | 40% | -1.9% | No Play | 0 |
 | Central Michigan @ Buffalo | spread | Buffalo -1.5 (spread) | 50% |  | No Play | 0 |
-| Central Michigan @ Buffalo | total | Over 46.5 | 51% | +0.4 pts | No Play | 0 |
+| Central Michigan @ Buffalo | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
 | Central Michigan @ Buffalo | moneyline | Buffalo ML -142 | 57% | -1.8% | No Play | 0 |
 | Northwestern @ Minnesota | spread | Northwestern -3 (spread) | 52% |  | No Play | 0 |
 | Northwestern @ Minnesota | total | Over 42.5 | 53% | +2.4 pts | No Play | 0 |
@@ -181,9 +181,6 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Georgia State @ Marshall | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
 | Georgia State @ Marshall | moneyline | Marshall ML -115 | 52% | -1.8% | No Play | 0 |
 | Miami (OH) @ Western Michigan | moneyline | Western Michigan ML -110 (price estimated from the line) | 69% | +17.0% | No Play | 0 |
-| Akron @ Massachusetts | spread | Massachusetts -2.5 (spread) | 50% |  | Lean | 0.5 |
-| Akron @ Massachusetts | total | Over 46.5 | 52% | +1.3 pts | No Play | 0 |
-| Akron @ Massachusetts | moneyline | Massachusetts ML -166 | 60% | -2.0% | No Play | 0 |
 | Arizona @ Kansas State | spread | Kansas State +10.5 (spread) | 51% |  | No Play | 0 |
 | Arizona @ Kansas State | total | Under 52.5 | 51% | +1.1 pts | No Play | 0 |
 | Arizona @ Kansas State | moneyline | Kansas State ML +235 | 31% | +1.5% | No Play | 0 |
@@ -203,9 +200,6 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 ### NCAAF Best parlays
 
 - Under 54.5 + Under 47.5: model 29.3%, needs +264 to break even (reference payout +264), edge +1.8%, No Play
-- Under 54.5 + Under 47.5 + Massachusetts -2.5 (spread): model 14.6%, needs +596 to break even (reference payout +596), edge +0.3%, No Play
-- Under 54.5 + Massachusetts -2.5 (spread): model 27.4%, needs +264 to break even (reference payout +264), edge -0.0%, No Play
-- Under 47.5 + Massachusetts -2.5 (spread): model 26.7%, needs +264 to break even (reference payout +264), edge -0.7%, No Play
 
 ## NFL
 
@@ -222,7 +216,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | +3.8% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | +3.1% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | +3.5% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -185 | 66% | +1.1% | No Play | 0 |
