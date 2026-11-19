@@ -215,7 +215,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1450 | 100% | +6.3% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 55% | +1.1 pts | No Play | 0 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -600 | 90% | +4.2% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -625 | 90% | +3.8% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -625 | 89% | +3.1% | Lean | 0.5 |
@@ -262,7 +262,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 - Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Dallas Cowboys ML -380: model 84.2%, needs -226 to break even (reference payout -226), edge +14.9%, Max Play
 - Kansas City Chiefs ML -1450 + Jacksonville Jaguars -6 (spread) + Buffalo Bills ML -1450: model 60.7%, needs +118 to break even (reference payout +118), edge +14.8%, Max Play
 - Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Under 54.5: model 61.6%, needs +114 to break even (reference payout +114), edge +14.8%, Max Play
-- Kansas City Chiefs ML -1450 + Chicago Bears ML -600 + Buffalo Bills ML -1450: model 89.7%, needs -300 to break even (reference payout -300), edge +14.7%, Max Play
+- Kansas City Chiefs ML -1450 + Buffalo Bills ML -1450 + Carolina Panthers ML -135: model 64.6%, needs -101 to break even (reference payout -101), edge +14.3%, Max Play
 
 ### NFL Best 6-point teasers
 
