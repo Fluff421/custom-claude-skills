@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T14:40:07.725402+00:00",
- "snapshot_age_hours": 66.7,
+ "generated_at": "2026-11-19T15:39:20.519686+00:00",
+ "snapshot_age_hours": 67.7,
  "games": [
   {
    "game": "Rice @ Temple",
@@ -597,8 +597,8 @@
    "moneyline": {
     "pick": "Ohio State ML -152",
     "tier": "No Play",
-    "prob": 0.6133,
-    "edge": 0.0102,
+    "prob": 0.6222,
+    "edge": 0.0191,
     "model_ml_side": "away"
    }
   },
@@ -1597,8 +1597,8 @@
    "moneyline": {
     "pick": "Troy ML +265",
     "tier": "No Play",
-    "prob": 0.2875,
-    "edge": 0.0135,
+    "prob": 0.2718,
+    "edge": -0.0022,
     "model_ml_side": "home"
    }
   },
