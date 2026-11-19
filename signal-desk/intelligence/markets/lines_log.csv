@@ -2547,3 +2547,7 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-19T21:39:11+00:00,recqmMdr0PsqZrEg8,401873066,NFL,Indianapolis Colts @ Houston Texans,2026-11-19,Draft Kings,12.5,44.5,-690,500,-106.0,-114.0,-104.0,-116.0,5.5
 2026-11-19T21:39:11+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,53.5,239,-292,-107.0,-112.0,-116.0,-103.0,-1.5
 2026-11-19T21:39:11+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,Draft Kings,8.5,55.5,-388,308,-105.0,-115.0,-104.0,-115.0,6.5
+2026-11-19T21:51:09+00:00,rec44JC9PdqsCABEI,401862835,NCAAF,North Texas @ Tulane,2026-11-20,Draft Kings,-6.5,55.5,205,-250,-108.0,-112.0,-115.0,-105.0,-13.5
+2026-11-19T21:51:09+00:00,rec93kjwVAFgdDJ3w,401858306,NCAAF,Pittsburgh @ Louisville,2026-11-20,Draft Kings,13.5,50.5,-575,425,-112.0,-108.0,-110.0,-110.0,12.5
+2026-11-19T21:51:09+00:00,recEzeedDH6I9Ar1Z,401856752,NCAAF,Texas A&M @ Oklahoma,2026-11-21,Draft Kings,7.5,38.5,-305,245,-105.0,-115.0,-105.0,-115.0,2.5
+2026-11-19T21:51:09+00:00,recJ4QxjGXRfB3M2T,401869929,NCAAF,UL Monroe @ App State,2026-11-21,Draft Kings,13.5,49.5,-625,455,-115.0,-105.0,-115.0,-105.0,13.5

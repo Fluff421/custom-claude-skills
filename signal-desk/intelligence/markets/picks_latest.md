@@ -45,7 +45,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Rutgers @ Penn State | total | Over 49.5 | 51% | +1.1 pts | No Play | 0 |
 | Rutgers @ Penn State | moneyline | Penn State ML -2800 | 96% | -0.7% | No Play | 0 |
 | UL Monroe @ App State | spread | App State -13.5 (spread) | 51% |  | No Play | 0 |
-| UL Monroe @ App State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
+| UL Monroe @ App State | total | Over 49.5 | 51% | +1.1 pts | No Play | 0 |
 | UL Monroe @ App State | moneyline | UL Monroe ML +455 | 18% | -0.3% | No Play | 0 |
 | LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
 | LSU @ Tennessee | total | Over 45.5 | 52% | +1.7 pts | No Play | 0 |
