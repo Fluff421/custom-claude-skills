@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-19T21:50:25Z",
+ "generated_at_utc": "2026-11-19T22:27:07Z",
  "generated_for_central_date": "2026-11-19",
  "graded_picks_csv_rows": 229,
  "ledger_health": {
@@ -330,6 +330,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44628521437,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44628521437",
+     "event": "schedule",
+     "created_at": "2026-11-19T22:25:41Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 21,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44620558256,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44620558256",
      "event": "workflow_dispatch",
@@ -366,22 +382,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44600173611",
      "event": "workflow_dispatch",
      "created_at": "2026-11-19T19:37:03Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 21,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44589700076,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44589700076",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-19T18:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -592,6 +592,19 @@
    "file": "snapshot.yml",
    "runs": [
     {
+     "run_id": 44622711590,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44622711590",
+     "event": "schedule",
+     "created_at": "2026-11-19T21:50:04Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44614200828,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44614200828",
      "event": "schedule",
@@ -608,7 +621,7 @@
    ],
    "skipped_chains": [],
    "gate_skipped": [],
-   "latest_health": "warn"
+   "latest_health": "ok"
   },
   {
    "workflow": "BIM Grader",
@@ -655,7 +668,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-19T20:52:02Z",
-   "age_h": 1.0,
+   "age_h": 1.6,
    "status": "ok"
   },
   {
@@ -664,7 +677,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-19T20:58:31Z",
-   "age_h": 0.9,
+   "age_h": 1.5,
    "status": "ok"
   },
   {
@@ -672,9 +685,9 @@
    "file": "close-grade.yml",
    "expected_every_h": 1,
    "max_gap_h": 2,
-   "last_scheduled_run_utc": "2026-11-19T13:51:51Z",
-   "age_h": 8.0,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-19T22:25:41Z",
+   "age_h": 0.0,
+   "status": "ok"
   },
   {
    "workflow": "Context & Calibrate",
@@ -682,7 +695,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-19T20:30:02Z",
-   "age_h": 1.3,
+   "age_h": 2.0,
    "status": "ok"
   },
   {
@@ -691,7 +704,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-19T21:50:04Z",
-   "age_h": 0.0,
+   "age_h": 0.6,
    "status": "ok"
   },
   {
@@ -700,7 +713,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-19T17:32:16Z",
-   "age_h": 4.3,
+   "age_h": 4.9,
    "status": "ok"
   },
   {
@@ -709,7 +722,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-19T20:54:41Z",
-   "age_h": 0.9,
+   "age_h": 1.5,
    "status": "ok"
   }
  ],
