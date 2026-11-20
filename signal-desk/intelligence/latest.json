@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T09:39:30+00:00",
+ "generated_at": "2026-11-20T10:39:37+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -5626,7 +5626,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-20T09:39:02+00:00",
+   "generated_at": "2026-11-20T10:38:54+00:00",
    "date": "2026-11-20",
    "games": [
     {
@@ -6314,18 +6314,18 @@
        "side": "home",
        "team": "Chicago Bears",
        "line": 0.0,
-       "price": -594.0,
+       "price": -595.0,
        "price_estimated": false,
        "proj": 10.75,
        "prob": 0.8996,
-       "edge": 0.0437,
+       "edge": 0.0435,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Chicago Bears ML -594",
+       "selection": "Chicago Bears ML -595",
        "game_id": "rec1s3f7B7DvAfqb3",
        "game": "New Orleans Saints @ Chicago Bears",
        "priority": "primary",
@@ -7631,18 +7631,18 @@
        "side": "home",
        "team": "Los Angeles Chargers",
        "line": 0.0,
-       "price": -167.0,
+       "price": -168.0,
        "price_estimated": false,
        "proj": 4.02,
        "prob": 0.6655,
-       "edge": 0.04,
+       "edge": 0.0386,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Los Angeles Chargers ML -167",
+       "selection": "Los Angeles Chargers ML -168",
        "game_id": "recDCa1TW7radKDSJ",
        "game": "New York Jets @ Los Angeles Chargers",
        "priority": "primary",
@@ -17782,57 +17782,6 @@
          "grade_market": "moneyline"
         },
         {
-         "game_id": "rec1s3f7B7DvAfqb3",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8996,
-         "price": -594.0,
-         "pro_favorite": true,
-         "selection": "Chicago Bears ML -594",
-         "game": "New Orleans Saints @ Chicago Bears",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recqHN0qEss3RtmUZ",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.6297,
-         "price": -104.0,
-         "pro_favorite": true,
-         "selection": "Carolina Panthers -1.5 (spread)",
-         "game": "Baltimore Ravens @ Carolina Panthers",
-         "line": -1.5,
-         "grade_market": "spread"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.5659,
-       "price": 145,
-       "break_even_prob": 0.4076,
-       "break_even_price": 145,
-       "edge": 0.1583,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "rec1bMW82Gl2PPIzw",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 1.0116,
-         "price": -1420.0,
-         "pro_favorite": true,
-         "selection": "Kansas City Chiefs ML -1420",
-         "game": "Arizona Cardinals @ Kansas City Chiefs",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
          "game_id": "recA8wbdTRMKXNzCn",
          "market_kind": "moneyline",
          "side": "home",
@@ -17863,6 +17812,57 @@
        "break_even_prob": 0.4101,
        "break_even_price": 144,
        "edge": 0.1583,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "rec1bMW82Gl2PPIzw",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 1.0116,
+         "price": -1420.0,
+         "pro_favorite": true,
+         "selection": "Kansas City Chiefs ML -1420",
+         "game": "Arizona Cardinals @ Kansas City Chiefs",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "rec1s3f7B7DvAfqb3",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8996,
+         "price": -595.0,
+         "pro_favorite": true,
+         "selection": "Chicago Bears ML -595",
+         "game": "New Orleans Saints @ Chicago Bears",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recqHN0qEss3RtmUZ",
+         "market_kind": "spread",
+         "side": "home",
+         "prob": 0.6297,
+         "price": -104.0,
+         "pro_favorite": true,
+         "selection": "Carolina Panthers -1.5 (spread)",
+         "game": "Baltimore Ravens @ Carolina Panthers",
+         "line": -1.5,
+         "grade_market": "spread"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.5659,
+       "price": 145,
+       "break_even_prob": 0.4077,
+       "break_even_price": 145,
+       "edge": 0.1582,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -20103,5 +20103,5 @@
    "NFL teaser_leg: n=68, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0003)"
   ]
  },
- "narrative_sha256": "03be23b4b98fdad9beabadfcf2ae92c1942a202621253c59d22b59bb2d422395"
+ "narrative_sha256": "bef874d7123fceae16f2077e4b49c51a634e8b6e7ebb1b43dffd13f9d3cda60a"
 }
