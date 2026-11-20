@@ -43,7 +43,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Texas A&M @ Oklahoma | total | Under 38.5 | 52% | +1.4 pts | No Play | 0 |
 | Texas A&M @ Oklahoma | moneyline | Texas A&M ML +235 | 32% | +2.1% | No Play | 0 |
 | Delaware @ New Mexico State | spread | New Mexico State +3.5 (spread) | 50% |  | No Play | 0 |
-| Delaware @ New Mexico State | total | Under 54.5 | 51% | +0.5 pts | No Play | 0 |
+| Delaware @ New Mexico State | total | Under 53.5 | 50% | +0.2 pts | No Play | 0 |
 | Delaware @ New Mexico State | moneyline | New Mexico State ML +140 | 42% | +0.0% | No Play | 0 |
 | UTEP @ Air Force | spread | Air Force -21.5 (spread) | 50% |  | No Play | 0 |
 | UTEP @ Air Force | total | Under 47.5 | 50% | +0.2 pts | No Play | 0 |
@@ -127,7 +127,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Ohio State @ Nebraska | moneyline | Ohio State ML -166 | 61% | -1.7% | No Play | 0 |
 | SMU @ Stanford | moneyline | SMU ML -110 (price estimated from the line) | 81% | +28.3% | No Play | 0 |
 | Bowling Green @ Toledo | spread | Toledo -15.5 (spread) | 50% |  | No Play | 0 |
-| Bowling Green @ Toledo | total | Over 48.5 | 52% | +1.4 pts | No Play | 0 |
+| Bowling Green @ Toledo | total | Over 47.5 | 52% | +1.7 pts | No Play | 0 |
 | Bowling Green @ Toledo | moneyline | Toledo ML -750 | 87% | -1.6% | No Play | 0 |
 | Georgia Tech @ Georgia | moneyline | Georgia ML -110 (price estimated from the line) | 99% | +46.2% | No Play | 0 |
 | Texas Tech @ Baylor | spread | Texas Tech -1.5 (spread) | 50% |  | No Play | 0 |
@@ -256,7 +256,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -120 | 56% | +1.6% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | +1.6 pts | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -257 | 76% | +4.3% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -256 | 76% | +4.4% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 54% | +0.8 pts | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -160 | 62% | +0.9% | No Play | 0 |
