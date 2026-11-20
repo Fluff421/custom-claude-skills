@@ -165,11 +165,11 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 60% | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -600 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -584 | 89% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -620 | 90% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -170 | 66% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 64.5 | 55% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -259 | 76% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -258 | 76% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1440 | 104% | Max Play | 1.0 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
 | Northwestern @ Minnesota | total | Over 41.5 | 53% | Lean | 0.5 |
@@ -181,7 +181,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NCAAF parlay: Under 64.5 + Over 41.5 | model 29.1%, needs +265 to break even, edge +1.6%, No Play
 - NFL parlay: Kansas City Chiefs ML -1420 + Buffalo Bills ML -1440 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +125 to break even, edge +18.3%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1420 + Buffalo Bills ML -1440 + Under 53.5 | model 60.3%, needs +126 to break even, edge +16.0%, Max Play
-- NFL parlay: Kansas City Chiefs ML -1420 + Chicago Bears ML -600 + Carolina Panthers -1.5 (spread) | model 56.6%, needs +145 to break even, edge +15.8%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1420 + Denver Broncos ML -620 + Carolina Panthers -1.5 (spread) | model 56.8%, needs +144 to break even, edge +15.8%, Max Play
 - NFL teaser: Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Under 48.5 -> 54.5 | model 50.3%, needs +160 to break even, edge +11.8%, Max Play
 - NFL teaser: Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 50.2%, needs +160 to break even, edge +11.7%, Max Play
 - NFL teaser: Under 53.5 -> 59.5 + Under 48.5 -> 54.5 + Over 40.5 -> 34.5 | model 50.1%, needs +160 to break even, edge +11.6%, Max Play
