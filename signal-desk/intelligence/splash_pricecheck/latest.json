@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T20:45:38.678726+00:00",
- "snapshot_age_hours": 96.8,
+ "generated_at": "2026-11-20T21:33:42.798365+00:00",
+ "snapshot_age_hours": 97.6,
  "games": [
   {
    "game": "Arizona @ Kansas State",
@@ -197,8 +197,8 @@
    "moneyline": {
     "pick": "Clemson ML +390",
     "tier": "No Play",
-    "prob": 0.2097,
-    "edge": 0.0057,
+    "prob": 0.2234,
+    "edge": 0.0193,
     "model_ml_side": "away"
    }
   },
@@ -747,9 +747,9 @@
    "moneyline": {
     "pick": "UTEP ML +1280",
     "tier": "No Play",
-    "prob": 0.0661,
-    "edge": -0.0063,
-    "model_ml_side": "home"
+    "prob": 0.0603,
+    "edge": -0.0121,
+    "model_ml_side": "away"
    }
   },
   {
@@ -3221,7 +3221,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.5,
+    "edge": 1.8,
     "proj": 18.2,
     "import_side": "",
     "import_tier": "",
@@ -3419,9 +3419,9 @@
    "spread": {
     "pick": "Philadelphia Eagles +4.5",
     "side": "home",
-    "tier": "Strong Play",
-    "prob": 0.58,
-    "edge": 2.5,
+    "tier": "Lean",
+    "prob": 0.5,
+    "edge": 2.2,
     "proj": -2.6999999999999993,
     "import_side": "",
     "import_tier": "",
@@ -3471,7 +3471,7 @@
     "side": "away",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": -2.3,
+    "edge": -2.2,
     "proj": 4.4,
     "import_side": "",
     "import_tier": "",
@@ -3520,8 +3520,8 @@
     "pick": "Dallas Cowboys -7.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5258,
-    "edge": 0.8,
+    "prob": 0.5193,
+    "edge": 0.6,
     "proj": 9.9,
     "import_side": "",
     "import_tier": "",
@@ -3570,8 +3570,8 @@
     "pick": "Cincinnati Bengals -5.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5097,
-    "edge": -0.3,
+    "prob": 0.5129,
+    "edge": -0.4,
     "proj": -6.199999999999999,
     "import_side": "",
     "import_tier": "",
