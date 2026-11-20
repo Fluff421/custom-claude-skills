@@ -1,3 +1,9 @@
 game,team,side,starter,classification,replacement,evidence_text,source_url,source_date,checked_at_central,verified
-Indianapolis Colts @ Houston Texans,Indianapolis Colts,away,Daniel Jones,starter_playing,,No QB listed on official NFL.com injury report for Thursday game,https://www.nfl.com/injuries/,2026-11-19,2026-11-19 16:50 CT,true
-Indianapolis Colts @ Houston Texans,Houston Texans,home,C.J. Stroud,starter_playing,,No QB listed on official NFL.com injury report for Thursday game,https://www.nfl.com/injuries/,2026-11-19,2026-11-19 16:50 CT,true
+Indianapolis Colts @ Houston Texans,Indianapolis Colts,away,Daniel Jones,starter_playing,,Coach Shane Steichen confirmed Jones as starter for Week 11; not listed on official NFL injury report,https://www.nfl.com/injuries/,2026-11-19,2026-11-19 21:46 CT,true
+Indianapolis Colts @ Houston Texans,Houston Texans,home,C.J. Stroud,starter_playing,,Not listed on official NFL injury report; listed as starter on depth charts,https://www.nfl.com/injuries/,2026-11-19,2026-11-19 21:46 CT,true
+Tampa Bay Buccaneers @ Detroit Lions,Tampa Bay Buccaneers,away,Baker Mayfield,starter_questionable,Jalon Daniels,Limited practice Thursday (foot/right thumb); coach said decision Friday; Mayfield says feels ready,https://www.buccaneers.com/news/buccaneers-lions-injury-report-nov-19-week-11-2026,2026-11-19,2026-11-19 21:46 CT,true
+Tampa Bay Buccaneers @ Detroit Lions,Detroit Lions,home,Jared Goff,starter_playing,,Not listed on injury report as limited/out,https://www.nfl.com/injuries/,2026-11-19,2026-11-19 21:46 CT,true
+New York Jets @ Los Angeles Chargers,New York Jets,away,Geno Smith,starter_questionable,Cade Klubnik,Limited practice (ankle),https://www.nfl.com/injuries/,2026-11-19,2026-11-19 21:46 CT,true
+New York Jets @ Los Angeles Chargers,Los Angeles Chargers,home,Justin Herbert,starter_playing,,Not listed on injury report,https://www.nfl.com/injuries/,2026-11-19,2026-11-19 21:46 CT,true
+Arizona Cardinals @ Kansas City Chiefs,Arizona Cardinals,away,Carson Beck,starter_questionable,,Limited practice (back),https://www.nfl.com/injuries/,2026-11-19,2026-11-19 21:46 CT,true
+Arizona Cardinals @ Kansas City Chiefs,Kansas City Chiefs,home,Patrick Mahomes,starter_playing,,Full practice; not designated out/questionable yet,https://www.nfl.com/injuries/,2026-11-19,2026-11-19 21:46 CT,true
