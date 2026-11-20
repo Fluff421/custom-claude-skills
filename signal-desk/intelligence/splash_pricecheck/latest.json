@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-19T23:39:37.626981+00:00",
- "snapshot_age_hours": 75.7,
+ "generated_at": "2026-11-20T00:39:38.324177+00:00",
+ "snapshot_age_hours": 76.7,
  "games": [
   {
    "game": "Rice @ Temple",
@@ -347,9 +347,9 @@
    "moneyline": {
     "pick": "West Virginia ML +245",
     "tier": "No Play",
-    "prob": 0.2868,
-    "edge": -0.003,
-    "model_ml_side": "home"
+    "prob": 0.3029,
+    "edge": 0.0131,
+    "model_ml_side": "away"
    }
   },
   {
@@ -745,10 +745,10 @@
     }
    },
    "moneyline": {
-    "pick": "Baylor ML +142",
+    "pick": "Texas Tech ML -170",
     "tier": "No Play",
-    "prob": 0.3995,
-    "edge": -0.0137,
+    "prob": 0.6095,
+    "edge": -0.0201,
     "model_ml_side": "home"
    }
   },
@@ -1695,10 +1695,10 @@
     }
    },
    "moneyline": {
-    "pick": "Hawai'i ML +146",
+    "pick": "Nevada ML -178",
     "tier": "No Play",
-    "prob": 0.3867,
-    "edge": -0.0198,
+    "prob": 0.6311,
+    "edge": -0.0092,
     "model_ml_side": "away"
    }
   },
@@ -1997,8 +1997,8 @@
    "moneyline": {
     "pick": "Sam Houston ML +168",
     "tier": "No Play",
-    "prob": 0.3652,
-    "edge": -0.008,
+    "prob": 0.3564,
+    "edge": -0.0167,
     "model_ml_side": "home"
    }
   },
@@ -2897,8 +2897,8 @@
    "moneyline": {
     "pick": "Utah State ML +270",
     "tier": "No Play",
-    "prob": 0.2568,
-    "edge": -0.0135,
+    "prob": 0.272,
+    "edge": 0.0018,
     "model_ml_side": "home"
    }
   },
@@ -2997,8 +2997,8 @@
    "moneyline": {
     "pick": "Texas State ML -385",
     "tier": "No Play",
-    "prob": 0.7856,
-    "edge": -0.0082,
+    "prob": 0.799,
+    "edge": 0.0052,
     "model_ml_side": "away"
    }
   },
@@ -3120,8 +3120,8 @@
     "pick": "Arizona Cardinals +15.5",
     "side": "away",
     "tier": "Strong Play",
-    "prob": 0.5895,
-    "edge": -2.8,
+    "prob": 0.5989,
+    "edge": -3.1,
     "proj": 13.0,
     "import_side": "",
     "import_tier": "",
@@ -3147,8 +3147,8 @@
    "moneyline": {
     "pick": "Arizona Cardinals ML +870",
     "tier": "No Play",
-    "prob": 0.119,
-    "edge": 0.0159,
+    "prob": 0.1082,
+    "edge": 0.0051,
     "model_ml_side": "home"
    }
   },
@@ -3220,8 +3220,8 @@
     "pick": "Jacksonville Jaguars -6.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5161,
-    "edge": -0.5,
+    "prob": 0.5129,
+    "edge": -0.4,
     "proj": -7.899999999999999,
     "import_side": "",
     "import_tier": "",
@@ -3370,8 +3370,8 @@
     "pick": "San Francisco 49ers -3",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5097,
-    "edge": 0.3,
+    "prob": 0.5129,
+    "edge": 0.4,
     "proj": 2.9999999999999996,
     "import_side": "",
     "import_tier": "",
@@ -3397,8 +3397,8 @@
    "moneyline": {
     "pick": "Minnesota Vikings ML +142",
     "tier": "No Play",
-    "prob": 0.4052,
-    "edge": -0.0081,
+    "prob": 0.3943,
+    "edge": -0.0189,
     "model_ml_side": "home"
    }
   },
@@ -3621,7 +3621,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.6,
+    "edge": 1.4,
     "proj": 10.0,
     "import_side": "",
     "import_tier": "",

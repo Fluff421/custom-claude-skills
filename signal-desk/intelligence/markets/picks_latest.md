@@ -34,7 +34,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Virginia Tech @ Miami | moneyline | Virginia Tech ML +950 | 8% | -1.9% | No Play | 0 |
 | Texas A&M @ Oklahoma | spread | Texas A&M +7.5 (spread) | 51% |  | No Play | 0 |
 | Texas A&M @ Oklahoma | total | Under 38.5 | 52% | +1.4 pts | No Play | 0 |
-| Texas A&M @ Oklahoma | moneyline | Texas A&M ML +245 | 32% | +3.0% | No Play | 0 |
+| Texas A&M @ Oklahoma | moneyline | Texas A&M ML +235 | 32% | +2.1% | No Play | 0 |
 | Delaware @ New Mexico State | spread | New Mexico State +3.5 (spread) | 50% |  | No Play | 0 |
 | Delaware @ New Mexico State | total | Under 54.5 | 51% | +0.5 pts | No Play | 0 |
 | Delaware @ New Mexico State | moneyline | New Mexico State ML +140 | 42% | +0.0% | No Play | 0 |
@@ -49,7 +49,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | UL Monroe @ App State | moneyline | UL Monroe ML +455 | 18% | -0.3% | No Play | 0 |
 | LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
 | LSU @ Tennessee | total | Over 45.5 | 52% | +1.7 pts | No Play | 0 |
-| LSU @ Tennessee | moneyline | Tennessee ML -105 | 53% | +2.2% | No Play | 0 |
+| LSU @ Tennessee | moneyline | LSU ML -115 | 53% | -0.1% | No Play | 0 |
 | BYU @ Kansas | spread | BYU -7.5 (spread) | 50% |  | No Play | 0 |
 | BYU @ Kansas | total | Under 46.5 | 52% | +1.7 pts | No Play | 0 |
 | BYU @ Kansas | moneyline | Kansas ML +185 | 35% | -0.1% | No Play | 0 |
@@ -64,7 +64,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arkansas State @ Louisiana Tech | moneyline | Arkansas State ML +425 | 17% | -1.6% | No Play | 0 |
 | Rice @ Temple | spread | Temple -4 (spread) | 50% |  | No Play | 0 |
 | Rice @ Temple | total | Over 52.5 | 50% | +0.3 pts | No Play | 0 |
-| Rice @ Temple | moneyline | Temple ML -142 | 58% | -1.1% | No Play | 0 |
+| Rice @ Temple | moneyline | Temple ML -135 | 58% | +0.1% | No Play | 0 |
 | Washington State @ Texas State | spread | Washington State +14 (spread) | 51% |  | No Play | 0 |
 | Washington State @ Texas State | total | Under 62.5 | 51% | +1.1 pts | No Play | 0 |
 | Washington State @ Texas State | moneyline | Washington State ML +390 | 19% | -1.2% | No Play | 0 |
@@ -207,7 +207,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 |---|---|---|---|---|---|---|
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Under 38.5 | 50% | +0.0 pts | No Play | 0 |
-| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -206 | 66% | -0.9% | No Play | 0 |
+| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -205 | 66% | -0.8% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 53% | +0.7 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1420 | 101% | +7.8% | Strong Play | 1 |
@@ -216,7 +216,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -600 | 90% | +4.2% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -591 | 89% | +3.7% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -584 | 89% | +3.9% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -187 | 66% | +0.9% | No Play | 0 |
@@ -225,10 +225,10 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -170 | 66% | +3.5% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
-| Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -175 | 64% | +0.2% | No Play | 0 |
+| Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -174 | 64% | +0.4% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | +1.6 pts | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -263 | 76% | +3.8% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -259 | 76% | +4.1% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 54% | +0.8 pts | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -160 | 62% | +0.9% | No Play | 0 |
@@ -243,7 +243,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -146 | 66% | +6.8% | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | spread | Indianapolis Colts +10 (spread) | 58% |  | Strong Play | 1 |
 | Indianapolis Colts @ Houston Texans | total | Over 44.5 | 55% | +1.1 pts | No Play | 0 |
-| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -690 | 91% | +3.2% | Lean | 0.5 |
+| Indianapolis Colts @ Houston Texans | moneyline | Houston Texans ML -750 | 91% | +2.4% | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 45.5 | 51% | +0.2 pts | No Play | 0 |
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -281 | 72% | -1.3% | No Play | 0 |
@@ -252,7 +252,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -398 | 84% | +4.0% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 60% | +2.3 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -283 | 74% | +0.5% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -279 | 74% | +0.8% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 55.5 | 58% | +1.8 pts | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -387 | 84% | +5.0% | Lean | 0.5 |
