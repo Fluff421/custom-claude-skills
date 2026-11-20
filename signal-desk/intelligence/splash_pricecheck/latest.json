@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T17:40:10.746903+00:00",
- "snapshot_age_hours": 93.7,
+ "generated_at": "2026-11-20T18:39:34.225008+00:00",
+ "snapshot_age_hours": 94.7,
  "games": [
   {
    "game": "Arizona @ Kansas State",
@@ -1045,10 +1045,10 @@
     }
    },
    "moneyline": {
-    "pick": "Arkansas State ML +420",
+    "pick": "Louisiana Tech ML -549",
     "tier": "No Play",
-    "prob": 0.1733,
-    "edge": -0.019,
+    "prob": 0.8326,
+    "edge": -0.0133,
     "model_ml_side": "away"
    }
   },
@@ -1245,10 +1245,10 @@
     }
    },
    "moneyline": {
-    "pick": "Colorado State ML +760",
+    "pick": "Fresno State ML -1250",
     "tier": "No Play",
-    "prob": 0.0971,
-    "edge": -0.0191,
+    "prob": 0.9106,
+    "edge": -0.0153,
     "model_ml_side": "away"
    }
   },
@@ -1397,8 +1397,8 @@
    "moneyline": {
     "pick": "Florida International ML +132",
     "tier": "No Play",
-    "prob": 0.4106,
-    "edge": -0.0204,
+    "prob": 0.4197,
+    "edge": -0.0113,
     "model_ml_side": "home"
    }
   },
@@ -3070,8 +3070,8 @@
     "pick": "Carolina Panthers -1.5",
     "side": "home",
     "tier": "Max Play",
-    "prob": 0.6419,
-    "edge": 4.5,
+    "prob": 0.6267,
+    "edge": 4.0,
     "proj": 6.2,
     "import_side": "",
     "import_tier": "",
@@ -3219,9 +3219,9 @@
    "spread": {
     "pick": "Buffalo Bills -16.5",
     "side": "home",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": 2.3,
+    "tier": "Strong Play",
+    "prob": 0.58,
+    "edge": 2.5,
     "proj": 18.2,
     "import_side": "",
     "import_tier": "",
@@ -3497,8 +3497,8 @@
    "moneyline": {
     "pick": "Tampa Bay Buccaneers ML +215",
     "tier": "No Play",
-    "prob": 0.3294,
-    "edge": 0.0119,
+    "prob": 0.3396,
+    "edge": 0.0221,
     "model_ml_side": "home"
    }
   },
