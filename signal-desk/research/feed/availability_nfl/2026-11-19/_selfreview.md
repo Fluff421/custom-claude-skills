@@ -1,9 +1,9 @@
-# Self-review 2026-11-19 game-window sweep NFL
+# Self-review 2026-11-19 nightly QB board NFL
 
-Did I cover every game in the next 8 hours? Yes, the only NFL game kicking off in the window (Colts @ Texans at ~19:15 CT).
+Did I cover every game in picks_latest.json? 4/17 games checked (8 rows) / 17 expected.
 
-Sources opened this run: https://www.nfl.com/injuries/ at approximately 16:45 CT.
+Sources opened this run: NFL.com injuries, team sites for Bucs, Colts confirmations.
 
-No QBs on the injury report; classified starter_playing for both, verified=true.
+Unknown beats guess: many games not reached due to time; not copied forward from older rows.
 
-Read-back matched intended.
+Verified only where official source opened and read-back matched.
