@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T05:40:02.679001+00:00",
- "snapshot_age_hours": 81.7,
+ "generated_at": "2026-11-20T06:39:33.095155+00:00",
+ "snapshot_age_hours": 82.7,
  "games": [
   {
    "game": "Arizona @ Kansas State",
@@ -47,8 +47,8 @@
    "moneyline": {
     "pick": "Kansas State ML +215",
     "tier": "No Play",
-    "prob": 0.3062,
-    "edge": -0.0113,
+    "prob": 0.2981,
+    "edge": -0.0194,
     "model_ml_side": "away"
    }
   },
@@ -1245,10 +1245,10 @@
     }
    },
    "moneyline": {
-    "pick": "Fresno State ML -1250",
+    "pick": "Colorado State ML +760",
     "tier": "No Play",
-    "prob": 0.9103,
-    "edge": -0.0156,
+    "prob": 0.0975,
+    "edge": -0.0188,
     "model_ml_side": "away"
    }
   },
@@ -1395,10 +1395,10 @@
     }
    },
    "moneyline": {
-    "pick": "Kennesaw State ML -160",
+    "pick": "Florida International ML +132",
     "tier": "No Play",
-    "prob": 0.5984,
-    "edge": -0.0169,
+    "prob": 0.4106,
+    "edge": -0.0204,
     "model_ml_side": "home"
    }
   },
@@ -1745,11 +1745,11 @@
     }
    },
    "moneyline": {
-    "pick": "Tennessee ML -106",
+    "pick": "LSU ML -113",
     "tier": "No Play",
-    "prob": 0.5287,
-    "edge": 0.0141,
-    "model_ml_side": "away"
+    "prob": 0.5271,
+    "edge": -0.0034,
+    "model_ml_side": "home"
    }
   },
   {
@@ -3447,8 +3447,8 @@
    "moneyline": {
     "pick": "Philadelphia Eagles ML +168",
     "tier": "No Play",
-    "prob": 0.3748,
-    "edge": 0.0017,
+    "prob": 0.3962,
+    "edge": 0.0231,
     "model_ml_side": "away"
    }
   },

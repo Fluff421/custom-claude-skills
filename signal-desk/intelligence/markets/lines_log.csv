@@ -2657,3 +2657,14 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-20T05:39:02+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,53.5,231,-283,-107.0,-112.0,-116.0,-103.0,-1.5
 2026-11-20T05:39:02+00:00,recwwACNg0gi1waTR,401864544,NCAAF,UNLV @ San José State,2026-11-21,Draft Kings,-6.5,47.5,210,-258,-105.0,-115.0,-112.0,-108.0,-3.0
 2026-11-20T05:39:02+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,Draft Kings,8.5,54.5,-376,299,-105.0,-115.0,-115.0,-104.0,6.5
+2026-11-20T06:39:03+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,Draft Kings,11.5,48.5,-594,442,-107.0,-112.0,-108.0,-111.0,6.5
+2026-11-20T06:39:03+00:00,recC0koxY06WEH8N9,401858312,NCAAF,Duke @ Wake Forest,2026-11-27,Draft Kings,10.5,52.5,-355,280,-110.0,-110.0,-110.0,-110.0,10.5
+2026-11-20T06:39:03+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,Draft Kings,3.5,46.5,-172,145,-102.0,-118.0,-109.0,-110.0,3.5
+2026-11-20T06:39:03+00:00,recKR9lPGcmgm0f3w,401873083,NFL,Denver Broncos @ Pittsburgh Steelers,2026-11-27,Draft Kings,-1.5,40.5,102,-120,-109.0,-110.0,-107.0,-112.0,-1.5
+2026-11-20T06:39:03+00:00,recLCUiMixwswbAbA,401856756,NCAAF,Texas @ Texas A&M,2026-11-27,Draft Kings,-7.5,41.5,250,-310,-105.0,-115.0,-110.0,-110.0,-2.5
+2026-11-20T06:39:03+00:00,recLDCpyeKOzU0eyq,401873069,NFL,Jacksonville Jaguars @ New York Giants,2026-11-22,Draft Kings,-6.0,46.5,212,-257,-110.0,-110.0,-113.0,-106.0,-1.5
+2026-11-20T06:39:03+00:00,recQIMZU4FNKlyAKL,401856761,NCAAF,Louisville @ Kentucky,2026-11-27,Draft Kings,1.5,54.5,-118,-102,-110.0,-110.0,-110.0,-110.0,1.5
+2026-11-20T06:39:03+00:00,recbVlXXw82NMUHyI,401873070,NFL,Miami Dolphins @ Buffalo Bills,2026-11-22,Draft Kings,16.5,44.5,-1640,920,-107.0,-112.0,-114.0,-105.0,11.5
+2026-11-20T06:39:03+00:00,reclHShghg4qgW7Wk,401858536,NCAAF,Nebraska @ Iowa,2026-11-27,Draft Kings,6.5,38.5,,,-110.0,-110.0,-110.0,-110.0,6.5
+2026-11-20T06:39:03+00:00,recq71YyIpQj8rmRL,401856757,NCAAF,Auburn @ Alabama,2026-11-27,Draft Kings,15.5,50.5,-650,470,-110.0,-110.0,-110.0,-110.0,10.0
+2026-11-20T06:39:03+00:00,recqqRBEzTClzJJ0j,401858541,NCAAF,Washington @ Oregon,2026-11-27,Draft Kings,12.5,48.5,-425,330,-110.0,-110.0,-110.0,-110.0,15.5
