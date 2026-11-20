@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T02:39:58.462449+00:00",
- "snapshot_age_hours": 78.7,
+ "generated_at": "2026-11-20T03:39:30.205977+00:00",
+ "snapshot_age_hours": 79.7,
  "games": [
   {
    "game": "Rice @ Temple",
@@ -347,9 +347,9 @@
    "moneyline": {
     "pick": "West Virginia ML +245",
     "tier": "No Play",
-    "prob": 0.2868,
-    "edge": -0.003,
-    "model_ml_side": "home"
+    "prob": 0.3029,
+    "edge": 0.0131,
+    "model_ml_side": "away"
    }
   },
   {
@@ -945,10 +945,10 @@
     }
    },
    "moneyline": {
-    "pick": "TCU ML +210",
+    "pick": "Utah ML -255",
     "tier": "No Play",
-    "prob": 0.309,
-    "edge": -0.0136,
+    "prob": 0.6992,
+    "edge": -0.0191,
     "model_ml_side": "away"
    }
   },
