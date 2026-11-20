@@ -216,7 +216,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Arizona @ Kansas State | moneyline | Kansas State ML +235 | 30% | +0.5% | No Play | 0 |
 | New Mexico @ Wyoming | spread | New Mexico -10.5 (spread) | 51% |  | No Play | 0 |
 | New Mexico @ Wyoming | total | Over 37.5 | 51% | +0.7 pts | No Play | 0 |
-| New Mexico @ Wyoming | moneyline | Wyoming ML +270 | 26% | -0.5% | No Play | 0 |
+| New Mexico @ Wyoming | moneyline | Wyoming ML +280 | 25% | -1.7% | No Play | 0 |
 | UNLV @ San José State | spread | UNLV -4 (spread) | 51% |  | No Play | 0 |
 | UNLV @ San José State | total | Over 47.5 | 50% | +0.2 pts | No Play | 0 |
 | UNLV @ San José State | moneyline | San José State ML +200 | 33% | -0.2% | No Play | 0 |
@@ -239,10 +239,10 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 |---|---|---|---|---|---|---|
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Under 38.5 | 50% | +0.0 pts | No Play | 0 |
-| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +166 | 36% | -1.1% | No Play | 0 |
+| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +164 | 36% | -1.4% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 55% | +1.1 pts | No Play | 0 |
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1400 | 101% | +7.8% | Strong Play | 1 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1420 | 101% | +7.7% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | +1.6 pts | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -600 | 90% | +4.2% | Lean | 0.5 |
@@ -254,7 +254,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -187 | 66% | +0.8% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Under 41.5 | 52% | +0.4 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -169 | 67% | +3.7% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -172 | 67% | +3.3% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -172 | 64% | +0.6% | No Play | 0 |
@@ -291,9 +291,9 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1400 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 62.8%, needs +123 to break even (reference payout +123), edge +18.0%, Max Play
-- Kansas City Chiefs ML -1400 + Denver Broncos ML -620 + Carolina Panthers -1.5 (spread): model 56.8%, needs +144 to break even (reference payout +144), edge +15.9%, Max Play
-- Kansas City Chiefs ML -1400 + Chicago Bears ML -600 + Carolina Panthers -1.5 (spread): model 56.6%, needs +145 to break even (reference payout +145), edge +15.8%, Max Play
+- Kansas City Chiefs ML -1420 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 62.8%, needs +123 to break even (reference payout +123), edge +17.9%, Max Play
+- Kansas City Chiefs ML -1420 + Denver Broncos ML -620 + Carolina Panthers -1.5 (spread): model 56.8%, needs +144 to break even (reference payout +144), edge +15.8%, Max Play
+- Kansas City Chiefs ML -1420 + Chicago Bears ML -600 + Carolina Panthers -1.5 (spread): model 56.6%, needs +145 to break even (reference payout +145), edge +15.8%, Max Play
 - Denver Broncos ML -620 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 56.8%, needs +142 to break even (reference payout +142), edge +15.5%, Max Play
 - Chicago Bears ML -600 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 56.6%, needs +143 to break even (reference payout +143), edge +15.4%, Max Play
 
