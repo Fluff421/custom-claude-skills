@@ -216,7 +216,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Arizona @ Kansas State | moneyline | Kansas State ML +235 | 30% | +0.5% | No Play | 0 |
 | New Mexico @ Wyoming | spread | New Mexico -10.5 (spread) | 51% |  | No Play | 0 |
 | New Mexico @ Wyoming | total | Over 37.5 | 53% | +2.3 pts | No Play | 0 |
-| New Mexico @ Wyoming | moneyline | Wyoming ML +280 | 25% | -1.7% | No Play | 0 |
+| New Mexico @ Wyoming | moneyline | Wyoming ML +295 | 25% | -0.7% | No Play | 0 |
 | UNLV @ San José State | spread | UNLV -4 (spread) | 51% |  | No Play | 0 |
 | UNLV @ San José State | total | Over 47.5 | 50% | +0.2 pts | No Play | 0 |
 | UNLV @ San José State | moneyline | San José State ML +200 | 33% | -0.2% | No Play | 0 |
@@ -258,7 +258,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -178 | 66% | +1.9% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Under 41.5 | 52% | +0.4 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -171 | 64% | +1.1% | No Play | 0 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -172 | 64% | +0.9% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -171 | 62% | -0.7% | No Play | 0 |
@@ -267,7 +267,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -120 | 56% | +1.6% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | +1.6 pts | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -266 | 76% | +3.7% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -267 | 76% | +3.6% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 54% | +0.8 pts | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -161 | 62% | +0.8% | No Play | 0 |
@@ -285,13 +285,13 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -236 | 71% | +0.8% | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 51% | +0.2 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -406 | 84% | +3.5% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -404 | 84% | +3.5% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | +1.6 pts | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -294 | 74% | -0.2% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -382 | 84% | +5.1% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -389 | 84% | +4.8% | Lean | 0.5 |
 
 ### NFL Best parlays
 

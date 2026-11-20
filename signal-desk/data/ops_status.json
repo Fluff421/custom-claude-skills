@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-20T21:32:43Z",
+ "generated_at_utc": "2026-11-20T21:35:15Z",
  "generated_for_central_date": "2026-11-20",
  "graded_picks_csv_rows": 231,
  "ledger_health": {
@@ -244,6 +244,11 @@
    ],
    "skipped_chains": [
     {
+     "run_id": 44821347751,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44821347751",
+     "created_at": "2026-11-20T21:33:18Z"
+    },
+    {
      "run_id": 44813419050,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44813419050",
      "created_at": "2026-11-20T20:40:05Z"
@@ -420,6 +425,32 @@
    "file": "injury-pull.yml",
    "runs": [
     {
+     "run_id": 44821306331,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44821306331",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-20T21:33:02Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: DraftEdge parsed 451 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizon"
+      ],
+      "mode": "LIVE",
+      "injury_games_expected": 0,
+      "injury_games_covered": 0,
+      "injury_games_not_yet_due": 0,
+      "injury_games_overdue": 0,
+      "injury_games_independent": 0,
+      "fpi_missing": 0
+     },
+     "error_lines": [
+      "ERROR: DraftEdge parsed 451 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizo"
+     ]
+    },
+    {
      "run_id": 44813382497,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44813382497",
      "event": "schedule",
@@ -476,32 +507,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44764383613",
      "event": "workflow_dispatch",
      "created_at": "2026-11-20T15:33:02Z",
-     "conclusion": "failure",
-     "health": "failed",
-     "reasons": [
-      "conclusion=failure"
-     ],
-     "summary": {
-      "warnings": [
-       "WARN: DraftEdge parsed 451 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizon"
-      ],
-      "mode": "LIVE",
-      "injury_games_expected": 0,
-      "injury_games_covered": 0,
-      "injury_games_not_yet_due": 0,
-      "injury_games_overdue": 0,
-      "injury_games_independent": 0,
-      "fpi_missing": 0
-     },
-     "error_lines": [
-      "ERROR: DraftEdge parsed 451 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizo"
-     ]
-    },
-    {
-     "run_id": 44736711398,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44736711398",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-20T12:33:03Z",
      "conclusion": "failure",
      "health": "failed",
      "reasons": [
@@ -700,7 +705,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-20T20:36:51Z",
-   "age_h": 0.9,
+   "age_h": 1.0,
    "status": "ok"
   },
   {
@@ -709,7 +714,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-20T20:43:48Z",
-   "age_h": 0.8,
+   "age_h": 0.9,
    "status": "ok"
   },
   {
@@ -718,7 +723,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-20T21:31:27Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   },
   {
@@ -735,8 +740,8 @@
    "file": "snapshot.yml",
    "expected_every_h": 24,
    "max_gap_h": 26,
-   "last_scheduled_run_utc": "2026-11-20T20:45:22Z",
-   "age_h": 0.8,
+   "last_scheduled_run_utc": "2026-11-20T21:33:28Z",
+   "age_h": 0.0,
    "status": "ok"
   },
   {
@@ -745,7 +750,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-20T18:43:45Z",
-   "age_h": 2.8,
+   "age_h": 2.9,
    "status": "ok"
   },
   {
