@@ -163,21 +163,21 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -600 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -620 | 90% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -600 | 89% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -172 | 67% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -255 | 76% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -266 | 76% | Lean | 0.5 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | Lean | 0.5 |
 | Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1640 | 104% | Max Play | 1.0 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
 | Vanderbilt @ Florida | total | Over 45.5 | 53% | Lean | 0.5 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -149 | 66% | Strong Play | 1.0 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -150 | 66% | Strong Play | 1.0 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -382 | 84% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -383 | 84% | Lean | 0.5 |
 - NCAAF parlay: Over 41.5 + Over 45.5 | model 28.4%, needs +261 to break even, edge +0.7%, No Play
 - NFL parlay: Kansas City Chiefs ML -1760 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +120 to break even, edge +17.4%, Max Play
-- NFL parlay: Denver Broncos ML -620 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread) | model 56.8%, needs +142 to break even, edge +15.5%, Max Play
 - NFL parlay: Chicago Bears ML -600 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread) | model 56.6%, needs +143 to break even, edge +15.4%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1760 + Chicago Bears ML -600 + Carolina Panthers -1.5 (spread) | model 56.6%, needs +142 to break even, edge +15.2%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 40.5 -> 34.5 + Under 46.5 -> 52.5 | model 49.0%, needs +160 to break even, edge +10.5%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 40.5 -> 34.5 + Under 48.5 -> 54.5 | model 48.9%, needs +160 to break even, edge +10.4%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 40.5 -> 34.5 + Under 53.5 -> 59.5 | model 48.8%, needs +160 to break even, edge +10.4%, Max Play
