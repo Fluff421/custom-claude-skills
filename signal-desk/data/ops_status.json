@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-20T21:35:15Z",
+ "generated_at_utc": "2026-11-20T21:38:19Z",
  "generated_for_central_date": "2026-11-20",
  "graded_picks_csv_rows": 231,
  "ledger_health": {
@@ -352,6 +352,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44821904275,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44821904275",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-20T21:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 22,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44821063369,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44821063369",
      "event": "schedule",
@@ -388,22 +404,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44803805338",
      "event": "workflow_dispatch",
      "created_at": "2026-11-20T19:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 22,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44794452535,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44794452535",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-20T18:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -614,6 +614,19 @@
    "file": "snapshot.yml",
    "runs": [
     {
+     "run_id": 44821374282,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44821374282",
+     "event": "schedule",
+     "created_at": "2026-11-20T21:33:28Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44814208202,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44814208202",
      "event": "schedule",
@@ -630,7 +643,7 @@
    ],
    "skipped_chains": [],
    "gate_skipped": [],
-   "latest_health": "warn"
+   "latest_health": "ok"
   },
   {
    "workflow": "BIM Grader",
@@ -732,7 +745,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T20:08:24Z",
-   "age_h": 1.4,
+   "age_h": 1.5,
    "status": "ok"
   },
   {
@@ -741,7 +754,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T21:33:28Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   },
   {
@@ -759,7 +772,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-20T20:39:51Z",
-   "age_h": 0.9,
+   "age_h": 1.0,
    "status": "ok"
   }
  ],

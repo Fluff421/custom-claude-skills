@@ -123,7 +123,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Colorado @ Cincinnati | total | Under 57.5 | 51% | +0.4 pts | No Play | 0 |
 | Colorado @ Cincinnati | moneyline | Colorado ML +130 | 42% | -1.8% | No Play | 0 |
 | Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
-| Georgia Southern @ Troy | total | Over 48.5 | 50% | +0.2 pts | No Play | 0 |
+| Georgia Southern @ Troy | total | Over 47.5 | 51% | +0.5 pts | No Play | 0 |
 | Georgia Southern @ Troy | moneyline | Troy ML +280 | 27% | +0.4% | No Play | 0 |
 | Ohio State @ Nebraska | spread | Ohio State -5.5 (spread) | 51% |  | No Play | 0 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | +2.8 pts | Lean | 0.5 |

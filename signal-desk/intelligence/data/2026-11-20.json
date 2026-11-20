@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "generated_at": "2026-11-20T21:36:29+00:00",
+ "generated_at": "2026-11-20T21:39:15+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -5675,7 +5675,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-20T21:35:48+00:00",
+   "generated_at": "2026-11-20T21:38:44+00:00",
    "date": "2026-11-20",
    "games": [
     {
@@ -12169,10 +12169,10 @@
      "date": "2026-11-21",
      "frozen": false,
      "line": -9.5,
-     "total_line": 48.5,
+     "total_line": 47.5,
      "model_margin": -8.200000000000001,
      "blend_margin": -9.3115,
-     "proj_total": 48.73076923076923,
+     "proj_total": 48.03076923076923,
      "factors": [
       "weather: 58F, wind 10mph, precip 16% | sev=0.00 | open-meteo"
      ],
@@ -12199,15 +12199,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 48.5,
-       "price": -105.0,
-       "proj": 48.73,
-       "prob": 0.5028,
-       "edge": 0.23,
+       "line": 47.5,
+       "price": -110.0,
+       "proj": 48.03,
+       "prob": 0.5065,
+       "edge": 0.53,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 48.5",
+       "selection": "Over 47.5",
        "game_id": "recYOvQDevjUN0yyb",
        "game": "Georgia Southern @ Troy",
        "priority": "primary",
@@ -12259,13 +12259,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 48.5,
-       "line": 42.5,
+       "base_line": 47.5,
+       "line": 41.5,
        "price": 0.0,
-       "prob": 0.6013,
+       "prob": 0.6058,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 48.5 -> 42.5",
+       "selection": "Over 47.5 -> 41.5",
        "game_id": "recYOvQDevjUN0yyb",
        "game": "Georgia Southern @ Troy",
        "priority": "secondary",
