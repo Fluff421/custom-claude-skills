@@ -222,7 +222,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -170 | 66% | +3.5% | Lean | 0.5 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
-| Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -174 | 64% | +0.4% | No Play | 0 |
+| Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -175 | 64% | +0.2% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | +1.6 pts | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -258 | 76% | +4.2% | Lean | 0.5 |
@@ -248,7 +248,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 60% | +2.3 pts | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -279 | 74% | +0.8% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | total | Under 55.5 | 58% | +1.8 pts | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -387 | 84% | +5.0% | Lean | 0.5 |
 
 ### NFL Best parlays
@@ -265,5 +265,5 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 - Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5: model 50.2%, needs +160 to break even (reference payout +160), edge +11.7%, Max Play
 - Under 53.5 -> 59.5 + Under 48.5 -> 54.5 + Over 40.5 -> 34.5: model 50.1%, needs +160 to break even (reference payout +160), edge +11.6%, Max Play
 - Under 55.5 -> 61.5 + Under 48.5 -> 54.5 + Over 40.5 -> 34.5: model 50.0%, needs +160 to break even (reference payout +160), edge +11.5%, Max Play
-- Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Under 55.5 -> 61.5: model 49.5%, needs +160 to break even (reference payout +160), edge +11.1%, Max Play
+- Under 53.5 -> 59.5 + Under 55.5 -> 61.5 + Under 46.5 -> 52.5: model 49.3%, needs +160 to break even (reference payout +160), edge +10.8%, Max Play
 

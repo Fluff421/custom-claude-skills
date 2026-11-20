@@ -2631,3 +2631,6 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-20T03:39:02+00:00,recwwACNg0gi1waTR,401864544,NCAAF,UNLV @ San José State,2026-11-21,Draft Kings,-6.5,47.5,210,-258,-102.0,-118.0,-112.0,-108.0,-3.0
 2026-11-20T03:44:44+00:00,recaECO9clr72nsCg,401856871,NCAAF,Texas Tech @ Baylor,2026-11-20,Draft Kings,-4.5,56.5,170,-205,-110.0,-110.0,-108.0,-112.0,-1.5
 2026-11-20T03:44:44+00:00,recniM822SJeAquSD,401858530,NCAAF,Northwestern @ Minnesota,2026-11-21,Draft Kings,-2.5,41.5,114,-135,-108.0,-112.0,-108.0,-112.0,-3.0
+2026-11-20T04:38:46+00:00,recBWcZ5vJx1Anl8m,401860918,NCAAF,Colorado State @ Fresno State,2026-11-21,DraftKings,20.5,66.5,-1450,850,-105.0,-115.0,-108.0,-112.0,19.5
+2026-11-20T04:38:46+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,DraftKings,3.5,46.5,-175,147,-102.0,-118.0,-109.0,-110.0,3.5
+2026-11-20T04:38:46+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,DraftKings,8.5,54.5,-387,307,-105.0,-115.0,-115.0,-104.0,6.5

@@ -1,16 +1,15 @@
-# Pick-time check at the newest Splash lines, 2026-11-20 03:45Z
+# Pick-time check at the newest Splash lines, 2026-11-20 04:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 80 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 81 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
-16 Lean-or-better plays at the current Splash lines (74 games checked).
+15 Lean-or-better plays at the current Splash lines (72 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
 | Baltimore Ravens @ Carolina Panthers | 2026-11-22 | spread | Carolina Panthers -1.5 | Max Play | 63.9% | 4.4 |  |
 | Arizona Cardinals @ Kansas City Chiefs | 2026-11-22 | spread | Arizona Cardinals +15.5 | Strong Play | 59.9% | -3.1 |  |
-| Indianapolis Colts @ Houston Texans | 2026-11-19 | spread | Indianapolis Colts +10.5 | Lean | 50.0% | -2.2 |  |
 | Northwestern @ Minnesota | 2026-11-21 | spread | Northwestern -2.5 | Lean | 50.0% | -1.03 |  |
 | Northwestern @ Minnesota | 2026-11-21 | total | Over 41.5 | Lean | 53.3% | 2.69 | was over No Play at the early line |
 | South Florida @ Florida Atlantic | 2026-11-21 | total | Under 65.5 | Lean | 54.9% | 4.05 |  |
@@ -47,9 +46,9 @@ Strongest 6-point teaser legs at the current lines (two-leg teaser break-even is
 | South Florida @ Florida Atlantic | Under 71.5 (teased) | 78.0% |
 | Jacksonville Jaguars @ New York Giants | Under 52.5 (teased) | 77.7% |
 | Tennessee Titans @ Dallas Cowboys | Under 60.5 (teased) | 77.3% |
-| Indianapolis Colts @ Houston Texans | Over 38.5 (teased) | 76.0% |
 | Baltimore Ravens @ Carolina Panthers | Over 38.5 (teased) | 75.8% |
 | Northwestern @ Minnesota | Over 35.5 (teased) | 74.8% |
 | New York Jets @ Los Angeles Chargers | Over 34.5 (teased) | 74.8% |
+| Minnesota Vikings @ San Francisco 49ers | Under 51.5 (teased) | 74.3% |
 
 All games and markets are in latest.json.
