@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T08:40:08.469344+00:00",
- "snapshot_age_hours": 84.7,
+ "generated_at": "2026-11-20T09:39:30.081381+00:00",
+ "snapshot_age_hours": 85.7,
  "games": [
   {
    "game": "Arizona @ Kansas State",
@@ -3020,14 +3020,14 @@
     "pick": "Arizona Cardinals +15.5",
     "side": "away",
     "tier": "Strong Play",
-    "prob": 0.5989,
-    "edge": -3.1,
-    "proj": 13.0,
+    "prob": 0.602,
+    "edge": -3.2,
+    "proj": 12.899999999999999,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Arizona Cardinals +21.5 (teased)",
-     "prob": 0.7283
+     "prob": 0.7291
     }
    },
    "total": {
@@ -3047,8 +3047,8 @@
    "moneyline": {
     "pick": "Arizona Cardinals ML +870",
     "tier": "No Play",
-    "prob": 0.1082,
-    "edge": 0.0051,
+    "prob": 0.1087,
+    "edge": 0.0056,
     "model_ml_side": "home"
    }
   },
@@ -3070,14 +3070,14 @@
     "pick": "Carolina Panthers -1.5",
     "side": "home",
     "tier": "Max Play",
-    "prob": 0.6389,
-    "edge": 4.4,
-    "proj": 6.1000000000000005,
+    "prob": 0.6419,
+    "edge": 4.5,
+    "proj": 6.2,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Carolina Panthers +4.5 (teased)",
-     "prob": 0.7322
+     "prob": 0.7329
     }
    },
    "total": {
@@ -3097,8 +3097,8 @@
    "moneyline": {
     "pick": "Carolina Panthers ML -130",
     "tier": "No Play",
-    "prob": 0.6234,
-    "edge": 0.0582,
+    "prob": 0.6243,
+    "edge": 0.0591,
     "model_ml_side": "home"
    }
   },
@@ -3120,14 +3120,14 @@
     "pick": "Jacksonville Jaguars -6.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5129,
-    "edge": -0.4,
-    "proj": -7.899999999999999,
+    "prob": 0.5161,
+    "edge": -0.5,
+    "proj": -8.0,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Jacksonville Jaguars -0.5 (teased)",
-     "prob": 0.6906
+     "prob": 0.6914
     }
    },
    "total": {
@@ -3147,8 +3147,8 @@
    "moneyline": {
     "pick": "New York Giants ML +220",
     "tier": "No Play",
-    "prob": 0.2996,
-    "edge": -0.0129,
+    "prob": 0.2987,
+    "edge": -0.0138,
     "model_ml_side": "away"
    }
   },
@@ -3169,15 +3169,15 @@
    "spread": {
     "pick": "Denver Broncos -9.5",
     "side": "home",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": 2.4,
-    "proj": 11.7,
+    "tier": "Strong Play",
+    "prob": 0.58,
+    "edge": 2.5,
+    "proj": 11.8,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Denver Broncos -3.5 (teased)",
-     "prob": 0.6792
+     "prob": 0.68
     }
    },
    "total": {
@@ -3197,8 +3197,8 @@
    "moneyline": {
     "pick": "Las Vegas Raiders ML +410",
     "tier": "No Play",
-    "prob": 0.1925,
-    "edge": -0.0036,
+    "prob": 0.1918,
+    "edge": -0.0043,
     "model_ml_side": "home"
    }
   },
@@ -3370,14 +3370,14 @@
     "pick": "Los Angeles Chargers -3.5",
     "side": "home",
     "tier": "Lean",
-    "prob": 0.5398,
-    "edge": 4.4,
-    "proj": 6.3,
+    "prob": 0.5424,
+    "edge": 4.5,
+    "proj": 6.3999999999999995,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Los Angeles Chargers +2.5 (teased)",
-     "prob": 0.6968
+     "prob": 0.6976
     }
    },
    "total": {
@@ -3397,8 +3397,8 @@
    "moneyline": {
     "pick": "Los Angeles Chargers ML -180",
     "tier": "No Play",
-    "prob": 0.6252,
-    "edge": -0.0176,
+    "prob": 0.6261,
+    "edge": -0.0167,
     "model_ml_side": "home"
    }
   },
@@ -3421,13 +3421,13 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 2.3,
-    "proj": -2.8,
+    "edge": 2.4,
+    "proj": -2.6999999999999993,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Philadelphia Eagles +10.5 (teased)",
-     "prob": 0.7277
+     "prob": 0.7285
     }
    },
    "total": {
@@ -3447,8 +3447,8 @@
    "moneyline": {
     "pick": "Philadelphia Eagles ML +168",
     "tier": "No Play",
-    "prob": 0.3962,
-    "edge": 0.0231,
+    "prob": 0.3971,
+    "edge": 0.024,
     "model_ml_side": "away"
    }
   },
@@ -3471,13 +3471,13 @@
     "side": "away",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": -2.2,
-    "proj": 4.5,
+    "edge": -2.3,
+    "proj": 4.4,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Tampa Bay Buccaneers +12.5 (teased)",
-     "prob": 0.7279
+     "prob": 0.7287
     }
    },
    "total": {
@@ -3497,8 +3497,8 @@
    "moneyline": {
     "pick": "Tampa Bay Buccaneers ML +215",
     "tier": "No Play",
-    "prob": 0.3285,
-    "edge": 0.0111,
+    "prob": 0.3294,
+    "edge": 0.0119,
     "model_ml_side": "home"
    }
   },
@@ -3521,13 +3521,13 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.4,
-    "proj": 10.0,
+    "edge": 1.3,
+    "proj": 9.9,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Dallas Cowboys -1.5 (teased)",
-     "prob": 0.7003
+     "prob": 0.6995
     }
    },
    "total": {
@@ -3547,8 +3547,8 @@
    "moneyline": {
     "pick": "Tennessee Titans ML +350",
     "tier": "No Play",
-    "prob": 0.237,
-    "edge": 0.0148,
+    "prob": 0.2377,
+    "edge": 0.0155,
     "model_ml_side": "home"
    }
   },

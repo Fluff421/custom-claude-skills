@@ -164,7 +164,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -594 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -620 | 90% | Lean | 0.5 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -167 | 66% | Lean | 0.5 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -167 | 67% | Lean | 0.5 |
 | South Florida @ Florida Atlantic | total | Under 64.5 | 55% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -256 | 76% | Lean | 0.5 |
