@@ -84,8 +84,8 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Wisconsin @ Purdue | total | Over 46.5 | 51% | +0.6 pts | No Play | 0 |
 | Wisconsin @ Purdue | moneyline | Purdue ML +190 | 35% | +0.5% | No Play | 0 |
 | Utah State @ Oregon State | spread | Oregon State -9.5 (spread) | 51% |  | No Play | 0 |
-| Utah State @ Oregon State | total | Over 50.5 | 51% | +0.8 pts | No Play | 0 |
-| Utah State @ Oregon State | moneyline | Utah State ML +270 | 28% | +0.9% | No Play | 0 |
+| Utah State @ Oregon State | total | Over 49.5 | 51% | +1.1 pts | No Play | 0 |
+| Utah State @ Oregon State | moneyline | Utah State ML +260 | 28% | +0.1% | No Play | 0 |
 | Houston @ West Virginia | spread | Houston -7 (spread) | 50% |  | No Play | 0 |
 | Houston @ West Virginia | total | Under 70.5 | 53% | +2.5 pts | No Play | 0 |
 | Houston @ West Virginia | moneyline | West Virginia ML +250 | 29% | +0.1% | No Play | 0 |
@@ -103,7 +103,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | UCLA @ Michigan | moneyline | Michigan ML +150 | 41% | +1.3% | No Play | 0 |
 | Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
 | Colorado @ Cincinnati | total | Under 57.5 | 51% | +0.4 pts | No Play | 0 |
-| Colorado @ Cincinnati | moneyline | Colorado ML +136 | 42% | -0.7% | No Play | 0 |
+| Colorado @ Cincinnati | moneyline | Colorado ML +130 | 42% | -1.8% | No Play | 0 |
 | Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
 | Georgia Southern @ Troy | total | Over 48.5 | 50% | +0.2 pts | No Play | 0 |
 | Georgia Southern @ Troy | moneyline | Troy ML +280 | 27% | +0.4% | No Play | 0 |
@@ -126,7 +126,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Stanford @ California | total | Under 56.5 | 50% | +0.3 pts | No Play | 0 |
 | Stanford @ California | moneyline | Stanford ML -130 | 55% | -1.4% | No Play | 0 |
 | Iowa State @ UCF | spread | UCF -1.5 (spread) | 51% |  | No Play | 0 |
-| Iowa State @ UCF | total | Over 48.5 | 52% | +1.4 pts | No Play | 0 |
+| Iowa State @ UCF | total | Over 47.5 | 52% | +1.7 pts | No Play | 0 |
 | Iowa State @ UCF | moneyline | UCF ML -122 | 53% | -1.6% | No Play | 0 |
 | Kent State @ Eastern Michigan | moneyline | Eastern Michigan ML -110 (price estimated from the line) | 73% | +20.8% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
@@ -210,7 +210,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1420 | 101% | +7.8% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 60% | +2.2 pts | Lean | 0.5 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -600 | 90% | +4.2% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -610 | 90% | +4.0% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -620 | 90% | +4.2% | Lean | 0.5 |
@@ -246,7 +246,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -398 | 84% | +4.0% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 60% | +2.3 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -284 | 74% | +0.4% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -279 | 74% | +0.8% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 55.5 | 58% | +1.8 pts | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -387 | 84% | +5.0% | Lean | 0.5 |
@@ -256,8 +256,8 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 - Kansas City Chiefs ML -1420 + Buffalo Bills ML -1440 + Carolina Panthers -1.5 (spread): model 62.8%, needs +125 to break even (reference payout +125), edge +18.3%, Max Play
 - Kansas City Chiefs ML -1420 + Buffalo Bills ML -1440 + Under 53.5: model 60.3%, needs +126 to break even (reference payout +126), edge +16.0%, Max Play
 - Kansas City Chiefs ML -1420 + Denver Broncos ML -620 + Carolina Panthers -1.5 (spread): model 56.8%, needs +144 to break even (reference payout +144), edge +15.8%, Max Play
-- Kansas City Chiefs ML -1420 + Chicago Bears ML -600 + Carolina Panthers -1.5 (spread): model 56.6%, needs +145 to break even (reference payout +145), edge +15.8%, Max Play
 - Denver Broncos ML -620 + Buffalo Bills ML -1440 + Carolina Panthers -1.5 (spread): model 56.8%, needs +144 to break even (reference payout +144), edge +15.7%, Max Play
+- Kansas City Chiefs ML -1420 + Chicago Bears ML -610 + Carolina Panthers -1.5 (spread): model 56.6%, needs +144 to break even (reference payout +144), edge +15.7%, Max Play
 
 ### NFL Best 6-point teasers
 

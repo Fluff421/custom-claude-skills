@@ -2612,3 +2612,8 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-20T01:39:08+00:00,recr1qJDVd2AaP7Oh,401869958,NCAAF,Georgia State @ Marshall,2026-11-21,Draft Kings,2.5,55.5,-142,120,-115.0,-105.0,-102.0,-118.0,-1.5
 2026-11-20T01:39:08+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,Draft Kings,6.0,45.5,-258,213,-109.0,-110.0,-107.0,-112.0,4.5
 2026-11-20T01:39:08+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,53.5,232,-284,-107.0,-112.0,-116.0,-103.0,-1.5
+2026-11-20T02:36:38+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,DraftKings,11.5,48.5,-610,448,-107.0,-112.0,-108.0,-111.0,6.5
+2026-11-20T02:36:38+00:00,recRDfetvKLmGizti,401860919,NCAAF,Utah State @ Oregon State,2026-11-21,DraftKings,8.5,49.5,-325,260,-110.0,-110.0,-115.0,-105.0,10.0
+2026-11-20T02:36:38+00:00,recXzSOfVwhnqiJ0H,401856867,NCAAF,Colorado @ Cincinnati,2026-11-21,DraftKings,3.0,57.5,-155,130,-112.0,-108.0,-110.0,-110.0,2.5
+2026-11-20T02:36:38+00:00,recc6qdhTMFRHffs3,401856869,NCAAF,Iowa State @ UCF,2026-11-20,DraftKings,1.5,47.5,-122,102,-112.0,-108.0,-115.0,-105.0,1.5
+2026-11-20T02:36:38+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.0,53.5,229,-279,-107.0,-112.0,-116.0,-103.0,-1.5
