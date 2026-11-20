@@ -2705,3 +2705,6 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-20T12:39:00+00:00,recr1qJDVd2AaP7Oh,401869958,NCAAF,Georgia State @ Marshall,2026-11-21,Draft Kings,2.5,55.5,-135,114,-115.0,-105.0,-102.0,-118.0,-1.5
 2026-11-20T12:39:00+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,Draft Kings,6.0,45.5,-258,213,-109.0,-110.0,-107.0,-112.0,4.5
 2026-11-20T12:39:00+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,Draft Kings,8.5,54.5,-382,304,-105.0,-115.0,-115.0,-104.0,6.5
+2026-11-20T12:45:08+00:00,recmwmcZbfaOar6zX,401871078,NCAAF,Florida International @ Kennesaw State,2026-11-21,DraftKings,3.0,44.5,-142,120,-108.0,-112.0,-110.0,-110.0,4.0
+2026-11-20T12:45:08+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,DraftKings,6.0,45.5,-259,213,-109.0,-110.0,-107.0,-112.0,4.5
+2026-11-20T12:45:08+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.0,53.5,240,-294,-105.0,-115.0,-116.0,-103.0,-1.5
