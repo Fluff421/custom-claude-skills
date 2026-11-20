@@ -1,9 +1,9 @@
-# Self-review 2026-11-19 game-window sweep NCAAF
+# Self-review 2026-11-19 nightly QB board NCAAF
 
-Did I cover every game in the next 8 hours? Yes, Rice @ Temple at 18:30 CT.
+Did I cover every game in picks_latest.json? 2/64 games checked (3 rows) / 64 expected.
 
-Sources opened this run: temple-news.com and attheroost.com (beat reporting). Official American conference availability report not yet published (pending per kickoffstatus.com).
+Sources opened this run: Eleven Warriors for Ohio State Big Ten report, prior beat sources for Rice/Temple.
 
-Classified starter_playing based on coach announcements and depth chart, verified=false because not official league source.
+Ohio State QB out verified from report summary. Others unverified due to non-official sources or not reached.
 
-Read-back matched intended.
+Unknown beats guess.
