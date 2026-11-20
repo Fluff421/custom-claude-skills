@@ -2807,3 +2807,16 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-20T19:39:10+00:00,reclpEtKIWqsf5G0x,401858309,NCAAF,Syracuse @ Boston College,2026-11-21,Draft Kings,-2.5,51.5,120,-142,-102.0,-118.0,-115.0,-105.0,-3.5
 2026-11-20T19:39:10+00:00,recqHN0qEss3RtmUZ,401873068,NFL,Baltimore Ravens @ Carolina Panthers,2026-11-22,Draft Kings,3.0,43.5,-150,126,-104.0,-115.0,-109.0,-110.0,-4.5
 2026-11-20T19:39:10+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,Draft Kings,5.5,45.5,-236,195,-106.0,-113.0,-112.0,-107.0,4.5
+2026-11-20T20:20:56+00:00,rec0gY90aols8kKfi,401873076,NFL,Pittsburgh Steelers @ Philadelphia Eagles,2026-11-22,DraftKings,-3.5,37.5,168,-201,-104.0,-115.0,-113.0,-106.0,5.5
+2026-11-20T20:20:56+00:00,rec1bMW82Gl2PPIzw,401873067,NFL,Arizona Cardinals @ Kansas City Chiefs,2026-11-22,DraftKings,16.5,40.5,-1620,910,-109.0,-110.0,-114.0,-105.0,11.5
+2026-11-20T20:20:56+00:00,recA8wbdTRMKXNzCn,401873075,NFL,Las Vegas Raiders @ Denver Broncos,2026-11-22,DraftKings,10.0,40.5,-599,446,-114.0,-105.0,-107.0,-113.0,8.5
+2026-11-20T20:20:56+00:00,recGIwXjOoAurvelH,401864545,NCAAF,UTEP @ Air Force,2026-11-20,DraftKings,21.5,48.5,-2100,1100,-112.0,-108.0,-105.0,-115.0,21.5
+2026-11-20T20:20:56+00:00,recGL898w9ReY8dS7,401858532,NCAAF,Rutgers @ Penn State,2026-11-21,DraftKings,26.5,49.5,-3200,1400,-105.0,-115.0,-108.0,-112.0,20.5
+2026-11-20T20:20:56+00:00,recLDCpyeKOzU0eyq,401873069,NFL,Jacksonville Jaguars @ New York Giants,2026-11-22,DraftKings,-6.0,46.5,219,-266,-110.0,-110.0,-113.0,-106.0,-1.5
+2026-11-20T20:20:56+00:00,recN1veRxzuLsTCnY,401858305,NCAAF,North Carolina @ Virginia,2026-11-21,DraftKings,1.5,41.5,-118,-102,-112.0,-108.0,-112.0,-108.0,1.5
+2026-11-20T20:20:56+00:00,recXURSFbLylyhUuX,401871101,NCAAF,South Alabama @ Southern Miss,2026-11-21,DraftKings,-4.5,66.5,164,-198,-110.0,-110.0,-108.0,-112.0,-5.5
+2026-11-20T20:20:56+00:00,recac1dbqIyFo0A9Q,401858529,NCAAF,Oregon @ Michigan State,2026-11-20,DraftKings,-17.5,43.5,625,-950,-108.0,-112.0,-108.0,-112.0,-12.5
+2026-11-20T20:20:56+00:00,recc6qdhTMFRHffs3,401856869,NCAAF,Iowa State @ UCF,2026-11-20,DraftKings,-1.5,49.5,-105,-115,-115.0,-105.0,-112.0,-108.0,1.5
+2026-11-20T20:20:56+00:00,reclfwgx3nE8GccBt,401871081,NCAAF,Middle Tennessee @ Sam Houston,2026-11-21,DraftKings,-6.0,48.5,190,-230,-105.0,-115.0,-105.0,-115.0,-5.5
+2026-11-20T20:20:56+00:00,reclpEtKIWqsf5G0x,401858309,NCAAF,Syracuse @ Boston College,2026-11-21,DraftKings,-3.0,52.5,120,-142,-112.0,-108.0,-105.0,-115.0,-3.5
+2026-11-20T20:20:56+00:00,recqHN0qEss3RtmUZ,401873068,NFL,Baltimore Ravens @ Carolina Panthers,2026-11-22,DraftKings,3.0,43.5,-150,127,-105.0,-115.0,-109.0,-110.0,-4.5
