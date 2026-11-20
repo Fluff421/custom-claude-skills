@@ -115,7 +115,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Bowling Green @ Toledo | moneyline | Toledo ML -750 | 87% | -1.6% | No Play | 0 |
 | Texas Tech @ Baylor | spread | Texas Tech -1.5 (spread) | 50% |  | No Play | 0 |
 | Texas Tech @ Baylor | total | Under 56.5 | 51% | +1.1 pts | No Play | 0 |
-| Texas Tech @ Baylor | moneyline | Baylor ML +160 | 39% | +0.2% | No Play | 0 |
+| Texas Tech @ Baylor | moneyline | Baylor ML +170 | 39% | +1.6% | No Play | 0 |
 | Oregon @ Michigan State | spread | Oregon -13.5 (spread) | 50% |  | No Play | 0 |
 | Oregon @ Michigan State | total | Over 44.5 | 52% | +1.7 pts | No Play | 0 |
 | Oregon @ Michigan State | moneyline | Michigan State ML +625 | 12% | -1.5% | No Play | 0 |
@@ -167,7 +167,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Florida International @ Kennesaw State | moneyline | Florida International ML +136 | 40% | -1.9% | No Play | 0 |
 | Northwestern @ Minnesota | spread | Northwestern -3 (spread) | 52% |  | No Play | 0 |
 | Northwestern @ Minnesota | total | Over 41.5 | 53% | +2.7 pts | Lean | 0.5 |
-| Northwestern @ Minnesota | moneyline | Northwestern ML -142 | 59% | +0.8% | No Play | 0 |
+| Northwestern @ Minnesota | moneyline | Northwestern ML -135 | 59% | +2.0% | No Play | 0 |
 | Arkansas @ Texas | spread | Texas -21 (spread) | 51% |  | No Play | 0 |
 | Arkansas @ Texas | total | Over 47.5 | 51% | +0.6 pts | No Play | 0 |
 | Arkansas @ Texas | moneyline | Arkansas ML +950 | 8% | -1.4% | No Play | 0 |
