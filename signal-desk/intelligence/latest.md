@@ -168,15 +168,14 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Jacksonville Jaguars @ New York Giants | total | Under 46.5 | 57% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -255 | 76% | Lean | 0.5 |
 | Ohio State @ Nebraska | total | Over 41.5 | 53% | Lean | 0.5 |
-| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1540 | 104% | Max Play | 1.0 |
+| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1500 | 104% | Max Play | 1.0 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
 | Vanderbilt @ Florida | total | Over 45.5 | 53% | Lean | 0.5 |
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -148 | 66% | Strong Play | 1.0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -398 | 84% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -383 | 84% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -382 | 84% | Lean | 0.5 |
 - NCAAF parlay: Over 41.5 + Over 45.5 | model 28.4%, needs +261 to break even, edge +0.7%, No Play
-- NFL parlay: Kansas City Chiefs ML -1380 + Buffalo Bills ML -1540 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +124 to break even, edge +18.1%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1380 + Buffalo Bills ML -1500 + Carolina Panthers -1.5 (spread) | model 62.8%, needs +124 to break even, edge +18.2%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1380 + Denver Broncos ML -620 + Carolina Panthers -1.5 (spread) | model 56.8%, needs +144 to break even, edge +15.8%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1380 + Chicago Bears ML -600 + Carolina Panthers -1.5 (spread) | model 56.5%, needs +145 to break even, edge +15.8%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 40.5 -> 34.5 + Under 46.5 -> 52.5 | model 49.0%, needs +160 to break even, edge +10.5%, Max Play
