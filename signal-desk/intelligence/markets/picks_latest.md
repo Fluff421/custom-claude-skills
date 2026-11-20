@@ -127,7 +127,7 @@ Markets not yet posted (no pick until a line is listed): Kent State @ Eastern Mi
 | Stanford @ California | moneyline | Stanford ML -130 | 55% | -1.4% | No Play | 0 |
 | Iowa State @ UCF | spread | UCF -1.5 (spread) | 51% |  | No Play | 0 |
 | Iowa State @ UCF | total | Over 47.5 | 52% | +1.7 pts | No Play | 0 |
-| Iowa State @ UCF | moneyline | UCF ML -122 | 53% | -1.6% | No Play | 0 |
+| Iowa State @ UCF | moneyline | UCF ML -125 | 53% | -2.1% | No Play | 0 |
 | Kent State @ Eastern Michigan | moneyline | Eastern Michigan ML -110 (price estimated from the line) | 73% | +20.8% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
 | SMU @ Notre Dame | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
