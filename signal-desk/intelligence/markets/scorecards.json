@@ -1,29 +1,29 @@
 {
- "generated": "2026-11-19",
+ "generated": "2026-11-20",
  "scorecards": {
   "ALL": {
    "spread": {
-    "n": 161,
+    "n": 163,
     "wins": 77,
-    "losses": 84,
+    "losses": 86,
     "pushes": 2,
-    "win_rate": 0.478,
-    "units": -2.26,
-    "avg_clv": 0.07,
-    "n_clv": 150,
-    "brier": 0.253,
+    "win_rate": 0.472,
+    "units": -3.26,
+    "avg_clv": 0.05,
+    "n_clv": 152,
+    "brier": 0.2535,
     "calibration": [
      {
       "bucket": "50%-55%",
-      "n": 144,
+      "n": 145,
       "predicted": 0.51,
-      "actual": 0.465
+      "actual": 0.462
      },
      {
       "bucket": "55%-60%",
-      "n": 10,
-      "predicted": 0.574,
-      "actual": 0.6
+      "n": 11,
+      "predicted": 0.575,
+      "actual": 0.545
      },
      {
       "bucket": "60%-70%",
@@ -46,9 +46,9 @@
       "enough": false
      },
      "Strong Play": {
-      "n": 3,
-      "win_rate": 0.667,
-      "units": 0.78,
+      "n": 4,
+      "win_rate": 0.5,
+      "units": -0.22,
       "enough": false
      },
      "Lean": {
@@ -58,73 +58,73 @@
       "enough": true
      },
      "No Play": {
-      "n": 132,
-      "win_rate": 0.492,
+      "n": 133,
+      "win_rate": 0.489,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 160,
-      "win_rate_with": 0.481,
+      "n_with": 162,
+      "win_rate_with": 0.475,
       "win_rate_without": 0.0,
       "enough": true
      },
      "qb": {
-      "n_with": 36,
-      "win_rate_with": 0.417,
-      "win_rate_without": 0.496,
+      "n_with": 37,
+      "win_rate_with": 0.405,
+      "win_rate_without": 0.492,
       "enough": true
      },
      "injuries": {
       "n_with": 76,
       "win_rate_with": 0.487,
-      "win_rate_without": 0.471,
+      "win_rate_without": 0.46,
       "enough": true
      },
      "rest": {
       "n_with": 21,
       "win_rate_with": 0.286,
-      "win_rate_without": 0.507,
+      "win_rate_without": 0.5,
       "enough": false
      },
      "travel": {
       "n_with": 23,
       "win_rate_with": 0.348,
-      "win_rate_without": 0.5,
+      "win_rate_without": 0.493,
       "enough": false
      },
      "revenge": {
       "n_with": 37,
       "win_rate_with": 0.432,
-      "win_rate_without": 0.492,
+      "win_rate_without": 0.484,
       "enough": true
      },
      "look-ahead": {
       "n_with": 29,
       "win_rate_with": 0.621,
-      "win_rate_without": 0.447,
+      "win_rate_without": 0.44,
       "enough": false
      }
     }
    },
    "total": {
-    "n": 163,
-    "wins": 71,
-    "losses": 92,
+    "n": 165,
+    "wins": 72,
+    "losses": 93,
     "pushes": 0,
     "win_rate": 0.436,
     "units": 3.3,
-    "avg_clv": 0.01,
-    "n_clv": 146,
-    "brier": 0.252,
+    "avg_clv": -0.01,
+    "n_clv": 148,
+    "brier": 0.2523,
     "calibration": [
      {
       "bucket": "50%-55%",
-      "n": 131,
+      "n": 133,
       "predicted": 0.519,
-      "actual": 0.412
+      "actual": 0.414
      },
      {
       "bucket": "55%-60%",
@@ -147,29 +147,29 @@
       "enough": true
      },
      "No Play": {
-      "n": 141,
-      "win_rate": 0.397,
+      "n": 143,
+      "win_rate": 0.399,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 162,
-      "win_rate_with": 0.432,
+      "n_with": 164,
+      "win_rate_with": 0.433,
       "win_rate_without": 1.0,
       "enough": true
      },
      "qb": {
-      "n_with": 36,
-      "win_rate_with": 0.694,
-      "win_rate_without": 0.362,
+      "n_with": 37,
+      "win_rate_with": 0.676,
+      "win_rate_without": 0.367,
       "enough": true
      },
      "injuries": {
       "n_with": 76,
       "win_rate_with": 0.447,
-      "win_rate_without": 0.425,
+      "win_rate_without": 0.427,
       "enough": true
      },
      "rest": {
@@ -181,33 +181,33 @@
      "travel": {
       "n_with": 23,
       "win_rate_with": 0.609,
-      "win_rate_without": 0.407,
+      "win_rate_without": 0.408,
       "enough": false
      },
      "revenge": {
       "n_with": 37,
       "win_rate_with": 0.351,
-      "win_rate_without": 0.46,
+      "win_rate_without": 0.461,
       "enough": true
      },
      "look-ahead": {
       "n_with": 29,
       "win_rate_with": 0.414,
-      "win_rate_without": 0.44,
+      "win_rate_without": 0.441,
       "enough": false
      }
     }
    },
    "moneyline": {
-    "n": 163,
-    "wins": 60,
-    "losses": 103,
+    "n": 165,
+    "wins": 61,
+    "losses": 104,
     "pushes": 0,
-    "win_rate": 0.368,
+    "win_rate": 0.37,
     "units": -0.35,
     "avg_clv": null,
     "n_clv": 0,
-    "brier": 0.1936,
+    "brier": 0.1933,
     "calibration": [
      {
       "bucket": "0%-45%",
@@ -229,9 +229,9 @@
      },
      {
       "bucket": "55%-60%",
-      "n": 15,
+      "n": 16,
       "predicted": 0.576,
-      "actual": 0.6
+      "actual": 0.562
      },
      {
       "bucket": "60%-70%",
@@ -241,9 +241,9 @@
      },
      {
       "bucket": "70%-100%",
-      "n": 8,
-      "predicted": 0.886,
-      "actual": 0.875
+      "n": 9,
+      "predicted": 0.888,
+      "actual": 0.889
      }
     ],
     "tiers": {
@@ -254,136 +254,136 @@
       "enough": false
      },
      "No Play": {
-      "n": 157,
-      "win_rate": 0.369,
+      "n": 159,
+      "win_rate": 0.371,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 162,
-      "win_rate_with": 0.37,
+      "n_with": 164,
+      "win_rate_with": 0.372,
       "win_rate_without": 0.0,
       "enough": true
      },
      "qb": {
-      "n_with": 36,
-      "win_rate_with": 0.278,
-      "win_rate_without": 0.394,
+      "n_with": 37,
+      "win_rate_with": 0.297,
+      "win_rate_without": 0.391,
       "enough": true
      },
      "injuries": {
       "n_with": 76,
       "win_rate_with": 0.342,
-      "win_rate_without": 0.391,
+      "win_rate_without": 0.393,
       "enough": true
      },
      "rest": {
       "n_with": 21,
       "win_rate_with": 0.333,
-      "win_rate_without": 0.373,
+      "win_rate_without": 0.375,
       "enough": false
      },
      "travel": {
       "n_with": 23,
       "win_rate_with": 0.522,
-      "win_rate_without": 0.343,
+      "win_rate_without": 0.345,
       "enough": false
      },
      "revenge": {
       "n_with": 37,
       "win_rate_with": 0.351,
-      "win_rate_without": 0.373,
+      "win_rate_without": 0.375,
       "enough": true
      },
      "look-ahead": {
       "n_with": 29,
       "win_rate_with": 0.379,
-      "win_rate_without": 0.366,
+      "win_rate_without": 0.368,
       "enough": false
      }
     }
    },
    "teaser_leg": {
-    "n": 326,
-    "wins": 206,
-    "losses": 120,
+    "n": 330,
+    "wins": 207,
+    "losses": 123,
     "pushes": 0,
-    "win_rate": 0.632,
+    "win_rate": 0.627,
     "units": null,
     "avg_clv": null,
     "n_clv": 0,
-    "brier": 0.2338,
+    "brier": 0.236,
     "calibration": [
      {
       "bucket": "55%-60%",
-      "n": 66,
+      "n": 67,
       "predicted": 0.591,
-      "actual": 0.652
+      "actual": 0.642
      },
      {
       "bucket": "60%-70%",
-      "n": 159,
+      "n": 160,
       "predicted": 0.649,
-      "actual": 0.585
+      "actual": 0.588
      },
      {
       "bucket": "70%-100%",
-      "n": 101,
+      "n": 103,
       "predicted": 0.743,
-      "actual": 0.693
+      "actual": 0.68
      }
     ],
     "tiers": {
      "No Play": {
-      "n": 326,
-      "win_rate": 0.632,
+      "n": 330,
+      "win_rate": 0.627,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 324,
-      "win_rate_with": 0.633,
+      "n_with": 328,
+      "win_rate_with": 0.628,
       "win_rate_without": 0.5,
       "enough": true
      },
      "qb": {
-      "n_with": 72,
-      "win_rate_with": 0.736,
+      "n_with": 74,
+      "win_rate_with": 0.716,
       "win_rate_without": 0.602,
       "enough": true
      },
      "injuries": {
       "n_with": 152,
       "win_rate_with": 0.645,
-      "win_rate_without": 0.621,
+      "win_rate_without": 0.612,
       "enough": true
      },
      "rest": {
       "n_with": 42,
       "win_rate_with": 0.5,
-      "win_rate_without": 0.651,
+      "win_rate_without": 0.646,
       "enough": true
      },
      "travel": {
       "n_with": 46,
       "win_rate_with": 0.761,
-      "win_rate_without": 0.611,
+      "win_rate_without": 0.606,
       "enough": true
      },
      "revenge": {
       "n_with": 74,
       "win_rate_with": 0.541,
-      "win_rate_without": 0.659,
+      "win_rate_without": 0.652,
       "enough": true
      },
      "look-ahead": {
       "n_with": 58,
       "win_rate_with": 0.569,
-      "win_rate_without": 0.646,
+      "win_rate_without": 0.64,
       "enough": true
      }
     }
@@ -546,21 +546,21 @@
   },
   "NCAAF": {
    "spread": {
-    "n": 127,
+    "n": 128,
     "wins": 62,
-    "losses": 65,
+    "losses": 66,
     "pushes": 2,
-    "win_rate": 0.488,
+    "win_rate": 0.484,
     "units": -1.5,
-    "avg_clv": 0.02,
-    "n_clv": 121,
+    "avg_clv": 0.01,
+    "n_clv": 122,
     "brier": 0.2502,
     "calibration": [
      {
       "bucket": "50%-55%",
-      "n": 127,
+      "n": 128,
       "predicted": 0.508,
-      "actual": 0.488
+      "actual": 0.484
      }
     ],
     "tiers": {
@@ -571,73 +571,73 @@
       "enough": false
      },
      "No Play": {
-      "n": 124,
-      "win_rate": 0.5,
+      "n": 125,
+      "win_rate": 0.496,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 127,
-      "win_rate_with": 0.488,
+      "n_with": 128,
+      "win_rate_with": 0.484,
       "win_rate_without": null,
       "enough": true
      },
      "qb": {
       "n_with": 2,
       "win_rate_with": 0.0,
-      "win_rate_without": 0.496,
+      "win_rate_without": 0.492,
       "enough": false
      },
      "injuries": {
       "n_with": 59,
       "win_rate_with": 0.508,
-      "win_rate_without": 0.471,
+      "win_rate_without": 0.464,
       "enough": true
      },
      "rest": {
       "n_with": 16,
       "win_rate_with": 0.312,
-      "win_rate_without": 0.514,
+      "win_rate_without": 0.509,
       "enough": false
      },
      "travel": {
       "n_with": 17,
       "win_rate_with": 0.412,
-      "win_rate_without": 0.5,
+      "win_rate_without": 0.495,
       "enough": false
      },
      "revenge": {
       "n_with": 33,
       "win_rate_with": 0.485,
-      "win_rate_without": 0.489,
+      "win_rate_without": 0.484,
       "enough": true
      },
      "look-ahead": {
       "n_with": 26,
       "win_rate_with": 0.654,
-      "win_rate_without": 0.446,
+      "win_rate_without": 0.441,
       "enough": false
      }
     }
    },
    "total": {
-    "n": 129,
-    "wins": 48,
+    "n": 130,
+    "wins": 49,
     "losses": 81,
     "pushes": 0,
-    "win_rate": 0.372,
+    "win_rate": 0.377,
     "units": 1.11,
-    "avg_clv": 0.01,
-    "n_clv": 120,
-    "brier": 0.2556,
+    "avg_clv": -0.01,
+    "n_clv": 121,
+    "brier": 0.2555,
     "calibration": [
      {
       "bucket": "50%-55%",
-      "n": 110,
+      "n": 111,
       "predicted": 0.518,
-      "actual": 0.373
+      "actual": 0.378
      },
      {
       "bucket": "55%-60%",
@@ -660,67 +660,67 @@
       "enough": false
      },
      "No Play": {
-      "n": 116,
-      "win_rate": 0.345,
+      "n": 117,
+      "win_rate": 0.35,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 129,
-      "win_rate_with": 0.372,
+      "n_with": 130,
+      "win_rate_with": 0.377,
       "win_rate_without": null,
       "enough": true
      },
      "qb": {
       "n_with": 2,
       "win_rate_with": 1.0,
-      "win_rate_without": 0.362,
+      "win_rate_without": 0.367,
       "enough": false
      },
      "injuries": {
       "n_with": 59,
       "win_rate_with": 0.373,
-      "win_rate_without": 0.371,
+      "win_rate_without": 0.38,
       "enough": true
      },
      "rest": {
       "n_with": 16,
       "win_rate_with": 0.188,
-      "win_rate_without": 0.398,
+      "win_rate_without": 0.404,
       "enough": false
      },
      "travel": {
       "n_with": 17,
       "win_rate_with": 0.529,
-      "win_rate_without": 0.348,
+      "win_rate_without": 0.354,
       "enough": false
      },
      "revenge": {
       "n_with": 33,
       "win_rate_with": 0.303,
-      "win_rate_without": 0.396,
+      "win_rate_without": 0.402,
       "enough": true
      },
      "look-ahead": {
       "n_with": 26,
       "win_rate_with": 0.346,
-      "win_rate_without": 0.379,
+      "win_rate_without": 0.385,
       "enough": false
      }
     }
    },
    "moneyline": {
-    "n": 129,
+    "n": 130,
     "wins": 51,
-    "losses": 78,
+    "losses": 79,
     "pushes": 0,
-    "win_rate": 0.395,
+    "win_rate": 0.392,
     "units": 0.75,
     "avg_clv": null,
     "n_clv": 0,
-    "brier": 0.2002,
+    "brier": 0.2012,
     "calibration": [
      {
       "bucket": "0%-45%",
@@ -742,9 +742,9 @@
      },
      {
       "bucket": "55%-60%",
-      "n": 13,
-      "predicted": 0.574,
-      "actual": 0.615
+      "n": 14,
+      "predicted": 0.575,
+      "actual": 0.571
      },
      {
       "bucket": "60%-70%",
@@ -767,63 +767,63 @@
       "enough": false
      },
      "No Play": {
-      "n": 128,
-      "win_rate": 0.391,
+      "n": 129,
+      "win_rate": 0.388,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 129,
-      "win_rate_with": 0.395,
+      "n_with": 130,
+      "win_rate_with": 0.392,
       "win_rate_without": null,
       "enough": true
      },
      "qb": {
       "n_with": 2,
       "win_rate_with": 0.5,
-      "win_rate_without": 0.394,
+      "win_rate_without": 0.391,
       "enough": false
      },
      "injuries": {
       "n_with": 59,
       "win_rate_with": 0.373,
-      "win_rate_without": 0.414,
+      "win_rate_without": 0.408,
       "enough": true
      },
      "rest": {
       "n_with": 16,
       "win_rate_with": 0.375,
-      "win_rate_without": 0.398,
+      "win_rate_without": 0.395,
       "enough": false
      },
      "travel": {
       "n_with": 17,
       "win_rate_with": 0.588,
-      "win_rate_without": 0.366,
+      "win_rate_without": 0.363,
       "enough": false
      },
      "revenge": {
       "n_with": 33,
       "win_rate_with": 0.394,
-      "win_rate_without": 0.396,
+      "win_rate_without": 0.392,
       "enough": true
      },
      "look-ahead": {
       "n_with": 26,
       "win_rate_with": 0.423,
-      "win_rate_without": 0.388,
+      "win_rate_without": 0.385,
       "enough": false
      }
     }
    },
    "teaser_leg": {
-    "n": 258,
-    "wins": 156,
-    "losses": 102,
+    "n": 260,
+    "wins": 157,
+    "losses": 103,
     "pushes": 0,
-    "win_rate": 0.605,
+    "win_rate": 0.604,
     "units": null,
     "avg_clv": null,
     "n_clv": 0,
@@ -831,15 +831,15 @@
     "calibration": [
      {
       "bucket": "55%-60%",
-      "n": 66,
+      "n": 67,
       "predicted": 0.591,
-      "actual": 0.652
+      "actual": 0.642
      },
      {
       "bucket": "60%-70%",
-      "n": 155,
+      "n": 156,
       "predicted": 0.648,
-      "actual": 0.594
+      "actual": 0.596
      },
      {
       "bucket": "70%-100%",
@@ -850,16 +850,16 @@
     ],
     "tiers": {
      "No Play": {
-      "n": 258,
-      "win_rate": 0.605,
+      "n": 260,
+      "win_rate": 0.604,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 258,
-      "win_rate_with": 0.605,
+      "n_with": 260,
+      "win_rate_with": 0.604,
       "win_rate_without": null,
       "enough": true
      },
@@ -872,31 +872,31 @@
      "injuries": {
       "n_with": 118,
       "win_rate_with": 0.602,
-      "win_rate_without": 0.607,
+      "win_rate_without": 0.606,
       "enough": true
      },
      "rest": {
       "n_with": 32,
       "win_rate_with": 0.469,
-      "win_rate_without": 0.624,
+      "win_rate_without": 0.623,
       "enough": true
      },
      "travel": {
       "n_with": 34,
       "win_rate_with": 0.706,
-      "win_rate_without": 0.589,
+      "win_rate_without": 0.588,
       "enough": true
      },
      "revenge": {
       "n_with": 66,
       "win_rate_with": 0.53,
-      "win_rate_without": 0.63,
+      "win_rate_without": 0.629,
       "enough": true
      },
      "look-ahead": {
       "n_with": 52,
       "win_rate_with": 0.538,
-      "win_rate_without": 0.621,
+      "win_rate_without": 0.62,
       "enough": true
      }
     }
@@ -1029,15 +1029,15 @@
   },
   "NFL": {
    "spread": {
-    "n": 34,
+    "n": 35,
     "wins": 15,
-    "losses": 19,
+    "losses": 20,
     "pushes": 0,
-    "win_rate": 0.441,
-    "units": -0.76,
-    "avg_clv": 0.31,
-    "n_clv": 29,
-    "brier": 0.2635,
+    "win_rate": 0.429,
+    "units": -1.76,
+    "avg_clv": 0.22,
+    "n_clv": 30,
+    "brier": 0.2656,
     "calibration": [
      {
       "bucket": "50%-55%",
@@ -1047,9 +1047,9 @@
      },
      {
       "bucket": "55%-60%",
-      "n": 10,
-      "predicted": 0.574,
-      "actual": 0.6
+      "n": 11,
+      "predicted": 0.575,
+      "actual": 0.545
      },
      {
       "bucket": "60%-70%",
@@ -1072,9 +1072,9 @@
       "enough": false
      },
      "Strong Play": {
-      "n": 3,
-      "win_rate": 0.667,
-      "units": 0.78,
+      "n": 4,
+      "win_rate": 0.5,
+      "units": -0.22,
       "enough": false
      },
      "Lean": {
@@ -1092,65 +1092,65 @@
     },
     "factors": {
      "weather": {
-      "n_with": 33,
-      "win_rate_with": 0.455,
+      "n_with": 34,
+      "win_rate_with": 0.441,
       "win_rate_without": 0.0,
       "enough": true
      },
      "qb": {
-      "n_with": 34,
-      "win_rate_with": 0.441,
+      "n_with": 35,
+      "win_rate_with": 0.429,
       "win_rate_without": null,
       "enough": true
      },
      "injuries": {
       "n_with": 17,
       "win_rate_with": 0.412,
-      "win_rate_without": 0.471,
+      "win_rate_without": 0.444,
       "enough": false
      },
      "rest": {
       "n_with": 5,
       "win_rate_with": 0.2,
-      "win_rate_without": 0.483,
+      "win_rate_without": 0.467,
       "enough": false
      },
      "travel": {
       "n_with": 6,
       "win_rate_with": 0.167,
-      "win_rate_without": 0.5,
+      "win_rate_without": 0.483,
       "enough": false
      },
      "revenge": {
       "n_with": 4,
       "win_rate_with": 0.0,
-      "win_rate_without": 0.5,
+      "win_rate_without": 0.484,
       "enough": false
      },
      "look-ahead": {
       "n_with": 3,
       "win_rate_with": 0.333,
-      "win_rate_without": 0.452,
+      "win_rate_without": 0.438,
       "enough": false
      }
     }
    },
    "total": {
-    "n": 34,
+    "n": 35,
     "wins": 23,
-    "losses": 11,
+    "losses": 12,
     "pushes": 0,
-    "win_rate": 0.676,
+    "win_rate": 0.657,
     "units": 2.19,
     "avg_clv": 0.0,
-    "n_clv": 26,
-    "brier": 0.2384,
+    "n_clv": 27,
+    "brier": 0.2402,
     "calibration": [
      {
       "bucket": "50%-55%",
-      "n": 21,
-      "predicted": 0.524,
-      "actual": 0.619
+      "n": 22,
+      "predicted": 0.525,
+      "actual": 0.591
      },
      {
       "bucket": "55%-60%",
@@ -1167,67 +1167,67 @@
       "enough": false
      },
      "No Play": {
-      "n": 25,
-      "win_rate": 0.64,
+      "n": 26,
+      "win_rate": 0.615,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 33,
-      "win_rate_with": 0.667,
+      "n_with": 34,
+      "win_rate_with": 0.647,
       "win_rate_without": 1.0,
       "enough": true
      },
      "qb": {
-      "n_with": 34,
-      "win_rate_with": 0.676,
+      "n_with": 35,
+      "win_rate_with": 0.657,
       "win_rate_without": null,
       "enough": true
      },
      "injuries": {
       "n_with": 17,
       "win_rate_with": 0.706,
-      "win_rate_without": 0.647,
+      "win_rate_without": 0.611,
       "enough": false
      },
      "rest": {
       "n_with": 5,
       "win_rate_with": 0.6,
-      "win_rate_without": 0.69,
+      "win_rate_without": 0.667,
       "enough": false
      },
      "travel": {
       "n_with": 6,
       "win_rate_with": 0.833,
-      "win_rate_without": 0.643,
+      "win_rate_without": 0.621,
       "enough": false
      },
      "revenge": {
       "n_with": 4,
       "win_rate_with": 0.75,
-      "win_rate_without": 0.667,
+      "win_rate_without": 0.645,
       "enough": false
      },
      "look-ahead": {
       "n_with": 3,
       "win_rate_with": 1.0,
-      "win_rate_without": 0.645,
+      "win_rate_without": 0.625,
       "enough": false
      }
     }
    },
    "moneyline": {
-    "n": 34,
-    "wins": 9,
+    "n": 35,
+    "wins": 10,
     "losses": 25,
     "pushes": 0,
-    "win_rate": 0.265,
+    "win_rate": 0.286,
     "units": -1.1,
     "avg_clv": null,
     "n_clv": 0,
-    "brier": 0.1686,
+    "brier": 0.164,
     "calibration": [
      {
       "bucket": "0%-45%",
@@ -1252,6 +1252,12 @@
       "n": 7,
       "predicted": 0.645,
       "actual": 0.714
+     },
+     {
+      "bucket": "70%-100%",
+      "n": 1,
+      "predicted": 0.906,
+      "actual": 1.0
      }
     ],
     "tiers": {
@@ -1262,67 +1268,67 @@
       "enough": false
      },
      "No Play": {
-      "n": 29,
-      "win_rate": 0.276,
+      "n": 30,
+      "win_rate": 0.3,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 33,
-      "win_rate_with": 0.273,
+      "n_with": 34,
+      "win_rate_with": 0.294,
       "win_rate_without": 0.0,
       "enough": true
      },
      "qb": {
-      "n_with": 34,
-      "win_rate_with": 0.265,
+      "n_with": 35,
+      "win_rate_with": 0.286,
       "win_rate_without": null,
       "enough": true
      },
      "injuries": {
       "n_with": 17,
       "win_rate_with": 0.235,
-      "win_rate_without": 0.294,
+      "win_rate_without": 0.333,
       "enough": false
      },
      "rest": {
       "n_with": 5,
       "win_rate_with": 0.2,
-      "win_rate_without": 0.276,
+      "win_rate_without": 0.3,
       "enough": false
      },
      "travel": {
       "n_with": 6,
       "win_rate_with": 0.333,
-      "win_rate_without": 0.25,
+      "win_rate_without": 0.276,
       "enough": false
      },
      "revenge": {
       "n_with": 4,
       "win_rate_with": 0.0,
-      "win_rate_without": 0.3,
+      "win_rate_without": 0.323,
       "enough": false
      },
      "look-ahead": {
       "n_with": 3,
       "win_rate_with": 0.0,
-      "win_rate_without": 0.29,
+      "win_rate_without": 0.312,
       "enough": false
      }
     }
    },
    "teaser_leg": {
-    "n": 68,
+    "n": 70,
     "wins": 50,
-    "losses": 18,
+    "losses": 20,
     "pushes": 0,
-    "win_rate": 0.735,
+    "win_rate": 0.714,
     "units": null,
     "avg_clv": null,
     "n_clv": 0,
-    "brier": 0.1943,
+    "brier": 0.2051,
     "calibration": [
      {
       "bucket": "60%-70%",
@@ -1332,60 +1338,60 @@
      },
      {
       "bucket": "70%-100%",
-      "n": 64,
+      "n": 66,
       "predicted": 0.754,
-      "actual": 0.766
+      "actual": 0.742
      }
     ],
     "tiers": {
      "No Play": {
-      "n": 68,
-      "win_rate": 0.735,
+      "n": 70,
+      "win_rate": 0.714,
       "units": 0,
       "enough": true
      }
     },
     "factors": {
      "weather": {
-      "n_with": 66,
-      "win_rate_with": 0.742,
+      "n_with": 68,
+      "win_rate_with": 0.721,
       "win_rate_without": 0.5,
       "enough": true
      },
      "qb": {
-      "n_with": 68,
-      "win_rate_with": 0.735,
+      "n_with": 70,
+      "win_rate_with": 0.714,
       "win_rate_without": null,
       "enough": true
      },
      "injuries": {
       "n_with": 34,
       "win_rate_with": 0.794,
-      "win_rate_without": 0.676,
+      "win_rate_without": 0.639,
       "enough": true
      },
      "rest": {
       "n_with": 10,
       "win_rate_with": 0.6,
-      "win_rate_without": 0.759,
+      "win_rate_without": 0.733,
       "enough": false
      },
      "travel": {
       "n_with": 12,
       "win_rate_with": 0.917,
-      "win_rate_without": 0.696,
+      "win_rate_without": 0.672,
       "enough": false
      },
      "revenge": {
       "n_with": 8,
       "win_rate_with": 0.625,
-      "win_rate_without": 0.75,
+      "win_rate_without": 0.726,
       "enough": false
      },
      "look-ahead": {
       "n_with": 6,
       "win_rate_with": 0.833,
-      "win_rate_without": 0.726,
+      "win_rate_without": 0.703,
       "enough": false
      }
     }
@@ -1536,11 +1542,11 @@
   }
  },
  "notes": [
-  "NCAAF moneyline: n=129, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)",
-  "NCAAF total: n=129, shrink 0.4 -> 0.4 (no meaningful gain; best 0.3, Brier gain 0.0005)",
-  "NCAAF teaser_leg: n=258, shrink 0.55 -> 0.55 (no meaningful gain; best 0.6, Brier gain 0.0001)",
-  "NFL moneyline: n=34, shrink 1.3 -> 1.3 (no meaningful gain; best 1.3, Brier gain 0.0)",
-  "NFL total: n=34, shrink 1.15 -> 1.15 (no meaningful gain; best 1.3, Brier gain 0.0012)",
-  "NFL teaser_leg: n=68, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0003)"
+  "NCAAF moneyline: n=130, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)",
+  "NCAAF total: n=130, shrink 0.4 -> 0.4 (no meaningful gain; best 0.3, Brier gain 0.0005)",
+  "NCAAF teaser_leg: n=260, shrink 0.55 -> 0.55 (no meaningful gain; best 0.6, Brier gain 0.0001)",
+  "NFL moneyline: n=35, shrink 1.3 -> 1.3 (no meaningful gain; best 1.3, Brier gain 0.0)",
+  "NFL total: n=35, shrink 1.15 -> 1.15 (no meaningful gain; best 1.3, Brier gain 0.001)",
+  "NFL teaser_leg: n=70, shrink 1.0 -> 1.0 (no meaningful gain; best 0.85, Brier gain 0.0014)"
  ]
 }
