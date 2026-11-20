@@ -2820,3 +2820,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-20T20:20:56+00:00,reclfwgx3nE8GccBt,401871081,NCAAF,Middle Tennessee @ Sam Houston,2026-11-21,DraftKings,-6.0,48.5,190,-230,-105.0,-115.0,-105.0,-115.0,-5.5
 2026-11-20T20:20:56+00:00,reclpEtKIWqsf5G0x,401858309,NCAAF,Syracuse @ Boston College,2026-11-21,DraftKings,-3.0,52.5,120,-142,-112.0,-108.0,-105.0,-115.0,-3.5
 2026-11-20T20:20:56+00:00,recqHN0qEss3RtmUZ,401873068,NFL,Baltimore Ravens @ Carolina Panthers,2026-11-22,DraftKings,3.0,43.5,-150,127,-105.0,-115.0,-109.0,-110.0,-4.5
+2026-11-20T20:38:57+00:00,rec1bMW82Gl2PPIzw,401873067,NFL,Arizona Cardinals @ Kansas City Chiefs,2026-11-22,Draft Kings,16.5,40.5,-1640,920,-109.0,-110.0,-114.0,-105.0,11.5
+2026-11-20T20:38:57+00:00,recEzeedDH6I9Ar1Z,401856752,NCAAF,Texas A&M @ Oklahoma,2026-11-21,Draft Kings,7.5,37.5,-290,235,102.0,-122.0,-115.0,-105.0,2.5
+2026-11-20T20:38:57+00:00,recPwaY9Z3nCJdrSP,401862831,NCAAF,East Carolina @ Army,2026-11-21,Draft Kings,6.0,46.5,-238,195,-110.0,-110.0,-108.0,-112.0,4.5
+2026-11-20T20:38:57+00:00,recXURSFbLylyhUuX,401871101,NCAAF,South Alabama @ Southern Miss,2026-11-21,Draft Kings,-4.5,66.5,164,-198,-105.0,-115.0,-108.0,-112.0,-5.5
+2026-11-20T20:38:57+00:00,recYI3vKDIRLV1sOY,401873082,NFL,Kansas City Chiefs @ Buffalo Bills,2026-11-26,Draft Kings,3.0,50.5,-161,136,-107.0,-112.0,-118.0,-102.0,2.5
+2026-11-20T20:38:57+00:00,recZOQAfGgbic7P1U,401866468,NCAAF,Bowling Green @ Toledo,2026-11-20,Draft Kings,16.5,46.5,-750,525,-115.0,-105.0,-108.0,-112.0,15.5
+2026-11-20T20:38:57+00:00,recaECO9clr72nsCg,401856871,NCAAF,Texas Tech @ Baylor,2026-11-20,Draft Kings,-4.5,56.5,170,-205,-110.0,-110.0,-112.0,-108.0,-1.5
+2026-11-20T20:38:57+00:00,recr1qJDVd2AaP7Oh,401869958,NCAAF,Georgia State @ Marshall,2026-11-21,Draft Kings,2.5,55.5,-142,120,-118.0,-102.0,-102.0,-118.0,-1.5
+2026-11-20T20:38:57+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,Draft Kings,8.5,47.5,-431,337,-110.0,-110.0,-110.0,-110.0,1.5
