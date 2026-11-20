@@ -83,3 +83,10 @@ ts,record_id,league,game,side,edge_tier,edge,pred_clv,clv_tier,model_n
 2026-11-19 12:10Z,recYI3vKDIRLV1sOY,NFL,Kansas City Chiefs @ Buffalo Bills,Kansas City Chiefs +3 (spread),No Play,-0.2,0.0,No Play,29
 2026-11-19 12:10Z,recj8prfk94D0f9lD,NFL,Chicago Bears @ Detroit Lions,Detroit Lions +2.5 (spread),Strong Play,3.1,0.763,Strong Play,29
 2026-11-19 12:10Z,recspGprBdchkMpgS,NFL,Philadelphia Eagles @ Dallas Cowboys,Dallas Cowboys -8.5 (spread),No Play,0.1,0.181,No Play,29
+2026-11-20 12:11Z,recC0koxY06WEH8N9,NCAAF,Duke @ Wake Forest,Duke +10.5 (spread),No Play,-0.14,-0.002,No Play,109
+2026-11-20 12:11Z,recKR9lPGcmgm0f3w,NFL,Denver Broncos @ Pittsburgh Steelers,Pittsburgh Steelers +1.5 (spread),No Play,0.3,0.02,No Play,29
+2026-11-20 12:11Z,recLCUiMixwswbAbA,NCAAF,Texas @ Texas A&M,Texas -7.5 (spread),No Play,-0.35,0.044,No Play,109
+2026-11-20 12:11Z,recQIMZU4FNKlyAKL,NCAAF,Louisville @ Kentucky,Louisville +1.5 (spread),No Play,-0.52,-0.022,No Play,109
+2026-11-20 12:11Z,reclHShghg4qgW7Wk,NCAAF,Nebraska @ Iowa,Nebraska +6.5 (spread),No Play,-0.39,-0.004,No Play,109
+2026-11-20 12:11Z,recq71YyIpQj8rmRL,NCAAF,Auburn @ Alabama,Alabama -15.5 (spread),No Play,0.25,-0.001,No Play,109
+2026-11-20 12:11Z,recqqRBEzTClzJJ0j,NCAAF,Washington @ Oregon,Oregon -12.5 (spread),No Play,0.46,0.011,No Play,109
