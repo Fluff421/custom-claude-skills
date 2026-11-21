@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-20T23:39:36.298681+00:00",
+  "checked_at": "2026-11-21T00:39:20.248500+00:00",
   "central_date": "2026-11-20",
-  "ready": true,
+  "ready": false,
   "policy": {
     "narrative_hours": 4,
     "grade_hours": 2,
@@ -14,52 +14,54 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.022,
+      "age_hours": 0.016,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 99.727,
+      "age_hours": 100.722,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.001,
+      "age_hours": 0.0,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 99.701,
+      "age_hours": 100.7,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.022,
+      "age_hours": 0.016,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.043,
+      "age_hours": 0.038,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 4,
       "status": "degraded",
       "last_good_age_hours": null,
-      "age_hours": 2.11
+      "age_hours": 0.105
     },
     "espn-sync.yml": {
-      "age_hours": 2.209,
+      "age_hours": 0.205,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 3.314,
+      "age_hours": 4.31,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 3.52,
+      "age_hours": 4.516,
       "max_age_hours": 26
     }
   },
-  "errors": [],
+  "errors": [
+    "picks.yml: age 4.31h outside [0, 4)h (5m clock tolerance)"
+  ],
   "warnings": [
-    "splash_board: 99.73h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 99.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "splash_board: 100.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 100.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
     "injury-pull.yml: latest run is not healthy, successful and LIVE; no good pull on record. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
   ],
   "degraded": [

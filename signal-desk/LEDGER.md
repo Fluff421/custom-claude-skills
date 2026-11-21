@@ -1,8 +1,8 @@
 # Signal Desk Ledger
 
-Auto-generated from the Airtable Signal Desk Ledger by signal-desk/snapshot.py (2026-11-20). Do not edit by hand.
+Auto-generated from the Airtable Signal Desk Ledger by signal-desk/snapshot.py (2026-11-21). Do not edit by hand.
 
-231 graded picks as of 2026-11-20.
+231 graded picks as of 2026-11-21.
 
 ATS: 110-116-2 (n=228)
 ML: 0-0-0 (n=0)
