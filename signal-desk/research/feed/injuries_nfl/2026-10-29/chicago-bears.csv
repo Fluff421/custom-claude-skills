@@ -1,0 +1,6 @@
+league,game,team,player,status,source_url,retrieved_at_utc,verified_or_assumed,espn_event_id,report_type,report_status,position,notes
+NFL,Chicago Bears at Seattle Seahawks,Chicago Bears,T.J. Edwards,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,practice=Full Participation in Practice
+NFL,Chicago Bears at Seattle Seahawks,Chicago Bears,D'Marco Jackson,Limited Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,practice=Limited Participation in Practice
+NFL,Chicago Bears at Seattle Seahawks,Chicago Bears,Kyle Monangai,Did Not Participate In Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,RB,practice=Did Not Participate In Practice
+NFL,Chicago Bears at Seattle Seahawks,Chicago Bears,Malik Muhammad,Limited Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,CB,practice=Limited Participation in Practice
+NFL,Chicago Bears at Seattle Seahawks,Chicago Bears,Jack Sanborn,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,LB,practice=Full Participation in Practice

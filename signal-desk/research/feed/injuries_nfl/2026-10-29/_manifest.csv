@@ -1,0 +1,29 @@
+team,game,file,data_rows,report_status
+Carolina Panthers,Carolina Panthers at Green Bay Packers,carolina-panthers.csv,8,published
+Green Bay Packers,Carolina Panthers at Green Bay Packers,green-bay-packers.csv,9,published
+Cleveland Browns,Cleveland Browns at Pittsburgh Steelers,cleveland-browns.csv,10,published
+Pittsburgh Steelers,Cleveland Browns at Pittsburgh Steelers,pittsburgh-steelers.csv,8,published
+Baltimore Ravens,Baltimore Ravens at Buffalo Bills,baltimore-ravens.csv,15,published
+Buffalo Bills,Baltimore Ravens at Buffalo Bills,buffalo-bills.csv,12,published
+Tennessee Titans,Tennessee Titans at Cincinnati Bengals,tennessee-titans.csv,7,published
+Cincinnati Bengals,Tennessee Titans at Cincinnati Bengals,cincinnati-bengals.csv,6,published
+Arizona Cardinals,Arizona Cardinals at Dallas Cowboys,arizona-cardinals.csv,16,published
+Dallas Cowboys,Arizona Cardinals at Dallas Cowboys,dallas-cowboys.csv,11,published
+Las Vegas Raiders,Las Vegas Raiders at New York Jets,las-vegas-raiders.csv,10,published
+New York Jets,Las Vegas Raiders at New York Jets,new-york-jets.csv,9,published
+Atlanta Falcons,Atlanta Falcons at Tampa Bay Buccaneers,atlanta-falcons.csv,16,published
+Tampa Bay Buccaneers,Atlanta Falcons at Tampa Bay Buccaneers,tampa-bay-buccaneers.csv,10,published
+Minnesota Vikings,Minnesota Vikings at Detroit Lions,minnesota-vikings.csv,4,published
+Detroit Lions,Minnesota Vikings at Detroit Lions,detroit-lions.csv,10,published
+Indianapolis Colts,Indianapolis Colts at Jacksonville Jaguars,indianapolis-colts.csv,11,published
+Jacksonville Jaguars,Indianapolis Colts at Jacksonville Jaguars,jacksonville-jaguars.csv,8,published
+Los Angeles Chargers,Los Angeles Chargers at Los Angeles Rams,los-angeles-chargers.csv,9,published
+Los Angeles Rams,Los Angeles Chargers at Los Angeles Rams,los-angeles-rams.csv,6,published
+New England Patriots,New England Patriots at Miami Dolphins,new-england-patriots.csv,13,published
+Miami Dolphins,New England Patriots at Miami Dolphins,miami-dolphins.csv,13,published
+Kansas City Chiefs,Kansas City Chiefs at Denver Broncos,kansas-city-chiefs.csv,11,published
+Denver Broncos,Kansas City Chiefs at Denver Broncos,denver-broncos.csv,10,published
+Philadelphia Eagles,Philadelphia Eagles at Washington Commanders,philadelphia-eagles.csv,20,published
+Washington Commanders,Philadelphia Eagles at Washington Commanders,washington-commanders.csv,11,published
+Chicago Bears,Chicago Bears at Seattle Seahawks,chicago-bears.csv,5,published
+Seattle Seahawks,Chicago Bears at Seattle Seahawks,seattle-seahawks.csv,1,no_injuries_reported

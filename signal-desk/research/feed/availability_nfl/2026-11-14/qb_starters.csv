@@ -1,0 +1,29 @@
+game,team,side,starter,classification,replacement,evidence_text,source_url,source_date,checked_at_central,verified
+New England Patriots @ Detroit Lions,New England Patriots,away,Drake Maye,starter_playing,,Full participation in practice, no game status on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,true
+New England Patriots @ Detroit Lions,Detroit Lions,home,Jared Goff,starter_playing,,Full participation in practice, no game status on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,true
+Kansas City Chiefs @ Atlanta Falcons,Kansas City Chiefs,away,Patrick Mahomes,starter_playing,,Full participation in practice, no game status on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,true
+Kansas City Chiefs @ Atlanta Falcons,Atlanta Falcons,home,unknown,unknown,,No QB listed on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Minnesota Vikings @ Green Bay Packers,Minnesota Vikings,away,Kirk Cousins,starter_playing,,Coach announced start; Kyler Murray out on official report,https://www.nfl.com/news/kirk-cousins-to-start-for-vikings-vs-packers-week-10,2026-11-13,2026-11-14 21:50 CT,true
+Minnesota Vikings @ Green Bay Packers,Green Bay Packers,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Houston Texans @ Cleveland Browns,Houston Texans,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Houston Texans @ Cleveland Browns,Cleveland Browns,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Miami Dolphins @ Indianapolis Colts,Miami Dolphins,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Miami Dolphins @ Indianapolis Colts,Indianapolis Colts,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Carolina Panthers @ New Orleans Saints,Carolina Panthers,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Carolina Panthers @ New Orleans Saints,New Orleans Saints,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Buffalo Bills @ New York Jets,Buffalo Bills,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Buffalo Bills @ New York Jets,New York Jets,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Jacksonville Jaguars @ Tennessee Titans,Jacksonville Jaguars,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Jacksonville Jaguars @ Tennessee Titans,Tennessee Titans,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Los Angeles Rams @ Arizona Cardinals,Los Angeles Rams,away,Matthew Stafford,starter_playing,,Full participation in practice, no game status on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,true
+Los Angeles Rams @ Arizona Cardinals,Arizona Cardinals,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Seattle Seahawks @ Las Vegas Raiders,Seattle Seahawks,away,Drew Lock,starter_playing,,No injury designation, will start per coach; Sam Darnold out,https://www.nfl.com/news/drew-lock-no-injury-designation-seahawks-raiders,2026-11-13,2026-11-14 21:50 CT,true
+Seattle Seahawks @ Las Vegas Raiders,Las Vegas Raiders,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+San Francisco 49ers @ Dallas Cowboys,San Francisco 49ers,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+San Francisco 49ers @ Dallas Cowboys,Dallas Cowboys,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Pittsburgh Steelers @ Cincinnati Bengals,Pittsburgh Steelers,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Pittsburgh Steelers @ Cincinnati Bengals,Cincinnati Bengals,home,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Los Angeles Chargers @ Baltimore Ravens,Los Angeles Chargers,away,unknown,starter_playing,,No QB listed as out on official injury report,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Los Angeles Chargers @ Baltimore Ravens,Baltimore Ravens,home,unknown,starter_out,,Lamar Jackson on injured reserve per official reserve list,https://www.nfl.com/transactions/league/reserve-list/2026/11,2026-11-05,2026-11-14 21:50 CT,true
+Indianapolis Colts @ Houston Texans,Indianapolis Colts,away,unknown,starter_playing,,No QB listed as out,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false
+Indianapolis Colts @ Houston Texans,Houston Texans,home,unknown,starter_playing,,No QB listed as out,https://www.nfl.com/injuries/,2026-11-14,2026-11-14 21:50 CT,false

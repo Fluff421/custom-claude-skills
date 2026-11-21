@@ -1,0 +1,3 @@
+game,team,side,starter,classification,replacement,evidence_text,source_url,source_date,checked_at_central,verified
+Indianapolis Colts @ Houston Texans,Indianapolis Colts,away,Daniel Jones,starter_playing,,Listed as QB1 on official depth chart released Nov 16; no QB on Week 11 injury report; coach confirmed starter,https://www.colts.com/news/colts-release-unofficial-depth-chart-for-week-11,2026-11-16,2026-11-17 21:45 CT,true
+Indianapolis Colts @ Houston Texans,Houston Texans,home,C.J. Stroud,starter_playing,,No QB listed on official Week 11 injury report (updated Nov 17); active participant in media,https://www.houstontexans.com/news/week-11-injury-report-texans-vs-colts,2026-11-17,2026-11-17 21:45 CT,true
