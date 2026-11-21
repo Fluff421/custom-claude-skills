@@ -1,10 +1,10 @@
-# Pick-time check at the newest Splash lines, 2026-11-21 21:40Z
+# Pick-time check at the newest Splash lines, 2026-11-21 22:40Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 122 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 123 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
-10 Lean-or-better plays at the current Splash lines (44 games checked).
+10 Lean-or-better plays at the current Splash lines (40 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
@@ -25,7 +25,6 @@ Tier or side changed since the early-week line:
 |---|---|---|---|---|---|---|---|
 | Delaware @ New Mexico State | 2026-11-21 | total | Under 52.5 | No Play | 52.4% | 1.96 | was under Lean at the early line |
 | NC State @ Florida State | 2026-11-21 | total | Over 54.5 | No Play | 50.7% | 0.57 | was under No Play at the early line |
-| UL Monroe @ App State | 2026-11-21 | total | Under 50.5 | No Play | 50.0% | 0.03 | was over No Play at the early line |
 
 Strongest 6-point teaser legs at the current lines (two-leg teaser break-even is about 72.4% per leg at -110):
 
