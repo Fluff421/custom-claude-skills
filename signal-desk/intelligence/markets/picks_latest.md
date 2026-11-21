@@ -80,7 +80,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Memphis @ Navy | total | Under 67.5 | 53% | +2.1 pts | No Play | 0 |
 | Memphis @ Navy | moneyline | Memphis ML -148 | 58% | -2.0% | No Play | 0 |
 | North Carolina @ Virginia | spread | North Carolina +1.5 (spread) | 52% |  | No Play | 0 |
-| North Carolina @ Virginia | total | Over 41.5 | 53% | +2.5 pts | Lean | 0.5 |
+| North Carolina @ Virginia | total | Over 42.5 | 53% | +2.2 pts | No Play | 0 |
 | North Carolina @ Virginia | moneyline | Virginia ML -118 | 52% | -1.7% | No Play | 0 |
 | UCF @ Colorado | moneyline | Colorado ML -110 (price estimated from the line) | 52% | +0.0% | No Play | 0 |
 | TCU @ Texas Tech | spread | Texas Tech -10.5 (spread) | 50% |  | No Play | 0 |
@@ -220,9 +220,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 
 - Texas A&M ML +235 + Over 41.5: model 17.6%, needs +540 to break even (reference payout +540), edge +1.9%, No Play
 - Texas A&M ML +235 + Over 45.5: model 17.5%, needs +534 to break even (reference payout +534), edge +1.8%, No Play
-- Texas A&M ML +235 + Over 41.5: model 17.5%, needs +534 to break even (reference payout +534), edge +1.8%, No Play
 - Texas A&M ML +235 + Over 41.5 + Over 45.5: model 9.3%, needs +1111 to break even (reference payout +1111), edge +1.1%, No Play
-- Texas A&M ML +235 + Over 41.5 + Over 41.5: model 9.3%, needs +1111 to break even (reference payout +1111), edge +1.1%, No Play
+- Over 41.5 + Over 45.5: model 28.3%, needs +261 to break even (reference payout +261), edge +0.7%, No Play
 
 ## NFL
 
@@ -239,10 +238,10 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -610 | 90% | +4.0% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -583 | 90% | +5.0% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -581 | 90% | +5.1% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 55% | +1.1 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -178 | 66% | +1.9% | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -179 | 66% | +1.8% | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | total | Under 41.5 | 52% | +0.4 pts | No Play | 0 |
 | New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -171 | 64% | +1.1% | No Play | 0 |
@@ -283,8 +282,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1680 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 62.8%, needs +119 to break even (reference payout +119), edge +17.3%, Max Play
-- Denver Broncos ML -583 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 56.8%, needs +143 to break even (reference payout +143), edge +15.6%, Max Play
-- Kansas City Chiefs ML -1680 + Denver Broncos ML -583 + Carolina Panthers -1.5 (spread): model 56.8%, needs +142 to break even (reference payout +142), edge +15.6%, Max Play
+- Denver Broncos ML -581 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 56.8%, needs +143 to break even (reference payout +143), edge +15.7%, Max Play
+- Kansas City Chiefs ML -1680 + Denver Broncos ML -581 + Carolina Panthers -1.5 (spread): model 56.8%, needs +142 to break even (reference payout +142), edge +15.6%, Max Play
 - Chicago Bears ML -610 + Buffalo Bills ML -1640 + Carolina Panthers -1.5 (spread): model 56.6%, needs +141 to break even (reference payout +141), edge +15.1%, Max Play
 - Kansas City Chiefs ML -1680 + Chicago Bears ML -610 + Carolina Panthers -1.5 (spread): model 56.6%, needs +141 to break even (reference payout +141), edge +15.1%, Max Play
 
