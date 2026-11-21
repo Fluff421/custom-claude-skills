@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-21T15:38:36Z",
+ "generated_at_utc": "2026-11-21T16:38:40Z",
  "generated_for_central_date": "2026-11-21",
  "graded_picks_csv_rows": 237,
  "ledger_health": {
@@ -376,6 +376,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44925551376,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44925551376",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-21T16:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 22,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44920134502,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44920134502",
      "event": "workflow_dispatch",
@@ -412,22 +428,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44909752858",
      "event": "workflow_dispatch",
      "created_at": "2026-11-21T13:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 22,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44904801510,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44904801510",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-21T12:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -723,7 +723,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T11:30:35Z",
-   "age_h": 4.1,
+   "age_h": 5.1,
    "status": "missed"
   },
   {
@@ -732,8 +732,8 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T11:47:09Z",
-   "age_h": 3.9,
-   "status": "ok"
+   "age_h": 4.9,
+   "status": "missed"
   },
   {
    "workflow": "Close & Grade",
@@ -741,7 +741,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-21T11:44:27Z",
-   "age_h": 3.9,
+   "age_h": 4.9,
    "status": "missed"
   },
   {
@@ -750,7 +750,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T20:08:24Z",
-   "age_h": 19.5,
+   "age_h": 20.5,
    "status": "ok"
   },
   {
@@ -759,7 +759,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T21:33:28Z",
-   "age_h": 18.1,
+   "age_h": 19.1,
    "status": "ok"
   },
   {
@@ -768,8 +768,8 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-21T10:02:50Z",
-   "age_h": 5.6,
-   "status": "ok"
+   "age_h": 6.6,
+   "status": "missed"
   },
   {
    "workflow": "NCAAF Injury Pull",
@@ -777,8 +777,8 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T11:38:53Z",
-   "age_h": 4.0,
-   "status": "ok"
+   "age_h": 5.0,
+   "status": "missed"
   }
  ],
  "how_to_read": "workflow health: ok / warn / degraded / failed / unknown. 'success' conclusions are judged from log text, not trusted. Postponed games and schedule_health: ok / missed per workflow (last SCHEDULED run vs tolerated gap; manual runs do not count). same-day games can appear in the ledger_health lists; they are leads, not verdicts."
