@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-21T02:49:49Z",
+ "generated_at_utc": "2026-11-21T03:38:15Z",
  "generated_for_central_date": "2026-11-20",
  "graded_picks_csv_rows": 232,
  "ledger_health": {
@@ -79,25 +79,25 @@
    "upcoming_espn_data_stale": {
     "count": 19,
     "games": [
-     "North Texas @ Tulane (NCAAF, 2026-11-20) (5 h)",
-     "Utah @ TCU (NCAAF, 2026-11-20) (5 h)",
-     "Pittsburgh @ Louisville (NCAAF, 2026-11-20) (5 h)",
-     "Virginia Tech @ Miami (NCAAF, 2026-11-20) (5 h)",
-     "UTEP @ Air Force (NCAAF, 2026-11-20) (5 h)",
-     "BYU @ Kansas (NCAAF, 2026-11-20) (5 h)",
-     "Houston @ West Virginia (NCAAF, 2026-11-20) (5 h)",
-     "Clemson @ Duke (NCAAF, 2026-11-20) (5 h)",
-     "UCLA @ Michigan (NCAAF, 2026-11-20) (5 h)",
-     "Ohio State @ Nebraska (NCAAF, 2026-11-20) (5 h)",
-     "Bowling Green @ Toledo (NCAAF, 2026-11-20) (5 h)",
-     "Texas Tech @ Baylor (NCAAF, 2026-11-20) (5 h)",
-     "Oregon @ Michigan State (NCAAF, 2026-11-20) (5 h)",
-     "Iowa State @ UCF (NCAAF, 2026-11-20) (5 h)",
-     "UTSA @ UAB (NCAAF, 2026-11-20) (5 h)",
-     "Indiana @ Washington (NCAAF, 2026-11-20) (5 h)",
-     "Wake Forest @ Georgia Tech (NCAAF, 2026-11-20) (5 h)",
-     "Arizona @ Kansas State (NCAAF, 2026-11-20) (5 h)",
-     "New Mexico @ Wyoming (NCAAF, 2026-11-20) (5 h)"
+     "North Texas @ Tulane (NCAAF, 2026-11-20) (6 h)",
+     "Utah @ TCU (NCAAF, 2026-11-20) (6 h)",
+     "Pittsburgh @ Louisville (NCAAF, 2026-11-20) (6 h)",
+     "Virginia Tech @ Miami (NCAAF, 2026-11-20) (6 h)",
+     "UTEP @ Air Force (NCAAF, 2026-11-20) (6 h)",
+     "BYU @ Kansas (NCAAF, 2026-11-20) (6 h)",
+     "Houston @ West Virginia (NCAAF, 2026-11-20) (6 h)",
+     "Clemson @ Duke (NCAAF, 2026-11-20) (6 h)",
+     "UCLA @ Michigan (NCAAF, 2026-11-20) (6 h)",
+     "Ohio State @ Nebraska (NCAAF, 2026-11-20) (6 h)",
+     "Bowling Green @ Toledo (NCAAF, 2026-11-20) (6 h)",
+     "Texas Tech @ Baylor (NCAAF, 2026-11-20) (6 h)",
+     "Oregon @ Michigan State (NCAAF, 2026-11-20) (6 h)",
+     "Iowa State @ UCF (NCAAF, 2026-11-20) (6 h)",
+     "UTSA @ UAB (NCAAF, 2026-11-20) (6 h)",
+     "Indiana @ Washington (NCAAF, 2026-11-20) (6 h)",
+     "Wake Forest @ Georgia Tech (NCAAF, 2026-11-20) (6 h)",
+     "Arizona @ Kansas State (NCAAF, 2026-11-20) (6 h)",
+     "New Mexico @ Wyoming (NCAAF, 2026-11-20) (6 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -120,6 +120,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 44861184582,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44861184582",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-21T03:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 84,
+      "rows_changed": 18,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44856987800,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44856987800",
@@ -173,24 +191,6 @@
       "rows_changed": 84,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44812950673,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44812950673",
-     "event": "schedule",
-     "created_at": "2026-11-20T20:36:51Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 103,
-      "rows_changed": 27,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -201,6 +201,23 @@
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "runs": [
+    {
+     "run_id": 44858011498,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44858011498",
+     "event": "schedule",
+     "created_at": "2026-11-21T02:50:11Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44810506143,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44810506143",
@@ -245,24 +262,14 @@
       "units_recapped": 0,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44733742427,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44733742427",
-     "event": "schedule",
-     "created_at": "2026-11-20T12:11:44Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "new_picks": 7,
-      "units_recapped": 0,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [
+    {
+     "run_id": 44861739972,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44861739972",
+     "created_at": "2026-11-21T03:33:29Z"
+    },
     {
      "run_id": 44857496146,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44857496146",
@@ -352,25 +359,31 @@
      "run_id": 44525000112,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44525000112",
      "created_at": "2026-11-19T12:33:35Z"
-    },
-    {
-     "run_id": 44520142113,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44520142113",
-     "created_at": "2026-11-19T12:02:13Z"
-    },
-    {
-     "run_id": 44497488234,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44497488234",
-     "created_at": "2026-11-19T09:33:20Z"
     }
    ],
    "gate_skipped": [],
-   "latest_health": "ok"
+   "latest_health": "failed"
   },
   {
    "workflow": "Close & Grade",
    "file": "close-grade.yml",
    "runs": [
+    {
+     "run_id": 44862048173,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44862048173",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-21T03:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 22,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44857866787,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44857866787",
@@ -418,22 +431,6 @@
       "calibration_upserts": 22,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44845006521,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44845006521",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-21T00:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 22,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -444,6 +441,32 @@
    "workflow": "NCAAF Injury Pull",
    "file": "injury-pull.yml",
    "runs": [
+    {
+     "run_id": 44861702332,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44861702332",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-21T03:33:02Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: DraftEdge parsed 454 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: verified 27/43 games; /games/2026-11-21-colorado-state-at-fresno-state/"
+      ],
+      "mode": "LIVE",
+      "injury_games_expected": 43,
+      "injury_games_covered": 27,
+      "injury_games_not_yet_due": 12,
+      "injury_games_overdue": 0,
+      "injury_games_independent": 1,
+      "fpi_missing": 0
+     },
+     "error_lines": [
+      "ERROR: DraftEdge parsed 454 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: verified 27/43 games; /games/2026-11-21-colorado-state-at-fresno-state"
+     ]
+    },
     {
      "run_id": 44857465707,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44857465707",
@@ -501,32 +524,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44821306331",
      "event": "workflow_dispatch",
      "created_at": "2026-11-20T21:33:02Z",
-     "conclusion": "failure",
-     "health": "failed",
-     "reasons": [
-      "conclusion=failure"
-     ],
-     "summary": {
-      "warnings": [
-       "WARN: DraftEdge parsed 451 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizon"
-      ],
-      "mode": "LIVE",
-      "injury_games_expected": 0,
-      "injury_games_covered": 0,
-      "injury_games_not_yet_due": 0,
-      "injury_games_overdue": 0,
-      "injury_games_independent": 0,
-      "fpi_missing": 0
-     },
-     "error_lines": [
-      "ERROR: DraftEdge parsed 451 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-20', 'arizo"
-     ]
-    },
-    {
-     "run_id": 44813382497,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44813382497",
-     "event": "schedule",
-     "created_at": "2026-11-20T20:39:51Z",
      "conclusion": "failure",
      "health": "failed",
      "reasons": [
@@ -724,7 +721,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T02:38:21Z",
-   "age_h": 0.2,
+   "age_h": 1.0,
    "status": "ok"
   },
   {
@@ -732,9 +729,9 @@
    "file": "picks.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-20T20:43:48Z",
-   "age_h": 6.1,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-21T02:50:11Z",
+   "age_h": 0.8,
+   "status": "ok"
   },
   {
    "workflow": "Close & Grade",
@@ -742,7 +739,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-21T02:48:31Z",
-   "age_h": 0.0,
+   "age_h": 0.8,
    "status": "ok"
   },
   {
@@ -751,7 +748,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T20:08:24Z",
-   "age_h": 6.7,
+   "age_h": 7.5,
    "status": "ok"
   },
   {
@@ -760,7 +757,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T21:33:28Z",
-   "age_h": 5.3,
+   "age_h": 6.1,
    "status": "ok"
   },
   {
@@ -769,7 +766,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-21T01:39:36Z",
-   "age_h": 1.2,
+   "age_h": 2.0,
    "status": "ok"
   },
   {
@@ -778,7 +775,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T02:43:56Z",
-   "age_h": 0.1,
+   "age_h": 0.9,
    "status": "ok"
   }
  ],

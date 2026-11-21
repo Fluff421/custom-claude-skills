@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T02:51:12.139281+00:00",
- "snapshot_age_hours": 102.9,
+ "generated_at": "2026-11-21T03:39:28.373082+00:00",
+ "snapshot_age_hours": 103.7,
  "games": [
   {
    "game": "Arizona @ Kansas State",
@@ -1547,8 +1547,8 @@
    "moneyline": {
     "pick": "Nevada ML -178",
     "tier": "No Play",
-    "prob": 0.6311,
-    "edge": -0.0092,
+    "prob": 0.6398,
+    "edge": -0.0005,
     "model_ml_side": "away"
    }
   },
