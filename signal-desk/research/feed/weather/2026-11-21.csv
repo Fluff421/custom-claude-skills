@@ -1,0 +1,8 @@
+game,league,kickoff_central,venue,roof,forecast_temp_f,wind_mph,precip_pct,source_url,forecast_issued_at,checked_at_central
+Miami Dolphins @ Buffalo Bills,NFL,2026-11-22 12:00,Highmark Stadium,outdoor,64,5-8,0,https://forecast.weather.gov/MapClick.php?lat=42.8864&lon=-78.8784&unit=0&lg=english&FcstType=text&TextType=2,2026-11-21 01:22 EST,2026-11-21 12:45 CT
+Baltimore Ravens @ Carolina Panthers,NFL,2026-11-22 12:00,Bank of America Stadium,outdoor,65,5-12,60,https://forecast.weather.gov/MapClick.php?lat=35.2273&lon=-80.8508&FcstType=text&unit=1&lg=en,2026-11-21 01:23 EST,2026-11-21 12:45 CT
+New Orleans Saints @ Chicago Bears,NFL,2026-11-22 12:00,Soldier Field,outdoor,59,10-15,90,https://forecast.weather.gov/MapClick.php?textField1=41.882222&textField2=-87.634722,2026-11-21 12:21 CST,2026-11-21 12:45 CT
+Arizona Cardinals @ Kansas City Chiefs,NFL,2026-11-22 12:00,GEHA Field at Arrowhead Stadium,outdoor,unknown,unknown,unknown,unknown,unknown,2026-11-21 12:45 CT
+Jacksonville Jaguars @ New York Giants,NFL,2026-11-22 12:00,MetLife Stadium,outdoor,unknown,unknown,unknown,unknown,unknown,2026-11-21 12:45 CT
+Las Vegas Raiders @ Denver Broncos,NFL,2026-11-22 15:25,Empower Field at Mile High,outdoor,unknown,unknown,unknown,unknown,unknown,2026-11-21 12:45 CT
+Pittsburgh Steelers @ Philadelphia Eagles,NFL,2026-11-22 15:25,Lincoln Financial Field,outdoor,unknown,unknown,unknown,unknown,unknown,2026-11-21 12:45 CT
