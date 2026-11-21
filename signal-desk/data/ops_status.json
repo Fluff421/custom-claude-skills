@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-21T12:39:56Z",
+ "generated_at_utc": "2026-11-21T12:42:29Z",
  "generated_for_central_date": "2026-11-21",
  "graded_picks_csv_rows": 237,
  "ledger_health": {
@@ -736,7 +736,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-21T11:44:27Z",
-   "age_h": 0.9,
+   "age_h": 1.0,
    "status": "ok"
   },
   {
@@ -745,7 +745,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T20:08:24Z",
-   "age_h": 16.5,
+   "age_h": 16.6,
    "status": "ok"
   },
   {
@@ -754,7 +754,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T21:33:28Z",
-   "age_h": 15.1,
+   "age_h": 15.2,
    "status": "ok"
   },
   {
@@ -763,7 +763,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-21T10:02:50Z",
-   "age_h": 2.6,
+   "age_h": 2.7,
    "status": "ok"
   },
   {
@@ -772,7 +772,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T11:38:53Z",
-   "age_h": 1.0,
+   "age_h": 1.1,
    "status": "ok"
   }
  ],
