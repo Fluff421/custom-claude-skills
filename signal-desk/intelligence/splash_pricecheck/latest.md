@@ -1,8 +1,8 @@
-# Pick-time check at the newest Splash lines, 2026-11-21 17:56Z
+# Pick-time check at the newest Splash lines, 2026-11-21 18:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 118 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 119 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
 11 Lean-or-better plays at the current Splash lines (53 games checked).
 
@@ -14,10 +14,10 @@ Warning: the newest Splash snapshot is 118 hours old. Paste a fresh File 1 dump 
 | Northwestern @ Minnesota | 2026-11-21 | total | Over 41.5 | Lean | 53.3% | 2.69 | was over No Play at the early line |
 | Arizona Cardinals @ Kansas City Chiefs | 2026-11-22 | spread | Arizona Cardinals +15.5 | Lean | 50.0% | -2.5 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | total | Over 40.5 | Lean | 59.7% | 2.13 |  |
-| Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.9 |  |
+| Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.8 |  |
 | New Orleans Saints @ Chicago Bears | 2026-11-22 | total | Under 48.5 | Lean | 57.3% | 1.59 |  |
 | New York Jets @ Los Angeles Chargers | 2026-11-22 | spread | Los Angeles Chargers -3.5 | Lean | 50.0% | 1.3 |  |
-| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Lean | 50.0% | 2.1 |  |
+| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Lean | 50.0% | 2.3 |  |
 | Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | spread | Tampa Bay Buccaneers +6.5 | Lean | 50.0% | -2.2 |  |
 
 Tier or side changed since the early-week line:

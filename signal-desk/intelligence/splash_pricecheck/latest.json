@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T17:56:46.449339+00:00",
- "snapshot_age_hours": 118.0,
+ "generated_at": "2026-11-21T18:39:18.144458+00:00",
+ "snapshot_age_hours": 118.7,
  "games": [
   {
    "game": "Arkansas @ Texas",
@@ -597,8 +597,8 @@
    "moneyline": {
     "pick": "Marshall ML -108",
     "tier": "No Play",
-    "prob": 0.509,
-    "edge": -0.0102,
+    "prob": 0.5183,
+    "edge": -0.0009,
     "model_ml_side": "away"
    }
   },
@@ -647,8 +647,8 @@
    "moneyline": {
     "pick": "Nevada ML -178",
     "tier": "No Play",
-    "prob": 0.6406,
-    "edge": 0.0003,
+    "prob": 0.6579,
+    "edge": 0.0176,
     "model_ml_side": "away"
    }
   },
@@ -945,10 +945,10 @@
     }
    },
    "moneyline": {
-    "pick": "Middle Tennessee ML -205",
+    "pick": "Sam Houston ML +168",
     "tier": "No Play",
-    "prob": 0.653,
-    "edge": -0.0192,
+    "prob": 0.3557,
+    "edge": -0.0174,
     "model_ml_side": "home"
    }
   },
@@ -997,8 +997,8 @@
    "moneyline": {
     "pick": "Missouri State ML +330",
     "tier": "No Play",
-    "prob": 0.2278,
-    "edge": -0.0047,
+    "prob": 0.214,
+    "edge": -0.0186,
     "model_ml_side": "home"
    }
   },
@@ -1447,9 +1447,9 @@
    "moneyline": {
     "pick": "Boise State ML -781",
     "tier": "No Play",
-    "prob": 0.9038,
-    "edge": 0.0173,
-    "model_ml_side": "home"
+    "prob": 0.9187,
+    "edge": 0.0323,
+    "model_ml_side": "away"
    }
   },
   {
@@ -1495,10 +1495,10 @@
     }
    },
    "moneyline": {
-    "pick": "Southern Miss ML +158",
+    "pick": "South Alabama ML -188",
     "tier": "No Play",
-    "prob": 0.3836,
-    "edge": -0.004,
+    "prob": 0.6341,
+    "edge": -0.0187,
     "model_ml_side": "home"
    }
   },
@@ -2097,8 +2097,8 @@
    "moneyline": {
     "pick": "Arizona Cardinals ML +870",
     "tier": "No Play",
-    "prob": 0.1073,
-    "edge": 0.0042,
+    "prob": 0.118,
+    "edge": 0.015,
     "model_ml_side": "home"
    }
   },
@@ -2271,7 +2271,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.9,
+    "edge": 1.8,
     "proj": 18.2,
     "import_side": "",
     "import_tier": "",
@@ -2347,8 +2347,8 @@
    "moneyline": {
     "pick": "Minnesota Vikings ML +142",
     "tier": "No Play",
-    "prob": 0.4052,
-    "edge": -0.0081,
+    "prob": 0.3943,
+    "edge": -0.0189,
     "model_ml_side": "home"
    }
   },
@@ -2471,7 +2471,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 2.1,
+    "edge": 2.3,
     "proj": -2.6999999999999993,
     "import_side": "",
     "import_tier": "",
@@ -2547,8 +2547,8 @@
    "moneyline": {
     "pick": "Tampa Bay Buccaneers ML +215",
     "tier": "No Play",
-    "prob": 0.3396,
-    "edge": 0.0221,
+    "prob": 0.3603,
+    "edge": 0.0429,
     "model_ml_side": "home"
    }
   },
@@ -2620,8 +2620,8 @@
     "pick": "Cincinnati Bengals -5.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5193,
-    "edge": -0.6,
+    "prob": 0.5097,
+    "edge": -0.3,
     "proj": -6.199999999999999,
     "import_side": "",
     "import_tier": "",
