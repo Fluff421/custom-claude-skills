@@ -161,7 +161,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1660 | 101% | Strong Play | 1.0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | Lean | 0.5 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -610 | 90% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -600 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -620 | 90% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 60% | Lean | 0.5 |
@@ -175,6 +175,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -149 | 66% | Strong Play | 1.0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -404 | 84% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 53.5 | 57% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -377 | 82% | Lean | 0.5 |
 - NCAAF parlay: Texas A&M ML +235 + Over 41.5 | model 17.6%, needs +540 to break even, edge +2.0%, No Play
 - NCAAF parlay: Texas A&M ML +235 + Over 41.5 | model 17.5%, needs +534 to break even, edge +1.8%, No Play
 - NCAAF parlay: Texas A&M ML +235 + Over 41.5 + Over 41.5 | model 9.3%, needs +1111 to break even, edge +1.1%, No Play
