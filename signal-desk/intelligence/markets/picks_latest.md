@@ -46,7 +46,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Notre Dame @ Syracuse | moneyline | Syracuse ML +1051 (price estimated from the line) | 8% | -0.5% | No Play | 0 |
 | Delaware @ New Mexico State | spread | New Mexico State +3.5 (spread) | 50% |  | No Play | 0 |
 | Delaware @ New Mexico State | total | Under 53.5 | 53% | +2.3 pts | No Play | 0 |
-| Delaware @ New Mexico State | moneyline | Delaware ML -135 | 57% | -0.3% | No Play | 0 |
+| Delaware @ New Mexico State | moneyline | Delaware ML -125 | 57% | +1.6% | No Play | 0 |
 | Rutgers @ Penn State | spread | Rutgers +22.5 (spread) | 50% |  | No Play | 0 |
 | Rutgers @ Penn State | total | Over 48.5 | 52% | +1.4 pts | No Play | 0 |
 | Rutgers @ Penn State | moneyline | Penn State ML -3200 | 95% | -1.7% | No Play | 0 |
@@ -144,9 +144,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
 | Hawai'i @ Nevada | moneyline | Hawai'i ML +210 | 33% | +0.8% | No Play | 0 |
-| Iowa @ Illinois | spread | Illinois +6.5 (spread) | 50% |  | No Play | 0 |
-| Iowa @ Illinois | total | Over 40.5 | 51% | +1.2 pts | No Play | 0 |
-| Iowa @ Illinois | moneyline | Illinois ML +260 | 30% | +2.0% | No Play | 0 |
 | Nebraska @ Iowa | spread | Nebraska +6.5 (spread) | 51% |  | No Play | 0 |
 | Nebraska @ Iowa | total | Over 38.5 | 52% | +1.2 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +194 (price estimated from the line) | 34% | +0.3% | No Play | 0 |
@@ -190,7 +187,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 |---|---|---|---|---|---|---|
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Over 37.5 | 51% | +0.3 pts | No Play | 0 |
-| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +164 | 36% | -1.4% | No Play | 0 |
+| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +160 | 36% | -2.0% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 52% | +0.3 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1520 | 100% | +6.1% | Strong Play | 1 |
