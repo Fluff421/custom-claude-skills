@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T19:26:13.305722+00:00",
- "snapshot_age_hours": 119.5,
+ "generated_at": "2026-11-21T19:39:38.095787+00:00",
+ "snapshot_age_hours": 119.7,
  "games": [
   {
    "game": "Arkansas @ Texas",
@@ -347,8 +347,8 @@
    "moneyline": {
     "pick": "New Mexico State ML +142",
     "tier": "No Play",
-    "prob": 0.4129,
-    "edge": -0.0003,
+    "prob": 0.422,
+    "edge": 0.0088,
     "model_ml_side": "away"
    }
   },
@@ -1297,8 +1297,8 @@
    "moneyline": {
     "pick": "Old Dominion ML +430",
     "tier": "No Play",
-    "prob": 0.1814,
-    "edge": -0.0073,
+    "prob": 0.1753,
+    "edge": -0.0134,
     "model_ml_side": "away"
    }
   },
@@ -1345,10 +1345,10 @@
     }
    },
    "moneyline": {
-    "pick": "Penn State ML -3448",
+    "pick": "Rutgers ML +1400",
     "tier": "No Play",
-    "prob": 0.9534,
-    "edge": -0.0184,
+    "prob": 0.0513,
+    "edge": -0.0153,
     "model_ml_side": "away"
    }
   },
@@ -1847,8 +1847,8 @@
    "moneyline": {
     "pick": "Utah State ML +270",
     "tier": "No Play",
-    "prob": 0.2891,
-    "edge": 0.0188,
+    "prob": 0.2971,
+    "edge": 0.0269,
     "model_ml_side": "home"
    }
   },
@@ -2170,8 +2170,8 @@
     "pick": "Jacksonville Jaguars -6.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5161,
-    "edge": -0.5,
+    "prob": 0.5032,
+    "edge": -0.1,
     "proj": -8.0,
     "import_side": "",
     "import_tier": "",
@@ -2271,7 +2271,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.8,
+    "edge": 1.5,
     "proj": 18.2,
     "import_side": "",
     "import_tier": "",
@@ -2347,8 +2347,8 @@
    "moneyline": {
     "pick": "Minnesota Vikings ML +142",
     "tier": "No Play",
-    "prob": 0.3943,
-    "edge": -0.0189,
+    "prob": 0.4052,
+    "edge": -0.0081,
     "model_ml_side": "home"
    }
   },
@@ -2570,8 +2570,8 @@
     "pick": "Dallas Cowboys -7.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5225,
-    "edge": 0.7,
+    "prob": 0.529,
+    "edge": 0.9,
     "proj": 9.9,
     "import_side": "",
     "import_tier": "",
