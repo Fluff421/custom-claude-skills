@@ -31,7 +31,7 @@ Overall graded picks: 116-119 (Brier 0.2571).
 - New York Jets @ Los Angeles Chargers: QB: HOME QB PLAYING Justin Herbert [auto espn 2026-11-20] | AWAY QB QUESTIONABLE Geno Smith -> Cade Klubnik [auto espn 2026-11-20]; weather: 64F, wind 11mph, precip 2% | sev=0.25 | open-meteo
 - Pittsburgh Steelers @ Philadelphia Eagles: weather: 58F, wind 8mph, precip 84% | sev=0.40 | open-meteo
 
-Tracking picks (paper, 0u): 54. Examples: Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread); San Diego State @ Boise State -> Boise State -16.5 (spread); SMU @ Notre Dame -> Notre Dame -16.5 (spread)
+Tracking picks (paper, 0u): 58. Examples: Northern Illinois @ North Dakota State -> Northern Illinois +24.5 (spread); Charlotte @ Tulsa -> Tulsa -18.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Arkansas @ Texas -> Texas -21 (spread); Rutgers @ Penn State -> Rutgers +22.5 (spread); San Diego State @ Boise State -> Boise State -16.5 (spread)
 
 ## Recently closed (last 7 days)
 
