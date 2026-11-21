@@ -52,7 +52,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Tulsa @ UTSA | moneyline | UTSA ML -110 (price estimated from the line) | 51% | -1.8% | No Play | 0 |
 | LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
 | LSU @ Tennessee | total | Over 45.5 | 52% | +1.7 pts | No Play | 0 |
-| LSU @ Tennessee | moneyline | LSU ML -118 | 53% | -0.8% | No Play | 0 |
+| LSU @ Tennessee | moneyline | LSU ML -122 | 53% | -1.6% | No Play | 0 |
 | Old Dominion @ UConn | spread | Old Dominion +14 (spread) | 50% |  | No Play | 0 |
 | Old Dominion @ UConn | total | Over 48.5 | 51% | +1.2 pts | No Play | 0 |
 | Old Dominion @ UConn | moneyline | Old Dominion ML +440 | 18% | -1.0% | No Play | 0 |
@@ -72,14 +72,11 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | TCU @ Texas Tech | moneyline | TCU ML +304 (price estimated from the line) | 24% | -0.8% | No Play | 0 |
 | Michigan State @ Rutgers | moneyline | Michigan State ML -110 (price estimated from the line) | 62% | +9.4% | No Play | 0 |
 | Buffalo @ Akron | moneyline | Buffalo ML -110 (price estimated from the line) | 76% | +23.4% | No Play | 0 |
-| East Carolina @ Army | spread | Army -4.5 (spread) | 50% |  | No Play | 0 |
-| East Carolina @ Army | total | Over 45.5 | 53% | +2.1 pts | No Play | 0 |
-| East Carolina @ Army | moneyline | East Carolina ML +164 | 38% | +0.3% | No Play | 0 |
 | Louisville @ Kentucky | spread | Louisville +1.5 (spread) | 51% |  | No Play | 0 |
 | Louisville @ Kentucky | total | Over 54.5 | 51% | +1.0 pts | No Play | 0 |
 | Louisville @ Kentucky | moneyline | Louisville ML +113 (price estimated from the line) | 48% | +0.6% | No Play | 0 |
 | Maryland @ USC | spread | USC -16.5 (spread) | 51% |  | No Play | 0 |
-| Maryland @ USC | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
+| Maryland @ USC | total | Under 57.5 | 50% | +0.4 pts | No Play | 0 |
 | Maryland @ USC | moneyline | Maryland ML +625 | 12% | -2.1% | No Play | 0 |
 | Utah State @ Oregon State | spread | Oregon State -9.5 (spread) | 51% |  | No Play | 0 |
 | Utah State @ Oregon State | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
@@ -99,9 +96,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
 | South Alabama @ Southern Miss | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
 | South Alabama @ Southern Miss | moneyline | Southern Miss ML +170 | 38% | +1.2% | No Play | 0 |
-| Colorado @ Cincinnati | spread | Cincinnati -2.5 (spread) | 50% |  | No Play | 0 |
-| Colorado @ Cincinnati | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
-| Colorado @ Cincinnati | moneyline | Colorado ML +136 | 42% | -0.6% | No Play | 0 |
 | Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
 | Georgia Southern @ Troy | total | Under 47.5 | 50% | +0.3 pts | No Play | 0 |
 | Georgia Southern @ Troy | moneyline | Troy ML +250 | 29% | +0.0% | No Play | 0 |
@@ -141,15 +135,12 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
 | Hawai'i @ Nevada | moneyline | Hawai'i ML +210 | 33% | +0.8% | No Play | 0 |
+| Iowa @ Illinois | spread | Illinois +6.5 (spread) | 50% |  | No Play | 0 |
+| Iowa @ Illinois | total | Over 42.5 | 51% | +0.6 pts | No Play | 0 |
+| Iowa @ Illinois | moneyline | Illinois ML +245 | 32% | +2.8% | No Play | 0 |
 | Nebraska @ Iowa | spread | Nebraska +6.5 (spread) | 51% |  | No Play | 0 |
 | Nebraska @ Iowa | total | Over 38.5 | 52% | +1.2 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +194 (price estimated from the line) | 34% | +0.3% | No Play | 0 |
-| Middle Tennessee @ Sam Houston | spread | Sam Houston +5.5 (spread) | 50% |  | No Play | 0 |
-| Middle Tennessee @ Sam Houston | total | Over 47.5 | 51% | +0.4 pts | No Play | 0 |
-| Middle Tennessee @ Sam Houston | moneyline | Sam Houston ML +190 | 35% | +0.5% | No Play | 0 |
-| Syracuse @ Boston College | spread | Syracuse -3.5 (spread) | 50% |  | No Play | 0 |
-| Syracuse @ Boston College | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
-| Syracuse @ Boston College | moneyline | Boston College ML +130 | 42% | -1.9% | No Play | 0 |
 | Arkansas @ Texas | spread | Texas -21 (spread) | 51% |  | No Play | 0 |
 | Arkansas @ Texas | total | Over 46.5 | 51% | +0.8 pts | No Play | 0 |
 | Arkansas @ Texas | moneyline | Arkansas ML +800 | 10% | -1.1% | No Play | 0 |
@@ -187,7 +178,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +160 | 36% | -2.0% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 52% | +0.3 pts | No Play | 0 |
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1620 | 100% | +5.8% | Lean | 0.5 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1560 | 100% | +6.0% | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | +1.6 pts | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -580 | 90% | +4.7% | Lean | 0.5 |
@@ -236,11 +227,11 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1620 + Under 51.5 + Buffalo Bills ML -1540: model 68.1%, needs +110 to break even (reference payout +110), edge +20.4%, Max Play
+- Kansas City Chiefs ML -1560 + Under 51.5 + Buffalo Bills ML -1540: model 68.1%, needs +110 to break even (reference payout +110), edge +20.5%, Max Play
 - Chicago Bears ML -580 + Under 51.5 + Buffalo Bills ML -1540: model 61.3%, needs +132 to break even (reference payout +132), edge +18.1%, Max Play
-- Kansas City Chiefs ML -1620 + Chicago Bears ML -580 + Under 51.5: model 61.3%, needs +131 to break even (reference payout +131), edge +18.0%, Max Play
+- Kansas City Chiefs ML -1560 + Chicago Bears ML -580 + Under 51.5: model 61.3%, needs +131 to break even (reference payout +131), edge +18.1%, Max Play
 - Denver Broncos ML -620 + Under 51.5 + Buffalo Bills ML -1540: model 61.6%, needs +129 to break even (reference payout +129), edge +18.0%, Max Play
-- Kansas City Chiefs ML -1620 + Denver Broncos ML -620 + Under 51.5: model 61.6%, needs +129 to break even (reference payout +129), edge +17.9%, Max Play
+- Kansas City Chiefs ML -1560 + Denver Broncos ML -620 + Under 51.5: model 61.6%, needs +129 to break even (reference payout +129), edge +18.0%, Max Play
 
 ### NFL Best 6-point teasers
 
