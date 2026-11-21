@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T14:40:22.316646+00:00",
- "snapshot_age_hours": 114.7,
+ "generated_at": "2026-11-21T15:39:26.479998+00:00",
+ "snapshot_age_hours": 115.7,
  "games": [
   {
    "game": "Arkansas @ Texas",
@@ -47,9 +47,9 @@
    "moneyline": {
     "pick": "Arkansas ML +920",
     "tier": "No Play",
-    "prob": 0.0795,
-    "edge": -0.0186,
-    "model_ml_side": "away"
+    "prob": 0.0942,
+    "edge": -0.0038,
+    "model_ml_side": "home"
    }
   },
   {
@@ -1097,8 +1097,8 @@
    "moneyline": {
     "pick": "North Carolina ML -102",
     "tier": "No Play",
-    "prob": 0.4928,
-    "edge": -0.0121,
+    "prob": 0.5486,
+    "edge": 0.0436,
     "model_ml_side": "away"
    }
   },
@@ -1197,8 +1197,8 @@
    "moneyline": {
     "pick": "Northwestern ML -152",
     "tier": "No Play",
-    "prob": 0.6243,
-    "edge": 0.0211,
+    "prob": 0.6331,
+    "edge": 0.0299,
     "model_ml_side": "away"
    }
   },
@@ -1447,8 +1447,8 @@
    "moneyline": {
     "pick": "Boise State ML -781",
     "tier": "No Play",
-    "prob": 0.8956,
-    "edge": 0.0091,
+    "prob": 0.9038,
+    "edge": 0.0173,
     "model_ml_side": "home"
    }
   },
@@ -1847,8 +1847,8 @@
    "moneyline": {
     "pick": "Utah State ML +270",
     "tier": "No Play",
-    "prob": 0.2734,
-    "edge": 0.0031,
+    "prob": 0.2891,
+    "edge": 0.0188,
     "model_ml_side": "home"
    }
   },
@@ -2047,8 +2047,8 @@
    "moneyline": {
     "pick": "Purdue ML +180",
     "tier": "No Play",
-    "prob": 0.3564,
-    "edge": -0.0007,
+    "prob": 0.3829,
+    "edge": 0.0257,
     "model_ml_side": "home"
    }
   },
