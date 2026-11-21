@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-11-21T01:38:25Z",
+ "generated_at_utc": "2026-11-21T02:38:53Z",
  "generated_for_central_date": "2026-11-20",
- "graded_picks_csv_rows": 231,
+ "graded_picks_csv_rows": 232,
  "ledger_health": {
   "games_today_or_later": 103,
   "games_before_today": 76,
@@ -79,25 +79,25 @@
    "upcoming_espn_data_stale": {
     "count": 19,
     "games": [
-     "North Texas @ Tulane (NCAAF, 2026-11-20) (4 h)",
-     "Utah @ TCU (NCAAF, 2026-11-20) (4 h)",
-     "Pittsburgh @ Louisville (NCAAF, 2026-11-20) (4 h)",
-     "Virginia Tech @ Miami (NCAAF, 2026-11-20) (4 h)",
-     "UTEP @ Air Force (NCAAF, 2026-11-20) (4 h)",
-     "BYU @ Kansas (NCAAF, 2026-11-20) (4 h)",
-     "Houston @ West Virginia (NCAAF, 2026-11-20) (4 h)",
-     "Clemson @ Duke (NCAAF, 2026-11-20) (4 h)",
-     "UCLA @ Michigan (NCAAF, 2026-11-20) (4 h)",
-     "Ohio State @ Nebraska (NCAAF, 2026-11-20) (4 h)",
-     "Bowling Green @ Toledo (NCAAF, 2026-11-20) (4 h)",
-     "Texas Tech @ Baylor (NCAAF, 2026-11-20) (4 h)",
-     "Oregon @ Michigan State (NCAAF, 2026-11-20) (4 h)",
-     "Iowa State @ UCF (NCAAF, 2026-11-20) (4 h)",
-     "UTSA @ UAB (NCAAF, 2026-11-20) (4 h)",
-     "Indiana @ Washington (NCAAF, 2026-11-20) (4 h)",
-     "Wake Forest @ Georgia Tech (NCAAF, 2026-11-20) (4 h)",
-     "Arizona @ Kansas State (NCAAF, 2026-11-20) (4 h)",
-     "New Mexico @ Wyoming (NCAAF, 2026-11-20) (4 h)"
+     "North Texas @ Tulane (NCAAF, 2026-11-20) (5 h)",
+     "Utah @ TCU (NCAAF, 2026-11-20) (5 h)",
+     "Pittsburgh @ Louisville (NCAAF, 2026-11-20) (5 h)",
+     "Virginia Tech @ Miami (NCAAF, 2026-11-20) (5 h)",
+     "UTEP @ Air Force (NCAAF, 2026-11-20) (5 h)",
+     "BYU @ Kansas (NCAAF, 2026-11-20) (5 h)",
+     "Houston @ West Virginia (NCAAF, 2026-11-20) (5 h)",
+     "Clemson @ Duke (NCAAF, 2026-11-20) (5 h)",
+     "UCLA @ Michigan (NCAAF, 2026-11-20) (5 h)",
+     "Ohio State @ Nebraska (NCAAF, 2026-11-20) (5 h)",
+     "Bowling Green @ Toledo (NCAAF, 2026-11-20) (5 h)",
+     "Texas Tech @ Baylor (NCAAF, 2026-11-20) (5 h)",
+     "Oregon @ Michigan State (NCAAF, 2026-11-20) (5 h)",
+     "Iowa State @ UCF (NCAAF, 2026-11-20) (5 h)",
+     "UTSA @ UAB (NCAAF, 2026-11-20) (5 h)",
+     "Indiana @ Washington (NCAAF, 2026-11-20) (5 h)",
+     "Wake Forest @ Georgia Tech (NCAAF, 2026-11-20) (5 h)",
+     "Arizona @ Kansas State (NCAAF, 2026-11-20) (5 h)",
+     "New Mexico @ Wyoming (NCAAF, 2026-11-20) (5 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -372,6 +372,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44856873216,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44856873216",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-21T02:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 1,
+      "leg_patches": 0,
+      "calibration_upserts": 22,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44851216561,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44851216561",
      "event": "workflow_dispatch",
@@ -408,22 +424,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44838108179",
      "event": "workflow_dispatch",
      "created_at": "2026-11-20T23:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 22,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44830421867,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44830421867",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-20T22:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -656,6 +656,20 @@
    "file": "grade-bim-board.yml",
    "runs": [
     {
+     "run_id": 44851467243,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44851467243",
+     "event": "schedule",
+     "created_at": "2026-11-21T01:39:36Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "rows_updated": 0,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44795496049,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44795496049",
      "event": "schedule",
@@ -696,20 +710,6 @@
       "rows_updated": 0,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44578240606,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44578240606",
-     "event": "schedule",
-     "created_at": "2026-11-19T17:32:16Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "rows_updated": 0,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -723,9 +723,9 @@
    "file": "espn-sync.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-20T20:36:51Z",
-   "age_h": 5.0,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-21T02:38:21Z",
+   "age_h": 0.0,
+   "status": "ok"
   },
   {
    "workflow": "Pick Engine",
@@ -733,7 +733,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-20T20:43:48Z",
-   "age_h": 4.9,
+   "age_h": 5.9,
    "status": "missed"
   },
   {
@@ -742,7 +742,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-20T21:31:27Z",
-   "age_h": 4.1,
+   "age_h": 5.1,
    "status": "missed"
   },
   {
@@ -751,7 +751,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T20:08:24Z",
-   "age_h": 5.5,
+   "age_h": 6.5,
    "status": "ok"
   },
   {
@@ -760,7 +760,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-20T21:33:28Z",
-   "age_h": 4.1,
+   "age_h": 5.1,
    "status": "ok"
   },
   {
@@ -768,9 +768,9 @@
    "file": "grade-bim-board.yml",
    "expected_every_h": 2,
    "max_gap_h": 6,
-   "last_scheduled_run_utc": "2026-11-20T18:43:45Z",
-   "age_h": 6.9,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-21T01:39:36Z",
+   "age_h": 1.0,
+   "status": "ok"
   },
   {
    "workflow": "NCAAF Injury Pull",
@@ -778,7 +778,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-20T20:39:51Z",
-   "age_h": 5.0,
+   "age_h": 6.0,
    "status": "missed"
   }
  ],
