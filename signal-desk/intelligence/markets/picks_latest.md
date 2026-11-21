@@ -16,9 +16,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Oklahoma @ Missouri | spread | Oklahoma +1.5 (spread) | 50% |  | No Play | 0 |
 | Oklahoma @ Missouri | total | Over 42.5 | 52% | +1.9 pts | No Play | 0 |
 | Oklahoma @ Missouri | moneyline | Oklahoma ML +113 (price estimated from the line) | 46% | -0.7% | No Play | 0 |
-| Charlotte @ Tulsa | spread | Tulsa -18.5 (spread) | 52% |  | No Play | 0 |
-| Charlotte @ Tulsa | total | Over 51.5 | 51% | +0.4 pts | No Play | 0 |
-| Charlotte @ Tulsa | moneyline | Tulsa ML -2100 | 94% | -1.9% | No Play | 0 |
 | North Dakota State @ San José State | moneyline | North Dakota State ML -110 (price estimated from the line) | 78% | +25.2% | No Play | 0 |
 | Arizona State @ Arizona | moneyline | Arizona ML -110 (price estimated from the line) | 79% | +26.2% | No Play | 0 |
 | Temple @ Memphis | moneyline | Memphis ML -110 (price estimated from the line) | 90% | +37.5% | No Play | 0 |
@@ -66,7 +63,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Old Dominion @ UConn | total | Over 48.5 | 51% | +1.2 pts | No Play | 0 |
 | Old Dominion @ UConn | moneyline | Old Dominion ML +440 | 18% | -1.0% | No Play | 0 |
 | South Florida @ Florida Atlantic | spread | South Florida -1.5 (spread) | 50% |  | No Play | 0 |
-| South Florida @ Florida Atlantic | total | Under 63.5 | 52% | +1.4 pts | No Play | 0 |
+| South Florida @ Florida Atlantic | total | Under 62.5 | 51% | +1.1 pts | No Play | 0 |
 | South Florida @ Florida Atlantic | moneyline | South Florida ML -125 | 56% | +0.8% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 41.5 | 52% | +1.9 pts | No Play | 0 |
@@ -156,9 +153,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Nebraska @ Iowa | spread | Nebraska +6.5 (spread) | 51% |  | No Play | 0 |
 | Nebraska @ Iowa | total | Over 38.5 | 52% | +1.2 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +194 (price estimated from the line) | 34% | +0.3% | No Play | 0 |
-| Syracuse @ Boston College | spread | Syracuse -3.5 (spread) | 50% |  | No Play | 0 |
-| Syracuse @ Boston College | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
-| Syracuse @ Boston College | moneyline | Boston College ML +130 | 42% | -1.9% | No Play | 0 |
 | Florida International @ Kennesaw State | spread | Kennesaw State -3 (spread) | 50% |  | No Play | 0 |
 | Florida International @ Kennesaw State | total | Over 44.5 | 50% | +0.0 pts | No Play | 0 |
 | Florida International @ Kennesaw State | moneyline | Kennesaw State ML -122 | 57% | +2.4% | No Play | 0 |
@@ -202,7 +196,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1480 | 100% | +6.3% | Strong Play | 1 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | +1.6 pts | Lean | 0.5 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -581 | 90% | +4.7% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -574 | 90% | +4.8% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -620 | 90% | +4.2% | Lean | 0.5 |
@@ -249,8 +243,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1480 + Under 51.5 + Buffalo Bills ML -1540: model 68.1%, needs +111 to break even (reference payout +111), edge +20.7%, Max Play
-- Kansas City Chiefs ML -1480 + Chicago Bears ML -581 + Under 51.5: model 61.3%, needs +132 to break even (reference payout +132), edge +18.2%, Max Play
-- Chicago Bears ML -581 + Under 51.5 + Buffalo Bills ML -1540: model 61.3%, needs +132 to break even (reference payout +132), edge +18.1%, Max Play
+- Kansas City Chiefs ML -1480 + Chicago Bears ML -574 + Under 51.5: model 61.3%, needs +132 to break even (reference payout +132), edge +18.3%, Max Play
+- Chicago Bears ML -574 + Under 51.5 + Buffalo Bills ML -1540: model 61.3%, needs +132 to break even (reference payout +132), edge +18.2%, Max Play
 - Kansas City Chiefs ML -1480 + Denver Broncos ML -620 + Under 51.5: model 61.6%, needs +130 to break even (reference payout +130), edge +18.1%, Max Play
 - Denver Broncos ML -620 + Under 51.5 + Buffalo Bills ML -1540: model 61.6%, needs +129 to break even (reference payout +129), edge +18.0%, Max Play
 
