@@ -178,7 +178,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Florida International @ Kennesaw State | moneyline | Kennesaw State ML -125 | 57% | +1.8% | No Play | 0 |
 | Northwestern @ Minnesota | spread | Northwestern -3 (spread) | 52% |  | No Play | 0 |
 | Northwestern @ Minnesota | total | Over 41.5 | 53% | +2.7 pts | Lean | 0.5 |
-| Northwestern @ Minnesota | moneyline | Northwestern ML -135 | 59% | +2.0% | No Play | 0 |
+| Northwestern @ Minnesota | moneyline | Northwestern ML -130 | 59% | +2.9% | No Play | 0 |
 | Arkansas @ Texas | spread | Texas -21 (spread) | 51% |  | No Play | 0 |
 | Arkansas @ Texas | total | Over 47.5 | 51% | +0.6 pts | No Play | 0 |
 | Arkansas @ Texas | moneyline | Arkansas ML +900 | 8% | -1.8% | No Play | 0 |
