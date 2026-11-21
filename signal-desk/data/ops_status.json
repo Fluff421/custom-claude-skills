@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-21T19:48:12Z",
+ "generated_at_utc": "2026-11-21T20:15:03Z",
  "generated_for_central_date": "2026-11-21",
  "graded_picks_csv_rows": 237,
  "ledger_health": {
@@ -629,6 +629,20 @@
    "file": "snapshot.yml",
    "runs": [
     {
+     "run_id": 44942929897,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44942929897",
+     "event": "schedule",
+     "created_at": "2026-11-21T19:48:48Z",
+     "conclusion": "success",
+     "health": "warn",
+     "reasons": [
+      "no summary lines found in log"
+     ],
+     "summary": {
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44821374282,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44821374282",
      "event": "schedule",
@@ -640,25 +654,11 @@
       "mode": "LIVE",
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44814208202,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44814208202",
-     "event": "schedule",
-     "created_at": "2026-11-20T20:45:22Z",
-     "conclusion": "success",
-     "health": "warn",
-     "reasons": [
-      "no summary lines found in log"
-     ],
-     "summary": {
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
    "gate_skipped": [],
-   "latest_health": "ok"
+   "latest_health": "warn"
   },
   {
    "workflow": "BIM Grader",
@@ -733,7 +733,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T19:36:05Z",
-   "age_h": 0.2,
+   "age_h": 0.6,
    "status": "ok"
   },
   {
@@ -742,7 +742,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T19:47:06Z",
-   "age_h": 0.0,
+   "age_h": 0.5,
    "status": "ok"
   },
   {
@@ -751,7 +751,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-21T19:45:40Z",
-   "age_h": 0.0,
+   "age_h": 0.5,
    "status": "ok"
   },
   {
@@ -760,7 +760,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-21T19:10:14Z",
-   "age_h": 0.6,
+   "age_h": 1.1,
    "status": "ok"
   },
   {
@@ -768,8 +768,8 @@
    "file": "snapshot.yml",
    "expected_every_h": 24,
    "max_gap_h": 26,
-   "last_scheduled_run_utc": "2026-11-20T21:33:28Z",
-   "age_h": 22.2,
+   "last_scheduled_run_utc": "2026-11-21T20:14:49Z",
+   "age_h": 0.0,
    "status": "ok"
   },
   {
@@ -778,7 +778,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-21T17:42:50Z",
-   "age_h": 2.1,
+   "age_h": 2.5,
    "status": "ok"
   },
   {
@@ -787,7 +787,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-21T19:42:04Z",
-   "age_h": 0.1,
+   "age_h": 0.5,
    "status": "ok"
   }
  ],

@@ -159,9 +159,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1520 | 100% | Strong Play | 1.0 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1620 | 100% | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | Lean | 0.5 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -579 | 90% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -580 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -620 | 90% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -157 | 65% | Lean | 0.5 |
@@ -174,10 +174,10 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -148 | 66% | Strong Play | 1.0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -404 | 84% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 58% | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -358 | 82% | Lean | 0.5 |
-- NFL parlay: Kansas City Chiefs ML -1520 + Under 51.5 + Buffalo Bills ML -1540 | model 68.1%, needs +111 to break even, edge +20.6%, Max Play
-- NFL parlay: Kansas City Chiefs ML -1520 + Chicago Bears ML -579 + Under 51.5 | model 61.3%, needs +132 to break even, edge +18.2%, Max Play
-- NFL parlay: Chicago Bears ML -579 + Under 51.5 + Buffalo Bills ML -1540 | model 61.3%, needs +132 to break even, edge +18.2%, Max Play
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -356 | 82% | Lean | 0.5 |
+- NFL parlay: Kansas City Chiefs ML -1620 + Under 51.5 + Buffalo Bills ML -1540 | model 68.1%, needs +110 to break even, edge +20.4%, Max Play
+- NFL parlay: Chicago Bears ML -580 + Under 51.5 + Buffalo Bills ML -1540 | model 61.3%, needs +132 to break even, edge +18.1%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1620 + Chicago Bears ML -580 + Under 51.5 | model 61.3%, needs +131 to break even, edge +18.0%, Max Play
 - NFL teaser: Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 53.1%, needs +160 to break even, edge +14.7%, Max Play
 - NFL teaser: Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Under 54.5 -> 60.5 | model 52.6%, needs +160 to break even, edge +14.1%, Max Play
 - NFL teaser: Under 51.5 -> 57.5 + Over 40.5 -> 34.5 + Under 54.5 -> 60.5 | model 52.3%, needs +160 to break even, edge +13.9%, Max Play
