@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T20:39:37.661619+00:00",
- "snapshot_age_hours": 120.7,
+ "generated_at": "2026-11-21T21:39:56.657791+00:00",
+ "snapshot_age_hours": 121.7,
  "games": [
   {
    "game": "Arkansas @ Texas",
@@ -903,56 +903,6 @@
    }
   },
   {
-   "game": "North Carolina @ Virginia",
-   "record_id": "recN1veRxzuLsTCnY",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": 1.5,
-   "splash_total": 43.5,
-   "import_home_margin": null,
-   "import_total": 43.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recN1veRxzuLsTCnY",
-   "model_status": "",
-   "spread": {
-    "pick": "North Carolina +1.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5189,
-    "edge": -0.71,
-    "proj": -2.5999999999999996,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "North Carolina +7.5 (teased)",
-     "prob": 0.6792
-    }
-   },
-   "total": {
-    "pick": "Over 43.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5237,
-    "edge": 1.94,
-    "proj": 45.44,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 37.5 (teased)",
-     "prob": 0.7293
-    }
-   },
-   "moneyline": {
-    "pick": "North Carolina ML -102",
-    "tier": "No Play",
-    "prob": 0.5486,
-    "edge": 0.0436,
-    "model_ml_side": "away"
-   }
-  },
-  {
    "game": "Northern Illinois @ North Dakota State",
    "record_id": "recBHbl1JKZVHdRA3",
    "league": "NCAAF",
@@ -1403,56 +1353,6 @@
    }
   },
   {
-   "game": "Syracuse @ Boston College",
-   "record_id": "reclpEtKIWqsf5G0x",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": -2.5,
-   "splash_total": 50.5,
-   "import_home_margin": null,
-   "import_total": 50.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "reclpEtKIWqsf5G0x",
-   "model_status": "",
-   "spread": {
-    "pick": "Syracuse -2.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5077,
-    "edge": -0.29,
-    "proj": -4.300000000000001,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Syracuse +3.5 (teased)",
-     "prob": 0.6643
-    }
-   },
-   "total": {
-    "pick": "Over 50.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5098,
-    "edge": 0.8,
-    "proj": 51.3,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 44.5 (teased)",
-     "prob": 0.6994
-    }
-   },
-   "moneyline": {
-    "pick": "Syracuse ML -132",
-    "tier": "No Play",
-    "prob": 0.5894,
-    "edge": 0.0204,
-    "model_ml_side": "away"
-   }
-  },
-  {
    "game": "Texas A&M @ Oklahoma",
    "record_id": "recEzeedDH6I9Ar1Z",
    "league": "NCAAF",
@@ -1703,56 +1603,6 @@
    }
   },
   {
-   "game": "Western Kentucky @ Liberty",
-   "record_id": "reczK8E46Un8CWWGS",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": 16.5,
-   "splash_total": 52.5,
-   "import_home_margin": null,
-   "import_total": 53.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "reczK8E46Un8CWWGS",
-   "model_status": "",
-   "spread": {
-    "pick": "Liberty -16.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5136,
-    "edge": 0.51,
-    "proj": 20.0,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Liberty -10.5 (teased)",
-     "prob": 0.6524
-    }
-   },
-   "total": {
-    "pick": "Over 52.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.502,
-    "edge": 0.16,
-    "proj": 52.66,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 46.5 (teased)",
-     "prob": 0.6822
-    }
-   },
-   "moneyline": {
-    "pick": "Liberty ML -952",
-    "tier": "No Play",
-    "prob": 0.8881,
-    "edge": -0.0168,
-    "model_ml_side": "home"
-   }
-  },
-  {
    "game": "Arizona Cardinals @ Kansas City Chiefs",
    "record_id": "rec1bMW82Gl2PPIzw",
    "league": "NFL",
@@ -1971,7 +1821,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.5,
+    "edge": 1.6,
     "proj": 18.2,
     "import_side": "",
     "import_tier": "",
@@ -2121,7 +1971,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.2,
+    "edge": 1.4,
     "proj": 4.3999999999999995,
     "import_side": "",
     "import_tier": "",
@@ -2169,9 +2019,9 @@
    "spread": {
     "pick": "Philadelphia Eagles +4.5",
     "side": "home",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": 2.4,
+    "tier": "Strong Play",
+    "prob": 0.5926,
+    "edge": 2.9,
     "proj": -2.6999999999999993,
     "import_side": "",
     "import_tier": "",
