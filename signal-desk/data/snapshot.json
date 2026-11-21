@@ -1,12 +1,12 @@
 {
  "date": "2026-11-21",
- "generated_at": "2026-11-21T22:38:33.739964+00:00",
+ "generated_at": "2026-11-21T23:38:30.406173+00:00",
  "nfl_week": 8,
  "ncaaf_week": 9,
  "ledger": {
   "ats": {
-   "hits": 121,
-   "misses": 128,
+   "hits": 123,
+   "misses": 130,
    "pushes": 3
   },
   "ml": {
@@ -34,10 +34,10 @@
    "avg_clv": 0.18
   },
   "No Play": {
-   "hits": 81,
-   "misses": 79,
+   "hits": 83,
+   "misses": 81,
    "pushes": 3,
-   "avg_clv": 0.02
+   "avg_clv": 0.03
   },
   "Strong Play": {
    "hits": 7,
@@ -46,6 +46,6 @@
    "avg_clv": 0.64
   }
  },
- "graded_picks": 255,
+ "graded_picks": 259,
  "notes": "Generated from Airtable by signal-desk/snapshot.py. Ensemble weight 0."
 }

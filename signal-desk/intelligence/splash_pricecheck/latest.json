@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T22:40:25.089333+00:00",
- "snapshot_age_hours": 122.7,
+ "generated_at": "2026-11-21T23:39:48.173805+00:00",
+ "snapshot_age_hours": 123.7,
  "games": [
   {
    "game": "Arkansas @ Texas",
@@ -103,56 +103,6 @@
    }
   },
   {
-   "game": "Coastal Carolina @ Louisiana",
-   "record_id": "recdKfOxzoWpwNzmE",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": 10.5,
-   "splash_total": 51.5,
-   "import_home_margin": null,
-   "import_total": 50.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recdKfOxzoWpwNzmE",
-   "model_status": "",
-   "spread": {
-    "pick": "Louisiana -10.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5062,
-    "edge": 0.23,
-    "proj": 11.100000000000001,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Louisiana -4.5 (teased)",
-     "prob": 0.6495
-    }
-   },
-   "total": {
-    "pick": "Over 51.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5025,
-    "edge": 0.21,
-    "proj": 51.71,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 45.5 (teased)",
-     "prob": 0.6835
-    }
-   },
-   "moneyline": {
-    "pick": "Coastal Carolina ML +330",
-    "tier": "No Play",
-    "prob": 0.2382,
-    "edge": 0.0057,
-    "model_ml_side": "away"
-   }
-  },
-  {
    "game": "Colorado State @ Fresno State",
    "record_id": "recBWcZ5vJx1Anl8m",
    "league": "NCAAF",
@@ -200,106 +150,6 @@
     "prob": 0.9103,
     "edge": -0.0156,
     "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Delaware @ New Mexico State",
-   "record_id": "recG7zCYLcccieCvX",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": -3.5,
-   "splash_total": 52.5,
-   "import_home_margin": null,
-   "import_total": 54.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recG7zCYLcccieCvX",
-   "model_status": "",
-   "spread": {
-    "pick": "New Mexico State +3.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5058,
-    "edge": 0.22,
-    "proj": -4.0,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "New Mexico State +9.5 (teased)",
-     "prob": 0.6626
-    }
-   },
-   "total": {
-    "pick": "Under 52.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.524,
-    "edge": 1.96,
-    "proj": 50.54,
-    "import_side": "under",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Under 58.5 (teased)",
-     "prob": 0.7299
-    }
-   },
-   "moneyline": {
-    "pick": "New Mexico State ML +142",
-    "tier": "No Play",
-    "prob": 0.422,
-    "edge": 0.0088,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Florida International @ Kennesaw State",
-   "record_id": "recmwmcZbfaOar6zX",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 44.5,
-   "import_home_margin": null,
-   "import_total": 44.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recmwmcZbfaOar6zX",
-   "model_status": "",
-   "spread": {
-    "pick": "Kennesaw State -3.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5019,
-    "edge": 0.07,
-    "proj": 4.4,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Kennesaw State +2.5 (teased)",
-     "prob": 0.6537
-    }
-   },
-   "total": {
-    "pick": "Over 44.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5003,
-    "edge": 0.02,
-    "proj": 44.52,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 38.5 (teased)",
-     "prob": 0.6785
-    }
-   },
-   "moneyline": {
-    "pick": "Florida International ML +132",
-    "tier": "No Play",
-    "prob": 0.4189,
-    "edge": -0.0121,
-    "model_ml_side": "home"
    }
   },
   {
@@ -500,56 +350,6 @@
     "prob": 0.6579,
     "edge": 0.0176,
     "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Iowa @ Illinois",
-   "record_id": "reckwNilHUe4AfHjo",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": -8.5,
-   "splash_total": 41.5,
-   "import_home_margin": null,
-   "import_total": 40.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "reckwNilHUe4AfHjo",
-   "model_status": "",
-   "spread": {
-    "pick": "Illinois +8.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5138,
-    "edge": 0.52,
-    "proj": -4.7,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Illinois +14.5 (teased)",
-     "prob": 0.6821
-    }
-   },
-   "total": {
-    "pick": "Over 41.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5106,
-    "edge": 0.87,
-    "proj": 42.37,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 35.5 (teased)",
-     "prob": 0.7013
-    }
-   },
-   "moneyline": {
-    "pick": "Illinois ML +255",
-    "tier": "No Play",
-    "prob": 0.3118,
-    "edge": 0.0301,
-    "model_ml_side": "home"
    }
   },
   {
