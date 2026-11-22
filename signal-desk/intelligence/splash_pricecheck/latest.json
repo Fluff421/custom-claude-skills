@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T11:40:08.163330+00:00",
- "snapshot_age_hours": 135.7,
+ "generated_at": "2026-11-22T12:31:57.517147+00:00",
+ "snapshot_age_hours": 136.6,
  "games": [
   {
    "game": "Arizona Cardinals @ Kansas City Chiefs",
@@ -17,31 +17,31 @@
    "ledger_record_id": "rec1bMW82Gl2PPIzw",
    "model_status": "",
    "spread": {
-    "pick": "Arizona Cardinals +15.5",
-    "side": "away",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": -2.8,
+    "pick": "Kansas City Chiefs -15.5",
+    "side": "home",
+    "tier": "No Play",
+    "prob": 0.5064,
+    "edge": 0.2,
     "proj": 13.2,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
-     "pick": "Arizona Cardinals +21.5 (teased)",
-     "prob": 0.7266
+     "pick": "Kansas City Chiefs -9.5 (teased)",
+     "prob": 0.6343
     }
    },
    "total": {
-    "pick": "Over 41.5",
-    "side": "over",
+    "pick": "Under 41.5",
+    "side": "under",
     "tier": "No Play",
-    "prob": 0.5018,
-    "edge": 0.04,
-    "proj": 41.54,
-    "import_side": "over",
+    "prob": 0.5497,
+    "edge": 1.09,
+    "proj": 40.41,
+    "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Over 35.5 (teased)",
-     "prob": 0.7271
+     "pick": "Under 47.5 (teased)",
+     "prob": 0.7607
     }
    },
    "moneyline": {
@@ -120,8 +120,8 @@
     "pick": "Jacksonville Jaguars -6.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5032,
-    "edge": -0.1,
+    "prob": 0.5129,
+    "edge": -0.4,
     "proj": -8.0,
     "import_side": "",
     "import_tier": "",
@@ -133,15 +133,15 @@
    "total": {
     "pick": "Under 46.5",
     "side": "under",
-    "tier": "Lean",
-    "prob": 0.5742,
-    "edge": 1.62,
-    "proj": 44.88,
+    "tier": "No Play",
+    "prob": 0.5195,
+    "edge": 0.42,
+    "proj": 46.08,
     "import_side": "under",
-    "import_tier": "Lean",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 52.5 (teased)",
-     "prob": 0.7771
+     "prob": 0.7397
     }
    },
    "moneyline": {
@@ -297,8 +297,8 @@
    "moneyline": {
     "pick": "Minnesota Vikings ML +142",
     "tier": "No Play",
-    "prob": 0.4052,
-    "edge": -0.0081,
+    "prob": 0.3943,
+    "edge": -0.0189,
     "model_ml_side": "home"
    }
   },
@@ -371,7 +371,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.4,
+    "edge": 1.5,
     "proj": 4.3999999999999995,
     "import_side": "",
     "import_tier": "",
@@ -384,14 +384,14 @@
     "pick": "Over 40.5",
     "side": "over",
     "tier": "No Play",
-    "prob": 0.5139,
-    "edge": 0.3,
-    "proj": 40.8,
+    "prob": 0.5482,
+    "edge": 1.05,
+    "proj": 41.55,
     "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Over 34.5 (teased)",
-     "prob": 0.7357
+     "prob": 0.7597
     }
    },
    "moneyline": {
@@ -420,8 +420,8 @@
     "pick": "Philadelphia Eagles +4.5",
     "side": "home",
     "tier": "Strong Play",
-    "prob": 0.602,
-    "edge": 3.2,
+    "prob": 0.5989,
+    "edge": 3.1,
     "proj": -2.6999999999999993,
     "import_side": "",
     "import_tier": "",
@@ -431,17 +431,17 @@
     }
    },
    "total": {
-    "pick": "Under 38.5",
-    "side": "under",
+    "pick": "Over 38.5",
+    "side": "over",
     "tier": "No Play",
-    "prob": 0.5006,
-    "edge": 0.01,
-    "proj": 38.49,
-    "import_side": "under",
+    "prob": 0.5543,
+    "edge": 1.19,
+    "proj": 39.69,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
-     "pick": "Under 44.5 (teased)",
-     "prob": 0.7262
+     "pick": "Over 32.5 (teased)",
+     "prob": 0.7638
     }
    },
    "moneyline": {
