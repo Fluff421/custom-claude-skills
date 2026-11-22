@@ -1,1 +1,35 @@
-PLACEHOLDER
+game,team,side,starter,classification,replacement,evidence_text,source_url,source_date,checked_at_central,verified
+Pittsburgh Steelers @ Philadelphia Eagles,Pittsburgh Steelers,away,unknown,unknown,,No QB listed on official injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Pittsburgh Steelers @ Philadelphia Eagles,Philadelphia Eagles,home,unknown,unknown,,No QB listed on official injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Arizona Cardinals @ Kansas City Chiefs,Arizona Cardinals,away,Carson Beck,starter_out,Josh Johnson,QB Carson Beck (back) OUT; Josh Johnson to start per NFL.com news,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Arizona Cardinals @ Kansas City Chiefs,Kansas City Chiefs,home,Patrick Mahomes,starter_playing,,QB Patrick Mahomes full participation no designation,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,true
+New Orleans Saints @ Chicago Bears,New Orleans Saints,away,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+New Orleans Saints @ Chicago Bears,Chicago Bears,home,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Las Vegas Raiders @ Denver Broncos,Las Vegas Raiders,away,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Las Vegas Raiders @ Denver Broncos,Denver Broncos,home,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+New York Jets @ Los Angeles Chargers,New York Jets,away,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+New York Jets @ Los Angeles Chargers,Los Angeles Chargers,home,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Minnesota Vikings @ San Francisco 49ers,Minnesota Vikings,away,Kyler Murray,starter_out,,QB Kyler Murray (hamstring) OUT,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Minnesota Vikings @ San Francisco 49ers,San Francisco 49ers,home,Mac Jones,starter_questionable,,QB Mac Jones (illness) QUESTIONABLE,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Jacksonville Jaguars @ New York Giants,Jacksonville Jaguars,away,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Jacksonville Jaguars @ New York Giants,New York Giants,home,unknown,unknown,,No injury designations,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Miami Dolphins @ Buffalo Bills,Miami Dolphins,away,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Miami Dolphins @ Buffalo Bills,Buffalo Bills,home,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Baltimore Ravens @ Carolina Panthers,Baltimore Ravens,away,unknown,unknown,,No QB on official injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Baltimore Ravens @ Carolina Panthers,Carolina Panthers,home,Bryce Young,starter_playing,,QB Bryce Young full participation,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,true
+Tampa Bay Buccaneers @ Detroit Lions,Tampa Bay Buccaneers,away,Baker Mayfield,starter_questionable,Jalon Daniels,QB Baker Mayfield (foot/thumb) QUESTIONABLE,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Tampa Bay Buccaneers @ Detroit Lions,Detroit Lions,home,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Tennessee Titans @ Dallas Cowboys,Tennessee Titans,away,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Tennessee Titans @ Dallas Cowboys,Dallas Cowboys,home,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Cincinnati Bengals @ Washington Commanders,Cincinnati Bengals,away,Joe Burrow,starter_playing,,QB Joe Burrow full participation,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,true
+Cincinnati Bengals @ Washington Commanders,Washington Commanders,home,unknown,unknown,,No QB on injury report,https://www.nfl.com/news/nfl-week-11-injury-report-2026-season,2026-11-21,2026-11-21 22:05 CT,true
+Green Bay Packers @ Los Angeles Rams,Green Bay Packers,away,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Green Bay Packers @ Los Angeles Rams,Los Angeles Rams,home,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Kansas City Chiefs @ Buffalo Bills,Kansas City Chiefs,away,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Kansas City Chiefs @ Buffalo Bills,Buffalo Bills,home,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Chicago Bears @ Detroit Lions,Chicago Bears,away,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Chicago Bears @ Detroit Lions,Detroit Lions,home,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Philadelphia Eagles @ Dallas Cowboys,Philadelphia Eagles,away,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Philadelphia Eagles @ Dallas Cowboys,Dallas Cowboys,home,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Denver Broncos @ Pittsburgh Steelers,Denver Broncos,away,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
+Denver Broncos @ Pittsburgh Steelers,Pittsburgh Steelers,home,unknown,unknown,,Future week game; injury report not yet available,https://www.nfl.com/injuries/,2026-11-21,2026-11-21 22:05 CT,false
