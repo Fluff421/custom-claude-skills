@@ -131,8 +131,8 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Nebraska @ Iowa | moneyline | Nebraska ML +170 | 35% | -1.6% | No Play | 0 |
 | UConn @ Wyoming | total | Under 49.5 | 53% | +2.6 pts | Lean | 0.5 |
 | UConn @ Wyoming | moneyline | UConn ML -142 | 58% | -0.3% | No Play | 0 |
-| Sacramento State @ Hawai'i | total | Over 43.5 | 51% | +0.7 pts | No Play | 0 |
-| Sacramento State @ Hawai'i | moneyline | Hawai'i ML -500 | 84% | +0.2% | No Play | 0 |
+| Sacramento State @ Hawai'i | total | Over 41.5 | 52% | +1.3 pts | No Play | 0 |
+| Sacramento State @ Hawai'i | moneyline | Hawai'i ML -520 | 84% | -0.3% | No Play | 0 |
 | South Carolina @ Clemson | spread | Clemson +3.5 (spread) | 50% |  | No Play | 0 |
 | South Carolina @ Clemson | total | Over 39.5 | 54% | +3.0 pts | Lean | 0.5 |
 | South Carolina @ Clemson | moneyline | Clemson ML +136 | 40% | -1.9% | No Play | 0 |
