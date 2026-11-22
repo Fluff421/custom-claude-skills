@@ -55,7 +55,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Virginia @ Virginia Tech | moneyline | Virginia Tech ML -148 | 58% | -1.8% | No Play | 0 |
 | Kansas @ Oklahoma State | spread | Oklahoma State -6.5 (spread) | 51% |  | No Play | 0 |
 | Kansas @ Oklahoma State | total | Under 66.5 | 52% | +1.6 pts | No Play | 0 |
-| Kansas @ Oklahoma State | moneyline | Kansas ML +185 | 33% | -2.1% | No Play | 0 |
+| Kansas @ Oklahoma State | moneyline | Kansas ML +190 | 33% | -1.6% | No Play | 0 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
 | Notre Dame @ Syracuse | total | Over 52.5 | 50% | +0.3 pts | No Play | 0 |
 | Notre Dame @ Syracuse | moneyline | Notre Dame ML -2800 | 96% | -0.6% | No Play | 0 |
@@ -181,7 +181,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Illinois @ Northwestern | moneyline | Northwestern ML -142 | 60% | +0.9% | No Play | 0 |
 | Auburn @ Alabama | spread | Alabama -15.5 (spread) | 51% |  | No Play | 0 |
 | Auburn @ Alabama | total | Over 50.5 | 51% | +1.1 pts | No Play | 0 |
-| Auburn @ Alabama | moneyline | Alabama ML -700 | 87% | -0.9% | No Play | 0 |
+| Auburn @ Alabama | moneyline | Alabama ML -650 | 87% | -0.1% | No Play | 0 |
 | Florida Atlantic @ East Carolina | spread | East Carolina -2.5 (spread) | 51% |  | No Play | 0 |
 | Florida Atlantic @ East Carolina | total | Over 55.5 | 50% | +0.4 pts | No Play | 0 |
 | Florida Atlantic @ East Carolina | moneyline | East Carolina ML -122 | 57% | +2.3% | No Play | 0 |

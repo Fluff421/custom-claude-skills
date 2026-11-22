@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-22T19:38:23Z",
+ "generated_at_utc": "2026-11-22T20:11:49Z",
  "generated_for_central_date": "2026-11-22",
  "graded_picks_csv_rows": 291,
  "ledger_health": {
@@ -45,13 +45,8 @@
     ]
    },
    "upcoming_no_espn_line": {
-    "count": 4,
-    "games": [
-     "San Diego State @ Washington State (NCAAF, 2026-11-28)",
-     "Texas State @ Utah State (NCAAF, 2026-11-28)",
-     "Oregon State @ Fresno State (NCAAF, 2026-11-28)",
-     "Boise State @ Colorado State (NCAAF, 2026-11-28)"
-    ]
+    "count": 0,
+    "games": []
    },
    "upcoming_splash_vs_espn_gap": {
     "count": 0,
@@ -85,6 +80,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 45063307198,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45063307198",
+     "event": "schedule",
+     "created_at": "2026-11-22T19:53:37Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 96,
+      "rows_changed": 96,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 45055145054,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45055145054",
@@ -138,24 +151,6 @@
       "rows_changed": 27,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 45018906845,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45018906845",
-     "event": "schedule",
-     "created_at": "2026-11-22T11:45:53Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 96,
-      "rows_changed": 96,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -166,6 +161,36 @@
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "runs": [
+    {
+     "run_id": 45064913396,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45064913396",
+     "event": "workflow_run",
+     "created_at": "2026-11-22T20:10:28Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 0,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
+    {
+     "run_id": 45063729682,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45063729682",
+     "event": "schedule",
+     "created_at": "2026-11-22T19:58:19Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "new_picks": 46,
+      "units_recapped": 0,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 45055199707,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45055199707",
@@ -195,39 +220,14 @@
       "units_recapped": 0,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 45019968662,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45019968662",
-     "event": "schedule",
-     "created_at": "2026-11-22T11:59:25Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "new_picks": 14,
-      "units_recapped": 0,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44981186848,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44981186848",
-     "event": "workflow_run",
-     "created_at": "2026-11-22T03:33:31Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "new_picks": 0,
-      "units_recapped": 0,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [
+    {
+     "run_id": 45063463921,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45063463921",
+     "created_at": "2026-11-22T19:55:18Z"
+    },
     {
      "run_id": 45022896330,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45022896330",
@@ -292,16 +292,6 @@
      "run_id": 44813419050,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44813419050",
      "created_at": "2026-11-20T20:40:05Z"
-    },
-    {
-     "run_id": 44793868274,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44793868274",
-     "created_at": "2026-11-20T18:33:22Z"
-    },
-    {
-     "run_id": 44764432708,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44764432708",
-     "created_at": "2026-11-20T15:33:20Z"
     }
    ],
    "gate_skipped": [],
@@ -385,6 +375,32 @@
    "file": "injury-pull.yml",
    "runs": [
     {
+     "run_id": 45063441750,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45063441750",
+     "event": "schedule",
+     "created_at": "2026-11-22T19:55:04Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: DraftEdge parsed 461 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: verified 0/3 games; /games/2026-11-26-tcu-at-texas-tech/: /games/2026-1"
+      ],
+      "mode": "LIVE",
+      "injury_games_expected": 3,
+      "injury_games_covered": 0,
+      "injury_games_not_yet_due": 2,
+      "injury_games_overdue": 0,
+      "injury_games_independent": 0,
+      "fpi_missing": 0
+     },
+     "error_lines": [
+      "ERROR: DraftEdge parsed 461 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: verified 0/3 games; /games/2026-11-26-tcu-at-texas-tech/: /games/2026-"
+     ]
+    },
+    {
      "run_id": 45022859146,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45022859146",
      "event": "workflow_dispatch",
@@ -433,24 +449,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44971860427",
      "event": "schedule",
      "created_at": "2026-11-22T01:31:31Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "injury_games_expected": 2,
-      "injury_games_covered": 0,
-      "injury_games_not_yet_due": 2,
-      "injury_games_overdue": 0,
-      "injury_games_independent": 0,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44967165661,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44967165661",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-22T00:33:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -536,23 +534,10 @@
    "file": "snapshot.yml",
    "runs": [
     {
-     "run_id": 44945248791,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44945248791",
+     "run_id": 45063774697,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45063774697",
      "event": "schedule",
-     "created_at": "2026-11-21T20:14:49Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44942929897,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44942929897",
-     "event": "schedule",
-     "created_at": "2026-11-21T19:48:48Z",
+     "created_at": "2026-11-22T19:58:48Z",
      "conclusion": "success",
      "health": "warn",
      "reasons": [
@@ -565,7 +550,7 @@
    ],
    "skipped_chains": [],
    "gate_skipped": [],
-   "latest_health": "ok"
+   "latest_health": "warn"
   },
   {
    "workflow": "BIM Grader",
@@ -639,18 +624,18 @@
    "file": "espn-sync.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-22T11:45:53Z",
-   "age_h": 7.9,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-22T19:53:37Z",
+   "age_h": 0.3,
+   "status": "ok"
   },
   {
    "workflow": "Pick Engine",
    "file": "picks.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-22T11:59:25Z",
-   "age_h": 7.6,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-22T19:58:19Z",
+   "age_h": 0.2,
+   "status": "ok"
   },
   {
    "workflow": "Close & Grade",
@@ -658,7 +643,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-22T17:22:44Z",
-   "age_h": 2.3,
+   "age_h": 2.8,
    "status": "missed"
   },
   {
@@ -667,7 +652,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T19:32:16Z",
-   "age_h": 0.1,
+   "age_h": 0.7,
    "status": "ok"
   },
   {
@@ -675,8 +660,8 @@
    "file": "snapshot.yml",
    "expected_every_h": 24,
    "max_gap_h": 26,
-   "last_scheduled_run_utc": "2026-11-21T20:14:49Z",
-   "age_h": 23.4,
+   "last_scheduled_run_utc": "2026-11-22T19:58:48Z",
+   "age_h": 0.2,
    "status": "ok"
   },
   {
@@ -685,7 +670,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-22T16:32:01Z",
-   "age_h": 3.1,
+   "age_h": 3.7,
    "status": "ok"
   },
   {
@@ -694,8 +679,8 @@
    "expected_every_h": 3,
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
-   "last_scheduled_run_utc": "2026-11-22T01:31:31Z",
-   "age_h": 18.1,
+   "last_scheduled_run_utc": "2026-11-22T19:55:04Z",
+   "age_h": 0.3,
    "status": "ok"
   }
  ],

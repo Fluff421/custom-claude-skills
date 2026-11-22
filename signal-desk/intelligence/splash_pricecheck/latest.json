@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T19:59:16.925492+00:00",
- "snapshot_age_hours": 144.1,
+ "generated_at": "2026-11-22T20:12:56.968435+00:00",
+ "snapshot_age_hours": 144.3,
  "games": [
   {
    "game": "Arizona Cardinals @ Kansas City Chiefs",
@@ -20,8 +20,8 @@
     "pick": "Kansas City Chiefs -15.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5129,
-    "edge": 0.4,
+    "prob": 0.5225,
+    "edge": 0.7,
     "proj": 13.2,
     "import_side": "",
     "import_tier": "",
@@ -34,14 +34,14 @@
     "pick": "Under 41.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5497,
-    "edge": 1.09,
-    "proj": 40.41,
+    "prob": 0.5154,
+    "edge": 0.34,
+    "proj": 41.16,
     "import_side": "under",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 47.5 (teased)",
-     "prob": 0.7607
+     "prob": 0.7368
     }
    },
    "moneyline": {
@@ -319,9 +319,9 @@
    "spread": {
     "pick": "New Orleans Saints +10.5",
     "side": "away",
-    "tier": "Lean",
-    "prob": 0.5,
-    "edge": -1.0,
+    "tier": "No Play",
+    "prob": 0.5258,
+    "edge": -0.8,
     "proj": 9.0,
     "import_side": "",
     "import_tier": "",
@@ -333,15 +333,15 @@
    "total": {
     "pick": "Under 48.5",
     "side": "under",
-    "tier": "Lean",
-    "prob": 0.5726,
-    "edge": 1.59,
-    "proj": 46.91,
+    "tier": "No Play",
+    "prob": 0.5521,
+    "edge": 1.14,
+    "proj": 47.36,
     "import_side": "under",
-    "import_tier": "Lean",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 54.5 (teased)",
-     "prob": 0.776
+     "prob": 0.7623
     }
    },
    "moneyline": {
@@ -471,7 +471,7 @@
     "side": "away",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": -1.4,
+    "edge": -2.4,
     "proj": 4.4,
     "import_side": "",
     "import_tier": "",
@@ -484,14 +484,14 @@
     "pick": "Under 46.5",
     "side": "under",
     "tier": "No Play",
-    "prob": 0.5229,
-    "edge": 0.5,
-    "proj": 46.0,
-    "import_side": "under",
+    "prob": 0.5057,
+    "edge": 0.12,
+    "proj": 46.38,
+    "import_side": "over",
     "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 52.5 (teased)",
-     "prob": 0.7421
+     "prob": 0.7299
     }
    },
    "moneyline": {
@@ -570,8 +570,8 @@
     "pick": "Cincinnati Bengals -5.5",
     "side": "away",
     "tier": "No Play",
-    "prob": 0.5064,
-    "edge": -0.2,
+    "prob": 0.5,
+    "edge": -0.0,
     "proj": -6.199999999999999,
     "import_side": "",
     "import_tier": "",
@@ -583,15 +583,15 @@
    "total": {
     "pick": "Under 52.5",
     "side": "under",
-    "tier": "No Play",
-    "prob": 0.5572,
-    "edge": 1.25,
-    "proj": 51.25,
+    "tier": "Lean",
+    "prob": 0.5911,
+    "edge": 2.0,
+    "proj": 50.5,
     "import_side": "under",
-    "import_tier": "No Play",
+    "import_tier": "Lean",
     "teaser_leg": {
      "pick": "Under 58.5 (teased)",
-     "prob": 0.7658
+     "prob": 0.7881
     }
    },
    "moneyline": {
