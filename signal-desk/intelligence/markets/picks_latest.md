@@ -2,7 +2,7 @@
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
-Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico (2026-11-27), App State @ South Alabama (2026-11-27), Arizona State @ Arizona (2026-11-28), Army @ Rice (2026-11-28), Baylor @ Houston (2026-11-28), Boston College @ Miami (2026-11-28), Central Michigan @ Ball State (2026-11-28), Cincinnati @ BYU (2026-11-28), Coastal Carolina @ James Madison (2026-11-28), Florida @ Florida State (2026-11-27), Florida Atlantic @ East Carolina (2026-11-28), Georgia Tech @ Georgia (2026-11-27), Jacksonville State @ Delaware (2026-11-28), Kansas @ Oklahoma State (2026-11-28), Kansas State @ Iowa State (2026-11-28), Kennesaw State @ Western Kentucky (2026-11-28), LSU @ Arkansas (2026-11-27), Liberty @ Missouri State (2026-11-28), Louisiana @ Georgia State (2026-11-28), Louisiana Tech @ Georgia Southern (2026-11-28), Louisville @ Kentucky (2026-11-27), Marshall @ UL Monroe (2026-11-28), Massachusetts @ Bowling Green (2026-11-28), Michigan @ Ohio State (2026-11-28), Michigan State @ Rutgers (2026-11-28), Minnesota @ Wisconsin (2026-11-27), Navy @ Charlotte (2026-11-28), Nevada @ UNLV (2026-11-28), New Mexico State @ Middle Tennessee (2026-11-28), North Dakota State @ San José State (2026-11-27), Notre Dame @ Syracuse (2026-11-28), Oklahoma @ Missouri (2026-11-28), Penn State @ Maryland (2026-11-28), Pittsburgh @ California (2026-11-28), Purdue @ Indiana (2026-11-27), SMU @ Stanford (2026-11-27), Sacramento State @ Hawai'i (2026-11-28), Sam Houston @ Florida International (2026-11-28), South Carolina @ Clemson (2026-11-27), Southern Miss @ Old Dominion (2026-11-28), TCU @ Texas Tech (2026-11-26), Temple @ Memphis (2026-11-27), Tennessee @ Vanderbilt (2026-11-27), Texas @ Texas A&M (2026-11-27), Toledo @ Ohio (2026-11-27), Troy @ Arkansas State (2026-11-28), Tulane @ South Florida (2026-11-28), Tulsa @ UTSA (2026-11-27), UAB @ North Texas (2026-11-28), UCF @ Colorado (2026-11-28), UConn @ Wyoming (2026-11-28), USC @ UCLA (2026-11-28), UTEP @ Northern Illinois (2026-11-28), Virginia @ Virginia Tech (2026-11-28), Washington @ Oregon (2026-11-27), West Virginia @ Utah (2026-11-27)
+Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico (2026-11-27), App State @ South Alabama (2026-11-27), Arizona State @ Arizona (2026-11-28), Army @ Rice (2026-11-28), Baylor @ Houston (2026-11-28), Boston College @ Miami (2026-11-28), Central Michigan @ Ball State (2026-11-28), Cincinnati @ BYU (2026-11-28), Coastal Carolina @ James Madison (2026-11-28), Florida Atlantic @ East Carolina (2026-11-28), Georgia Tech @ Georgia (2026-11-27), Jacksonville State @ Delaware (2026-11-28), Kansas @ Oklahoma State (2026-11-28), Kansas State @ Iowa State (2026-11-28), Kennesaw State @ Western Kentucky (2026-11-28), LSU @ Arkansas (2026-11-27), Liberty @ Missouri State (2026-11-28), Louisiana @ Georgia State (2026-11-28), Louisiana Tech @ Georgia Southern (2026-11-28), Marshall @ UL Monroe (2026-11-28), Massachusetts @ Bowling Green (2026-11-28), Michigan State @ Rutgers (2026-11-28), Minnesota @ Wisconsin (2026-11-27), Navy @ Charlotte (2026-11-28), Nevada @ UNLV (2026-11-28), New Mexico State @ Middle Tennessee (2026-11-28), North Dakota State @ San José State (2026-11-27), Penn State @ Maryland (2026-11-28), Pittsburgh @ California (2026-11-28), Purdue @ Indiana (2026-11-27), SMU @ Stanford (2026-11-27), Sacramento State @ Hawai'i (2026-11-28), Sam Houston @ Florida International (2026-11-28), South Carolina @ Clemson (2026-11-27), Southern Miss @ Old Dominion (2026-11-28), TCU @ Texas Tech (2026-11-26), Temple @ Memphis (2026-11-27), Tennessee @ Vanderbilt (2026-11-27), Toledo @ Ohio (2026-11-27), Troy @ Arkansas State (2026-11-28), Tulane @ South Florida (2026-11-28), Tulsa @ UTSA (2026-11-27), UAB @ North Texas (2026-11-28), UCF @ Colorado (2026-11-28), UConn @ Wyoming (2026-11-28), UTEP @ Northern Illinois (2026-11-28), Virginia @ Virginia Tech (2026-11-28), West Virginia @ Utah (2026-11-27)
 
 ## NCAAF
 
@@ -14,7 +14,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Mississippi State @ Ole Miss | moneyline | Mississippi State ML +750 | 10% | -1.6% | No Play | 0 |
 | Oklahoma @ Missouri | spread | Oklahoma +1.5 (spread) | 50% |  | No Play | 0 |
 | Oklahoma @ Missouri | total | Over 42.5 | 52% | +1.9 pts | No Play | 0 |
-| Oklahoma @ Missouri | moneyline | Oklahoma ML +113 (price estimated from the line) | 46% | -0.7% | No Play | 0 |
+| Oklahoma @ Missouri | moneyline | Missouri ML -118 | 54% | -0.3% | No Play | 0 |
 | North Dakota State @ San José State | moneyline | North Dakota State ML -110 (price estimated from the line) | 78% | +25.2% | No Play | 0 |
 | Arizona State @ Arizona | moneyline | Arizona ML -110 (price estimated from the line) | 79% | +26.2% | No Play | 0 |
 | Temple @ Memphis | moneyline | Memphis ML -110 (price estimated from the line) | 90% | +37.5% | No Play | 0 |
@@ -28,18 +28,18 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Nevada @ UNLV | moneyline | UNLV ML -110 (price estimated from the line) | 69% | +16.8% | No Play | 0 |
 | Duke @ Wake Forest | spread | Duke +10.5 (spread) | 50% |  | No Play | 0 |
 | Duke @ Wake Forest | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
-| Duke @ Wake Forest | moneyline | Duke ML +400 | 19% | -0.9% | No Play | 0 |
+| Duke @ Wake Forest | moneyline | Duke ML +410 | 19% | -0.5% | No Play | 0 |
 | Virginia @ Virginia Tech | moneyline | Virginia Tech ML -110 (price estimated from the line) | 51% | -1.1% | No Play | 0 |
 | Kansas @ Oklahoma State | moneyline | Oklahoma State ML -110 (price estimated from the line) | 71% | +19.1% | No Play | 0 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
-| Notre Dame @ Syracuse | total | Over 54.5 | 50% | +0.1 pts | No Play | 0 |
-| Notre Dame @ Syracuse | moneyline | Syracuse ML +1051 (price estimated from the line) | 8% | -0.5% | No Play | 0 |
+| Notre Dame @ Syracuse | total | Over 52.5 | 51% | +0.7 pts | No Play | 0 |
+| Notre Dame @ Syracuse | moneyline | Notre Dame ML -2400 | 95% | -1.2% | No Play | 0 |
 | Louisiana @ Georgia State | moneyline | Louisiana ML -110 (price estimated from the line) | 58% | +5.3% | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | James Madison ML -110 (price estimated from the line) | 87% | +34.2% | No Play | 0 |
 | Tulsa @ UTSA | moneyline | UTSA ML -110 (price estimated from the line) | 51% | -1.8% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
-| Texas @ Texas A&M | total | Over 41.5 | 52% | +1.9 pts | No Play | 0 |
-| Texas @ Texas A&M | moneyline | Texas ML -241 (price estimated from the line) | 70% | -0.8% | No Play | 0 |
+| Texas @ Texas A&M | total | Over 39.5 | 53% | +2.5 pts | Lean | 0.5 |
+| Texas @ Texas A&M | moneyline | Texas A&M ML +310 | 26% | +1.9% | No Play | 0 |
 | Tennessee @ Vanderbilt | moneyline | Tennessee ML -110 (price estimated from the line) | 86% | +33.1% | No Play | 0 |
 | UCF @ Colorado | moneyline | UCF ML -110 (price estimated from the line) | 54% | +1.6% | No Play | 0 |
 | TCU @ Texas Tech | spread | Texas Tech -10.5 (spread) | 50% |  | No Play | 0 |
@@ -50,8 +50,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Buffalo @ Akron | total | Under 49.5 | 52% | +1.2 pts | No Play | 0 |
 | Buffalo @ Akron | moneyline | Akron ML +295 | 25% | -0.2% | No Play | 0 |
 | Louisville @ Kentucky | spread | Louisville +1.5 (spread) | 51% |  | No Play | 0 |
-| Louisville @ Kentucky | total | Over 54.5 | 51% | +1.0 pts | No Play | 0 |
-| Louisville @ Kentucky | moneyline | Louisville ML +113 (price estimated from the line) | 48% | +0.6% | No Play | 0 |
+| Louisville @ Kentucky | total | Over 53.5 | 52% | +1.3 pts | No Play | 0 |
+| Louisville @ Kentucky | moneyline | Louisville ML -118 | 54% | +0.2% | No Play | 0 |
 | Army @ Rice | moneyline | Army ML -110 (price estimated from the line) | 73% | +20.8% | No Play | 0 |
 | Kansas State @ Iowa State | moneyline | Iowa State ML -110 (price estimated from the line) | 58% | +6.1% | No Play | 0 |
 | UTEP @ Northern Illinois | moneyline | Northern Illinois ML -110 (price estimated from the line) | 68% | +15.3% | No Play | 0 |
@@ -59,8 +59,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Tulane @ South Florida | moneyline | South Florida ML -110 (price estimated from the line) | 72% | +20.0% | No Play | 0 |
 | Purdue @ Indiana | moneyline | Indiana ML -110 (price estimated from the line) | 94% | +41.5% | No Play | 0 |
 | Michigan @ Ohio State | spread | Ohio State -12.5 (spread) | 52% |  | No Play | 0 |
-| Michigan @ Ohio State | total | Over 41.5 | 52% | +1.7 pts | No Play | 0 |
-| Michigan @ Ohio State | moneyline | Ohio State ML -442 (price estimated from the line) | 81% | -0.1% | No Play | 0 |
+| Michigan @ Ohio State | total | Over 38.5 | 53% | +2.6 pts | Lean | 0.5 |
+| Michigan @ Ohio State | moneyline | Ohio State ML -410 | 80% | -0.5% | No Play | 0 |
 | SMU @ Stanford | moneyline | SMU ML -110 (price estimated from the line) | 81% | +28.7% | No Play | 0 |
 | New Mexico State @ Middle Tennessee | moneyline | Middle Tennessee ML -110 (price estimated from the line) | 58% | +5.3% | No Play | 0 |
 | Georgia Tech @ Georgia | moneyline | Georgia ML -110 (price estimated from the line) | 99% | +46.2% | No Play | 0 |
@@ -73,8 +73,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Navy @ Charlotte | moneyline | Navy ML -110 (price estimated from the line) | 83% | +30.6% | No Play | 0 |
 | Liberty @ Missouri State | moneyline | Liberty ML -110 (price estimated from the line) | 87% | +34.3% | No Play | 0 |
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
-| USC @ UCLA | total | Under 52.5 | 50% | +0.2 pts | No Play | 0 |
-| USC @ UCLA | moneyline | USC ML +125 (price estimated from the line) | 44% | -0.4% | No Play | 0 |
+| USC @ UCLA | total | Over 49.5 | 51% | +0.7 pts | No Play | 0 |
+| USC @ UCLA | moneyline | UCLA ML +140 | 42% | +0.8% | No Play | 0 |
 | Minnesota @ Wisconsin | moneyline | Wisconsin ML -110 (price estimated from the line) | 75% | +22.6% | No Play | 0 |
 | LSU @ Arkansas | moneyline | LSU ML -110 (price estimated from the line) | 85% | +32.8% | No Play | 0 |
 | Jacksonville State @ Delaware | moneyline | Jacksonville State ML -110 (price estimated from the line) | 52% | -0.3% | No Play | 0 |
@@ -89,14 +89,14 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | South Carolina @ Clemson | moneyline | South Carolina ML -110 (price estimated from the line) | 56% | +3.2% | No Play | 0 |
 | Illinois @ Northwestern | spread | Northwestern -4.5 (spread) | 51% |  | No Play | 0 |
 | Illinois @ Northwestern | total | Over 47.5 | 51% | +1.1 pts | No Play | 0 |
-| Illinois @ Northwestern | moneyline | Northwestern ML -175 | 63% | -0.7% | No Play | 0 |
+| Illinois @ Northwestern | moneyline | Northwestern ML -170 | 62% | -1.1% | No Play | 0 |
 | Auburn @ Alabama | spread | Alabama -15.5 (spread) | 51% |  | No Play | 0 |
 | Auburn @ Alabama | total | Over 50.5 | 51% | +0.9 pts | No Play | 0 |
 | Auburn @ Alabama | moneyline | Auburn ML +440 | 17% | -1.8% | No Play | 0 |
 | Florida Atlantic @ East Carolina | moneyline | East Carolina ML -110 (price estimated from the line) | 64% | +11.9% | No Play | 0 |
 | Washington @ Oregon | spread | Oregon -12.5 (spread) | 51% |  | No Play | 0 |
-| Washington @ Oregon | total | Over 48.5 | 51% | +1.0 pts | No Play | 0 |
-| Washington @ Oregon | moneyline | Oregon ML -442 (price estimated from the line) | 81% | -0.6% | No Play | 0 |
+| Washington @ Oregon | total | Over 50.5 | 50% | +0.4 pts | No Play | 0 |
+| Washington @ Oregon | moneyline | Oregon ML -470 | 81% | -1.5% | No Play | 0 |
 | Miami (OH) @ Western Michigan | spread | Western Michigan -7.5 (spread) | 50% |  | No Play | 0 |
 | Miami (OH) @ Western Michigan | total | Over 46.5 | 51% | +0.8 pts | No Play | 0 |
 | Miami (OH) @ Western Michigan | moneyline | Miami (OH) ML +240 | 31% | +1.4% | No Play | 0 |
@@ -105,7 +105,12 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Kennesaw State @ Western Kentucky | moneyline | Kennesaw State ML -110 (price estimated from the line) | 52% | -0.3% | No Play | 0 |
 | Massachusetts @ Bowling Green | moneyline | Bowling Green ML -110 (price estimated from the line) | 54% | +1.9% | No Play | 0 |
 | App State @ South Alabama | moneyline | South Alabama ML -110 (price estimated from the line) | 59% | +7.1% | No Play | 0 |
-| Florida @ Florida State | moneyline | Florida ML -110 (price estimated from the line) | 56% | +3.2% | No Play | 0 |
+| Florida @ Florida State | total | Over 54.5 | 51% | +0.6 pts | No Play | 0 |
+| Florida @ Florida State | moneyline | Florida State ML +150 | 39% | -0.9% | No Play | 0 |
+
+### NCAAF Best parlays
+
+- Over 39.5 + Over 38.5: model 28.3%, needs +264 to break even (reference payout +264), edge +0.8%, No Play
 
 ## NFL
 
@@ -113,7 +118,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 |---|---|---|---|---|---|---|
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Over 37.5 | 51% | +0.3 pts | No Play | 0 |
-| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -189 | 64% | -1.9% | No Play | 0 |
+| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +160 | 36% | -2.0% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 52% | +0.3 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1480 | 100% | +6.3% | Strong Play | 1 |
@@ -122,19 +127,19 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -640 | 90% | +3.5% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -630 | 90% | +4.1% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -650 | 90% | +3.7% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -157 | 65% | +3.4% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -155 | 65% | +3.7% | Lean | 0.5 |
 | New York Jets @ Los Angeles Chargers | spread | Los Angeles Chargers -1.5 (spread) | 54% |  | Lean | 0.5 |
-| New York Jets @ Los Angeles Chargers | total | Under 42.5 | 51% | +0.3 pts | No Play | 0 |
-| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -168 | 64% | +1.5% | No Play | 0 |
+| New York Jets @ Los Angeles Chargers | total | Over 41.5 | 50% | +0.0 pts | No Play | 0 |
+| New York Jets @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -171 | 64% | +1.1% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
-| Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -170 | 62% | -0.5% | No Play | 0 |
+| Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -171 | 62% | -0.7% | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 40.5 | 50% | +0.0 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -132 | 59% | +2.1% | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -133 | 59% | +2.0% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 45.5 | 56% | +1.3 pts | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -254 | 76% | +4.6% | Lean | 0.5 |
@@ -149,10 +154,10 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +126 | 44% | +0.1% | No Play | 0 |
 | Baltimore Ravens @ Carolina Panthers | spread | Carolina Panthers -1.5 (spread) | 63% |  | Max Play | 1 |
 | Baltimore Ravens @ Carolina Panthers | total | Over 43.5 | 56% | +1.3 pts | No Play | 0 |
-| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -142 | 65% | +6.2% | Strong Play | 1 |
+| Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -145 | 66% | +7.1% | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 47.5 | 54% | +0.8 pts | No Play | 0 |
-| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -203 | 66% | -1.4% | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -200 | 66% | -1.1% | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 51% | +0.2 pts | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -403 | 84% | +3.6% | Lean | 0.5 |
@@ -166,10 +171,10 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 ### NFL Best parlays
 
 - Kansas City Chiefs ML -1480 + Under 51.5 + Buffalo Bills ML -1580: model 68.1%, needs +117 to break even (reference payout +117), edge +22.0%, Max Play
-- Kansas City Chiefs ML -1480 + Denver Broncos ML -630 + Under 51.5: model 61.6%, needs +136 to break even (reference payout +136), edge +19.3%, Max Play
 - Kansas City Chiefs ML -1480 + Under 51.5: model 68.2%, needs +104 to break even (reference payout +104), edge +19.1%, Max Play
-- Denver Broncos ML -630 + Under 51.5 + Buffalo Bills ML -1580: model 61.6%, needs +135 to break even (reference payout +135), edge +19.1%, Max Play
+- Kansas City Chiefs ML -1480 + Denver Broncos ML -650 + Under 51.5: model 61.6%, needs +135 to break even (reference payout +135), edge +19.1%, Max Play
 - Under 51.5 + Buffalo Bills ML -1580: model 68.2%, needs +103 to break even (reference payout +103), edge +18.9%, Max Play
+- Denver Broncos ML -650 + Under 51.5 + Buffalo Bills ML -1580: model 61.6%, needs +134 to break even (reference payout +134), edge +18.9%, Max Play
 
 ### NFL Best 6-point teasers
 

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-22T04:38:19Z",
+ "generated_at_utc": "2026-11-22T05:38:42Z",
  "generated_for_central_date": "2026-11-21",
  "graded_picks_csv_rows": 286,
  "ledger_health": {
@@ -85,31 +85,31 @@
    "upcoming_espn_data_stale": {
     "count": 41,
     "games": [
-     "Oklahoma State @ Arizona State (NCAAF, 2026-11-21) (7 h)",
-     "Charlotte @ Tulsa (NCAAF, 2026-11-21) (7 h)",
-     "Northern Illinois @ North Dakota State (NCAAF, 2026-11-21) (7 h)",
-     "Colorado State @ Fresno State (NCAAF, 2026-11-21) (7 h)",
-     "Texas A&M @ Oklahoma (NCAAF, 2026-11-21) (7 h)",
-     "Delaware @ New Mexico State (NCAAF, 2026-11-21) (7 h)",
-     "Rutgers @ Penn State (NCAAF, 2026-11-21) (7 h)",
-     "UL Monroe @ App State (NCAAF, 2026-11-21) (7 h)",
-     "LSU @ Tennessee (NCAAF, 2026-11-21) (7 h)",
-     "Old Dominion @ UConn (NCAAF, 2026-11-21) (7 h)",
-     "South Florida @ Florida Atlantic (NCAAF, 2026-11-21) (7 h)",
-     "Arkansas State @ Louisiana Tech (NCAAF, 2026-11-21) (7 h)",
-     "Washington State @ Texas State (NCAAF, 2026-11-21) (7 h)",
-     "Memphis @ Navy (NCAAF, 2026-11-21) (7 h)",
-     "North Carolina @ Virginia (NCAAF, 2026-11-21) (7 h)",
-     "East Carolina @ Army (NCAAF, 2026-11-21) (7 h)",
-     "Maryland @ USC (NCAAF, 2026-11-21) (7 h)",
-     "Wisconsin @ Purdue (NCAAF, 2026-11-21) (7 h)",
-     "Utah State @ Oregon State (NCAAF, 2026-11-21) (7 h)",
-     "Kentucky @ Missouri (NCAAF, 2026-11-21) (7 h)",
-     "South Alabama @ Southern Miss (NCAAF, 2026-11-21) (7 h)",
-     "Colorado @ Cincinnati (NCAAF, 2026-11-21) (7 h)",
-     "Georgia Southern @ Troy (NCAAF, 2026-11-21) (7 h)",
-     "NC State @ Florida State (NCAAF, 2026-11-21) (7 h)",
-     "Stanford @ California (NCAAF, 2026-11-21) (7 h)"
+     "Oklahoma State @ Arizona State (NCAAF, 2026-11-21) (8 h)",
+     "Charlotte @ Tulsa (NCAAF, 2026-11-21) (8 h)",
+     "Northern Illinois @ North Dakota State (NCAAF, 2026-11-21) (8 h)",
+     "Colorado State @ Fresno State (NCAAF, 2026-11-21) (8 h)",
+     "Texas A&M @ Oklahoma (NCAAF, 2026-11-21) (8 h)",
+     "Delaware @ New Mexico State (NCAAF, 2026-11-21) (8 h)",
+     "Rutgers @ Penn State (NCAAF, 2026-11-21) (8 h)",
+     "UL Monroe @ App State (NCAAF, 2026-11-21) (8 h)",
+     "LSU @ Tennessee (NCAAF, 2026-11-21) (8 h)",
+     "Old Dominion @ UConn (NCAAF, 2026-11-21) (8 h)",
+     "South Florida @ Florida Atlantic (NCAAF, 2026-11-21) (8 h)",
+     "Arkansas State @ Louisiana Tech (NCAAF, 2026-11-21) (8 h)",
+     "Washington State @ Texas State (NCAAF, 2026-11-21) (8 h)",
+     "Memphis @ Navy (NCAAF, 2026-11-21) (8 h)",
+     "North Carolina @ Virginia (NCAAF, 2026-11-21) (8 h)",
+     "East Carolina @ Army (NCAAF, 2026-11-21) (8 h)",
+     "Maryland @ USC (NCAAF, 2026-11-21) (8 h)",
+     "Wisconsin @ Purdue (NCAAF, 2026-11-21) (8 h)",
+     "Utah State @ Oregon State (NCAAF, 2026-11-21) (8 h)",
+     "Kentucky @ Missouri (NCAAF, 2026-11-21) (8 h)",
+     "South Alabama @ Southern Miss (NCAAF, 2026-11-21) (8 h)",
+     "Colorado @ Cincinnati (NCAAF, 2026-11-21) (8 h)",
+     "Georgia Southern @ Troy (NCAAF, 2026-11-21) (8 h)",
+     "NC State @ Florida State (NCAAF, 2026-11-21) (8 h)",
+     "Stanford @ California (NCAAF, 2026-11-21) (8 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -366,6 +366,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44990175549,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44990175549",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-22T05:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 22,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44985841977,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44985841977",
      "event": "workflow_dispatch",
@@ -402,22 +418,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44976923069",
      "event": "workflow_dispatch",
      "created_at": "2026-11-22T02:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 2,
-      "leg_patches": 0,
-      "calibration_upserts": 22,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44972283698,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44972283698",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-22T01:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -694,8 +694,8 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T01:28:06Z",
-   "age_h": 3.2,
-   "status": "ok"
+   "age_h": 4.2,
+   "status": "missed"
   },
   {
    "workflow": "Pick Engine",
@@ -703,8 +703,8 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T01:34:59Z",
-   "age_h": 3.1,
-   "status": "ok"
+   "age_h": 4.1,
+   "status": "missed"
   },
   {
    "workflow": "Close & Grade",
@@ -712,7 +712,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-22T00:39:42Z",
-   "age_h": 4.0,
+   "age_h": 5.0,
    "status": "missed"
   },
   {
@@ -721,7 +721,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-21T19:10:14Z",
-   "age_h": 9.5,
+   "age_h": 10.5,
    "status": "ok"
   },
   {
@@ -730,7 +730,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-21T20:14:49Z",
-   "age_h": 8.4,
+   "age_h": 9.4,
    "status": "ok"
   },
   {
@@ -739,8 +739,8 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-21T23:31:33Z",
-   "age_h": 5.1,
-   "status": "ok"
+   "age_h": 6.1,
+   "status": "missed"
   },
   {
    "workflow": "NCAAF Injury Pull",
@@ -749,7 +749,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-22T01:31:31Z",
-   "age_h": 3.1,
+   "age_h": 4.1,
    "status": "ok"
   }
  ],
