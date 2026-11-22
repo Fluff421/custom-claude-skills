@@ -2,7 +2,7 @@
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
-Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico (2026-11-27), App State @ South Alabama (2026-11-27), Arizona State @ Arizona (2026-11-28), Army @ Rice (2026-11-28), Baylor @ Houston (2026-11-28), Boston College @ Miami (2026-11-28), Central Michigan @ Ball State (2026-11-28), Cincinnati @ BYU (2026-11-28), Coastal Carolina @ James Madison (2026-11-28), Florida @ Florida State (2026-11-27), Florida Atlantic @ East Carolina (2026-11-28), Georgia Tech @ Georgia (2026-11-27), Jacksonville State @ Delaware (2026-11-28), Kansas @ Oklahoma State (2026-11-28), Kansas State @ Iowa State (2026-11-28), Kennesaw State @ Western Kentucky (2026-11-28), LSU @ Arkansas (2026-11-27), Liberty @ Missouri State (2026-11-28), Louisiana @ Georgia State (2026-11-28), Louisiana Tech @ Georgia Southern (2026-11-28), Louisville @ Kentucky (2026-11-27), Marshall @ UL Monroe (2026-11-28), Massachusetts @ Bowling Green (2026-11-28), Michigan @ Ohio State (2026-11-28), Michigan State @ Rutgers (2026-11-28), Minnesota @ Wisconsin (2026-11-27), Navy @ Charlotte (2026-11-28), Nevada @ UNLV (2026-11-28), New Mexico State @ Middle Tennessee (2026-11-28), North Dakota State @ San José State (2026-11-27), Notre Dame @ Syracuse (2026-11-28), Oklahoma @ Missouri (2026-11-28), Penn State @ Maryland (2026-11-28), Pittsburgh @ California (2026-11-28), Purdue @ Indiana (2026-11-27), SMU @ Stanford (2026-11-27), Sacramento State @ Hawai'i (2026-11-28), Sam Houston @ Florida International (2026-11-28), South Carolina @ Clemson (2026-11-27), Southern Miss @ Old Dominion (2026-11-28), TCU @ Texas Tech (2026-11-26), Temple @ Memphis (2026-11-27), Tennessee @ Vanderbilt (2026-11-27), Texas @ Texas A&M (2026-11-27), Toledo @ Ohio (2026-11-27), Troy @ Arkansas State (2026-11-28), Tulane @ South Florida (2026-11-28), Tulsa @ UTSA (2026-11-27), UAB @ North Texas (2026-11-28), UCF @ Colorado (2026-11-28), UConn @ Wyoming (2026-11-28), USC @ UCLA (2026-11-28), UTEP @ Northern Illinois (2026-11-28), Virginia @ Virginia Tech (2026-11-28), Washington @ Oregon (2026-11-27), West Virginia @ Utah (2026-11-27)
+Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico (2026-11-27), App State @ South Alabama (2026-11-27), Arizona State @ Arizona (2026-11-28), Army @ Rice (2026-11-28), Baylor @ Houston (2026-11-28), Boston College @ Miami (2026-11-28), Central Michigan @ Ball State (2026-11-28), Cincinnati @ BYU (2026-11-28), Coastal Carolina @ James Madison (2026-11-28), Duke @ Wake Forest (2026-11-27), Florida @ Florida State (2026-11-27), Florida Atlantic @ East Carolina (2026-11-28), Georgia Tech @ Georgia (2026-11-27), Jacksonville State @ Delaware (2026-11-28), Kansas @ Oklahoma State (2026-11-28), Kansas State @ Iowa State (2026-11-28), Kennesaw State @ Western Kentucky (2026-11-28), LSU @ Arkansas (2026-11-27), Liberty @ Missouri State (2026-11-28), Louisiana @ Georgia State (2026-11-28), Louisiana Tech @ Georgia Southern (2026-11-28), Louisville @ Kentucky (2026-11-27), Marshall @ UL Monroe (2026-11-28), Massachusetts @ Bowling Green (2026-11-28), Michigan @ Ohio State (2026-11-28), Michigan State @ Rutgers (2026-11-28), Minnesota @ Wisconsin (2026-11-27), Navy @ Charlotte (2026-11-28), Nevada @ UNLV (2026-11-28), New Mexico State @ Middle Tennessee (2026-11-28), North Dakota State @ San José State (2026-11-27), Notre Dame @ Syracuse (2026-11-28), Oklahoma @ Missouri (2026-11-28), Penn State @ Maryland (2026-11-28), Pittsburgh @ California (2026-11-28), Purdue @ Indiana (2026-11-27), SMU @ Stanford (2026-11-27), Sacramento State @ Hawai'i (2026-11-28), Sam Houston @ Florida International (2026-11-28), South Carolina @ Clemson (2026-11-27), Southern Miss @ Old Dominion (2026-11-28), TCU @ Texas Tech (2026-11-26), Temple @ Memphis (2026-11-27), Tennessee @ Vanderbilt (2026-11-27), Texas @ Texas A&M (2026-11-27), Toledo @ Ohio (2026-11-27), Troy @ Arkansas State (2026-11-28), Tulane @ South Florida (2026-11-28), Tulsa @ UTSA (2026-11-27), UAB @ North Texas (2026-11-28), UCF @ Colorado (2026-11-28), UConn @ Wyoming (2026-11-28), USC @ UCLA (2026-11-28), UTEP @ Northern Illinois (2026-11-28), Virginia @ Virginia Tech (2026-11-28), Washington @ Oregon (2026-11-27), West Virginia @ Utah (2026-11-27)
 
 ## NCAAF
 
@@ -33,8 +33,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Colorado State @ Fresno State | moneyline | Colorado State ML +950 | 8% | -1.3% | No Play | 0 |
 | Nevada @ UNLV | moneyline | UNLV ML -110 (price estimated from the line) | 69% | +16.8% | No Play | 0 |
 | Duke @ Wake Forest | spread | Duke +10.5 (spread) | 50% |  | No Play | 0 |
-| Duke @ Wake Forest | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
-| Duke @ Wake Forest | moneyline | Duke ML +400 | 19% | -0.9% | No Play | 0 |
+| Duke @ Wake Forest | total | Over 52.5 | 50% | +0.2 pts | No Play | 0 |
+| Duke @ Wake Forest | moneyline | Duke ML +304 (price estimated from the line) | 24% | -0.7% | No Play | 0 |
 | Virginia @ Virginia Tech | moneyline | Virginia Tech ML -110 (price estimated from the line) | 51% | -1.1% | No Play | 0 |
 | Kansas @ Oklahoma State | moneyline | Oklahoma State ML -110 (price estimated from the line) | 71% | +19.1% | No Play | 0 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
@@ -43,9 +43,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Louisiana @ Georgia State | moneyline | Louisiana ML -110 (price estimated from the line) | 58% | +5.3% | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | James Madison ML -110 (price estimated from the line) | 87% | +34.2% | No Play | 0 |
 | Tulsa @ UTSA | moneyline | UTSA ML -110 (price estimated from the line) | 51% | -1.8% | No Play | 0 |
-| South Florida @ Florida Atlantic | spread | South Florida -1.5 (spread) | 50% |  | No Play | 0 |
-| South Florida @ Florida Atlantic | total | Under 62.5 | 51% | +1.1 pts | No Play | 0 |
-| South Florida @ Florida Atlantic | moneyline | South Florida ML -125 | 56% | +0.8% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 41.5 | 52% | +1.9 pts | No Play | 0 |
 | Texas @ Texas A&M | moneyline | Texas ML -241 (price estimated from the line) | 70% | -0.8% | No Play | 0 |
@@ -88,7 +85,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Kent State @ Eastern Michigan | total | Over 46.5 | 51% | +0.5 pts | No Play | 0 |
 | Kent State @ Eastern Michigan | moneyline | Eastern Michigan ML -225 | 68% | -1.5% | No Play | 0 |
 | SMU @ Notre Dame | spread | Notre Dame -16.5 (spread) | 51% |  | No Play | 0 |
-| SMU @ Notre Dame | total | Over 55.5 | 50% | +0.2 pts | No Play | 0 |
+| SMU @ Notre Dame | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
 | SMU @ Notre Dame | moneyline | Notre Dame ML -1450 | 92% | -1.9% | No Play | 0 |
 | Boston College @ Miami | moneyline | Miami ML -110 (price estimated from the line) | 99% | +46.2% | No Play | 0 |
 | Navy @ Charlotte | moneyline | Navy ML -110 (price estimated from the line) | 83% | +30.6% | No Play | 0 |
@@ -106,7 +103,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Toledo @ Ohio | moneyline | Toledo ML -110 (price estimated from the line) | 62% | +9.2% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
 | Georgia @ South Carolina | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
-| Georgia @ South Carolina | moneyline | South Carolina ML +550 | 14% | -1.6% | No Play | 0 |
+| Georgia @ South Carolina | moneyline | South Carolina ML +550 | 17% | +1.1% | No Play | 0 |
 | UAB @ North Texas | moneyline | North Texas ML -110 (price estimated from the line) | 86% | +33.7% | No Play | 0 |
 | Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
