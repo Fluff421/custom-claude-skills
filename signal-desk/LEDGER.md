@@ -2,9 +2,9 @@
 
 Auto-generated from the Airtable Signal Desk Ledger by signal-desk/snapshot.py (2026-11-22). Do not edit by hand.
 
-291 graded picks as of 2026-11-22.
+298 graded picks as of 2026-11-22.
 
-ATS: 138-147-3 (n=288)
+ATS: 142-150-3 (n=295)
 ML: 0-0-0 (n=0)
 Totals: 1-2-0 (n=3)
 
@@ -14,7 +14,7 @@ Flag: n < 30 for ml, totals.
 
 | Tier | Record | Hit rate | Avg CLV (pts) | n |
 |---|---|---|---|---|
-| Max Play | 5-8-0 | 38.5% | -0.19 | 13 |
-| Strong Play | 7-11-0 | 38.9% | +0.64 | 18 |
-| Lean | 29-32-0 | 47.5% | +0.18 | 61 |
-| No Play | 98-98-3 | 50.0% | +0.15 | 199 |
+| Max Play | 6-8-0 | 42.9% | -0.11 | 14 |
+| Strong Play | 8-12-0 | 40.0% | +0.42 | 20 |
+| Lean | 30-33-0 | 47.6% | +0.19 | 63 |
+| No Play | 99-99-3 | 50.0% | +0.17 | 201 |

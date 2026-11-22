@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-11-22T20:38:28Z",
+ "generated_at_utc": "2026-11-22T21:38:44Z",
  "generated_for_central_date": "2026-11-22",
- "graded_picks_csv_rows": 291,
+ "graded_picks_csv_rows": 298,
  "ledger_health": {
   "games_today_or_later": 96,
   "games_before_today": 80,
@@ -81,6 +81,24 @@
    "file": "espn-sync.yml",
    "runs": [
     {
+     "run_id": 45072160789,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45072160789",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-22T21:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 96,
+      "rows_changed": 69,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45063307198,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45063307198",
      "event": "schedule",
@@ -131,24 +149,6 @@
       "mode": "LIVE",
       "rows_scanned": 96,
       "rows_changed": 34,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45022330922,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45022330922",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-22T12:27:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 96,
-      "rows_changed": 27,
       "fpi_missing": 0
      }
     }
@@ -302,6 +302,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 45073103530,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45073103530",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-22T21:37:03Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 7,
+      "leg_patches": 0,
+      "calibration_upserts": 22,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45067441394,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45067441394",
      "event": "workflow_dispatch",
@@ -338,22 +354,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45056103207",
      "event": "workflow_dispatch",
      "created_at": "2026-11-22T18:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 22,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45050452798,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45050452798",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-22T17:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -652,7 +652,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T19:53:37Z",
-   "age_h": 0.7,
+   "age_h": 1.8,
    "status": "ok"
   },
   {
@@ -661,7 +661,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T19:58:19Z",
-   "age_h": 0.7,
+   "age_h": 1.7,
    "status": "ok"
   },
   {
@@ -670,7 +670,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-22T17:22:44Z",
-   "age_h": 3.3,
+   "age_h": 4.3,
    "status": "missed"
   },
   {
@@ -679,7 +679,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T19:32:16Z",
-   "age_h": 1.1,
+   "age_h": 2.1,
    "status": "ok"
   },
   {
@@ -688,7 +688,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T20:28:52Z",
-   "age_h": 0.2,
+   "age_h": 1.2,
    "status": "ok"
   },
   {
@@ -697,7 +697,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-22T16:32:01Z",
-   "age_h": 4.1,
+   "age_h": 5.1,
    "status": "ok"
   },
   {
@@ -707,7 +707,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-22T19:55:04Z",
-   "age_h": 0.7,
+   "age_h": 1.7,
    "status": "ok"
   }
  ],
