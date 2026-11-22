@@ -3271,3 +3271,24 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-22T05:39:14+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,DraftKings,3.5,47.5,-200,167,-111.0,-108.0,-109.0,-110.0,4.5
 2026-11-22T05:39:14+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.0,54.5,244,-300,-105.0,-114.0,-116.0,-104.0,-1.5
 2026-11-22T05:39:14+00:00,reczRiIWxk8KIt5CS,401856759,NCAAF,Florida @ Florida State,2026-11-27,DraftKings,-4.5,54.5,150,-180,-110.0,-110.0,-110.0,-110.0,-4.5
+2026-11-22T06:39:11+00:00,rec0gY90aols8kKfi,401873076,NFL,Pittsburgh Steelers @ Philadelphia Eagles,2026-11-22,Draft Kings,-3.5,37.5,159,-190,-109.0,-111.0,-108.0,-111.0,5.5
+2026-11-22T06:39:11+00:00,rec1bMW82Gl2PPIzw,401873067,NFL,Arizona Cardinals @ Kansas City Chiefs,2026-11-22,Draft Kings,15.5,40.5,-1320,810,-106.0,-113.0,-114.0,-105.0,11.5
+2026-11-22T06:39:11+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,Draft Kings,11.5,48.5,-640,470,-107.0,-112.0,-111.0,-108.0,6.5
+2026-11-22T06:39:11+00:00,rec5qq2WSH0UY0Dpz,401873092,NFL,Washington Commanders @ Arizona Cardinals,2026-11-29,Draft Kings,-6.5,42.5,256,-316,-105.0,-115.0,-104.0,-115.0,-4.5
+2026-11-22T06:39:11+00:00,recAtdjulTlSZk3jZ,401873079,NFL,Green Bay Packers @ Los Angeles Rams,2026-11-25,Draft Kings,3.0,45.5,-158,133,-109.0,-110.0,-109.0,-110.0,3.5
+2026-11-22T06:39:11+00:00,recCLBuEIY0GTUJl4,401858317,NCAAF,Virginia @ Virginia Tech,2026-11-28,Draft Kings,3.0,53.5,-142,120,-110.0,-110.0,-110.0,-110.0,1.5
+2026-11-22T06:39:11+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,Draft Kings,3.0,46.5,-170,143,-117.0,-102.0,-109.0,-110.0,3.5
+2026-11-22T06:39:11+00:00,recLDCpyeKOzU0eyq,401873069,NFL,Jacksonville Jaguars @ New York Giants,2026-11-22,Draft Kings,-6.0,45.5,210,-255,-109.0,-110.0,-114.0,-106.0,-1.5
+2026-11-22T06:39:11+00:00,recMSw6pHg5ehl2Sp,401856765,NCAAF,Tennessee @ Vanderbilt,2026-11-27,Draft Kings,-13.5,44.5,390,-520,-110.0,-110.0,-110.0,-110.0,-3.0
+2026-11-22T06:39:11+00:00,recMfKRGMpQxLeiya,401873091,NFL,Seattle Seahawks @ San Francisco 49ers,2026-11-29,Draft Kings,2.5,46.5,-136,115,-106.0,-113.0,-110.0,-110.0,1.5
+2026-11-22T06:39:11+00:00,recStkT1qVm5ppDHL,401873093,NFL,New England Patriots @ Los Angeles Chargers,2026-11-29,Draft Kings,4.5,39.5,-209,174,-105.0,-115.0,-105.0,-115.0,2.5
+2026-11-22T06:39:11+00:00,recULGfBuf1xWHK45,401873087,NFL,New Orleans Saints @ Cincinnati Bengals,2026-11-29,Draft Kings,10.0,52.5,-541,410,-109.0,-110.0,-110.0,-110.0,6.5
+2026-11-22T06:39:11+00:00,recexe8wPVSC7sMHP,401858543,NCAAF,USC @ UCLA,2026-11-28,Draft Kings,-3.5,49.5,160,-192,-110.0,-110.0,-110.0,-110.0,-11.5
+2026-11-22T06:39:11+00:00,recmjf2RKfSznZlz2,401873089,NFL,New York Jets @ Miami Dolphins,2026-11-29,Draft Kings,-3.0,41.5,137,-163,-110.0,-110.0,-115.0,-105.0,1.5
+2026-11-22T06:39:11+00:00,reco8reR66QV5gqyN,401873085,NFL,Baltimore Ravens @ Houston Texans,2026-11-29,Draft Kings,6.5,44.5,-268,220,-110.0,-110.0,-110.0,-110.0,1.5
+2026-11-22T06:39:11+00:00,recp6o8WFsUDhjzQh,401873090,NFL,Tennessee Titans @ Jacksonville Jaguars,2026-11-29,Draft Kings,14.5,46.5,-1260,770,-110.0,-110.0,-119.0,-101.0,5.5
+2026-11-22T06:39:11+00:00,recpPhCO8j33Igo8i,401873084,NFL,Atlanta Falcons @ Minnesota Vikings,2026-11-29,Draft Kings,7.0,42.5,-341,274,-115.0,-105.0,-110.0,-109.0,4.5
+2026-11-22T06:39:11+00:00,recpWuCwcuU2Pg8La,401856764,NCAAF,South Carolina @ Clemson,2026-11-27,Draft Kings,-3.0,42.5,120,-142,-110.0,-110.0,-110.0,-110.0,3.0
+2026-11-22T06:39:11+00:00,recrQkOwpkcIisvRE,401873088,NFL,New York Giants @ Indianapolis Colts,2026-11-29,Draft Kings,-6.5,43.5,239,-293,-110.0,-110.0,-109.0,-110.0,2.5
+2026-11-22T06:39:11+00:00,rectT8K8SSMh3vu1v,401873086,NFL,Las Vegas Raiders @ Cleveland Browns,2026-11-29,Draft Kings,4.5,40.5,-197,165,-105.0,-114.0,-115.0,-104.0,2.5
+2026-11-22T06:39:11+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,Draft Kings,7.5,54.5,-343,276,-106.0,-113.0,-115.0,-104.0,6.5

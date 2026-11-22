@@ -1,10 +1,10 @@
 {
- "generated_at_utc": "2026-11-22T05:38:42Z",
- "generated_for_central_date": "2026-11-21",
- "graded_picks_csv_rows": 286,
+ "generated_at_utc": "2026-11-22T06:38:38Z",
+ "generated_for_central_date": "2026-11-22",
+ "graded_picks_csv_rows": 288,
  "ledger_health": {
-  "games_today_or_later": 123,
-  "games_before_today": 39,
+  "games_today_or_later": 92,
+  "games_before_today": 80,
   "checks": {
    "upcoming_no_espn_event_id": {
     "count": 0,
@@ -15,20 +15,19 @@
     "games": []
    },
    "upcoming_no_splash_line": {
-    "count": 123,
+    "count": 92,
     "games": [
-     "Oklahoma State @ Arizona State (NCAAF, 2026-11-21)",
      "Louisiana Tech @ Georgia Southern (NCAAF, 2026-11-28)",
      "Pittsburgh Steelers @ Philadelphia Eagles (NFL, 2026-11-22)",
      "Mississippi State @ Ole Miss (NCAAF, 2026-11-27)",
      "Oklahoma @ Missouri (NCAAF, 2026-11-28)",
      "Arizona Cardinals @ Kansas City Chiefs (NFL, 2026-11-22)",
-     "Charlotte @ Tulsa (NCAAF, 2026-11-21)",
      "North Dakota State @ San Jos\u00e9 State (NCAAF, 2026-11-27)",
      "New Orleans Saints @ Chicago Bears (NFL, 2026-11-22)",
      "Arizona State @ Arizona (NCAAF, 2026-11-28)",
      "Temple @ Memphis (NCAAF, 2026-11-27)",
      "Southern Miss @ Old Dominion (NCAAF, 2026-11-28)",
+     "Washington Commanders @ Arizona Cardinals (NFL, 2026-11-29)",
      "Central Michigan @ Ball State (NCAAF, 2026-11-28)",
      "Penn State @ Maryland (NCAAF, 2026-11-28)",
      "Air Force @ New Mexico (NCAAF, 2026-11-27)",
@@ -36,16 +35,17 @@
      "Las Vegas Raiders @ Denver Broncos (NFL, 2026-11-22)",
      "West Virginia @ Utah (NCAAF, 2026-11-27)",
      "Green Bay Packers @ Los Angeles Rams (NFL, 2026-11-25)",
-     "Northern Illinois @ North Dakota State (NCAAF, 2026-11-21)",
-     "Colorado State @ Fresno State (NCAAF, 2026-11-21)",
      "Nevada @ UNLV (NCAAF, 2026-11-28)",
      "Duke @ Wake Forest (NCAAF, 2026-11-27)",
      "Virginia @ Virginia Tech (NCAAF, 2026-11-28)",
-     "Kansas @ Oklahoma State (NCAAF, 2026-11-28)"
+     "Kansas @ Oklahoma State (NCAAF, 2026-11-28)",
+     "New York Jets @ Los Angeles Chargers (NFL, 2026-11-22)",
+     "Minnesota Vikings @ San Francisco 49ers (NFL, 2026-11-22)",
+     "Notre Dame @ Syracuse (NCAAF, 2026-11-28)"
     ]
    },
    "upcoming_no_espn_line": {
-    "count": 49,
+    "count": 45,
     "games": [
      "Louisiana Tech @ Georgia Southern (NCAAF, 2026-11-28)",
      "North Dakota State @ San Jos\u00e9 State (NCAAF, 2026-11-27)",
@@ -58,12 +58,10 @@
      "NC State @ North Carolina (NCAAF, 2026-11-28)",
      "West Virginia @ Utah (NCAAF, 2026-11-27)",
      "Nevada @ UNLV (NCAAF, 2026-11-28)",
-     "Virginia @ Virginia Tech (NCAAF, 2026-11-28)",
      "Kansas @ Oklahoma State (NCAAF, 2026-11-28)",
      "Louisiana @ Georgia State (NCAAF, 2026-11-28)",
      "Coastal Carolina @ James Madison (NCAAF, 2026-11-28)",
      "Tulsa @ UTSA (NCAAF, 2026-11-27)",
-     "Tennessee @ Vanderbilt (NCAAF, 2026-11-27)",
      "UCF @ Colorado (NCAAF, 2026-11-28)",
      "Michigan State @ Rutgers (NCAAF, 2026-11-28)",
      "Army @ Rice (NCAAF, 2026-11-28)",
@@ -71,7 +69,9 @@
      "UTEP @ Northern Illinois (NCAAF, 2026-11-28)",
      "Pittsburgh @ California (NCAAF, 2026-11-28)",
      "Tulane @ South Florida (NCAAF, 2026-11-28)",
-     "Purdue @ Indiana (NCAAF, 2026-11-27)"
+     "Purdue @ Indiana (NCAAF, 2026-11-27)",
+     "SMU @ Stanford (NCAAF, 2026-11-27)",
+     "New Mexico State @ Middle Tennessee (NCAAF, 2026-11-28)"
     ]
    },
    "upcoming_splash_vs_espn_gap": {
@@ -83,43 +83,19 @@
     "games": []
    },
    "upcoming_espn_data_stale": {
-    "count": 41,
-    "games": [
-     "Oklahoma State @ Arizona State (NCAAF, 2026-11-21) (8 h)",
-     "Charlotte @ Tulsa (NCAAF, 2026-11-21) (8 h)",
-     "Northern Illinois @ North Dakota State (NCAAF, 2026-11-21) (8 h)",
-     "Colorado State @ Fresno State (NCAAF, 2026-11-21) (8 h)",
-     "Texas A&M @ Oklahoma (NCAAF, 2026-11-21) (8 h)",
-     "Delaware @ New Mexico State (NCAAF, 2026-11-21) (8 h)",
-     "Rutgers @ Penn State (NCAAF, 2026-11-21) (8 h)",
-     "UL Monroe @ App State (NCAAF, 2026-11-21) (8 h)",
-     "LSU @ Tennessee (NCAAF, 2026-11-21) (8 h)",
-     "Old Dominion @ UConn (NCAAF, 2026-11-21) (8 h)",
-     "South Florida @ Florida Atlantic (NCAAF, 2026-11-21) (8 h)",
-     "Arkansas State @ Louisiana Tech (NCAAF, 2026-11-21) (8 h)",
-     "Washington State @ Texas State (NCAAF, 2026-11-21) (8 h)",
-     "Memphis @ Navy (NCAAF, 2026-11-21) (8 h)",
-     "North Carolina @ Virginia (NCAAF, 2026-11-21) (8 h)",
-     "East Carolina @ Army (NCAAF, 2026-11-21) (8 h)",
-     "Maryland @ USC (NCAAF, 2026-11-21) (8 h)",
-     "Wisconsin @ Purdue (NCAAF, 2026-11-21) (8 h)",
-     "Utah State @ Oregon State (NCAAF, 2026-11-21) (8 h)",
-     "Kentucky @ Missouri (NCAAF, 2026-11-21) (8 h)",
-     "South Alabama @ Southern Miss (NCAAF, 2026-11-21) (8 h)",
-     "Colorado @ Cincinnati (NCAAF, 2026-11-21) (8 h)",
-     "Georgia Southern @ Troy (NCAAF, 2026-11-21) (8 h)",
-     "NC State @ Florida State (NCAAF, 2026-11-21) (8 h)",
-     "Stanford @ California (NCAAF, 2026-11-21) (8 h)"
-    ]
+    "count": 0,
+    "games": []
    },
    "past_date_no_closing_line": {
     "count": 0,
     "games": []
    },
    "past_date_no_score": {
-    "count": 1,
+    "count": 3,
     "games": [
-     "Utah @ TCU (NCAAF, 2026-11-20)"
+     "Oklahoma State @ Arizona State (NCAAF, 2026-11-21)",
+     "Utah State @ Oregon State (NCAAF, 2026-11-21)",
+     "Hawai'i @ Nevada (NCAAF, 2026-11-21)"
     ]
    },
    "past_date_scored_but_pick_ungraded": {
@@ -134,6 +110,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 44993767380,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44993767380",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-22T06:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 92,
+      "rows_changed": 39,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44980685714,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44980685714",
@@ -185,24 +179,6 @@
       "mode": "LIVE",
       "rows_scanned": 82,
       "rows_changed": 24,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44951590961,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44951590961",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-21T21:27:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 123,
-      "rows_changed": 44,
       "fpi_missing": 0
      }
     }
@@ -366,6 +342,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 44994520400,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44994520400",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-22T06:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 2,
+      "leg_patches": 0,
+      "calibration_upserts": 22,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 44990175549,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44990175549",
      "event": "workflow_dispatch",
@@ -408,22 +400,6 @@
      "summary": {
       "mode": "LIVE",
       "ledger_patches": 3,
-      "leg_patches": 0,
-      "calibration_upserts": 22,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44976923069,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44976923069",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-22T02:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 2,
       "leg_patches": 0,
       "calibration_upserts": 22,
       "fpi_missing": 0
@@ -694,7 +670,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T01:28:06Z",
-   "age_h": 4.2,
+   "age_h": 5.2,
    "status": "missed"
   },
   {
@@ -703,7 +679,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T01:34:59Z",
-   "age_h": 4.1,
+   "age_h": 5.1,
    "status": "missed"
   },
   {
@@ -712,7 +688,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-22T00:39:42Z",
-   "age_h": 5.0,
+   "age_h": 6.0,
    "status": "missed"
   },
   {
@@ -721,7 +697,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-21T19:10:14Z",
-   "age_h": 10.5,
+   "age_h": 11.5,
    "status": "ok"
   },
   {
@@ -730,7 +706,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-21T20:14:49Z",
-   "age_h": 9.4,
+   "age_h": 10.4,
    "status": "ok"
   },
   {
@@ -739,7 +715,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-21T23:31:33Z",
-   "age_h": 6.1,
+   "age_h": 7.1,
    "status": "missed"
   },
   {
@@ -749,7 +725,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-22T01:31:31Z",
-   "age_h": 4.1,
+   "age_h": 5.1,
    "status": "ok"
   }
  ],
