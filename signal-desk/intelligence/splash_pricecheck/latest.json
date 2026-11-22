@@ -1,107 +1,7 @@
 {
- "generated_at": "2026-11-22T03:39:42.999896+00:00",
- "snapshot_age_hours": 127.7,
+ "generated_at": "2026-11-22T04:39:35.531942+00:00",
+ "snapshot_age_hours": 128.7,
  "games": [
-  {
-   "game": "Colorado State @ Fresno State",
-   "record_id": "recBWcZ5vJx1Anl8m",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": 19.5,
-   "splash_total": 63.5,
-   "import_home_margin": null,
-   "import_total": 65.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recBWcZ5vJx1Anl8m",
-   "model_status": "",
-   "spread": {
-    "pick": "Fresno State -19.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5004,
-    "edge": 0.01,
-    "proj": 19.3,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Fresno State -13.5 (teased)",
-     "prob": 0.6421
-    }
-   },
-   "total": {
-    "pick": "Under 63.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5017,
-    "edge": 0.14,
-    "proj": 63.36,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 69.5 (teased)",
-     "prob": 0.6816
-    }
-   },
-   "moneyline": {
-    "pick": "Fresno State ML -1250",
-    "tier": "No Play",
-    "prob": 0.9103,
-    "edge": -0.0156,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Georgia @ South Carolina",
-   "record_id": "recjfxvQjakyxptWi",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": -16.5,
-   "splash_total": 50.5,
-   "import_home_margin": null,
-   "import_total": 51.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recjfxvQjakyxptWi",
-   "model_status": "",
-   "spread": {
-    "pick": "South Carolina +16.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.507,
-    "edge": 0.26,
-    "proj": -14.8,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "South Carolina +22.5 (teased)",
-     "prob": 0.6722
-    }
-   },
-   "total": {
-    "pick": "Over 50.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5106,
-    "edge": 0.87,
-    "proj": 51.37,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 44.5 (teased)",
-     "prob": 0.7013
-    }
-   },
-   "moneyline": {
-    "pick": "South Carolina ML +550",
-    "tier": "No Play",
-    "prob": 0.1654,
-    "edge": 0.0115,
-    "model_ml_side": "home"
-   }
-  },
   {
    "game": "Hawai'i @ Nevada",
    "record_id": "reckadkLKADB9o91J",
@@ -149,56 +49,6 @@
     "tier": "No Play",
     "prob": 0.6579,
     "edge": 0.0176,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Kentucky @ Missouri",
-   "record_id": "recTubW1MtzrvvEmY",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": 5.5,
-   "splash_total": 48.5,
-   "import_home_margin": null,
-   "import_total": 48.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recTubW1MtzrvvEmY",
-   "model_status": "",
-   "spread": {
-    "pick": "Kentucky +5.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5069,
-    "edge": -0.26,
-    "proj": 4.1,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Kentucky +11.5 (teased)",
-     "prob": 0.6718
-    }
-   },
-   "total": {
-    "pick": "Over 48.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5081,
-    "edge": 0.66,
-    "proj": 49.16,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 42.5 (teased)",
-     "prob": 0.6958
-    }
-   },
-   "moneyline": {
-    "pick": "Kentucky ML +176",
-    "tier": "No Play",
-    "prob": 0.3851,
-    "edge": 0.0228,
     "model_ml_side": "away"
    }
   },
@@ -253,56 +103,6 @@
    }
   },
   {
-   "game": "SMU @ Notre Dame",
-   "record_id": "reccsGQ0WZVRNDL66",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": 20.5,
-   "splash_total": 56.5,
-   "import_home_margin": null,
-   "import_total": 56.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "reccsGQ0WZVRNDL66",
-   "model_status": "",
-   "spread": {
-    "pick": "Notre Dame -20.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5027,
-    "edge": 0.1,
-    "proj": 21.1,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Notre Dame -14.5 (teased)",
-     "prob": 0.6424
-    }
-   },
-   "total": {
-    "pick": "Under 56.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5007,
-    "edge": 0.06,
-    "proj": 56.44,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 62.5 (teased)",
-     "prob": 0.6794
-    }
-   },
-   "moneyline": {
-    "pick": "Notre Dame ML -1408",
-    "tier": "No Play",
-    "prob": 0.916,
-    "edge": -0.0177,
-    "model_ml_side": "away"
-   }
-  },
-  {
    "game": "San Diego State @ Boise State",
    "record_id": "recfU2ZV1porTqF2q",
    "league": "NCAAF",
@@ -350,56 +150,6 @@
     "prob": 0.9187,
     "edge": 0.0323,
     "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Stanford @ California",
-   "record_id": "recbrlyZmvtoBNnel",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": -2.5,
-   "splash_total": 55.5,
-   "import_home_margin": null,
-   "import_total": 56.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recbrlyZmvtoBNnel",
-   "model_status": "",
-   "spread": {
-    "pick": "California +2.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5166,
-    "edge": 0.62,
-    "proj": 1.6999999999999993,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "California +8.5 (teased)",
-     "prob": 0.6791
-    }
-   },
-   "total": {
-    "pick": "Under 55.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5003,
-    "edge": 0.02,
-    "proj": 55.48,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 61.5 (teased)",
-     "prob": 0.6784
-    }
-   },
-   "moneyline": {
-    "pick": "California ML +106",
-    "tier": "No Play",
-    "prob": 0.4671,
-    "edge": -0.0184,
-    "model_ml_side": "home"
    }
   },
   {
