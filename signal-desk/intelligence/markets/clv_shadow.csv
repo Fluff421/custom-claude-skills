@@ -95,3 +95,17 @@ ts,record_id,league,game,side,edge_tier,edge,pred_clv,clv_tier,model_n
 2026-11-22 00:33Z,reccZYYXF5frCqEUV,NCAAF,Kent State @ Eastern Michigan,Eastern Michigan -6.5 (spread),No Play,0.29,-0.075,No Play,109
 2026-11-22 00:33Z,recpc12VnHvsMb7G1,NCAAF,Illinois @ Northwestern,Northwestern -4.5 (spread),No Play,0.52,0.064,No Play,109
 2026-11-22 00:33Z,recrI4L4xg2U92x5o,NCAAF,Miami (OH) @ Western Michigan,Western Michigan -7.5 (spread),No Play,0.06,0.071,No Play,109
+2026-11-22 11:59Z,rec5qq2WSH0UY0Dpz,NFL,Washington Commanders @ Arizona Cardinals,Arizona Cardinals +6.5 (spread),Lean,4.6,1.064,Max Play,29
+2026-11-22 11:59Z,recCLBuEIY0GTUJl4,NCAAF,Virginia @ Virginia Tech,Virginia +3 (spread),No Play,-0.36,-0.02,No Play,109
+2026-11-22 11:59Z,recMSw6pHg5ehl2Sp,NCAAF,Tennessee @ Vanderbilt,Tennessee -13.5 (spread),No Play,-0.29,0.001,No Play,109
+2026-11-22 11:59Z,recMfKRGMpQxLeiya,NFL,Seattle Seahawks @ San Francisco 49ers,San Francisco 49ers -2.5 (spread),Lean,3.6,0.462,Lean,29
+2026-11-22 11:59Z,recStkT1qVm5ppDHL,NFL,New England Patriots @ Los Angeles Chargers,Los Angeles Chargers -4.5 (spread),Lean,1.8,0.1,No Play,29
+2026-11-22 11:59Z,recULGfBuf1xWHK45,NFL,New Orleans Saints @ Cincinnati Bengals,Cincinnati Bengals -10 (spread),Lean,1.6,0.08,No Play,29
+2026-11-22 11:59Z,recmjf2RKfSznZlz2,NFL,New York Jets @ Miami Dolphins,Miami Dolphins +3 (spread),No Play,0.0,0.02,No Play,29
+2026-11-22 11:59Z,reco8reR66QV5gqyN,NFL,Baltimore Ravens @ Houston Texans,Houston Texans -6.5 (spread),Strong Play,2.9,0.843,Strong Play,29
+2026-11-22 11:59Z,recp6o8WFsUDhjzQh,NFL,Tennessee Titans @ Jacksonville Jaguars,Tennessee Titans +14.5 (spread),No Play,-0.9,0.02,No Play,29
+2026-11-22 11:59Z,recpPhCO8j33Igo8i,NFL,Atlanta Falcons @ Minnesota Vikings,Minnesota Vikings -7 (spread),Lean,3.9,0.863,Strong Play,29
+2026-11-22 11:59Z,recpWuCwcuU2Pg8La,NCAAF,South Carolina @ Clemson,Clemson +3.5 (spread),No Play,0.16,-0.065,No Play,109
+2026-11-22 11:59Z,recrQkOwpkcIisvRE,NFL,New York Giants @ Indianapolis Colts,Indianapolis Colts +6.5 (spread),Lean,6.5,1.908,Max Play,29
+2026-11-22 11:59Z,rectT8K8SSMh3vu1v,NFL,Las Vegas Raiders @ Cleveland Browns,Cleveland Browns -4.5 (spread),No Play,0.2,-0.02,No Play,29
+2026-11-22 11:59Z,reczRiIWxk8KIt5CS,NCAAF,Florida @ Florida State,Florida -4.5 (spread),No Play,-0.01,0.014,No Play,109
