@@ -18,7 +18,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Oklahoma @ Missouri | total | Over 41.5 | 51% | +1.1 pts | No Play | 0 |
 | Oklahoma @ Missouri | moneyline | Missouri ML -120 | 54% | -1.0% | No Play | 0 |
 | North Dakota State @ San José State | spread | San José State +12.5 (spread) | 51% |  | No Play | 0 |
-| North Dakota State @ San José State | total | Over 39.5 | 52% | +1.5 pts | No Play | 0 |
+| North Dakota State @ San José State | total | Over 40.5 | 51% | +1.2 pts | No Play | 0 |
 | North Dakota State @ San José State | moneyline | San José State ML +400 | 24% | +4.5% | Lean | 0.5 |
 | Arizona State @ Arizona | spread | Arizona -7.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ Arizona | total | Over 54.5 | 50% | +0.4 pts | No Play | 0 |
@@ -34,7 +34,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Central Michigan @ Ball State | moneyline | Ball State ML +170 | 38% | +0.9% | No Play | 0 |
 | Penn State @ Maryland | spread | Penn State -7.5 (spread) | 51% |  | No Play | 0 |
 | Penn State @ Maryland | total | Over 50.5 | 51% | +1.0 pts | No Play | 0 |
-| Penn State @ Maryland | moneyline | Maryland ML +235 | 31% | +0.7% | No Play | 0 |
+| Penn State @ Maryland | moneyline | Maryland ML +235 | 30% | -0.3% | No Play | 0 |
 | Air Force @ New Mexico | spread | New Mexico -6.5 (spread) | 50% |  | No Play | 0 |
 | Air Force @ New Mexico | total | Over 41.5 | 53% | +2.1 pts | No Play | 0 |
 | Air Force @ New Mexico | moneyline | Air Force ML +200 | 33% | -0.6% | No Play | 0 |
@@ -48,8 +48,8 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Nevada @ UNLV | total | Over 43.5 | 52% | +1.4 pts | No Play | 0 |
 | Nevada @ UNLV | moneyline | UNLV ML -180 | 63% | -1.8% | No Play | 0 |
 | Duke @ Wake Forest | spread | Duke +10.5 (spread) | 50% |  | No Play | 0 |
-| Duke @ Wake Forest | total | Under 56.5 | 51% | +0.8 pts | No Play | 0 |
-| Duke @ Wake Forest | moneyline | Duke ML +425 | 18% | -0.7% | No Play | 0 |
+| Duke @ Wake Forest | total | Under 55.5 | 51% | +0.5 pts | No Play | 0 |
+| Duke @ Wake Forest | moneyline | Duke ML +455 | 18% | +0.3% | No Play | 0 |
 | Virginia @ Virginia Tech | spread | Virginia +3 (spread) | 51% |  | No Play | 0 |
 | Virginia @ Virginia Tech | total | Over 52.5 | 51% | +0.5 pts | No Play | 0 |
 | Virginia @ Virginia Tech | moneyline | Virginia Tech ML -142 | 58% | -0.8% | No Play | 0 |
@@ -76,10 +76,10 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Tennessee @ Vanderbilt | moneyline | Vanderbilt ML +340 | 21% | -1.7% | No Play | 0 |
 | UCF @ Colorado | spread | UCF +2.5 (spread) | 51% |  | No Play | 0 |
 | UCF @ Colorado | total | Over 51.5 | 51% | +0.8 pts | No Play | 0 |
-| UCF @ Colorado | moneyline | Colorado ML -115 | 55% | +1.6% | No Play | 0 |
+| UCF @ Colorado | moneyline | Colorado ML -118 | 55% | +0.9% | No Play | 0 |
 | TCU @ Texas Tech | spread | Texas Tech -10.5 (spread) | 50% |  | No Play | 0 |
 | TCU @ Texas Tech | total | Over 46.5 | 52% | +1.5 pts | No Play | 0 |
-| TCU @ Texas Tech | moneyline | TCU ML +350 | 20% | -2.1% | No Play | 0 |
+| TCU @ Texas Tech | moneyline | TCU ML +350 | 22% | -0.4% | No Play | 0 |
 | Michigan State @ Rutgers | spread | Michigan State -3 (spread) | 50% |  | No Play | 0 |
 | Michigan State @ Rutgers | total | Over 47.5 | 51% | +0.9 pts | No Play | 0 |
 | Michigan State @ Rutgers | moneyline | Michigan State ML -148 | 59% | -0.6% | No Play | 0 |
@@ -138,7 +138,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Boston College @ Miami | total | Over 53.5 | 51% | +0.6 pts | No Play | 0 |
 | Boston College @ Miami | moneyline | Miami ML -2800 | 96% | -0.5% | No Play | 0 |
 | Navy @ Charlotte | spread | Charlotte +15.5 (spread) | 50% |  | No Play | 0 |
-| Navy @ Charlotte | total | Over 56.5 | 50% | +0.4 pts | No Play | 0 |
+| Navy @ Charlotte | total | Over 55.5 | 51% | +0.7 pts | No Play | 0 |
 | Navy @ Charlotte | moneyline | Charlotte ML +575 | 14% | -1.1% | No Play | 0 |
 | Liberty @ Missouri State | spread | Liberty -14.5 (spread) | 51% |  | No Play | 0 |
 | Liberty @ Missouri State | total | Over 51.5 | 50% | +0.0 pts | No Play | 0 |
@@ -148,7 +148,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | USC @ UCLA | moneyline | UCLA ML +210 | 35% | +2.6% | No Play | 0 |
 | Minnesota @ Wisconsin | spread | Wisconsin -7 (spread) | 52% |  | No Play | 0 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | +2.8 pts | Lean | 0.5 |
-| Minnesota @ Wisconsin | moneyline | Minnesota ML +210 | 31% | -1.8% | No Play | 0 |
+| Minnesota @ Wisconsin | moneyline | Minnesota ML +225 | 30% | -1.2% | No Play | 0 |
 | LSU @ Arkansas | spread | LSU -13.5 (spread) | 51% |  | No Play | 0 |
 | LSU @ Arkansas | total | Over 47.5 | 51% | +1.0 pts | No Play | 0 |
 | LSU @ Arkansas | moneyline | Arkansas ML +455 | 18% | -0.2% | No Play | 0 |
@@ -174,7 +174,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Sacramento State @ Hawai'i | total | Over 38.5 | 53% | +2.2 pts | No Play | 0 |
 | Sacramento State @ Hawai'i | moneyline | Hawai'i ML -535 | 84% | -0.7% | No Play | 0 |
 | South Carolina @ Clemson | spread | Clemson +3.5 (spread) | 50% |  | No Play | 0 |
-| South Carolina @ Clemson | total | Over 39.5 | 54% | +3.0 pts | Lean | 0.5 |
+| South Carolina @ Clemson | total | Over 41.5 | 53% | +2.4 pts | No Play | 0 |
 | South Carolina @ Clemson | moneyline | Clemson ML +142 | 39% | -2.0% | No Play | 0 |
 | Illinois @ Northwestern | spread | Northwestern -4.5 (spread) | 51% |  | No Play | 0 |
 | Illinois @ Northwestern | total | Under 49.5 | 51% | +0.5 pts | No Play | 0 |
@@ -204,11 +204,11 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Kennesaw State @ Western Kentucky | total | Under 54.5 | 51% | +0.9 pts | No Play | 0 |
 | Kennesaw State @ Western Kentucky | moneyline | Kennesaw State ML -135 | 58% | +0.2% | No Play | 0 |
 | Boise State @ Colorado State | spread | Boise State -21 (spread) | 50% |  | No Play | 0 |
-| Boise State @ Colorado State | total | Under 75.5 | 52% | +1.9 pts | No Play | 0 |
+| Boise State @ Colorado State | total | Under 76.5 | 53% | +2.2 pts | No Play | 0 |
 | Boise State @ Colorado State | moneyline | Colorado State ML +1000 | 8% | -1.4% | No Play | 0 |
 | Massachusetts @ Bowling Green | spread | Massachusetts +1.5 (spread) | 50% |  | No Play | 0 |
-| Massachusetts @ Bowling Green | total | Under 44.5 | 51% | +0.8 pts | No Play | 0 |
-| Massachusetts @ Bowling Green | moneyline | Bowling Green ML -118 | 56% | +2.0% | No Play | 0 |
+| Massachusetts @ Bowling Green | total | Under 43.5 | 51% | +0.5 pts | No Play | 0 |
+| Massachusetts @ Bowling Green | moneyline | Bowling Green ML -118 | 57% | +3.1% | Lean | 0.5 |
 | App State @ South Alabama | spread | South Alabama -3 (spread) | 50% |  | No Play | 0 |
 | App State @ South Alabama | total | Under 56.5 | 50% | +0.2 pts | No Play | 0 |
 | App State @ South Alabama | moneyline | South Alabama ML -142 | 58% | -0.2% | No Play | 0 |
@@ -218,11 +218,11 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 
 ### NCAAF Best parlays
 
-- Louisville ML -122 + Over 37.5: model 31.2%, needs +260 to break even (reference payout +260), edge +3.4%, Lean
+- Louisville ML -122 + Bowling Green ML -118: model 33.4%, needs +236 to break even (reference payout +236), edge +3.7%, Lean
 - San José State ML +400 + Louisville ML -122: model 14.3%, needs +810 to break even (reference payout +810), edge +3.3%, Lean
-- San José State ML +400 + Over 37.5: model 13.1%, needs +890 to break even (reference payout +890), edge +3.0%, Lean
-- San José State ML +400 + Over 39.5: model 13.1%, needs +855 to break even (reference payout +855), edge +2.6%, Lean
-- San José State ML +400 + Over 45.5: model 13.0%, needs +855 to break even (reference payout +855), edge +2.5%, Lean
+- San José State ML +400 + Bowling Green ML -118: model 14.0%, needs +824 to break even (reference payout +824), edge +3.2%, Lean
+- Louisville ML -122 + Over 37.5: model 31.2%, needs +255 to break even (reference payout +255), edge +3.0%, Lean
+- Over 37.5 + Bowling Green ML -118: model 30.6%, needs +261 to break even (reference payout +261), edge +2.9%, Lean
 
 ## NFL
 
@@ -233,7 +233,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +242 (price estimated from the line) | 29% | -0.6% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -170 | 65% | +1.6% | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -170 | 66% | +2.9% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -190 | 64% | -1.7% | No Play | 0 |
@@ -251,10 +251,10 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -421 (price estimated from the line) | 88% | +7.3% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 67% | +3.8 pts | Strong Play | 1 |
-| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -159 | 62% | +1.1% | No Play | 0 |
+| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -153 | 62% | +2.0% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
-| Chicago Bears @ Detroit Lions | total | Under 54.5 | 59% | +2.0 pts | Lean | 0.5 |
-| Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +120 | 44% | -1.1% | No Play | 0 |
+| Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | +2.3 pts | Lean | 0.5 |
+| Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +119 | 44% | -1.4% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 41.5 | 53% | +0.6 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -156 (price estimated from the line) | 62% | +1.4% | No Play | 0 |
@@ -272,7 +272,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +226 (price estimated from the line) | 35% | +4.2% | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Under 48.5 | 51% | +0.1 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -434 | 84% | +2.4% | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -419 | 84% | +3.0% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | +1.9 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -191 (price estimated from the line) | 68% | +2.7% | No Play | 0 |
@@ -283,16 +283,16 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 ### NFL Best parlays
 
 - Under 50.5 + Under 54.5: model 41.4%, needs +287 to break even (reference payout +287), edge +15.5%, Max Play
+- Under 50.5 + Under 55.5: model 40.4%, needs +274 to break even (reference payout +274), edge +13.7%, Max Play
+- Los Angeles Rams -3.5 (spread) + Under 50.5: model 39.3%, needs +288 to break even (reference payout +288), edge +13.5%, Max Play
 - Under 50.5 + Detroit Lions +2.5 (spread): model 40.1%, needs +274 to break even (reference payout +274), edge +13.4%, Max Play
-- Under 50.5 + Under 54.5: model 39.5%, needs +283 to break even (reference payout +283), edge +13.4%, Max Play
 - Under 50.5 + Houston Texans -6.5 (spread): model 39.7%, needs +274 to break even (reference payout +274), edge +13.0%, Max Play
-- Under 50.5 + Indianapolis Colts +6.5 (spread): model 39.6%, needs +274 to break even (reference payout +274), edge +12.9%, Max Play
 
 ### NFL Best 6-point teasers
 
-- Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Under 54.5 -> 60.5: model 53.0%, needs +160 to break even (reference payout +160), edge +14.5%, Max Play
+- Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Under 55.5 -> 61.5: model 53.6%, needs +160 to break even (reference payout +160), edge +15.1%, Max Play
 - Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 40.5 -> 34.5: model 52.9%, needs +160 to break even (reference payout +160), edge +14.4%, Max Play
 - Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7): model 52.7%, needs +160 to break even (reference payout +160), edge +14.3%, Max Play
-- Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 39.5 -> 33.5: model 52.1%, needs +160 to break even (reference payout +160), edge +13.7%, Max Play
-- Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 40.5 -> 34.5: model 51.7%, needs +160 to break even (reference payout +160), edge +13.2%, Max Play
+- Under 50.5 -> 56.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5: model 52.2%, needs +160 to break even (reference payout +160), edge +13.8%, Max Play
+- Under 50.5 -> 56.5 + Under 55.5 -> 61.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7): model 52.1%, needs +160 to break even (reference payout +160), edge +13.7%, Max Play
 
