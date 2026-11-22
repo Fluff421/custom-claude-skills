@@ -3579,3 +3579,9 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-22T19:39:03+00:00,recvKfnZISHreaP2P,401870804,NCAAF,Kennesaw State @ Western Kentucky,2026-11-28,Draft Kings,-1.5,54.5,100,-120,-105.0,-115.0,-105.0,-115.0,-1.5
 2026-11-22T19:39:03+00:00,recx7QaUkUSeuNiDo,401860926,NCAAF,Boise State @ Colorado State,2026-11-28,Draft Kings,-21.0,74.5,1000,-1800,-115.0,-105.0,-110.0,-110.0,-21.0
 2026-11-22T19:39:03+00:00,recxCdNK7JRyXtOya,401866475,NCAAF,Massachusetts @ Bowling Green,2026-11-28,Draft Kings,1.5,43.5,-118,-102,-110.0,-110.0,-118.0,-102.0,1.5
+2026-11-22T19:58:28+00:00,recDCa1TW7radKDSJ,401873074,NFL,New York Jets @ Los Angeles Chargers,2026-11-22,DraftKings,3.0,43.5,-179,150,-119.0,-101.0,-103.0,-117.0,9.5
+2026-11-22T19:58:28+00:00,recElzL7HxGEOOWIt,401873077,NFL,Minnesota Vikings @ San Francisco 49ers,2026-11-22,DraftKings,3.5,46.5,-190,159,-112.0,-107.0,-105.0,-114.0,3.5
+2026-11-22T19:58:28+00:00,recPkpFhgLQDq4E0N,401866472,NCAAF,Buffalo @ Akron,2026-11-27,DraftKings,-8.5,50.5,295,-375,-115.0,-105.0,-110.0,-110.0,-10.0
+2026-11-22T19:58:28+00:00,recVXvmEcV8pSLkor,401862839,NCAAF,Tulane @ South Florida,2026-11-28,DraftKings,7.0,41.5,-225,185,-105.0,-115.0,-105.0,-115.0,8.5
+2026-11-22T19:58:28+00:00,recgzytvNuzhD29pt,401856758,NCAAF,LSU @ Arkansas,2026-11-27,DraftKings,-13.5,47.5,455,-625,-110.0,-110.0,-118.0,-102.0,-13.5
+2026-11-22T19:58:28+00:00,recvKfnZISHreaP2P,401870804,NCAAF,Kennesaw State @ Western Kentucky,2026-11-28,DraftKings,-2.5,54.5,114,-135,-118.0,-102.0,-105.0,-115.0,-1.5
