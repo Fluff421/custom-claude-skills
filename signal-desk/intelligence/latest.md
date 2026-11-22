@@ -175,20 +175,19 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -596 | 90% | Lean | 0.5 |
-| Texas @ Texas A&M | total | Over 38.5 | 53% | Lean | 0.5 |
 | Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -265 | 76% | Lean | 0.5 |
+| San Diego State @ Washington State | total | Over 45.5 | 53% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 39.5 | 57% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 51.5 | 63% | Lean | 0.5 |
 | Minnesota @ Wisconsin | total | Over 36.5 | 54% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
-| UAB @ North Texas | total | Over 48.5 | 53% | Lean | 0.5 |
-| UConn @ Wyoming | total | Under 49.5 | 53% | Lean | 0.5 |
+| UAB @ North Texas | total | Over 47.5 | 54% | Lean | 0.5 |
 | South Carolina @ Clemson | total | Over 39.5 | 54% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 58% | Lean | 0.5 |
 - NCAAF parlay: Over 36.5 + Over 39.5 | model 28.8%, needs +264 to break even, edge +1.4%, No Play
-- NCAAF parlay: Over 38.5 + Over 36.5 | model 28.7%, needs +264 to break even, edge +1.2%, No Play
-- NCAAF parlay: Over 36.5 + Over 48.5 | model 28.7%, needs +264 to break even, edge +1.2%, No Play
+- NCAAF parlay: Over 45.5 + Over 36.5 | model 28.6%, needs +264 to break even, edge +1.2%, No Play
+- NCAAF parlay: Over 45.5 + Over 39.5 | model 28.6%, needs +264 to break even, edge +1.1%, No Play
 - NFL parlay: Denver Broncos ML -596 + Under 51.5 | model 57.0%, needs +123 to break even, edge +12.1%, Max Play
 - NFL parlay: Denver Broncos ML -596 + Jacksonville Jaguars -6 (spread) + Under 51.5 | model 34.7%, needs +327 to break even, edge +11.3%, Max Play
 - NFL parlay: Jacksonville Jaguars -6 (spread) + Under 51.5 | model 38.4%, needs +266 to break even, edge +11.0%, Max Play
