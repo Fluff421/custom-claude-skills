@@ -1,10 +1,10 @@
-# Pick-time check at the newest Splash lines, 2026-11-22 02:40Z
+# Pick-time check at the newest Splash lines, 2026-11-22 03:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 127 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 128 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
-10 Lean-or-better plays at the current Splash lines (23 games checked).
+10 Lean-or-better plays at the current Splash lines (21 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
