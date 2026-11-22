@@ -40,12 +40,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Louisiana @ Georgia State | moneyline | Louisiana ML -110 (price estimated from the line) | 58% | +5.3% | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | James Madison ML -110 (price estimated from the line) | 87% | +34.2% | No Play | 0 |
 | Tulsa @ UTSA | moneyline | UTSA ML -110 (price estimated from the line) | 51% | -1.8% | No Play | 0 |
-| LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
-| LSU @ Tennessee | total | Over 45.5 | 52% | +1.7 pts | No Play | 0 |
-| LSU @ Tennessee | moneyline | LSU ML -135 | 56% | -1.8% | No Play | 0 |
-| South Florida @ Florida Atlantic | spread | South Florida -1.5 (spread) | 50% |  | No Play | 0 |
-| South Florida @ Florida Atlantic | total | Under 62.5 | 51% | +1.1 pts | No Play | 0 |
-| South Florida @ Florida Atlantic | moneyline | South Florida ML -125 | 56% | +0.8% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 41.5 | 52% | +1.9 pts | No Play | 0 |
 | Texas @ Texas A&M | moneyline | Texas ML -241 (price estimated from the line) | 70% | -0.8% | No Play | 0 |
@@ -134,7 +128,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +162 | 36% | -1.7% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 52% | +0.3 pts | No Play | 0 |
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1600 | 100% | +5.8% | Lean | 0.5 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1620 | 100% | +5.8% | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | +1.6 pts | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -630 | 90% | +3.7% | Lean | 0.5 |
@@ -183,10 +177,10 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1600 + Under 51.5 + Buffalo Bills ML -1540: model 68.1%, needs +116 to break even (reference payout +116), edge +21.8%, Max Play
+- Kansas City Chiefs ML -1620 + Under 51.5 + Buffalo Bills ML -1540: model 68.1%, needs +116 to break even (reference payout +116), edge +21.8%, Max Play
 - Denver Broncos ML -640 + Under 51.5 + Buffalo Bills ML -1540: model 61.6%, needs +135 to break even (reference payout +135), edge +19.1%, Max Play
 - Under 51.5 + Buffalo Bills ML -1540: model 68.2%, needs +103 to break even (reference payout +103), edge +19.0%, Max Play
-- Kansas City Chiefs ML -1600 + Denver Broncos ML -640 + Under 51.5: model 61.6%, needs +135 to break even (reference payout +135), edge +19.0%, Max Play
+- Kansas City Chiefs ML -1620 + Denver Broncos ML -640 + Under 51.5: model 61.6%, needs +134 to break even (reference payout +134), edge +18.9%, Max Play
 - Chicago Bears ML -630 + Under 51.5 + Buffalo Bills ML -1540: model 61.3%, needs +136 to break even (reference payout +136), edge +18.9%, Max Play
 
 ### NFL Best 6-point teasers

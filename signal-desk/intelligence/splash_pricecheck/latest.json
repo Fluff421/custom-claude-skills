@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T00:42:35.792664+00:00",
- "snapshot_age_hours": 124.8,
+ "generated_at": "2026-11-22T01:39:19.398643+00:00",
+ "snapshot_age_hours": 125.7,
  "games": [
   {
    "game": "Arkansas State @ Louisiana Tech",
@@ -253,56 +253,6 @@
    }
   },
   {
-   "game": "LSU @ Tennessee",
-   "record_id": "recJSChs4B4va8L8L",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": -1.5,
-   "splash_total": 45.5,
-   "import_home_margin": null,
-   "import_total": 46.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recJSChs4B4va8L8L",
-   "model_status": "",
-   "spread": {
-    "pick": "Tennessee +1.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5066,
-    "edge": 0.25,
-    "proj": 0.10000000000000142,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Tennessee +7.5 (teased)",
-     "prob": 0.6707
-    }
-   },
-   "total": {
-    "pick": "Over 45.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5206,
-    "edge": 1.68,
-    "proj": 47.18,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 39.5 (teased)",
-     "prob": 0.7228
-    }
-   },
-   "moneyline": {
-    "pick": "LSU ML -113",
-    "tier": "No Play",
-    "prob": 0.5271,
-    "edge": -0.0034,
-    "model_ml_side": "home"
-   }
-  },
-  {
    "game": "Maryland @ USC",
    "record_id": "recQNpjWq2QAzVyzV",
    "league": "NCAAF",
@@ -499,56 +449,6 @@
     "tier": "No Play",
     "prob": 0.9187,
     "edge": 0.0323,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "South Florida @ Florida Atlantic",
-   "record_id": "recKzofFT2KhKZZLW",
-   "league": "NCAAF",
-   "date": "2026-11-21",
-   "snapshot_id": "SPL-L-20261116-1356",
-   "captured_at_central": "2026-11-16 13:56:00 CST",
-   "splash_home_margin": -1.5,
-   "splash_total": 65.5,
-   "import_home_margin": null,
-   "import_total": 64.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recKzofFT2KhKZZLW",
-   "model_status": "",
-   "spread": {
-    "pick": "South Florida -1.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5004,
-    "edge": -0.01,
-    "proj": -1.9000000000000004,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "South Florida +4.5 (teased)",
-     "prob": 0.6589
-    }
-   },
-   "total": {
-    "pick": "Under 65.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5238,
-    "edge": 1.95,
-    "proj": 63.55,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 71.5 (teased)",
-     "prob": 0.7296
-    }
-   },
-   "moneyline": {
-    "pick": "South Florida ML -108",
-    "tier": "No Play",
-    "prob": 0.543,
-    "edge": 0.0238,
     "model_ml_side": "away"
    }
   },
