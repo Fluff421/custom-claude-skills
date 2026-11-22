@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T08:50:55.886863+00:00",
- "snapshot_age_hours": 132.9,
+ "generated_at": "2026-11-22T09:39:39.719364+00:00",
+ "snapshot_age_hours": 133.7,
  "games": [
   {
    "game": "Arizona Cardinals @ Kansas City Chiefs",
@@ -221,13 +221,13 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 1.6,
-    "proj": 18.2,
+    "edge": 1.5,
+    "proj": 18.1,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
      "pick": "Buffalo Bills -10.5 (teased)",
-     "prob": 0.6664
+     "prob": 0.6656
     }
    },
    "total": {
@@ -247,8 +247,8 @@
    "moneyline": {
     "pick": "Miami Dolphins ML +900",
     "tier": "No Play",
-    "prob": 0.0868,
-    "edge": -0.0132,
+    "prob": 0.0872,
+    "edge": -0.0128,
     "model_ml_side": "home"
    }
   },

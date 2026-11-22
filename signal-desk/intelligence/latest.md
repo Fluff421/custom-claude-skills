@@ -149,9 +149,10 @@ By size of base edge:
 
 ## Data gaps right now
 
-- 92 of 92 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Pittsburgh Steelers @ Philadelphia Eagles; Mississippi State @ Ole Miss; Oklahoma @ Missouri; Arizona Cardinals @ Kansas City Chiefs; North Dakota State @ San José State; New Orleans Saints @ Chicago Bears; Arizona State @ Arizona
-- 3 games inside the forecast window have no weather note
-- NCAAF quarterback checks cover 0 of 65 games (comes from the Grok feed only)
+- 96 of 96 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Pittsburgh Steelers @ Philadelphia Eagles; Mississippi State @ Ole Miss; Oklahoma @ Missouri; Arizona Cardinals @ Kansas City Chiefs; North Dakota State @ San José State; New Orleans Saints @ Chicago Bears; Arizona State @ Arizona
+- 4 upcoming games have no injury notes
+- 7 games inside the forecast window have no weather note
+- NCAAF quarterback checks cover 0 of 69 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
 
@@ -161,7 +162,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1320 | 100% | Strong Play | 1.0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | Lean | 0.5 |
-| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -640 | 90% | Lean | 0.5 |
+| New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -610 | 90% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 41.5 | 58% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -650 | 90% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -158 | 65% | Lean | 0.5 |

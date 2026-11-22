@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T08:50:28.571765+00:00",
+  "checked_at": "2026-11-22T09:39:41.385963+00:00",
   "central_date": "2026-11-22",
   "ready": false,
   "policy": {
@@ -14,54 +14,54 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.019,
+      "age_hours": 0.018,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 132.908,
+      "age_hours": 133.728,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.001,
+      "age_hours": 0.0,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 132.901,
+      "age_hours": 133.7,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.019,
+      "age_hours": 0.018,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.04,
+      "age_hours": 0.861,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "ok",
-      "last_good_age_hours": 5.291,
-      "age_hours": 5.291
+      "last_good_age_hours": 6.111,
+      "age_hours": 6.111
     },
     "espn-sync.yml": {
-      "age_hours": 2.391,
+      "age_hours": 0.211,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 5.283,
+      "age_hours": 6.103,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 13.671,
+      "age_hours": 14.491,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "picks.yml: age 5.28h outside [0, 4)h (5m clock tolerance)"
+    "picks.yml: age 6.10h outside [0, 4)h (5m clock tolerance)"
   ],
   "warnings": [
-    "splash_board: 132.91h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 132.90h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 133.73h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 133.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "degraded": [],
   "paper_picks_only": true

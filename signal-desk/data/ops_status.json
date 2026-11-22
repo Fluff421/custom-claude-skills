@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-11-22T08:49:19Z",
+ "generated_at_utc": "2026-11-22T09:38:37Z",
  "generated_for_central_date": "2026-11-22",
  "graded_picks_csv_rows": 291,
  "ledger_health": {
-  "games_today_or_later": 92,
+  "games_today_or_later": 96,
   "games_before_today": 80,
   "checks": {
    "upcoming_no_espn_event_id": {
@@ -15,7 +15,7 @@
     "games": []
    },
    "upcoming_no_splash_line": {
-    "count": 92,
+    "count": 96,
     "games": [
      "Louisiana Tech @ Georgia Southern (NCAAF, 2026-11-28)",
      "Pittsburgh Steelers @ Philadelphia Eagles (NFL, 2026-11-22)",
@@ -45,7 +45,7 @@
     ]
    },
    "upcoming_no_espn_line": {
-    "count": 45,
+    "count": 49,
     "games": [
      "Louisiana Tech @ Georgia Southern (NCAAF, 2026-11-28)",
      "North Dakota State @ San Jos\u00e9 State (NCAAF, 2026-11-27)",
@@ -64,14 +64,14 @@
      "Tulsa @ UTSA (NCAAF, 2026-11-27)",
      "UCF @ Colorado (NCAAF, 2026-11-28)",
      "Michigan State @ Rutgers (NCAAF, 2026-11-28)",
+     "San Diego State @ Washington State (NCAAF, 2026-11-28)",
      "Army @ Rice (NCAAF, 2026-11-28)",
      "Kansas State @ Iowa State (NCAAF, 2026-11-28)",
      "UTEP @ Northern Illinois (NCAAF, 2026-11-28)",
      "Pittsburgh @ California (NCAAF, 2026-11-28)",
      "Tulane @ South Florida (NCAAF, 2026-11-28)",
      "Purdue @ Indiana (NCAAF, 2026-11-27)",
-     "SMU @ Stanford (NCAAF, 2026-11-27)",
-     "New Mexico State @ Middle Tennessee (NCAAF, 2026-11-28)"
+     "Texas State @ Utah State (NCAAF, 2026-11-28)"
     ]
    },
    "upcoming_splash_vs_espn_gap": {
@@ -106,6 +106,24 @@
    "workflow": "ESPN Sync",
    "file": "espn-sync.yml",
    "runs": [
+    {
+     "run_id": 45007602023,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45007602023",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-22T09:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 96,
+      "rows_changed": 51,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 44993767380,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44993767380",
@@ -157,24 +175,6 @@
       "mode": "LIVE",
       "rows_scanned": 82,
       "rows_changed": 19,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 44966670827,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44966670827",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-22T00:27:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 82,
-      "rows_changed": 24,
       "fpi_missing": 0
      }
     }
@@ -647,7 +647,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T01:28:06Z",
-   "age_h": 7.4,
+   "age_h": 8.2,
    "status": "missed"
   },
   {
@@ -656,7 +656,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T01:34:59Z",
-   "age_h": 7.2,
+   "age_h": 8.1,
    "status": "missed"
   },
   {
@@ -665,7 +665,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-22T08:48:03Z",
-   "age_h": 0.0,
+   "age_h": 0.8,
    "status": "ok"
   },
   {
@@ -674,7 +674,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-21T19:10:14Z",
-   "age_h": 13.7,
+   "age_h": 14.5,
    "status": "ok"
   },
   {
@@ -683,7 +683,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-21T20:14:49Z",
-   "age_h": 12.6,
+   "age_h": 13.4,
    "status": "ok"
   },
   {
@@ -692,7 +692,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-22T07:15:36Z",
-   "age_h": 1.6,
+   "age_h": 2.4,
    "status": "ok"
   },
   {
@@ -702,7 +702,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-22T01:31:31Z",
-   "age_h": 7.3,
+   "age_h": 8.1,
    "status": "ok"
   }
  ],
