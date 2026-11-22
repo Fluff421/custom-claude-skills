@@ -177,9 +177,10 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
+| North Dakota State @ San José State | moneyline | San José State ML +400 | 24% | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -588 | 90% | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -270 | 76% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -586 | 90% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -261 | 76% | Lean | 0.5 |
 | San Diego State @ Washington State | total | Over 45.5 | 53% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 39.5 | 57% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 51.5 | 68% | Strong Play | 1.0 |
@@ -189,12 +190,12 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | South Carolina @ Clemson | total | Over 39.5 | 54% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | Lean | 0.5 |
-- NCAAF parlay: Over 36.5 + Over 39.5 | model 28.8%, needs +264 to break even, edge +1.4%, No Play
-- NCAAF parlay: Over 45.5 + Over 36.5 | model 28.6%, needs +264 to break even, edge +1.2%, No Play
-- NCAAF parlay: Over 45.5 + Over 39.5 | model 28.6%, needs +264 to break even, edge +1.1%, No Play
-- NFL parlay: Denver Broncos ML -588 + Under 51.5 | model 61.7%, needs +123 to break even, edge +16.9%, Max Play
+- NCAAF parlay: San José State ML +400 + Over 39.5 | model 13.1%, needs +855 to break even, edge +2.6%, Lean
+- NCAAF parlay: San José State ML +400 + Over 45.5 | model 13.0%, needs +855 to break even, edge +2.5%, Lean
+- NCAAF parlay: San José State ML +400 + Over 36.5 | model 13.2%, needs +835 to break even, edge +2.5%, Lean
+- NFL parlay: Denver Broncos ML -586 + Under 51.5 | model 61.7%, needs +123 to break even, edge +16.9%, Max Play
 - NFL parlay: Under 51.5 + Under 54.5 | model 42.2%, needs +276 to break even, edge +15.6%, Max Play
-- NFL parlay: Denver Broncos ML -588 + Under 51.5 + Under 54.5 | model 38.1%, needs +340 to break even, edge +15.4%, Max Play
+- NFL parlay: Denver Broncos ML -586 + Under 51.5 + Under 54.5 | model 38.1%, needs +340 to break even, edge +15.4%, Max Play
 - NFL teaser: Under 51.5 -> 57.5 + Under 54.5 -> 60.5 + Under 55.5 -> 61.5 | model 54.0%, needs +160 to break even, edge +15.6%, Max Play
 - NFL teaser: Under 51.5 -> 57.5 + Under 54.5 -> 60.5 + Over 40.5 -> 34.5 | model 53.8%, needs +160 to break even, edge +15.3%, Max Play
 - NFL teaser: Under 51.5 -> 57.5 + Under 54.5 -> 60.5 + Over 40.5 -> 34.5 | model 53.3%, needs +160 to break even, edge +14.9%, Max Play

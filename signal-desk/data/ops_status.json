@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-22T20:11:49Z",
+ "generated_at_utc": "2026-11-22T20:29:05Z",
  "generated_for_central_date": "2026-11-22",
  "graded_picks_csv_rows": 291,
  "ledger_health": {
@@ -472,6 +472,20 @@
    "file": "context-calibrate.yml",
    "runs": [
     {
+     "run_id": 45061307951,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45061307951",
+     "event": "schedule",
+     "created_at": "2026-11-22T19:32:16Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "rows_updated": 96,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45021128233,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45021128233",
      "event": "workflow_dispatch",
@@ -625,7 +639,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T19:53:37Z",
-   "age_h": 0.3,
+   "age_h": 0.6,
    "status": "ok"
   },
   {
@@ -634,7 +648,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-22T19:58:19Z",
-   "age_h": 0.2,
+   "age_h": 0.5,
    "status": "ok"
   },
   {
@@ -643,7 +657,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-22T17:22:44Z",
-   "age_h": 2.8,
+   "age_h": 3.1,
    "status": "missed"
   },
   {
@@ -652,7 +666,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T19:32:16Z",
-   "age_h": 0.7,
+   "age_h": 0.9,
    "status": "ok"
   },
   {
@@ -660,8 +674,8 @@
    "file": "snapshot.yml",
    "expected_every_h": 24,
    "max_gap_h": 26,
-   "last_scheduled_run_utc": "2026-11-22T19:58:48Z",
-   "age_h": 0.2,
+   "last_scheduled_run_utc": "2026-11-22T20:28:52Z",
+   "age_h": 0.0,
    "status": "ok"
   },
   {
@@ -670,7 +684,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-22T16:32:01Z",
-   "age_h": 3.7,
+   "age_h": 4.0,
    "status": "ok"
   },
   {
@@ -680,7 +694,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-22T19:55:04Z",
-   "age_h": 0.3,
+   "age_h": 0.6,
    "status": "ok"
   }
  ],
