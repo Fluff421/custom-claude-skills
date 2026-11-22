@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T09:39:41+00:00",
+ "generated_at": "2026-11-22T10:39:21+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -5296,7 +5296,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-22T09:39:02+00:00",
+   "generated_at": "2026-11-22T10:38:50+00:00",
    "date": "2026-11-22",
    "games": [
     {
@@ -5793,7 +5793,7 @@
        "market": "total",
        "side": "over",
        "line": 40.5,
-       "price": -114.0,
+       "price": -110.0,
        "proj": 40.84,
        "prob": 0.5156,
        "edge": 0.34,
@@ -6570,18 +6570,18 @@
        "side": "home",
        "team": "Denver Broncos",
        "line": 0.0,
-       "price": -650.0,
+       "price": -660.0,
        "price_estimated": false,
        "proj": 10.89,
        "prob": 0.9036,
-       "edge": 0.0369,
+       "edge": 0.0352,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Denver Broncos ML -650",
+       "selection": "Denver Broncos ML -660",
        "game_id": "recA8wbdTRMKXNzCn",
        "game": "Las Vegas Raiders @ Denver Broncos",
        "priority": "primary",
@@ -7308,10 +7308,10 @@
      "league": "NFL",
      "date": "2026-11-22",
      "frozen": false,
-     "line": 3.0,
+     "line": 3.5,
      "total_line": 46.5,
      "model_margin": 2.9999999999999996,
-     "blend_margin": 3.0,
+     "blend_margin": 3.3499999999999996,
      "proj_total": 45.663,
      "factors": [
       "QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-21] | AWAY QB PLAYING Kirk Cousins [auto espn 2026-11-21]"
@@ -7323,7 +7323,7 @@
        "side": "home",
        "team": "San Francisco 49ers",
        "line": -3.5,
-       "price": -118.0,
+       "price": -105.0,
        "proj": 2.9999999999999996,
        "prob": 0.529,
        "edge": null,
@@ -7340,7 +7340,7 @@
        "market": "total",
        "side": "under",
        "line": 46.5,
-       "price": -110.0,
+       "price": -111.0,
        "proj": 45.66,
        "prob": 0.5384,
        "edge": 0.84,
@@ -7358,18 +7358,18 @@
        "side": "home",
        "team": "San Francisco 49ers",
        "line": 0.0,
-       "price": -170.0,
+       "price": -178.0,
        "price_estimated": false,
-       "proj": 3.0,
-       "prob": 0.6245,
-       "edge": -0.0052,
+       "proj": 3.35,
+       "prob": 0.6386,
+       "edge": -0.0016,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "San Francisco 49ers ML -170",
+       "selection": "San Francisco 49ers ML -178",
        "game_id": "recElzL7HxGEOOWIt",
        "game": "Minnesota Vikings @ San Francisco 49ers",
        "priority": "primary",
@@ -7382,15 +7382,15 @@
        "kind": "spread",
        "side": "away",
        "team": "Minnesota Vikings",
-       "base_line": 3.0,
-       "line": 9.0,
+       "base_line": 3.5,
+       "line": 9.5,
        "price": 0.0,
-       "prob": 0.6968,
-       "push": 0.0255,
+       "prob": 0.7131,
+       "push": 0,
        "crosses": [
         7
        ],
-       "selection": "Minnesota Vikings +3 -> +9 (crosses 7)",
+       "selection": "Minnesota Vikings +3.5 -> +9.5 (crosses 7)",
        "game_id": "recElzL7HxGEOOWIt",
        "game": "Minnesota Vikings @ San Francisco 49ers",
        "priority": "secondary",
@@ -7418,23 +7418,23 @@
      "alt_spreads": [
       {
        "team": "San Francisco 49ers",
-       "line": -6.0,
-       "prob": 0.3703
+       "line": -6.5,
+       "prob": 0.3806
       },
       {
        "team": "Minnesota Vikings",
-       "line": 0.0,
-       "prob": 0.3949
+       "line": 0.5,
+       "prob": 0.4122
       },
       {
        "team": "San Francisco 49ers",
-       "line": 0.0,
-       "prob": 0.5773
+       "line": -0.5,
+       "prob": 0.5878
       },
       {
        "team": "Minnesota Vikings",
-       "line": 6.0,
-       "prob": 0.5949
+       "line": 6.5,
+       "prob": 0.6194
       }
      ]
     },
@@ -13054,18 +13054,18 @@
        "side": "away",
        "team": "Cincinnati Bengals",
        "line": 0.0,
-       "price": -299.0,
+       "price": -300.0,
        "price_estimated": false,
        "proj": -6.06,
        "prob": 0.7441,
-       "edge": -0.0053,
+       "edge": -0.0059,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Cincinnati Bengals ML -299",
+       "selection": "Cincinnati Bengals ML -300",
        "game_id": "recvStneVWJBEWYU3",
        "game": "Cincinnati Bengals @ Washington Commanders",
        "priority": "primary",
@@ -13191,18 +13191,18 @@
        "side": "home",
        "team": "Dallas Cowboys",
        "line": 0.0,
-       "price": -344.0,
+       "price": -343.0,
        "price_estimated": false,
        "proj": 8.22,
        "prob": 0.8206,
-       "edge": 0.0459,
+       "edge": 0.0464,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Dallas Cowboys ML -344",
+       "selection": "Dallas Cowboys ML -343",
        "game_id": "recwzEr4ONJw6Vsml",
        "game": "Tennessee Titans @ Dallas Cowboys",
        "priority": "primary",
@@ -15974,5 +15974,5 @@
    "NFL teaser_leg: n=70, shrink 1.0 -> 1.0 (no meaningful gain; best 0.85, Brier gain 0.0014)"
   ]
  },
- "narrative_sha256": "647b321cc1a4e50a7bf4bfcf0818aa30e3e8aa8c1fc2d72ff86b1fc2d0969562"
+ "narrative_sha256": "b7d89c9971abf8d683be0c21f92bd1a4b74b791efcd761ee71b8a69bb3c4d50e"
 }

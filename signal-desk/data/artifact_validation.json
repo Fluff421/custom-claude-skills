@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T09:39:41.385963+00:00",
+  "checked_at": "2026-11-22T10:39:21.783910+00:00",
   "central_date": "2026-11-22",
   "ready": false,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.018,
+      "age_hours": 0.015,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 133.728,
+      "age_hours": 134.723,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,42 +26,42 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 133.7,
+      "age_hours": 134.7,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.018,
+      "age_hours": 0.015,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.861,
+      "age_hours": 0.039,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "ok",
-      "last_good_age_hours": 6.111,
-      "age_hours": 6.111
+      "last_good_age_hours": 7.105,
+      "age_hours": 7.105
     },
     "espn-sync.yml": {
-      "age_hours": 0.211,
+      "age_hours": 1.205,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 6.103,
+      "age_hours": 7.097,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 14.491,
+      "age_hours": 15.485,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "picks.yml: age 6.10h outside [0, 4)h (5m clock tolerance)"
+    "picks.yml: age 7.10h outside [0, 4)h (5m clock tolerance)"
   ],
   "warnings": [
-    "splash_board: 133.73h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 133.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 134.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 134.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "degraded": [],
   "paper_picks_only": true
