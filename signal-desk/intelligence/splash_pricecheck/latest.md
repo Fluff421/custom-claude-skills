@@ -1,4 +1,4 @@
-# Pick-time check at the newest Splash lines, 2026-11-22 19:40Z
+# Pick-time check at the newest Splash lines, 2026-11-22 19:59Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
@@ -10,12 +10,12 @@ Warning: the newest Splash snapshot is 144 hours old. Paste a fresh File 1 dump 
 |---|---|---|---|---|---|---|---|
 | Baltimore Ravens @ Carolina Panthers | 2026-11-22 | spread | Carolina Panthers -1.5 | Max Play | 64.2% | 4.5 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | spread | Denver Broncos -9.5 | Strong Play | 59.9% | 3.1 |  |
-| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Strong Play | 59.9% | 3.1 |  |
+| New York Jets @ Los Angeles Chargers | 2026-11-22 | spread | Los Angeles Chargers -3.5 | Strong Play | 58.0% | 2.5 |  |
+| Pittsburgh Steelers @ Philadelphia Eagles | 2026-11-22 | spread | Philadelphia Eagles +4.5 | Strong Play | 60.2% | 3.2 |  |
 | Las Vegas Raiders @ Denver Broncos | 2026-11-22 | total | Over 40.5 | Lean | 59.7% | 2.13 |  |
-| Miami Dolphins @ Buffalo Bills | 2026-11-22 | spread | Buffalo Bills -16.5 | Lean | 50.0% | 1.0 |  |
+| New Orleans Saints @ Chicago Bears | 2026-11-22 | spread | New Orleans Saints +10.5 | Lean | 50.0% | -1.0 |  |
 | New Orleans Saints @ Chicago Bears | 2026-11-22 | total | Under 48.5 | Lean | 57.3% | 1.59 |  |
-| New York Jets @ Los Angeles Chargers | 2026-11-22 | spread | Los Angeles Chargers -3.5 | Lean | 50.0% | 1.5 |  |
-| Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | spread | Tampa Bay Buccaneers +6.5 | Lean | 50.0% | -1.5 |  |
+| Tampa Bay Buccaneers @ Detroit Lions | 2026-11-22 | spread | Tampa Bay Buccaneers +6.5 | Lean | 50.0% | -1.4 |  |
 | Tennessee Titans @ Dallas Cowboys | 2026-11-22 | spread | Dallas Cowboys -7.5 | Lean | 50.0% | 2.0 |  |
 
 Strongest 6-point teaser legs at the current lines (two-leg teaser break-even is about 72.4% per leg at -110):
