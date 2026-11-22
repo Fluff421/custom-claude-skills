@@ -3220,3 +3220,13 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-22T01:31:53+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.0,54.5,240,-294,-105.0,-114.0,-111.0,-108.0,-1.5
 2026-11-22T01:35:08+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,DraftKings,3.5,47.5,-204,171,-111.0,-108.0,-109.0,-110.0,4.5
 2026-11-22T01:38:55+00:00,rec1bMW82Gl2PPIzw,401873067,NFL,Arizona Cardinals @ Kansas City Chiefs,2026-11-22,DraftKings,15.5,40.5,-1620,910,-111.0,-108.0,-114.0,-105.0,11.5
+2026-11-22T02:39:08+00:00,rec0Aocy50yJHXK5L,401856870,NCAAF,Oklahoma State @ Arizona State,2026-11-21,DraftKings,-3.0,60.5,124,-148,-115.0,-105.0,-110.0,-110.0,-4.0
+2026-11-22T02:39:08+00:00,rec1s3f7B7DvAfqb3,401873071,NFL,New Orleans Saints @ Chicago Bears,2026-11-22,DraftKings,11.5,48.5,-630,463,-107.0,-112.0,-107.0,-113.0,6.5
+2026-11-22T02:39:08+00:00,recDCa1TW7radKDSJ,401873074,NFL,New York Jets @ Los Angeles Chargers,2026-11-22,DraftKings,3.0,42.5,-168,142,-115.0,-105.0,-105.0,-114.0,9.5
+2026-11-22T02:39:08+00:00,recLDCpyeKOzU0eyq,401873069,NFL,Jacksonville Jaguars @ New York Giants,2026-11-22,DraftKings,-6.0,45.5,210,-254,-109.0,-110.0,-114.0,-106.0,-1.5
+2026-11-22T02:39:08+00:00,recRDfetvKLmGizti,401860919,NCAAF,Utah State @ Oregon State,2026-11-21,DraftKings,7.0,51.5,-258,210,-105.0,-115.0,-110.0,-110.0,10.0
+2026-11-22T02:39:08+00:00,recbVlXXw82NMUHyI,401873070,NFL,Miami Dolphins @ Buffalo Bills,2026-11-22,DraftKings,16.5,44.5,-1560,890,-107.0,-112.0,-114.0,-105.0,11.5
+2026-11-22T02:39:08+00:00,recqHN0qEss3RtmUZ,401873068,NFL,Baltimore Ravens @ Carolina Panthers,2026-11-22,DraftKings,3.0,43.5,-152,128,-103.0,-116.0,-109.0,-110.0,-4.5
+2026-11-22T02:39:08+00:00,recsW4vpBY2bJSIzc,401873072,NFL,Tampa Bay Buccaneers @ Detroit Lions,2026-11-22,DraftKings,3.5,47.5,-203,170,-111.0,-108.0,-109.0,-110.0,4.5
+2026-11-22T02:39:08+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.0,54.5,243,-298,-105.0,-114.0,-111.0,-108.0,-1.5
+2026-11-22T02:39:08+00:00,recwzEr4ONJw6Vsml,401873073,NFL,Tennessee Titans @ Dallas Cowboys,2026-11-22,DraftKings,7.5,54.5,-336,270,-106.0,-113.0,-115.0,-104.0,6.5
