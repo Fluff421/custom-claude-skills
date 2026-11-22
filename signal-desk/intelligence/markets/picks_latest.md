@@ -162,7 +162,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Toledo @ Ohio | total | Over 49.5 | 50% | +0.3 pts | No Play | 0 |
 | Toledo @ Ohio | moneyline | Ohio ML +160 | 39% | +0.9% | No Play | 0 |
 | UAB @ North Texas | spread | North Texas -4.5 (spread) | 50% |  | Lean | 0.5 |
-| UAB @ North Texas | total | Over 47.5 | 54% | +3.0 pts | Lean | 0.5 |
+| UAB @ North Texas | total | Over 48.5 | 53% | +2.7 pts | Lean | 0.5 |
 | UAB @ North Texas | moneyline | North Texas ML -175 | 65% | +0.9% | No Play | 0 |
 | Nebraska @ Iowa | spread | Nebraska +6.5 (spread) | 51% |  | No Play | 0 |
 | Nebraska @ Iowa | total | Over 39.5 | 52% | +2.0 pts | No Play | 0 |
@@ -219,10 +219,10 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 ### NCAAF Best parlays
 
 - Louisville ML -122 + Bowling Green ML -118: model 33.4%, needs +236 to break even (reference payout +236), edge +3.7%, Lean
+- Louisville ML -122 + Over 48.5: model 31.1%, needs +260 to break even (reference payout +260), edge +3.4%, Lean
 - San José State ML +400 + Louisville ML -122: model 14.3%, needs +810 to break even (reference payout +810), edge +3.3%, Lean
+- Over 48.5 + Bowling Green ML -118: model 30.5%, needs +266 to break even (reference payout +266), edge +3.2%, Lean
 - San José State ML +400 + Bowling Green ML -118: model 14.0%, needs +824 to break even (reference payout +824), edge +3.2%, Lean
-- Louisville ML -122 + Over 37.5: model 31.2%, needs +255 to break even (reference payout +255), edge +3.0%, Lean
-- Over 37.5 + Bowling Green ML -118: model 30.6%, needs +261 to break even (reference payout +261), edge +2.9%, Lean
 
 ## NFL
 
@@ -233,7 +233,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +242 (price estimated from the line) | 29% | -0.6% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -170 | 66% | +2.9% | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -160 | 65% | +3.0% | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | spread | San Francisco 49ers -3.5 (spread) | 53% |  | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | total | Under 46.5 | 54% | +0.8 pts | No Play | 0 |
 | Minnesota Vikings @ San Francisco 49ers | moneyline | San Francisco 49ers ML -190 | 64% | -1.7% | No Play | 0 |
@@ -284,9 +284,9 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 
 - Under 50.5 + Under 54.5: model 41.4%, needs +287 to break even (reference payout +287), edge +15.5%, Max Play
 - Under 50.5 + Under 55.5: model 40.4%, needs +274 to break even (reference payout +274), edge +13.7%, Max Play
-- Los Angeles Rams -3.5 (spread) + Under 50.5: model 39.3%, needs +288 to break even (reference payout +288), edge +13.5%, Max Play
 - Under 50.5 + Detroit Lions +2.5 (spread): model 40.1%, needs +274 to break even (reference payout +274), edge +13.4%, Max Play
 - Under 50.5 + Houston Texans -6.5 (spread): model 39.7%, needs +274 to break even (reference payout +274), edge +13.0%, Max Play
+- Under 50.5 + Indianapolis Colts +6.5 (spread): model 39.6%, needs +274 to break even (reference payout +274), edge +12.9%, Max Play
 
 ### NFL Best 6-point teasers
 

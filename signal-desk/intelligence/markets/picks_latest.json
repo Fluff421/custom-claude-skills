@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T22:39:05+00:00",
+ "generated_at": "2026-11-22T22:48:12+00:00",
  "date": "2026-11-22",
  "games": [
   {
@@ -2219,7 +2219,7 @@
      "market": "total",
      "side": "under",
      "line": 68.5,
-     "price": -105.0,
+     "price": -112.0,
      "proj": 66.36,
      "prob": 0.5262,
      "edge": 2.14,
@@ -2321,10 +2321,10 @@
    "league": "NFL",
    "date": "2026-11-25",
    "frozen": false,
-   "line": 3.5,
+   "line": 3.0,
    "total_line": 45.5,
    "model_margin": 4.7,
-   "blend_margin": 3.86,
+   "blend_margin": 3.51,
    "proj_total": 45.14230769230769,
    "factors": [
     "QB: HOME QB PLAYING Matthew Stafford [auto espn 2026-11-22] | AWAY QB PLAYING Jordan Love [auto espn 2026-11-22]",
@@ -2337,7 +2337,7 @@
      "side": "home",
      "team": "Los Angeles Rams",
      "line": -3.5,
-     "price": -102.0,
+     "price": -113.0,
      "proj": 4.7,
      "prob": 0.5863,
      "edge": null,
@@ -2372,18 +2372,18 @@
      "side": "home",
      "team": "Los Angeles Rams",
      "line": 0.0,
-     "price": -170.0,
+     "price": -160.0,
      "price_estimated": false,
-     "proj": 3.86,
-     "prob": 0.6591,
-     "edge": 0.0295,
+     "proj": 3.51,
+     "prob": 0.6451,
+     "edge": 0.0297,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Los Angeles Rams ML -170",
+     "selection": "Los Angeles Rams ML -160",
      "game_id": "recAtdjulTlSZk3jZ",
      "game": "Green Bay Packers @ Los Angeles Rams",
      "priority": "primary",
@@ -2396,15 +2396,15 @@
      "kind": "spread",
      "side": "away",
      "team": "Green Bay Packers",
-     "base_line": 3.5,
-     "line": 9.5,
+     "base_line": 3.0,
+     "line": 9.0,
      "price": 0.0,
-     "prob": 0.6994,
-     "push": 0,
+     "prob": 0.6829,
+     "push": 0.026,
      "crosses": [
       7
      ],
-     "selection": "Green Bay Packers +3.5 -> +9.5 (crosses 7)",
+     "selection": "Green Bay Packers +3 -> +9 (crosses 7)",
      "game_id": "recAtdjulTlSZk3jZ",
      "game": "Green Bay Packers @ Los Angeles Rams",
      "priority": "secondary",
@@ -2432,23 +2432,23 @@
    "alt_spreads": [
     {
      "team": "Los Angeles Rams",
-     "line": -6.5,
-     "prob": 0.3956
+     "line": -6.0,
+     "prob": 0.3853
     },
     {
      "team": "Green Bay Packers",
-     "line": 0.5,
-     "prob": 0.397
+     "line": 0.0,
+     "prob": 0.3799
     },
     {
      "team": "Los Angeles Rams",
-     "line": -0.5,
-     "prob": 0.603
+     "line": 0.0,
+     "prob": 0.5926
     },
     {
      "team": "Green Bay Packers",
-     "line": 6.5,
-     "prob": 0.6044
+     "line": 6.0,
+     "prob": 0.5796
     }
    ]
   },
@@ -8585,7 +8585,7 @@
      "side": "away",
      "team": "Jacksonville State",
      "line": 2.5,
-     "price": -102.0,
+     "price": -105.0,
      "proj": 0.5000000000000009,
      "prob": 0.5015,
      "edge": null,
@@ -9120,10 +9120,10 @@
    "date": "2026-11-28",
    "frozen": false,
    "line": 4.0,
-   "total_line": 47.5,
+   "total_line": 48.5,
    "model_margin": 15.100000000000001,
    "blend_margin": 5.609500000000001,
-   "proj_total": 50.51082142857143,
+   "proj_total": 51.21082142857143,
    "factors": [
     "weather: 66F, 1 | no severity"
    ],
@@ -9150,15 +9150,15 @@
     {
      "market": "total",
      "side": "over",
-     "line": 47.5,
-     "price": -118.0,
-     "proj": 50.51,
-     "prob": 0.5366,
-     "edge": 3.01,
+     "line": 48.5,
+     "price": -102.0,
+     "proj": 51.21,
+     "prob": 0.533,
+     "edge": 2.71,
      "edge_unit": "pts",
      "tier": "Lean",
      "units": 0.5,
-     "selection": "Over 47.5",
+     "selection": "Over 48.5",
      "game_id": "reck3KoAcMc3kJKnq",
      "game": "UAB @ North Texas",
      "priority": "primary",
@@ -9212,13 +9212,13 @@
      "market": "teaser_leg",
      "kind": "total",
      "side": "over",
-     "base_line": 47.5,
-     "line": 41.5,
+     "base_line": 48.5,
+     "line": 42.5,
      "price": 0.0,
-     "prob": 0.6407,
+     "prob": 0.6367,
      "push": 0.0,
      "crosses": [],
-     "selection": "Over 47.5 -> 41.5",
+     "selection": "Over 48.5 -> 42.5",
      "game_id": "reck3KoAcMc3kJKnq",
      "game": "UAB @ North Texas",
      "priority": "secondary",
@@ -13115,6 +13115,45 @@
      "market": "parlay",
      "legs": [
       {
+       "game_id": "recQIMZU4FNKlyAKL",
+       "market_kind": "moneyline",
+       "side": "away",
+       "prob": 0.5834,
+       "price": -122.0,
+       "pro_favorite": true,
+       "selection": "Louisville ML -122",
+       "game": "Louisville @ Kentucky",
+       "line": 0.0,
+       "grade_market": "moneyline"
+      },
+      {
+       "game_id": "reck3KoAcMc3kJKnq",
+       "market_kind": "total",
+       "side": "over",
+       "prob": 0.533,
+       "price": -102.0,
+       "pro_favorite": false,
+       "selection": "Over 48.5",
+       "game": "UAB @ North Texas",
+       "line": 48.5,
+       "grade_market": "total"
+      }
+     ],
+     "n_legs": 2,
+     "prob": 0.311,
+     "price": 260,
+     "break_even_prob": 0.2775,
+     "break_even_price": 260,
+     "edge": 0.0335,
+     "edge_unit": "prob",
+     "tier": "Lean",
+     "units": 0.25,
+     "same_game": false
+    },
+    {
+     "market": "parlay",
+     "legs": [
+      {
        "game_id": "rec1hZWt5asCEWgys",
        "market_kind": "moneyline",
        "side": "home",
@@ -13154,6 +13193,45 @@
      "market": "parlay",
      "legs": [
       {
+       "game_id": "reck3KoAcMc3kJKnq",
+       "market_kind": "total",
+       "side": "over",
+       "prob": 0.533,
+       "price": -102.0,
+       "pro_favorite": false,
+       "selection": "Over 48.5",
+       "game": "UAB @ North Texas",
+       "line": 48.5,
+       "grade_market": "total"
+      },
+      {
+       "game_id": "recxCdNK7JRyXtOya",
+       "market_kind": "moneyline",
+       "side": "home",
+       "prob": 0.5728,
+       "price": -118.0,
+       "pro_favorite": true,
+       "selection": "Bowling Green ML -118",
+       "game": "Massachusetts @ Bowling Green",
+       "line": 0.0,
+       "grade_market": "moneyline"
+      }
+     ],
+     "n_legs": 2,
+     "prob": 0.3053,
+     "price": 266,
+     "break_even_prob": 0.2733,
+     "break_even_price": 266,
+     "edge": 0.032,
+     "edge_unit": "prob",
+     "tier": "Lean",
+     "units": 0.25,
+     "same_game": false
+    },
+    {
+     "market": "parlay",
+     "legs": [
+      {
        "game_id": "rec1hZWt5asCEWgys",
        "market_kind": "moneyline",
        "side": "home",
@@ -13184,84 +13262,6 @@
      "break_even_prob": 0.1083,
      "break_even_price": 824,
      "edge": 0.0318,
-     "edge_unit": "prob",
-     "tier": "Lean",
-     "units": 0.25,
-     "same_game": false
-    },
-    {
-     "market": "parlay",
-     "legs": [
-      {
-       "game_id": "recQIMZU4FNKlyAKL",
-       "market_kind": "moneyline",
-       "side": "away",
-       "prob": 0.5834,
-       "price": -122.0,
-       "pro_favorite": true,
-       "selection": "Louisville ML -122",
-       "game": "Louisville @ Kentucky",
-       "line": 0.0,
-       "grade_market": "moneyline"
-      },
-      {
-       "game_id": "recgm21tjeN43lLlf",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.5343,
-       "price": -105.0,
-       "pro_favorite": false,
-       "selection": "Over 37.5",
-       "game": "Minnesota @ Wisconsin",
-       "line": 37.5,
-       "grade_market": "total"
-      }
-     ],
-     "n_legs": 2,
-     "prob": 0.3117,
-     "price": 255,
-     "break_even_prob": 0.2815,
-     "break_even_price": 255,
-     "edge": 0.0302,
-     "edge_unit": "prob",
-     "tier": "Lean",
-     "units": 0.25,
-     "same_game": false
-    },
-    {
-     "market": "parlay",
-     "legs": [
-      {
-       "game_id": "recgm21tjeN43lLlf",
-       "market_kind": "total",
-       "side": "over",
-       "prob": 0.5343,
-       "price": -105.0,
-       "pro_favorite": false,
-       "selection": "Over 37.5",
-       "game": "Minnesota @ Wisconsin",
-       "line": 37.5,
-       "grade_market": "total"
-      },
-      {
-       "game_id": "recxCdNK7JRyXtOya",
-       "market_kind": "moneyline",
-       "side": "home",
-       "prob": 0.5728,
-       "price": -118.0,
-       "pro_favorite": true,
-       "selection": "Bowling Green ML -118",
-       "game": "Massachusetts @ Bowling Green",
-       "line": 0.0,
-       "grade_market": "moneyline"
-      }
-     ],
-     "n_legs": 2,
-     "prob": 0.306,
-     "price": 261,
-     "break_even_prob": 0.2772,
-     "break_even_price": 261,
-     "edge": 0.0288,
      "edge_unit": "prob",
      "tier": "Lean",
      "units": 0.25,
@@ -13354,45 +13354,6 @@
      "market": "parlay",
      "legs": [
       {
-       "game_id": "recAtdjulTlSZk3jZ",
-       "market_kind": "spread",
-       "side": "home",
-       "prob": 0.5863,
-       "price": -102.0,
-       "pro_favorite": true,
-       "selection": "Los Angeles Rams -3.5 (spread)",
-       "game": "Green Bay Packers @ Los Angeles Rams",
-       "line": -3.5,
-       "grade_market": "spread"
-      },
-      {
-       "game_id": "recYI3vKDIRLV1sOY",
-       "market_kind": "total",
-       "side": "under",
-       "prob": 0.6697,
-       "price": -104.0,
-       "pro_favorite": false,
-       "selection": "Under 50.5",
-       "game": "Kansas City Chiefs @ Buffalo Bills",
-       "line": 50.5,
-       "grade_market": "total"
-      }
-     ],
-     "n_legs": 2,
-     "prob": 0.3926,
-     "price": 288,
-     "break_even_prob": 0.2574,
-     "break_even_price": 288,
-     "edge": 0.1352,
-     "edge_unit": "prob",
-     "tier": "Max Play",
-     "units": 0.5,
-     "same_game": false
-    },
-    {
-     "market": "parlay",
-     "legs": [
-      {
        "game_id": "recYI3vKDIRLV1sOY",
        "market_kind": "total",
        "side": "under",
@@ -13462,6 +13423,45 @@
      "break_even_prob": 0.267,
      "break_even_price": 274,
      "edge": 0.1298,
+     "edge_unit": "prob",
+     "tier": "Max Play",
+     "units": 0.5,
+     "same_game": false
+    },
+    {
+     "market": "parlay",
+     "legs": [
+      {
+       "game_id": "recYI3vKDIRLV1sOY",
+       "market_kind": "total",
+       "side": "under",
+       "prob": 0.6697,
+       "price": -104.0,
+       "pro_favorite": false,
+       "selection": "Under 50.5",
+       "game": "Kansas City Chiefs @ Buffalo Bills",
+       "line": 50.5,
+       "grade_market": "total"
+      },
+      {
+       "game_id": "recrQkOwpkcIisvRE",
+       "market_kind": "spread",
+       "side": "home",
+       "prob": 0.5917,
+       "price": -110.0,
+       "pro_favorite": false,
+       "selection": "Indianapolis Colts +6.5 (spread)",
+       "game": "New York Giants @ Indianapolis Colts",
+       "line": 6.5,
+       "grade_market": "spread"
+      }
+     ],
+     "n_legs": 2,
+     "prob": 0.3963,
+     "price": 274,
+     "break_even_prob": 0.267,
+     "break_even_price": 274,
+     "edge": 0.1292,
      "edge_unit": "prob",
      "tier": "Max Play",
      "units": 0.5,
