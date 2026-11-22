@@ -43,6 +43,9 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | LSU @ Tennessee | spread | Tennessee +1.5 (spread) | 50% |  | No Play | 0 |
 | LSU @ Tennessee | total | Over 45.5 | 52% | +1.7 pts | No Play | 0 |
 | LSU @ Tennessee | moneyline | LSU ML -135 | 56% | -1.8% | No Play | 0 |
+| South Florida @ Florida Atlantic | spread | South Florida -1.5 (spread) | 50% |  | No Play | 0 |
+| South Florida @ Florida Atlantic | total | Under 62.5 | 51% | +1.1 pts | No Play | 0 |
+| South Florida @ Florida Atlantic | moneyline | South Florida ML -125 | 56% | +0.8% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 41.5 | 52% | +1.9 pts | No Play | 0 |
 | Texas @ Texas A&M | moneyline | Texas ML -241 (price estimated from the line) | 70% | -0.8% | No Play | 0 |
@@ -167,7 +170,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Baltimore Ravens @ Carolina Panthers | moneyline | Carolina Panthers ML -151 | 66% | +6.2% | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | spread | Tampa Bay Buccaneers +3.5 (spread) | 60% |  | Strong Play | 1 |
 | Tampa Bay Buccaneers @ Detroit Lions | total | Under 47.5 | 54% | +0.8 pts | No Play | 0 |
-| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -228 | 68% | -1.2% | No Play | 0 |
+| Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -204 | 66% | -1.6% | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 51% | +0.2 pts | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -403 | 84% | +3.6% | Lean | 0.5 |

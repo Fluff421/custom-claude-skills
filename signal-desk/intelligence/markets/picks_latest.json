@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T01:31:53+00:00",
+ "generated_at": "2026-11-22T01:35:08+00:00",
  "date": "2026-11-21",
  "games": [
   {
@@ -3709,7 +3709,7 @@
    "game": "South Florida @ Florida Atlantic",
    "league": "NCAAF",
    "date": "2026-11-21",
-   "frozen": true,
+   "frozen": false,
    "line": -2.5,
    "total_line": 62.5,
    "model_margin": -1.9000000000000004,
@@ -10960,10 +10960,10 @@
    "league": "NFL",
    "date": "2026-11-22",
    "frozen": false,
-   "line": 4.5,
+   "line": 3.5,
    "total_line": 47.5,
    "model_margin": 4.4,
-   "blend_margin": 4.47,
+   "blend_margin": 3.77,
    "proj_total": 46.700125,
    "factors": [
     "QB: HOME QB PLAYING Jared Goff [auto espn 2026-11-21] | AWAY QB QUESTIONABLE Baker Mayfield -> Jalon Daniels [auto espn 2026-11-21]",
@@ -10978,7 +10978,7 @@
      "side": "away",
      "team": "Tampa Bay Buccaneers",
      "line": 3.5,
-     "price": -114.0,
+     "price": -108.0,
      "proj": 4.4,
      "prob": 0.5957,
      "edge": null,
@@ -11013,18 +11013,18 @@
      "side": "home",
      "team": "Detroit Lions",
      "line": 0.0,
-     "price": -228.0,
+     "price": -204.0,
      "price_estimated": false,
-     "proj": 4.47,
-     "prob": 0.6833,
-     "edge": -0.0119,
+     "proj": 3.77,
+     "prob": 0.6555,
+     "edge": -0.0155,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Detroit Lions ML -228",
+     "selection": "Detroit Lions ML -204",
      "game_id": "recsW4vpBY2bJSIzc",
      "game": "Tampa Bay Buccaneers @ Detroit Lions",
      "priority": "primary",
@@ -11037,15 +11037,15 @@
      "kind": "spread",
      "side": "away",
      "team": "Tampa Bay Buccaneers",
-     "base_line": 4.5,
-     "line": 10.5,
+     "base_line": 3.5,
+     "line": 9.5,
      "price": 0.0,
-     "prob": 0.7151,
+     "prob": 0.7018,
      "push": 0,
      "crosses": [
       7
      ],
-     "selection": "Tampa Bay Buccaneers +4.5 -> +10.5 (crosses 7)",
+     "selection": "Tampa Bay Buccaneers +3.5 -> +9.5 (crosses 7)",
      "game_id": "recsW4vpBY2bJSIzc",
      "game": "Tampa Bay Buccaneers @ Detroit Lions",
      "priority": "secondary",
@@ -11073,23 +11073,23 @@
    "alt_spreads": [
     {
      "team": "Detroit Lions",
-     "line": -7.5,
-     "prob": 0.3717
+     "line": -6.5,
+     "prob": 0.393
     },
     {
      "team": "Tampa Bay Buccaneers",
-     "line": 1.5,
-     "prob": 0.4079
+     "line": 0.5,
+     "prob": 0.3996
     },
     {
      "team": "Detroit Lions",
-     "line": -1.5,
-     "prob": 0.5921
+     "line": -0.5,
+     "prob": 0.6004
     },
     {
      "team": "Tampa Bay Buccaneers",
-     "line": 7.5,
-     "prob": 0.6283
+     "line": 6.5,
+     "prob": 0.607
     }
    ]
   },
