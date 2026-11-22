@@ -175,14 +175,14 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1460 | 100% | Strong Play | 1.0 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -598 | 90% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -597 | 90% | Lean | 0.5 |
 | Texas @ Texas A&M | total | Over 38.5 | 53% | Lean | 0.5 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -267 | 76% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -264 | 76% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -129 | 60% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 39.5 | 57% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -548 | 88% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 51.5 | 63% | Lean | 0.5 |
-| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1860 | 104% | Max Play | 1.0 |
+| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1820 | 104% | Max Play | 1.0 |
 | Minnesota @ Wisconsin | total | Over 36.5 | 54% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
 | UAB @ North Texas | total | Over 48.5 | 53% | Lean | 0.5 |
@@ -196,11 +196,12 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -409 | 84% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 58% | Lean | 0.5 |
-| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -336 | 82% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | total | Under 55.5 | 58% | Lean | 0.5 |
+| Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -360 | 82% | Lean | 0.5 |
 - NCAAF parlay: Over 36.5 + Over 39.5 | model 28.8%, needs +264 to break even, edge +1.4%, No Play
 - NCAAF parlay: Over 38.5 + Over 36.5 | model 28.7%, needs +264 to break even, edge +1.2%, No Play
 - NCAAF parlay: Over 36.5 + Over 48.5 | model 28.7%, needs +264 to break even, edge +1.2%, No Play
-- NFL parlay: Kansas City Chiefs ML -1460 + Buffalo Bills ML -1860 + Jacksonville Jaguars ML -1180 | model 99.0%, needs -452 to break even, edge +17.2%, Max Play
+- NFL parlay: Kansas City Chiefs ML -1460 + Buffalo Bills ML -1820 + Jacksonville Jaguars ML -1180 | model 99.0%, needs -449 to break even, edge +17.3%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1460 + Houston Texans ML -265 + Jacksonville Jaguars ML -1180 | model 79.8%, needs -168 to break even, edge +17.2%, Max Play
 - NFL parlay: Kansas City Chiefs ML -1460 + Jacksonville Jaguars ML -1180 + Carolina Panthers -1.5 (spread) | model 62.4%, needs +118 to break even, edge +16.5%, Max Play
 - NFL teaser: Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 51.2%, needs +160 to break even, edge +12.8%, Max Play
