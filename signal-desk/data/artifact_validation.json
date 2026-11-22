@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T07:39:17.959121+00:00",
+  "checked_at": "2026-11-22T08:39:18.017593+00:00",
   "central_date": "2026-11-22",
   "ready": false,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.014,
+      "age_hours": 0.015,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 131.722,
+      "age_hours": 132.722,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,11 +26,11 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 131.7,
+      "age_hours": 132.7,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.014,
+      "age_hours": 0.016,
       "max_age_hours": 4
     },
     "close_grade": {
@@ -40,28 +40,28 @@
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "ok",
-      "last_good_age_hours": 4.104,
-      "age_hours": 4.104
+      "last_good_age_hours": 5.104,
+      "age_hours": 5.104
     },
     "espn-sync.yml": {
-      "age_hours": 1.204,
+      "age_hours": 2.204,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 4.096,
+      "age_hours": 5.096,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 12.484,
+      "age_hours": 13.484,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "picks.yml: age 4.10h outside [0, 4)h (5m clock tolerance)"
+    "picks.yml: age 5.10h outside [0, 4)h (5m clock tolerance)"
   ],
   "warnings": [
-    "splash_board: 131.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
-    "pricecheck_underlying_quotes: 131.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
+    "splash_board: 132.72h old; exceeds 4h market warning guard. Refresh Splash before relying on prices.",
+    "pricecheck_underlying_quotes: 132.70h old; exceeds 4h market warning guard. Refresh Splash before relying on prices."
   ],
   "degraded": [],
   "paper_picks_only": true
