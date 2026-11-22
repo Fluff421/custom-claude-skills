@@ -11,7 +11,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Louisiana Tech @ Georgia Southern | moneyline | Georgia Southern ML -110 (price estimated from the line) | 50% | -2.1% | No Play | 0 |
 | Mississippi State @ Ole Miss | spread | Mississippi State +19.5 (spread) | 51% |  | No Play | 0 |
 | Mississippi State @ Ole Miss | total | Under 57.5 | 51% | +0.5 pts | No Play | 0 |
-| Mississippi State @ Ole Miss | moneyline | Mississippi State ML +750 | 10% | -1.6% | No Play | 0 |
+| Mississippi State @ Ole Miss | moneyline | Mississippi State ML +800 | 9% | -1.9% | No Play | 0 |
 | Oklahoma @ Missouri | spread | Oklahoma +1.5 (spread) | 50% |  | No Play | 0 |
 | Oklahoma @ Missouri | total | Over 42.5 | 52% | +1.9 pts | No Play | 0 |
 | Oklahoma @ Missouri | moneyline | Missouri ML -118 | 54% | -0.3% | No Play | 0 |
@@ -75,8 +75,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Navy @ Charlotte | moneyline | Navy ML -110 (price estimated from the line) | 83% | +30.6% | No Play | 0 |
 | Liberty @ Missouri State | moneyline | Liberty ML -110 (price estimated from the line) | 87% | +34.3% | No Play | 0 |
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
-| USC @ UCLA | total | Over 49.5 | 51% | +0.7 pts | No Play | 0 |
-| USC @ UCLA | moneyline | UCLA ML +160 | 42% | +4.0% | Lean | 0.5 |
+| USC @ UCLA | total | Over 47.5 | 52% | +1.3 pts | No Play | 0 |
+| USC @ UCLA | moneyline | UCLA ML +200 | 36% | +2.5% | No Play | 0 |
 | Minnesota @ Wisconsin | moneyline | Wisconsin ML -110 (price estimated from the line) | 75% | +22.6% | No Play | 0 |
 | LSU @ Arkansas | moneyline | LSU ML -110 (price estimated from the line) | 85% | +32.8% | No Play | 0 |
 | Jacksonville State @ Delaware | moneyline | Jacksonville State ML -110 (price estimated from the line) | 52% | -0.3% | No Play | 0 |
@@ -98,8 +98,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Auburn @ Alabama | moneyline | Auburn ML +440 | 17% | -1.8% | No Play | 0 |
 | Florida Atlantic @ East Carolina | moneyline | East Carolina ML -110 (price estimated from the line) | 64% | +11.9% | No Play | 0 |
 | Washington @ Oregon | spread | Oregon -12.5 (spread) | 51% |  | No Play | 0 |
-| Washington @ Oregon | total | Over 50.5 | 50% | +0.4 pts | No Play | 0 |
-| Washington @ Oregon | moneyline | Oregon ML -470 | 81% | -1.5% | No Play | 0 |
+| Washington @ Oregon | total | Over 49.5 | 51% | +0.7 pts | No Play | 0 |
+| Washington @ Oregon | moneyline | Washington ML +380 | 19% | -1.8% | No Play | 0 |
 | Miami (OH) @ Western Michigan | spread | Western Michigan -7.5 (spread) | 50% |  | No Play | 0 |
 | Miami (OH) @ Western Michigan | total | Over 46.5 | 51% | +0.8 pts | No Play | 0 |
 | Miami (OH) @ Western Michigan | moneyline | Miami (OH) ML +240 | 31% | +1.4% | No Play | 0 |
@@ -113,9 +113,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 
 ### NCAAF Best parlays
 
-- Over 38.5 + UCLA ML +160: model 22.6%, needs +396 to break even (reference payout +396), edge +2.4%, Lean
-- Over 39.5 + UCLA ML +160: model 22.5%, needs +396 to break even (reference payout +396), edge +2.4%, Lean
-- Over 39.5 + Over 38.5 + UCLA ML +160: model 12.0%, needs +848 to break even (reference payout +848), edge +1.4%, No Play
 - Over 39.5 + Over 38.5: model 28.3%, needs +264 to break even (reference payout +264), edge +0.8%, No Play
 
 ## NFL
@@ -124,7 +121,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 |---|---|---|---|---|---|---|
 | Pittsburgh Steelers @ Philadelphia Eagles | spread | Pittsburgh Steelers -4.5 (spread) | 56% |  | Lean | 0.5 |
 | Pittsburgh Steelers @ Philadelphia Eagles | total | Over 37.5 | 51% | +0.3 pts | No Play | 0 |
-| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -190 | 64% | -2.0% | No Play | 0 |
+| Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Philadelphia Eagles ML +160 | 36% | -2.0% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 52% | +0.3 pts | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1320 | 100% | +7.0% | Strong Play | 1 |
@@ -134,8 +131,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Washington Commanders @ Arizona Cardinals | total | Over 42.5 | 50% | +0.0 pts | No Play | 0 |
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +256 | 30% | +1.9% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | total | Over 40.5 | 60% | +2.1 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -650 | 90% | +3.7% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | total | Over 41.5 | 58% | +1.8 pts | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -660 | 90% | +3.5% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -158 | 65% | +3.3% | Lean | 0.5 |
@@ -150,7 +147,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -133 | 59% | +2.0% | No Play | 0 |
 | Jacksonville Jaguars @ New York Giants | spread | Jacksonville Jaguars -6 (spread) | 61% |  | Strong Play | 1 |
 | Jacksonville Jaguars @ New York Giants | total | Under 45.5 | 56% | +1.3 pts | No Play | 0 |
-| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -255 | 76% | +4.6% | Lean | 0.5 |
+| Jacksonville Jaguars @ New York Giants | moneyline | Jacksonville Jaguars ML -256 | 76% | +4.5% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Over 46.5 | 50% | +0.0 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -136 | 63% | +5.6% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 39.5 | 50% | +0.0 pts | No Play | 0 |
@@ -162,7 +159,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -159 | 62% | +1.1% | No Play | 0 |
 | Miami Dolphins @ Buffalo Bills | spread | Buffalo Bills -16.5 (spread) | 60% |  | Strong Play | 1 |
 | Miami Dolphins @ Buffalo Bills | total | Under 44.5 | 50% | +0.0 pts | No Play | 0 |
-| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1580 | 104% | +9.9% | Max Play | 1 |
+| Miami Dolphins @ Buffalo Bills | moneyline | Buffalo Bills ML -1440 | 104% | +10.5% | Max Play | 1 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | +2.3 pts | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +126 | 44% | +0.1% | No Play | 0 |
@@ -184,29 +181,29 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Tampa Bay Buccaneers @ Detroit Lions | moneyline | Detroit Lions ML -200 | 66% | -1.1% | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 51% | +0.2 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -403 | 84% | +3.6% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -405 | 84% | +3.5% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 50% | +0.0 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -197 | 68% | +2.0% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 58% | +1.9 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -300 | 74% | -0.6% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -299 | 74% | -0.5% | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | spread | Dallas Cowboys -7.5 (spread) | 55% |  | Lean | 0.5 |
 | Tennessee Titans @ Dallas Cowboys | total | Under 54.5 | 57% | +1.5 pts | No Play | 0 |
 | Tennessee Titans @ Dallas Cowboys | moneyline | Dallas Cowboys ML -343 | 82% | +4.6% | Lean | 0.5 |
 
 ### NFL Best parlays
 
+- Kansas City Chiefs ML -1320 + Under 51.5 + Buffalo Bills ML -1440: model 68.1%, needs +120 to break even (reference payout +120), edge +22.6%, Max Play
 - Kansas City Chiefs ML -1320 + Under 51.5 + Jacksonville Jaguars ML -1260: model 67.7%, needs +122 to break even (reference payout +122), edge +22.6%, Max Play
-- Kansas City Chiefs ML -1320 + Under 51.5 + Buffalo Bills ML -1580: model 68.1%, needs +118 to break even (reference payout +118), edge +22.3%, Max Play
-- Under 51.5 + Buffalo Bills ML -1580 + Jacksonville Jaguars ML -1260: model 67.7%, needs +119 to break even (reference payout +119), edge +22.0%, Max Play
+- Under 51.5 + Buffalo Bills ML -1440 + Jacksonville Jaguars ML -1260: model 67.7%, needs +120 to break even (reference payout +120), edge +22.3%, Max Play
 - Kansas City Chiefs ML -1320 + Under 51.5: model 68.2%, needs +105 to break even (reference payout +105), edge +19.5%, Max Play
 - Kansas City Chiefs ML -1320 + Under 51.5 + Houston Texans ML -268: model 54.9%, needs +182 to break even (reference payout +182), edge +19.4%, Max Play
 
 ### NFL Best 6-point teasers
 
-- Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5: model 53.1%, needs +160 to break even (reference payout +160), edge +14.7%, Max Play
 - Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Under 54.5 -> 60.5: model 52.6%, needs +160 to break even (reference payout +160), edge +14.1%, Max Play
 - Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7): model 52.6%, needs +160 to break even (reference payout +160), edge +14.1%, Max Play
-- Under 51.5 -> 57.5 + Over 40.5 -> 34.5 + Under 54.5 -> 60.5: model 52.3%, needs +160 to break even (reference payout +160), edge +13.9%, Max Play
-- Under 51.5 -> 57.5 + Over 40.5 -> 34.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7): model 52.3%, needs +160 to break even (reference payout +160), edge +13.9%, Max Play
+- Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Over 41.5 -> 35.5: model 52.6%, needs +160 to break even (reference payout +160), edge +14.1%, Max Play
+- Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Under 48.5 -> 54.5: model 52.1%, needs +160 to break even (reference payout +160), edge +13.6%, Max Play
+- Under 51.5 -> 57.5 + Under 55.5 -> 61.5 + Under 54.5 -> 60.5: model 51.8%, needs +160 to break even (reference payout +160), edge +13.4%, Max Play
 
