@@ -171,22 +171,27 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Louisville @ Kentucky | moneyline | Louisville ML -122 | 58% | Lean | 0.5 |
 | San Diego State @ Washington State | total | Over 45.5 | 53% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 39.5 | 57% | Lean | 0.5 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -568 | 88% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 67% | Strong Play | 1.0 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
-| UAB @ North Texas | total | Over 48.5 | 53% | Lean | 0.5 |
+| UAB @ North Texas | total | Over 47.5 | 54% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -293 | 80% | Lean | 0.5 |
+| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1060 | 98% | Strong Play | 1.0 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -332 | 82% | Lean | 0.5 |
+| South Carolina @ Clemson | total | Over 40.5 | 53% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +276 | 34% | Strong Play | 1.0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | Lean | 0.5 |
-| Massachusetts @ Bowling Green | moneyline | Bowling Green ML -118 | 57% | Lean | 0.5 |
-- NCAAF parlay: Louisville ML -122 + Bowling Green ML -118 | model 33.4%, needs +236 to break even, edge +3.7%, Lean
-- NCAAF parlay: Louisville ML -122 + Over 48.5 | model 31.1%, needs +260 to break even, edge +3.4%, Lean
 - NCAAF parlay: San José State ML +400 + Louisville ML -122 | model 14.3%, needs +810 to break even, edge +3.3%, Lean
-- NFL parlay: Under 50.5 + Under 54.5 | model 41.4%, needs +287 to break even, edge +15.5%, Max Play
-- NFL parlay: Under 50.5 + Under 55.5 | model 40.4%, needs +274 to break even, edge +13.7%, Max Play
-- NFL parlay: Under 50.5 + Detroit Lions +2.5 (spread) | model 40.1%, needs +274 to break even, edge +13.4%, Max Play
+- NCAAF parlay: Louisville ML -122 + Over 37.5 | model 31.2%, needs +255 to break even, edge +3.0%, Lean
+- NCAAF parlay: San José State ML +400 + Over 37.5 | model 13.1%, needs +876 to break even, edge +2.8%, Lean
+- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1060 | model 66.0%, needs +115 to break even, edge +19.4%, Max Play
+- NFL parlay: Cincinnati Bengals ML -568 + Under 50.5 + Jacksonville Jaguars ML -1060 | model 58.1%, needs +152 to break even, edge +18.5%, Max Play
+- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1060 + Minnesota Vikings ML -332 | model 54.3%, needs +179 to break even, edge +18.5%, Max Play
 - NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Under 55.5 -> 61.5 | model 53.6%, needs +160 to break even, edge +15.1%, Max Play
 - NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 40.5 -> 34.5 | model 52.9%, needs +160 to break even, edge +14.4%, Max Play
-- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7) | model 52.7%, needs +160 to break even, edge +14.3%, Max Play
+- NFL teaser: Under 50.5 -> 56.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 52.2%, needs +160 to break even, edge +13.8%, Max Play
 
 ## Results and learning by market
 
