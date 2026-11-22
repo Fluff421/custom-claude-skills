@@ -109,3 +109,6 @@ ts,record_id,league,game,side,edge_tier,edge,pred_clv,clv_tier,model_n
 2026-11-22 11:59Z,recrQkOwpkcIisvRE,NFL,New York Giants @ Indianapolis Colts,Indianapolis Colts +6.5 (spread),Lean,6.5,1.908,Max Play,29
 2026-11-22 11:59Z,rectT8K8SSMh3vu1v,NFL,Las Vegas Raiders @ Cleveland Browns,Cleveland Browns -4.5 (spread),No Play,0.2,-0.02,No Play,29
 2026-11-22 11:59Z,reczRiIWxk8KIt5CS,NCAAF,Florida @ Florida State,Florida -4.5 (spread),No Play,-0.01,0.014,No Play,109
+2026-11-22 18:27Z,rec4Web9ICQsB7yvV,NCAAF,Temple @ Memphis,Memphis -17.5 (spread),No Play,0.19,0.054,No Play,109
+2026-11-22 18:27Z,recJLBofg6pkwmEhp,NCAAF,Tulsa @ UTSA,Tulsa +2.5 (spread),No Play,-0.38,0.018,No Play,109
+2026-11-22 18:27Z,reci6ArluN5swsOID,NCAAF,Toledo @ Ohio,Ohio +4.5 (spread),No Play,0.04,0.022,No Play,109
