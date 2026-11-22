@@ -30,28 +30,22 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | West Virginia @ Utah | moneyline | Utah ML -110 (price estimated from the line) | 91% | +39.0% | No Play | 0 |
 | Colorado State @ Fresno State | spread | Colorado State +20.5 (spread) | 50% |  | No Play | 0 |
 | Colorado State @ Fresno State | total | Under 67.5 | 52% | +1.3 pts | No Play | 0 |
-| Colorado State @ Fresno State | moneyline | Colorado State ML +850 | 9% | -1.8% | No Play | 0 |
+| Colorado State @ Fresno State | moneyline | Colorado State ML +950 | 8% | -1.3% | No Play | 0 |
 | Nevada @ UNLV | moneyline | UNLV ML -110 (price estimated from the line) | 69% | +16.8% | No Play | 0 |
 | Duke @ Wake Forest | spread | Duke +10.5 (spread) | 50% |  | No Play | 0 |
 | Duke @ Wake Forest | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
 | Duke @ Wake Forest | moneyline | Duke ML +400 | 19% | -0.9% | No Play | 0 |
 | Virginia @ Virginia Tech | moneyline | Virginia Tech ML -110 (price estimated from the line) | 51% | -1.1% | No Play | 0 |
 | Kansas @ Oklahoma State | moneyline | Oklahoma State ML -110 (price estimated from the line) | 71% | +19.1% | No Play | 0 |
-| Texas A&M @ Oklahoma | spread | Texas A&M +7.5 (spread) | 51% |  | No Play | 0 |
-| Texas A&M @ Oklahoma | total | Over 36.5 | 51% | +0.6 pts | No Play | 0 |
-| Texas A&M @ Oklahoma | moneyline | Texas A&M ML +235 | 33% | +3.2% | Lean | 0.5 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
 | Notre Dame @ Syracuse | total | Over 54.5 | 50% | +0.1 pts | No Play | 0 |
 | Notre Dame @ Syracuse | moneyline | Syracuse ML +1051 (price estimated from the line) | 8% | -0.5% | No Play | 0 |
-| Rutgers @ Penn State | spread | Rutgers +22.5 (spread) | 50% |  | No Play | 0 |
-| Rutgers @ Penn State | total | Over 48.5 | 52% | +1.4 pts | No Play | 0 |
-| Rutgers @ Penn State | moneyline | Penn State ML -2800 | 95% | -1.8% | No Play | 0 |
 | Louisiana @ Georgia State | moneyline | Louisiana ML -110 (price estimated from the line) | 58% | +5.3% | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | James Madison ML -110 (price estimated from the line) | 87% | +34.2% | No Play | 0 |
 | Tulsa @ UTSA | moneyline | UTSA ML -110 (price estimated from the line) | 51% | -1.8% | No Play | 0 |
-| Old Dominion @ UConn | spread | Old Dominion +14 (spread) | 50% |  | No Play | 0 |
-| Old Dominion @ UConn | total | Over 48.5 | 51% | +1.2 pts | No Play | 0 |
-| Old Dominion @ UConn | moneyline | Old Dominion ML +470 | 18% | +0.0% | No Play | 0 |
+| South Florida @ Florida Atlantic | spread | South Florida -1.5 (spread) | 50% |  | No Play | 0 |
+| South Florida @ Florida Atlantic | total | Under 62.5 | 51% | +1.1 pts | No Play | 0 |
+| South Florida @ Florida Atlantic | moneyline | South Florida ML -125 | 56% | +0.8% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 41.5 | 52% | +1.9 pts | No Play | 0 |
 | Texas @ Texas A&M | moneyline | Texas ML -241 (price estimated from the line) | 70% | -0.8% | No Play | 0 |
@@ -82,20 +76,11 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Michigan @ Ohio State | spread | Ohio State -12.5 (spread) | 52% |  | No Play | 0 |
 | Michigan @ Ohio State | total | Over 41.5 | 52% | +1.7 pts | No Play | 0 |
 | Michigan @ Ohio State | moneyline | Ohio State ML -442 (price estimated from the line) | 81% | -0.1% | No Play | 0 |
-| South Alabama @ Southern Miss | spread | Southern Miss +5.5 (spread) | 51% |  | No Play | 0 |
-| South Alabama @ Southern Miss | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
-| South Alabama @ Southern Miss | moneyline | Southern Miss ML +170 | 36% | -0.9% | No Play | 0 |
-| Georgia Southern @ Troy | spread | Troy +9.5 (spread) | 51% |  | No Play | 0 |
-| Georgia Southern @ Troy | total | Under 47.5 | 50% | +0.3 pts | No Play | 0 |
-| Georgia Southern @ Troy | moneyline | Troy ML +250 | 31% | +2.0% | No Play | 0 |
 | SMU @ Stanford | moneyline | SMU ML -110 (price estimated from the line) | 81% | +28.7% | No Play | 0 |
 | New Mexico State @ Middle Tennessee | moneyline | Middle Tennessee ML -110 (price estimated from the line) | 58% | +5.3% | No Play | 0 |
 | Georgia Tech @ Georgia | moneyline | Georgia ML -110 (price estimated from the line) | 99% | +46.2% | No Play | 0 |
 | Baylor @ Houston | moneyline | Houston ML -110 (price estimated from the line) | 59% | +6.8% | No Play | 0 |
 | Cincinnati @ BYU | moneyline | BYU ML -110 (price estimated from the line) | 87% | +34.2% | No Play | 0 |
-| NC State @ Florida State | spread | Florida State -9.5 (spread) | 50% |  | No Play | 0 |
-| NC State @ Florida State | total | Under 56.5 | 50% | +0.0 pts | No Play | 0 |
-| NC State @ Florida State | moneyline | NC State ML +310 | 24% | -0.5% | No Play | 0 |
 | Stanford @ California | spread | California +1.5 (spread) | 51% |  | No Play | 0 |
 | Stanford @ California | total | Under 55.5 | 50% | +0.0 pts | No Play | 0 |
 | Stanford @ California | moneyline | California ML +114 | 45% | -1.7% | No Play | 0 |
@@ -121,7 +106,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Toledo @ Ohio | moneyline | Toledo ML -110 (price estimated from the line) | 62% | +9.2% | No Play | 0 |
 | Georgia @ South Carolina | spread | Georgia -10 (spread) | 50% |  | No Play | 0 |
 | Georgia @ South Carolina | total | Over 51.5 | 51% | +0.6 pts | No Play | 0 |
-| Georgia @ South Carolina | moneyline | South Carolina ML +550 | 17% | +1.1% | No Play | 0 |
+| Georgia @ South Carolina | moneyline | South Carolina ML +550 | 14% | -1.6% | No Play | 0 |
 | UAB @ North Texas | moneyline | North Texas ML -110 (price estimated from the line) | 86% | +33.7% | No Play | 0 |
 | Hawai'i @ Nevada | spread | Nevada -4.5 (spread) | 50% |  | No Play | 0 |
 | Hawai'i @ Nevada | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
@@ -129,9 +114,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Nebraska @ Iowa | spread | Nebraska +6.5 (spread) | 51% |  | No Play | 0 |
 | Nebraska @ Iowa | total | Over 38.5 | 52% | +1.2 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +184 (price estimated from the line) | 35% | +0.2% | No Play | 0 |
-| Arkansas @ Texas | spread | Texas -21 (spread) | 51% |  | No Play | 0 |
-| Arkansas @ Texas | total | Over 46.5 | 51% | +0.8 pts | No Play | 0 |
-| Arkansas @ Texas | moneyline | Arkansas ML +800 | 10% | -1.1% | No Play | 0 |
 | UConn @ Wyoming | moneyline | UConn ML -110 (price estimated from the line) | 62% | +9.7% | No Play | 0 |
 | Sacramento State @ Hawai'i | moneyline | Hawai'i ML -110 (price estimated from the line) | 93% | +40.4% | No Play | 0 |
 | South Carolina @ Clemson | moneyline | South Carolina ML -110 (price estimated from the line) | 56% | +3.2% | No Play | 0 |
@@ -145,9 +127,6 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Washington @ Oregon | spread | Oregon -12.5 (spread) | 51% |  | No Play | 0 |
 | Washington @ Oregon | total | Over 48.5 | 51% | +1.0 pts | No Play | 0 |
 | Washington @ Oregon | moneyline | Oregon ML -442 (price estimated from the line) | 81% | -0.6% | No Play | 0 |
-| Georgia State @ Marshall | spread | Georgia State -1.5 (spread) | 51% |  | No Play | 0 |
-| Georgia State @ Marshall | total | Under 56.5 | 50% | +0.1 pts | No Play | 0 |
-| Georgia State @ Marshall | moneyline | Georgia State ML +130 | 45% | +1.5% | No Play | 0 |
 | Miami (OH) @ Western Michigan | spread | Western Michigan -7.5 (spread) | 50% |  | No Play | 0 |
 | Miami (OH) @ Western Michigan | total | Over 46.5 | 51% | +0.8 pts | No Play | 0 |
 | Miami (OH) @ Western Michigan | moneyline | Miami (OH) ML +240 | 31% | +1.4% | No Play | 0 |
@@ -167,7 +146,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Pittsburgh Steelers @ Philadelphia Eagles | moneyline | Pittsburgh Steelers ML -187 | 64% | -1.7% | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | spread | Kansas City Chiefs -14 (spread) | 52% |  | No Play | 0 |
 | Arizona Cardinals @ Kansas City Chiefs | total | Over 40.5 | 52% | +0.3 pts | No Play | 0 |
-| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1620 | 100% | +5.8% | Lean | 0.5 |
+| Arizona Cardinals @ Kansas City Chiefs | moneyline | Kansas City Chiefs ML -1600 | 100% | +5.8% | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | spread | Chicago Bears -9.5 (spread) | 50% |  | No Play | 0 |
 | New Orleans Saints @ Chicago Bears | total | Under 48.5 | 57% | +1.6 pts | Lean | 0.5 |
 | New Orleans Saints @ Chicago Bears | moneyline | Chicago Bears ML -620 | 90% | +3.9% | Lean | 0.5 |
@@ -216,11 +195,11 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 
 ### NFL Best parlays
 
-- Kansas City Chiefs ML -1620 + Under 51.5 + Buffalo Bills ML -1540: model 68.1%, needs +110 to break even (reference payout +110), edge +20.4%, Max Play
+- Kansas City Chiefs ML -1600 + Under 51.5 + Buffalo Bills ML -1540: model 68.1%, needs +110 to break even (reference payout +110), edge +20.5%, Max Play
 - Denver Broncos ML -640 + Under 51.5 + Buffalo Bills ML -1540: model 61.6%, needs +128 to break even (reference payout +128), edge +17.8%, Max Play
-- Kansas City Chiefs ML -1620 + Buffalo Bills ML -1540 + Carolina Panthers -1.5 (spread): model 62.8%, needs +122 to break even (reference payout +122), edge +17.8%, Max Play
+- Kansas City Chiefs ML -1600 + Buffalo Bills ML -1540 + Carolina Panthers -1.5 (spread): model 62.8%, needs +122 to break even (reference payout +122), edge +17.8%, Max Play
 - Chicago Bears ML -620 + Under 51.5 + Buffalo Bills ML -1540: model 61.3%, needs +129 to break even (reference payout +129), edge +17.7%, Max Play
-- Kansas City Chiefs ML -1620 + Denver Broncos ML -640 + Under 51.5: model 61.6%, needs +128 to break even (reference payout +128), edge +17.7%, Max Play
+- Kansas City Chiefs ML -1600 + Denver Broncos ML -640 + Under 51.5: model 61.6%, needs +128 to break even (reference payout +128), edge +17.7%, Max Play
 
 ### NFL Best 6-point teasers
 
