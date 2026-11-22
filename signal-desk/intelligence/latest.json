@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "generated_at": "2026-11-22T08:39:17+00:00",
+ "generated_at": "2026-11-22T08:50:28+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Carolina Panthers",
@@ -5295,7 +5295,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-22T08:38:46+00:00",
+   "generated_at": "2026-11-22T08:49:48+00:00",
    "date": "2026-11-22",
    "games": [
     {
@@ -5396,25 +5396,25 @@
       },
       {
        "market": "moneyline",
-       "side": "away",
-       "team": "Pittsburgh Steelers",
+       "side": "home",
+       "team": "Philadelphia Eagles",
        "line": 0.0,
-       "price": -190.0,
+       "price": 160.0,
        "price_estimated": false,
        "proj": -3.26,
-       "prob": 0.635,
-       "edge": -0.0202,
+       "prob": 0.365,
+       "edge": -0.0196,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Pittsburgh Steelers ML -190",
+       "selection": "Philadelphia Eagles ML +160",
        "game_id": "rec0gY90aols8kKfi",
        "game": "Pittsburgh Steelers @ Philadelphia Eagles",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -12933,18 +12933,18 @@
        "side": "away",
        "team": "Cincinnati Bengals",
        "line": 0.0,
-       "price": -299.0,
+       "price": -300.0,
        "price_estimated": false,
        "proj": -6.06,
        "prob": 0.7441,
-       "edge": -0.0053,
+       "edge": -0.0059,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Cincinnati Bengals ML -299",
+       "selection": "Cincinnati Bengals ML -300",
        "game_id": "recvStneVWJBEWYU3",
        "game": "Cincinnati Bengals @ Washington Commanders",
        "priority": "primary",
