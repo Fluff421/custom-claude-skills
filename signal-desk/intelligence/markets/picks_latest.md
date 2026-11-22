@@ -136,7 +136,7 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +256 | 30% | +1.9% | No Play | 0 |
 | Las Vegas Raiders @ Denver Broncos | spread | Denver Broncos -8.5 (spread) | 55% |  | Lean | 0.5 |
 | Las Vegas Raiders @ Denver Broncos | total | Over 41.5 | 58% | +1.8 pts | Lean | 0.5 |
-| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -660 | 90% | +3.5% | Lean | 0.5 |
+| Las Vegas Raiders @ Denver Broncos | moneyline | Denver Broncos ML -610 | 90% | +4.5% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 45.5 | 52% | +0.4 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -158 | 65% | +3.3% | Lean | 0.5 |
@@ -200,8 +200,8 @@ Markets not yet posted (no pick until a line is listed): Air Force @ New Mexico 
 - Kansas City Chiefs ML -1320 + Under 51.5 + Jacksonville Jaguars ML -1260: model 67.7%, needs +122 to break even (reference payout +122), edge +22.6%, Max Play
 - Kansas City Chiefs ML -1320 + Under 51.5 + Buffalo Bills ML -1460: model 68.1%, needs +119 to break even (reference payout +119), edge +22.5%, Max Play
 - Under 51.5 + Buffalo Bills ML -1460 + Jacksonville Jaguars ML -1260: model 67.7%, needs +120 to break even (reference payout +120), edge +22.2%, Max Play
-- Kansas City Chiefs ML -1320 + Chicago Bears ML -610 + Under 51.5: model 61.3%, needs +139 to break even (reference payout +139), edge +19.5%, Max Play
-- Kansas City Chiefs ML -1320 + Under 51.5: model 68.2%, needs +105 to break even (reference payout +105), edge +19.5%, Max Play
+- Kansas City Chiefs ML -1320 + Denver Broncos ML -610 + Under 51.5: model 61.6%, needs +139 to break even (reference payout +139), edge +19.8%, Max Play
+- Denver Broncos ML -610 + Under 51.5 + Jacksonville Jaguars ML -1260: model 61.2%, needs +140 to break even (reference payout +140), edge +19.5%, Max Play
 
 ### NFL Best 6-point teasers
 
