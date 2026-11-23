@@ -161,7 +161,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -150 | 65% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -151 | 65% | Lean | 0.5 |
 | San Diego State @ Washington State | total | Over 45.5 | 53% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 37.5 | 60% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -119 | 61% | Strong Play | 1.0 |

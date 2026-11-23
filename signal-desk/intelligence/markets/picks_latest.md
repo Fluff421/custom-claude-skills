@@ -16,7 +16,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Mississippi State @ Ole Miss | moneyline | Mississippi State ML +750 | 11% | -0.6% | No Play | 0 |
 | Oklahoma @ Missouri | spread | Oklahoma +1.5 (spread) | 50% |  | No Play | 0 |
 | Oklahoma @ Missouri | total | Over 41.5 | 51% | +1.1 pts | No Play | 0 |
-| Oklahoma @ Missouri | moneyline | Missouri ML -120 | 54% | -1.0% | No Play | 0 |
+| Oklahoma @ Missouri | moneyline | Missouri ML -122 | 54% | -1.4% | No Play | 0 |
 | North Dakota State @ San José State | spread | San José State +12.5 (spread) | 51% |  | No Play | 0 |
 | North Dakota State @ San José State | total | Over 39.5 | 52% | +1.5 pts | No Play | 0 |
 | North Dakota State @ San José State | moneyline | San José State ML +310 | 26% | +1.9% | No Play | 0 |
@@ -97,7 +97,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Army @ Rice | moneyline | Rice ML +210 | 32% | +0.2% | No Play | 0 |
 | Kansas State @ Iowa State | spread | Kansas State +4.5 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ Iowa State | total | Over 54.5 | 51% | +0.7 pts | No Play | 0 |
-| Kansas State @ Iowa State | moneyline | Kansas State ML +154 | 39% | -0.5% | No Play | 0 |
+| Kansas State @ Iowa State | moneyline | Kansas State ML +154 | 40% | +0.6% | No Play | 0 |
 | UTEP @ Northern Illinois | spread | Northern Illinois -4 (spread) | 52% |  | No Play | 0 |
 | UTEP @ Northern Illinois | total | Under 48.5 | 52% | +1.2 pts | No Play | 0 |
 | UTEP @ Northern Illinois | moneyline | UTEP ML +164 | 37% | -1.0% | No Play | 0 |
@@ -127,7 +127,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Georgia Tech @ Georgia | moneyline | Georgia ML -50000 | 99% | -0.6% | No Play | 0 |
 | Baylor @ Houston | spread | Baylor +4.5 (spread) | 50% |  | No Play | 0 |
 | Baylor @ Houston | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
-| Baylor @ Houston | moneyline | Houston ML -198 | 65% | -1.7% | No Play | 0 |
+| Baylor @ Houston | moneyline | Baylor ML +185 | 34% | -0.9% | No Play | 0 |
 | Cincinnati @ BYU | spread | BYU -14 (spread) | 50% |  | No Play | 0 |
 | Cincinnati @ BYU | total | Over 55.5 | 50% | +0.1 pts | No Play | 0 |
 | Cincinnati @ BYU | moneyline | Cincinnati ML +470 | 16% | -1.2% | No Play | 0 |
@@ -233,7 +233,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +283 | 29% | +2.5% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 44.5 | 50% | +0.1 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -150 | 65% | +4.5% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -151 | 65% | +4.3% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 39.5 | 51% | +0.3 pts | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -152 | 60% | +0.2% | No Play | 0 |
@@ -251,7 +251,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -153 | 62% | +2.0% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | +2.3 pts | Lean | 0.5 |
-| Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +125 | 44% | -0.1% | No Play | 0 |
+| Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +124 | 44% | -0.3% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 41.5 | 53% | +0.6 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | Miami Dolphins ML +165 | 36% | -1.5% | No Play | 0 |
@@ -275,7 +275,7 @@ Markets not yet posted (no pick until a line is listed): Atlanta Falcons @ Minne
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -222 | 68% | -0.6% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -295 | 74% | -0.3% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -302 | 74% | -0.7% | No Play | 0 |
 
 ### NFL Best parlays
 

@@ -3913,3 +3913,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-23T03:39:07+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,DraftKings,8.5,47.5,-411,324,-110.0,-110.0,-110.0,-109.0,1.5
 2026-11-23T03:39:07+00:00,rectT8K8SSMh3vu1v,401873086,NFL,Las Vegas Raiders @ Cleveland Browns,2026-11-29,DraftKings,4.5,40.5,-222,184,-109.0,-110.0,-115.0,-104.0,2.5
 2026-11-23T03:39:07+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.0,54.5,240,-295,-107.0,-112.0,-116.0,-103.0,-1.5
+2026-11-23T04:00:58+00:00,rec1F4pnTIu2Ah4f2,401856763,NCAAF,Oklahoma @ Missouri,2026-11-28,Draft Kings,1.5,41.5,-122,102,-112.0,-108.0,-105.0,-115.0,1.5
+2026-11-23T04:00:58+00:00,recAtdjulTlSZk3jZ,401873079,NFL,Green Bay Packers @ Los Angeles Rams,2026-11-25,Draft Kings,3.0,44.5,-151,127,-105.0,-114.0,-114.0,-105.0,3.5
+2026-11-23T04:00:58+00:00,recSA2ih74uqAsszE,401856878,NCAAF,Kansas State @ Iowa State,2026-11-28,Draft Kings,4.0,54.5,-185,154,-110.0,-110.0,-115.0,-105.0,5.5
+2026-11-23T04:00:58+00:00,reca5h45buJ974Zo1,401856874,NCAAF,Baylor @ Houston,2026-11-28,Draft Kings,6.5,55.5,-225,185,-110.0,-110.0,-105.0,-115.0,4.5
+2026-11-23T04:00:58+00:00,recdkLxR3vV2KYMZ5,401862842,NCAAF,Navy @ Charlotte,2026-11-28,Draft Kings,-16.5,55.5,575,-850,-105.0,-115.0,-110.0,-110.0,-16.5
+2026-11-23T04:00:58+00:00,recj8prfk94D0f9lD,401873081,NFL,Chicago Bears @ Detroit Lions,2026-11-26,Draft Kings,-2.5,55.5,124,-147,-106.0,-114.0,-110.0,-110.0,2.5
+2026-11-23T04:00:58+00:00,reco8reR66QV5gqyN,401873085,NFL,Baltimore Ravens @ Houston Texans,2026-11-29,Draft Kings,6.5,46.5,-283,232,-110.0,-110.0,-115.0,-104.0,1.5
+2026-11-23T04:00:58+00:00,recpc12VnHvsMb7G1,401858537,NCAAF,Illinois @ Northwestern,2026-11-28,Draft Kings,3.0,49.5,-148,124,-105.0,-115.0,-110.0,-110.0,-3.5
+2026-11-23T04:00:58+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,54.5,246,-302,-107.0,-112.0,-116.0,-103.0,-1.5
