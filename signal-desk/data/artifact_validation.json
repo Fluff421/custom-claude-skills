@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T21:39:37.741175+00:00",
+  "checked_at": "2026-11-23T22:39:40.428366+00:00",
   "central_date": "2026-11-23",
   "ready": false,
   "policy": {
@@ -14,52 +14,51 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.017,
+      "age_hours": 0.023,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 169.727,
+      "age_hours": 170.728,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.0,
+      "age_hours": 0.001,
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 169.7,
+      "age_hours": 170.701,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.017,
+      "age_hours": 0.023,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.043,
+      "age_hours": 0.044,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 26,
       "status": "degraded",
       "last_good_age_hours": null,
-      "age_hours": 9.11
+      "age_hours": 10.111
     },
     "espn-sync.yml": {
-      "age_hours": 0.21,
+      "age_hours": 1.211,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 7.997,
+      "age_hours": 0.082,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 9.443,
+      "age_hours": 10.444,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "splash_board: age 169.73h outside [0, 168)h (5m clock tolerance)",
-    "pricecheck_underlying_quotes: age 169.70h outside [0, 168)h (5m clock tolerance)",
-    "picks.yml: age 8.00h outside [0, 4)h (5m clock tolerance)"
+    "splash_board: age 170.73h outside [0, 168)h (5m clock tolerance)",
+    "pricecheck_underlying_quotes: age 170.70h outside [0, 168)h (5m clock tolerance)"
   ],
   "warnings": [
     "injury-pull.yml: latest run is not healthy, successful and LIVE; no good pull on record. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
