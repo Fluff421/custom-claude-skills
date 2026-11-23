@@ -1,0 +1,6 @@
+game,league,kickoff_central,venue,roof,forecast_temp_f,wind_mph,precip_pct,source_url,forecast_issued_at,checked_at_central
+Cincinnati Bengals @ Washington Commanders,NFL,2026-11-23 19:15,Northwest Stadium,outdoor,42,9,20,https://forecast.weather.gov/MapClick.php?lat=38.9078&lon=-76.8645,2026-11-23 15:53 EST,2026-11-23 16:45 CT
+Kent State @ Eastern Michigan,NCAAF,2026-11-24,Rynearson Stadium,outdoor,39,6,0,https://forecast.weather.gov/MapClick.php?lat=42.2558&lon=-83.6472,2026-11-23 15:49 EST,2026-11-23 16:45 CT
+Miami (OH) @ Western Michigan,NCAAF,2026-11-24,Waldo Stadium,outdoor,39,5,0,https://forecast.weather.gov/MapClick.php?lat=42.2914&lon=-85.6265,2026-11-23 17:03 EST,2026-11-23 16:45 CT
+TCU @ Texas Tech,NCAAF,2026-11-26,Jones AT&T Stadium,outdoor,53,5,0,https://forecast.weather.gov/MapClick.php?lat=33.5847&lon=-101.8552,2026-11-23 16:30 CST,2026-11-23 16:45 CT
+Kansas City Chiefs @ Buffalo Bills,NFL,2026-11-26,Highmark Stadium,outdoor,43,8,70,https://forecast.weather.gov/MapClick.php?lat=42.7738&lon=-78.7869,2026-11-23 15:57 EST,2026-11-23 16:45 CT
