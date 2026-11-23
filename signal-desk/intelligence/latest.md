@@ -17,20 +17,22 @@ Overall graded picks: 145-154 (Brier 0.256).
 | Atlanta Falcons @ Minnesota Vikings | 2026-11-29 | Lean | Minnesota Vikings -7 (spread) | 0.5 | 52.7% |  |
 | Cincinnati Bengals @ Washington Commanders | 2026-11-23 | Lean | Cincinnati Bengals -4.5 (spread) | 0.5 | 54.5% |  |
 | Seattle Seahawks @ San Francisco 49ers | 2026-11-29 | Lean | San Francisco 49ers -2.5 (spread) | 0.5 | 51.9% |  |
+| Carolina Panthers @ Tampa Bay Buccaneers | 2026-11-30 | Lean | Tampa Bay Buccaneers -3 (spread) | 0.5 | 50.0% |  |
 | New England Patriots @ Los Angeles Chargers | 2026-11-29 | Lean | Los Angeles Chargers -4.5 (spread) | 0.5 | 50.0% |  |
 | Washington Commanders @ Arizona Cardinals | 2026-11-29 | Lean | Arizona Cardinals +6.5 (spread) | 0.5 | 54.5% |  |
 | New York Giants @ Indianapolis Colts | 2026-11-29 | Lean | Indianapolis Colts +6.5 (spread) | 0.5 | 59.2% |  |
 - Baltimore Ravens @ Houston Texans: weather: indoor | sev=0.00
-- Green Bay Packers @ Los Angeles Rams: weather: 69F, 38 | no severity
+- Green Bay Packers @ Los Angeles Rams: weather: 69F, wind 6mph, precip 0% | sev=0.00 | open-meteo
 - Chicago Bears @ Detroit Lions: weather: indoor | sev=0.00
-- Sacramento State @ Hawai'i: weather: 80F, 36 | no severity
-- UAB @ North Texas: weather: 66F, 1 | no severity
-- New Orleans Saints @ Cincinnati Bengals: weather: 48F, 4 | no severity
+- Sacramento State @ Hawai'i: weather: 70F, wind 11mph, precip 6% | sev=0.25 | open-meteo
+- UAB @ North Texas: weather: 68F, 2 | no severity
+- New Orleans Saints @ Cincinnati Bengals: weather: 51F, wind 8mph, precip 8% | sev=0.00 | open-meteo
 - Atlanta Falcons @ Minnesota Vikings: weather: indoor | sev=0.00
-- Cincinnati Bengals @ Washington Commanders: weather: 47F, wind 15mph, precip 1% | sev=0.25 | open-meteo
-- Seattle Seahawks @ San Francisco 49ers: QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-22] | AWAY QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-22] [priced: Drew Lock led passing 2026-11-15]; weather: 64F, 12 | no severity
-- New England Patriots @ Los Angeles Chargers: weather: 69F, 18 | no severity
-- Washington Commanders @ Arizona Cardinals: QB: HOME QB OUT Carson Beck -> Josh Johnson [auto espn 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-22]; weather: indoor | sev=0.00
+- Cincinnati Bengals @ Washington Commanders: weather: 52F, wind 12mph, precip 3% | sev=0.25 | open-meteo
+- Seattle Seahawks @ San Francisco 49ers: QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-23] | AWAY QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-23] [priced: Drew Lock led passing 2026-11-15]; weather: 66F, 7 | no severity
+- Carolina Panthers @ Tampa Bay Buccaneers: weather: 70F, 7 | no severity
+- New England Patriots @ Los Angeles Chargers: QB: HOME QB QUESTIONABLE Justin Herbert -> DJ Uiagalelei [auto espn 2026-11-23] | AWAY QB PLAYING Tommy DeVito [auto espn 2026-11-23]; weather: 67F, wind 17mph, precip 36% | sev=0.60 | open-meteo
+- Washington Commanders @ Arizona Cardinals: QB: HOME QB OUT Carson Beck -> Josh Johnson [auto espn 2026-11-23] [priced: Josh Johnson led passing 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-23]; weather: indoor | sev=0.00
 - New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
 
 Tracking picks (paper, 0u): 73. Examples: Georgia Tech @ Georgia -> Georgia Tech +34.5 (spread); Boston College @ Miami -> Miami -25.5 (spread); Purdue @ Indiana -> Indiana -21.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); West Virginia @ Utah -> Utah -20.5 (spread)
@@ -131,15 +133,15 @@ By size of base edge:
 
 ## What the learner currently believes
 
-- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 55 (20 with factor records); last calibrated 2026-11-22T20:10:17.000Z
-- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 247 (62 with factor records); last calibrated 2026-11-22T20:10:17.000Z
+- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 55 (20 with factor records); last calibrated 2026-11-23T12:48:55.000Z
+- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 247 (62 with factor records); last calibrated 2026-11-23T12:48:55.000Z
 
 ## What changes automatically, and how close each change is
 
 | League | Setting | Now | Gate | Progress | Rule |
 |---|---|---|---|---|---|
 | NFL | Sigma (win-probability spread) | 12.38 | >= 30 graded | 55/30 | daily grid search; picks the sigma with the best Brier score |
-| NFL | Tier win-probability multipliers | {"Lean": 0.845} | >= 20 graded per tier | Lean 29/20, Strong Play 10/20, Max Play 3/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
+| NFL | Tier win-probability multipliers | {"Lean": 0.853} | >= 20 graded per tier | Lean 29/20, Strong Play 10/20, Max Play 3/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
 | NFL | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 29/20, Strong Play 10/20, Max Play 3/20 | stays capped; Strong and Max remain paper picks regardless |
 | NFL | Market blend k (does the model add to the line) |  | >= 30 graded with scores | 55/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
 | NFL | Factor scales (injury, look-ahead, rest, travel, revenge, weather) | {'scale_injury': None, 'scale_lookahead': None, 'scale_rest': None, 'scale_travel': None, 'scale_revenge': None, 'scale_weather': None} | >= 30 graded with a factor record; each factor needs 10 non-zero games | 20/30 | joint ridge regression toward 1.0; 0 switches the factor off |
@@ -163,48 +165,48 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -145 | 65% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 66% | Lean | 0.5 |
 | San Diego State @ Washington State | total | Over 45.5 | 53% | Lean | 0.5 |
-| New England Patriots @ Los Angeles Chargers | total | Over 36.5 | 61% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -120 | 59% | Lean | 0.5 |
-| Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 67% | Strong Play | 1.0 |
+| Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 63% | Lean | 0.5 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
-| Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
+| Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
 | UAB @ North Texas | total | Over 47.5 | 54% | Lean | 0.5 |
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -279 | 80% | Strong Play | 1.0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1140 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
 | South Carolina @ Clemson | total | Over 40.5 | 53% | Lean | 0.5 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +257 | 33% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +264 | 33% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -434 | 85% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | Lean | 0.5 |
 - NCAAF parlay: Over 45.5 + Over 37.5 | model 28.4%, needs +273 to break even, edge +1.6%, No Play
 - NCAAF parlay: Over 37.5 + Over 47.5 | model 28.7%, needs +265 to break even, edge +1.3%, No Play
 - NCAAF parlay: Over 45.5 + Over 37.5 + Over 47.5 | model 15.3%, needs +597 to break even, edge +0.9%, No Play
-- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1140 | model 66.2%, needs +106 to break even, edge +17.6%, Max Play
-- NFL parlay: Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1140 | model 53.1%, needs +180 to break even, edge +17.4%, Max Play
-- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1140 + Minnesota Vikings ML -310 | model 53.7%, needs +172 to break even, edge +17.0%, Max Play
-- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 36.5 -> 30.5 | model 53.9%, needs +160 to break even, edge +15.4%, Max Play
-- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Under 55.5 -> 61.5 | model 53.6%, needs +160 to break even, edge +15.1%, Max Play
-- NFL teaser: Under 50.5 -> 56.5 + Over 36.5 -> 30.5 + Under 55.5 -> 61.5 | model 53.2%, needs +160 to break even, edge +14.8%, Max Play
+- NFL parlay: Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1140 | model 49.8%, needs +180 to break even, edge +14.1%, Max Play
+- NFL parlay: Houston Texans ML -279 + Jacksonville Jaguars ML -1140 + Under 54.5 | model 49.0%, needs +185 to break even, edge +13.9%, Max Play
+- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1140 + Minnesota Vikings ML -310 | model 50.3%, needs +172 to break even, edge +13.6%, Max Play
+- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Under 55.5 -> 61.5 | model 52.2%, needs +160 to break even, edge +13.7%, Max Play
+- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 40.5 -> 34.5 | model 51.5%, needs +160 to break even, edge +13.0%, Max Play
+- NFL teaser: Under 50.5 -> 56.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 51.1%, needs +160 to break even, edge +12.6%, Max Play
 
 ## Results and learning by market
 
 | Market | W-L-P | Win rate | Units | Avg CLV | Brier |
 |---|---|---|---|---|---|
-| spread | 105-117-3 | 0.473 | -3.26 | 0.21 | 0.2531 |
-| total | 105-120-0 | 0.467 | 3.69 | 0.03 | 0.2516 |
-| moneyline | 75-150-0 | 0.333 | -0.85 |  | 0.1892 |
-| teaser_leg | 290-158-2 | 0.647 |  |  | 0.2317 |
-| teaser | 16-10-0 | 0.615 | 6.4 |  | 0.2692 |
-| parlay_leg | 37-31-0 | 0.544 |  |  | 0.2815 |
-| parlay | 8-23-0 | 0.258 | -2.11 |  | 0.2163 |
+| spread | 111-122-3 | 0.476 | -3.58 | 0.23 | 0.2528 |
+| total | 111-125-0 | 0.47 | 3.62 | 0.02 | 0.2517 |
+| moneyline | 83-153-0 | 0.352 | -0.29 |  | 0.188 |
+| teaser_leg | 308-162-2 | 0.655 |  |  | 0.2283 |
+| teaser | 19-15-0 | 0.559 | 6.3 |  | 0.2699 |
+| parlay_leg | 44-35-0 | 0.557 |  |  | 0.275 |
+| parlay | 10-26-0 | 0.278 | -1.67 |  | 0.2168 |
 
 Tuning only starts at 30 graded picks per league and market; tier tables need 20 per tier.
 - NCAAF moneyline: n=190, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)
 - NCAAF total: n=190, shrink 0.4 -> 0.4 (no meaningful gain; best 0.3, Brier gain 0.0003)
 - NCAAF teaser_leg: n=378, shrink 0.55 -> 0.55 (no meaningful gain; best 0.85, Brier gain 0.0017)
-- NFL moneyline: n=35, shrink 1.3 -> 1.3 (no meaningful gain; best 1.3, Brier gain 0.0)
-- NFL total: n=35, shrink 1.15 -> 1.15 (no meaningful gain; best 1.3, Brier gain 0.001)
-- NFL teaser_leg: n=70, shrink 1.0 -> 1.0 (no meaningful gain; best 0.85, Brier gain 0.0014)
+- NFL moneyline: n=46, shrink 1.3 -> 1.3 (no meaningful gain; best 1.3, Brier gain 0.0)
+- NFL total: n=46, shrink 1.15 -> 1.15 (no meaningful gain; best 1.3, Brier gain 0.0004)
+- NFL teaser_leg: n=92, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0001)
 
 ## Automatic changes (change log)
 
