@@ -1,10 +1,10 @@
-# Pick-time check at the newest Splash lines, 2026-11-23 04:01Z
+# Pick-time check at the newest Splash lines, 2026-11-23 04:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
-Warning: the newest Splash snapshot is 152 hours old. Paste a fresh File 1 dump before relying on these numbers.
+Warning: the newest Splash snapshot is 153 hours old. Paste a fresh File 1 dump before relying on these numbers.
 
-1 Lean-or-better plays at the current Splash lines (2 games checked).
+1 Lean-or-better plays at the current Splash lines (1 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
@@ -15,8 +15,6 @@ Strongest 6-point teaser legs at the current lines (two-leg teaser break-even is
 | Game | Teased leg | Model win prob |
 |---|---|---|
 | Cincinnati Bengals @ Washington Commanders | Under 58.5 (teased) | 78.8% |
-| Minnesota Vikings @ San Francisco 49ers | Under 51.5 (teased) | 74.3% |
-| Minnesota Vikings @ San Francisco 49ers | Minnesota Vikings +9 (teased) | 69.7% |
 | Cincinnati Bengals @ Washington Commanders | Cincinnati Bengals +0.5 (teased) | 68.3% |
 
 All games and markets are in latest.json.
