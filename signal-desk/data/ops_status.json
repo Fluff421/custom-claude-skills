@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-23T04:38:19Z",
+ "generated_at_utc": "2026-11-23T05:38:23Z",
  "generated_for_central_date": "2026-11-22",
  "graded_picks_csv_rows": 302,
  "ledger_health": {
@@ -59,17 +59,17 @@
    "upcoming_espn_data_stale": {
     "count": 11,
     "games": [
-     "Pittsburgh Steelers @ Philadelphia Eagles (NFL, 2026-11-22) (7 h)",
-     "Arizona Cardinals @ Kansas City Chiefs (NFL, 2026-11-22) (7 h)",
-     "New Orleans Saints @ Chicago Bears (NFL, 2026-11-22) (7 h)",
-     "Las Vegas Raiders @ Denver Broncos (NFL, 2026-11-22) (7 h)",
-     "New York Jets @ Los Angeles Chargers (NFL, 2026-11-22) (7 h)",
-     "Minnesota Vikings @ San Francisco 49ers (NFL, 2026-11-22) (7 h)",
-     "Jacksonville Jaguars @ New York Giants (NFL, 2026-11-22) (7 h)",
-     "Miami Dolphins @ Buffalo Bills (NFL, 2026-11-22) (7 h)",
-     "Baltimore Ravens @ Carolina Panthers (NFL, 2026-11-22) (7 h)",
-     "Tampa Bay Buccaneers @ Detroit Lions (NFL, 2026-11-22) (7 h)",
-     "Tennessee Titans @ Dallas Cowboys (NFL, 2026-11-22) (7 h)"
+     "Pittsburgh Steelers @ Philadelphia Eagles (NFL, 2026-11-22) (8 h)",
+     "Arizona Cardinals @ Kansas City Chiefs (NFL, 2026-11-22) (8 h)",
+     "New Orleans Saints @ Chicago Bears (NFL, 2026-11-22) (8 h)",
+     "Las Vegas Raiders @ Denver Broncos (NFL, 2026-11-22) (8 h)",
+     "New York Jets @ Los Angeles Chargers (NFL, 2026-11-22) (8 h)",
+     "Minnesota Vikings @ San Francisco 49ers (NFL, 2026-11-22) (8 h)",
+     "Jacksonville Jaguars @ New York Giants (NFL, 2026-11-22) (8 h)",
+     "Miami Dolphins @ Buffalo Bills (NFL, 2026-11-22) (8 h)",
+     "Baltimore Ravens @ Carolina Panthers (NFL, 2026-11-22) (8 h)",
+     "Tampa Bay Buccaneers @ Detroit Lions (NFL, 2026-11-22) (8 h)",
+     "Tennessee Titans @ Dallas Cowboys (NFL, 2026-11-22) (8 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -314,6 +314,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 45118894279,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45118894279",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-23T05:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 25,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45112920140,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45112920140",
      "event": "workflow_dispatch",
@@ -350,22 +366,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45107031295",
      "event": "workflow_dispatch",
      "created_at": "2026-11-23T03:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 25,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45101236076,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45101236076",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-23T02:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -650,7 +650,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-23T01:52:43Z",
-   "age_h": 2.8,
+   "age_h": 3.8,
    "status": "ok"
   },
   {
@@ -659,7 +659,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-23T01:58:12Z",
-   "age_h": 2.7,
+   "age_h": 3.7,
    "status": "ok"
   },
   {
@@ -668,7 +668,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-23T03:59:01Z",
-   "age_h": 0.7,
+   "age_h": 1.7,
    "status": "ok"
   },
   {
@@ -677,7 +677,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T19:32:16Z",
-   "age_h": 9.1,
+   "age_h": 10.1,
    "status": "ok"
   },
   {
@@ -686,7 +686,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T20:28:52Z",
-   "age_h": 8.2,
+   "age_h": 9.2,
    "status": "ok"
   },
   {
@@ -695,7 +695,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-22T23:43:59Z",
-   "age_h": 4.9,
+   "age_h": 5.9,
    "status": "ok"
   },
   {
@@ -705,7 +705,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-22T19:55:04Z",
-   "age_h": 8.7,
+   "age_h": 9.7,
    "status": "ok"
   }
  ],
