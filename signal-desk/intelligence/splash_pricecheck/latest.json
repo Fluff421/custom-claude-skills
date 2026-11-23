@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-23T08:39:37.178325+00:00",
- "snapshot_age_hours": 156.7,
+ "generated_at": "2026-11-23T09:39:48.587238+00:00",
+ "snapshot_age_hours": 157.7,
  "games": [
   {
    "game": "Cincinnati Bengals @ Washington Commanders",
@@ -17,17 +17,17 @@
    "ledger_record_id": "recvStneVWJBEWYU3",
    "model_status": "",
    "spread": {
-    "pick": "Cincinnati Bengals -5.5",
-    "side": "away",
+    "pick": "Washington Commanders +5.5",
+    "side": "home",
     "tier": "No Play",
-    "prob": 0.5,
-    "edge": -0.0,
-    "proj": -6.199999999999999,
+    "prob": 0.5097,
+    "edge": 0.3,
+    "proj": -5.8,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
-     "pick": "Cincinnati Bengals +0.5 (teased)",
-     "prob": 0.6828
+     "pick": "Washington Commanders +11.5 (teased)",
+     "prob": 0.7108
     }
    },
    "total": {
@@ -47,8 +47,8 @@
    "moneyline": {
     "pick": "Washington Commanders ML +240",
     "tier": "No Play",
-    "prob": 0.3139,
-    "edge": 0.0198,
+    "prob": 0.3173,
+    "edge": 0.0232,
     "model_ml_side": "away"
    }
   }

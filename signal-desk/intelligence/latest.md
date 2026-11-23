@@ -13,25 +13,25 @@ Overall graded picks: 145-154 (Brier 0.256).
 | Chicago Bears @ Detroit Lions | 2026-11-26 | Strong Play | Detroit Lions +2.5 (spread) | 1 | 59.9% |  |
 | Sacramento State @ Hawai'i | 2026-11-28 | Lean | Hawai'i -13.5 (spread) | 0.5 | 50.0% |  |
 | UAB @ North Texas | 2026-11-28 | Lean | North Texas -4.5 (spread) | 0.5 | 50.0% |  |
-| Atlanta Falcons @ Minnesota Vikings | 2026-11-29 | Lean | Minnesota Vikings -7 (spread) | 0.5 | 52.7% |  |
 | New Orleans Saints @ Cincinnati Bengals | 2026-11-29 | Lean | Cincinnati Bengals -10 (spread) | 0.5 | 50.0% |  |
+| Atlanta Falcons @ Minnesota Vikings | 2026-11-29 | Lean | Minnesota Vikings -7 (spread) | 0.5 | 52.7% |  |
 | Cincinnati Bengals @ Washington Commanders | 2026-11-23 | Lean | Cincinnati Bengals -4.5 (spread) | 0.5 | 54.5% |  |
-| New England Patriots @ Los Angeles Chargers | 2026-11-29 | Lean | Los Angeles Chargers -4.5 (spread) | 0.5 | 50.0% |  |
 | Seattle Seahawks @ San Francisco 49ers | 2026-11-29 | Lean | San Francisco 49ers -2.5 (spread) | 0.5 | 51.9% |  |
-| New York Giants @ Indianapolis Colts | 2026-11-29 | Lean | Indianapolis Colts +6.5 (spread) | 0.5 | 59.2% |  |
+| New England Patriots @ Los Angeles Chargers | 2026-11-29 | Lean | Los Angeles Chargers -4.5 (spread) | 0.5 | 50.0% |  |
 | Washington Commanders @ Arizona Cardinals | 2026-11-29 | Lean | Arizona Cardinals +6.5 (spread) | 0.5 | 54.5% |  |
+| New York Giants @ Indianapolis Colts | 2026-11-29 | Lean | Indianapolis Colts +6.5 (spread) | 0.5 | 59.2% |  |
 - Baltimore Ravens @ Houston Texans: weather: indoor | sev=0.00
 - Green Bay Packers @ Los Angeles Rams: weather: 69F, 38 | no severity
 - Chicago Bears @ Detroit Lions: weather: indoor | sev=0.00
 - Sacramento State @ Hawai'i: weather: 80F, 36 | no severity
 - UAB @ North Texas: weather: 66F, 1 | no severity
-- Atlanta Falcons @ Minnesota Vikings: weather: indoor | sev=0.00
 - New Orleans Saints @ Cincinnati Bengals: weather: 48F, 4 | no severity
+- Atlanta Falcons @ Minnesota Vikings: weather: indoor | sev=0.00
 - Cincinnati Bengals @ Washington Commanders: weather: 47F, wind 15mph, precip 1% | sev=0.25 | open-meteo
-- New England Patriots @ Los Angeles Chargers: weather: 69F, 18 | no severity
 - Seattle Seahawks @ San Francisco 49ers: QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-22] | AWAY QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-22] [priced: Drew Lock led passing 2026-11-15]; weather: 64F, 12 | no severity
-- New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
+- New England Patriots @ Los Angeles Chargers: weather: 69F, 18 | no severity
 - Washington Commanders @ Arizona Cardinals: QB: HOME QB OUT Carson Beck -> Josh Johnson [auto espn 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-22]; weather: indoor | sev=0.00
+- New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
 
 Tracking picks (paper, 0u): 73. Examples: Georgia Tech @ Georgia -> Georgia Tech +34.5 (spread); Boston College @ Miami -> Miami -25.5 (spread); Purdue @ Indiana -> Indiana -21.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); West Virginia @ Utah -> Utah -20.5 (spread)
 
@@ -161,28 +161,28 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -145 | 65% | Lean | 0.5 |
-| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 64% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 66% | Lean | 0.5 |
 | San Diego State @ Washington State | total | Over 45.5 | 53% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 36.5 | 61% | Lean | 0.5 |
-| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -120 | 61% | Strong Play | 1.0 |
+| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -120 | 59% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 67% | Strong Play | 1.0 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | Lean | 0.5 |
 | UAB @ North Texas | total | Over 47.5 | 54% | Lean | 0.5 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -279 | 80% | Strong Play | 1.0 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -278 | 80% | Strong Play | 1.0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1180 | 99% | Strong Play | 1.0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -305 | 82% | Strong Play | 1.0 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -305 | 81% | Lean | 0.5 |
 | South Carolina @ Clemson | total | Over 40.5 | 53% | Lean | 0.5 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +244 | 35% | Lean | 0.5 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -411 | 84% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +244 | 33% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -411 | 85% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | Lean | 0.5 |
 - NCAAF parlay: Over 45.5 + Over 37.5 | model 28.4%, needs +273 to break even, edge +1.6%, No Play
 - NCAAF parlay: Over 37.5 + Over 47.5 | model 28.7%, needs +265 to break even, edge +1.3%, No Play
 - NCAAF parlay: Over 45.5 + Over 37.5 + Over 47.5 | model 15.3%, needs +597 to break even, edge +0.9%, No Play
-- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -305 | model 54.7%, needs +170 to break even, edge +17.7%, Max Play
-- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1180 | model 66.5%, needs +104 to break even, edge +17.3%, Max Play
-- NFL parlay: Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1180 | model 53.5%, needs +177 to break even, edge +17.3%, Max Play
+- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1180 | model 66.2%, needs +104 to break even, edge +17.1%, Max Play
+- NFL parlay: Under 50.5 + Houston Texans ML -278 + Jacksonville Jaguars ML -1180 | model 53.1%, needs +177 to break even, edge +17.0%, Max Play
+- NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -305 | model 53.7%, needs +170 to break even, edge +16.8%, Max Play
 - NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 36.5 -> 30.5 | model 53.9%, needs +160 to break even, edge +15.4%, Max Play
 - NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Under 55.5 -> 61.5 | model 53.6%, needs +160 to break even, edge +15.1%, Max Play
 - NFL teaser: Under 50.5 -> 56.5 + Over 36.5 -> 30.5 + Under 55.5 -> 61.5 | model 53.2%, needs +160 to break even, edge +14.8%, Max Play
