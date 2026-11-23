@@ -95,7 +95,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Army @ Rice | moneyline | Rice ML +200 | 32% | -0.9% | No Play | 0 |
 | Kansas State @ Iowa State | spread | Kansas State +4.5 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ Iowa State | total | Under 54.5 | 52% | +1.4 pts | No Play | 0 |
-| Kansas State @ Iowa State | moneyline | Kansas State ML +154 | 40% | +0.6% | No Play | 0 |
+| Kansas State @ Iowa State | moneyline | Kansas State ML +150 | 41% | +1.0% | No Play | 0 |
 | UTEP @ Northern Illinois | spread | Northern Illinois -4 (spread) | 52% |  | No Play | 0 |
 | UTEP @ Northern Illinois | total | Under 48.5 | 52% | +1.2 pts | No Play | 0 |
 | UTEP @ Northern Illinois | moneyline | UTEP ML +164 | 37% | -1.0% | No Play | 0 |
