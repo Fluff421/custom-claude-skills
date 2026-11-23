@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-23T07:38:30Z",
+ "generated_at_utc": "2026-11-23T08:38:29Z",
  "generated_for_central_date": "2026-11-23",
  "graded_picks_csv_rows": 302,
  "ledger_health": {
@@ -302,6 +302,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 45140061384,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45140061384",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-23T08:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 25,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45132404224,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45132404224",
      "event": "workflow_dispatch",
@@ -344,22 +360,6 @@
      "summary": {
       "mode": "LIVE",
       "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 25,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45112920140,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45112920140",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-23T04:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 1,
       "leg_patches": 0,
       "calibration_upserts": 25,
       "fpi_missing": 0
@@ -551,6 +551,20 @@
    "file": "grade-bim-board.yml",
    "runs": [
     {
+     "run_id": 45135098908,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45135098908",
+     "event": "schedule",
+     "created_at": "2026-11-23T07:59:34Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "rows_updated": 0,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45084821635,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45084821635",
      "event": "schedule",
@@ -591,20 +605,6 @@
       "rows_updated": 0,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 44962219592,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/44962219592",
-     "event": "schedule",
-     "created_at": "2026-11-21T23:31:33Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "rows_updated": 0,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -619,7 +619,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-23T01:52:43Z",
-   "age_h": 5.8,
+   "age_h": 6.8,
    "status": "missed"
   },
   {
@@ -628,7 +628,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-23T01:58:12Z",
-   "age_h": 5.7,
+   "age_h": 6.7,
    "status": "missed"
   },
   {
@@ -637,7 +637,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-23T03:59:01Z",
-   "age_h": 3.7,
+   "age_h": 4.7,
    "status": "missed"
   },
   {
@@ -646,7 +646,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T19:32:16Z",
-   "age_h": 12.1,
+   "age_h": 13.1,
    "status": "ok"
   },
   {
@@ -655,7 +655,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-22T20:28:52Z",
-   "age_h": 11.2,
+   "age_h": 12.2,
    "status": "ok"
   },
   {
@@ -663,9 +663,9 @@
    "file": "grade-bim-board.yml",
    "expected_every_h": 2,
    "max_gap_h": 6,
-   "last_scheduled_run_utc": "2026-11-22T23:43:59Z",
-   "age_h": 7.9,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-23T07:59:34Z",
+   "age_h": 0.6,
+   "status": "ok"
   },
   {
    "workflow": "NCAAF Injury Pull",
@@ -674,7 +674,7 @@
    "max_gap_h": 26,
    "note": "Sun-Tue schedule is once a day",
    "last_scheduled_run_utc": "2026-11-22T19:55:04Z",
-   "age_h": 11.7,
+   "age_h": 12.7,
    "status": "ok"
   }
  ],

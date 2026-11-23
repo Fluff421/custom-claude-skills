@@ -154,7 +154,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | LSU @ Arkansas | moneyline | Arkansas ML +410 | 18% | -1.8% | No Play | 0 |
 | Jacksonville State @ Delaware | spread | Jacksonville State +2.5 (spread) | 50% |  | No Play | 0 |
 | Jacksonville State @ Delaware | total | Under 57.5 | 51% | +0.9 pts | No Play | 0 |
-| Jacksonville State @ Delaware | moneyline | Delaware ML -135 | 56% | -1.6% | No Play | 0 |
+| Jacksonville State @ Delaware | moneyline | Jacksonville State ML +120 | 44% | -1.3% | No Play | 0 |
 | Sam Houston @ Florida International | spread | Sam Houston +11.5 (spread) | 50% |  | No Play | 0 |
 | Sam Houston @ Florida International | total | Over 41.5 | 51% | +0.5 pts | No Play | 0 |
 | Sam Houston @ Florida International | moneyline | Sam Houston ML +350 | 22% | +0.1% | No Play | 0 |
@@ -277,7 +277,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -222 | 68% | -0.6% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -294 | 74% | -0.2% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -296 | 74% | -0.3% | No Play | 0 |
 
 ### NFL Best parlays
 
