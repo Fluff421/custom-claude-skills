@@ -4196,3 +4196,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-23T18:39:12+00:00,recp6o8WFsUDhjzQh,401873090,NFL,Tennessee Titans @ Jacksonville Jaguars,2026-11-29,Draft Kings,14.5,47.5,-1200,750,-104.0,-116.0,-114.0,-105.0,5.5
 2026-11-23T18:39:12+00:00,recpWuCwcuU2Pg8La,401856764,NCAAF,South Carolina @ Clemson,2026-11-27,Draft Kings,-5.5,41.5,180,-218,-115.0,-105.0,-102.0,-118.0,3.0
 2026-11-23T18:39:12+00:00,recrQkOwpkcIisvRE,401873088,NFL,New York Giants @ Indianapolis Colts,2026-11-29,Draft Kings,-6.5,41.5,264,-327,-104.0,-115.0,-110.0,-109.0,2.5
+2026-11-23T19:39:43+00:00,rec4Web9ICQsB7yvV,401862838,NCAAF,Temple @ Memphis,2026-11-27,Draft Kings,17.5,66.5,-950,625,-108.0,-112.0,-105.0,-115.0,17.5
+2026-11-23T19:39:43+00:00,recQZBRb7qqoprKCI,401860929,NCAAF,San Diego State @ Washington State,2026-11-28,Draft Kings,2.5,45.5,-142,120,-115.0,-105.0,-110.0,-110.0,-3.0
+2026-11-23T19:39:43+00:00,recYI3vKDIRLV1sOY,401873082,NFL,Kansas City Chiefs @ Buffalo Bills,2026-11-26,Draft Kings,3.0,49.5,-150,127,101.0,-121.0,-116.0,-103.0,2.5
+2026-11-23T19:39:43+00:00,recj8prfk94D0f9lD,401873081,NFL,Chicago Bears @ Detroit Lions,2026-11-26,Draft Kings,-2.5,55.5,124,-147,-106.0,-114.0,-110.0,-110.0,2.5
+2026-11-23T19:39:43+00:00,recoHyXNZKiCt1JKW,401861969,NCAAF,UConn @ Wyoming,2026-11-28,Draft Kings,-3.0,47.5,130,-155,-105.0,-115.0,-112.0,-108.0,-2.5
+2026-11-23T19:39:43+00:00,recqBYQtgOqKcZGei,401862837,NCAAF,Florida Atlantic @ East Carolina,2026-11-28,Draft Kings,1.5,55.5,-115,-105,-102.0,-118.0,-110.0,-110.0,2.5
+2026-11-23T19:39:43+00:00,recsVO5HX7FZ2SCOb,401860927,NCAAF,Oregon State @ Fresno State,2026-11-28,Draft Kings,3.0,56.5,-155,130,-115.0,-105.0,-115.0,-105.0,1.5
+2026-11-23T19:39:43+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,Draft Kings,8.5,47.5,-453,352,-110.0,-110.0,-116.0,-103.0,1.5
+2026-11-23T19:39:43+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,54.5,245,-301,100.0,-120.0,-112.0,-107.0,-1.5
