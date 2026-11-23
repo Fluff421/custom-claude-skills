@@ -112,7 +112,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Purdue @ Indiana | moneyline | Indiana ML -1800 | 94% | -1.1% | No Play | 0 |
 | Michigan @ Ohio State | spread | Ohio State -12.5 (spread) | 52% |  | No Play | 0 |
 | Michigan @ Ohio State | total | Over 38.5 | 52% | +1.7 pts | No Play | 0 |
-| Michigan @ Ohio State | moneyline | Michigan ML +310 | 23% | -1.4% | No Play | 0 |
+| Michigan @ Ohio State | moneyline | Michigan ML +310 | 24% | -0.5% | No Play | 0 |
 | Texas State @ Utah State | spread | Utah State +7.5 (spread) | 50% |  | No Play | 0 |
 | Texas State @ Utah State | total | Over 52.5 | 51% | +0.6 pts | No Play | 0 |
 | Texas State @ Utah State | moneyline | Utah State ML +230 | 32% | +1.6% | No Play | 0 |
@@ -180,7 +180,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Illinois @ Northwestern | total | Under 49.5 | 51% | +0.5 pts | No Play | 0 |
 | Illinois @ Northwestern | moneyline | Northwestern ML -148 | 60% | -0.1% | No Play | 0 |
 | Auburn @ Alabama | spread | Alabama -15.5 (spread) | 51% |  | No Play | 0 |
-| Auburn @ Alabama | total | Over 49.5 | 52% | +1.4 pts | No Play | 0 |
+| Auburn @ Alabama | total | Over 48.5 | 52% | +1.6 pts | No Play | 0 |
 | Auburn @ Alabama | moneyline | Auburn ML +550 | 13% | -2.0% | No Play | 0 |
 | Florida Atlantic @ East Carolina | spread | East Carolina -2.5 (spread) | 51% |  | No Play | 0 |
 | Florida Atlantic @ East Carolina | total | Over 55.5 | 50% | +0.4 pts | No Play | 0 |
@@ -237,14 +237,14 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 50% | +0.0 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 64% | +3.2% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | total | Over 39.5 | 51% | +0.3 pts | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | total | Over 38.5 | 53% | +0.6 pts | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -152 | 60% | +0.2% | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 46.5 | 51% | +0.1 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -167 | 65% | +2.1% | No Play | 0 |
 | New England Patriots @ Los Angeles Chargers | spread | Los Angeles Chargers -4.5 (spread) | 50% |  | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 36.5 | 61% | +2.4 pts | Lean | 0.5 |
-| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -119 | 61% | +6.3% | Strong Play | 1 |
+| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -120 | 61% | +6.1% | Strong Play | 1 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 51.5 | 53% | +0.7 pts | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -610 | 88% | +2.2% | No Play | 0 |
@@ -265,7 +265,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1180 | 99% | +7.0% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 42.5 | 52% | +0.4 pts | No Play | 0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -313 | 82% | +6.5% | Strong Play | 1 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -305 | 82% | +7.0% | Strong Play | 1 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +244 | 35% | +5.9% | Lean | 0.5 |
@@ -277,11 +277,11 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -222 | 68% | -0.6% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -293 | 74% | -0.1% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -294 | 74% | -0.2% | No Play | 0 |
 
 ### NFL Best parlays
 
-- Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -313: model 54.7%, needs +169 to break even (reference payout +169), edge +17.5%, Max Play
+- Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -305: model 54.7%, needs +170 to break even (reference payout +170), edge +17.7%, Max Play
 - Under 50.5 + Jacksonville Jaguars ML -1180: model 66.5%, needs +104 to break even (reference payout +104), edge +17.3%, Max Play
 - Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1180: model 53.5%, needs +177 to break even (reference payout +177), edge +17.3%, Max Play
 - Under 50.5 + Jacksonville Jaguars ML -1180 + Under 54.5: model 41.1%, needs +301 to break even (reference payout +301), edge +16.2%, Max Play
