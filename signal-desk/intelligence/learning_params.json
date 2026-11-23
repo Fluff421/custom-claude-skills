@@ -65,32 +65,32 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-22T20:10:17.000Z"
+   "updated": "2026-11-23T12:48:55.000Z"
   },
   "NFL": {
    "forward": {
-    "corr": null,
-    "lo90": null,
-    "n": 1,
+    "corr": -0.118,
+    "lo90": -0.583,
+    "n": 12,
     "ready": false
    },
    "gate": {
     "Lean": {
-     "mean": 0.4,
-     "n": 25,
-     "se": 0.18,
+     "mean": 0.5,
+     "n": 29,
+     "se": 0.17,
      "status": "earned"
     },
     "Max Play": {
-     "mean": 0.25,
-     "n": 2,
-     "se": 0.75,
+     "mean": 0.5,
+     "n": 3,
+     "se": 0.5,
      "status": "unproven"
     },
     "Strong Play": {
-     "mean": -0.5,
-     "n": 7,
-     "se": 0.408,
+     "mean": -0.65,
+     "n": 10,
+     "se": 0.388,
      "status": "unproven"
     }
    },
@@ -132,7 +132,7 @@
      "weather": 0.0
     }
    },
-   "updated": "2026-11-22T20:10:17.000Z"
+   "updated": "2026-11-23T12:48:55.000Z"
   }
  },
  "report_cards": {
@@ -251,29 +251,29 @@
     "wins": 55
    },
    "unknown": 0,
-   "updated": "2026-11-22T20:10:17.000Z"
+   "updated": "2026-11-23T12:48:55.000Z"
   },
   "NFL": {
    "espn": {
-    "brier": 0.2611,
+    "brier": 0.2556,
     "calibration": [
      {
-      "actual": 0.2,
+      "actual": 0.4,
       "bucket": "50%-55%",
-      "n": 5,
-      "pred": 0.533
+      "n": 10,
+      "pred": 0.53
      },
      {
-      "actual": 0.625,
+      "actual": 0.583,
       "bucket": "55%-60%",
-      "n": 8,
-      "pred": 0.58
+      "n": 12,
+      "pred": 0.579
      },
      {
-      "actual": 1.0,
+      "actual": 0.667,
       "bucket": "60%-65%",
-      "n": 1,
-      "pred": 0.605
+      "n": 3,
+      "pred": 0.614
      },
      {
       "actual": 0.0,
@@ -282,50 +282,50 @@
       "pred": 0.695
      }
     ],
-    "clv_mean": 0.0,
-    "clv_n": 15,
-    "clv_se": 0.213,
-    "hit_rate": 0.467,
-    "log_loss": 0.7169,
-    "losses": 8,
-    "n": 15,
-    "n_prob": 15,
+    "clv_mean": 0.25,
+    "clv_n": 26,
+    "clv_se": 0.234,
+    "hit_rate": 0.5,
+    "log_loss": 0.7052,
+    "losses": 13,
+    "n": 26,
+    "n_prob": 26,
     "pushes": 0,
     "tiers": {
      "Lean": {
-      "clv_mean": 0.25,
-      "clv_n": 8,
-      "clv_se": 0.164,
-      "losses": 4,
-      "n": 8,
-      "wins": 4
+      "clv_mean": 0.542,
+      "clv_n": 12,
+      "clv_se": 0.208,
+      "losses": 6,
+      "n": 12,
+      "wins": 6
      },
      "Max Play": {
       "clv_mean": 1.0,
-      "clv_n": 1,
-      "clv_se": null,
-      "losses": 1,
-      "n": 1,
-      "wins": 0
-     },
-     "No Play": {
-      "clv_mean": 0.0,
       "clv_n": 2,
       "clv_se": 0.0,
       "losses": 1,
       "n": 2,
       "wins": 1
      },
-     "Strong Play": {
-      "clv_mean": -0.75,
-      "clv_n": 4,
-      "clv_se": 0.595,
+     "No Play": {
+      "clv_mean": 0.8,
+      "clv_n": 5,
+      "clv_se": 0.604,
       "losses": 2,
-      "n": 4,
-      "wins": 2
+      "n": 5,
+      "wins": 3
+     },
+     "Strong Play": {
+      "clv_mean": -0.857,
+      "clv_n": 7,
+      "clv_se": 0.497,
+      "losses": 4,
+      "n": 7,
+      "wins": 3
      }
     },
-    "wins": 7
+    "wins": 13
    },
    "learn_mode": "all",
    "splash": {
@@ -402,7 +402,7 @@
     "wins": 16
    },
    "unknown": 0,
-   "updated": "2026-11-22T20:10:17.000Z"
+   "updated": "2026-11-23T12:48:55.000Z"
   }
  },
  "sigma": {
@@ -439,7 +439,7 @@
    },
    "sigma": 15.01,
    "target": 15.01,
-   "updated": "2026-11-22T20:10:17.000Z"
+   "updated": "2026-11-23T12:48:55.000Z"
   },
   "NFL": {
    "n_eff": 689.8,
@@ -474,7 +474,7 @@
    },
    "sigma": 12.38,
    "target": 12.38,
-   "updated": "2026-11-22T20:10:17.000Z"
+   "updated": "2026-11-23T12:48:55.000Z"
   }
  }
 }
