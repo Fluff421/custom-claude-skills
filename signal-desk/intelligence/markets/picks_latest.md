@@ -238,7 +238,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 66% | +4.5% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 38.5 | 53% | +0.6 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -152 | 61% | +0.9% | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -150 | 61% | +1.2% | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 47.5 | 52% | +0.5 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -169 | 66% | +2.9% | No Play | 0 |
@@ -250,7 +250,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -610 | 88% | +2.1% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 67% | +3.8 pts | Strong Play | 1 |
-| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -155 | 62% | +0.8% | No Play | 0 |
+| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -153 | 62% | +1.1% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 60% | +2.3 pts | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +124 | 45% | +0.5% | No Play | 0 |
@@ -259,7 +259,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -205 | 66% | -1.2% | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | spread | Houston Texans -6.5 (spread) | 59% |  | Strong Play | 1 |
 | Baltimore Ravens @ Houston Texans | total | Over 46.5 | 51% | +0.1 pts | No Play | 0 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -278 | 80% | +6.8% | Strong Play | 1 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -279 | 80% | +6.7% | Strong Play | 1 |
 | Tennessee Titans @ Jacksonville Jaguars | spread | Tennessee Titans +14.5 (spread) | 53% |  | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | total | Under 47.5 | 53% | +0.6 pts | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1180 | 99% | +6.7% | Strong Play | 1 |
@@ -268,24 +268,24 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -305 | 81% | +5.9% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +244 | 33% | +4.2% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +240 | 33% | +3.8% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 51% | +0.2 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -411 | 85% | +4.3% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -449 | 85% | +3.0% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | +1.9 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -222 | 69% | +0.1% | No Play | 0 |
 | Cincinnati Bengals @ Washington Commanders | spread | Cincinnati Bengals -4.5 (spread) | 55% |  | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | +2.6 pts | Lean | 0.5 |
-| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -296 | 74% | -0.8% | No Play | 0 |
+| Cincinnati Bengals @ Washington Commanders | moneyline | Cincinnati Bengals ML -302 | 74% | -1.2% | No Play | 0 |
 
 ### NFL Best parlays
 
-- Under 50.5 + Jacksonville Jaguars ML -1180: model 66.2%, needs +104 to break even (reference payout +104), edge +17.1%, Max Play
-- Under 50.5 + Houston Texans ML -278 + Jacksonville Jaguars ML -1180: model 53.1%, needs +177 to break even (reference payout +177), edge +17.0%, Max Play
-- Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -305: model 53.7%, needs +170 to break even (reference payout +170), edge +16.8%, Max Play
-- Under 50.5 + Jacksonville Jaguars ML -1180 + Dallas Cowboys ML -411: model 56.1%, needs +153 to break even (reference payout +153), edge +16.6%, Max Play
-- Under 50.5 + Jacksonville Jaguars ML -1180 + Under 54.5: model 40.9%, needs +301 to break even (reference payout +301), edge +16.0%, Max Play
+- Under 50.5 + Jacksonville Jaguars ML -1180: model 66.2%, needs +105 to break even (reference payout +105), edge +17.5%, Max Play
+- Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1180: model 53.1%, needs +179 to break even (reference payout +179), edge +17.3%, Max Play
+- Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -305: model 53.7%, needs +173 to break even (reference payout +173), edge +17.1%, Max Play
+- Under 50.5 + Jacksonville Jaguars ML -1180 + Under 54.5: model 40.9%, needs +307 to break even (reference payout +307), edge +16.3%, Max Play
+- Over 36.5 + Under 50.5 + Jacksonville Jaguars ML -1180: model 40.4%, needs +301 to break even (reference payout +301), edge +15.4%, Max Play
 
 ### NFL Best 6-point teasers
 
