@@ -1,12 +1,12 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-23T00:38:32.785766+00:00",
+ "generated_at": "2026-11-23T01:38:18.976827+00:00",
  "nfl_week": 8,
  "ncaaf_week": 9,
  "ledger": {
   "ats": {
-   "hits": 142,
-   "misses": 151,
+   "hits": 143,
+   "misses": 152,
    "pushes": 3
   },
   "ml": {
@@ -28,10 +28,10 @@
    "avg_clv": 0.17
   },
   "Lean": {
-   "hits": 30,
+   "hits": 31,
    "misses": 34,
    "pushes": 0,
-   "avg_clv": 0.22
+   "avg_clv": 0.24
   },
   "Max Play": {
    "hits": 6,
@@ -41,11 +41,11 @@
   },
   "Strong Play": {
    "hits": 8,
-   "misses": 12,
+   "misses": 13,
    "pushes": 0,
-   "avg_clv": 0.42
+   "avg_clv": 0.4
   }
  },
- "graded_picks": 299,
+ "graded_picks": 301,
  "notes": "Generated from Airtable by signal-desk/snapshot.py. Ensemble weight 0."
 }
