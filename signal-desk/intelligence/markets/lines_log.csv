@@ -3978,3 +3978,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-23T10:39:19+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,Draft Kings,8.5,47.5,-449,350,-110.0,-110.0,-112.0,-107.0,1.5
 2026-11-23T10:39:19+00:00,rectT8K8SSMh3vu1v,401873086,NFL,Las Vegas Raiders @ Cleveland Browns,2026-11-29,Draft Kings,4.5,40.5,-222,184,-107.0,-112.0,-115.0,-104.0,2.5
 2026-11-23T10:39:19+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,Draft Kings,-6.0,54.5,246,-302,-107.0,-113.0,-117.0,-102.0,-1.5
+2026-11-23T11:39:00+00:00,recINC1G7YF2TAj8g,401869947,NCAAF,Coastal Carolina @ James Madison,2026-11-28,DraftKings,15.5,55.5,-750,525,-110.0,-110.0,-115.0,-105.0,13.5
+2026-11-23T11:39:00+00:00,recKR9lPGcmgm0f3w,401873083,NFL,Denver Broncos @ Pittsburgh Steelers,2026-11-27,DraftKings,-3.0,37.5,127,-150,-115.0,-104.0,-115.0,-104.0,-1.5
+2026-11-23T11:39:00+00:00,recX5Fp7OR3tgHxsp,401858540,NCAAF,Michigan @ Ohio State,2026-11-28,DraftKings,10.0,38.5,-395,310,-108.0,-112.0,-105.0,-115.0,14.0
+2026-11-23T11:39:00+00:00,reci6ArluN5swsOID,401866473,NCAAF,Toledo @ Ohio,2026-11-27,DraftKings,-3.5,49.5,150,-180,-108.0,-112.0,-110.0,-110.0,-4.5
+2026-11-23T11:39:00+00:00,recmjf2RKfSznZlz2,401873089,NFL,New York Jets @ Miami Dolphins,2026-11-29,DraftKings,-3.5,41.5,184,-222,-107.0,-112.0,-107.0,-112.0,1.5
+2026-11-23T11:39:00+00:00,recp6o8WFsUDhjzQh,401873090,NFL,Tennessee Titans @ Jacksonville Jaguars,2026-11-29,DraftKings,14.5,47.5,-1160,730,-107.0,-112.0,-114.0,-105.0,5.5
+2026-11-23T11:39:00+00:00,recrQkOwpkcIisvRE,401873088,NFL,New York Giants @ Indianapolis Colts,2026-11-29,DraftKings,-6.5,41.5,257,-318,-104.0,-115.0,-110.0,-109.0,2.5
+2026-11-23T11:39:00+00:00,rectT8K8SSMh3vu1v,401873086,NFL,Las Vegas Raiders @ Cleveland Browns,2026-11-29,DraftKings,4.5,40.5,-222,184,-105.0,-114.0,-115.0,-104.0,2.5
+2026-11-23T11:39:00+00:00,recvStneVWJBEWYU3,401873078,NFL,Cincinnati Bengals @ Washington Commanders,2026-11-23,DraftKings,-6.0,54.5,246,-302,-107.0,-113.0,-111.0,-108.0,-1.5

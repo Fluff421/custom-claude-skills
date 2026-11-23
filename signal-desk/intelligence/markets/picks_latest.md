@@ -63,7 +63,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Louisiana @ Georgia State | total | Under 56.5 | 50% | +0.0 pts | No Play | 0 |
 | Louisiana @ Georgia State | moneyline | Georgia State ML +180 | 36% | +0.7% | No Play | 0 |
 | Coastal Carolina @ James Madison | spread | James Madison -15.5 (spread) | 51% |  | No Play | 0 |
-| Coastal Carolina @ James Madison | total | Under 56.5 | 50% | +0.3 pts | No Play | 0 |
+| Coastal Carolina @ James Madison | total | Over 55.5 | 50% | +0.0 pts | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | Coastal Carolina ML +525 | 15% | -1.3% | No Play | 0 |
 | Tulsa @ UTSA | spread | Tulsa +2.5 (spread) | 51% |  | No Play | 0 |
 | Tulsa @ UTSA | total | Under 58.5 | 50% | +0.3 pts | No Play | 0 |
@@ -112,7 +112,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Purdue @ Indiana | moneyline | Indiana ML -1800 | 94% | -1.1% | No Play | 0 |
 | Michigan @ Ohio State | spread | Ohio State -12.5 (spread) | 52% |  | No Play | 0 |
 | Michigan @ Ohio State | total | Over 38.5 | 52% | +1.7 pts | No Play | 0 |
-| Michigan @ Ohio State | moneyline | Michigan ML +310 | 24% | -0.5% | No Play | 0 |
+| Michigan @ Ohio State | moneyline | Michigan ML +310 | 23% | -1.4% | No Play | 0 |
 | Texas State @ Utah State | spread | Utah State +7.5 (spread) | 50% |  | No Play | 0 |
 | Texas State @ Utah State | total | Over 52.5 | 51% | +0.6 pts | No Play | 0 |
 | Texas State @ Utah State | moneyline | Utah State ML +230 | 32% | +1.6% | No Play | 0 |
@@ -160,7 +160,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Sam Houston @ Florida International | moneyline | Sam Houston ML +350 | 22% | +0.1% | No Play | 0 |
 | Toledo @ Ohio | spread | Ohio +4.5 (spread) | 50% |  | No Play | 0 |
 | Toledo @ Ohio | total | Over 49.5 | 50% | +0.3 pts | No Play | 0 |
-| Toledo @ Ohio | moneyline | Ohio ML +154 | 40% | +1.0% | No Play | 0 |
+| Toledo @ Ohio | moneyline | Ohio ML +150 | 40% | +0.4% | No Play | 0 |
 | UAB @ North Texas | spread | North Texas -4.5 (spread) | 50% |  | Lean | 0.5 |
 | UAB @ North Texas | total | Over 47.5 | 54% | +3.0 pts | Lean | 0.5 |
 | UAB @ North Texas | moneyline | North Texas ML -166 | 64% | +1.1% | No Play | 0 |
@@ -237,7 +237,7 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 50% | +0.0 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 66% | +4.5% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | total | Over 38.5 | 53% | +0.6 pts | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | total | Over 37.5 | 54% | +0.9 pts | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -150 | 61% | +1.2% | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 47.5 | 52% | +0.5 pts | No Play | 0 |
@@ -256,19 +256,19 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 | Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +124 | 45% | +0.5% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 41.5 | 53% | +0.6 pts | No Play | 0 |
-| New York Jets @ Miami Dolphins | moneyline | New York Jets ML -205 | 66% | -1.2% | No Play | 0 |
+| New York Jets @ Miami Dolphins | moneyline | Miami Dolphins ML +184 | 34% | -1.2% | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | spread | Houston Texans -6.5 (spread) | 59% |  | Strong Play | 1 |
 | Baltimore Ravens @ Houston Texans | total | Over 46.5 | 51% | +0.1 pts | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -279 | 80% | +6.7% | Strong Play | 1 |
 | Tennessee Titans @ Jacksonville Jaguars | spread | Tennessee Titans +14.5 (spread) | 53% |  | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | total | Under 47.5 | 53% | +0.6 pts | No Play | 0 |
-| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1180 | 99% | +6.7% | Strong Play | 1 |
+| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | +6.8% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 42.5 | 52% | +0.4 pts | No Play | 0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -305 | 81% | +5.9% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +240 | 33% | +3.8% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +257 | 33% | +5.2% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 51% | +0.2 pts | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -449 | 85% | +3.0% | No Play | 0 |
@@ -281,11 +281,11 @@ Markets not yet posted (no pick until a line is listed): Buffalo @ Akron (2026-1
 
 ### NFL Best parlays
 
-- Under 50.5 + Jacksonville Jaguars ML -1180: model 66.2%, needs +105 to break even (reference payout +105), edge +17.5%, Max Play
-- Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1180: model 53.1%, needs +179 to break even (reference payout +179), edge +17.3%, Max Play
-- Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -305: model 53.7%, needs +173 to break even (reference payout +173), edge +17.1%, Max Play
-- Under 50.5 + Jacksonville Jaguars ML -1180 + Under 54.5: model 40.9%, needs +307 to break even (reference payout +307), edge +16.3%, Max Play
-- Over 36.5 + Under 50.5 + Jacksonville Jaguars ML -1180: model 40.4%, needs +301 to break even (reference payout +301), edge +15.4%, Max Play
+- Under 50.5 + Jacksonville Jaguars ML -1160: model 66.2%, needs +106 to break even (reference payout +106), edge +17.6%, Max Play
+- Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1160: model 53.1%, needs +179 to break even (reference payout +179), edge +17.3%, Max Play
+- Under 50.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -305: model 53.7%, needs +173 to break even (reference payout +173), edge +17.1%, Max Play
+- Under 50.5 + Jacksonville Jaguars ML -1160 + Under 54.5: model 40.9%, needs +296 to break even (reference payout +296), edge +15.7%, Max Play
+- Over 36.5 + Under 50.5 + Jacksonville Jaguars ML -1160: model 40.4%, needs +301 to break even (reference payout +301), edge +15.5%, Max Play
 
 ### NFL Best 6-point teasers
 
