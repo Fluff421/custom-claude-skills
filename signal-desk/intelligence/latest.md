@@ -1,4 +1,4 @@
-# Signal Desk intelligence report, 2026-11-22
+# Signal Desk intelligence report, 2026-11-23
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
@@ -151,7 +151,7 @@ By size of base edge:
 
 ## Data gaps right now
 
-- 85 of 85 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Mississippi State @ Ole Miss; Oklahoma @ Missouri; North Dakota State @ San José State; Arizona State @ Arizona; Temple @ Memphis; Southern Miss @ Old Dominion; Washington Commanders @ Arizona Cardinals
+- 86 of 86 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Mississippi State @ Ole Miss; Oklahoma @ Missouri; North Dakota State @ San José State; Arizona State @ Arizona; Temple @ Memphis; Southern Miss @ Old Dominion; Washington Commanders @ Arizona Cardinals
 - NCAAF quarterback checks cover 0 of 69 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
@@ -161,8 +161,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -145 | 65% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 64% | Lean | 0.5 |
 | San Diego State @ Washington State | total | Over 45.5 | 53% | Lean | 0.5 |
-| New England Patriots @ Los Angeles Chargers | total | Over 37.5 | 60% | Lean | 0.5 |
+| New England Patriots @ Los Angeles Chargers | total | Over 36.5 | 61% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -119 | 61% | Strong Play | 1.0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 50.5 | 67% | Strong Play | 1.0 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
@@ -172,7 +173,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1180 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -313 | 82% | Strong Play | 1.0 |
 | South Carolina @ Clemson | total | Over 40.5 | 53% | Lean | 0.5 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +246 | 35% | Strong Play | 1.0 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +244 | 35% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -411 | 84% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 59% | Lean | 0.5 |
 | Cincinnati Bengals @ Washington Commanders | total | Under 54.5 | 62% | Lean | 0.5 |
@@ -182,9 +183,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -313 | model 54.7%, needs +169 to break even, edge +17.5%, Max Play
 - NFL parlay: Under 50.5 + Jacksonville Jaguars ML -1180 | model 66.5%, needs +104 to break even, edge +17.3%, Max Play
 - NFL parlay: Under 50.5 + Houston Texans ML -279 + Jacksonville Jaguars ML -1180 | model 53.5%, needs +177 to break even, edge +17.3%, Max Play
+- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 36.5 -> 30.5 | model 53.9%, needs +160 to break even, edge +15.4%, Max Play
 - NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Under 55.5 -> 61.5 | model 53.6%, needs +160 to break even, edge +15.1%, Max Play
-- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 37.5 -> 31.5 | model 53.3%, needs +160 to break even, edge +14.8%, Max Play
-- NFL teaser: Under 50.5 -> 56.5 + Under 54.5 -> 60.5 + Over 40.5 -> 34.5 | model 52.9%, needs +160 to break even, edge +14.4%, Max Play
+- NFL teaser: Under 50.5 -> 56.5 + Over 36.5 -> 30.5 + Under 55.5 -> 61.5 | model 53.2%, needs +160 to break even, edge +14.8%, Max Play
 
 ## Results and learning by market
 
