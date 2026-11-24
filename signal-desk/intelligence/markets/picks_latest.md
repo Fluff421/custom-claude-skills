@@ -68,7 +68,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Tulsa @ UTSA | moneyline | UTSA ML -118 | 53% | -0.8% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 40.5 | 53% | +2.1 pts | No Play | 0 |
-| Texas @ Texas A&M | moneyline | Texas A&M ML +350 | 24% | +1.3% | No Play | 0 |
+| Texas @ Texas A&M | moneyline | Texas A&M ML +350 | 22% | -0.4% | No Play | 0 |
 | Tennessee @ Vanderbilt | spread | Tennessee -13.5 (spread) | 51% |  | No Play | 0 |
 | Tennessee @ Vanderbilt | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
 | Tennessee @ Vanderbilt | moneyline | Vanderbilt ML +410 | 18% | -1.7% | No Play | 0 |
@@ -140,7 +140,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Navy @ Charlotte | moneyline | Charlotte ML +575 | 14% | -1.1% | No Play | 0 |
 | Liberty @ Missouri State | spread | Liberty -14.5 (spread) | 51% |  | No Play | 0 |
 | Liberty @ Missouri State | total | Under 52.5 | 50% | +0.3 pts | No Play | 0 |
-| Liberty @ Missouri State | moneyline | Liberty ML -750 | 87% | -1.5% | No Play | 0 |
+| Liberty @ Missouri State | moneyline | Missouri State ML +550 | 13% | -2.1% | No Play | 0 |
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
 | USC @ UCLA | total | Over 45.5 | 52% | +1.8 pts | No Play | 0 |
 | USC @ UCLA | moneyline | UCLA ML +215 | 35% | +3.1% | Lean | 0.5 |
@@ -151,7 +151,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | LSU @ Arkansas | total | Over 49.5 | 51% | +0.4 pts | No Play | 0 |
 | LSU @ Arkansas | moneyline | Arkansas ML +455 | 16% | -1.8% | No Play | 0 |
 | Jacksonville State @ Delaware | spread | Jacksonville State +2.5 (spread) | 50% |  | No Play | 0 |
-| Jacksonville State @ Delaware | total | Under 57.5 | 51% | +0.9 pts | No Play | 0 |
+| Jacksonville State @ Delaware | total | Under 58.5 | 52% | +1.2 pts | No Play | 0 |
 | Jacksonville State @ Delaware | moneyline | Jacksonville State ML +120 | 44% | -1.3% | No Play | 0 |
 | Sam Houston @ Florida International | spread | Sam Houston +11.5 (spread) | 50% |  | No Play | 0 |
 | Sam Houston @ Florida International | total | Over 41.5 | 51% | +0.5 pts | No Play | 0 |
@@ -172,7 +172,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Sacramento State @ Hawai'i | total | Over 39.5 | 52% | +1.9 pts | No Play | 0 |
 | Sacramento State @ Hawai'i | moneyline | Hawai'i ML -600 | 84% | -1.4% | No Play | 0 |
 | South Carolina @ Clemson | spread | Clemson +3.5 (spread) | 50% |  | No Play | 0 |
-| South Carolina @ Clemson | total | Over 40.5 | 52% | +1.8 pts | No Play | 0 |
+| South Carolina @ Clemson | total | Over 41.5 | 52% | +1.5 pts | No Play | 0 |
 | South Carolina @ Clemson | moneyline | Clemson ML +180 | 37% | +1.4% | No Play | 0 |
 | Illinois @ Northwestern | spread | Northwestern -4.5 (spread) | 51% |  | No Play | 0 |
 | Illinois @ Northwestern | total | Under 49.5 | 52% | +1.7 pts | No Play | 0 |
@@ -231,7 +231,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +316 | 27% | +2.7% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Over 43.5 | 51% | +0.2 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -135 | 63% | +5.9% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -134 | 63% | +6.1% | Strong Play | 1 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 66% | +4.8% | Lean | 0.5 |
