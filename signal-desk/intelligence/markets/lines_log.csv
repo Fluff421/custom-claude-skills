@@ -4526,3 +4526,7 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-24T23:02:30+00:00,recpPhCO8j33Igo8i,401873084,NFL,Atlanta Falcons @ Minnesota Vikings,2026-11-29,Draft Kings,7.0,41.5,-344,276,100.0,-120.0,-113.0,-107.0,4.5
 2026-11-24T23:02:30+00:00,recpWuCwcuU2Pg8La,401856764,NCAAF,South Carolina @ Clemson,2026-11-27,Draft Kings,-6.0,41.5,190,-230,-110.0,-110.0,-112.0,-108.0,3.0
 2026-11-24T23:02:30+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,Draft Kings,8.5,47.5,-470,364,-111.0,-108.0,-115.0,-105.0,1.5
+2026-11-24T23:04:13+00:00,recARpp2Fn9mM1OKK,401856880,NCAAF,West Virginia @ Utah,2026-11-27,DraftKings,25.5,68.5,-2400,1200,-105.0,-115.0,-108.0,-112.0,20.5
+2026-11-24T23:04:13+00:00,recKR9lPGcmgm0f3w,401873083,NFL,Denver Broncos @ Pittsburgh Steelers,2026-11-27,DraftKings,-3.0,37.5,132,-157,-117.0,-102.0,-115.0,-104.0,-1.5
+2026-11-24T23:04:13+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,DraftKings,8.5,47.5,-470,363,-111.0,-108.0,-115.0,-105.0,1.5
+2026-11-24T23:04:13+00:00,rectT8K8SSMh3vu1v,401873086,NFL,Las Vegas Raiders @ Cleveland Browns,2026-11-29,DraftKings,4.5,40.5,-217,181,-105.0,-114.0,-111.0,-108.0,2.5
