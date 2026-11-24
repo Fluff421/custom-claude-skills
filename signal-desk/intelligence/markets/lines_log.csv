@@ -4412,3 +4412,13 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-24T15:39:06+00:00,reco8reR66QV5gqyN,401873085,NFL,Baltimore Ravens @ Houston Texans,2026-11-29,Draft Kings,6.5,46.5,-305,247,-115.0,-104.0,-110.0,-109.0,1.5
 2026-11-24T15:39:06+00:00,recpWuCwcuU2Pg8La,401856764,NCAAF,South Carolina @ Clemson,2026-11-27,Draft Kings,-5.5,41.5,180,-218,-110.0,-110.0,-112.0,-108.0,3.0
 2026-11-24T15:39:06+00:00,recrQkOwpkcIisvRE,401873088,NFL,New York Giants @ Indianapolis Colts,2026-11-29,Draft Kings,-6.5,41.5,259,-320,-104.0,-115.0,-110.0,-109.0,2.5
+2026-11-24T16:39:23+00:00,recKR9lPGcmgm0f3w,401873083,NFL,Denver Broncos @ Pittsburgh Steelers,2026-11-27,DraftKings,-3.0,38.5,131,-156,-115.0,-104.0,-105.0,-115.0,-1.5
+2026-11-24T16:39:23+00:00,recULGfBuf1xWHK45,401873087,NFL,New Orleans Saints @ Cincinnati Bengals,2026-11-29,DraftKings,9.5,50.5,-600,446,-114.0,-105.0,-107.0,-112.0,6.5
+2026-11-24T16:39:23+00:00,recYI3vKDIRLV1sOY,401873082,NFL,Kansas City Chiefs @ Buffalo Bills,2026-11-26,DraftKings,3.0,47.5,-150,126,100.0,-120.0,-107.0,-112.0,2.5
+2026-11-24T16:39:23+00:00,reca5h45buJ974Zo1,401856874,NCAAF,Baylor @ Houston,2026-11-28,DraftKings,4.5,55.5,-198,164,-112.0,-108.0,-112.0,-108.0,4.5
+2026-11-24T16:39:23+00:00,recdkLxR3vV2KYMZ5,401862842,NCAAF,Navy @ Charlotte,2026-11-28,DraftKings,-16.5,55.5,575,-850,-105.0,-115.0,-102.0,-118.0,-16.5
+2026-11-24T16:39:23+00:00,recexe8wPVSC7sMHP,401858543,NCAAF,USC @ UCLA,2026-11-28,DraftKings,-7.0,45.5,215,-265,-110.0,-110.0,-112.0,-108.0,-11.5
+2026-11-24T16:39:23+00:00,recp6o8WFsUDhjzQh,401873090,NFL,Tennessee Titans @ Jacksonville Jaguars,2026-11-29,DraftKings,14.5,47.5,-1240,760,-104.0,-116.0,-114.0,-105.0,5.5
+2026-11-24T16:39:23+00:00,recpE0UozQGzp9WeB,401864547,NCAAF,Sacramento State @ Hawai'i,2026-11-28,DraftKings,13.5,39.5,-600,440,-115.0,-105.0,-112.0,-108.0,14.5
+2026-11-24T16:39:23+00:00,recrI4L4xg2U92x5o,401866471,NCAAF,Miami (OH) @ Western Michigan,2026-11-24,DraftKings,6.5,45.5,-258,210,-105.0,-115.0,-108.0,-112.0,7.5
+2026-11-24T16:39:23+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,DraftKings,8.5,47.5,-468,363,-111.0,-108.0,-115.0,-105.0,1.5

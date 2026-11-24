@@ -170,7 +170,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | UConn @ Wyoming | moneyline | Wyoming ML +130 | 42% | -1.8% | No Play | 0 |
 | Sacramento State @ Hawai'i | spread | Hawai'i -13.5 (spread) | 50% |  | Lean | 0.5 |
 | Sacramento State @ Hawai'i | total | Over 39.5 | 52% | +1.9 pts | No Play | 0 |
-| Sacramento State @ Hawai'i | moneyline | Hawai'i ML -600 | 84% | -1.4% | No Play | 0 |
+| Sacramento State @ Hawai'i | moneyline | Sacramento State ML +440 | 16% | -2.1% | No Play | 0 |
 | South Carolina @ Clemson | spread | Clemson +3.5 (spread) | 50% |  | No Play | 0 |
 | South Carolina @ Clemson | total | Over 41.5 | 53% | +2.4 pts | No Play | 0 |
 | South Carolina @ Clemson | moneyline | Clemson ML +180 | 37% | +1.4% | No Play | 0 |
@@ -188,7 +188,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Washington @ Oregon | moneyline | Washington ML +440 | 17% | -1.5% | No Play | 0 |
 | Miami (OH) @ Western Michigan | spread | Western Michigan -7.5 (spread) | 50% |  | No Play | 0 |
 | Miami (OH) @ Western Michigan | total | Over 45.5 | 51% | +1.1 pts | No Play | 0 |
-| Miami (OH) @ Western Michigan | moneyline | Miami (OH) ML +220 | 33% | +1.6% | No Play | 0 |
+| Miami (OH) @ Western Michigan | moneyline | Miami (OH) ML +210 | 33% | +0.6% | No Play | 0 |
 | Oregon State @ Fresno State | spread | Oregon State +2.5 (spread) | 51% |  | No Play | 0 |
 | Oregon State @ Fresno State | total | Over 56.5 | 51% | +0.7 pts | No Play | 0 |
 | Oregon State @ Fresno State | moneyline | Oregon State ML +130 | 43% | -0.4% | No Play | 0 |
@@ -246,7 +246,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -114 | 59% | +5.6% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 50.5 | 53% | +0.7 pts | No Play | 0 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -630 | 87% | +1.2% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -600 | 86% | +0.7% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 47.5 | 59% | +1.9 pts | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -150 | 62% | +1.6% | No Play | 0 |
@@ -270,7 +270,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +259 | 33% | +5.3% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 52% | +0.4 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -469 | 85% | +2.4% | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -468 | 85% | +2.5% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Under 41.5 | 50% | +0.1 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -220 | 69% | +0.3% | No Play | 0 |
