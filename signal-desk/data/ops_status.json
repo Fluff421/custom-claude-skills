@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-24T23:16:34Z",
+ "generated_at_utc": "2026-11-24T23:19:17Z",
  "generated_for_central_date": "2026-11-24",
  "graded_picks_csv_rows": 303,
  "ledger_health": {
@@ -539,6 +539,21 @@
    "file": "snapshot.yml",
    "runs": [
     {
+     "run_id": 45508528868,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45508528868",
+     "event": "schedule",
+     "created_at": "2026-11-24T23:16:24Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "mode": "LIVE",
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45504061839,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45504061839",
      "event": "schedule",
@@ -570,7 +585,7 @@
    ],
    "skipped_chains": [],
    "gate_skipped": [],
-   "latest_health": "warn"
+   "latest_health": "failed"
   },
   {
    "workflow": "BIM Grader",
@@ -617,7 +632,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-24T14:03:45Z",
-   "age_h": 9.2,
+   "age_h": 9.3,
    "status": "missed"
   },
   {
@@ -635,7 +650,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-24T23:15:20Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   },
   {
@@ -663,7 +678,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-24T06:16:09Z",
-   "age_h": 17.0,
+   "age_h": 17.1,
    "status": "ok"
   },
   {
