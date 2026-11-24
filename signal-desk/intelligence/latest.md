@@ -174,7 +174,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +260 | 33% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 54% | Lean | 0.5 |
 - NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +515 to break even, edge +2.4%, Lean
-- NCAAF parlay: UCLA ML +215 + Under 76.5 | model 18.7%, needs +507 to break even, edge +2.3%, Lean
+- NCAAF parlay: UCLA ML +215 + Under 76.5 | model 18.7%, needs +507 to break even, edge +2.2%, Lean
 - NCAAF parlay: Over 37.5 + Under 76.5 | model 28.7%, needs +276 to break even, edge +2.1%, Lean
 - NFL parlay: Over 35.5 + Jacksonville Jaguars ML -1220 | model 60.4%, needs +107 to break even, edge +12.2%, Max Play
 - NFL parlay: Over 35.5 + Houston Texans ML -309 + Jacksonville Jaguars ML -1220 | model 48.5%, needs +175 to break even, edge +12.0%, Max Play

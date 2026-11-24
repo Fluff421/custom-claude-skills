@@ -71,7 +71,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Texas @ Texas A&M | moneyline | Texas A&M ML +350 | 22% | -0.4% | No Play | 0 |
 | Tennessee @ Vanderbilt | spread | Tennessee -13.5 (spread) | 51% |  | No Play | 0 |
 | Tennessee @ Vanderbilt | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
-| Tennessee @ Vanderbilt | moneyline | Vanderbilt ML +410 | 18% | -1.7% | No Play | 0 |
+| Tennessee @ Vanderbilt | moneyline | Vanderbilt ML +410 | 18% | -1.6% | No Play | 0 |
 | UCF @ Colorado | spread | UCF +2.5 (spread) | 51% |  | No Play | 0 |
 | UCF @ Colorado | total | Under 50.5 | 51% | +1.0 pts | No Play | 0 |
 | UCF @ Colorado | moneyline | Colorado ML -125 | 55% | -0.5% | No Play | 0 |
@@ -185,7 +185,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Florida Atlantic @ East Carolina | moneyline | East Carolina ML -115 | 55% | +1.6% | No Play | 0 |
 | Washington @ Oregon | spread | Oregon -12.5 (spread) | 51% |  | No Play | 0 |
 | Washington @ Oregon | total | Over 50.5 | 50% | +0.4 pts | No Play | 0 |
-| Washington @ Oregon | moneyline | Washington ML +440 | 17% | -1.4% | No Play | 0 |
+| Washington @ Oregon | moneyline | Washington ML +440 | 17% | -1.5% | No Play | 0 |
 | Miami (OH) @ Western Michigan | spread | Western Michigan -7.5 (spread) | 50% |  | No Play | 0 |
 | Miami (OH) @ Western Michigan | total | Over 45.5 | 51% | +1.1 pts | No Play | 0 |
 | Miami (OH) @ Western Michigan | moneyline | Miami (OH) ML +220 | 33% | +1.6% | No Play | 0 |
@@ -212,15 +212,15 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | App State @ South Alabama | moneyline | App State ML +140 | 40% | -1.2% | No Play | 0 |
 | Florida @ Florida State | spread | Florida -4.5 (spread) | 50% |  | No Play | 0 |
 | Florida @ Florida State | total | Over 52.5 | 51% | +1.0 pts | No Play | 0 |
-| Florida @ Florida State | moneyline | Florida State ML +180 | 35% | -0.8% | No Play | 0 |
+| Florida @ Florida State | moneyline | Florida State ML +180 | 35% | -0.7% | No Play | 0 |
 
 ### NCAAF Best parlays
 
 - UCLA ML +215 + Over 37.5: model 18.6%, needs +515 to break even (reference payout +515), edge +2.4%, Lean
-- UCLA ML +215 + Under 76.5: model 18.7%, needs +507 to break even (reference payout +507), edge +2.3%, Lean
+- UCLA ML +215 + Under 76.5: model 18.7%, needs +507 to break even (reference payout +507), edge +2.2%, Lean
 - Over 37.5 + Under 76.5: model 28.7%, needs +276 to break even (reference payout +276), edge +2.1%, Lean
 - UCLA ML +215 + Over 37.5 + Under 76.5: model 10.0%, needs +1084 to break even (reference payout +1084), edge +1.6%, No Play
-- UCLA ML +215 + North Texas -4.5 (spread): model 17.4%, needs +507 to break even (reference payout +507), edge +1.0%, No Play
+- UCLA ML +215 + North Texas -4.5 (spread): model 17.4%, needs +507 to break even (reference payout +507), edge +0.9%, No Play
 
 ## NFL
 
@@ -240,7 +240,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -155 | 61% | +0.6% | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 46.5 | 56% | +1.4 pts | No Play | 0 |
-| Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -178 | 66% | +1.7% | No Play | 0 |
+| Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -181 | 67% | +2.7% | No Play | 0 |
 | New England Patriots @ Los Angeles Chargers | spread | Los Angeles Chargers -4.5 (spread) | 50% |  | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | +2.4 pts | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -117 | 59% | +5.0% | Lean | 0.5 |
