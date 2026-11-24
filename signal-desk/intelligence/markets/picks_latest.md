@@ -2,8 +2,6 @@
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
-Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Cincinnati Bengals (2026-11-29), Washington Commanders @ Arizona Cardinals (2026-11-29)
-
 ## NCAAF
 
 | Game | Market | Pick | Prob | Edge | Tier | Units |
@@ -112,7 +110,7 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | Purdue @ Indiana | moneyline | Indiana ML -2100 | 94% | -1.8% | No Play | 0 |
 | Michigan @ Ohio State | spread | Ohio State -12.5 (spread) | 52% |  | No Play | 0 |
 | Michigan @ Ohio State | total | Over 38.5 | 52% | +1.7 pts | No Play | 0 |
-| Michigan @ Ohio State | moneyline | Michigan ML +310 | 23% | -1.4% | No Play | 0 |
+| Michigan @ Ohio State | moneyline | Ohio State ML -395 | 78% | -1.9% | No Play | 0 |
 | Texas State @ Utah State | spread | Utah State +7.5 (spread) | 50% |  | No Play | 0 |
 | Texas State @ Utah State | total | Over 52.5 | 51% | +0.6 pts | No Play | 0 |
 | Texas State @ Utah State | moneyline | Utah State ML +220 | 32% | +0.6% | No Play | 0 |
@@ -159,7 +157,7 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | Sam Houston @ Florida International | total | Over 41.5 | 51% | +0.5 pts | No Play | 0 |
 | Sam Houston @ Florida International | moneyline | Sam Houston ML +350 | 22% | +0.1% | No Play | 0 |
 | Toledo @ Ohio | spread | Ohio +4.5 (spread) | 50% |  | No Play | 0 |
-| Toledo @ Ohio | total | Under 49.5 | 51% | +1.0 pts | No Play | 0 |
+| Toledo @ Ohio | total | Under 48.5 | 51% | +0.7 pts | No Play | 0 |
 | Toledo @ Ohio | moneyline | Ohio ML +130 | 42% | -2.0% | No Play | 0 |
 | UAB @ North Texas | spread | North Texas -4.5 (spread) | 50% |  | Lean | 0.5 |
 | UAB @ North Texas | total | Over 46.5 | 54% | +3.3 pts | Lean | 0.5 |
@@ -186,7 +184,7 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | Florida Atlantic @ East Carolina | total | Under 55.5 | 51% | +0.5 pts | No Play | 0 |
 | Florida Atlantic @ East Carolina | moneyline | East Carolina ML -115 | 55% | +1.6% | No Play | 0 |
 | Washington @ Oregon | spread | Oregon -12.5 (spread) | 51% |  | No Play | 0 |
-| Washington @ Oregon | total | Over 49.5 | 51% | +0.7 pts | No Play | 0 |
+| Washington @ Oregon | total | Over 50.5 | 50% | +0.4 pts | No Play | 0 |
 | Washington @ Oregon | moneyline | Washington ML +440 | 17% | -1.4% | No Play | 0 |
 | Miami (OH) @ Western Michigan | spread | Western Michigan -7.5 (spread) | 50% |  | No Play | 0 |
 | Miami (OH) @ Western Michigan | total | Over 45.5 | 51% | +1.1 pts | No Play | 0 |
@@ -230,10 +228,10 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 |---|---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | spread | Arizona Cardinals +6.5 (spread) | 54% |  | Lean | 0.5 |
 | Washington Commanders @ Arizona Cardinals | total | Over 40.5 | 58% | +1.7 pts | Lean | 0.5 |
-| Washington Commanders @ Arizona Cardinals | moneyline | Washington Commanders ML -271 (price estimated from the line) | 72% | -1.1% | No Play | 0 |
+| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +316 | 27% | +2.7% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
-| Green Bay Packers @ Los Angeles Rams | total | Under 44.5 | 50% | +0.1 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -139 | 63% | +5.2% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | total | Over 43.5 | 51% | +0.2 pts | No Play | 0 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -135 | 63% | +5.9% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 66% | +4.8% | Lean | 0.5 |
@@ -248,7 +246,7 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -115 | 59% | +5.4% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 50.5 | 53% | +0.6 pts | No Play | 0 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -421 (price estimated from the line) | 88% | +7.2% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -545 | 88% | +3.5% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 48.5 | 61% | +2.5 pts | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -150 | 62% | +1.6% | No Play | 0 |
@@ -271,19 +269,19 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +260 | 33% | +5.5% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | total | Over 48.5 | 50% | +0.1 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -493 | 85% | +1.6% | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 52% | +0.4 pts | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -462 | 85% | +2.5% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 41.5 | 58% | +1.7 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -221 | 69% | +0.2% | No Play | 0 |
 
 ### NFL Best parlays
 
+- Cincinnati Bengals ML -545 + Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1220: model 52.1%, needs +149 to break even (reference payout +149), edge +11.9%, Max Play
+- Cincinnati Bengals ML -545 + Jacksonville Jaguars ML -1220 + Indianapolis Colts +6.5 (spread): model 51.5%, needs +151 to break even (reference payout +151), edge +11.7%, Max Play
 - Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1220: model 59.2%, needs +110 to break even (reference payout +110), edge +11.6%, Max Play
 - Detroit Lions +2.5 (spread) + Houston Texans ML -310 + Jacksonville Jaguars ML -1220: model 47.5%, needs +178 to break even (reference payout +178), edge +11.6%, Max Play
-- Jacksonville Jaguars ML -1220 + Indianapolis Colts +6.5 (spread): model 58.5%, needs +112 to break even (reference payout +112), edge +11.4%, Max Play
-- Houston Texans ML -310 + Jacksonville Jaguars ML -1220 + Indianapolis Colts +6.5 (spread): model 47.0%, needs +181 to break even (reference payout +181), edge +11.3%, Max Play
-- Under 48.5 + Houston Texans ML -310 + Jacksonville Jaguars ML -1220: model 48.8%, needs +166 to break even (reference payout +166), edge +11.2%, Max Play
+- Cincinnati Bengals ML -545 + Under 48.5 + Jacksonville Jaguars ML -1220: model 53.4%, needs +138 to break even (reference payout +138), edge +11.5%, Max Play
 
 ### NFL Best 6-point teasers
 
