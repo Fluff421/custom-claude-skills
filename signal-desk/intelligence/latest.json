@@ -1,6 +1,6 @@
 {
- "date": "2026-11-23",
- "generated_at": "2026-11-24T05:39:26+00:00",
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T06:39:22+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Houston Texans",
@@ -2407,27 +2407,6 @@
    ],
    "model_error": -7.2,
    "cover_margin": -2.5
-  },
-  {
-   "game": "Los Angeles Chargers @ Baltimore Ravens",
-   "date": "2026-11-16",
-   "league": "NFL",
-   "tier": "Lean",
-   "pick": "Los Angeles Chargers +4.5 (spread)",
-   "grade": "Win",
-   "units": 0.5,
-   "prob": 0.5926,
-   "clv": 0,
-   "actual_home_margin": -3,
-   "model_margin": -0.8,
-   "line_margin": null,
-   "closing_spread_home": -4.5,
-   "notes": [
-    "no factor record (game predates shadow factors)",
-    "pick covered by +7.5 points"
-   ],
-   "model_error": -2.2,
-   "cover_margin": 7.5
   }
  ],
  "tiers": [
@@ -5720,8 +5699,8 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-24T05:38:50+00:00",
-   "date": "2026-11-23",
+   "generated_at": "2026-11-24T06:38:57+00:00",
+   "date": "2026-11-24",
    "games": [
     {
      "game_id": "rec0XDpki33bo5UmU",
@@ -8732,7 +8711,7 @@
        "side": "away",
        "team": "Tulsa",
        "line": 2.5,
-       "price": -118.0,
+       "price": -115.0,
        "proj": -0.10000000000000009,
        "prob": 0.51,
        "edge": null,
@@ -8749,7 +8728,7 @@
        "market": "total",
        "side": "under",
        "line": 58.5,
-       "price": -112.0,
+       "price": -115.0,
        "proj": 58.16,
        "prob": 0.5042,
        "edge": 0.34,
@@ -8767,18 +8746,18 @@
        "side": "home",
        "team": "UTSA",
        "line": 0.0,
-       "price": -115.0,
+       "price": -118.0,
        "price_estimated": false,
        "proj": 1.27,
        "prob": 0.5337,
-       "edge": -0.0012,
+       "edge": -0.0076,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "UTSA ML -115",
+       "selection": "UTSA ML -118",
        "game_id": "recJLBofg6pkwmEhp",
        "game": "Tulsa @ UTSA",
        "priority": "primary",
@@ -9312,18 +9291,18 @@
        "side": "home",
        "team": "San Francisco 49ers",
        "line": 0.0,
-       "price": -183.0,
+       "price": -179.0,
        "price_estimated": false,
        "proj": 3.81,
        "prob": 0.6571,
-       "edge": 0.0105,
+       "edge": 0.0155,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "San Francisco 49ers ML -183",
+       "selection": "San Francisco 49ers ML -179",
        "game_id": "recMfKRGMpQxLeiya",
        "game": "Seattle Seahawks @ San Francisco 49ers",
        "priority": "primary",
@@ -11585,10 +11564,10 @@
      "date": "2026-11-26",
      "frozen": false,
      "line": 3.0,
-     "total_line": 48.5,
+     "total_line": 47.5,
      "model_margin": 2.3,
      "blend_margin": 2.79,
-     "proj_total": 45.98461538461538,
+     "proj_total": 45.284615384615385,
      "factors": [
       "QB: HOME QB PLAYING Josh Allen [auto espn 2026-11-23] | AWAY QB PLAYING Patrick Mahomes [auto espn 2026-11-23]",
       "weather: 35F, wind 14mph, precip 88%, snow 0.1cm | sev=0.70 | open-meteo"
@@ -11618,15 +11597,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 48.5,
-       "price": -116.0,
-       "proj": 45.98,
-       "prob": 0.6142,
-       "edge": 2.52,
+       "line": 47.5,
+       "price": -104.0,
+       "proj": 45.28,
+       "prob": 0.6008,
+       "edge": 2.22,
        "edge_unit": "pts",
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Under 48.5",
+       "selection": "Under 47.5",
        "game_id": "recYI3vKDIRLV1sOY",
        "game": "Kansas City Chiefs @ Buffalo Bills",
        "priority": "primary",
@@ -11680,13 +11659,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 48.5,
-       "line": 54.5,
+       "base_line": 47.5,
+       "line": 53.5,
        "price": 0.0,
-       "prob": 0.8028,
+       "prob": 0.7943,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 48.5 -> 54.5",
+       "selection": "Under 47.5 -> 53.5",
        "game_id": "recYI3vKDIRLV1sOY",
        "game": "Kansas City Chiefs @ Buffalo Bills",
        "priority": "secondary",
@@ -13811,18 +13790,18 @@
        "side": "home",
        "team": "Detroit Lions",
        "line": 0.0,
-       "price": 124.0,
+       "price": 122.0,
        "price_estimated": false,
        "proj": -1.15,
        "prob": 0.4519,
-       "edge": 0.0055,
+       "edge": 0.0014,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Detroit Lions ML +124",
+       "selection": "Detroit Lions ML +122",
        "game_id": "recj8prfk94D0f9lD",
        "game": "Chicago Bears @ Detroit Lions",
        "priority": "primary",
@@ -16274,18 +16253,18 @@
        "side": "home",
        "team": "Dallas Cowboys",
        "line": 0.0,
-       "price": -462.0,
+       "price": -466.0,
        "price_estimated": false,
        "proj": 9.04,
        "prob": 0.8476,
-       "edge": 0.0255,
+       "edge": 0.0243,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Dallas Cowboys ML -462",
+       "selection": "Dallas Cowboys ML -466",
        "game_id": "recspGprBdchkMpgS",
        "game": "Philadelphia Eagles @ Dallas Cowboys",
        "priority": "primary",
@@ -16762,145 +16741,6 @@
        "team": "Kennesaw State",
        "line": -0.5,
        "prob": 0.5735
-      }
-     ]
-    },
-    {
-     "game_id": "recvStneVWJBEWYU3",
-     "game": "Cincinnati Bengals @ Washington Commanders",
-     "league": "NFL",
-     "date": "2026-11-23",
-     "frozen": true,
-     "line": -6.0,
-     "total_line": 52.5,
-     "model_margin": -5.8,
-     "blend_margin": -5.9399999999999995,
-     "proj_total": 50.500125,
-     "factors": [
-      "QB: HOME QB PLAYING Jayden Daniels [auto espn 2026-11-23] | AWAY QB PLAYING Joe Burrow [auto espn 2026-11-23]",
-      "weather: 53F, wind 11mph, precip 8% | sev=0.25 | open-meteo"
-     ],
-     "total_factor_why": [
-      "weather -0.8"
-     ],
-     "picks": [
-      {
-       "market": "spread",
-       "side": "away",
-       "team": "Cincinnati Bengals",
-       "line": -4.5,
-       "price": -110.0,
-       "proj": -5.8,
-       "prob": 0.545,
-       "edge": null,
-       "edge_unit": "pts",
-       "tier": "Lean",
-       "units": 0.5,
-       "selection": "Cincinnati Bengals -4.5 (spread)",
-       "game_id": "recvStneVWJBEWYU3",
-       "game": "Cincinnati Bengals @ Washington Commanders",
-       "priority": "primary",
-       "pro_favorite": true
-      },
-      {
-       "market": "total",
-       "side": "under",
-       "line": 52.5,
-       "price": -110.0,
-       "proj": 50.5,
-       "prob": 0.5911,
-       "edge": 2.0,
-       "edge_unit": "pts",
-       "tier": "Lean",
-       "units": 0.5,
-       "selection": "Under 52.5",
-       "game_id": "recvStneVWJBEWYU3",
-       "game": "Cincinnati Bengals @ Washington Commanders",
-       "priority": "primary",
-       "pro_favorite": false
-      },
-      {
-       "market": "moneyline",
-       "side": "away",
-       "team": "Cincinnati Bengals",
-       "line": 0.0,
-       "price": -235,
-       "price_estimated": true,
-       "proj": -5.94,
-       "prob": 0.7396,
-       "edge": 0.0381,
-       "edge_unit": "prob",
-       "price_source": "estimated",
-       "quote_captured_at": null,
-       "quote_snapshot_id": null,
-       "tier": "No Play",
-       "units": 0.0,
-       "selection": "Cincinnati Bengals ML -235 (price estimated from the line)",
-       "game_id": "recvStneVWJBEWYU3",
-       "game": "Cincinnati Bengals @ Washington Commanders",
-       "priority": "primary",
-       "pro_favorite": true
-      }
-     ],
-     "teaser_legs": [
-      {
-       "market": "teaser_leg",
-       "kind": "spread",
-       "side": "home",
-       "team": "Washington Commanders",
-       "base_line": 6.0,
-       "line": 12.0,
-       "price": 0.0,
-       "prob": 0.7013,
-       "push": 0.0256,
-       "crosses": [
-        7
-       ],
-       "selection": "Washington Commanders +6 -> +12 (crosses 7)",
-       "game_id": "recvStneVWJBEWYU3",
-       "game": "Cincinnati Bengals @ Washington Commanders",
-       "priority": "secondary",
-       "tier": "No Play",
-       "units": 0.0
-      },
-      {
-       "market": "teaser_leg",
-       "kind": "total",
-       "side": "under",
-       "base_line": 52.5,
-       "line": 58.5,
-       "price": 0.0,
-       "prob": 0.7881,
-       "push": 0.0,
-       "crosses": [],
-       "selection": "Under 52.5 -> 58.5",
-       "game_id": "recvStneVWJBEWYU3",
-       "game": "Cincinnati Bengals @ Washington Commanders",
-       "priority": "secondary",
-       "tier": "No Play",
-       "units": 0.0
-      }
-     ],
-     "alt_spreads": [
-      {
-       "team": "Washington Commanders",
-       "line": 3.0,
-       "prob": 0.392
-      },
-      {
-       "team": "Cincinnati Bengals",
-       "line": -9.0,
-       "prob": 0.3593
-      },
-      {
-       "team": "Washington Commanders",
-       "line": 9.0,
-       "prob": 0.6127
-      },
-      {
-       "team": "Cincinnati Bengals",
-       "line": -3.0,
-       "prob": 0.5548
       }
      ]
     },
@@ -17694,6 +17534,147 @@
          "grade_market": "moneyline"
         },
         {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.6008,
+         "price": -104.0,
+         "pro_favorite": false,
+         "selection": "Under 47.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 47.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recp6o8WFsUDhjzQh",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.9885,
+         "price": -1220.0,
+         "pro_favorite": true,
+         "selection": "Jacksonville Jaguars ML -1220",
+         "game": "Tennessee Titans @ Jacksonville Jaguars",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.5227,
+       "price": 151,
+       "break_even_prob": 0.3981,
+       "break_even_price": 151,
+       "edge": 0.1246,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.6008,
+         "price": -104.0,
+         "pro_favorite": false,
+         "selection": "Under 47.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 47.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recp6o8WFsUDhjzQh",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.9885,
+         "price": -1220.0,
+         "pro_favorite": true,
+         "selection": "Jacksonville Jaguars ML -1220",
+         "game": "Tennessee Titans @ Jacksonville Jaguars",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.5939,
+       "price": 112,
+       "break_even_prob": 0.4712,
+       "break_even_price": 112,
+       "edge": 0.1227,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.6008,
+         "price": -104.0,
+         "pro_favorite": false,
+         "selection": "Under 47.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 47.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "reco8reR66QV5gqyN",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8029,
+         "price": -310.0,
+         "pro_favorite": true,
+         "selection": "Houston Texans ML -310",
+         "game": "Baltimore Ravens @ Houston Texans",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recp6o8WFsUDhjzQh",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.9885,
+         "price": -1220.0,
+         "pro_favorite": true,
+         "selection": "Jacksonville Jaguars ML -1220",
+         "game": "Tennessee Titans @ Jacksonville Jaguars",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.4768,
+       "price": 181,
+       "break_even_prob": 0.3563,
+       "break_even_price": 181,
+       "edge": 0.1206,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recULGfBuf1xWHK45",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8802,
+         "price": -545.0,
+         "pro_favorite": true,
+         "selection": "Cincinnati Bengals ML -545",
+         "game": "New Orleans Saints @ Cincinnati Bengals",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "spread",
          "side": "home",
@@ -17733,168 +17714,15 @@
        "market": "parlay",
        "legs": [
         {
-         "game_id": "recULGfBuf1xWHK45",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8802,
-         "price": -545.0,
-         "pro_favorite": true,
-         "selection": "Cincinnati Bengals ML -545",
-         "game": "New Orleans Saints @ Cincinnati Bengals",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recp6o8WFsUDhjzQh",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.9885,
-         "price": -1220.0,
-         "pro_favorite": true,
-         "selection": "Jacksonville Jaguars ML -1220",
-         "game": "Tennessee Titans @ Jacksonville Jaguars",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recrQkOwpkcIisvRE",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.5917,
-         "price": -104.0,
-         "pro_favorite": false,
-         "selection": "Indianapolis Colts +6.5 (spread)",
-         "game": "New York Giants @ Indianapolis Colts",
-         "line": 6.5,
-         "grade_market": "spread"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.5148,
-       "price": 151,
-       "break_even_prob": 0.3981,
-       "break_even_price": 151,
-       "edge": 0.1167,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recj8prfk94D0f9lD",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.5989,
-         "price": -106.0,
-         "pro_favorite": false,
-         "selection": "Detroit Lions +2.5 (spread)",
-         "game": "Chicago Bears @ Detroit Lions",
-         "line": 2.5,
-         "grade_market": "spread"
-        },
-        {
-         "game_id": "recp6o8WFsUDhjzQh",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.9885,
-         "price": -1220.0,
-         "pro_favorite": true,
-         "selection": "Jacksonville Jaguars ML -1220",
-         "game": "Tennessee Titans @ Jacksonville Jaguars",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.592,
-       "price": 110,
-       "break_even_prob": 0.4756,
-       "break_even_price": 110,
-       "edge": 0.1164,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recj8prfk94D0f9lD",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.5989,
-         "price": -106.0,
-         "pro_favorite": false,
-         "selection": "Detroit Lions +2.5 (spread)",
-         "game": "Chicago Bears @ Detroit Lions",
-         "line": 2.5,
-         "grade_market": "spread"
-        },
-        {
-         "game_id": "reco8reR66QV5gqyN",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8029,
-         "price": -310.0,
-         "pro_favorite": true,
-         "selection": "Houston Texans ML -310",
-         "game": "Baltimore Ravens @ Houston Texans",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recp6o8WFsUDhjzQh",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.9885,
-         "price": -1220.0,
-         "pro_favorite": true,
-         "selection": "Jacksonville Jaguars ML -1220",
-         "game": "Tennessee Titans @ Jacksonville Jaguars",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.4753,
-       "price": 178,
-       "break_even_prob": 0.3596,
-       "break_even_price": 178,
-       "edge": 0.1157,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recULGfBuf1xWHK45",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8802,
-         "price": -545.0,
-         "pro_favorite": true,
-         "selection": "Cincinnati Bengals ML -545",
-         "game": "New Orleans Saints @ Cincinnati Bengals",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
          "game_id": "recYI3vKDIRLV1sOY",
          "market_kind": "total",
          "side": "under",
-         "prob": 0.6142,
-         "price": -116.0,
+         "prob": 0.6008,
+         "price": -104.0,
          "pro_favorite": false,
-         "selection": "Under 48.5",
+         "selection": "Under 47.5",
          "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 48.5,
+         "line": 47.5,
          "grade_market": "total"
         },
         {
@@ -17908,14 +17736,26 @@
          "game": "Tennessee Titans @ Jacksonville Jaguars",
          "line": 0.0,
          "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recpPhCO8j33Igo8i",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8118,
+         "price": -345.0,
+         "pro_favorite": true,
+         "selection": "Minnesota Vikings ML -345",
+         "game": "Atlanta Falcons @ Minnesota Vikings",
+         "line": 0.0,
+         "grade_market": "moneyline"
         }
        ],
        "n_legs": 3,
-       "prob": 0.5344,
-       "price": 138,
-       "break_even_prob": 0.4194,
-       "break_even_price": 138,
-       "edge": 0.115,
+       "prob": 0.4821,
+       "price": 174,
+       "break_even_prob": 0.3653,
+       "break_even_price": 174,
+       "edge": 0.1168,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -17926,20 +17766,6 @@
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -17953,6 +17779,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "rec5qq2WSH0UY0Dpz",
@@ -17970,11 +17810,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.5004,
+       "prob": 0.4951,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1158,
+       "edge": 0.1105,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -17983,20 +17823,6 @@
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -18010,6 +17836,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "rectT8K8SSMh3vu1v",
@@ -18027,11 +17867,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.5001,
+       "prob": 0.4948,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1155,
+       "edge": 0.1102,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -18040,20 +17880,6 @@
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -18067,6 +17893,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "recStkT1qVm5ppDHL",
@@ -18084,11 +17924,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.4997,
+       "prob": 0.4944,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1151,
+       "edge": 0.1098,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -18097,20 +17937,6 @@
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -18124,6 +17950,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "recrQkOwpkcIisvRE",
@@ -18141,11 +17981,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.4961,
+       "prob": 0.4908,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1115,
+       "edge": 0.1062,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -18155,18 +17995,18 @@
        "market": "teaser",
        "legs": [
         {
-         "game_id": "recYI3vKDIRLV1sOY",
+         "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
          "side": "under",
-         "prob": 0.8028,
+         "prob": 0.7989,
          "price": null,
          "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
+         "selection": "Under 55.5 -> 61.5",
+         "game": "Chicago Bears @ Detroit Lions",
+         "line": 61.5,
          "grade_market": "teaser_leg",
          "kind": "total",
-         "base_line": 48.5
+         "base_line": 55.5
         },
         {
          "game_id": "rec5qq2WSH0UY0Dpz",
@@ -18198,11 +18038,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.4884,
+       "prob": 0.486,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1037,
+       "edge": 0.1014,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -20076,5 +19916,5 @@
    "NFL teaser_leg: n=92, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0001)"
   ]
  },
- "narrative_sha256": "f67b1d3d0501ac73b22e0ef71c9d896ae19fd0a018e0527bdad5bd789625929e"
+ "narrative_sha256": "63dfab80a64e1d149857ea57c2a10e058716ec83e36d7ce8693f274b1041641d"
 }

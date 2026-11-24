@@ -1,4 +1,4 @@
-# Signal Desk intelligence report, 2026-11-23
+# Signal Desk intelligence report, 2026-11-24
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
@@ -166,7 +166,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 58% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -115 | 59% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -545 | 88% | Lean | 0.5 |
-| Kansas City Chiefs @ Buffalo Bills | total | Under 48.5 | 61% | Lean | 0.5 |
+| Kansas City Chiefs @ Buffalo Bills | total | Under 47.5 | 60% | Lean | 0.5 |
 | USC @ UCLA | moneyline | UCLA ML +215 | 35% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
 | UAB @ North Texas | total | Over 46.5 | 54% | Lean | 0.5 |
@@ -179,12 +179,12 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NCAAF parlay: UCLA ML +215 + Under 76.5 | model 18.7%, needs +507 to break even, edge +2.3%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 46.5 | model 18.9%, needs +501 to break even, edge +2.2%, Lean
 - NCAAF parlay: Over 46.5 + Under 76.5 | model 29.0%, needs +268 to break even, edge +1.8%, No Play
-- NFL parlay: Cincinnati Bengals ML -545 + Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1220 | model 52.1%, needs +149 to break even, edge +11.9%, Max Play
-- NFL parlay: Cincinnati Bengals ML -545 + Jacksonville Jaguars ML -1220 + Indianapolis Colts +6.5 (spread) | model 51.5%, needs +151 to break even, edge +11.7%, Max Play
-- NFL parlay: Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1220 | model 59.2%, needs +110 to break even, edge +11.6%, Max Play
-- NFL teaser: Under 48.5 -> 54.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 50.0%, needs +160 to break even, edge +11.6%, Max Play
-- NFL teaser: Under 48.5 -> 54.5 + Under 55.5 -> 61.5 + Over 41.5 -> 35.5 | model 50.0%, needs +160 to break even, edge +11.6%, Max Play
-- NFL teaser: Under 48.5 -> 54.5 + Under 55.5 -> 61.5 + Over 35.5 -> 29.5 | model 50.0%, needs +160 to break even, edge +11.5%, Max Play
+- NFL parlay: Cincinnati Bengals ML -545 + Under 47.5 + Jacksonville Jaguars ML -1220 | model 52.3%, needs +151 to break even, edge +12.5%, Max Play
+- NFL parlay: Under 47.5 + Jacksonville Jaguars ML -1220 | model 59.4%, needs +112 to break even, edge +12.3%, Max Play
+- NFL parlay: Under 47.5 + Houston Texans ML -310 + Jacksonville Jaguars ML -1220 | model 47.7%, needs +181 to break even, edge +12.1%, Max Play
+- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 40.5 -> 34.5 | model 49.5%, needs +160 to break even, edge +11.1%, Max Play
+- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 41.5 -> 35.5 | model 49.5%, needs +160 to break even, edge +11.0%, Max Play
+- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 35.5 -> 29.5 | model 49.4%, needs +160 to break even, edge +11.0%, Max Play
 
 ## Results and learning by market
 
