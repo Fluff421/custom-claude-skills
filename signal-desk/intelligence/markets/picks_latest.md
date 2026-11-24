@@ -61,8 +61,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Louisiana @ Georgia State | total | Over 55.5 | 50% | +0.3 pts | No Play | 0 |
 | Louisiana @ Georgia State | moneyline | Georgia State ML +180 | 36% | +0.7% | No Play | 0 |
 | Coastal Carolina @ James Madison | spread | James Madison -15.5 (spread) | 51% |  | No Play | 0 |
-| Coastal Carolina @ James Madison | total | Over 55.5 | 50% | +0.0 pts | No Play | 0 |
-| Coastal Carolina @ James Madison | moneyline | Coastal Carolina ML +575 | 13% | -1.4% | No Play | 0 |
+| Coastal Carolina @ James Madison | total | Over 54.5 | 50% | +0.3 pts | No Play | 0 |
+| Coastal Carolina @ James Madison | moneyline | James Madison ML -850 | 88% | -1.7% | No Play | 0 |
 | Tulsa @ UTSA | spread | Tulsa +2.5 (spread) | 51% |  | No Play | 0 |
 | Tulsa @ UTSA | total | Under 58.5 | 50% | +0.3 pts | No Play | 0 |
 | Tulsa @ UTSA | moneyline | UTSA ML -118 | 53% | -0.8% | No Play | 0 |
@@ -125,7 +125,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Georgia Tech @ Georgia | moneyline | Georgia ML -8000 | 99% | +0.3% | No Play | 0 |
 | Baylor @ Houston | spread | Baylor +4.5 (spread) | 50% |  | No Play | 0 |
 | Baylor @ Houston | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
-| Baylor @ Houston | moneyline | Baylor ML +164 | 36% | -1.5% | No Play | 0 |
+| Baylor @ Houston | moneyline | Baylor ML +164 | 39% | +0.6% | No Play | 0 |
 | Cincinnati @ BYU | spread | BYU -14 (spread) | 50% |  | No Play | 0 |
 | Cincinnati @ BYU | total | Over 55.5 | 50% | +0.1 pts | No Play | 0 |
 | Cincinnati @ BYU | moneyline | Cincinnati ML +500 | 15% | -1.7% | No Play | 0 |
@@ -181,8 +181,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Auburn @ Alabama | total | Over 49.5 | 52% | +1.4 pts | No Play | 0 |
 | Auburn @ Alabama | moneyline | Alabama ML -750 | 87% | -1.6% | No Play | 0 |
 | Florida Atlantic @ East Carolina | spread | East Carolina -2.5 (spread) | 51% |  | No Play | 0 |
-| Florida Atlantic @ East Carolina | total | Over 55.5 | 50% | +0.4 pts | No Play | 0 |
-| Florida Atlantic @ East Carolina | moneyline | East Carolina ML -115 | 55% | +1.6% | No Play | 0 |
+| Florida Atlantic @ East Carolina | total | Over 56.5 | 50% | +0.1 pts | No Play | 0 |
+| Florida Atlantic @ East Carolina | moneyline | East Carolina ML -118 | 55% | +0.9% | No Play | 0 |
 | Washington @ Oregon | spread | Oregon -12.5 (spread) | 51% |  | No Play | 0 |
 | Washington @ Oregon | total | Over 50.5 | 50% | +0.4 pts | No Play | 0 |
 | Washington @ Oregon | moneyline | Washington ML +440 | 17% | -1.5% | No Play | 0 |
@@ -228,7 +228,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 |---|---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | spread | Arizona Cardinals +6.5 (spread) | 54% |  | Lean | 0.5 |
 | Washington Commanders @ Arizona Cardinals | total | Over 42.5 | 55% | +1.1 pts | No Play | 0 |
-| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +323 | 26% | +2.5% | No Play | 0 |
+| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +324 | 26% | +2.6% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Over 43.5 | 51% | +0.2 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -134 | 63% | +6.1% | Strong Play | 1 |
@@ -249,7 +249,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -650 | 87% | +0.8% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 47.5 | 59% | +1.9 pts | Lean | 0.5 |
-| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -149 | 62% | +1.8% | No Play | 0 |
+| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -150 | 62% | +1.6% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | +2.4 pts | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +120 | 45% | -0.1% | No Play | 0 |

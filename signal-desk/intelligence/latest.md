@@ -161,9 +161,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -134 | 63% | Strong Play | 1.0 |
-| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -153 | 65% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -156 | 65% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | Lean | 0.5 |
-| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -117 | 59% | Lean | 0.5 |
+| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -114 | 59% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 47.5 | 59% | Lean | 0.5 |
 | USC @ UCLA | moneyline | UCLA ML +215 | 35% | Lean | 0.5 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
