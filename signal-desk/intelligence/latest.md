@@ -169,19 +169,19 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
 | UAB @ North Texas | total | Over 45.5 | 54% | Lean | 0.5 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -317 | 80% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -324 | 81% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1240 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -344 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +252 | 33% | Lean | 0.5 |
 - NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +515 to break even, edge +2.4%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 45.5 | model 19.0%, needs +496 to break even, edge +2.2%, Lean
 - NCAAF parlay: Over 37.5 + Over 45.5 | model 29.1%, needs +270 to break even, edge +2.0%, No Play
+- NFL parlay: Detroit Lions +2.5 (spread) + Houston Texans ML -324 + Jacksonville Jaguars ML -1240 | model 48.2%, needs +175 to break even, edge +11.8%, Max Play
+- NFL parlay: Houston Texans ML -324 + Jacksonville Jaguars ML -1240 + Indianapolis Colts +6.5 (spread) | model 47.6%, needs +177 to break even, edge +11.6%, Max Play
 - NFL parlay: Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1240 | model 59.2%, needs +110 to break even, edge +11.6%, Max Play
-- NFL parlay: Detroit Lions +2.5 (spread) + Houston Texans ML -317 + Jacksonville Jaguars ML -1240 | model 47.5%, needs +176 to break even, edge +11.3%, Max Play
-- NFL parlay: Jacksonville Jaguars ML -1240 + Indianapolis Colts +6.5 (spread) | model 58.5%, needs +112 to break even, edge +11.3%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 35.5 -> 29.5 | model 48.9%, needs +160 to break even, edge +10.4%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7) | model 48.5%, needs +160 to break even, edge +10.1%, Max Play
-- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Under 46.5 -> 52.5 | model 48.4%, needs +160 to break even, edge +9.9%, Max Play
+- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 41.5 -> 35.5 | model 48.3%, needs +160 to break even, edge +9.8%, Max Play
 
 ## Results and learning by market
 
