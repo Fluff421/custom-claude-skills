@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-24T02:36:18Z",
+ "generated_at_utc": "2026-11-24T02:38:28Z",
  "generated_for_central_date": "2026-11-23",
  "graded_picks_csv_rows": 302,
  "ledger_health": {
@@ -284,6 +284,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 45313698251,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45313698251",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-24T02:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 25,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45313293886,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45313293886",
      "event": "schedule",
@@ -320,22 +336,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45298605133",
      "event": "workflow_dispatch",
      "created_at": "2026-11-24T00:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 25,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45290364761,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45290364761",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-23T23:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -621,7 +621,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-24T02:35:18Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   },
   {
@@ -630,7 +630,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-24T02:33:45Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   },
   {
@@ -658,7 +658,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-23T20:27:51Z",
-   "age_h": 6.1,
+   "age_h": 6.2,
    "status": "ok"
   },
   {
