@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "generated_at": "2026-11-24T01:39:20+00:00",
+ "generated_at": "2026-11-24T02:37:17+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Houston Texans",
@@ -5712,7 +5712,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-24T01:38:45+00:00",
+   "generated_at": "2026-11-24T02:36:47+00:00",
    "date": "2026-11-23",
    "games": [
     {
@@ -8032,11 +8032,11 @@
      "league": "NCAAF",
      "date": "2026-11-28",
      "frozen": false,
-     "line": 7.0,
-     "total_line": 65.5,
+     "line": 6.5,
+     "total_line": 66.5,
      "model_margin": 7.3999999999999995,
-     "blend_margin": 7.058,
-     "proj_total": 64.18096428571428,
+     "blend_margin": 6.6305,
+     "proj_total": 64.88096428571428,
      "factors": [
       "weather: 53F, wind 9mph, precip 1% | sev=0.00 | open-meteo"
      ],
@@ -8047,7 +8047,7 @@
        "side": "home",
        "team": "Oklahoma State",
        "line": -6.5,
-       "price": -105.0,
+       "price": -115.0,
        "proj": 7.3999999999999995,
        "prob": 0.5054,
        "edge": null,
@@ -8063,15 +8063,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 65.5,
-       "price": -105.0,
-       "proj": 64.18,
-       "prob": 0.5162,
-       "edge": 1.32,
+       "line": 66.5,
+       "price": -115.0,
+       "proj": 64.88,
+       "prob": 0.5198,
+       "edge": 1.62,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Under 65.5",
+       "selection": "Under 66.5",
        "game_id": "recCuG6yN6zeqhZtC",
        "game": "Kansas @ Oklahoma State",
        "priority": "primary",
@@ -8082,18 +8082,18 @@
        "side": "away",
        "team": "Kansas",
        "line": 0.0,
-       "price": 220.0,
+       "price": 205.0,
        "price_estimated": false,
-       "proj": 7.06,
-       "prob": 0.3191,
-       "edge": 0.0066,
+       "proj": 6.63,
+       "prob": 0.3293,
+       "edge": 0.0015,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Kansas ML +220",
+       "selection": "Kansas ML +205",
        "game_id": "recCuG6yN6zeqhZtC",
        "game": "Kansas @ Oklahoma State",
        "priority": "primary",
@@ -8106,13 +8106,15 @@
        "kind": "spread",
        "side": "away",
        "team": "Kansas",
-       "base_line": 7.0,
-       "line": 13.0,
+       "base_line": 6.5,
+       "line": 12.5,
        "price": 0.0,
-       "prob": 0.5842,
-       "push": 0.0235,
-       "crosses": [],
-       "selection": "Kansas +7 -> +13",
+       "prob": 0.5899,
+       "push": 0,
+       "crosses": [
+        7
+       ],
+       "selection": "Kansas +6.5 -> +12.5 (crosses 7)",
        "game_id": "recCuG6yN6zeqhZtC",
        "game": "Kansas @ Oklahoma State",
        "priority": "secondary",
@@ -8123,13 +8125,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 65.5,
-       "line": 71.5,
+       "base_line": 66.5,
+       "line": 72.5,
        "price": 0.0,
-       "prob": 0.6173,
+       "prob": 0.6216,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 65.5 -> 71.5",
+       "selection": "Under 66.5 -> 72.5",
        "game_id": "recCuG6yN6zeqhZtC",
        "game": "Kansas @ Oklahoma State",
        "priority": "secondary",
@@ -8140,23 +8142,23 @@
      "alt_spreads": [
       {
        "team": "Oklahoma State",
-       "line": -10.0,
-       "prob": 0.3955
+       "line": -9.5,
+       "prob": 0.4132
       },
       {
        "team": "Kansas",
-       "line": 4.0,
-       "prob": 0.4143
+       "line": 3.5,
+       "prob": 0.4253
       },
       {
        "team": "Oklahoma State",
-       "line": -4.0,
-       "prob": 0.5608
+       "line": -3.5,
+       "prob": 0.5747
       },
       {
        "team": "Kansas",
-       "line": 10.0,
-       "prob": 0.5758
+       "line": 9.5,
+       "prob": 0.5868
       }
      ]
     },
@@ -8983,10 +8985,10 @@
      "league": "NCAAF",
      "date": "2026-11-27",
      "frozen": false,
-     "line": -11.5,
+     "line": -10.5,
      "total_line": 40.5,
      "model_margin": -12.799999999999999,
-     "blend_margin": -11.6885,
+     "blend_margin": -10.833499999999999,
      "proj_total": 42.611357142857145,
      "factors": [
       "weather: 53F, wind 7mph, precip 0% | sev=0.00 | open-meteo"
@@ -8998,7 +9000,7 @@
        "side": "away",
        "team": "Texas",
        "line": -7.5,
-       "price": -110.0,
+       "price": -112.0,
        "proj": -12.799999999999999,
        "prob": 0.5092,
        "edge": null,
@@ -9035,9 +9037,9 @@
        "line": 0.0,
        "price": 350.0,
        "price_estimated": false,
-       "proj": -11.69,
-       "prob": 0.2181,
-       "edge": -0.0041,
+       "proj": -10.83,
+       "prob": 0.2352,
+       "edge": 0.013,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
@@ -9057,13 +9059,13 @@
        "kind": "spread",
        "side": "home",
        "team": "Texas A&M",
-       "base_line": 11.5,
-       "line": 17.5,
+       "base_line": 10.5,
+       "line": 16.5,
        "price": 0.0,
-       "prob": 0.5904,
+       "prob": 0.5881,
        "push": 0,
        "crosses": [],
-       "selection": "Texas A&M +11.5 -> +17.5",
+       "selection": "Texas A&M +10.5 -> +16.5",
        "game_id": "recLCUiMixwswbAbA",
        "game": "Texas @ Texas A&M",
        "priority": "secondary",
@@ -9091,23 +9093,23 @@
      "alt_spreads": [
       {
        "team": "Texas A&M",
-       "line": 8.5,
-       "prob": 0.4298
+       "line": 7.5,
+       "prob": 0.4269
       },
       {
        "team": "Texas",
-       "line": -14.5,
-       "prob": 0.4103
+       "line": -13.5,
+       "prob": 0.4172
       },
       {
        "team": "Texas A&M",
-       "line": 14.5,
-       "prob": 0.5897
+       "line": 13.5,
+       "prob": 0.5828
       },
       {
        "team": "Texas",
-       "line": -8.5,
-       "prob": 0.5702
+       "line": -7.5,
+       "prob": 0.5731
       }
      ]
     },
@@ -11575,10 +11577,10 @@
      "date": "2026-11-26",
      "frozen": false,
      "line": 3.0,
-     "total_line": 48.5,
+     "total_line": 47.5,
      "model_margin": 2.3,
      "blend_margin": 2.79,
-     "proj_total": 45.98461538461538,
+     "proj_total": 45.284615384615385,
      "factors": [
       "QB: HOME QB PLAYING Josh Allen [auto espn 2026-11-23] | AWAY QB PLAYING Patrick Mahomes [auto espn 2026-11-23]",
       "weather: 35F, wind 14mph, precip 88%, snow 0.1cm | sev=0.70 | open-meteo"
@@ -11608,15 +11610,15 @@
       {
        "market": "total",
        "side": "under",
-       "line": 48.5,
-       "price": -116.0,
-       "proj": 45.98,
-       "prob": 0.6142,
-       "edge": 2.52,
+       "line": 47.5,
+       "price": -104.0,
+       "proj": 45.28,
+       "prob": 0.6008,
+       "edge": 2.22,
        "edge_unit": "pts",
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Under 48.5",
+       "selection": "Under 47.5",
        "game_id": "recYI3vKDIRLV1sOY",
        "game": "Kansas City Chiefs @ Buffalo Bills",
        "priority": "primary",
@@ -11670,13 +11672,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "under",
-       "base_line": 48.5,
-       "line": 54.5,
+       "base_line": 47.5,
+       "line": 53.5,
        "price": 0.0,
-       "prob": 0.8028,
+       "prob": 0.7943,
        "push": 0.0,
        "crosses": [],
-       "selection": "Under 48.5 -> 54.5",
+       "selection": "Under 47.5 -> 53.5",
        "game_id": "recYI3vKDIRLV1sOY",
        "game": "Kansas City Chiefs @ Buffalo Bills",
        "priority": "secondary",
@@ -13801,18 +13803,18 @@
        "side": "home",
        "team": "Detroit Lions",
        "line": 0.0,
-       "price": 123.0,
+       "price": 124.0,
        "price_estimated": false,
        "proj": -1.15,
        "prob": 0.4519,
-       "edge": 0.0035,
+       "edge": 0.0055,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Detroit Lions ML +123",
+       "selection": "Detroit Lions ML +124",
        "game_id": "recj8prfk94D0f9lD",
        "game": "Chicago Bears @ Detroit Lions",
        "priority": "primary",
@@ -13888,11 +13890,11 @@
      "league": "NCAAF",
      "date": "2026-11-28",
      "frozen": false,
-     "line": 4.0,
-     "total_line": 47.5,
+     "line": 3.5,
+     "total_line": 46.5,
      "model_margin": 15.100000000000001,
-     "blend_margin": 5.609500000000001,
-     "proj_total": 50.51082142857143,
+     "blend_margin": 5.182,
+     "proj_total": 49.81082142857143,
      "factors": [
       "weather: 68F, 2 | no severity"
      ],
@@ -13903,7 +13905,7 @@
        "side": "home",
        "team": "North Texas",
        "line": -4.5,
-       "price": -110.0,
+       "price": -108.0,
        "proj": 15.100000000000001,
        "prob": 0.5,
        "edge": null,
@@ -13919,15 +13921,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 47.5,
-       "price": -115.0,
-       "proj": 50.51,
-       "prob": 0.5366,
-       "edge": 3.01,
+       "line": 46.5,
+       "price": -112.0,
+       "proj": 49.81,
+       "prob": 0.5402,
+       "edge": 3.31,
        "edge_unit": "pts",
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Over 47.5",
+       "selection": "Over 46.5",
        "game_id": "reck3KoAcMc3kJKnq",
        "game": "UAB @ North Texas",
        "priority": "primary",
@@ -13938,18 +13940,18 @@
        "side": "home",
        "team": "North Texas",
        "line": 0.0,
-       "price": -185.0,
+       "price": -180.0,
        "price_estimated": false,
-       "proj": 5.61,
-       "prob": 0.6457,
-       "edge": -0.0034,
+       "proj": 5.18,
+       "prob": 0.635,
+       "edge": -0.0078,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "North Texas ML -185",
+       "selection": "North Texas ML -180",
        "game_id": "reck3KoAcMc3kJKnq",
        "game": "UAB @ North Texas",
        "priority": "primary",
@@ -13962,15 +13964,15 @@
        "kind": "spread",
        "side": "home",
        "team": "North Texas",
-       "base_line": -4.0,
-       "line": 2.0,
+       "base_line": -3.5,
+       "line": 2.5,
        "price": 0.0,
-       "prob": 0.5977,
-       "push": 0.0223,
+       "prob": 0.6046,
+       "push": 0,
        "crosses": [
         3
        ],
-       "selection": "North Texas -4 -> +2 (crosses 3)",
+       "selection": "North Texas -3.5 -> +2.5 (crosses 3)",
        "game_id": "reck3KoAcMc3kJKnq",
        "game": "UAB @ North Texas",
        "priority": "secondary",
@@ -13981,13 +13983,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 47.5,
-       "line": 41.5,
+       "base_line": 46.5,
+       "line": 40.5,
        "price": 0.0,
-       "prob": 0.6407,
+       "prob": 0.6447,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 47.5 -> 41.5",
+       "selection": "Over 46.5 -> 40.5",
        "game_id": "reck3KoAcMc3kJKnq",
        "game": "UAB @ North Texas",
        "priority": "secondary",
@@ -13998,23 +14000,23 @@
      "alt_spreads": [
       {
        "team": "North Texas",
-       "line": -7.0,
-       "prob": 0.4372
+       "line": -6.5,
+       "prob": 0.4589
       },
       {
        "team": "UAB",
-       "line": 1.0,
-       "prob": 0.369
+       "line": 0.5,
+       "prob": 0.3796
       },
       {
        "team": "North Texas",
-       "line": -1.0,
-       "prob": 0.6068
+       "line": -0.5,
+       "prob": 0.6204
       },
       {
        "team": "UAB",
-       "line": 7.0,
-       "prob": 0.53
+       "line": 6.5,
+       "prob": 0.5411
       }
      ]
     },
@@ -15259,10 +15261,10 @@
      "date": "2026-11-27",
      "frozen": false,
      "line": 16.5,
-     "total_line": 48.5,
+     "total_line": 49.5,
      "model_margin": 16.9,
      "blend_margin": 16.558,
-     "proj_total": 50.150107142857145,
+     "proj_total": 50.85010714285714,
      "factors": [
       "weather: 55F, 33 | no severity"
      ],
@@ -15289,15 +15291,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 48.5,
-       "price": -115.0,
-       "proj": 50.15,
-       "prob": 0.5202,
-       "edge": 1.65,
+       "line": 49.5,
+       "price": -108.0,
+       "proj": 50.85,
+       "prob": 0.5165,
+       "edge": 1.35,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 48.5",
+       "selection": "Over 49.5",
        "game_id": "recq71YyIpQj8rmRL",
        "game": "Auburn @ Alabama",
        "priority": "primary",
@@ -15349,13 +15351,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 48.5,
-       "line": 42.5,
+       "base_line": 49.5,
+       "line": 43.5,
        "price": 0.0,
-       "prob": 0.622,
+       "prob": 0.6178,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 48.5 -> 42.5",
+       "selection": "Over 49.5 -> 43.5",
        "game_id": "recq71YyIpQj8rmRL",
        "game": "Auburn @ Alabama",
        "priority": "secondary",
@@ -17502,21 +17504,60 @@
          "game_id": "reck3KoAcMc3kJKnq",
          "market_kind": "total",
          "side": "over",
-         "prob": 0.5366,
-         "price": -115.0,
+         "prob": 0.5402,
+         "price": -112.0,
          "pro_favorite": false,
-         "selection": "Over 47.5",
+         "selection": "Over 46.5",
          "game": "UAB @ North Texas",
-         "line": 47.5,
+         "line": 46.5,
          "grade_market": "total"
         }
        ],
        "n_legs": 2,
-       "prob": 0.1873,
-       "price": 489,
-       "break_even_prob": 0.1698,
-       "break_even_price": 489,
-       "edge": 0.0175,
+       "prob": 0.1885,
+       "price": 496,
+       "break_even_prob": 0.1677,
+       "break_even_price": 496,
+       "edge": 0.0208,
+       "edge_unit": "prob",
+       "tier": "Lean",
+       "units": 0.25,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "reck3KoAcMc3kJKnq",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.5402,
+         "price": -112.0,
+         "pro_favorite": false,
+         "selection": "Over 46.5",
+         "game": "UAB @ North Texas",
+         "line": 46.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recx7QaUkUSeuNiDo",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.5371,
+         "price": -108.0,
+         "pro_favorite": false,
+         "selection": "Under 76.5",
+         "game": "Boise State @ Colorado State",
+         "line": 76.5,
+         "grade_market": "total"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.2901,
+       "price": 265,
+       "break_even_prob": 0.2743,
+       "break_even_price": 265,
+       "edge": 0.0158,
        "edge_unit": "prob",
        "tier": "No Play",
        "units": 0.0,
@@ -17541,12 +17582,12 @@
          "game_id": "reck3KoAcMc3kJKnq",
          "market_kind": "total",
          "side": "over",
-         "prob": 0.5366,
-         "price": -115.0,
+         "prob": 0.5402,
+         "price": -112.0,
          "pro_favorite": false,
-         "selection": "Over 47.5",
+         "selection": "Over 46.5",
          "game": "UAB @ North Texas",
-         "line": 47.5,
+         "line": 46.5,
          "grade_market": "total"
         },
         {
@@ -17563,50 +17604,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.1006,
-       "price": 1034,
-       "break_even_prob": 0.0882,
-       "break_even_price": 1034,
-       "edge": 0.0124,
-       "edge_unit": "prob",
-       "tier": "No Play",
-       "units": 0.0,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "reck3KoAcMc3kJKnq",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.5366,
-         "price": -115.0,
-         "pro_favorite": false,
-         "selection": "Over 47.5",
-         "game": "UAB @ North Texas",
-         "line": 47.5,
-         "grade_market": "total"
-        },
-        {
-         "game_id": "recx7QaUkUSeuNiDo",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.5371,
-         "price": -108.0,
-         "pro_favorite": false,
-         "selection": "Under 76.5",
-         "game": "Boise State @ Colorado State",
-         "line": 76.5,
-         "grade_market": "total"
-        }
-       ],
-       "n_legs": 2,
-       "prob": 0.2882,
-       "price": 260,
-       "break_even_prob": 0.2777,
-       "break_even_price": 260,
-       "edge": 0.0105,
+       "prob": 0.1013,
+       "price": 1048,
+       "break_even_prob": 0.0871,
+       "break_even_price": 1048,
+       "edge": 0.0142,
        "edge_unit": "prob",
        "tier": "No Play",
        "units": 0.0,
@@ -17632,7 +17634,7 @@
          "market_kind": "spread",
          "side": "home",
          "prob": 0.5,
-         "price": -110.0,
+         "price": -108.0,
          "pro_favorite": true,
          "selection": "North Texas -4.5 (spread)",
          "game": "UAB @ North Texas",
@@ -17642,10 +17644,10 @@
        ],
        "n_legs": 2,
        "prob": 0.1745,
-       "price": 501,
-       "break_even_prob": 0.1663,
-       "break_even_price": 501,
-       "edge": 0.0082,
+       "price": 507,
+       "break_even_prob": 0.1648,
+       "break_even_price": 507,
+       "edge": 0.0097,
        "edge_unit": "prob",
        "tier": "No Play",
        "units": 0.0,
@@ -17656,6 +17658,96 @@
     },
     "NFL": {
      "parlay": [
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.6008,
+         "price": -104.0,
+         "pro_favorite": false,
+         "selection": "Under 47.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 47.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "recp6o8WFsUDhjzQh",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.9885,
+         "price": -1220.0,
+         "pro_favorite": true,
+         "selection": "Jacksonville Jaguars ML -1220",
+         "game": "Tennessee Titans @ Jacksonville Jaguars",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 2,
+       "prob": 0.5939,
+       "price": 112,
+       "break_even_prob": 0.4712,
+       "break_even_price": 112,
+       "edge": 0.1227,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.6008,
+         "price": -104.0,
+         "pro_favorite": false,
+         "selection": "Under 47.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 47.5,
+         "grade_market": "total"
+        },
+        {
+         "game_id": "reco8reR66QV5gqyN",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8029,
+         "price": -310.0,
+         "pro_favorite": true,
+         "selection": "Houston Texans ML -310",
+         "game": "Baltimore Ravens @ Houston Texans",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recp6o8WFsUDhjzQh",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.9885,
+         "price": -1220.0,
+         "pro_favorite": true,
+         "selection": "Jacksonville Jaguars ML -1220",
+         "game": "Tennessee Titans @ Jacksonville Jaguars",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.4768,
+       "price": 181,
+       "break_even_prob": 0.3563,
+       "break_even_price": 181,
+       "edge": 0.1206,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
       {
        "market": "parlay",
        "legs": [
@@ -17784,128 +17876,12 @@
        "tier": "Max Play",
        "units": 0.5,
        "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "reco8reR66QV5gqyN",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8029,
-         "price": -310.0,
-         "pro_favorite": true,
-         "selection": "Houston Texans ML -310",
-         "game": "Baltimore Ravens @ Houston Texans",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recp6o8WFsUDhjzQh",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.9885,
-         "price": -1220.0,
-         "pro_favorite": true,
-         "selection": "Jacksonville Jaguars ML -1220",
-         "game": "Tennessee Titans @ Jacksonville Jaguars",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recrQkOwpkcIisvRE",
-         "market_kind": "spread",
-         "side": "home",
-         "prob": 0.5917,
-         "price": -104.0,
-         "pro_favorite": false,
-         "selection": "Indianapolis Colts +6.5 (spread)",
-         "game": "New York Giants @ Indianapolis Colts",
-         "line": 6.5,
-         "grade_market": "spread"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.4696,
-       "price": 181,
-       "break_even_prob": 0.3563,
-       "break_even_price": 181,
-       "edge": 0.1134,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.6142,
-         "price": -116.0,
-         "pro_favorite": false,
-         "selection": "Under 48.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 48.5,
-         "grade_market": "total"
-        },
-        {
-         "game_id": "reco8reR66QV5gqyN",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8029,
-         "price": -310.0,
-         "pro_favorite": true,
-         "selection": "Houston Texans ML -310",
-         "game": "Baltimore Ravens @ Houston Texans",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recp6o8WFsUDhjzQh",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.9885,
-         "price": -1220.0,
-         "pro_favorite": true,
-         "selection": "Jacksonville Jaguars ML -1220",
-         "game": "Tennessee Titans @ Jacksonville Jaguars",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.4875,
-       "price": 166,
-       "break_even_prob": 0.3753,
-       "break_even_price": 166,
-       "edge": 0.1122,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
       }
      ],
      "teaser": [
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -17919,6 +17895,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "rec5qq2WSH0UY0Dpz",
@@ -17936,11 +17926,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.5004,
+       "prob": 0.4951,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1158,
+       "edge": 0.1105,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -17949,20 +17939,6 @@
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -17976,6 +17952,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "rectT8K8SSMh3vu1v",
@@ -17993,11 +17983,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.5001,
+       "prob": 0.4948,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1155,
+       "edge": 0.1102,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -18006,20 +17996,6 @@
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -18033,6 +18009,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "recStkT1qVm5ppDHL",
@@ -18050,11 +18040,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.4997,
+       "prob": 0.4944,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1151,
+       "edge": 0.1098,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -18063,20 +18053,6 @@
       {
        "market": "teaser",
        "legs": [
-        {
-         "game_id": "recYI3vKDIRLV1sOY",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.8028,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 48.5
-        },
         {
          "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
@@ -18090,6 +18066,20 @@
          "grade_market": "teaser_leg",
          "kind": "total",
          "base_line": 55.5
+        },
+        {
+         "game_id": "recYI3vKDIRLV1sOY",
+         "market_kind": "total",
+         "side": "under",
+         "prob": 0.7943,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Under 47.5 -> 53.5",
+         "game": "Kansas City Chiefs @ Buffalo Bills",
+         "line": 53.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 47.5
         },
         {
          "game_id": "recrQkOwpkcIisvRE",
@@ -18107,11 +18097,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.4961,
+       "prob": 0.4908,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1115,
+       "edge": 0.1062,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -18121,18 +18111,18 @@
        "market": "teaser",
        "legs": [
         {
-         "game_id": "recYI3vKDIRLV1sOY",
+         "game_id": "recj8prfk94D0f9lD",
          "market_kind": "total",
          "side": "under",
-         "prob": 0.8028,
+         "prob": 0.7989,
          "price": null,
          "pro_favorite": false,
-         "selection": "Under 48.5 -> 54.5",
-         "game": "Kansas City Chiefs @ Buffalo Bills",
-         "line": 54.5,
+         "selection": "Under 55.5 -> 61.5",
+         "game": "Chicago Bears @ Detroit Lions",
+         "line": 61.5,
          "grade_market": "teaser_leg",
          "kind": "total",
-         "base_line": 48.5
+         "base_line": 55.5
         },
         {
          "game_id": "rec5qq2WSH0UY0Dpz",
@@ -18164,11 +18154,11 @@
         }
        ],
        "n_legs": 3,
-       "prob": 0.4884,
+       "prob": 0.486,
        "price": 160.0,
        "break_even_prob": 0.3846,
        "break_even_price": 160,
-       "edge": 0.1037,
+       "edge": 0.1014,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -20045,5 +20035,5 @@
    "NFL teaser_leg: n=92, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0001)"
   ]
  },
- "narrative_sha256": "232821669778b8915219ccd04b502ca11c0cf0387517ea0bc24347ab1b1aa6bb"
+ "narrative_sha256": "d6f0cfa52a87c31d739b48184b9a90496520666c6a1dffc3ae164f3b81109cf6"
 }
