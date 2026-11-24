@@ -13,8 +13,8 @@ Overall graded picks: 145-155 (Brier 0.2561).
 | Chicago Bears @ Detroit Lions | 2026-11-26 | Strong Play | Detroit Lions +2.5 (spread) | 1 | 59.9% |  |
 | Sacramento State @ Hawai'i | 2026-11-28 | Lean | Hawai'i -13.5 (spread) | 0.5 | 50.0% |  |
 | UAB @ North Texas | 2026-11-28 | Lean | North Texas -4.5 (spread) | 0.5 | 50.0% |  |
-| New Orleans Saints @ Cincinnati Bengals | 2026-11-29 | Lean | Cincinnati Bengals -10 (spread) | 0.5 | 50.0% |  |
 | Atlanta Falcons @ Minnesota Vikings | 2026-11-29 | Lean | Minnesota Vikings -7 (spread) | 0.5 | 52.7% |  |
+| New Orleans Saints @ Cincinnati Bengals | 2026-11-29 | Lean | Cincinnati Bengals -10 (spread) | 0.5 | 50.0% |  |
 | Seattle Seahawks @ San Francisco 49ers | 2026-11-29 | Lean | San Francisco 49ers -2.5 (spread) | 0.5 | 51.9% |  |
 | Carolina Panthers @ Tampa Bay Buccaneers | 2026-11-30 | Lean | Tampa Bay Buccaneers -3 (spread) | 0.5 | 50.0% |  |
 | New England Patriots @ Los Angeles Chargers | 2026-11-29 | Lean | Los Angeles Chargers -4.5 (spread) | 0.5 | 50.0% |  |
@@ -25,8 +25,8 @@ Overall graded picks: 145-155 (Brier 0.2561).
 - Chicago Bears @ Detroit Lions: weather: indoor | sev=0.00
 - Sacramento State @ Hawai'i: weather: 70F, wind 8mph, precip 6% | sev=0.00 | open-meteo
 - UAB @ North Texas: weather: 68F, 2 | no severity
-- New Orleans Saints @ Cincinnati Bengals: weather: 56F, wind 8mph, precip 13% | sev=0.00 | open-meteo
 - Atlanta Falcons @ Minnesota Vikings: weather: indoor | sev=0.00
+- New Orleans Saints @ Cincinnati Bengals: weather: 56F, wind 8mph, precip 13% | sev=0.00 | open-meteo
 - Seattle Seahawks @ San Francisco 49ers: QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-23] | AWAY QB OUT Sam Darnold -> Drew Lock [auto espn 2026-11-23] [priced: Drew Lock led passing 2026-11-15]; weather: 66F, 18 | no severity
 - Carolina Panthers @ Tampa Bay Buccaneers: weather: 71F, 7 | no severity
 - New England Patriots @ Los Angeles Chargers: QB: HOME QB QUESTIONABLE Justin Herbert -> DJ Uiagalelei [auto espn 2026-11-23] | AWAY QB PLAYING Tommy DeVito [auto espn 2026-11-23]; weather: 65F, wind 11mph, precip 32% | sev=0.25 | open-meteo
@@ -162,11 +162,11 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | total | Over 40.5 | 58% | Lean | 0.5 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -134 | 63% | Strong Play | 1.0 |
-| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 66% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 65% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 58% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -115 | 59% | Lean | 0.5 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -545 | 88% | Lean | 0.5 |
-| Kansas City Chiefs @ Buffalo Bills | total | Under 47.5 | 60% | Lean | 0.5 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -542 | 87% | Lean | 0.5 |
+| Kansas City Chiefs @ Buffalo Bills | total | Under 48.5 | 61% | Lean | 0.5 |
 | USC @ UCLA | moneyline | UCLA ML +215 | 35% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
 | UAB @ North Texas | total | Over 46.5 | 54% | Lean | 0.5 |
@@ -179,12 +179,12 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NCAAF parlay: UCLA ML +215 + Under 76.5 | model 18.7%, needs +507 to break even, edge +2.3%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 46.5 | model 18.9%, needs +501 to break even, edge +2.2%, Lean
 - NCAAF parlay: Over 46.5 + Under 76.5 | model 29.0%, needs +268 to break even, edge +1.8%, No Play
-- NFL parlay: Cincinnati Bengals ML -545 + Under 47.5 + Jacksonville Jaguars ML -1220 | model 52.3%, needs +151 to break even, edge +12.5%, Max Play
-- NFL parlay: Under 47.5 + Jacksonville Jaguars ML -1220 | model 59.4%, needs +112 to break even, edge +12.3%, Max Play
-- NFL parlay: Under 47.5 + Houston Texans ML -310 + Jacksonville Jaguars ML -1220 | model 47.7%, needs +181 to break even, edge +12.1%, Max Play
-- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 40.5 -> 34.5 | model 49.5%, needs +160 to break even, edge +11.1%, Max Play
-- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 41.5 -> 35.5 | model 49.5%, needs +160 to break even, edge +11.0%, Max Play
-- NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 35.5 -> 29.5 | model 49.4%, needs +160 to break even, edge +11.0%, Max Play
+- NFL parlay: Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1220 | model 59.2%, needs +110 to break even, edge +11.6%, Max Play
+- NFL parlay: Cincinnati Bengals ML -542 + Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1220 | model 51.8%, needs +149 to break even, edge +11.6%, Max Play
+- NFL parlay: Detroit Lions +2.5 (spread) + Houston Texans ML -310 + Jacksonville Jaguars ML -1220 | model 47.5%, needs +178 to break even, edge +11.6%, Max Play
+- NFL teaser: Under 48.5 -> 54.5 + Under 55.5 -> 61.5 + Over 40.5 -> 34.5 | model 50.0%, needs +160 to break even, edge +11.6%, Max Play
+- NFL teaser: Under 48.5 -> 54.5 + Under 55.5 -> 61.5 + Over 41.5 -> 35.5 | model 50.0%, needs +160 to break even, edge +11.6%, Max Play
+- NFL teaser: Under 48.5 -> 54.5 + Under 55.5 -> 61.5 + Over 35.5 -> 29.5 | model 50.0%, needs +160 to break even, edge +11.5%, Max Play
 
 ## Results and learning by market
 
