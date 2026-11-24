@@ -31,7 +31,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Central Michigan @ Ball State | total | Under 48.5 | 51% | +1.2 pts | No Play | 0 |
 | Central Michigan @ Ball State | moneyline | Ball State ML +160 | 39% | +0.5% | No Play | 0 |
 | Penn State @ Maryland | spread | Penn State -7.5 (spread) | 51% |  | No Play | 0 |
-| Penn State @ Maryland | total | Over 50.5 | 51% | +1.0 pts | No Play | 0 |
+| Penn State @ Maryland | total | Over 49.5 | 52% | +1.3 pts | No Play | 0 |
 | Penn State @ Maryland | moneyline | Maryland ML +225 | 31% | -0.2% | No Play | 0 |
 | Air Force @ New Mexico | spread | New Mexico -6.5 (spread) | 50% |  | No Play | 0 |
 | Air Force @ New Mexico | total | Under 41.5 | 50% | +0.0 pts | No Play | 0 |
@@ -64,8 +64,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Coastal Carolina @ James Madison | total | Over 54.5 | 50% | +0.3 pts | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | James Madison ML -850 | 88% | -1.7% | No Play | 0 |
 | Tulsa @ UTSA | spread | Tulsa +2.5 (spread) | 51% |  | No Play | 0 |
-| Tulsa @ UTSA | total | Under 58.5 | 50% | +0.3 pts | No Play | 0 |
-| Tulsa @ UTSA | moneyline | UTSA ML -118 | 53% | -0.8% | No Play | 0 |
+| Tulsa @ UTSA | total | Under 57.5 | 50% | +0.0 pts | No Play | 0 |
+| Tulsa @ UTSA | moneyline | UTSA ML -115 | 53% | -0.1% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 40.5 | 53% | +2.1 pts | No Play | 0 |
 | Texas @ Texas A&M | moneyline | Texas A&M ML +350 | 24% | +1.3% | No Play | 0 |
@@ -82,7 +82,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Michigan State @ Rutgers | total | Over 47.5 | 50% | +0.0 pts | No Play | 0 |
 | Michigan State @ Rutgers | moneyline | Rutgers ML +142 | 41% | -0.4% | No Play | 0 |
 | Buffalo @ Akron | spread | Buffalo -10 (spread) | 50% |  | No Play | 0 |
-| Buffalo @ Akron | total | Under 49.5 | 51% | +0.5 pts | No Play | 0 |
+| Buffalo @ Akron | total | Under 48.5 | 50% | +0.2 pts | No Play | 0 |
 | Buffalo @ Akron | moneyline | Akron ML +245 | 30% | +0.9% | No Play | 0 |
 | Louisville @ Kentucky | spread | Louisville +1.5 (spread) | 51% |  | No Play | 0 |
 | Louisville @ Kentucky | total | Under 54.5 | 52% | +1.4 pts | No Play | 0 |
@@ -92,7 +92,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | San Diego State @ Washington State | moneyline | Washington State ML -142 | 57% | -2.1% | No Play | 0 |
 | Army @ Rice | spread | Army -6.5 (spread) | 50% |  | No Play | 0 |
 | Army @ Rice | total | Over 48.5 | 52% | +1.7 pts | No Play | 0 |
-| Army @ Rice | moneyline | Rice ML +185 | 34% | -1.6% | No Play | 0 |
+| Army @ Rice | moneyline | Army ML -205 | 66% | -0.7% | No Play | 0 |
 | Kansas State @ Iowa State | spread | Kansas State +4.5 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ Iowa State | total | Under 53.5 | 51% | +1.1 pts | No Play | 0 |
 | Kansas State @ Iowa State | moneyline | Kansas State ML +150 | 41% | +1.0% | No Play | 0 |
@@ -166,7 +166,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Nebraska @ Iowa | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +170 | 39% | +1.6% | No Play | 0 |
 | UConn @ Wyoming | spread | Wyoming +3.5 (spread) | 50% |  | No Play | 0 |
-| UConn @ Wyoming | total | Under 46.5 | 52% | +1.8 pts | No Play | 0 |
+| UConn @ Wyoming | total | Under 45.5 | 52% | +1.4 pts | No Play | 0 |
 | UConn @ Wyoming | moneyline | Wyoming ML +130 | 42% | -1.8% | No Play | 0 |
 | Sacramento State @ Hawai'i | spread | Hawai'i -13.5 (spread) | 50% |  | Lean | 0.5 |
 | Sacramento State @ Hawai'i | total | Over 39.5 | 52% | +1.9 pts | No Play | 0 |
@@ -231,13 +231,13 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +325 | 26% | +2.6% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 44.5 | 50% | +0.1 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -135 | 63% | +5.9% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -136 | 63% | +5.7% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -154 | 65% | +4.8% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 38.5 | 51% | +0.3 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -156 | 61% | +0.4% | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Denver Broncos ML -159 | 61% | -0.1% | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 46.5 | 56% | +1.4 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -176 | 66% | +1.9% | No Play | 0 |
@@ -246,10 +246,10 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -114 | 59% | +5.6% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 50.5 | 53% | +0.7 pts | No Play | 0 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -610 | 86% | +0.5% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -610 | 87% | +1.6% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 47.5 | 59% | +1.9 pts | Lean | 0.5 |
-| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -151 | 62% | +1.4% | No Play | 0 |
+| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -150 | 62% | +1.6% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | +2.4 pts | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +120 | 45% | -0.1% | No Play | 0 |
@@ -258,7 +258,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -212 | 66% | -1.9% | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | spread | Houston Texans -6.5 (spread) | 59% |  | Strong Play | 1 |
 | Baltimore Ravens @ Houston Texans | total | Over 46.5 | 52% | +0.3 pts | No Play | 0 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -304 | 80% | +5.1% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -316 | 80% | +4.3% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | spread | Tennessee Titans +14.5 (spread) | 53% |  | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | total | Under 47.5 | 51% | +0.3 pts | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1240 | 99% | +6.2% | Strong Play | 1 |
@@ -277,11 +277,11 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 ### NFL Best parlays
 
-- Over 35.5 + Houston Texans ML -304 + Jacksonville Jaguars ML -1240: model 48.5%, needs +175 to break even (reference payout +175), edge +12.1%, Max Play
 - Over 35.5 + Jacksonville Jaguars ML -1240: model 60.4%, needs +107 to break even (reference payout +107), edge +12.1%, Max Play
-- Detroit Lions +2.5 (spread) + Houston Texans ML -304 + Jacksonville Jaguars ML -1240: model 47.5%, needs +179 to break even (reference payout +179), edge +11.7%, Max Play
+- Over 35.5 + Houston Texans ML -316 + Jacksonville Jaguars ML -1240: model 48.5%, needs +173 to break even (reference payout +173), edge +11.8%, Max Play
 - Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1240: model 59.2%, needs +110 to break even (reference payout +110), edge +11.6%, Max Play
 - Over 35.5 + Jacksonville Jaguars ML -1240 + Minnesota Vikings ML -351: model 49.0%, needs +166 to break even (reference payout +166), edge +11.4%, Max Play
+- Detroit Lions +2.5 (spread) + Houston Texans ML -316 + Jacksonville Jaguars ML -1240: model 47.5%, needs +176 to break even (reference payout +176), edge +11.3%, Max Play
 
 ### NFL Best 6-point teasers
 
