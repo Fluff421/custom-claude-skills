@@ -54,7 +54,7 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | Virginia @ Virginia Tech | total | Over 51.5 | 51% | +0.8 pts | No Play | 0 |
 | Virginia @ Virginia Tech | moneyline | Virginia ML +130 | 43% | -0.3% | No Play | 0 |
 | Kansas @ Oklahoma State | spread | Oklahoma State -6.5 (spread) | 51% |  | No Play | 0 |
-| Kansas @ Oklahoma State | total | Under 66.5 | 52% | +1.6 pts | No Play | 0 |
+| Kansas @ Oklahoma State | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
 | Kansas @ Oklahoma State | moneyline | Kansas ML +205 | 33% | +0.1% | No Play | 0 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
 | Notre Dame @ Syracuse | total | Over 52.5 | 50% | +0.3 pts | No Play | 0 |
@@ -63,7 +63,7 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | Louisiana @ Georgia State | total | Over 55.5 | 50% | +0.3 pts | No Play | 0 |
 | Louisiana @ Georgia State | moneyline | Georgia State ML +180 | 36% | +0.7% | No Play | 0 |
 | Coastal Carolina @ James Madison | spread | James Madison -15.5 (spread) | 51% |  | No Play | 0 |
-| Coastal Carolina @ James Madison | total | Under 56.5 | 50% | +0.3 pts | No Play | 0 |
+| Coastal Carolina @ James Madison | total | Over 55.5 | 50% | +0.0 pts | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | Coastal Carolina ML +575 | 13% | -1.4% | No Play | 0 |
 | Tulsa @ UTSA | spread | Tulsa +2.5 (spread) | 51% |  | No Play | 0 |
 | Tulsa @ UTSA | total | Under 58.5 | 50% | +0.3 pts | No Play | 0 |
@@ -272,7 +272,7 @@ Markets not yet posted (no pick until a line is listed): New Orleans Saints @ Ci
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +260 | 33% | +5.5% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 48.5 | 50% | +0.1 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -493 | 85% | +1.6% | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -495 | 85% | +1.6% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 41.5 | 58% | +1.7 pts | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -221 | 69% | +0.2% | No Play | 0 |
