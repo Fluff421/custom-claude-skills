@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T22:49:40.522645+00:00",
+  "checked_at": "2026-11-25T23:39:35.319025+00:00",
   "central_date": "2026-11-25",
   "ready": false,
   "policy": {
@@ -14,46 +14,46 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.012,
+      "age_hours": 0.017,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 218.895,
+      "age_hours": 219.726,
       "max_age_hours": 168
     },
     "pricecheck": {
-      "age_hours": 0.0,
+      "age_hours": 0.001,
       "max_age_hours": 4
     },
     "ops_export": {
-      "age_hours": 0.012,
+      "age_hours": 0.017,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.211,
+      "age_hours": 0.043,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 4,
       "status": "degraded",
       "last_good_age_hours": null,
-      "age_hours": 1.277
+      "age_hours": 2.109
     },
     "espn-sync.yml": {
-      "age_hours": 1.377,
+      "age_hours": 2.209,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 0.981,
+      "age_hours": 1.813,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 1.193,
+      "age_hours": 2.025,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "splash_board: age 218.89h outside [0, 168)h (5m clock tolerance)",
+    "splash_board: age 219.73h outside [0, 168)h (5m clock tolerance)",
     "pricecheck: invalid source provenance (float() argument must be a string or a real number, not 'NoneType')"
   ],
   "warnings": [
