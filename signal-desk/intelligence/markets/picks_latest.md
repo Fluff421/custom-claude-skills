@@ -225,7 +225,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +271 | 27% | +0.5% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Under 44.5 | 50% | +0.1 pts | No Play | 0 |
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -138 | 63% | +5.4% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -137 | 63% | +5.5% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 65% | +4.7% | Lean | 0.5 |
@@ -246,13 +246,13 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -150 | 62% | +1.6% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | +2.4 pts | Lean | 0.5 |
-| Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +102 | 48% | -1.3% | No Play | 0 |
+| Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +105 | 48% | -0.5% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 40.5 | 54% | +0.9 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -195 | 66% | -0.1% | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | spread | Houston Texans -6.5 (spread) | 59% |  | Strong Play | 1 |
 | Baltimore Ravens @ Houston Texans | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -297 | 81% | +6.7% | Strong Play | 1 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -299 | 81% | +6.6% | Strong Play | 1 |
 | Tennessee Titans @ Jacksonville Jaguars | spread | Tennessee Titans +14.5 (spread) | 53% |  | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | total | Under 48.5 | 53% | +0.6 pts | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1120 | 99% | +7.0% | Strong Play | 1 |
@@ -271,11 +271,11 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 ### NFL Best parlays
 
-- Houston Texans ML -297 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -324: model 65.3%, needs -110 to break even (reference payout -110), edge +12.9%, Max Play
-- Detroit Lions +2.5 (spread) + Houston Texans ML -297 + Jacksonville Jaguars ML -1120: model 48.2%, needs +179 to break even (reference payout +179), edge +12.4%, Max Play
-- Under 55.5 + Houston Texans ML -297 + Jacksonville Jaguars ML -1120: model 48.9%, needs +172 to break even (reference payout +172), edge +12.2%, Max Play
-- Houston Texans ML -297 + Jacksonville Jaguars ML -1120 + Indianapolis Colts +6.5 (spread): model 47.6%, needs +180 to break even (reference payout +180), edge +12.0%, Max Play
-- Houston Texans ML -297 + Jacksonville Jaguars ML -1120: model 80.5%, needs -219 to break even (reference payout -219), edge +11.8%, Max Play
+- Houston Texans ML -299 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -324: model 65.3%, needs -111 to break even (reference payout -111), edge +12.8%, Max Play
+- Detroit Lions +2.5 (spread) + Houston Texans ML -299 + Jacksonville Jaguars ML -1120: model 48.2%, needs +179 to break even (reference payout +179), edge +12.3%, Max Play
+- Under 55.5 + Houston Texans ML -299 + Jacksonville Jaguars ML -1120: model 48.9%, needs +172 to break even (reference payout +172), edge +12.2%, Max Play
+- Houston Texans ML -299 + Jacksonville Jaguars ML -1120 + Indianapolis Colts +6.5 (spread): model 47.6%, needs +180 to break even (reference payout +180), edge +11.9%, Max Play
+- Houston Texans ML -299 + Jacksonville Jaguars ML -1120: model 80.5%, needs -220 to break even (reference payout -220), edge +11.7%, Max Play
 
 ### NFL Best 6-point teasers
 

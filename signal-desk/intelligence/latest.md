@@ -160,7 +160,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -138 | 63% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -137 | 63% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 65% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 58% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -113 | 59% | Lean | 0.5 |
@@ -169,16 +169,16 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
 | UAB @ North Texas | total | Over 46.5 | 54% | Lean | 0.5 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -308 | 81% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -299 | 81% | Strong Play | 1.0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1120 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -324 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +246 | 33% | Lean | 0.5 |
 - NCAAF parlay: Over 37.5 + Over 46.5 | model 28.9%, needs +281 to break even, edge +2.6%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 46.5 | model 18.8%, needs +515 to break even, edge +2.6%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +515 to break even, edge +2.4%, Lean
-- NFL parlay: Houston Texans ML -308 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -324 | model 65.3%, needs -113 to break even, edge +12.4%, Max Play
-- NFL parlay: Detroit Lions +2.5 (spread) + Houston Texans ML -308 + Jacksonville Jaguars ML -1120 | model 48.2%, needs +177 to break even, edge +12.1%, Max Play
-- NFL parlay: Under 55.5 + Houston Texans ML -308 + Jacksonville Jaguars ML -1120 | model 48.9%, needs +170 to break even, edge +11.9%, Max Play
+- NFL parlay: Houston Texans ML -299 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -324 | model 65.3%, needs -111 to break even, edge +12.8%, Max Play
+- NFL parlay: Detroit Lions +2.5 (spread) + Houston Texans ML -299 + Jacksonville Jaguars ML -1120 | model 48.2%, needs +179 to break even, edge +12.3%, Max Play
+- NFL parlay: Under 55.5 + Houston Texans ML -299 + Jacksonville Jaguars ML -1120 | model 48.9%, needs +172 to break even, edge +12.2%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 35.5 -> 29.5 + Under 46.5 -> 52.5 | model 48.4%, needs +160 to break even, edge +9.9%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 35.5 -> 29.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7) | model 48.1%, needs +160 to break even, edge +9.6%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Under 46.5 -> 52.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7) | model 48.0%, needs +160 to break even, edge +9.5%, Max Play
