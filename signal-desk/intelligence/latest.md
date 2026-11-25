@@ -162,7 +162,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 |---|---|---|---|---|---|
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -137 | 63% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 65% | Lean | 0.5 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +174 | 41% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +169 | 41% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -113 | 59% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 50.5 | 59% | Lean | 0.5 |
@@ -170,16 +170,16 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | USC @ UCLA | moneyline | UCLA ML +215 | 35% | Lean | 0.5 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -326 | 81% | Lean | 0.5 |
-| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1120 | 99% | Strong Play | 1.0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -324 | 81% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -322 | 81% | Lean | 0.5 |
+| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1100 | 99% | Strong Play | 1.0 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -320 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +247 | 33% | Lean | 0.5 |
-- NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +515 to break even, edge +2.4%, Lean
-- NCAAF parlay: UCLA ML +215 + North Texas -4.5 (spread) | model 17.4%, needs +536 to break even, edge +1.7%, No Play
-- NCAAF parlay: Over 37.5 + North Texas -4.5 (spread) | model 26.7%, needs +294 to break even, edge +1.4%, No Play
-- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1120 | model 62.0%, needs +116 to break even, edge +15.6%, Max Play
-- NFL parlay: Under 46.5 + Houston Texans ML -326 + Jacksonville Jaguars ML -1120 | model 50.5%, needs +182 to break even, edge +15.0%, Max Play
-- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -324 | model 50.3%, needs +182 to break even, edge +14.9%, Max Play
+- NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +524 to break even, edge +2.6%, Lean
+- NCAAF parlay: UCLA ML +215 + Over 37.5 + North Texas -4.5 (spread) | model 9.3%, needs +1081 to break even, edge +0.8%, No Play
+- NCAAF parlay: UCLA ML +215 + Over 37.5 + Hawai'i -13.5 (spread) | model 9.3%, needs +1066 to break even, edge +0.7%, No Play
+- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1100 | model 62.0%, needs +116 to break even, edge +15.7%, Max Play
+- NFL parlay: Under 46.5 + Houston Texans ML -322 + Jacksonville Jaguars ML -1100 | model 50.5%, needs +183 to break even, edge +15.2%, Max Play
+- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1100 + Minnesota Vikings ML -320 | model 50.3%, needs +184 to break even, edge +15.1%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Over 35.5 -> 29.5 + Under 55.5 -> 61.5 | model 51.9%, needs +160 to break even, edge +13.4%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Over 35.5 -> 29.5 + Under 50.5 -> 56.5 | model 50.9%, needs +160 to break even, edge +12.5%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Under 55.5 -> 61.5 + Under 50.5 -> 56.5 | model 50.8%, needs +160 to break even, edge +12.3%, Max Play
