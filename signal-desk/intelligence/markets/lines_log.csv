@@ -4621,3 +4621,7 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-25T09:38:40+00:00,recdvwevQxE9cb668,401871063,NCAAF,Liberty @ Missouri State,2026-11-28,DraftKings,-17.5,53.5,575,-850,-110.0,-110.0,-105.0,-115.0,-14.5
 2026-11-25T09:38:40+00:00,recj8prfk94D0f9lD,401873081,NFL,Chicago Bears @ Detroit Lions,2026-11-26,DraftKings,-1.5,55.5,105,-124,-109.0,-110.0,-104.0,-115.0,2.5
 2026-11-25T09:38:40+00:00,reco8reR66QV5gqyN,401873085,NFL,Baltimore Ravens @ Houston Texans,2026-11-29,DraftKings,7.0,47.5,-299,243,-105.0,-115.0,-103.0,-117.0,1.5
+2026-11-25T10:38:52+00:00,recULGfBuf1xWHK45,401873087,NFL,New Orleans Saints @ Cincinnati Bengals,2026-11-29,DraftKings,10.0,50.5,-610,451,-107.0,-112.0,-107.0,-112.0,6.5
+2026-11-25T10:38:52+00:00,recj8prfk94D0f9lD,401873081,NFL,Chicago Bears @ Detroit Lions,2026-11-26,DraftKings,-1.5,55.5,105,-123,-109.0,-110.0,-104.0,-115.0,2.5
+2026-11-25T10:38:52+00:00,reco8reR66QV5gqyN,401873085,NFL,Baltimore Ravens @ Houston Texans,2026-11-29,DraftKings,7.0,47.5,-326,262,-105.0,-115.0,-103.0,-117.0,1.5
+2026-11-25T10:38:52+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,DraftKings,8.5,48.5,-470,364,-111.0,-108.0,-106.0,-113.0,1.5
