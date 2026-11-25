@@ -267,7 +267,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -480 | 85% | +2.1% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 39.5 | 55% | +1.1 pts | No Play | 0 |
-| Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -240 | 69% | -1.6% | No Play | 0 |
+| Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -241 | 69% | -1.6% | No Play | 0 |
 
 ### NFL Best parlays
 

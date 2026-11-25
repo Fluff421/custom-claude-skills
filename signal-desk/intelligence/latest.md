@@ -21,15 +21,15 @@ Overall graded picks: 145-157 (Brier 0.2561).
 | Washington Commanders @ Arizona Cardinals | 2026-11-29 | Lean | Arizona Cardinals +6.5 (spread) | 0.5 | 54.5% |  |
 | New York Giants @ Indianapolis Colts | 2026-11-29 | Lean | Indianapolis Colts +6.5 (spread) | 0.5 | 59.2% |  |
 - Baltimore Ravens @ Houston Texans: weather: indoor | sev=0.00
-- Green Bay Packers @ Los Angeles Rams: weather: 62F, wind 6mph, precip 0% | sev=0.00 | open-meteo
+- Green Bay Packers @ Los Angeles Rams: weather: 62F, wind 4mph, precip 0% | sev=0.00 | open-meteo
 - Chicago Bears @ Detroit Lions: weather: indoor | sev=0.00
-- Sacramento State @ Hawai'i: weather: 69F, wind 8mph, precip 1% | sev=0.00 | open-meteo
-- UAB @ North Texas: weather: 66F, wind 21mph, precip 0% | sev=1.00 | open-meteo
+- Sacramento State @ Hawai'i: weather: 69F, wind 8mph, precip 6% | sev=0.00 | open-meteo
+- UAB @ North Texas: weather: 65F, wind 21mph, precip 0% | sev=1.00 | open-meteo
 - Atlanta Falcons @ Minnesota Vikings: weather: indoor | sev=0.00
-- New Orleans Saints @ Cincinnati Bengals: weather: 49F, wind 9mph, precip 60% | sev=0.40 | open-meteo
-- Seattle Seahawks @ San Francisco 49ers: QB: HOME QB PLAYING Brock Purdy [auto espn 2026-11-25] | AWAY QB QUESTIONABLE Sam Darnold -> Drew Lock [auto espn 2026-11-25] [priced: Drew Lock led passing 2026-11-15]; weather: 61F, wind 10mph, precip 63% | sev=0.40 | open-meteo
-- Carolina Panthers @ Tampa Bay Buccaneers: weather: 70F, wind 4mph, precip 12% | sev=0.00 | open-meteo
-- New England Patriots @ Los Angeles Chargers: QB: HOME QB QUESTIONABLE Justin Herbert -> DJ Uiagalelei [auto espn 2026-11-25] | AWAY QB PLAYING Tommy DeVito [auto espn 2026-11-25]; weather: 71F, wind 9mph, precip 3% | sev=0.00 | open-meteo
+- New Orleans Saints @ Cincinnati Bengals: weather: 50F, wind 12mph, precip 84% | sev=0.40 | open-meteo
+- Seattle Seahawks @ San Francisco 49ers: QB: HOME QB QUESTIONABLE Brock Purdy -> Mac Jones [auto espn 2026-11-25] | AWAY QB QUESTIONABLE Sam Darnold -> Drew Lock [auto espn 2026-11-25] [priced: Drew Lock led passing 2026-11-15]; weather: 63F, wind 9mph, precip 61% | sev=0.40 | open-meteo
+- Carolina Panthers @ Tampa Bay Buccaneers: weather: 69F, wind 8mph, precip 28% | sev=0.00 | open-meteo
+- New England Patriots @ Los Angeles Chargers: QB: HOME QB QUESTIONABLE Justin Herbert -> DJ Uiagalelei [auto espn 2026-11-25] | AWAY QB PLAYING Tommy DeVito [auto espn 2026-11-25]; weather: 71F, wind 8mph, precip 1% | sev=0.00 | open-meteo
 - Washington Commanders @ Arizona Cardinals: QB: HOME QB QUESTIONABLE Carson Beck -> Josh Johnson [auto espn 2026-11-25] [priced: Josh Johnson led passing 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-25]; weather: indoor | sev=0.00
 - New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
 
@@ -131,8 +131,8 @@ By size of base edge:
 
 ## What the learner currently believes
 
-- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 56 (20 with factor records); last calibrated 2026-11-25T12:32:33.000Z
-- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 249 (62 with factor records); last calibrated 2026-11-25T12:32:33.000Z
+- NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 56 (20 with factor records); last calibrated 2026-11-25T21:50:40.000Z
+- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 249 (62 with factor records); last calibrated 2026-11-25T21:50:40.000Z
 
 ## What changes automatically, and how close each change is
 
@@ -171,16 +171,17 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Kansas City Chiefs @ Buffalo Bills | total | Under 46.5 | 63% | Lean | 0.5 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -326 | 81% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -327 | 81% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | Strong Play | 1.0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | Lean | 0.5 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +261 | 33% | Lean | 0.5 |
-- NCAAF parlay: Over 37.5 + North Texas -4.5 (spread) | model 26.7%, needs +273 to break even, edge -0.1%, No Play
-- NCAAF parlay: Over 37.5 + Hawai'i -13.5 (spread) | model 26.7%, needs +270 to break even, edge -0.3%, No Play
-- NCAAF parlay: Over 37.5 + North Texas -4.5 (spread) + Hawai'i -13.5 (spread) | model 13.4%, needs +606 to break even, edge -0.8%, No Play
-- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309 | model 50.3%, needs +173 to break even, edge +13.7%, Max Play
+| Boise State @ Colorado State | total | Under 76.5 | 57% | Strong Play | 1.0 |
+- NCAAF parlay: Over 37.5 + Under 76.5 | model 30.3%, needs +276 to break even, edge +3.7%, Lean
+- NCAAF parlay: Over 37.5 + North Texas -4.5 (spread) + Under 76.5 | model 15.2%, needs +618 to break even, edge +1.2%, No Play
+- NCAAF parlay: North Texas -4.5 (spread) + Under 76.5 | model 28.4%, needs +268 to break even, edge +1.2%, No Play
+- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -310 | model 50.3%, needs +173 to break even, edge +13.7%, Max Play
 - NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1160 | model 62.0%, needs +106 to break even, edge +13.6%, Max Play
-- NFL parlay: Under 46.5 + Houston Texans ML -326 + Jacksonville Jaguars ML -1160 | model 50.5%, needs +170 to break even, edge +13.5%, Max Play
+- NFL parlay: Under 46.5 + Houston Texans ML -327 + Jacksonville Jaguars ML -1160 | model 50.5%, needs +170 to break even, edge +13.4%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Over 35.5 -> 29.5 + Under 55.5 -> 61.5 | model 51.9%, needs +160 to break even, edge +13.4%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Over 35.5 -> 29.5 + Under 49.5 -> 55.5 | model 50.4%, needs +160 to break even, edge +11.9%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Under 55.5 -> 61.5 + Under 49.5 -> 55.5 | model 50.2%, needs +160 to break even, edge +11.8%, Max Play
