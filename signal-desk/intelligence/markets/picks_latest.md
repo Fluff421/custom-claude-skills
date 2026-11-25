@@ -222,7 +222,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 |---|---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | spread | Arizona Cardinals +6.5 (spread) | 54% |  | Lean | 0.5 |
 | Washington Commanders @ Arizona Cardinals | total | Over 41.5 | 56% | +1.4 pts | No Play | 0 |
-| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +263 | 27% | -0.1% | No Play | 0 |
+| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +266 | 27% | +0.1% | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | spread | Los Angeles Rams -3.5 (spread) | 59% |  | Strong Play | 1 |
 | Green Bay Packers @ Los Angeles Rams | total | Over 43.5 | 51% | +0.2 pts | No Play | 0 |
 | Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -143 | 63% | +4.5% | Lean | 0.5 |
@@ -240,7 +240,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -112 | 59% | +6.0% | Strong Play | 1 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 50.5 | 59% | +1.9 pts | Lean | 0.5 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -620 | 87% | +1.4% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -591 | 87% | +1.9% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 46.5 | 63% | +2.8 pts | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -148 | 62% | +1.9% | No Play | 0 |
