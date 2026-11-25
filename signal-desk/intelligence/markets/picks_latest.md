@@ -233,7 +233,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Denver Broncos @ Pittsburgh Steelers | total | Over 36.5 | 54% | +0.9 pts | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +170 | 41% | +4.4% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
-| Seattle Seahawks @ San Francisco 49ers | total | Under 45.5 | 55% | +1.1 pts | No Play | 0 |
+| Seattle Seahawks @ San Francisco 49ers | total | Under 44.5 | 54% | +0.8 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -158 | 66% | +4.5% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | spread | Los Angeles Chargers -4.5 (spread) | 50% |  | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | +2.4 pts | Lean | 0.5 |
@@ -258,10 +258,10 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1120 | 99% | +7.0% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 41.5 | 50% | +0.0 pts | No Play | 0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | +5.6% | Lean | 0.5 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | +5.6% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +262 | 33% | +5.5% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +261 | 33% | +5.4% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 52% | +0.4 pts | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -464 | 85% | +2.6% | No Play | 0 |
@@ -271,10 +271,10 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 ### NFL Best parlays
 
-- Under 46.5 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -310: model 50.3%, needs +174 to break even (reference payout +174), edge +13.8%, Max Play
+- Under 46.5 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -309: model 50.3%, needs +174 to break even (reference payout +174), edge +13.8%, Max Play
 - Under 46.5 + Jacksonville Jaguars ML -1120: model 62.0%, needs +107 to break even (reference payout +107), edge +13.7%, Max Play
 - Under 46.5 + Houston Texans ML -322 + Jacksonville Jaguars ML -1120: model 50.5%, needs +171 to break even (reference payout +171), edge +13.7%, Max Play
-- Over 35.5 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -310: model 49.0%, needs +176 to break even (reference payout +176), edge +12.8%, Max Play
+- Over 35.5 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -309: model 49.0%, needs +176 to break even (reference payout +176), edge +12.8%, Max Play
 - Over 35.5 + Under 46.5 + Jacksonville Jaguars ML -1120: model 37.9%, needs +297 to break even (reference payout +297), edge +12.7%, Max Play
 
 ### NFL Best 6-point teasers
