@@ -4606,3 +4606,8 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-25T06:38:52+00:00,recWJjbwo0bJ95VLb,401858538,NCAAF,Purdue @ Indiana,2026-11-27,Draft Kings,22.5,52.5,-2100,1100,-112.0,-108.0,-110.0,-110.0,22.5
 2026-11-25T06:38:52+00:00,recpPhCO8j33Igo8i,401873084,NFL,Atlanta Falcons @ Minnesota Vikings,2026-11-29,Draft Kings,7.0,41.5,-324,262,100.0,-120.0,-113.0,-107.0,4.5
 2026-11-25T06:38:52+00:00,recspGprBdchkMpgS,401873080,NFL,Philadelphia Eagles @ Dallas Cowboys,2026-11-26,Draft Kings,8.5,48.5,-468,363,-111.0,-108.0,-104.0,-116.0,1.5
+2026-11-25T07:39:05+00:00,recKR9lPGcmgm0f3w,401873083,NFL,Denver Broncos @ Pittsburgh Steelers,2026-11-27,Draft Kings,-3.5,36.5,171,-204,-103.0,-116.0,-104.0,-116.0,-1.5
+2026-11-25T07:39:05+00:00,recMfKRGMpQxLeiya,401873091,NFL,Seattle Seahawks @ San Francisco 49ers,2026-11-29,Draft Kings,3.0,45.5,-177,149,-122.0,102.0,-105.0,-114.0,1.5
+2026-11-25T07:39:05+00:00,recYI3vKDIRLV1sOY,401873082,NFL,Kansas City Chiefs @ Buffalo Bills,2026-11-26,Draft Kings,3.0,46.5,-150,127,100.0,-120.0,-117.0,-102.0,2.5
+2026-11-25T07:39:05+00:00,reco8reR66QV5gqyN,401873085,NFL,Baltimore Ravens @ Houston Texans,2026-11-29,Draft Kings,7.0,47.5,-308,250,-105.0,-115.0,-103.0,-117.0,1.5
+2026-11-25T07:39:05+00:00,recrQkOwpkcIisvRE,401873088,NFL,New York Giants @ Indianapolis Colts,2026-11-29,Draft Kings,-6.5,41.5,246,-303,-108.0,-111.0,-110.0,-109.0,2.5
