@@ -176,9 +176,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +515 to break even, edge +2.4%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 45.5 | model 19.0%, needs +496 to break even, edge +2.2%, Lean
 - NCAAF parlay: Over 37.5 + Over 45.5 | model 29.1%, needs +270 to break even, edge +2.0%, No Play
+- NFL parlay: Detroit Lions +2.5 (spread) + Houston Texans ML -328 + Jacksonville Jaguars ML -1280 | model 48.2%, needs +171 to break even, edge +11.3%, Max Play
+- NFL parlay: Detroit Lions +2.5 (spread) + Jacksonville Jaguars ML -1280 + Minnesota Vikings ML -328 | model 48.0%, needs +171 to break even, edge +11.1%, Max Play
 - NFL parlay: Houston Texans -6.5 (spread) + Jacksonville Jaguars ML -1280 + Minnesota Vikings ML -328 | model 47.5%, needs +175 to break even, edge +11.1%, Max Play
-- NFL parlay: Houston Texans -6.5 (spread) + Jacksonville Jaguars ML -1280 | model 58.5%, needs +110 to break even, edge +11.0%, Max Play
-- NFL parlay: Under 55.5 + Houston Texans ML -328 + Jacksonville Jaguars ML -1280 | model 48.9%, needs +163 to break even, edge +10.9%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 35.5 -> 29.5 | model 48.9%, needs +160 to break even, edge +10.4%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7) | model 48.5%, needs +160 to break even, edge +10.1%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Under 47.5 -> 53.5 + Over 41.5 -> 35.5 | model 48.3%, needs +160 to break even, edge +9.8%, Max Play

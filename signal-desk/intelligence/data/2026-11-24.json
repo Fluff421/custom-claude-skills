@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "generated_at": "2026-11-25T01:39:04+00:00",
+ "generated_at": "2026-11-25T02:39:06+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Houston Texans",
@@ -5699,7 +5699,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-25T01:38:42+00:00",
+   "generated_at": "2026-11-25T02:38:36+00:00",
    "date": "2026-11-24",
    "games": [
     {
@@ -6710,18 +6710,18 @@
        "side": "home",
        "team": "Arizona Cardinals",
        "line": 0.0,
-       "price": 280.0,
+       "price": 279.0,
        "price_estimated": false,
        "proj": -5.56,
        "prob": 0.2747,
-       "edge": 0.0115,
+       "edge": 0.0108,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Arizona Cardinals ML +280",
+       "selection": "Arizona Cardinals ML +279",
        "game_id": "rec5qq2WSH0UY0Dpz",
        "game": "Washington Commanders @ Arizona Cardinals",
        "priority": "primary",
@@ -7388,18 +7388,18 @@
        "side": "home",
        "team": "Utah",
        "line": 0.0,
-       "price": -2400.0,
+       "price": -2800.0,
        "price_estimated": false,
        "proj": 24.8,
        "prob": 0.9516,
-       "edge": -0.0084,
+       "edge": -0.0139,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Utah ML -2400",
+       "selection": "Utah ML -2800",
        "game_id": "recARpp2Fn9mM1OKK",
        "game": "West Virginia @ Utah",
        "priority": "primary",
@@ -8830,10 +8830,10 @@
      "date": "2026-11-27",
      "frozen": false,
      "line": -3.0,
-     "total_line": 38.5,
+     "total_line": 37.5,
      "model_margin": -2.0999999999999996,
      "blend_margin": -2.73,
-     "proj_total": 38.8,
+     "proj_total": 38.099999999999994,
      "factors": [
       "QB: HOME QB PLAYING Aaron Rodgers [auto espn 2026-11-24] | AWAY QB PLAYING Bo Nix [auto espn 2026-11-24]",
       "weather: 37F, wind 14mph, precip 67% | sev=0.40 | open-meteo"
@@ -8863,15 +8863,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 38.5,
-       "price": -103.0,
-       "proj": 38.8,
-       "prob": 0.5138,
-       "edge": 0.3,
+       "line": 37.5,
+       "price": -115.0,
+       "proj": 38.1,
+       "prob": 0.5275,
+       "edge": 0.6,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 38.5",
+       "selection": "Over 37.5",
        "game_id": "recKR9lPGcmgm0f3w",
        "game": "Denver Broncos @ Pittsburgh Steelers",
        "priority": "primary",
@@ -8925,13 +8925,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 38.5,
-       "line": 32.5,
+       "base_line": 37.5,
+       "line": 31.5,
        "price": 0.0,
-       "prob": 0.7357,
+       "prob": 0.7454,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 38.5 -> 32.5",
+       "selection": "Over 37.5 -> 31.5",
        "game_id": "recKR9lPGcmgm0f3w",
        "game": "Denver Broncos @ Pittsburgh Steelers",
        "priority": "secondary",
@@ -12781,10 +12781,10 @@
      "league": "NCAAF",
      "date": "2026-11-28",
      "frozen": false,
-     "line": -16.5,
+     "line": -17.5,
      "total_line": 53.5,
      "model_margin": -17.4,
-     "blend_margin": -16.6305,
+     "blend_margin": -17.4855,
      "proj_total": 52.06796428571428,
      "factors": [
       "weather: 58F, wind 11mph, precip 1% | sev=0.25 | open-meteo"
@@ -12798,7 +12798,7 @@
        "side": "away",
        "team": "Liberty",
        "line": -14.5,
-       "price": -118.0,
+       "price": -105.0,
        "proj": -17.4,
        "prob": 0.5062,
        "edge": null,
@@ -12830,25 +12830,25 @@
       },
       {
        "market": "moneyline",
-       "side": "home",
-       "team": "Missouri State",
+       "side": "away",
+       "team": "Liberty",
        "line": 0.0,
-       "price": 575.0,
+       "price": -850.0,
        "price_estimated": false,
-       "proj": -16.63,
-       "prob": 0.1327,
-       "edge": -0.0154,
+       "proj": -17.49,
+       "prob": 0.8792,
+       "edge": -0.0156,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Missouri State ML +575",
+       "selection": "Liberty ML -850",
        "game_id": "recdvwevQxE9cb668",
        "game": "Liberty @ Missouri State",
        "priority": "primary",
-       "pro_favorite": false
+       "pro_favorite": true
       }
      ],
      "teaser_legs": [
@@ -12857,13 +12857,13 @@
        "kind": "spread",
        "side": "home",
        "team": "Missouri State",
-       "base_line": 16.5,
-       "line": 22.5,
+       "base_line": 17.5,
+       "line": 23.5,
        "price": 0.0,
-       "prob": 0.5901,
+       "prob": 0.5917,
        "push": 0,
        "crosses": [],
-       "selection": "Missouri State +16.5 -> +22.5",
+       "selection": "Missouri State +17.5 -> +23.5",
        "game_id": "recdvwevQxE9cb668",
        "game": "Liberty @ Missouri State",
        "priority": "secondary",
@@ -12891,23 +12891,23 @@
      "alt_spreads": [
       {
        "team": "Missouri State",
-       "line": 13.5,
-       "prob": 0.4301
+       "line": 14.5,
+       "prob": 0.4368
       },
       {
        "team": "Liberty",
-       "line": -19.5,
-       "prob": 0.4105
+       "line": -20.5,
+       "prob": 0.4074
       },
       {
        "team": "Missouri State",
-       "line": 19.5,
-       "prob": 0.5895
+       "line": 20.5,
+       "prob": 0.5926
       },
       {
        "team": "Liberty",
-       "line": -13.5,
-       "prob": 0.5699
+       "line": -14.5,
+       "prob": 0.5632
       }
      ]
     },
@@ -13731,10 +13731,10 @@
      "league": "NFL",
      "date": "2026-11-26",
      "frozen": false,
-     "line": -2.5,
+     "line": -1.5,
      "total_line": 55.5,
      "model_margin": 2.0999999999999996,
-     "blend_margin": -1.12,
+     "blend_margin": -0.42000000000000015,
      "proj_total": 53.12307692307692,
      "factors": [
       "QB: HOME QB PLAYING Jared Goff [auto espn 2026-11-24] | AWAY QB PLAYING Caleb Williams [auto espn 2026-11-24]",
@@ -13747,7 +13747,7 @@
        "side": "home",
        "team": "Detroit Lions",
        "line": 2.5,
-       "price": -111.0,
+       "price": -108.0,
        "proj": 2.0999999999999996,
        "prob": 0.5989,
        "edge": null,
@@ -13782,18 +13782,18 @@
        "side": "home",
        "team": "Detroit Lions",
        "line": 0.0,
-       "price": 116.0,
+       "price": 108.0,
        "price_estimated": false,
-       "proj": -1.12,
-       "prob": 0.4531,
-       "edge": -0.0098,
+       "proj": -0.42,
+       "prob": 0.4824,
+       "edge": 0.0016,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Detroit Lions ML +116",
+       "selection": "Detroit Lions ML +108",
        "game_id": "recj8prfk94D0f9lD",
        "game": "Chicago Bears @ Detroit Lions",
        "priority": "primary",
@@ -13806,16 +13806,16 @@
        "kind": "spread",
        "side": "home",
        "team": "Detroit Lions",
-       "base_line": 2.5,
-       "line": 8.5,
+       "base_line": 1.5,
+       "line": 7.5,
        "price": 0.0,
-       "prob": 0.7457,
+       "prob": 0.739,
        "push": 0,
        "crosses": [
         3,
         7
        ],
-       "selection": "Detroit Lions +2.5 -> +8.5 (crosses 3 and 7)",
+       "selection": "Detroit Lions +1.5 -> +7.5 (crosses 3 and 7)",
        "game_id": "recj8prfk94D0f9lD",
        "game": "Chicago Bears @ Detroit Lions",
        "priority": "secondary",
@@ -13843,23 +13843,23 @@
      "alt_spreads": [
       {
        "team": "Detroit Lions",
-       "line": -0.5,
-       "prob": 0.4515
+       "line": -1.5,
+       "prob": 0.4431
       },
       {
        "team": "Chicago Bears",
-       "line": -5.5,
-       "prob": 0.3501
+       "line": -4.5,
+       "prob": 0.3571
       },
       {
        "team": "Detroit Lions",
-       "line": 5.5,
-       "prob": 0.6499
+       "line": 4.5,
+       "prob": 0.6429
       },
       {
        "team": "Chicago Bears",
-       "line": 0.5,
-       "prob": 0.5485
+       "line": 1.5,
+       "prob": 0.5569
       }
      ]
     },
@@ -14192,18 +14192,18 @@
        "side": "away",
        "team": "New York Jets",
        "line": 0.0,
-       "price": -197.0,
+       "price": -195.0,
        "price_estimated": false,
        "proj": -3.89,
        "prob": 0.6603,
-       "edge": -0.003,
+       "edge": -0.0007,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "New York Jets ML -197",
+       "selection": "New York Jets ML -195",
        "game_id": "recmjf2RKfSznZlz2",
        "game": "New York Jets @ Miami Dolphins",
        "priority": "primary",
@@ -16239,18 +16239,18 @@
        "side": "home",
        "team": "Dallas Cowboys",
        "line": 0.0,
-       "price": -470.0,
+       "price": -471.0,
        "price_estimated": false,
        "proj": 9.07,
        "prob": 0.8485,
-       "edge": 0.024,
+       "edge": 0.0237,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Dallas Cowboys ML -470",
+       "selection": "Dallas Cowboys ML -471",
        "game_id": "recspGprBdchkMpgS",
        "game": "Philadelphia Eagles @ Dallas Cowboys",
        "priority": "primary",
@@ -17494,6 +17494,108 @@
        "market": "parlay",
        "legs": [
         {
+         "game_id": "recj8prfk94D0f9lD",
+         "market_kind": "spread",
+         "side": "home",
+         "prob": 0.5989,
+         "price": -108.0,
+         "pro_favorite": false,
+         "selection": "Detroit Lions +2.5 (spread)",
+         "game": "Chicago Bears @ Detroit Lions",
+         "line": 2.5,
+         "grade_market": "spread"
+        },
+        {
+         "game_id": "reco8reR66QV5gqyN",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8149,
+         "price": -328.0,
+         "pro_favorite": true,
+         "selection": "Houston Texans ML -328",
+         "game": "Baltimore Ravens @ Houston Texans",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recp6o8WFsUDhjzQh",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.9879,
+         "price": -1280.0,
+         "pro_favorite": true,
+         "selection": "Jacksonville Jaguars ML -1280",
+         "game": "Tennessee Titans @ Jacksonville Jaguars",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.4821,
+       "price": 171,
+       "break_even_prob": 0.3691,
+       "break_even_price": 171,
+       "edge": 0.1131,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
+         "game_id": "recj8prfk94D0f9lD",
+         "market_kind": "spread",
+         "side": "home",
+         "prob": 0.5989,
+         "price": -108.0,
+         "pro_favorite": false,
+         "selection": "Detroit Lions +2.5 (spread)",
+         "game": "Chicago Bears @ Detroit Lions",
+         "line": 2.5,
+         "grade_market": "spread"
+        },
+        {
+         "game_id": "recp6o8WFsUDhjzQh",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.9879,
+         "price": -1280.0,
+         "pro_favorite": true,
+         "selection": "Jacksonville Jaguars ML -1280",
+         "game": "Tennessee Titans @ Jacksonville Jaguars",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        },
+        {
+         "game_id": "recpPhCO8j33Igo8i",
+         "market_kind": "moneyline",
+         "side": "home",
+         "prob": 0.8118,
+         "price": -328.0,
+         "pro_favorite": true,
+         "selection": "Minnesota Vikings ML -328",
+         "game": "Atlanta Falcons @ Minnesota Vikings",
+         "line": 0.0,
+         "grade_market": "moneyline"
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.4803,
+       "price": 171,
+       "break_even_prob": 0.3691,
+       "break_even_price": 171,
+       "edge": 0.1112,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "parlay",
+       "legs": [
+        {
          "game_id": "reco8reR66QV5gqyN",
          "market_kind": "spread",
          "side": "home",
@@ -17585,112 +17687,10 @@
        "legs": [
         {
          "game_id": "recj8prfk94D0f9lD",
-         "market_kind": "total",
-         "side": "under",
-         "prob": 0.608,
-         "price": -115.0,
-         "pro_favorite": false,
-         "selection": "Under 55.5",
-         "game": "Chicago Bears @ Detroit Lions",
-         "line": 55.5,
-         "grade_market": "total"
-        },
-        {
-         "game_id": "reco8reR66QV5gqyN",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8149,
-         "price": -328.0,
-         "pro_favorite": true,
-         "selection": "Houston Texans ML -328",
-         "game": "Baltimore Ravens @ Houston Texans",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recp6o8WFsUDhjzQh",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.9879,
-         "price": -1280.0,
-         "pro_favorite": true,
-         "selection": "Jacksonville Jaguars ML -1280",
-         "game": "Tennessee Titans @ Jacksonville Jaguars",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.4895,
-       "price": 163,
-       "break_even_prob": 0.3802,
-       "break_even_price": 163,
-       "edge": 0.1093,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "reco8reR66QV5gqyN",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8149,
-         "price": -328.0,
-         "pro_favorite": true,
-         "selection": "Houston Texans ML -328",
-         "game": "Baltimore Ravens @ Houston Texans",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recp6o8WFsUDhjzQh",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.9879,
-         "price": -1280.0,
-         "pro_favorite": true,
-         "selection": "Jacksonville Jaguars ML -1280",
-         "game": "Tennessee Titans @ Jacksonville Jaguars",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
-         "game_id": "recpPhCO8j33Igo8i",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8118,
-         "price": -328.0,
-         "pro_favorite": true,
-         "selection": "Minnesota Vikings ML -328",
-         "game": "Atlanta Falcons @ Minnesota Vikings",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.6535,
-       "price": -120,
-       "break_even_prob": 0.5447,
-       "break_even_price": -120,
-       "edge": 0.1088,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "parlay",
-       "legs": [
-        {
-         "game_id": "recj8prfk94D0f9lD",
          "market_kind": "spread",
          "side": "home",
          "prob": 0.5989,
-         "price": -111.0,
+         "price": -108.0,
          "pro_favorite": false,
          "selection": "Detroit Lions +2.5 (spread)",
          "game": "Chicago Bears @ Detroit Lions",
@@ -17698,18 +17698,6 @@
          "grade_market": "spread"
         },
         {
-         "game_id": "reco8reR66QV5gqyN",
-         "market_kind": "moneyline",
-         "side": "home",
-         "prob": 0.8149,
-         "price": -328.0,
-         "pro_favorite": true,
-         "selection": "Houston Texans ML -328",
-         "game": "Baltimore Ravens @ Houston Texans",
-         "line": 0.0,
-         "grade_market": "moneyline"
-        },
-        {
          "game_id": "recp6o8WFsUDhjzQh",
          "market_kind": "moneyline",
          "side": "home",
@@ -17722,12 +17710,12 @@
          "grade_market": "moneyline"
         }
        ],
-       "n_legs": 3,
-       "prob": 0.4821,
-       "price": 167,
-       "break_even_prob": 0.3739,
-       "break_even_price": 167,
-       "edge": 0.1082,
+       "n_legs": 2,
+       "prob": 0.5917,
+       "price": 108,
+       "break_even_prob": 0.4816,
+       "break_even_price": 108,
+       "edge": 0.11,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -19894,5 +19882,5 @@
    "NFL teaser_leg: n=94, shrink 1.0 -> 1.0 (no meaningful gain; best 1.0, Brier gain 0.0)"
   ]
  },
- "narrative_sha256": "c56655b3716a64c04170565ad7fcbebd4f19bdc7e709ac52af4f4d5767948029"
+ "narrative_sha256": "ee260cfff1218cf9e4d338286780bc89adc6f6bb4c552f7ff84ea98ccadfbbc3"
 }
