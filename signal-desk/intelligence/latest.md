@@ -160,7 +160,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -143 | 63% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -141 | 63% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 65% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +170 | 41% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | Lean | 0.5 |
@@ -173,7 +173,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -322 | 81% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1120 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +269 | 33% | Strong Play | 1.0 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +278 | 33% | Strong Play | 1.0 |
 - NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +524 to break even, edge +2.6%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 37.5 + North Texas -4.5 (spread) | model 9.3%, needs +1081 to break even, edge +0.8%, No Play
 - NCAAF parlay: UCLA ML +215 + Over 37.5 + Hawai'i -13.5 (spread) | model 9.3%, needs +1081 to break even, edge +0.8%, No Play
