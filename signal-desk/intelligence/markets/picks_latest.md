@@ -158,7 +158,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Toledo @ Ohio | moneyline | Ohio ML +130 | 42% | -2.0% | No Play | 0 |
 | UAB @ North Texas | spread | North Texas -4.5 (spread) | 50% |  | Lean | 0.5 |
 | UAB @ North Texas | total | Over 46.5 | 54% | +3.3 pts | Lean | 0.5 |
-| UAB @ North Texas | moneyline | North Texas ML -170 | 64% | +0.5% | No Play | 0 |
+| UAB @ North Texas | moneyline | North Texas ML -162 | 64% | +1.7% | No Play | 0 |
 | Nebraska @ Iowa | spread | Nebraska +6.5 (spread) | 51% |  | No Play | 0 |
 | Nebraska @ Iowa | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +170 | 39% | +1.6% | No Play | 0 |
@@ -213,8 +213,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 - Over 37.5 + Over 46.5: model 28.9%, needs +281 to break even (reference payout +281), edge +2.6%, Lean
 - UCLA ML +215 + Over 46.5: model 18.8%, needs +515 to break even (reference payout +515), edge +2.6%, Lean
 - UCLA ML +215 + Over 37.5: model 18.6%, needs +515 to break even (reference payout +515), edge +2.4%, Lean
-- UCLA ML +215 + Over 37.5 + Over 46.5: model 10.1%, needs +1101 to break even (reference payout +1101), edge +1.7%, No Play
-- Over 37.5 + North Texas -4.5 (spread) + Over 46.5: model 14.9%, needs +655 to break even (reference payout +655), edge +1.7%, No Play
+- North Texas -4.5 (spread) + Over 46.5: model 27.3%, needs +294 to break even (reference payout +294), edge +1.9%, No Play
+- Over 37.5 + North Texas -4.5 (spread) + Over 46.5: model 14.9%, needs +670 to break even (reference payout +670), edge +1.9%, No Play
 
 ## NFL
 
@@ -231,7 +231,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 65% | +4.7% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 36.5 | 54% | +0.9 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +155 | 37% | -2.0% | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +166 | 37% | -0.4% | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 45.5 | 55% | +1.1 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -179 | 67% | +2.9% | No Play | 0 |
@@ -258,23 +258,23 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1120 | 99% | +7.0% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 41.5 | 50% | +0.0 pts | No Play | 0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -320 | 81% | +5.0% | Lean | 0.5 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -315 | 81% | +5.3% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +247 | 33% | +4.3% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 48.5 | 50% | +0.1 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -469 | 85% | +2.4% | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -471 | 85% | +2.4% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 51% | +0.2 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -219 | 69% | +0.4% | No Play | 0 |
 
 ### NFL Best parlays
 
-- Houston Texans ML -311 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -320: model 65.3%, needs -112 to break even (reference payout -112), edge +12.4%, Max Play
+- Houston Texans ML -311 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -315: model 65.3%, needs -112 to break even (reference payout -112), edge +12.6%, Max Play
 - Under 55.5 + Houston Texans ML -311 + Jacksonville Jaguars ML -1120: model 48.9%, needs +169 to break even (reference payout +169), edge +11.8%, Max Play
+- Houston Texans -6.5 (spread) + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -315: model 47.5%, needs +179 to break even (reference payout +179), edge +11.7%, Max Play
 - Houston Texans ML -311 + Jacksonville Jaguars ML -1120 + Indianapolis Colts +6.5 (spread): model 47.6%, needs +177 to break even (reference payout +177), edge +11.6%, Max Play
-- Houston Texans -6.5 (spread) + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -320: model 47.5%, needs +178 to break even (reference payout +178), edge +11.5%, Max Play
 - Detroit Lions +2.5 (spread) + Houston Texans ML -311 + Jacksonville Jaguars ML -1120: model 48.2%, needs +172 to break even (reference payout +172), edge +11.5%, Max Play
 
 ### NFL Best 6-point teasers

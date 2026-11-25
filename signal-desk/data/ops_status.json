@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-25T04:38:33Z",
+ "generated_at_utc": "2026-11-25T05:38:25Z",
  "generated_for_central_date": "2026-11-24",
  "graded_picks_csv_rows": 305,
  "ledger_health": {
@@ -59,8 +59,8 @@
    "upcoming_espn_data_stale": {
     "count": 2,
     "games": [
-     "Kent State @ Eastern Michigan (NCAAF, 2026-11-24) (5 h)",
-     "Miami (OH) @ Western Michigan (NCAAF, 2026-11-24) (5 h)"
+     "Kent State @ Eastern Michigan (NCAAF, 2026-11-24) (6 h)",
+     "Miami (OH) @ Western Michigan (NCAAF, 2026-11-24) (6 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -280,6 +280,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 45554816134,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45554816134",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-25T05:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 26,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45548003498,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45548003498",
      "event": "workflow_dispatch",
@@ -316,22 +332,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45534232981",
      "event": "workflow_dispatch",
      "created_at": "2026-11-25T02:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 25,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45527053239,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45527053239",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-25T01:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -580,7 +580,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-24T23:58:46Z",
-   "age_h": 4.7,
+   "age_h": 5.7,
    "status": "missed"
   },
   {
@@ -589,7 +589,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-25T00:06:54Z",
-   "age_h": 4.5,
+   "age_h": 5.5,
    "status": "missed"
   },
   {
@@ -598,7 +598,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-24T23:15:20Z",
-   "age_h": 5.4,
+   "age_h": 6.4,
    "status": "missed"
   },
   {
@@ -607,7 +607,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-24T22:22:19Z",
-   "age_h": 6.3,
+   "age_h": 7.3,
    "status": "ok"
   },
   {
@@ -616,7 +616,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-24T23:16:24Z",
-   "age_h": 5.4,
+   "age_h": 6.4,
    "status": "ok"
   },
   {
@@ -626,7 +626,7 @@
    "max_gap_h": 60,
    "note": "Tue and Wed have no scheduled runs",
    "last_scheduled_run_utc": "2026-11-24T06:16:09Z",
-   "age_h": 22.4,
+   "age_h": 23.4,
    "status": "ok"
   },
   {
@@ -635,7 +635,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-24T22:40:39Z",
-   "age_h": 6.0,
+   "age_h": 7.0,
    "status": "missed"
   }
  ],
