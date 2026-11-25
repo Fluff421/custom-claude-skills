@@ -160,7 +160,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -135 | 63% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -138 | 63% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -155 | 65% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 58% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML -113 | 59% | Lean | 0.5 |
@@ -177,8 +177,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NCAAF parlay: UCLA ML +215 + Over 46.5 | model 18.8%, needs +515 to break even, edge +2.6%, Lean
 - NCAAF parlay: UCLA ML +215 + Over 37.5 | model 18.6%, needs +515 to break even, edge +2.4%, Lean
 - NFL parlay: Houston Texans ML -308 + Jacksonville Jaguars ML -1120 + Minnesota Vikings ML -324 | model 65.3%, needs -113 to break even, edge +12.4%, Max Play
+- NFL parlay: Detroit Lions +2.5 (spread) + Houston Texans ML -308 + Jacksonville Jaguars ML -1120 | model 48.2%, needs +177 to break even, edge +12.1%, Max Play
 - NFL parlay: Under 55.5 + Houston Texans ML -308 + Jacksonville Jaguars ML -1120 | model 48.9%, needs +170 to break even, edge +11.9%, Max Play
-- NFL parlay: Houston Texans ML -308 + Jacksonville Jaguars ML -1120 + Indianapolis Colts +6.5 (spread) | model 47.6%, needs +178 to break even, edge +11.7%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 35.5 -> 29.5 + Under 46.5 -> 52.5 | model 48.4%, needs +160 to break even, edge +9.9%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Over 35.5 -> 29.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7) | model 48.1%, needs +160 to break even, edge +9.6%, Max Play
 - NFL teaser: Under 55.5 -> 61.5 + Under 46.5 -> 52.5 + Indianapolis Colts +6.5 -> +12.5 (crosses 7) | model 48.0%, needs +160 to break even, edge +9.5%, Max Play
