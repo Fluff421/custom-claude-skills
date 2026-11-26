@@ -228,7 +228,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 36.5 | 56% | +1.4 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +178 | 39% | +2.6% | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +184 | 39% | +3.3% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 44.5 | 55% | +1.2 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -147 | 64% | +4.9% | Lean | 0.5 |
@@ -240,19 +240,19 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +100 | 50% | +0.1% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 49.5 | 57% | +1.6 pts | Lean | 0.5 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -564 | 87% | +2.5% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -561 | 87% | +2.5% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 45.5 | 61% | +2.5 pts | Lean | 0.5 |
-| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -155 | 62% | +0.8% | No Play | 0 |
+| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -150 | 62% | +1.6% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
-| Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | +2.4 pts | Lean | 0.5 |
-| Chicago Bears @ Detroit Lions | moneyline | Chicago Bears ML -116 | 52% | -1.9% | No Play | 0 |
+| Chicago Bears @ Detroit Lions | total | Under 56.5 | 62% | +2.7 pts | Lean | 0.5 |
+| Chicago Bears @ Detroit Lions | moneyline | Chicago Bears ML -114 | 52% | -1.5% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 40.5 | 54% | +0.9 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -218 | 69% | +0.4% | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | spread | Houston Texans -6.5 (spread) | 59% |  | Strong Play | 1 |
 | Baltimore Ravens @ Houston Texans | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -332 | 80% | +3.3% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -333 | 80% | +3.3% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | spread | Tennessee Titans +14.5 (spread) | 53% |  | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | total | Under 49.5 | 54% | +0.9 pts | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | +6.7% | Strong Play | 1 |
@@ -263,25 +263,25 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 35% | +4.9% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | total | Over 48.5 | 50% | +0.1 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -435 | 85% | +3.4% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | total | Under 49.5 | 51% | +0.2 pts | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -431 | 85% | +3.5% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 54% | +0.8 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -244 | 69% | -1.9% | No Play | 0 |
 
 ### NFL Best parlays
 
+- Under 56.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -311: model 49.9%, needs +171 to break even (reference payout +171), edge +12.9%, Max Play
 - Under 45.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -311: model 49.3%, needs +174 to break even (reference payout +174), edge +12.8%, Max Play
-- Under 55.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -311: model 48.8%, needs +178 to break even (reference payout +178), edge +12.8%, Max Play
 - Over 35.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -311: model 49.1%, needs +175 to break even (reference payout +175), edge +12.7%, Max Play
-- Under 55.5 + Jacksonville Jaguars ML -1160: model 60.1%, needs +110 to break even (reference payout +110), edge +12.5%, Max Play
+- Under 56.5 + Jacksonville Jaguars ML -1160: model 61.4%, needs +105 to break even (reference payout +105), edge +12.6%, Max Play
 - Under 45.5 + Jacksonville Jaguars ML -1160: model 60.7%, needs +107 to break even (reference payout +107), edge +12.4%, Max Play
 
 ### NFL Best 6-point teasers
 
-- Under 45.5 -> 51.5 + Over 35.5 -> 29.5 + Under 55.5 -> 61.5: model 51.3%, needs +160 to break even (reference payout +160), edge +12.9%, Max Play
+- Under 56.5 -> 62.5 + Under 45.5 -> 51.5 + Over 35.5 -> 29.5: model 51.9%, needs +160 to break even (reference payout +160), edge +13.4%, Max Play
+- Under 56.5 -> 62.5 + Under 45.5 -> 51.5 + Under 49.5 -> 55.5: model 50.2%, needs +160 to break even (reference payout +160), edge +11.8%, Max Play
+- Under 56.5 -> 62.5 + Over 35.5 -> 29.5 + Under 49.5 -> 55.5: model 50.1%, needs +160 to break even (reference payout +160), edge +11.7%, Max Play
+- Under 56.5 -> 62.5 + Under 45.5 -> 51.5 + Over 41.5 -> 35.5: model 49.9%, needs +160 to break even (reference payout +160), edge +11.4%, Max Play
 - Under 45.5 -> 51.5 + Over 35.5 -> 29.5 + Under 49.5 -> 55.5: model 49.9%, needs +160 to break even (reference payout +160), edge +11.4%, Max Play
-- Under 45.5 -> 51.5 + Under 55.5 -> 61.5 + Under 49.5 -> 55.5: model 49.7%, needs +160 to break even (reference payout +160), edge +11.3%, Max Play
-- Over 35.5 -> 29.5 + Under 55.5 -> 61.5 + Under 49.5 -> 55.5: model 49.6%, needs +160 to break even (reference payout +160), edge +11.2%, Max Play
-- Under 45.5 -> 51.5 + Over 35.5 -> 29.5 + Over 41.5 -> 35.5: model 49.5%, needs +160 to break even (reference payout +160), edge +11.0%, Max Play
 
