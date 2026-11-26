@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-26T04:38:24Z",
+ "generated_at_utc": "2026-11-26T05:38:27Z",
  "generated_for_central_date": "2026-11-25",
  "graded_picks_csv_rows": 306,
  "ledger_health": {
@@ -59,7 +59,7 @@
    "upcoming_espn_data_stale": {
     "count": 1,
     "games": [
-     "Green Bay Packers @ Los Angeles Rams (NFL, 2026-11-25) (7 h)"
+     "Green Bay Packers @ Los Angeles Rams (NFL, 2026-11-25) (8 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -309,6 +309,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 45762765212,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45762765212",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-26T05:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 27,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45756345957,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45756345957",
      "event": "workflow_dispatch",
@@ -345,22 +361,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45743609252",
      "event": "workflow_dispatch",
      "created_at": "2026-11-26T02:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 26,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45736955833,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45736955833",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-26T01:37:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -606,7 +606,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-26T03:40:54Z",
-   "age_h": 1.0,
+   "age_h": 2.0,
    "status": "ok"
   },
   {
@@ -615,7 +615,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-26T03:46:33Z",
-   "age_h": 0.9,
+   "age_h": 1.9,
    "status": "ok"
   },
   {
@@ -624,7 +624,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-26T01:10:13Z",
-   "age_h": 3.5,
+   "age_h": 4.5,
    "status": "missed"
   },
   {
@@ -633,7 +633,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-25T21:38:05Z",
-   "age_h": 7.0,
+   "age_h": 8.0,
    "status": "ok"
   },
   {
@@ -642,7 +642,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-25T22:48:38Z",
-   "age_h": 5.8,
+   "age_h": 6.8,
    "status": "ok"
   },
   {
@@ -651,7 +651,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-24T06:16:09Z",
-   "age_h": 46.4,
+   "age_h": 47.4,
    "status": "missed"
   },
   {
@@ -660,7 +660,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-26T03:43:21Z",
-   "age_h": 0.9,
+   "age_h": 1.9,
    "status": "ok"
   }
  ],
