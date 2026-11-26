@@ -64,7 +64,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Coastal Carolina @ James Madison | total | Under 54.5 | 51% | +0.5 pts | No Play | 0 |
 | Coastal Carolina @ James Madison | moneyline | James Madison ML -850 | 88% | -1.7% | No Play | 0 |
 | Tulsa @ UTSA | spread | Tulsa +2.5 (spread) | 51% |  | No Play | 0 |
-| Tulsa @ UTSA | total | Over 56.5 | 50% | +0.3 pts | No Play | 0 |
+| Tulsa @ UTSA | total | Under 57.5 | 50% | +0.0 pts | No Play | 0 |
 | Tulsa @ UTSA | moneyline | Tulsa ML -110 | 53% | +1.1% | No Play | 0 |
 | Texas @ Texas A&M | spread | Texas -7.5 (spread) | 51% |  | No Play | 0 |
 | Texas @ Texas A&M | total | Over 40.5 | 53% | +2.1 pts | No Play | 0 |
@@ -82,7 +82,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Michigan State @ Rutgers | total | Over 46.5 | 50% | +0.3 pts | No Play | 0 |
 | Michigan State @ Rutgers | moneyline | Michigan State ML -148 | 58% | -1.7% | No Play | 0 |
 | Buffalo @ Akron | spread | Buffalo -10 (spread) | 50% |  | No Play | 0 |
-| Buffalo @ Akron | total | Over 47.5 | 52% | +1.5 pts | No Play | 0 |
+| Buffalo @ Akron | total | Over 48.5 | 51% | +1.2 pts | No Play | 0 |
 | Buffalo @ Akron | moneyline | Akron ML +245 | 30% | +0.9% | No Play | 0 |
 | Louisville @ Kentucky | spread | Louisville +1.5 (spread) | 51% |  | No Play | 0 |
 | Louisville @ Kentucky | total | Under 54.5 | 52% | +1.4 pts | No Play | 0 |
@@ -222,7 +222,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 |---|---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | spread | Arizona Cardinals +6.5 (spread) | 54% |  | Lean | 0.5 |
 | Washington Commanders @ Arizona Cardinals | total | Over 41.5 | 56% | +1.4 pts | No Play | 0 |
-| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +281 | 29% | +2.5% | No Play | 0 |
+| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +282 | 29% | +2.6% | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
@@ -261,18 +261,18 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 35% | +4.9% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Under 49.5 | 51% | +0.2 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -469 | 85% | +2.2% | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -456 | 85% | +2.6% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 54% | +0.8 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -244 | 69% | -1.9% | No Play | 0 |
 
 ### NFL Best parlays
 
-- Under 45.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -310: model 49.3%, needs +174 to break even (reference payout +174), edge +12.8%, Max Play
+- Under 45.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -310: model 49.3%, needs +176 to break even (reference payout +176), edge +13.1%, Max Play
+- Under 45.5 + Jacksonville Jaguars ML -1260: model 60.7%, needs +109 to break even (reference payout +109), edge +12.8%, Max Play
 - Over 35.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -310: model 49.1%, needs +174 to break even (reference payout +174), edge +12.5%, Max Play
-- Under 45.5 + Jacksonville Jaguars ML -1260: model 60.7%, needs +107 to break even (reference payout +107), edge +12.4%, Max Play
+- Over 35.5 + Under 45.5 + Jacksonville Jaguars ML -1260: model 37.1%, needs +300 to break even (reference payout +300), edge +12.1%, Max Play
 - Over 35.5 + Jacksonville Jaguars ML -1260: model 60.4%, needs +107 to break even (reference payout +107), edge +12.0%, Max Play
-- Over 35.5 + Under 45.5 + Jacksonville Jaguars ML -1260: model 37.1%, needs +297 to break even (reference payout +297), edge +11.9%, Max Play
 
 ### NFL Best 6-point teasers
 
