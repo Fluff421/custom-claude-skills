@@ -163,7 +163,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Nebraska @ Iowa | total | Over 40.5 | 52% | +1.7 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +170 | 39% | +1.7% | No Play | 0 |
 | UConn @ Wyoming | spread | Wyoming +3.5 (spread) | 50% |  | No Play | 0 |
-| UConn @ Wyoming | total | Under 44.5 | 51% | +1.1 pts | No Play | 0 |
+| UConn @ Wyoming | total | Under 45.5 | 52% | +1.4 pts | No Play | 0 |
 | UConn @ Wyoming | moneyline | Wyoming ML +130 | 42% | -1.8% | No Play | 0 |
 | Sacramento State @ Hawai'i | spread | Hawai'i -13.5 (spread) | 50% |  | Lean | 0.5 |
 | Sacramento State @ Hawai'i | total | Over 39.5 | 52% | +1.9 pts | No Play | 0 |
@@ -263,9 +263,9 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 35% | +4.8% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 48.5 | 50% | +0.1 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -447 | 85% | +3.1% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -440 | 85% | +3.4% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
-| Las Vegas Raiders @ Cleveland Browns | total | Over 39.5 | 55% | +1.1 pts | No Play | 0 |
+| Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 54% | +0.8 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -244 | 69% | -1.9% | No Play | 0 |
 
 ### NFL Best parlays
@@ -274,7 +274,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 - Under 45.5 + Jacksonville Jaguars ML -1160: model 60.7%, needs +111 to break even (reference payout +111), edge +13.3%, Max Play
 - Under 55.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309: model 48.8%, needs +181 to break even (reference payout +181), edge +13.1%, Max Play
 - Under 55.5 + Jacksonville Jaguars ML -1160: model 60.1%, needs +112 to break even (reference payout +112), edge +12.9%, Max Play
-- Under 45.5 + Jacksonville Jaguars ML -1160 + Dallas Cowboys ML -447: model 51.5%, needs +158 to break even (reference payout +158), edge +12.8%, Max Play
+- Under 45.5 + Jacksonville Jaguars ML -1160 + Dallas Cowboys ML -440: model 51.5%, needs +159 to break even (reference payout +159), edge +12.9%, Max Play
 
 ### NFL Best 6-point teasers
 

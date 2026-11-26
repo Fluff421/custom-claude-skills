@@ -173,7 +173,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 35% | Lean | 0.5 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -447 | 85% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -440 | 85% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 57% | Strong Play | 1.0 |
 - NCAAF parlay: UCLA ML +205 + Under 76.5 | model 20.4%, needs +487 to break even, edge +3.3%, Lean
 - NCAAF parlay: San José State ML +275 + Under 76.5 | model 17.1%, needs +622 to break even, edge +3.2%, Lean
