@@ -156,6 +156,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
+| North Dakota State @ San José State | moneyline | San José State ML +275 | 30% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +209 | 39% | Strong Play | 1.0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | Lean | 0.5 |
@@ -172,7 +173,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Boise State @ Colorado State | total | Under 76.5 | 55% | Lean | 0.5 |
 - NCAAF parlay: Nebraska ML +164 + Under 76.5 | model 22.6%, needs +408 to break even, edge +2.9%, Lean
 - NCAAF parlay: UCLA ML +205 + Under 76.5 | model 19.8%, needs +487 to break even, edge +2.8%, Lean
-- NCAAF parlay: Over 37.5 + Under 76.5 | model 29.5%, needs +268 to break even, edge +2.3%, Lean
+- NCAAF parlay: San José State ML +275 + Under 76.5 | model 16.6%, needs +622 to break even, edge +2.8%, Lean
 - NFL parlay: Over 35.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -310 | model 49.1%, needs +174 to break even, edge +12.5%, Max Play
 - NFL parlay: Over 35.5 + Jacksonville Jaguars ML -1260 | model 60.4%, needs +107 to break even, edge +12.0%, Max Play
 - NFL parlay: Over 35.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -1260 | model 48.4%, needs +169 to break even, edge +11.3%, Max Play

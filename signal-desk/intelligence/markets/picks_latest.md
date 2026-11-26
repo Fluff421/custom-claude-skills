@@ -7,7 +7,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Game | Market | Pick | Prob | Edge | Tier | Units |
 |---|---|---|---|---|---|---|
 | Louisiana Tech @ Georgia Southern | spread | Louisiana Tech +2.5 (spread) | 51% |  | No Play | 0 |
-| Louisiana Tech @ Georgia Southern | total | Under 53.5 | 51% | +1.0 pts | No Play | 0 |
+| Louisiana Tech @ Georgia Southern | total | Under 54.5 | 52% | +1.3 pts | No Play | 0 |
 | Louisiana Tech @ Georgia Southern | moneyline | Georgia Southern ML -135 | 56% | -1.6% | No Play | 0 |
 | Mississippi State @ Ole Miss | spread | Mississippi State +19.5 (spread) | 51% |  | No Play | 0 |
 | Mississippi State @ Ole Miss | total | Under 56.5 | 51% | +0.9 pts | No Play | 0 |
@@ -17,7 +17,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Oklahoma @ Missouri | moneyline | Missouri ML -122 | 56% | +0.9% | No Play | 0 |
 | North Dakota State @ San José State | spread | San José State +12.5 (spread) | 51% |  | No Play | 0 |
 | North Dakota State @ San José State | total | Over 39.5 | 52% | +1.5 pts | No Play | 0 |
-| North Dakota State @ San José State | moneyline | San José State ML +275 | 28% | +1.5% | No Play | 0 |
+| North Dakota State @ San José State | moneyline | San José State ML +275 | 30% | +3.4% | Lean | 0.5 |
 | Arizona State @ Arizona | spread | Arizona -7.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ Arizona | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
 | Arizona State @ Arizona | moneyline | Arizona State ML +250 | 30% | +1.2% | No Play | 0 |
@@ -212,9 +212,9 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 - Nebraska ML +164 + Under 76.5: model 22.6%, needs +408 to break even (reference payout +408), edge +2.9%, Lean
 - UCLA ML +205 + Under 76.5: model 19.8%, needs +487 to break even (reference payout +487), edge +2.8%, Lean
+- San José State ML +275 + Under 76.5: model 16.6%, needs +622 to break even (reference payout +622), edge +2.8%, Lean
 - Over 37.5 + Under 76.5: model 29.5%, needs +268 to break even (reference payout +268), edge +2.3%, Lean
 - UCLA ML +205 + Nebraska ML +164: model 14.7%, needs +705 to break even (reference payout +705), edge +2.2%, Lean
-- Over 37.5 + Nebraska ML +164: model 21.9%, needs +404 to break even (reference payout +404), edge +2.0%, Lean
 
 ## NFL
 
