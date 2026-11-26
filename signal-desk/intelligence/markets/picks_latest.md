@@ -136,7 +136,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Navy @ Charlotte | total | Over 54.5 | 51% | +1.0 pts | No Play | 0 |
 | Navy @ Charlotte | moneyline | Charlotte ML +575 | 14% | -1.1% | No Play | 0 |
 | Liberty @ Missouri State | spread | Liberty -14.5 (spread) | 51% |  | No Play | 0 |
-| Liberty @ Missouri State | total | Under 53.5 | 51% | +0.6 pts | No Play | 0 |
+| Liberty @ Missouri State | total | Under 52.5 | 50% | +0.3 pts | No Play | 0 |
 | Liberty @ Missouri State | moneyline | Liberty ML -900 | 88% | -2.1% | No Play | 0 |
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
 | USC @ UCLA | total | Over 45.5 | 52% | +1.8 pts | No Play | 0 |
@@ -243,7 +243,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -562 | 87% | +2.5% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 45.5 | 56% | +1.3 pts | No Play | 0 |
-| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -154 | 62% | +1.0% | No Play | 0 |
+| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -153 | 62% | +1.1% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 39.5 | 55% | +1.2 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -241 | 69% | -1.8% | No Play | 0 |
