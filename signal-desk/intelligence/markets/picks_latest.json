@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T12:28:11+00:00",
+ "generated_at": "2026-11-26T12:39:12+00:00",
  "date": "2026-11-26",
  "games": [
   {
@@ -968,10 +968,10 @@
    "league": "NFL",
    "date": "2026-11-29",
    "frozen": false,
-   "line": -7.0,
+   "line": -6.5,
    "total_line": 41.5,
    "model_margin": -2.2,
-   "blend_margin": -5.5600000000000005,
+   "blend_margin": -5.21,
    "proj_total": 42.87963736263736,
    "factors": [
     "QB: HOME QB QUESTIONABLE Carson Beck -> Josh Johnson [auto espn 2026-11-26] [priced: Josh Johnson led passing 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-26]",
@@ -984,7 +984,7 @@
      "side": "home",
      "team": "Arizona Cardinals",
      "line": 6.5,
-     "price": -115.0,
+     "price": -104.0,
      "proj": -2.2,
      "prob": 0.5449,
      "edge": null,
@@ -1019,18 +1019,18 @@
      "side": "home",
      "team": "Arizona Cardinals",
      "line": 0.0,
-     "price": 263.0,
+     "price": 259.0,
      "price_estimated": false,
-     "proj": -5.56,
-     "prob": 0.2747,
-     "edge": -0.0008,
+     "proj": -5.21,
+     "prob": 0.288,
+     "edge": 0.0095,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Arizona Cardinals ML +263",
+     "selection": "Arizona Cardinals ML +259",
      "game_id": "rec5qq2WSH0UY0Dpz",
      "game": "Washington Commanders @ Arizona Cardinals",
      "priority": "primary",
@@ -1043,13 +1043,15 @@
      "kind": "spread",
      "side": "home",
      "team": "Arizona Cardinals",
-     "base_line": 7.0,
-     "line": 13.0,
+     "base_line": 6.5,
+     "line": 12.5,
      "price": 0.0,
-     "prob": 0.7368,
-     "push": 0.024,
-     "crosses": [],
-     "selection": "Arizona Cardinals +7 -> +13",
+     "prob": 0.7457,
+     "push": 0,
+     "crosses": [
+      7
+     ],
+     "selection": "Arizona Cardinals +6.5 -> +12.5 (crosses 7)",
      "game_id": "rec5qq2WSH0UY0Dpz",
      "game": "Washington Commanders @ Arizona Cardinals",
      "priority": "secondary",
@@ -1077,23 +1079,23 @@
    "alt_spreads": [
     {
      "team": "Arizona Cardinals",
-     "line": 4.0,
-     "prob": 0.4568
+     "line": 3.5,
+     "prob": 0.4675
     },
     {
      "team": "Washington Commanders",
-     "line": -10.0,
-     "prob": 0.3145
+     "line": -9.5,
+     "prob": 0.3382
     },
     {
      "team": "Arizona Cardinals",
-     "line": 10.0,
-     "prob": 0.6517
+     "line": 9.5,
+     "prob": 0.6618
     },
     {
      "team": "Washington Commanders",
-     "line": -4.0,
-     "prob": 0.5118
+     "line": -3.5,
+     "prob": 0.5325
     }
    ]
   },
@@ -5900,7 +5902,7 @@
      "side": "away",
      "team": "Kansas City Chiefs",
      "line": 3.0,
-     "price": -113.0,
+     "price": -115.0,
      "proj": 2.3,
      "prob": 0.5064,
      "edge": null,
@@ -5935,18 +5937,18 @@
      "side": "home",
      "team": "Buffalo Bills",
      "line": 0.0,
-     "price": -158.0,
+     "price": -155.0,
      "price_estimated": false,
      "proj": 2.79,
      "prob": 0.6159,
-     "edge": 0.0035,
+     "edge": 0.0081,
      "edge_unit": "prob",
      "price_source": "Draft Kings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Buffalo Bills ML -158",
+     "selection": "Buffalo Bills ML -155",
      "game_id": "recYI3vKDIRLV1sOY",
      "game": "Kansas City Chiefs @ Buffalo Bills",
      "priority": "primary",
