@@ -239,10 +239,10 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +100 | 50% | +0.1% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 49.5 | 57% | +1.6 pts | Lean | 0.5 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -561 | 87% | +2.5% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -564 | 87% | +2.5% | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | spread | Kansas City Chiefs +3 (spread) | 51% |  | No Play | 0 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 45.5 | 61% | +2.5 pts | Lean | 0.5 |
-| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -151 | 62% | +1.4% | No Play | 0 |
+| Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -154 | 62% | +1.0% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | +2.4 pts | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | moneyline | Chicago Bears ML -116 | 52% | -1.9% | No Play | 0 |
@@ -251,7 +251,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -217 | 69% | +0.5% | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | spread | Houston Texans -6.5 (spread) | 59% |  | Strong Play | 1 |
 | Baltimore Ravens @ Houston Texans | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -331 | 80% | +3.4% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -332 | 80% | +3.3% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | spread | Tennessee Titans +14.5 (spread) | 53% |  | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | total | Under 49.5 | 54% | +0.9 pts | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | +6.7% | Strong Play | 1 |
@@ -270,11 +270,11 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 ### NFL Best parlays
 
-- Under 55.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -310: model 48.8%, needs +180 to break even (reference payout +180), edge +13.2%, Max Play
-- Under 55.5 + Jacksonville Jaguars ML -1160: model 60.1%, needs +112 to break even (reference payout +112), edge +12.9%, Max Play
 - Under 45.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -310: model 49.3%, needs +174 to break even (reference payout +174), edge +12.9%, Max Play
+- Under 55.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -310: model 48.8%, needs +178 to break even (reference payout +178), edge +12.8%, Max Play
 - Over 35.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -310: model 49.1%, needs +175 to break even (reference payout +175), edge +12.8%, Max Play
-- Under 55.5 + Jacksonville Jaguars ML -1160 + Dallas Cowboys ML -436: model 50.8%, needs +161 to break even (reference payout +161), edge +12.5%, Max Play
+- Under 55.5 + Jacksonville Jaguars ML -1160: model 60.1%, needs +110 to break even (reference payout +110), edge +12.5%, Max Play
+- Under 45.5 + Jacksonville Jaguars ML -1160: model 60.7%, needs +107 to break even (reference payout +107), edge +12.4%, Max Play
 
 ### NFL Best 6-point teasers
 
