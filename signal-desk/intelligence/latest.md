@@ -160,28 +160,28 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -140 | 63% | Lean | 0.5 |
+| Green Bay Packers @ Los Angeles Rams | moneyline | Los Angeles Rams ML -137 | 63% | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -158 | 65% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +169 | 41% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -147 | 64% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 49.5 | 57% | Lean | 0.5 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -539 | 87% | Lean | 0.5 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -533 | 87% | Lean | 0.5 |
 | Kansas City Chiefs @ Buffalo Bills | total | Under 46.5 | 63% | Lean | 0.5 |
 | USC @ UCLA | moneyline | UCLA ML +205 | 36% | Lean | 0.5 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | Lean | 0.5 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -331 | 80% | Lean | 0.5 |
-| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | Strong Play | 1.0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -330 | 80% | Lean | 0.5 |
+| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1180 | 99% | Strong Play | 1.0 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +261 | 33% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 57% | Strong Play | 1.0 |
 - NCAAF parlay: Over 37.5 + Under 76.5 | model 30.3%, needs +276 to break even, edge +3.7%, Lean
 - NCAAF parlay: UCLA ML +205 + Under 76.5 | model 20.4%, needs +487 to break even, edge +3.3%, Lean
 - NCAAF parlay: UCLA ML +205 + Over 37.5 | model 19.2%, needs +495 to break even, edge +2.4%, Lean
-- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309 | model 50.3%, needs +173 to break even, edge +13.7%, Max Play
-- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1160 | model 62.0%, needs +106 to break even, edge +13.6%, Max Play
-- NFL parlay: Cincinnati Bengals ML -539 + Under 46.5 + Jacksonville Jaguars ML -1160 | model 54.2%, needs +145 to break even, edge +13.4%, Max Play
+- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1180 + Minnesota Vikings ML -310 | model 50.3%, needs +168 to break even, edge +13.0%, Max Play
+- NFL parlay: Cincinnati Bengals ML -533 + Under 46.5 + Jacksonville Jaguars ML -1180 | model 54.2%, needs +141 to break even, edge +12.7%, Max Play
+- NFL parlay: Under 46.5 + Jacksonville Jaguars ML -1180 | model 62.0%, needs +103 to break even, edge +12.7%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Over 35.5 -> 29.5 + Under 55.5 -> 61.5 | model 51.9%, needs +160 to break even, edge +13.4%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Over 35.5 -> 29.5 + Under 49.5 -> 55.5 | model 50.4%, needs +160 to break even, edge +11.9%, Max Play
 - NFL teaser: Under 46.5 -> 52.5 + Under 55.5 -> 61.5 + Under 49.5 -> 55.5 | model 50.2%, needs +160 to break even, edge +11.8%, Max Play
