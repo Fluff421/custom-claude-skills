@@ -225,7 +225,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +262 | 27% | -0.2% | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
-| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -156 | 65% | +4.5% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 36.5 | 54% | +0.9 pts | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +170 | 41% | +4.4% | Lean | 0.5 |
@@ -245,7 +245,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Kansas City Chiefs @ Buffalo Bills | moneyline | Buffalo Bills ML -151 | 62% | +1.4% | No Play | 0 |
 | Chicago Bears @ Detroit Lions | spread | Detroit Lions +2.5 (spread) | 60% |  | Strong Play | 1 |
 | Chicago Bears @ Detroit Lions | total | Under 55.5 | 61% | +2.4 pts | Lean | 0.5 |
-| Chicago Bears @ Detroit Lions | moneyline | Detroit Lions ML +102 | 48% | -1.3% | No Play | 0 |
+| Chicago Bears @ Detroit Lions | moneyline | Chicago Bears ML -116 | 52% | -1.9% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 40.5 | 54% | +0.9 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -217 | 69% | +0.3% | No Play | 0 |
@@ -257,10 +257,10 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | +6.7% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 41.5 | 50% | +0.0 pts | No Play | 0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | +5.6% | Lean | 0.5 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | +5.6% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 35% | +4.8% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +235 | 35% | +4.7% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | total | Over 48.5 | 50% | +0.1 pts | No Play | 0 |
 | Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -440 | 85% | +3.4% | Lean | 0.5 |
@@ -270,9 +270,9 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 ### NFL Best parlays
 
-- Under 45.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309: model 49.3%, needs +179 to break even (reference payout +179), edge +13.5%, Max Play
+- Under 45.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -310: model 49.3%, needs +179 to break even (reference payout +179), edge +13.4%, Max Play
 - Under 45.5 + Jacksonville Jaguars ML -1160: model 60.7%, needs +111 to break even (reference payout +111), edge +13.3%, Max Play
-- Under 55.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309: model 48.8%, needs +181 to break even (reference payout +181), edge +13.1%, Max Play
+- Under 55.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -310: model 48.8%, needs +180 to break even (reference payout +180), edge +13.1%, Max Play
 - Under 55.5 + Jacksonville Jaguars ML -1160: model 60.1%, needs +112 to break even (reference payout +112), edge +12.9%, Max Play
 - Under 45.5 + Jacksonville Jaguars ML -1160 + Dallas Cowboys ML -440: model 51.5%, needs +159 to break even (reference payout +159), edge +12.9%, Max Play
 
