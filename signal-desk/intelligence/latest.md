@@ -159,8 +159,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | North Dakota State @ San José State | moneyline | San José State ML +275 | 30% | Lean | 0.5 |
-| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | Lean | 0.5 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +170 | 41% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -156 | 65% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -146 | 64% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -110 | 57% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | Lean | 0.5 |
@@ -173,7 +172,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +235 | 35% | Lean | 0.5 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -436 | 85% | Lean | 0.5 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -435 | 85% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 57% | Strong Play | 1.0 |
 - NCAAF parlay: UCLA ML +205 + Under 76.5 | model 20.4%, needs +487 to break even, edge +3.3%, Lean
 - NCAAF parlay: San José State ML +275 + Under 76.5 | model 17.1%, needs +622 to break even, edge +3.2%, Lean
