@@ -16,8 +16,8 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Oklahoma @ Missouri | total | Over 41.5 | 52% | +2.0 pts | No Play | 0 |
 | Oklahoma @ Missouri | moneyline | Missouri ML -122 | 56% | +0.9% | No Play | 0 |
 | North Dakota State @ San José State | spread | San José State +12.5 (spread) | 51% |  | No Play | 0 |
-| North Dakota State @ San José State | total | Over 39.5 | 52% | +1.5 pts | No Play | 0 |
-| North Dakota State @ San José State | moneyline | San José State ML +275 | 28% | +1.5% | No Play | 0 |
+| North Dakota State @ San José State | total | Over 40.5 | 51% | +1.2 pts | No Play | 0 |
+| North Dakota State @ San José State | moneyline | San José State ML +275 | 30% | +3.4% | Lean | 0.5 |
 | Arizona State @ Arizona | spread | Arizona -7.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ Arizona | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
 | Arizona State @ Arizona | moneyline | Arizona State ML +260 | 28% | +0.0% | No Play | 0 |
@@ -55,7 +55,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Kansas @ Oklahoma State | total | Under 64.5 | 52% | +1.9 pts | No Play | 0 |
 | Kansas @ Oklahoma State | moneyline | Kansas ML +190 | 33% | -1.6% | No Play | 0 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
-| Notre Dame @ Syracuse | total | Under 53.5 | 50% | +0.0 pts | No Play | 0 |
+| Notre Dame @ Syracuse | total | Over 52.5 | 50% | +0.3 pts | No Play | 0 |
 | Notre Dame @ Syracuse | moneyline | Notre Dame ML -2800 | 95% | -1.1% | No Play | 0 |
 | Louisiana @ Georgia State | spread | Georgia State +6 (spread) | 51% |  | No Play | 0 |
 | Louisiana @ Georgia State | total | Over 55.5 | 50% | +0.3 pts | No Play | 0 |
@@ -212,9 +212,9 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 - Over 37.5 + Under 76.5: model 30.3%, needs +276 to break even (reference payout +276), edge +3.7%, Lean
 - UCLA ML +205 + Under 76.5: model 20.4%, needs +487 to break even (reference payout +487), edge +3.3%, Lean
+- San José State ML +275 + Under 76.5: model 17.1%, needs +622 to break even (reference payout +622), edge +3.2%, Lean
+- San José State ML +275 + Over 37.5: model 16.1%, needs +632 to break even (reference payout +632), edge +2.4%, Lean
 - UCLA ML +205 + Over 37.5: model 19.2%, needs +495 to break even (reference payout +495), edge +2.4%, Lean
-- UCLA ML +205 + Over 37.5 + Under 76.5: model 10.9%, needs +1047 to break even (reference payout +1047), edge +2.2%, Lean
-- UCLA ML +205 + North Texas -4.5 (spread) + Under 76.5: model 10.2%, needs +1021 to break even (reference payout +1021), edge +1.3%, No Play
 
 ## NFL
 
@@ -252,7 +252,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -333 | 80% | +3.4% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | spread | Tennessee Titans +14.5 (spread) | 53% |  | No Play | 0 |
 | Tennessee Titans @ Jacksonville Jaguars | total | Under 49.5 | 54% | +0.9 pts | No Play | 0 |
-| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1240 | 99% | +6.2% | Strong Play | 1 |
+| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1160 | 99% | +6.7% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 41.5 | 50% | +0.0 pts | No Play | 0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | +5.6% | Lean | 0.5 |
@@ -260,19 +260,19 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +235 | 35% | +4.7% | Lean | 0.5 |
 | Philadelphia Eagles @ Dallas Cowboys | spread | Dallas Cowboys -8.5 (spread) | 50% |  | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | total | Over 47.5 | 52% | +0.4 pts | No Play | 0 |
-| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -480 | 85% | +2.1% | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | total | Over 48.5 | 50% | +0.1 pts | No Play | 0 |
+| Philadelphia Eagles @ Dallas Cowboys | moneyline | Dallas Cowboys ML -471 | 85% | +2.4% | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 39.5 | 55% | +1.1 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -244 | 69% | -1.9% | No Play | 0 |
 
 ### NFL Best parlays
 
-- Under 46.5 + Jacksonville Jaguars ML -1240 + Minnesota Vikings ML -309: model 50.3%, needs +167 to break even (reference payout +167), edge +12.9%, Max Play
-- Cincinnati Bengals ML -534 + Under 46.5 + Jacksonville Jaguars ML -1240: model 54.2%, needs +140 to break even (reference payout +140), edge +12.5%, Max Play
-- Over 35.5 + Jacksonville Jaguars ML -1240 + Minnesota Vikings ML -309: model 49.0%, needs +174 to break even (reference payout +174), edge +12.5%, Max Play
-- Under 46.5 + Jacksonville Jaguars ML -1240: model 62.0%, needs +102 to break even (reference payout +102), edge +12.5%, Max Play
-- Under 55.5 + Jacksonville Jaguars ML -1240 + Minnesota Vikings ML -309: model 48.8%, needs +174 to break even (reference payout +174), edge +12.3%, Max Play
+- Under 46.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309: model 50.3%, needs +169 to break even (reference payout +169), edge +13.1%, Max Play
+- Under 46.5 + Jacksonville Jaguars ML -1160: model 62.0%, needs +103 to break even (reference payout +103), edge +12.8%, Max Play
+- Cincinnati Bengals ML -534 + Under 46.5 + Jacksonville Jaguars ML -1160: model 54.2%, needs +141 to break even (reference payout +141), edge +12.8%, Max Play
+- Over 35.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309: model 49.0%, needs +176 to break even (reference payout +176), edge +12.7%, Max Play
+- Under 55.5 + Jacksonville Jaguars ML -1160 + Minnesota Vikings ML -309: model 48.8%, needs +176 to break even (reference payout +176), edge +12.5%, Max Play
 
 ### NFL Best 6-point teasers
 
