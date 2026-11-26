@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T03:39:10.549920+00:00",
+  "checked_at": "2026-11-26T04:39:40.158311+00:00",
   "central_date": "2026-11-25",
   "ready": false,
   "policy": {
@@ -14,11 +14,11 @@
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.018,
+      "age_hours": 0.021,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 223.72,
+      "age_hours": 224.728,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,36 +26,35 @@
       "max_age_hours": 4
     },
     "ops_export": {
-      "age_hours": 0.018,
+      "age_hours": 0.021,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.036,
+      "age_hours": 0.044,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
       "max_age_hours": 4,
       "status": "degraded",
       "last_good_age_hours": null,
-      "age_hours": 0.102
+      "age_hours": 0.939
     },
     "espn-sync.yml": {
-      "age_hours": 0.202,
+      "age_hours": 0.979,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 5.806,
+      "age_hours": 0.885,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 6.018,
+      "age_hours": 7.026,
       "max_age_hours": 26
     }
   },
   "errors": [
-    "splash_board: age 223.72h outside [0, 168)h (5m clock tolerance)",
-    "pricecheck: invalid source provenance (float() argument must be a string or a real number, not 'NoneType')",
-    "picks.yml: age 5.81h outside [0, 4)h (5m clock tolerance)"
+    "splash_board: age 224.73h outside [0, 168)h (5m clock tolerance)",
+    "pricecheck: invalid source provenance (float() argument must be a string or a real number, not 'NoneType')"
   ],
   "warnings": [
     "injury-pull.yml: latest run is not healthy, successful and LIVE; no good pull on record. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
