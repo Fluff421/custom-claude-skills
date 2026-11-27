@@ -2,8 +2,6 @@
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
-Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Los Angeles Rams (2026-12-03)
-
 ## NCAAF
 
 | Game | Market | Pick | Prob | Edge | Tier | Units |
@@ -24,7 +22,7 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | Arizona State @ Arizona | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
 | Arizona State @ Arizona | moneyline | Arizona State ML +250 | 30% | +1.2% | No Play | 0 |
 | Temple @ Memphis | spread | Memphis -17.5 (spread) | 50% |  | No Play | 0 |
-| Temple @ Memphis | total | Under 66.5 | 53% | +2.4 pts | No Play | 0 |
+| Temple @ Memphis | total | Under 65.5 | 53% | +2.1 pts | No Play | 0 |
 | Temple @ Memphis | moneyline | Memphis ML -1050 | 89% | -2.1% | No Play | 0 |
 | Southern Miss @ Old Dominion | spread | Southern Miss +5.5 (spread) | 50% |  | No Play | 0 |
 | Southern Miss @ Old Dominion | total | Over 50.5 | 50% | +0.3 pts | No Play | 0 |
@@ -162,7 +160,7 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | Nebraska @ Iowa | total | Over 40.5 | 51% | +0.8 pts | No Play | 0 |
 | Nebraska @ Iowa | moneyline | Nebraska ML +164 | 41% | +3.0% | Lean | 0.5 |
 | UConn @ Wyoming | spread | Wyoming +3.5 (spread) | 50% |  | No Play | 0 |
-| UConn @ Wyoming | total | Under 45.5 | 52% | +1.4 pts | No Play | 0 |
+| UConn @ Wyoming | total | Under 44.5 | 51% | +1.1 pts | No Play | 0 |
 | UConn @ Wyoming | moneyline | Wyoming ML +142 | 41% | -0.8% | No Play | 0 |
 | Sacramento State @ Hawai'i | spread | Hawai'i -13.5 (spread) | 50% |  | Lean | 0.5 |
 | Sacramento State @ Hawai'i | total | Over 39.5 | 52% | +1.9 pts | No Play | 0 |
@@ -226,17 +224,17 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | total | Over 36.5 | 56% | +1.4 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +205 | 39% | +5.8% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | total | Over 37.5 | 55% | +1.1 pts | No Play | 0 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +204 | 39% | +5.6% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 43.5 | 54% | +0.9 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | +5.5% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | spread | Kansas City Chiefs +1.5 (spread) | 50% |  | No Play | 0 |
 | Kansas City Chiefs @ Los Angeles Rams | total | Under 44.5 | 51% | +0.3 pts | No Play | 0 |
-| Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -128 (price estimated from the line) | 57% | +0.5% | No Play | 0 |
+| Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | +4.5% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | spread | Los Angeles Chargers -4.5 (spread) | 50% |  | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | +2.4 pts | Lean | 0.5 |
-| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +116 | 47% | +0.9% | No Play | 0 |
+| New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +115 | 47% | +0.7% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 49.5 | 57% | +1.6 pts | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -562 | 87% | +2.5% | No Play | 0 |
@@ -270,8 +268,8 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 ### NFL Best 6-point teasers
 
 - Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 41.5 -> 35.5: model 47.8%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
-- Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 36.5 -> 30.5: model 47.7%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
 - Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 39.5 -> 33.5: model 47.4%, needs +160 to break even (reference payout +160), edge +9.0%, Max Play
-- Over 35.5 -> 29.5 + Over 41.5 -> 35.5 + Over 36.5 -> 30.5: model 47.4%, needs +160 to break even (reference payout +160), edge +8.9%, Max Play
 - Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 43.5 -> 37.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.8%, Max Play
+- Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 41.5 -> 35.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.8%, Max Play
+- Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 37.5 -> 31.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.7%, Max Play
 

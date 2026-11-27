@@ -157,8 +157,9 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | Lean | 0.5 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +205 | 39% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +204 | 39% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | Lean | 0.5 |
+| Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 49.5 | 57% | Lean | 0.5 |
 | USC @ UCLA | moneyline | UCLA ML +205 | 36% | Lean | 0.5 |
@@ -176,8 +177,8 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Over 35.5 + Jacksonville Jaguars ML -1260 | model 60.4%, needs +107 to break even, edge +12.0%, Max Play
 - NFL parlay: Over 35.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -1260 | model 48.4%, needs +169 to break even, edge +11.3%, Max Play
 - NFL teaser: Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 41.5 -> 35.5 | model 47.8%, needs +160 to break even, edge +9.3%, Max Play
-- NFL teaser: Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 36.5 -> 30.5 | model 47.7%, needs +160 to break even, edge +9.3%, Max Play
 - NFL teaser: Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 39.5 -> 33.5 | model 47.4%, needs +160 to break even, edge +9.0%, Max Play
+- NFL teaser: Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 43.5 -> 37.5 | model 47.2%, needs +160 to break even, edge +8.8%, Max Play
 
 ## Results and learning by market
 
