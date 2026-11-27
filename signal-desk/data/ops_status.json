@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-27T21:51:17Z",
+ "generated_at_utc": "2026-11-27T22:20:14Z",
  "generated_for_central_date": "2026-11-27",
  "graded_picks_csv_rows": 315,
  "ledger_health": {
@@ -329,6 +329,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 46075885208,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46075885208",
+     "event": "schedule",
+     "created_at": "2026-11-27T22:19:03Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 0,
+      "leg_patches": 0,
+      "calibration_upserts": 28,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 46071465149,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46071465149",
      "event": "workflow_dispatch",
@@ -371,22 +387,6 @@
      "summary": {
       "mode": "LIVE",
       "ledger_patches": 0,
-      "leg_patches": 0,
-      "calibration_upserts": 28,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 46050806337,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46050806337",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-27T18:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 1,
       "leg_patches": 0,
       "calibration_upserts": 28,
       "fpi_missing": 0
@@ -603,21 +603,6 @@
      "summary": {
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 45905916446,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45905916446",
-     "event": "schedule",
-     "created_at": "2026-11-26T22:36:54Z",
-     "conclusion": "failure",
-     "health": "failed",
-     "reasons": [
-      "conclusion=failure"
-     ],
-     "summary": {
-      "mode": "LIVE",
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -683,7 +668,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T12:53:32Z",
-   "age_h": 9.0,
+   "age_h": 9.4,
    "status": "missed"
   },
   {
@@ -692,7 +677,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T19:10:56Z",
-   "age_h": 2.7,
+   "age_h": 3.2,
    "status": "ok"
   },
   {
@@ -700,9 +685,9 @@
    "file": "close-grade.yml",
    "expected_every_h": 1,
    "max_gap_h": 2,
-   "last_scheduled_run_utc": "2026-11-27T13:05:05Z",
-   "age_h": 8.8,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-27T22:19:03Z",
+   "age_h": 0.0,
+   "status": "ok"
   },
   {
    "workflow": "Context & Calibrate",
@@ -710,7 +695,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-27T21:11:37Z",
-   "age_h": 0.7,
+   "age_h": 1.1,
    "status": "ok"
   },
   {
@@ -719,7 +704,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-27T21:39:26Z",
-   "age_h": 0.2,
+   "age_h": 0.7,
    "status": "ok"
   },
   {
@@ -728,7 +713,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-27T14:09:12Z",
-   "age_h": 7.7,
+   "age_h": 8.2,
    "status": "missed"
   },
   {
@@ -737,7 +722,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T13:00:01Z",
-   "age_h": 8.9,
+   "age_h": 9.3,
    "status": "missed"
   }
  ],
