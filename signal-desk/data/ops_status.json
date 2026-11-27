@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-11-27T03:38:10Z",
+ "generated_at_utc": "2026-11-27T04:38:28Z",
  "generated_for_central_date": "2026-11-26",
- "graded_picks_csv_rows": 308,
+ "graded_picks_csv_rows": 310,
  "ledger_health": {
   "games_today_or_later": 83,
   "games_before_today": 75,
@@ -59,10 +59,10 @@
    "upcoming_espn_data_stale": {
     "count": 4,
     "games": [
-     "TCU @ Texas Tech (NCAAF, 2026-11-26) (6 h)",
-     "Kansas City Chiefs @ Buffalo Bills (NFL, 2026-11-26) (6 h)",
-     "Chicago Bears @ Detroit Lions (NFL, 2026-11-26) (6 h)",
-     "Philadelphia Eagles @ Dallas Cowboys (NFL, 2026-11-26) (6 h)"
+     "TCU @ Texas Tech (NCAAF, 2026-11-26) (7 h)",
+     "Kansas City Chiefs @ Buffalo Bills (NFL, 2026-11-26) (7 h)",
+     "Chicago Bears @ Detroit Lions (NFL, 2026-11-26) (7 h)",
+     "Philadelphia Eagles @ Dallas Cowboys (NFL, 2026-11-26) (7 h)"
     ]
    },
    "past_date_no_closing_line": {
@@ -332,6 +332,22 @@
    "file": "close-grade.yml",
    "runs": [
     {
+     "run_id": 45940989323,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45940989323",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-27T04:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 2,
+      "leg_patches": 0,
+      "calibration_upserts": 28,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 45935209111,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45935209111",
      "event": "workflow_dispatch",
@@ -376,22 +392,6 @@
       "ledger_patches": 0,
       "leg_patches": 0,
       "calibration_upserts": 28,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45923575403,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45923575403",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-27T01:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 1,
-      "leg_patches": 0,
-      "calibration_upserts": 27,
       "fpi_missing": 0
      }
     }
@@ -672,7 +672,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T01:51:17Z",
-   "age_h": 1.8,
+   "age_h": 2.8,
    "status": "ok"
   },
   {
@@ -681,8 +681,8 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-26T23:59:54Z",
-   "age_h": 3.6,
-   "status": "ok"
+   "age_h": 4.6,
+   "status": "missed"
   },
   {
    "workflow": "Close & Grade",
@@ -690,7 +690,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-27T03:15:27Z",
-   "age_h": 0.4,
+   "age_h": 1.4,
    "status": "ok"
   },
   {
@@ -699,7 +699,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-26T21:27:18Z",
-   "age_h": 6.2,
+   "age_h": 7.2,
    "status": "ok"
   },
   {
@@ -708,7 +708,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-26T22:36:54Z",
-   "age_h": 5.0,
+   "age_h": 6.0,
    "status": "ok"
   },
   {
@@ -717,7 +717,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-27T03:03:30Z",
-   "age_h": 0.6,
+   "age_h": 1.6,
    "status": "ok"
   },
   {
@@ -726,7 +726,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T01:53:22Z",
-   "age_h": 1.7,
+   "age_h": 2.8,
    "status": "ok"
   }
  ],

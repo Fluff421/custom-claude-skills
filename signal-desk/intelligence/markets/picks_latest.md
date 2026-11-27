@@ -130,9 +130,9 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | Cincinnati @ BYU | moneyline | Cincinnati ML +500 | 15% | -1.7% | No Play | 0 |
 | Boston College @ Miami | spread | Miami -25.5 (spread) | 52% |  | No Play | 0 |
 | Boston College @ Miami | total | Over 53.5 | 51% | +0.6 pts | No Play | 0 |
-| Boston College @ Miami | moneyline | Miami ML -2800 | 96% | -1.0% | No Play | 0 |
+| Boston College @ Miami | moneyline | Miami ML -2800 | 96% | -0.5% | No Play | 0 |
 | Navy @ Charlotte | spread | Charlotte +15.5 (spread) | 50% |  | No Play | 0 |
-| Navy @ Charlotte | total | Over 54.5 | 51% | +1.0 pts | No Play | 0 |
+| Navy @ Charlotte | total | Over 53.5 | 52% | +1.3 pts | No Play | 0 |
 | Navy @ Charlotte | moneyline | Charlotte ML +550 | 14% | -1.7% | No Play | 0 |
 | Liberty @ Missouri State | spread | Liberty -14.5 (spread) | 51% |  | No Play | 0 |
 | Liberty @ Missouri State | total | Under 52.5 | 50% | +0.3 pts | No Play | 0 |
@@ -142,7 +142,7 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | USC @ UCLA | moneyline | UCLA ML +205 | 36% | +3.1% | Lean | 0.5 |
 | Minnesota @ Wisconsin | spread | Wisconsin -7 (spread) | 52% |  | No Play | 0 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | +2.8 pts | Lean | 0.5 |
-| Minnesota @ Wisconsin | moneyline | Minnesota ML +270 | 28% | +0.6% | No Play | 0 |
+| Minnesota @ Wisconsin | moneyline | Minnesota ML +270 | 26% | -1.3% | No Play | 0 |
 | LSU @ Arkansas | spread | LSU -13.5 (spread) | 51% |  | No Play | 0 |
 | LSU @ Arkansas | total | Over 49.5 | 51% | +0.4 pts | No Play | 0 |
 | LSU @ Arkansas | moneyline | Arkansas ML +455 | 16% | -1.8% | No Play | 0 |
@@ -180,7 +180,7 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | Florida Atlantic @ East Carolina | total | Under 57.5 | 51% | +1.1 pts | No Play | 0 |
 | Florida Atlantic @ East Carolina | moneyline | East Carolina ML -118 | 55% | +0.9% | No Play | 0 |
 | Washington @ Oregon | spread | Oregon -12.5 (spread) | 51% |  | No Play | 0 |
-| Washington @ Oregon | total | Over 51.5 | 50% | +0.1 pts | No Play | 0 |
+| Washington @ Oregon | total | Over 50.5 | 50% | +0.4 pts | No Play | 0 |
 | Washington @ Oregon | moneyline | Washington ML +455 | 18% | -0.2% | No Play | 0 |
 | Oregon State @ Fresno State | spread | Oregon State +2.5 (spread) | 51% |  | No Play | 0 |
 | Oregon State @ Fresno State | total | Over 58.5 | 50% | +0.1 pts | No Play | 0 |
@@ -190,7 +190,7 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | Troy @ Arkansas State | moneyline | Troy ML +154 | 41% | +1.2% | No Play | 0 |
 | Marshall @ UL Monroe | spread | Marshall -4.5 (spread) | 50% |  | No Play | 0 |
 | Marshall @ UL Monroe | total | Over 51.5 | 51% | +0.7 pts | No Play | 0 |
-| Marshall @ UL Monroe | moneyline | UL Monroe ML +170 | 36% | -1.3% | No Play | 0 |
+| Marshall @ UL Monroe | moneyline | UL Monroe ML +180 | 36% | +0.0% | No Play | 0 |
 | Kennesaw State @ Western Kentucky | spread | Kennesaw State -1.5 (spread) | 50% |  | No Play | 0 |
 | Kennesaw State @ Western Kentucky | total | Under 53.5 | 51% | +0.6 pts | No Play | 0 |
 | Kennesaw State @ Western Kentucky | moneyline | Western Kentucky ML +142 | 41% | -0.1% | No Play | 0 |
@@ -227,7 +227,7 @@ Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Lo
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 36.5 | 56% | +1.4 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +206 | 39% | +5.9% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +205 | 39% | +5.8% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 43.5 | 54% | +0.9 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | +5.5% | Lean | 0.5 |
