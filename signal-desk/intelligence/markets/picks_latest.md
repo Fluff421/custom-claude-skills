@@ -43,7 +43,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | NC State @ North Carolina | moneyline | NC State ML +185 | 35% | -0.5% | No Play | 0 |
 | West Virginia @ Utah | spread | Utah -20.5 (spread) | 50% |  | No Play | 0 |
 | West Virginia @ Utah | total | Under 66.5 | 52% | +1.5 pts | No Play | 0 |
-| West Virginia @ Utah | moneyline | Utah ML -2800 | 95% | -1.4% | No Play | 0 |
+| West Virginia @ Utah | moneyline | Utah ML -2800 | 96% | -0.9% | No Play | 0 |
 | Nevada @ UNLV | spread | UNLV -4.5 (spread) | 51% |  | No Play | 0 |
 | Nevada @ UNLV | total | Over 44.5 | 51% | +1.1 pts | No Play | 0 |
 | Nevada @ UNLV | moneyline | Nevada ML +185 | 35% | +0.3% | No Play | 0 |
@@ -57,7 +57,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Kansas @ Oklahoma State | total | Under 64.5 | 51% | +1.0 pts | No Play | 0 |
 | Kansas @ Oklahoma State | moneyline | Kansas ML +190 | 34% | -0.6% | No Play | 0 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
-| Notre Dame @ Syracuse | total | Under 53.5 | 50% | +0.0 pts | No Play | 0 |
+| Notre Dame @ Syracuse | total | Under 54.5 | 50% | +0.3 pts | No Play | 0 |
 | Notre Dame @ Syracuse | moneyline | Notre Dame ML -2800 | 95% | -1.1% | No Play | 0 |
 | Louisiana @ Georgia State | spread | Georgia State +6 (spread) | 51% |  | No Play | 0 |
 | Louisiana @ Georgia State | total | Over 55.5 | 50% | +0.3 pts | No Play | 0 |
@@ -75,7 +75,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Tennessee @ Vanderbilt | total | Over 43.5 | 52% | +1.9 pts | No Play | 0 |
 | Tennessee @ Vanderbilt | moneyline | Vanderbilt ML +410 | 18% | -1.6% | No Play | 0 |
 | UCF @ Colorado | spread | UCF +2.5 (spread) | 51% |  | No Play | 0 |
-| UCF @ Colorado | total | Over 49.5 | 51% | +0.5 pts | No Play | 0 |
+| UCF @ Colorado | total | Over 48.5 | 51% | +0.8 pts | No Play | 0 |
 | UCF @ Colorado | moneyline | Colorado ML -125 | 55% | -0.5% | No Play | 0 |
 | Michigan State @ Rutgers | spread | Michigan State -3 (spread) | 50% |  | No Play | 0 |
 | Michigan State @ Rutgers | total | Over 46.5 | 50% | +0.3 pts | No Play | 0 |
@@ -132,7 +132,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Baylor @ Houston | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
 | Baylor @ Houston | moneyline | Baylor ML +164 | 39% | +0.6% | No Play | 0 |
 | Cincinnati @ BYU | spread | BYU -14 (spread) | 50% |  | No Play | 0 |
-| Cincinnati @ BYU | total | Under 56.5 | 50% | +0.2 pts | No Play | 0 |
+| Cincinnati @ BYU | total | Over 55.5 | 50% | +0.1 pts | No Play | 0 |
 | Cincinnati @ BYU | moneyline | Cincinnati ML +500 | 15% | -1.7% | No Play | 0 |
 | Boston College @ Miami | spread | Miami -25.5 (spread) | 52% |  | No Play | 0 |
 | Boston College @ Miami | total | Over 53.5 | 51% | +0.6 pts | No Play | 0 |
@@ -234,7 +234,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 37.5 | 58% | +1.8 pts | Lean | 0.5 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +202 | 38% | +5.3% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +201 | 38% | +5.2% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 43.5 | 54% | +0.9 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | +5.4% | Lean | 0.5 |
