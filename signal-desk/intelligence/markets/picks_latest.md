@@ -2,6 +2,8 @@
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
 
+Markets not yet posted (no pick until a line is listed): Kansas City Chiefs @ Los Angeles Rams (2026-12-03)
+
 ## NCAAF
 
 | Game | Market | Pick | Prob | Edge | Tier | Units |
@@ -100,7 +102,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Pittsburgh @ California | total | Over 47.5 | 52% | +1.6 pts | No Play | 0 |
 | Pittsburgh @ California | moneyline | California ML +280 | 26% | -0.7% | No Play | 0 |
 | Tulane @ South Florida | spread | Tulane +7 (spread) | 50% |  | No Play | 0 |
-| Tulane @ South Florida | total | Over 43.5 | 52% | +1.8 pts | No Play | 0 |
+| Tulane @ South Florida | total | Over 44.5 | 52% | +1.5 pts | No Play | 0 |
 | Tulane @ South Florida | moneyline | Tulane ML +195 | 33% | -0.5% | No Play | 0 |
 | Purdue @ Indiana | spread | Indiana -21.5 (spread) | 51% |  | No Play | 0 |
 | Purdue @ Indiana | total | Over 52.5 | 50% | +0.0 pts | No Play | 0 |
@@ -196,7 +198,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Boise State @ Colorado State | total | Under 76.5 | 55% | +4.3 pts | Lean | 0.5 |
 | Boise State @ Colorado State | moneyline | Colorado State ML +1000 | 8% | -1.4% | No Play | 0 |
 | Massachusetts @ Bowling Green | spread | Massachusetts +1.5 (spread) | 50% |  | No Play | 0 |
-| Massachusetts @ Bowling Green | total | Over 42.5 | 51% | +1.1 pts | No Play | 0 |
+| Massachusetts @ Bowling Green | total | Over 41.5 | 52% | +1.4 pts | No Play | 0 |
 | Massachusetts @ Bowling Green | moneyline | Massachusetts ML +136 | 43% | +0.4% | No Play | 0 |
 | App State @ South Alabama | spread | South Alabama -3 (spread) | 50% |  | No Play | 0 |
 | App State @ South Alabama | total | Under 56.5 | 50% | +0.2 pts | No Play | 0 |
@@ -225,22 +227,22 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 36.5 | 56% | +1.4 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +205 | 39% | +5.8% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +206 | 39% | +5.9% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 43.5 | 54% | +0.9 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | +5.5% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | spread | Kansas City Chiefs +1.5 (spread) | 50% |  | No Play | 0 |
 | Kansas City Chiefs @ Los Angeles Rams | total | Under 44.5 | 51% | +0.3 pts | No Play | 0 |
-| Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | +4.5% | Lean | 0.5 |
+| Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -128 (price estimated from the line) | 57% | +0.5% | No Play | 0 |
 | New England Patriots @ Los Angeles Chargers | spread | Los Angeles Chargers -4.5 (spread) | 50% |  | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | +2.4 pts | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +116 | 47% | +0.9% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 49.5 | 57% | +1.6 pts | Lean | 0.5 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -562 | 87% | +2.5% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -563 | 87% | +2.5% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 39.5 | 55% | +1.2 pts | No Play | 0 |
-| New York Jets @ Miami Dolphins | moneyline | New York Jets ML -243 | 69% | -1.9% | No Play | 0 |
+| New York Jets @ Miami Dolphins | moneyline | New York Jets ML -242 | 69% | -1.8% | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | spread | Houston Texans -6.5 (spread) | 59% |  | Strong Play | 1 |
 | Baltimore Ravens @ Houston Texans | total | Over 47.5 | 50% | +0.1 pts | No Play | 0 |
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -332 | 80% | +3.3% | Lean | 0.5 |
