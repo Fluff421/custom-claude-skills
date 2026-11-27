@@ -144,7 +144,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Liberty @ Missouri State | total | Under 52.5 | 50% | +0.3 pts | No Play | 0 |
 | Liberty @ Missouri State | moneyline | Liberty ML -1000 | 89% | -1.9% | No Play | 0 |
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
-| USC @ UCLA | total | Over 45.5 | 52% | +1.8 pts | No Play | 0 |
+| USC @ UCLA | total | Over 46.5 | 52% | +1.5 pts | No Play | 0 |
 | USC @ UCLA | moneyline | UCLA ML +205 | 36% | +3.1% | Lean | 0.5 |
 | Minnesota @ Wisconsin | spread | Wisconsin -7 (spread) | 52% |  | No Play | 0 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | +2.8 pts | Lean | 0.5 |
@@ -234,7 +234,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |
 | Denver Broncos @ Pittsburgh Steelers | spread | Pittsburgh Steelers +1.5 (spread) | 51% |  | No Play | 0 |
 | Denver Broncos @ Pittsburgh Steelers | total | Over 37.5 | 55% | +1.1 pts | No Play | 0 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +205 | 38% | +5.6% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +208 | 38% | +5.9% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Under 43.5 | 54% | +0.9 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | +5.4% | Lean | 0.5 |
@@ -261,9 +261,9 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -311 | 81% | +5.4% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 34% | +4.7% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +233 | 34% | +4.4% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
-| Las Vegas Raiders @ Cleveland Browns | total | Over 40.5 | 54% | +0.8 pts | No Play | 0 |
+| Las Vegas Raiders @ Cleveland Browns | total | Over 39.5 | 55% | +1.1 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Las Vegas Raiders ML +201 | 31% | -2.0% | No Play | 0 |
 
 ### NFL Best parlays
@@ -278,7 +278,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 
 - Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 41.5 -> 35.5: model 47.8%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
 - Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 39.5 -> 33.5: model 47.4%, needs +160 to break even (reference payout +160), edge +9.0%, Max Play
+- Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 39.5 -> 33.5: model 47.3%, needs +160 to break even (reference payout +160), edge +8.8%, Max Play
 - Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 43.5 -> 37.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.8%, Max Play
 - Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 41.5 -> 35.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.8%, Max Play
-- Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 37.5 -> 31.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.7%, Max Play
 
