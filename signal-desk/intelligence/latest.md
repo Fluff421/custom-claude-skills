@@ -29,7 +29,7 @@ Overall graded picks: 147-159 (Brier 0.2561).
 - Washington Commanders @ Arizona Cardinals: QB: HOME QB QUESTIONABLE Carson Beck -> Josh Johnson [auto espn 2026-11-26] [priced: Josh Johnson led passing 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-26]; weather: indoor | sev=0.00
 - New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
 
-Tracking picks (paper, 0u): 69. Examples: Georgia Tech @ Georgia -> Georgia Tech +34.5 (spread); Boston College @ Miami -> Miami -25.5 (spread); Purdue @ Indiana -> Indiana -21.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); West Virginia @ Utah -> Utah -20.5 (spread)
+Tracking picks (paper, 0u): 71. Examples: Georgia Tech @ Georgia -> Georgia Tech +34.5 (spread); Boston College @ Miami -> Miami -25.5 (spread); Purdue @ Indiana -> Indiana -21.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); West Virginia @ Utah -> Utah -20.5 (spread)
 
 ## Recently closed (last 7 days)
 
@@ -157,7 +157,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | Lean | 0.5 |
-| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +205 | 39% | Lean | 0.5 |
+| Denver Broncos @ Pittsburgh Steelers | moneyline | Pittsburgh Steelers ML +205 | 38% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -152 | 66% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | Lean | 0.5 |
@@ -168,14 +168,14 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -332 | 80% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1260 | 99% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -311 | 81% | Lean | 0.5 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 35% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 34% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 55% | Lean | 0.5 |
 - NCAAF parlay: Nebraska ML +164 + Under 76.5 | model 22.6%, needs +408 to break even, edge +2.9%, Lean
 - NCAAF parlay: UCLA ML +205 + Under 76.5 | model 19.8%, needs +487 to break even, edge +2.8%, Lean
 - NCAAF parlay: Over 37.5 + Under 76.5 | model 29.5%, needs +268 to break even, edge +2.3%, Lean
-- NFL parlay: Over 35.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -311 | model 49.1%, needs +174 to break even, edge +12.5%, Max Play
+- NFL parlay: Over 35.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -311 | model 48.9%, needs +174 to break even, edge +12.4%, Max Play
 - NFL parlay: Over 35.5 + Jacksonville Jaguars ML -1260 | model 60.4%, needs +107 to break even, edge +12.0%, Max Play
-- NFL parlay: Over 35.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -1260 | model 48.4%, needs +169 to break even, edge +11.3%, Max Play
+- NFL parlay: Over 35.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -1260 | model 48.5%, needs +169 to break even, edge +11.3%, Max Play
 - NFL teaser: Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 41.5 -> 35.5 | model 47.8%, needs +160 to break even, edge +9.3%, Max Play
 - NFL teaser: Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 39.5 -> 33.5 | model 47.4%, needs +160 to break even, edge +9.0%, Max Play
 - NFL teaser: Over 35.5 -> 29.5 + Under 49.5 -> 55.5 + Over 43.5 -> 37.5 | model 47.2%, needs +160 to break even, edge +8.8%, Max Play
