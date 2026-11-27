@@ -95,6 +95,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Kansas State @ Iowa State | spread | Kansas State +4.5 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ Iowa State | total | Over 53.5 | 51% | +1.0 pts | No Play | 0 |
 | Kansas State @ Iowa State | moneyline | Kansas State ML +154 | 40% | +0.5% | No Play | 0 |
+| San Diego State @ Boise State | spread | Boise State -15.5 (spread) | 51% |  | No Play | 0 |
 | San Diego State @ Boise State | total | Over 58.5 | 50% | +0.0 pts | No Play | 0 |
 | San Diego State @ Boise State | moneyline | San Diego State ML +525 | 14% | -1.7% | No Play | 0 |
 | UTEP @ Northern Illinois | spread | Northern Illinois -4 (spread) | 52% |  | No Play | 0 |
@@ -103,6 +104,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Pittsburgh @ California | spread | Pittsburgh -8.5 (spread) | 51% |  | No Play | 0 |
 | Pittsburgh @ California | total | Over 47.5 | 52% | +1.6 pts | No Play | 0 |
 | Pittsburgh @ California | moneyline | California ML +280 | 26% | -0.7% | No Play | 0 |
+| Texas Tech @ Utah | spread | Utah -2.5 (spread) | 50% |  | No Play | 0 |
 | Texas Tech @ Utah | total | Over 56.5 | 50% | +0.0 pts | No Play | 0 |
 | Texas Tech @ Utah | moneyline | Utah ML -130 | 57% | +0.0% | No Play | 0 |
 | Tulane @ South Florida | spread | Tulane +7 (spread) | 50% |  | No Play | 0 |
@@ -226,7 +228,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 |---|---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | spread | Arizona Cardinals +6.5 (spread) | 54% |  | Lean | 0.5 |
 | Washington Commanders @ Arizona Cardinals | total | Over 41.5 | 56% | +1.4 pts | No Play | 0 |
-| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +282 | 29% | +2.6% | No Play | 0 |
+| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +281 | 29% | +2.5% | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -157 | 65% | +4.4% | Lean | 0.5 |

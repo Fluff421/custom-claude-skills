@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T08:38:54+00:00",
+ "generated_at": "2026-11-27T09:05:49+00:00",
  "date": "2026-11-27",
  "games": [
   {
@@ -1014,18 +1014,18 @@
      "side": "home",
      "team": "Arizona Cardinals",
      "line": 0.0,
-     "price": 282.0,
+     "price": 281.0,
      "price_estimated": false,
      "proj": -5.21,
      "prob": 0.288,
-     "edge": 0.0262,
+     "edge": 0.0255,
      "edge_unit": "prob",
      "price_source": "DraftKings",
      "quote_captured_at": null,
      "quote_snapshot_id": null,
      "tier": "No Play",
      "units": 0.0,
-     "selection": "Arizona Cardinals ML +282",
+     "selection": "Arizona Cardinals ML +281",
      "game_id": "rec5qq2WSH0UY0Dpz",
      "game": "Washington Commanders @ Arizona Cardinals",
      "priority": "primary",
@@ -4938,6 +4938,24 @@
    "total_factor_why": [],
    "picks": [
     {
+     "market": "spread",
+     "side": "home",
+     "team": "Boise State",
+     "line": -15.5,
+     "price": -112.0,
+     "proj": 18.5,
+     "prob": 0.5124,
+     "edge": null,
+     "edge_unit": "pts",
+     "tier": "No Play",
+     "units": 0.0,
+     "selection": "Boise State -15.5 (spread)",
+     "game_id": "recUPiBFmVyqivWtB",
+     "game": "San Diego State @ Boise State",
+     "priority": "primary",
+     "pro_favorite": true
+    },
+    {
      "market": "total",
      "side": "over",
      "line": 58.5,
@@ -5323,6 +5341,24 @@
    "factors": [],
    "total_factor_why": [],
    "picks": [
+    {
+     "market": "spread",
+     "side": "home",
+     "team": "Utah",
+     "line": -2.5,
+     "price": -110.0,
+     "proj": 2.299999999999997,
+     "prob": 0.5,
+     "edge": null,
+     "edge_unit": "pts",
+     "tier": "No Play",
+     "units": 0.0,
+     "selection": "Utah -2.5 (spread)",
+     "game_id": "recVGgdgoE6MCkV1n",
+     "game": "Texas Tech @ Utah",
+     "priority": "primary",
+     "pro_favorite": true
+    },
     {
      "market": "total",
      "side": "over",

@@ -160,3 +160,5 @@ ts,record_id,league,game,side,edge_tier,edge,pred_clv,clv_tier,model_n
 2026-11-22 19:58Z,reczKWDr6PntSzoYt,NCAAF,App State @ South Alabama,South Alabama -3 (spread),No Play,0.19,-0.009,No Play,109
 2026-11-23 12:49Z,recIearXwHSzQGVOx,NFL,Carolina Panthers @ Tampa Bay Buccaneers,Tampa Bay Buccaneers -3 (spread),Lean,2.2,0.522,Strong Play,29
 2026-11-26 12:25Z,recSD2x2EHJlrmRRR,NFL,Kansas City Chiefs @ Los Angeles Rams,Kansas City Chiefs +1.5 (spread),No Play,-0.1,-0.06,No Play,29
+2026-11-27 09:05Z,recUPiBFmVyqivWtB,NCAAF,San Diego State @ Boise State,Boise State -15.5 (spread),No Play,0.46,0.049,No Play,109
+2026-11-27 09:05Z,recVGgdgoE6MCkV1n,NCAAF,Texas Tech @ Utah,Utah -2.5 (spread),No Play,-0.0,0.026,No Play,109
