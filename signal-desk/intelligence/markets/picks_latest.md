@@ -11,6 +11,9 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Louisiana Tech @ Georgia Southern | spread | Louisiana Tech +2.5 (spread) | 51% |  | No Play | 0 |
 | Louisiana Tech @ Georgia Southern | total | Under 53.5 | 51% | +1.0 pts | No Play | 0 |
 | Louisiana Tech @ Georgia Southern | moneyline | Georgia Southern ML -135 | 56% | -1.6% | No Play | 0 |
+| Mississippi State @ Ole Miss | spread | Mississippi State +19.5 (spread) | 51% |  | No Play | 0 |
+| Mississippi State @ Ole Miss | total | Under 56.5 | 51% | +0.9 pts | No Play | 0 |
+| Mississippi State @ Ole Miss | moneyline | Mississippi State ML +650 | 12% | -1.1% | No Play | 0 |
 | Oklahoma @ Missouri | spread | Oklahoma +1.5 (spread) | 50% |  | No Play | 0 |
 | Oklahoma @ Missouri | total | Over 42.5 | 52% | +1.7 pts | No Play | 0 |
 | Oklahoma @ Missouri | moneyline | Missouri ML -125 | 56% | +0.2% | No Play | 0 |
@@ -34,7 +37,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Penn State @ Maryland | moneyline | Maryland ML +235 | 30% | -0.3% | No Play | 0 |
 | Air Force @ New Mexico | spread | New Mexico -6.5 (spread) | 50% |  | No Play | 0 |
 | Air Force @ New Mexico | total | Over 42.5 | 51% | +0.9 pts | No Play | 0 |
-| Air Force @ New Mexico | moneyline | Air Force ML +225 | 32% | +0.9% | No Play | 0 |
+| Air Force @ New Mexico | moneyline | Air Force ML +235 | 31% | +0.8% | No Play | 0 |
 | NC State @ North Carolina | spread | North Carolina -5.5 (spread) | 51% |  | No Play | 0 |
 | NC State @ North Carolina | total | Under 53.5 | 51% | +0.9 pts | No Play | 0 |
 | NC State @ North Carolina | moneyline | NC State ML +185 | 35% | -0.5% | No Play | 0 |
@@ -194,7 +197,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Massachusetts @ Bowling Green | moneyline | Massachusetts ML +130 | 43% | -0.8% | No Play | 0 |
 | App State @ South Alabama | spread | South Alabama -3 (spread) | 50% |  | No Play | 0 |
 | App State @ South Alabama | total | Under 56.5 | 50% | +0.2 pts | No Play | 0 |
-| App State @ South Alabama | moneyline | App State ML +130 | 42% | -1.9% | No Play | 0 |
+| App State @ South Alabama | moneyline | App State ML +136 | 40% | -1.9% | No Play | 0 |
 | Florida @ Florida State | spread | Florida -4.5 (spread) | 50% |  | No Play | 0 |
 | Florida @ Florida State | total | Under 54.5 | 51% | +0.4 pts | No Play | 0 |
 | Florida @ Florida State | moneyline | Florida State ML +195 | 34% | +0.1% | No Play | 0 |
@@ -231,7 +234,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +115 | 47% | +0.6% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 48.5 | 56% | +1.3 pts | No Play | 0 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -610 | 87% | +1.6% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -620 | 87% | +1.4% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 39.5 | 55% | +1.2 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -249 | 72% | +0.2% | No Play | 0 |
@@ -243,7 +246,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1000 | 98% | +7.1% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 41.5 | 50% | +0.0 pts | No Play | 0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -321 | 81% | +4.8% | Lean | 0.5 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -320 | 81% | +4.9% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 34% | +4.7% | Lean | 0.5 |
@@ -254,9 +257,9 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 ### NFL Best parlays
 
 - Over 35.5 + Jacksonville Jaguars ML -1000: model 59.9%, needs +111 to break even (reference payout +111), edge +12.5%, Max Play
-- Over 35.5 + Jacksonville Jaguars ML -1000 + Minnesota Vikings ML -321: model 48.5%, needs +177 to break even (reference payout +177), edge +12.4%, Max Play
+- Over 35.5 + Jacksonville Jaguars ML -1000 + Minnesota Vikings ML -320: model 48.5%, needs +177 to break even (reference payout +177), edge +12.4%, Max Play
 - Over 35.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -1000: model 48.1%, needs +174 to break even (reference payout +174), edge +11.6%, Max Play
-- Jacksonville Jaguars ML -1000 + Minnesota Vikings ML -321 + Indianapolis Colts +6.5 (spread): model 47.0%, needs +177 to break even (reference payout +177), edge +10.9%, Max Play
+- Jacksonville Jaguars ML -1000 + Minnesota Vikings ML -320 + Indianapolis Colts +6.5 (spread): model 47.0%, needs +177 to break even (reference payout +177), edge +10.9%, Max Play
 - San Francisco 49ers ML -152 + Over 35.5 + Jacksonville Jaguars ML -1000: model 39.4%, needs +250 to break even (reference payout +250), edge +10.8%, Max Play
 
 ### NFL Best 6-point teasers
