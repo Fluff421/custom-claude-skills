@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-27T22:39:47.027669+00:00",
- "snapshot_age_hours": 2.9,
+ "generated_at": "2026-11-27T23:38:50.400772+00:00",
+ "snapshot_age_hours": 3.9,
  "games": [
   {
    "game": "Air Force @ New Mexico",
@@ -49,56 +49,6 @@
     "tier": "No Play",
     "prob": 0.3125,
     "edge": -0.01,
-    "model_ml_side": "home"
-   }
-  },
-  {
-   "game": "App State @ South Alabama",
-   "record_id": "reczKWDr6PntSzoYt",
-   "league": "NCAAF",
-   "date": "2026-11-27",
-   "snapshot_id": "SPL-L-20261127-1346",
-   "captured_at_central": "2026-11-27 13:45:00 CST",
-   "splash_home_margin": 3.5,
-   "splash_total": 56.5,
-   "import_home_margin": null,
-   "import_total": 56.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "reczKWDr6PntSzoYt",
-   "model_status": "",
-   "spread": {
-    "pick": "South Alabama -3.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5031,
-    "edge": 0.12,
-    "proj": 4.399999999999999,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "South Alabama +2.5 (teased)",
-     "prob": 0.6537
-    }
-   },
-   "total": {
-    "pick": "Under 56.5",
-    "side": "under",
-    "tier": "No Play",
-    "prob": 0.5029,
-    "edge": 0.23,
-    "proj": 56.27,
-    "import_side": "under",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Under 62.5 (teased)",
-     "prob": 0.6842
-    }
-   },
-   "moneyline": {
-    "pick": "App State ML +134",
-    "tier": "No Play",
-    "prob": 0.4098,
-    "edge": -0.0175,
     "model_ml_side": "home"
    }
   },
@@ -862,7 +812,7 @@
    "splash_home_margin": 24.5,
    "splash_total": 66.5,
    "import_home_margin": null,
-   "import_total": null,
+   "import_total": 65.5,
    "reference_origin": "airtable",
    "ledger_record_id": "recARpp2Fn9mM1OKK",
    "model_status": "",
@@ -887,8 +837,8 @@
     "prob": 0.5189,
     "edge": 1.54,
     "proj": 64.96,
-    "import_side": "",
-    "import_tier": "",
+    "import_side": "under",
+    "import_tier": "No Play",
     "teaser_leg": {
      "pick": "Under 72.5 (teased)",
      "prob": 0.7191
@@ -900,56 +850,6 @@
     "prob": 0.0546,
     "edge": -0.0179,
     "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Denver Broncos @ Pittsburgh Steelers",
-   "record_id": "recKR9lPGcmgm0f3w",
-   "league": "NFL",
-   "date": "2026-11-27",
-   "snapshot_id": "SPL-L-20261127-1346",
-   "captured_at_central": "2026-11-27 13:45:00 CST",
-   "splash_home_margin": -4.5,
-   "splash_total": 36.5,
-   "import_home_margin": null,
-   "import_total": 37.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recKR9lPGcmgm0f3w",
-   "model_status": "",
-   "spread": {
-    "pick": "Pittsburgh Steelers +4.5",
-    "side": "home",
-    "tier": "Max Play",
-    "prob": 0.6917,
-    "edge": 6.2,
-    "proj": 1.2000000000000002,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Pittsburgh Steelers +10.5 (teased)",
-     "prob": 0.7579
-    }
-   },
-   "total": {
-    "pick": "Over 36.5",
-    "side": "over",
-    "tier": "Lean",
-    "prob": 0.5956,
-    "edge": 2.1,
-    "proj": 38.6,
-    "import_side": "over",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Over 30.5 (teased)",
-     "prob": 0.791
-    }
-   },
-   "moneyline": {
-    "pick": "Pittsburgh Steelers ML +194",
-    "tier": "No Play",
-    "prob": 0.4117,
-    "edge": 0.0716,
-    "model_ml_side": "home"
    }
   },
   {
@@ -997,8 +897,8 @@
    "moneyline": {
     "pick": "Arizona ML -295",
     "tier": "No Play",
-    "prob": 0.73,
-    "edge": -0.0169,
+    "prob": 0.7452,
+    "edge": -0.0017,
     "model_ml_side": "home"
    }
   },
@@ -1295,10 +1195,10 @@
     }
    },
    "moneyline": {
-    "pick": "Cincinnati ML +500",
+    "pick": "BYU ML -690",
     "tier": "No Play",
-    "prob": 0.1517,
-    "edge": -0.015,
+    "prob": 0.859,
+    "edge": -0.0144,
     "model_ml_side": "away"
    }
   },
@@ -1447,8 +1347,8 @@
    "moneyline": {
     "pick": "Northwestern ML -146",
     "tier": "No Play",
-    "prob": 0.6051,
-    "edge": 0.0116,
+    "prob": 0.6141,
+    "edge": 0.0206,
     "model_ml_side": "home"
    }
   },
@@ -2145,11 +2045,11 @@
     }
    },
    "moneyline": {
-    "pick": "Middle Tennessee ML -160",
+    "pick": "New Mexico State ML +132",
     "tier": "No Play",
-    "prob": 0.5946,
-    "edge": -0.0208,
-    "model_ml_side": "away"
+    "prob": 0.4145,
+    "edge": -0.0165,
+    "model_ml_side": "home"
    }
   },
   {
@@ -2245,10 +2145,10 @@
     }
    },
    "moneyline": {
-    "pick": "Missouri ML -125",
+    "pick": "Oklahoma ML +104",
     "tier": "No Play",
-    "prob": 0.5488,
-    "edge": -0.0067,
+    "prob": 0.4697,
+    "edge": -0.0205,
     "model_ml_side": "away"
    }
   },
@@ -2797,8 +2697,8 @@
    "moneyline": {
     "pick": "North Texas ML -140",
     "tier": "No Play",
-    "prob": 0.6708,
-    "edge": 0.0874,
+    "prob": 0.6623,
+    "edge": 0.0789,
     "model_ml_side": "home"
    }
   },
@@ -3136,8 +3036,8 @@
     "pick": "Houston Texans -6.5",
     "side": "home",
     "tier": "Strong Play",
-    "prob": 0.6113,
-    "edge": 3.5,
+    "prob": 0.6082,
+    "edge": 3.4,
     "proj": 10.5,
     "import_side": "",
     "import_tier": "",
@@ -3183,17 +3083,17 @@
    "ledger_record_id": "rectT8K8SSMh3vu1v",
    "model_status": "",
    "spread": {
-    "pick": "Las Vegas Raiders +4.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5129,
-    "edge": -0.4,
+    "pick": "Cleveland Browns -4.5",
+    "side": "home",
+    "tier": "Lean",
+    "prob": 0.5,
+    "edge": 1.8,
     "proj": 4.800000000000001,
     "import_side": "",
     "import_tier": "",
     "teaser_leg": {
-     "pick": "Las Vegas Raiders +10.5 (teased)",
-     "prob": 0.7119
+     "pick": "Cleveland Browns +1.5 (teased)",
+     "prob": 0.6786
     }
    },
    "total": {
@@ -3236,8 +3136,8 @@
     "pick": "Los Angeles Chargers +1.5",
     "side": "home",
     "tier": "Lean",
-    "prob": 0.5474,
-    "edge": 5.2,
+    "prob": 0.5277,
+    "edge": 4.4,
     "proj": 3.5,
     "import_side": "",
     "import_tier": "",
@@ -3263,8 +3163,8 @@
    "moneyline": {
     "pick": "Los Angeles Chargers ML +110",
     "tier": "No Play",
-    "prob": 0.4777,
-    "edge": 0.0015,
+    "prob": 0.4665,
+    "edge": -0.0097,
     "model_ml_side": "home"
    }
   },
@@ -3336,8 +3236,8 @@
     "pick": "Indianapolis Colts +6.5",
     "side": "home",
     "tier": "Max Play",
-    "prob": 0.7058,
-    "edge": 6.7,
+    "prob": 0.7114,
+    "edge": 6.9,
     "proj": 1.4,
     "import_side": "",
     "import_tier": "",
@@ -3386,8 +3286,8 @@
     "pick": "Miami Dolphins +5.5",
     "side": "home",
     "tier": "No Play",
-    "prob": 0.5193,
-    "edge": 0.6,
+    "prob": 0.5161,
+    "edge": 0.5,
     "proj": -4.800000000000001,
     "import_side": "",
     "import_tier": "",
@@ -3437,7 +3337,7 @@
     "side": "home",
     "tier": "Lean",
     "prob": 0.5,
-    "edge": 2.1,
+    "edge": 2.0,
     "proj": 5.699999999999999,
     "import_side": "",
     "import_tier": "",
@@ -3461,10 +3361,10 @@
     }
    },
    "moneyline": {
-    "pick": "San Francisco 49ers ML -148",
+    "pick": "Seattle Seahawks ML +126",
     "tier": "No Play",
-    "prob": 0.609,
-    "edge": 0.0123,
+    "prob": 0.4789,
+    "edge": 0.0365,
     "model_ml_side": "home"
    }
   },
@@ -3536,8 +3436,8 @@
     "pick": "Arizona Cardinals +7",
     "side": "home",
     "tier": "Max Play",
-    "prob": 0.6568,
-    "edge": 5.0,
+    "prob": 0.6509,
+    "edge": 4.8,
     "proj": -2.4000000000000004,
     "import_side": "",
     "import_tier": "",

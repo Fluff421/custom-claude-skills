@@ -12,7 +12,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Louisiana Tech @ Georgia Southern | total | Under 53.5 | 51% | +1.0 pts | No Play | 0 |
 | Louisiana Tech @ Georgia Southern | moneyline | Georgia Southern ML -132 | 56% | -1.0% | No Play | 0 |
 | Oklahoma @ Missouri | spread | Oklahoma +1.5 (spread) | 50% |  | No Play | 0 |
-| Oklahoma @ Missouri | total | Over 42.5 | 52% | +1.7 pts | No Play | 0 |
+| Oklahoma @ Missouri | total | Over 41.5 | 52% | +2.0 pts | No Play | 0 |
 | Oklahoma @ Missouri | moneyline | Missouri ML -125 | 54% | -2.0% | No Play | 0 |
 | Arizona State @ Arizona | spread | Arizona -7.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ Arizona | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
@@ -183,9 +183,6 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Massachusetts @ Bowling Green | spread | Massachusetts +1.5 (spread) | 50% |  | No Play | 0 |
 | Massachusetts @ Bowling Green | total | Over 41.5 | 52% | +1.4 pts | No Play | 0 |
 | Massachusetts @ Bowling Green | moneyline | Massachusetts ML +130 | 43% | -0.8% | No Play | 0 |
-| App State @ South Alabama | spread | South Alabama -3 (spread) | 50% |  | No Play | 0 |
-| App State @ South Alabama | total | Under 56.5 | 50% | +0.2 pts | No Play | 0 |
-| App State @ South Alabama | moneyline | App State ML +140 | 40% | -1.2% | No Play | 0 |
 
 ### NCAAF Best parlays
 
