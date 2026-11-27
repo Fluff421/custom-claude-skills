@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-27T22:20:14Z",
+ "generated_at_utc": "2026-11-27T22:22:08Z",
  "generated_for_central_date": "2026-11-27",
  "graded_picks_csv_rows": 315,
  "ledger_health": {
@@ -668,7 +668,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T12:53:32Z",
-   "age_h": 9.4,
+   "age_h": 9.5,
    "status": "missed"
   },
   {
@@ -686,7 +686,7 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-27T22:19:03Z",
-   "age_h": 0.0,
+   "age_h": 0.1,
    "status": "ok"
   },
   {
@@ -695,7 +695,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-27T21:11:37Z",
-   "age_h": 1.1,
+   "age_h": 1.2,
    "status": "ok"
   },
   {
@@ -703,8 +703,8 @@
    "file": "snapshot.yml",
    "expected_every_h": 24,
    "max_gap_h": 26,
-   "last_scheduled_run_utc": "2026-11-27T21:39:26Z",
-   "age_h": 0.7,
+   "last_scheduled_run_utc": "2026-11-27T22:20:51Z",
+   "age_h": 0.0,
    "status": "ok"
   },
   {
@@ -722,7 +722,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T13:00:01Z",
-   "age_h": 9.3,
+   "age_h": 9.4,
    "status": "missed"
   }
  ],

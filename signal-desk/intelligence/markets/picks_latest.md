@@ -209,7 +209,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Kansas City Chiefs @ Los Angeles Rams | total | Under 44.5 | 52% | +0.5 pts | No Play | 0 |
 | Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | +4.6% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | spread | Los Angeles Chargers -4.5 (spread) | 50% |  | Lean | 0.5 |
-| New England Patriots @ Los Angeles Chargers | total | Over 35.5 | 61% | +2.4 pts | Lean | 0.5 |
+| New England Patriots @ Los Angeles Chargers | total | Over 34.5 | 62% | +2.7 pts | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +110 | 50% | +2.4% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 48.5 | 56% | +1.3 pts | No Play | 0 |
@@ -235,17 +235,17 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 
 ### NFL Best parlays
 
-- Over 35.5 + Jacksonville Jaguars ML -1099: model 60.4%, needs +113 to break even (reference payout +113), edge +13.4%, Max Play
-- Over 35.5 + Houston Texans ML -295 + Jacksonville Jaguars ML -1099: model 48.5%, needs +185 to break even (reference payout +185), edge +13.4%, Max Play
-- Over 35.5 + Jacksonville Jaguars ML -1099 + Minnesota Vikings ML -330: model 48.9%, needs +178 to break even (reference payout +178), edge +12.9%, Max Play
+- Over 34.5 + Houston Texans ML -295 + Jacksonville Jaguars ML -1099: model 49.5%, needs +172 to break even (reference payout +172), edge +12.8%, Max Play
+- Over 34.5 + Jacksonville Jaguars ML -1099: model 61.7%, needs +103 to break even (reference payout +103), edge +12.4%, Max Play
+- Over 34.5 + Jacksonville Jaguars ML -1099 + Minnesota Vikings ML -330: model 50.0%, needs +165 to break even (reference payout +165), edge +12.2%, Max Play
 - Houston Texans ML -295 + Jacksonville Jaguars ML -1099 + Minnesota Vikings ML -330: model 64.3%, needs -111 to break even (reference payout -111), edge +11.8%, Max Play
 - Houston Texans ML -295 + Jacksonville Jaguars ML -1099 + Indianapolis Colts +6.5 (spread): model 46.9%, needs +183 to break even (reference payout +183), edge +11.6%, Max Play
 
 ### NFL Best 6-point teasers
 
-- Over 35.5 -> 29.5 + Over 41.5 -> 35.5 + Under 48.5 -> 54.5: model 47.2%, needs +160 to break even (reference payout +160), edge +8.8%, Max Play
-- Over 35.5 -> 29.5 + Over 41.5 -> 35.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.2%, needs +160 to break even (reference payout +160), edge +8.7%, Max Play
-- Over 35.5 -> 29.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5: model 47.1%, needs +160 to break even (reference payout +160), edge +8.6%, Max Play
-- Over 35.5 -> 29.5 + Under 48.5 -> 54.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.0%, needs +160 to break even (reference payout +160), edge +8.5%, Max Play
-- Over 35.5 -> 29.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5: model 46.9%, needs +160 to break even (reference payout +160), edge +8.5%, Max Play
+- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Under 48.5 -> 54.5: model 47.7%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
+- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.7%, needs +160 to break even (reference payout +160), edge +9.2%, Max Play
+- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5: model 47.6%, needs +160 to break even (reference payout +160), edge +9.1%, Max Play
+- Over 34.5 -> 28.5 + Under 48.5 -> 54.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.5%, needs +160 to break even (reference payout +160), edge +9.0%, Max Play
+- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5: model 47.4%, needs +160 to break even (reference payout +160), edge +9.0%, Max Play
 
