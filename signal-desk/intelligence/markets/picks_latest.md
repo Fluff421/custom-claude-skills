@@ -1,6 +1,8 @@
-# Signal Desk: every bet, every game (2026-11-26)
+# Signal Desk: every bet, every game (2026-11-27)
 
 All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays. Teasers and other bets are secondary and tracked.
+
+Markets not yet posted (no pick until a line is listed): Jacksonville State @ Liberty (2026-12-04)
 
 ## NCAAF
 
@@ -93,12 +95,16 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Kansas State @ Iowa State | spread | Kansas State +4.5 (spread) | 51% |  | No Play | 0 |
 | Kansas State @ Iowa State | total | Over 53.5 | 51% | +1.0 pts | No Play | 0 |
 | Kansas State @ Iowa State | moneyline | Kansas State ML +154 | 40% | +0.5% | No Play | 0 |
+| San Diego State @ Boise State | total | Over 58.5 | 50% | +0.0 pts | No Play | 0 |
+| San Diego State @ Boise State | moneyline | San Diego State ML +525 | 14% | -1.7% | No Play | 0 |
 | UTEP @ Northern Illinois | spread | Northern Illinois -4 (spread) | 52% |  | No Play | 0 |
 | UTEP @ Northern Illinois | total | Under 50.5 | 51% | +0.6 pts | No Play | 0 |
 | UTEP @ Northern Illinois | moneyline | UTEP ML +160 | 37% | -1.6% | No Play | 0 |
 | Pittsburgh @ California | spread | Pittsburgh -8.5 (spread) | 51% |  | No Play | 0 |
 | Pittsburgh @ California | total | Over 47.5 | 52% | +1.6 pts | No Play | 0 |
 | Pittsburgh @ California | moneyline | California ML +280 | 26% | -0.7% | No Play | 0 |
+| Texas Tech @ Utah | total | Over 56.5 | 50% | +0.0 pts | No Play | 0 |
+| Texas Tech @ Utah | moneyline | Utah ML -130 | 57% | +0.0% | No Play | 0 |
 | Tulane @ South Florida | spread | Tulane +7 (spread) | 50% |  | No Play | 0 |
 | Tulane @ South Florida | total | Over 44.5 | 52% | +1.5 pts | No Play | 0 |
 | Tulane @ South Florida | moneyline | Tulane ML +195 | 33% | -0.5% | No Play | 0 |
@@ -153,6 +159,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Toledo @ Ohio | spread | Ohio +4.5 (spread) | 50% |  | No Play | 0 |
 | Toledo @ Ohio | total | Over 44.5 | 52% | +1.8 pts | No Play | 0 |
 | Toledo @ Ohio | moneyline | Ohio ML +130 | 42% | -1.9% | No Play | 0 |
+| Jacksonville State @ Liberty | moneyline | Liberty ML -110 (price estimated from the line) | 80% | +27.7% | No Play | 0 |
 | UAB @ North Texas | spread | North Texas -4.5 (spread) | 50% |  | Lean | 0.5 |
 | UAB @ North Texas | total | Over 45.5 | 50% | +0.1 pts | No Play | 0 |
 | UAB @ North Texas | moneyline | North Texas ML -142 | 61% | +2.7% | No Play | 0 |
@@ -249,7 +256,7 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1260 | 99% | +6.1% | Strong Play | 1 |
 | Atlanta Falcons @ Minnesota Vikings | spread | Minnesota Vikings -7 (spread) | 53% |  | Lean | 0.5 |
 | Atlanta Falcons @ Minnesota Vikings | total | Under 41.5 | 50% | +0.0 pts | No Play | 0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | +5.7% | Lean | 0.5 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -311 | 81% | +5.6% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +236 | 35% | +4.9% | Lean | 0.5 |
@@ -259,11 +266,11 @@ All picks are paper picks. Primary markets: spreads, totals, moneylines, parlays
 
 ### NFL Best parlays
 
-- Over 35.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -310: model 49.1%, needs +174 to break even (reference payout +174), edge +12.5%, Max Play
+- Over 35.5 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -311: model 49.1%, needs +174 to break even (reference payout +174), edge +12.5%, Max Play
 - Over 35.5 + Jacksonville Jaguars ML -1260: model 60.4%, needs +107 to break even (reference payout +107), edge +12.0%, Max Play
 - Over 35.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -1260: model 48.4%, needs +169 to break even (reference payout +169), edge +11.3%, Max Play
-- Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -310 + Indianapolis Colts +6.5 (spread): model 47.5%, needs +173 to break even (reference payout +173), edge +10.8%, Max Play
-- San Francisco 49ers ML -152 + Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -310: model 52.9%, needs +137 to break even (reference payout +137), edge +10.6%, Max Play
+- Jacksonville Jaguars ML -1260 + Minnesota Vikings ML -311 + Indianapolis Colts +6.5 (spread): model 47.5%, needs +172 to break even (reference payout +172), edge +10.8%, Max Play
+- San Francisco 49ers ML -152 + Over 35.5 + Jacksonville Jaguars ML -1260: model 39.7%, needs +243 to break even (reference payout +243), edge +10.6%, Max Play
 
 ### NFL Best 6-point teasers
 
