@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-16T23:39:44.420639+00:00",
-  "central_date": "2026-11-16",
+  "checked_at": "2026-11-27T22:18:45.219435+00:00",
+  "central_date": "2026-11-27",
   "ready": true,
   "policy": {
     "narrative_hours": 4,
@@ -10,15 +10,15 @@
   },
   "checks": {
     "narrative": {
-      "age_hours": 0.014,
+      "age_hours": 0.441,
       "max_age_hours": 4
     },
     "snapshot": {
-      "age_hours": 0.025,
+      "age_hours": 0.458,
       "max_age_hours": 26
     },
     "splash_board": {
-      "age_hours": 3.729,
+      "age_hours": 2.563,
       "max_age_hours": 168
     },
     "pricecheck": {
@@ -26,56 +26,56 @@
       "max_age_hours": 4
     },
     "pricecheck_underlying_quotes": {
-      "age_hours": 3.73,
+      "age_hours": 2.56,
       "max_age_hours": 168
     },
     "ops_export": {
-      "age_hours": 0.025,
+      "age_hours": 0.458,
       "max_age_hours": 4
     },
     "close_grade": {
-      "age_hours": 0.045,
+      "age_hours": 0.695,
       "max_age_hours": 2
     },
     "injury-pull.yml": {
-      "max_age_hours": 26,
+      "max_age_hours": 4,
       "status": "degraded",
-      "last_good_age_hours": 28.63,
-      "age_hours": 1.209
+      "last_good_age_hours": null,
+      "age_hours": 0.762
     },
     "espn-sync.yml": {
-      "age_hours": 2.212,
+      "age_hours": 0.862,
       "max_age_hours": 4
     },
     "picks.yml": {
-      "age_hours": 1.233,
+      "age_hours": 0.479,
       "max_age_hours": 4
     },
     "context-calibrate.yml": {
-      "age_hours": 1.699,
+      "age_hours": 1.119,
       "max_age_hours": 26
     }
   },
   "errors": [],
   "warnings": [
-    "injury-pull.yml: latest run is not healthy, successful and LIVE; last good pull 28.63h ago. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
+    "injury-pull.yml: latest run is not healthy, successful and LIVE; no good pull on record. Injury data is degraded, but picks, grading and learning continue on the last good injury notes. Flag injury-sensitive picks."
   ],
   "degraded": [
     "injury_data"
   ],
   "paper_picks_only": true,
-  "source_revision": "012cfb1875e4aa6fedd6ec0f1e402c4e3e113a6b",
+  "source_revision": "dfca3efeb4b85015aec8f824a7642a13ab93f94c",
   "input_git_blobs": {
     "validate_artifacts.py": "8d0b0151600bf1054ab4fb41912e8f07bfc86897",
-    "intelligence/latest.json": "d2cf66380cecf6b03f7d7560c13f6d9269d25b89",
-    "intelligence/latest.md": "cf7f1f56275b536c16399679828219caf5ce2188",
-    "intelligence/data/2026-11-16.json": "d2cf66380cecf6b03f7d7560c13f6d9269d25b89",
-    "data/snapshot.json": "38a9ef98938589f387f3139d1d93d779e73d8d76",
-    "data/ops_status.json": "18644d72910fd22611927adf588619c67d5af521",
-    "data/producer_health/markets.json": "9e033ff8dfdde78f1165fd3ef259bd2f87c9d0a1",
-    "intelligence/splash_lines/latest.md": "fa9203f495c0cd0a006e6af1e75331e849a95887",
-    "intelligence/splash_pricecheck/latest.json": "d3d74d48a2e2625aafb7043084fff11e66af2a1f",
-    "intelligence/splash_pricecheck/latest.md": "4b2169f8db3b20de3ce9c97d55635a0bdb093f6d"
+    "intelligence/latest.json": "955f2e420b97ac318bb24678a1c4f2500c936970",
+    "intelligence/latest.md": "e245f9161a76d54f0e8305e835b77ac93d1636af",
+    "intelligence/data/2026-11-27.json": "955f2e420b97ac318bb24678a1c4f2500c936970",
+    "data/snapshot.json": "60d2f5d18af9d13929b207587ef0803e1cc43d5c",
+    "data/ops_status.json": "a482a3649e7701eba4edaed2d2dbb3197a1dffeb",
+    "data/producer_health/markets.json": "23708b4af45987910dc323c76531bfbaa76fa30e",
+    "intelligence/splash_lines/latest.md": "8b65f0b6e8554a89d094b4fc9878cf21e7cb720d",
+    "intelligence/splash_pricecheck/latest.json": "6094dd0d0165b2140c77c877f5287420f1834dfd",
+    "intelligence/splash_pricecheck/latest.md": "65c70501fbb93dadbfdf9f24e640c10ccd2e16cc"
   },
   "note": "Repository-executed readiness; import acceptance is a separate decision."
 }
