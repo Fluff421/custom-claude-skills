@@ -5089,3 +5089,9 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-26T23:38:53+00:00,recYI3vKDIRLV1sOY,401873082,NFL,Kansas City Chiefs @ Buffalo Bills,2026-11-26,DraftKings,3.0,46.5,-155,131,-101.0,-119.0,-105.0,-115.0,2.5
 2026-11-26T23:38:53+00:00,recdvwevQxE9cb668,401871063,NCAAF,Liberty @ Missouri State,2026-11-28,DraftKings,-17.5,52.5,625,-950,-110.0,-110.0,-112.0,-108.0,-14.5
 2026-11-26T23:38:53+00:00,recmjf2RKfSznZlz2,401873089,NFL,New York Jets @ Miami Dolphins,2026-11-29,DraftKings,-4.5,39.5,200,-241,-104.0,-115.0,-117.0,-103.0,1.5
+2026-11-27T00:00:14+00:00,recGMxhXMHlqoKwfI,401869959,NCAAF,Louisiana @ Georgia State,2026-11-28,Draft Kings,-5.5,55.5,170,-205,-115.0,-105.0,-105.0,-115.0,-3.0
+2026-11-27T00:00:14+00:00,recYI3vKDIRLV1sOY,401873082,NFL,Kansas City Chiefs @ Buffalo Bills,2026-11-26,Draft Kings,3.0,45.5,-154,130,-101.0,-118.0,-111.0,-108.0,2.5
+2026-11-27T00:00:14+00:00,recdkLxR3vV2KYMZ5,401862842,NCAAF,Navy @ Charlotte,2026-11-28,Draft Kings,-16.5,53.5,575,-850,-105.0,-115.0,-115.0,-105.0,-16.5
+2026-11-27T00:00:14+00:00,recgm21tjeN43lLlf,401858544,NCAAF,Minnesota @ Wisconsin,2026-11-27,Draft Kings,8.5,37.5,-325,260,-108.0,-112.0,-110.0,-110.0,6.0
+2026-11-27T00:00:14+00:00,recmjf2RKfSznZlz2,401873089,NFL,New York Jets @ Miami Dolphins,2026-11-29,Draft Kings,-4.5,39.5,199,-241,-104.0,-115.0,-117.0,-103.0,1.5
+2026-11-27T00:00:14+00:00,recpPhCO8j33Igo8i,401873084,NFL,Atlanta Falcons @ Minnesota Vikings,2026-11-29,Draft Kings,7.0,41.5,-311,253,-101.0,-119.0,-109.0,-110.0,4.5
