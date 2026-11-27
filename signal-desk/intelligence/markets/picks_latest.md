@@ -81,7 +81,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Michigan State @ Rutgers | total | Over 46.5 | 50% | +0.3 pts | No Play | 0 |
 | Michigan State @ Rutgers | moneyline | Michigan State ML -142 | 58% | -0.7% | No Play | 0 |
 | Buffalo @ Akron | spread | Buffalo -10 (spread) | 50% |  | No Play | 0 |
-| Buffalo @ Akron | total | Under 48.5 | 50% | +0.2 pts | No Play | 0 |
+| Buffalo @ Akron | total | Under 49.5 | 51% | +0.5 pts | No Play | 0 |
 | Buffalo @ Akron | moneyline | Akron ML +245 | 30% | +0.9% | No Play | 0 |
 | Louisville @ Kentucky | spread | Louisville +1.5 (spread) | 51% |  | No Play | 0 |
 | Louisville @ Kentucky | total | Over 53.5 | 50% | +0.2 pts | No Play | 0 |
