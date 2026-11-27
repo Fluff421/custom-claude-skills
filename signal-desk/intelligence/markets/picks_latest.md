@@ -183,6 +183,9 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Massachusetts @ Bowling Green | spread | Massachusetts +1.5 (spread) | 50% |  | No Play | 0 |
 | Massachusetts @ Bowling Green | total | Over 41.5 | 52% | +1.4 pts | No Play | 0 |
 | Massachusetts @ Bowling Green | moneyline | Massachusetts ML +130 | 43% | -0.8% | No Play | 0 |
+| App State @ South Alabama | spread | South Alabama -3 (spread) | 50% |  | No Play | 0 |
+| App State @ South Alabama | total | Under 56.5 | 50% | +0.2 pts | No Play | 0 |
+| App State @ South Alabama | moneyline | App State ML +140 | 40% | -1.2% | No Play | 0 |
 
 ### NCAAF Best parlays
 
@@ -203,7 +206,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -158 | 65% | +4.2% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
-| Seattle Seahawks @ San Francisco 49ers | total | Over 43.5 | 51% | +0.3 pts | No Play | 0 |
+| Seattle Seahawks @ San Francisco 49ers | total | Over 42.5 | 53% | +0.6 pts | No Play | 0 |
 | Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -148 | 64% | +4.6% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | spread | Kansas City Chiefs +1.5 (spread) | 50% |  | No Play | 0 |
 | Kansas City Chiefs @ Los Angeles Rams | total | Under 44.5 | 52% | +0.5 pts | No Play | 0 |
@@ -245,7 +248,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 
 - Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Under 48.5 -> 54.5: model 47.7%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
 - Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.7%, needs +160 to break even (reference payout +160), edge +9.2%, Max Play
+- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + San Francisco 49ers +1.5 -> +7.5 (crosses 3 and 7): model 47.6%, needs +160 to break even (reference payout +160), edge +9.2%, Max Play
 - Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5: model 47.6%, needs +160 to break even (reference payout +160), edge +9.1%, Max Play
 - Over 34.5 -> 28.5 + Under 48.5 -> 54.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.5%, needs +160 to break even (reference payout +160), edge +9.0%, Max Play
-- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5: model 47.4%, needs +160 to break even (reference payout +160), edge +9.0%, Max Play
 

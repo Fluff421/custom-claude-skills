@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-27T22:23:03+00:00",
+ "generated_at": "2026-11-27T22:39:23+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Houston Texans",
@@ -5722,7 +5722,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-27T22:22:38+00:00",
+   "generated_at": "2026-11-27T22:39:00+00:00",
    "date": "2026-11-27",
    "games": [
     {
@@ -6199,7 +6199,7 @@
        "prob": 0.2442,
        "edge": 0.0061,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -6470,7 +6470,7 @@
        "prob": 0.9023,
        "edge": -0.0143,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7152,7 +7152,7 @@
        "prob": 0.3167,
        "edge": 0.009,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -7366,10 +7366,10 @@
      "league": "NCAAF",
      "date": "2026-11-27",
      "frozen": false,
-     "line": 24.5,
+     "line": 25.5,
      "total_line": 65.5,
      "model_margin": 20.6,
-     "blend_margin": 23.9345,
+     "blend_margin": 24.7895,
      "proj_total": 64.25757142857142,
      "factors": [
       "weather: 48F, 7 | no severity"
@@ -7381,7 +7381,7 @@
        "side": "home",
        "team": "Utah",
        "line": -20.5,
-       "price": -115.0,
+       "price": -108.0,
        "proj": 20.6,
        "prob": 0.5023,
        "edge": null,
@@ -7440,13 +7440,13 @@
        "kind": "spread",
        "side": "away",
        "team": "West Virginia",
-       "base_line": 24.5,
-       "line": 30.5,
+       "base_line": 25.5,
+       "line": 31.5,
        "price": 0.0,
-       "prob": 0.6238,
+       "prob": 0.626,
        "push": 0,
        "crosses": [],
-       "selection": "West Virginia +24.5 -> +30.5",
+       "selection": "West Virginia +25.5 -> +31.5",
        "game_id": "recARpp2Fn9mM1OKK",
        "game": "West Virginia @ Utah",
        "priority": "secondary",
@@ -7474,23 +7474,23 @@
      "alt_spreads": [
       {
        "team": "Utah",
-       "line": -27.5,
-       "prob": 0.3973
+       "line": -28.5,
+       "prob": 0.394
       },
       {
        "team": "West Virginia",
-       "line": 21.5,
-       "prob": 0.4465
+       "line": 22.5,
+       "prob": 0.4496
       },
       {
        "team": "Utah",
-       "line": -21.5,
-       "prob": 0.5535
+       "line": -22.5,
+       "prob": 0.5504
       },
       {
        "team": "West Virginia",
-       "line": 27.5,
-       "prob": 0.6027
+       "line": 28.5,
+       "prob": 0.606
       }
      ]
     },
@@ -8777,7 +8777,7 @@
        "prob": 0.3841,
        "edge": 0.053,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
@@ -9125,11 +9125,11 @@
      "league": "NFL",
      "date": "2026-11-29",
      "frozen": false,
-     "line": 2.5,
-     "total_line": 43.5,
+     "line": -1.5,
+     "total_line": 42.5,
      "model_margin": 5.699999999999999,
-     "blend_margin": 3.46,
-     "proj_total": 43.80576923076923,
+     "blend_margin": 0.6599999999999997,
+     "proj_total": 43.10576923076923,
      "factors": [
       "QB: HOME QB QUESTIONABLE Brock Purdy -> Mac Jones [auto espn 2026-11-27] | AWAY QB PLAYING Sam Darnold [auto espn 2026-11-27]",
       "weather: 63F, wind 9mph, precip 51% | sev=0.00 | open-meteo"
@@ -9143,7 +9143,7 @@
        "side": "home",
        "team": "San Francisco 49ers",
        "line": -2.5,
-       "price": -114.0,
+       "price": -121.0,
        "proj": 5.699999999999999,
        "prob": 0.5192,
        "edge": null,
@@ -9154,20 +9154,20 @@
        "game_id": "recMfKRGMpQxLeiya",
        "game": "Seattle Seahawks @ San Francisco 49ers",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       },
       {
        "market": "total",
        "side": "over",
-       "line": 43.5,
-       "price": -103.0,
-       "proj": 43.81,
-       "prob": 0.514,
-       "edge": 0.31,
+       "line": 42.5,
+       "price": -115.0,
+       "proj": 43.11,
+       "prob": 0.5278,
+       "edge": 0.61,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 43.5",
+       "selection": "Over 42.5",
        "game_id": "recMfKRGMpQxLeiya",
        "game": "Seattle Seahawks @ San Francisco 49ers",
        "priority": "primary",
@@ -9193,7 +9193,7 @@
        "game_id": "recMfKRGMpQxLeiya",
        "game": "Seattle Seahawks @ San Francisco 49ers",
        "priority": "primary",
-       "pro_favorite": true
+       "pro_favorite": false
       }
      ],
      "teaser_legs": [
@@ -9202,15 +9202,16 @@
        "kind": "spread",
        "side": "home",
        "team": "San Francisco 49ers",
-       "base_line": -2.5,
-       "line": 3.5,
+       "base_line": 1.5,
+       "line": 7.5,
        "price": 0.0,
-       "prob": 0.7203,
+       "prob": 0.7653,
        "push": 0,
        "crosses": [
-        3
+        3,
+        7
        ],
-       "selection": "San Francisco 49ers -2.5 -> +3.5 (crosses 3)",
+       "selection": "San Francisco 49ers +1.5 -> +7.5 (crosses 3 and 7)",
        "game_id": "recMfKRGMpQxLeiya",
        "game": "Seattle Seahawks @ San Francisco 49ers",
        "priority": "secondary",
@@ -9221,13 +9222,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 43.5,
-       "line": 37.5,
+       "base_line": 42.5,
+       "line": 36.5,
        "price": 0.0,
-       "prob": 0.7358,
+       "prob": 0.7456,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 43.5 -> 37.5",
+       "selection": "Over 42.5 -> 36.5",
        "game_id": "recMfKRGMpQxLeiya",
        "game": "Seattle Seahawks @ San Francisco 49ers",
        "priority": "secondary",
@@ -9238,23 +9239,23 @@
      "alt_spreads": [
       {
        "team": "San Francisco 49ers",
-       "line": -5.5,
-       "prob": 0.4189
+       "line": -1.5,
+       "prob": 0.476
       },
       {
        "team": "Seattle Seahawks",
-       "line": -0.5,
-       "prob": 0.3813
+       "line": -4.5,
+       "prob": 0.3267
       },
       {
        "team": "San Francisco 49ers",
-       "line": 0.5,
-       "prob": 0.6187
+       "line": 4.5,
+       "prob": 0.6733
       },
       {
        "team": "Seattle Seahawks",
-       "line": 5.5,
-       "prob": 0.5811
+       "line": 1.5,
+       "prob": 0.524
       }
      ]
     },
@@ -10285,7 +10286,7 @@
        "prob": 0.5677,
        "edge": 0.0461,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
@@ -10699,7 +10700,7 @@
        "prob": 0.143,
        "edge": -0.017,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -11105,7 +11106,7 @@
        "prob": 0.5631,
        "edge": -0.0021,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -12273,10 +12274,10 @@
      "league": "NCAAF",
      "date": "2026-11-28",
      "frozen": false,
-     "line": 15.5,
+     "line": 16.5,
      "total_line": 55.5,
      "model_margin": 15.3,
-     "blend_margin": 15.471,
+     "blend_margin": 16.326,
      "proj_total": 54.763214285714284,
      "factors": [
       "weather: 47F, wind 12mph, precip 4% | sev=0.25 | open-meteo"
@@ -12290,7 +12291,7 @@
        "side": "home",
        "team": "BYU",
        "line": -14.0,
-       "price": -112.0,
+       "price": -108.0,
        "proj": 15.3,
        "prob": 0.505,
        "edge": null,
@@ -12349,13 +12350,13 @@
        "kind": "spread",
        "side": "away",
        "team": "Cincinnati",
-       "base_line": 15.5,
-       "line": 21.5,
+       "base_line": 16.5,
+       "line": 22.5,
        "price": 0.0,
-       "prob": 0.6178,
+       "prob": 0.6198,
        "push": 0,
        "crosses": [],
-       "selection": "Cincinnati +15.5 -> +21.5",
+       "selection": "Cincinnati +16.5 -> +22.5",
        "game_id": "recalgE71BaMqZNZd",
        "game": "Cincinnati @ BYU",
        "priority": "secondary",
@@ -12383,23 +12384,23 @@
      "alt_spreads": [
       {
        "team": "BYU",
-       "line": -18.5,
-       "prob": 0.4057
+       "line": -19.5,
+       "prob": 0.4026
       },
       {
        "team": "Cincinnati",
-       "line": 12.5,
-       "prob": 0.4352
+       "line": 13.5,
+       "prob": 0.4381
       },
       {
        "team": "BYU",
-       "line": -12.5,
-       "prob": 0.5648
+       "line": -13.5,
+       "prob": 0.5619
       },
       {
        "team": "Cincinnati",
-       "line": 18.5,
-       "prob": 0.5943
+       "line": 19.5,
+       "prob": 0.5974
       }
      ]
     },
@@ -16456,7 +16457,7 @@
        "prob": 0.4272,
        "edge": -0.0076,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -16535,7 +16536,7 @@
      "game": "App State @ South Alabama",
      "league": "NCAAF",
      "date": "2026-11-27",
-     "frozen": true,
+     "frozen": false,
      "line": 3.5,
      "total_line": 56.5,
      "model_margin": 4.399999999999999,
@@ -16592,7 +16593,7 @@
        "prob": 0.4044,
        "edge": -0.0122,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -16730,7 +16731,7 @@
        "prob": 0.3402,
        "edge": 0.0177,
        "edge_unit": "prob",
-       "price_source": "DraftKings",
+       "price_source": "Draft Kings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "No Play",
@@ -17423,6 +17424,63 @@
          "base_line": 41.5
         },
         {
+         "game_id": "recMfKRGMpQxLeiya",
+         "market_kind": "spread",
+         "side": "home",
+         "prob": 0.7653,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "San Francisco 49ers +1.5 -> +7.5 (crosses 3 and 7)",
+         "game": "Seattle Seahawks @ San Francisco 49ers",
+         "line": 7.5,
+         "grade_market": "teaser_leg",
+         "kind": "spread",
+         "base_line": 1.5
+        }
+       ],
+       "n_legs": 3,
+       "prob": 0.4765,
+       "price": 160.0,
+       "break_even_prob": 0.3846,
+       "break_even_price": 160,
+       "edge": 0.0919,
+       "edge_unit": "prob",
+       "tier": "Max Play",
+       "units": 0.5,
+       "same_game": false
+      },
+      {
+       "market": "teaser",
+       "legs": [
+        {
+         "game_id": "recStkT1qVm5ppDHL",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.809,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 34.5 -> 28.5",
+         "game": "New England Patriots @ Los Angeles Chargers",
+         "line": 28.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 34.5
+        },
+        {
+         "game_id": "rec5qq2WSH0UY0Dpz",
+         "market_kind": "total",
+         "side": "over",
+         "prob": 0.7697,
+         "price": null,
+         "pro_favorite": false,
+         "selection": "Over 41.5 -> 35.5",
+         "game": "Washington Commanders @ Arizona Cardinals",
+         "line": 35.5,
+         "grade_market": "teaser_leg",
+         "kind": "total",
+         "base_line": 41.5
+        },
+        {
          "game_id": "recmjf2RKfSznZlz2",
          "market_kind": "total",
          "side": "over",
@@ -17500,63 +17558,6 @@
        "break_even_prob": 0.3846,
        "break_even_price": 160,
        "edge": 0.0902,
-       "edge_unit": "prob",
-       "tier": "Max Play",
-       "units": 0.5,
-       "same_game": false
-      },
-      {
-       "market": "teaser",
-       "legs": [
-        {
-         "game_id": "recStkT1qVm5ppDHL",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.809,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 34.5 -> 28.5",
-         "game": "New England Patriots @ Los Angeles Chargers",
-         "line": 28.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 34.5
-        },
-        {
-         "game_id": "rec5qq2WSH0UY0Dpz",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.7697,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 41.5 -> 35.5",
-         "game": "Washington Commanders @ Arizona Cardinals",
-         "line": 35.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 41.5
-        },
-        {
-         "game_id": "rectT8K8SSMh3vu1v",
-         "market_kind": "total",
-         "side": "over",
-         "prob": 0.7615,
-         "price": null,
-         "pro_favorite": false,
-         "selection": "Over 39.5 -> 33.5",
-         "game": "Las Vegas Raiders @ Cleveland Browns",
-         "line": 33.5,
-         "grade_market": "teaser_leg",
-         "kind": "total",
-         "base_line": 39.5
-        }
-       ],
-       "n_legs": 3,
-       "prob": 0.4742,
-       "price": 160.0,
-       "break_even_prob": 0.3846,
-       "break_even_price": 160,
-       "edge": 0.0896,
        "edge_unit": "prob",
        "tier": "Max Play",
        "units": 0.5,
@@ -19462,5 +19463,5 @@
    "NFL teaser_leg: n=102, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0)"
   ]
  },
- "narrative_sha256": "57e095d0df3eb935b6ed4bbe4a2e283461fd1f646d0dc2984ca14f923471cfe7"
+ "narrative_sha256": "726203c27cfe7b06eaa739d49cd8d53a01d0a790e474e0f6ee1040927dea7f98"
 }

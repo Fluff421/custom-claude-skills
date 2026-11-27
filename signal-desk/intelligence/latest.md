@@ -174,7 +174,7 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 - NFL parlay: Over 34.5 + Jacksonville Jaguars ML -1099 + Minnesota Vikings ML -330 | model 50.0%, needs +165 to break even, edge +12.2%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Under 48.5 -> 54.5 | model 47.7%, needs +160 to break even, edge +9.3%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7) | model 47.7%, needs +160 to break even, edge +9.2%, Max Play
-- NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5 | model 47.6%, needs +160 to break even, edge +9.1%, Max Play
+- NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + San Francisco 49ers +1.5 -> +7.5 (crosses 3 and 7) | model 47.6%, needs +160 to break even, edge +9.2%, Max Play
 
 ## Results and learning by market
 
