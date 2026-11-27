@@ -34,3 +34,4 @@ date,league,market,setting,old,new,evidence,sample_size,source
 2026-11-17,NFL,spread,Tier multiplier Lean,0.808,0.845,actual win rate / predicted for this tier (needs 20+ picks),25,calibrate.py
 2026-11-19,NCAAF,spread,Tier multiplier Lean,0.9,0.876,actual win rate / predicted for this tier (needs 20+ picks),36,calibrate.py
 2026-11-24,NFL,spread,Tier multiplier Lean,0.853,0.826,actual win rate / predicted for this tier (needs 20+ picks),30,calibrate.py
+2026-11-27,NCAAF,teaser_leg,probability shrink,0.55,0.7,Brier 0.2376 -> gain 0.002 at shrink 0.9,394,market_learning.py
