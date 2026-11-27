@@ -144,7 +144,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Liberty @ Missouri State | total | Under 52.5 | 50% | +0.3 pts | No Play | 0 |
 | Liberty @ Missouri State | moneyline | Liberty ML -1000 | 89% | -1.9% | No Play | 0 |
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
-| USC @ UCLA | total | Over 46.5 | 52% | +1.5 pts | No Play | 0 |
+| USC @ UCLA | total | Over 45.5 | 52% | +1.8 pts | No Play | 0 |
 | USC @ UCLA | moneyline | UCLA ML +205 | 36% | +3.1% | Lean | 0.5 |
 | Minnesota @ Wisconsin | spread | Wisconsin -7 (spread) | 52% |  | No Play | 0 |
 | Minnesota @ Wisconsin | total | Over 37.5 | 53% | +2.8 pts | Lean | 0.5 |
@@ -246,7 +246,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +115 | 47% | +0.6% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 49.5 | 57% | +1.6 pts | Lean | 0.5 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -562 | 87% | +2.6% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -561 | 87% | +2.6% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 39.5 | 55% | +1.2 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -246 | 72% | +0.4% | No Play | 0 |
