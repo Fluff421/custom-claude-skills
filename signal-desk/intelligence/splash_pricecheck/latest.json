@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T03:39:28.177291+00:00",
- "snapshot_age_hours": 7.9,
+ "generated_at": "2026-11-28T04:15:29.225565+00:00",
+ "snapshot_age_hours": 8.5,
  "games": [
   {
    "game": "Auburn @ Alabama",
@@ -253,56 +253,6 @@
    }
   },
   {
-   "game": "Minnesota @ Wisconsin",
-   "record_id": "recgm21tjeN43lLlf",
-   "league": "NCAAF",
-   "date": "2026-11-27",
-   "snapshot_id": "SPL-L-20261127-1346",
-   "captured_at_central": "2026-11-27 13:45:00 CST",
-   "splash_home_margin": 7.5,
-   "splash_total": 37.5,
-   "import_home_margin": null,
-   "import_total": 37.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recgm21tjeN43lLlf",
-   "model_status": "",
-   "spread": {
-    "pick": "Wisconsin -7.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5161,
-    "edge": 0.61,
-    "proj": 11.5,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Wisconsin -1.5 (teased)",
-     "prob": 0.6673
-    }
-   },
-   "total": {
-    "pick": "Over 37.5",
-    "side": "over",
-    "tier": "Lean",
-    "prob": 0.5343,
-    "edge": 2.82,
-    "proj": 40.32,
-    "import_side": "over",
-    "import_tier": "Lean",
-    "teaser_leg": {
-     "pick": "Over 31.5 (teased)",
-     "prob": 0.7512
-    }
-   },
-   "moneyline": {
-    "pick": "Wisconsin ML -330",
-    "tier": "No Play",
-    "prob": 0.7496,
-    "edge": -0.0178,
-    "model_ml_side": "home"
-   }
-  },
-  {
    "game": "Purdue @ Indiana",
    "record_id": "recWJjbwo0bJ95VLb",
    "league": "NCAAF",
@@ -499,56 +449,6 @@
     "tier": "No Play",
     "prob": 0.1762,
     "edge": -0.0125,
-    "model_ml_side": "away"
-   }
-  },
-  {
-   "game": "Texas @ Texas A&M",
-   "record_id": "recLCUiMixwswbAbA",
-   "league": "NCAAF",
-   "date": "2026-11-27",
-   "snapshot_id": "SPL-L-20261127-1346",
-   "captured_at_central": "2026-11-27 13:45:00 CST",
-   "splash_home_margin": -11.5,
-   "splash_total": 40.5,
-   "import_home_margin": null,
-   "import_total": 41.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "recLCUiMixwswbAbA",
-   "model_status": "",
-   "spread": {
-    "pick": "Texas -11.5",
-    "side": "away",
-    "tier": "No Play",
-    "prob": 0.5042,
-    "edge": -0.16,
-    "proj": -12.700000000000001,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "Texas -5.5 (teased)",
-     "prob": 0.6525
-    }
-   },
-   "total": {
-    "pick": "Over 40.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5258,
-    "edge": 2.11,
-    "proj": 42.61,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 34.5 (teased)",
-     "prob": 0.7337
-    }
-   },
-   "moneyline": {
-    "pick": "Texas A&M ML +340",
-    "tier": "No Play",
-    "prob": 0.2284,
-    "edge": 0.0012,
     "model_ml_side": "away"
    }
   },

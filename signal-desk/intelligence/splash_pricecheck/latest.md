@@ -1,4 +1,4 @@
-# Pick-time check at the newest Splash lines, 2026-11-28 03:39Z
+# Pick-time check at the newest Splash lines, 2026-11-28 04:15Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
@@ -8,7 +8,7 @@ The model repriced at the line on the Splash board in the newest line dump, not 
 |---|---|---|---|
 | UMass @ Bowling Green | 2026-11-28 | repo-game:b13cdfbe2614cc24c27760b5 | Repository schedule reference only; verified model inputs are unavailable. |
 
-15 Lean-or-better plays at the current Splash lines (67 games checked).
+14 Lean-or-better plays at the current Splash lines (65 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
@@ -16,7 +16,6 @@ The model repriced at the line on the Splash board in the newest line dump, not 
 | Washington Commanders @ Arizona Cardinals | 2026-11-29 | spread | Arizona Cardinals +7 | Max Play | 65.1% | 4.8 |  |
 | Atlanta Falcons @ Minnesota Vikings | 2026-11-29 | spread | Minnesota Vikings -7 | Strong Play | 62.4% | 3.9 |  |
 | Baltimore Ravens @ Houston Texans | 2026-11-29 | spread | Houston Texans -6.5 | Strong Play | 61.1% | 3.5 |  |
-| Minnesota @ Wisconsin | 2026-11-27 | total | Over 37.5 | Lean | 53.4% | 2.82 |  |
 | Boise State @ Colorado State | 2026-11-28 | total | Under 76.5 | Lean | 55.1% | 4.27 |  |
 | Sacramento State @ Hawai'i | 2026-11-28 | spread | Hawai'i -13.5 | Lean | 50.0% | 1.15 |  |
 | UAB @ North Texas | 2026-11-28 | spread | North Texas -3.5 | Lean | 50.0% | 1.49 |  |
@@ -40,7 +39,7 @@ Strongest 6-point teaser legs at the current lines (two-leg teaser break-even is
 | Las Vegas Raiders @ Cleveland Browns | Over 33.5 (teased) | 76.1% |
 | Carolina Panthers @ Tampa Bay Buccaneers | Over 37.5 (teased) | 76.1% |
 | New York Jets @ Miami Dolphins | Over 34.5 (teased) | 75.5% |
-| Minnesota @ Wisconsin | Over 31.5 (teased) | 75.1% |
 | New York Giants @ Indianapolis Colts | Over 36.5 (teased) | 75.1% |
+| New England Patriots @ Los Angeles Chargers | Los Angeles Chargers +7.5 (teased) | 74.9% |
 
 All games and markets are in latest.json.
