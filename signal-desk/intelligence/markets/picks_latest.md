@@ -16,7 +16,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Oklahoma @ Missouri | moneyline | Missouri ML -125 | 54% | -2.0% | No Play | 0 |
 | Arizona State @ Arizona | spread | Arizona -7.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ Arizona | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
-| Arizona State @ Arizona | moneyline | Arizona State ML +260 | 28% | +0.0% | No Play | 0 |
+| Arizona State @ Arizona | moneyline | Arizona State ML +260 | 26% | -1.8% | No Play | 0 |
 | Southern Miss @ Old Dominion | spread | Southern Miss +5.5 (spread) | 50% |  | No Play | 0 |
 | Southern Miss @ Old Dominion | total | Over 49.5 | 51% | +0.6 pts | No Play | 0 |
 | Southern Miss @ Old Dominion | moneyline | Southern Miss ML +180 | 36% | +0.5% | No Play | 0 |
@@ -69,7 +69,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Army @ Rice | total | Over 46.5 | 52% | +1.4 pts | No Play | 0 |
 | Army @ Rice | moneyline | Rice ML +164 | 37% | -1.2% | No Play | 0 |
 | Kansas State @ Iowa State | spread | Kansas State +4.5 (spread) | 51% |  | No Play | 0 |
-| Kansas State @ Iowa State | total | Over 53.5 | 51% | +1.0 pts | No Play | 0 |
+| Kansas State @ Iowa State | total | Over 52.5 | 52% | +1.3 pts | No Play | 0 |
 | Kansas State @ Iowa State | moneyline | Kansas State ML +160 | 40% | +1.5% | No Play | 0 |
 | San Diego State @ Boise State | spread | Boise State -15.5 (spread) | 51% |  | No Play | 0 |
 | San Diego State @ Boise State | total | Over 58.5 | 50% | +0.4 pts | No Play | 0 |
@@ -106,7 +106,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Georgia Tech @ Georgia | moneyline | Georgia ML -8000 | 99% | +0.3% | No Play | 0 |
 | Baylor @ Houston | spread | Baylor +4.5 (spread) | 50% |  | No Play | 0 |
 | Baylor @ Houston | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
-| Baylor @ Houston | moneyline | Baylor ML +150 | 41% | +0.7% | No Play | 0 |
+| Baylor @ Houston | moneyline | Baylor ML +145 | 41% | -0.1% | No Play | 0 |
 | Cincinnati @ BYU | spread | BYU -14 (spread) | 50% |  | No Play | 0 |
 | Cincinnati @ BYU | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
 | Cincinnati @ BYU | moneyline | Cincinnati ML +550 | 14% | -1.7% | No Play | 0 |
@@ -122,6 +122,9 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
 | USC @ UCLA | total | Over 46.5 | 52% | +1.5 pts | No Play | 0 |
 | USC @ UCLA | moneyline | UCLA ML +170 | 40% | +3.2% | Lean | 0.5 |
+| Minnesota @ Wisconsin | spread | Wisconsin -7 (spread) | 52% |  | No Play | 0 |
+| Minnesota @ Wisconsin | total | Over 36.5 | 54% | +3.1 pts | Lean | 0.5 |
+| Minnesota @ Wisconsin | moneyline | Minnesota ML +260 | 28% | -0.2% | No Play | 0 |
 | LSU @ Arkansas | spread | LSU -13.5 (spread) | 51% |  | No Play | 0 |
 | LSU @ Arkansas | total | Over 49.5 | 51% | +0.4 pts | No Play | 0 |
 | LSU @ Arkansas | moneyline | Arkansas ML +455 | 16% | -1.7% | No Play | 0 |
@@ -145,8 +148,8 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | South Carolina @ Clemson | total | Over 42.5 | 51% | +1.2 pts | No Play | 0 |
 | South Carolina @ Clemson | moneyline | Clemson ML +205 | 35% | +2.3% | No Play | 0 |
 | Illinois @ Northwestern | spread | Northwestern -4.5 (spread) | 51% |  | No Play | 0 |
-| Illinois @ Northwestern | total | Over 49.5 | 50% | +0.4 pts | No Play | 0 |
-| Illinois @ Northwestern | moneyline | Northwestern ML -155 | 60% | -1.2% | No Play | 0 |
+| Illinois @ Northwestern | total | Over 48.5 | 51% | +0.7 pts | No Play | 0 |
+| Illinois @ Northwestern | moneyline | Northwestern ML -166 | 61% | -1.7% | No Play | 0 |
 | Auburn @ Alabama | spread | Alabama -15.5 (spread) | 51% |  | No Play | 0 |
 | Auburn @ Alabama | total | Over 50.5 | 51% | +1.1 pts | No Play | 0 |
 | Auburn @ Alabama | moneyline | Auburn ML +490 | 16% | -0.9% | No Play | 0 |
@@ -173,15 +176,15 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Boise State @ Colorado State | moneyline | Colorado State ML +1000 | 8% | -1.4% | No Play | 0 |
 | Massachusetts @ Bowling Green | spread | Massachusetts +1.5 (spread) | 50% |  | No Play | 0 |
 | Massachusetts @ Bowling Green | total | Over 41.5 | 52% | +1.4 pts | No Play | 0 |
-| Massachusetts @ Bowling Green | moneyline | Massachusetts ML +130 | 43% | -0.8% | No Play | 0 |
+| Massachusetts @ Bowling Green | moneyline | Massachusetts ML +136 | 43% | +0.4% | No Play | 0 |
 
 ### NCAAF Best parlays
 
 - UCLA ML +170 + Under 76.5: model 22.2%, needs +427 to break even (reference payout +427), edge +3.2%, Lean
+- Over 36.5 + Under 76.5: model 29.7%, needs +270 to break even (reference payout +270), edge +2.6%, Lean
+- UCLA ML +170 + Over 36.5: model 21.6%, needs +411 to break even (reference payout +411), edge +2.1%, Lean
+- UCLA ML +170 + Over 36.5 + Under 76.5: model 11.9%, needs +898 to break even (reference payout +898), edge +1.9%, No Play
 - UCLA ML +170 + Hawai'i -13.5 (spread) + Under 76.5: model 11.1%, needs +898 to break even (reference payout +898), edge +1.1%, No Play
-- UCLA ML +170 + North Texas -4.5 (spread) + Under 76.5: model 11.1%, needs +886 to break even (reference payout +886), edge +0.9%, No Play
-- UCLA ML +170 + Hawai'i -13.5 (spread): model 20.1%, needs +411 to break even (reference payout +411), edge +0.5%, No Play
-- Hawai'i -13.5 (spread) + Under 76.5: model 27.6%, needs +270 to break even (reference payout +270), edge +0.5%, No Play
 
 ## NFL
 
@@ -189,7 +192,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 |---|---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | spread | Arizona Cardinals +6.5 (spread) | 54% |  | Lean | 0.5 |
 | Washington Commanders @ Arizona Cardinals | total | Over 41.5 | 56% | +1.4 pts | No Play | 0 |
-| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +277 | 29% | +2.1% | No Play | 0 |
+| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +276 | 29% | +2.0% | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -159 | 65% | +4.1% | Lean | 0.5 |
@@ -204,7 +207,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +127 | 46% | +1.6% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 48.5 | 56% | +1.3 pts | No Play | 0 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -572 | 86% | +1.3% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -569 | 86% | +1.4% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 39.5 | 55% | +1.2 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -257 | 72% | -0.5% | No Play | 0 |
@@ -222,7 +225,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +217 | 36% | +4.3% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 39.5 | 55% | +1.1 pts | No Play | 0 |
-| Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -240 | 69% | -1.8% | No Play | 0 |
+| Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -242 | 69% | -2.0% | No Play | 0 |
 
 ### NFL Best parlays
 
