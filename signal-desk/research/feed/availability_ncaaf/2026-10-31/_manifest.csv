@@ -1,0 +1,5 @@
+conference,source_url,round_title,published_at,checked_at_central,teams_read,players_read,games_expected,status,verified
+SEC,https://app.hdintelligence.com/?source=SEC&sport=Football&conf=SEC&type=report,Game Day Report (various post times),2026-10-31,2026-10-31 9:45 PM,12,62,6,ok,verified
+ACC,https://app.hdintelligence.com/?source=ACC&sport=Football&conf=ACC&type=report,GAME DAY UPDATE,2026-10-31 10:00am ET and later,2026-10-31 9:45 PM,unknown (logos),~100+,8,parse_failed,verified
+Big 12,https://app.hdintelligence.com/?source=B12&sport=Football&conf=B12&type=report,GAME DAY UPDATE,2026-10-31,2026-10-31 9:45 PM,unknown (logos),~80+,7,parse_failed,verified
+Big Ten,https://app.hdintelligence.com/?source=B10&sport=Football&conf=B10&type=report,GAME DAY REPORT 10/31/26,2026-10-31,2026-10-31 9:45 PM,unknown (logos),~90+,9,parse_failed,verified

@@ -1,0 +1,8 @@
+game,league,kickoff_central,venue,roof,forecast_temp_f,wind_mph,precip_pct,source_url,forecast_issued_at,checked_at_central
+Miami Dolphins @ Buffalo Bills,NFL,2026-11-22 12:00,Highmark Stadium,outdoor,64,5-8,0,https://forecast.weather.gov/MapClick.php?lat=42.8864&lon=-78.8784&unit=0&lg=english&FcstType=text&TextType=2,2026-11-21 06:57 EST,2026-11-21 16:50 CT
+Baltimore Ravens @ Carolina Panthers,NFL,2026-11-22 12:00,Bank of America Stadium,outdoor,64,6-11,60,https://forecast.weather.gov/MapClick.php?lat=35.2273&lon=-80.8508&FcstType=text&unit=1&lg=en,2026-11-21 05:43 EST,2026-11-21 16:50 CT
+New Orleans Saints @ Chicago Bears,NFL,2026-11-22 12:00,Soldier Field,outdoor,59,10-15,100,https://forecast.weather.gov/MapClick.php?textField1=41.882222&textField2=-87.634722,2026-11-21 12:21 CST,2026-11-21 16:50 CT
+Arizona Cardinals @ Kansas City Chiefs,NFL,2026-11-22 12:00,GEHA Field at Arrowhead Stadium,outdoor,50,9-15,0,https://forecast.weather.gov/MapClick.php?lat=39.0997&lon=-94.5786&FcstType=text&unit=1&lg=en,2026-11-21 14:52 CST,2026-11-21 16:50 CT
+Jacksonville Jaguars @ New York Giants,NFL,2026-11-22 15:25,MetLife Stadium,outdoor,63,3-8,90,https://forecast.weather.gov/MapClick.php?lat=40.8135&lon=-74.0745&FcstType=text&TextType=1,2026-11-21 01:48 EST,2026-11-21 16:50 CT
+Las Vegas Raiders @ Denver Broncos,NFL,2026-11-22 15:25,Empower Field at Mile High,outdoor,45,0-6,0,https://forecast.weather.gov/MapClick.php?lat=39.7487&lon=-105.0078&FcstType=text&unit=1&lg=en,2026-11-21 11:46 MST,2026-11-21 16:50 CT
+Pittsburgh Steelers @ Philadelphia Eagles,NFL,2026-11-22 12:00,Lincoln Financial Field,outdoor,63,5-10,80,https://forecast.weather.gov/MapClick.php?lat=39.9518&lon=-75.1591&FcstType=text&TextType=2,2026-11-20 16:07 EST,2026-11-21 16:50 CT

@@ -1,0 +1,5 @@
+league,game,team,player,status,source_url,retrieved_at_utc,verified_or_assumed,espn_event_id,report_type,report_status,position,notes
+NFL,Minnesota Vikings at Detroit Lions,Minnesota Vikings,Gavin Bartholomew,Did Not Participate In Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,TE,practice=Did Not Participate In Practice
+NFL,Minnesota Vikings at Detroit Lions,Minnesota Vikings,Joe Huber,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,G,practice=Full Participation in Practice
+NFL,Minnesota Vikings at Detroit Lions,Minnesota Vikings,Aaron Jones,Limited Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,RB,practice=Limited Participation in Practice
+NFL,Minnesota Vikings at Detroit Lions,Minnesota Vikings,Brian O'Neill,Full Participation in Practice,https://www.nfl.com/injuries/,2026-10-30T01:26:45Z,verified,,injury_report,published,T,practice=Full Participation in Practice
