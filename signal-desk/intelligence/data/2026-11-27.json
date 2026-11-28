@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "generated_at": "2026-11-28T04:15:29+00:00",
+ "generated_at": "2026-11-28T04:39:08+00:00",
  "upcoming_best": [
   {
    "game": "Baltimore Ravens @ Houston Texans",
@@ -5826,7 +5826,7 @@
  ],
  "markets": {
   "latest": {
-   "generated_at": "2026-11-28T04:15:15+00:00",
+   "generated_at": "2026-11-28T04:38:52+00:00",
    "date": "2026-11-27",
    "games": [
     {
@@ -11573,7 +11573,7 @@
        "side": "home",
        "team": "Ohio State",
        "line": -12.5,
-       "price": -110.0,
+       "price": -105.0,
        "proj": 17.6,
        "prob": 0.5246,
        "edge": null,
@@ -12510,10 +12510,10 @@
      "date": "2026-11-28",
      "frozen": false,
      "line": 24.5,
-     "total_line": 53.5,
+     "total_line": 54.5,
      "model_margin": 30.4,
      "blend_margin": 25.3555,
-     "proj_total": 54.08971428571429,
+     "proj_total": 54.78971428571428,
      "factors": [
       "weather: 72F, 5 | no severity"
      ],
@@ -12540,15 +12540,15 @@
       {
        "market": "total",
        "side": "over",
-       "line": 53.5,
-       "price": -110.0,
-       "proj": 54.09,
-       "prob": 0.5072,
-       "edge": 0.59,
+       "line": 54.5,
+       "price": -108.0,
+       "proj": 54.79,
+       "prob": 0.5036,
+       "edge": 0.29,
        "edge_unit": "pts",
        "tier": "No Play",
        "units": 0.0,
-       "selection": "Over 53.5",
+       "selection": "Over 54.5",
        "game_id": "recctC4abEVDiqyO9",
        "game": "Boston College @ Miami",
        "priority": "primary",
@@ -12600,13 +12600,13 @@
        "market": "teaser_leg",
        "kind": "total",
        "side": "over",
-       "base_line": 53.5,
-       "line": 47.5,
+       "base_line": 54.5,
+       "line": 48.5,
        "price": 0.0,
-       "prob": 0.6357,
+       "prob": 0.63,
        "push": 0.0,
        "crosses": [],
-       "selection": "Over 53.5 -> 47.5",
+       "selection": "Over 54.5 -> 48.5",
        "game_id": "recctC4abEVDiqyO9",
        "game": "Boston College @ Miami",
        "priority": "secondary",
@@ -14352,7 +14352,7 @@
        "market": "total",
        "side": "under",
        "line": 44.5,
-       "price": -105.0,
+       "price": -108.0,
        "proj": 43.35,
        "prob": 0.5141,
        "edge": 1.15,
@@ -15591,18 +15591,18 @@
        "side": "home",
        "team": "Indianapolis Colts",
        "line": 0.0,
-       "price": 217.0,
+       "price": 216.0,
        "price_estimated": false,
        "proj": -3.43,
        "prob": 0.3581,
-       "edge": 0.0427,
+       "edge": 0.0417,
        "edge_unit": "prob",
        "price_source": "DraftKings",
        "quote_captured_at": null,
        "quote_snapshot_id": null,
        "tier": "Lean",
        "units": 0.5,
-       "selection": "Indianapolis Colts ML +217",
+       "selection": "Indianapolis Colts ML +216",
        "game_id": "recrQkOwpkcIisvRE",
        "game": "New York Giants @ Indianapolis Colts",
        "priority": "primary",
@@ -19550,5 +19550,5 @@
    "NFL teaser_leg: n=102, shrink 1.0 -> 1.0 (no meaningful gain; best 0.95, Brier gain 0.0)"
   ]
  },
- "narrative_sha256": "9f45e24c1b1f1a14787325b316d91213855b13477839e1235e4db52fc06a3a0f"
+ "narrative_sha256": "7cfd2f2e486bfcf55fbeda4fd446f7820404a881e9c655eeea37058f5a7b3d3d"
 }

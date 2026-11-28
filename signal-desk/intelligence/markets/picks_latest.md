@@ -111,7 +111,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Cincinnati @ BYU | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
 | Cincinnati @ BYU | moneyline | Cincinnati ML +550 | 14% | -1.7% | No Play | 0 |
 | Boston College @ Miami | spread | Miami -25.5 (spread) | 52% |  | No Play | 0 |
-| Boston College @ Miami | total | Over 53.5 | 51% | +0.6 pts | No Play | 0 |
+| Boston College @ Miami | total | Over 54.5 | 50% | +0.3 pts | No Play | 0 |
 | Boston College @ Miami | moneyline | Miami ML -2800 | 96% | -1.0% | No Play | 0 |
 | Navy @ Charlotte | spread | Charlotte +15.5 (spread) | 50% |  | No Play | 0 |
 | Navy @ Charlotte | total | Over 54.5 | 50% | +0.1 pts | No Play | 0 |
@@ -219,7 +219,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | +5.5% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +217 | 36% | +4.3% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +216 | 36% | +4.2% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | total | Over 39.5 | 55% | +1.1 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -242 | 69% | -2.0% | No Play | 0 |
