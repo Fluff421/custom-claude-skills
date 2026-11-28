@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T02:39:22.862875+00:00",
- "snapshot_age_hours": 6.9,
+ "generated_at": "2026-11-28T03:39:02.722981+00:00",
+ "snapshot_age_hours": 7.9,
  "games": [
   {
    "game": "Auburn @ Alabama",
@@ -745,10 +745,10 @@
     }
    },
    "moneyline": {
-    "pick": "Army ML -215",
+    "pick": "Rice ML +176",
     "tier": "No Play",
-    "prob": 0.6666,
-    "edge": -0.0159,
+    "prob": 0.3505,
+    "edge": -0.0118,
     "model_ml_side": "away"
    }
   },
@@ -1147,8 +1147,8 @@
    "moneyline": {
     "pick": "Northwestern ML -146",
     "tier": "No Play",
-    "prob": 0.6141,
-    "edge": 0.0206,
+    "prob": 0.623,
+    "edge": 0.0295,
     "model_ml_side": "home"
    }
   },
@@ -1495,10 +1495,10 @@
     }
    },
    "moneyline": {
-    "pick": "Georgia Southern ML -132",
+    "pick": "Louisiana Tech ML +110",
     "tier": "No Play",
-    "prob": 0.5504,
-    "edge": -0.0186,
+    "prob": 0.4681,
+    "edge": -0.0081,
     "model_ml_side": "away"
    }
   },
@@ -2297,8 +2297,8 @@
    "moneyline": {
     "pick": "Southern Miss ML +184",
     "tier": "No Play",
-    "prob": 0.3579,
-    "edge": 0.0058,
+    "prob": 0.3667,
+    "edge": 0.0146,
     "model_ml_side": "away"
    }
   },
@@ -2836,8 +2836,8 @@
     "pick": "Houston Texans -6.5",
     "side": "home",
     "tier": "Strong Play",
-    "prob": 0.6082,
-    "edge": 3.4,
+    "prob": 0.6113,
+    "edge": 3.5,
     "proj": 10.5,
     "import_side": "",
     "import_tier": "",
@@ -2936,8 +2936,8 @@
     "pick": "Los Angeles Chargers +1.5",
     "side": "home",
     "tier": "Lean",
-    "prob": 0.5277,
-    "edge": 4.4,
+    "prob": 0.5376,
+    "edge": 4.8,
     "proj": 3.5,
     "import_side": "",
     "import_tier": "",
