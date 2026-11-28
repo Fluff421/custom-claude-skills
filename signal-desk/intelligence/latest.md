@@ -13,21 +13,21 @@ Overall graded picks: 156-164 (Brier 0.2558).
 | UAB @ North Texas | 2026-11-28 | Lean | North Texas -4.5 (spread) | 0.5 | 50.0% |  |
 | Atlanta Falcons @ Minnesota Vikings | 2026-11-29 | Lean | Minnesota Vikings -7 (spread) | 0.5 | 52.7% |  |
 | New Orleans Saints @ Cincinnati Bengals | 2026-11-29 | Lean | Cincinnati Bengals -10 (spread) | 0.5 | 50.0% |  |
-| Seattle Seahawks @ San Francisco 49ers | 2026-11-29 | Lean | San Francisco 49ers -2.5 (spread) | 0.5 | 51.9% |  |
 | Carolina Panthers @ Tampa Bay Buccaneers | 2026-11-30 | Lean | Tampa Bay Buccaneers -3 (spread) | 0.5 | 50.0% |  |
 | New England Patriots @ Los Angeles Chargers | 2026-11-29 | Lean | Los Angeles Chargers -4.5 (spread) | 0.5 | 50.0% |  |
 | Washington Commanders @ Arizona Cardinals | 2026-11-29 | Lean | Arizona Cardinals +6.5 (spread) | 0.5 | 54.5% |  |
 | New York Giants @ Indianapolis Colts | 2026-11-29 | Lean | Indianapolis Colts +6.5 (spread) | 0.5 | 59.2% |  |
+| Seattle Seahawks @ San Francisco 49ers | 2026-11-29 | Lean | San Francisco 49ers -2.5 (spread) | 0.5 | 51.9% |  |
 - Baltimore Ravens @ Houston Texans: weather: indoor | sev=0.00
 - Sacramento State @ Hawai'i: weather: 74F, 36 | no severity
 - UAB @ North Texas: weather: 67F, wind 17mph, precip 0% | sev=0.60 | open-meteo
 - Atlanta Falcons @ Minnesota Vikings: weather: indoor | sev=0.00
 - New Orleans Saints @ Cincinnati Bengals: weather: 51F, wind 14mph, precip 99% | sev=0.40 | open-meteo
-- Seattle Seahawks @ San Francisco 49ers: QB: HOME QB QUESTIONABLE Brock Purdy -> Mac Jones [auto espn 2026-11-27] | AWAY QB PLAYING Sam Darnold [auto espn 2026-11-27]; weather: 63F, wind 9mph, precip 51% | sev=0.00 | open-meteo
 - Carolina Panthers @ Tampa Bay Buccaneers: weather: 69F, wind 6mph, precip 33% | sev=0.00 | open-meteo
 - New England Patriots @ Los Angeles Chargers: QB: HOME QB QUESTIONABLE Justin Herbert -> DJ Uiagalelei [auto espn 2026-11-27] | AWAY QB PLAYING Tommy DeVito [auto espn 2026-11-27]; weather: 71F, wind 8mph, precip 0% | sev=0.00 | open-meteo
 - Washington Commanders @ Arizona Cardinals: QB: HOME QB OUT Carson Beck -> Josh Johnson [auto espn 2026-11-27] [priced: Josh Johnson led passing 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-27]; weather: indoor | sev=0.00
 - New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
+- Seattle Seahawks @ San Francisco 49ers: QB: HOME QB QUESTIONABLE Brock Purdy -> Mac Jones [auto espn 2026-11-27] | AWAY QB PLAYING Sam Darnold [auto espn 2026-11-27]; weather: 63F, wind 9mph, precip 51% | sev=0.00 | open-meteo
 
 Tracking picks (paper, 0u): 47. Examples: Boston College @ Miami -> Miami -25.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); San Diego State @ Boise State -> Boise State -15.5 (spread); Michigan @ Ohio State -> Ohio State -12.5 (spread); Liberty @ Missouri State -> Liberty -14.5 (spread)
 
@@ -156,25 +156,25 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -159 | 65% | Lean | 0.5 |
-| Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML +103 | 53% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -159 | 66% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 34.5 | 62% | Lean | 0.5 |
 | USC @ UCLA | moneyline | UCLA ML +170 | 40% | Lean | 0.5 |
+| UAB @ North Texas | moneyline | North Texas ML -135 | 61% | Lean | 0.5 |
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -332 | 80% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -930 | 98% | Strong Play | 1.0 |
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +221 | 36% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 55% | Lean | 0.5 |
+- NCAAF parlay: North Texas ML -135 + Under 76.5 | model 33.8%, needs +240 to break even, edge +4.4%, Lean
+- NCAAF parlay: UCLA ML +170 + North Texas ML -135 | model 24.7%, needs +370 to break even, edge +3.4%, Lean
 - NCAAF parlay: UCLA ML +170 + Under 76.5 | model 22.2%, needs +427 to break even, edge +3.2%, Lean
-- NCAAF parlay: UCLA ML +170 + Hawai'i -13.5 (spread) + Under 76.5 | model 11.1%, needs +898 to break even, edge +1.1%, No Play
-- NCAAF parlay: UCLA ML +170 + North Texas -4.5 (spread) + Under 76.5 | model 11.1%, needs +886 to break even, edge +0.9%, No Play
-- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 + Minnesota Vikings ML -310 | model 49.6%, needs +173 to break even, edge +13.0%, Max Play
+- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 + Minnesota Vikings ML -310 | model 49.5%, needs +173 to break even, edge +12.9%, Max Play
 - NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 | model 61.2%, needs +106 to break even, edge +12.7%, Max Play
 - NFL parlay: Over 34.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -930 | model 49.1%, needs +168 to break even, edge +11.9%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + Over 41.5 -> 35.5 | model 48.0%, needs +160 to break even, edge +9.5%, Max Play
-- NFL teaser: Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + Under 48.5 -> 54.5 | model 47.8%, needs +160 to break even, edge +9.3%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7) | model 47.8%, needs +160 to break even, edge +9.3%, Max Play
+- NFL teaser: Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + Under 48.5 -> 54.5 | model 47.8%, needs +160 to break even, edge +9.3%, Max Play
 
 ## Results and learning by market
 
