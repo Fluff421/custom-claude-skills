@@ -107,7 +107,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Liberty @ Missouri State | moneyline | Liberty ML -1000 | 89% | -1.9% | No Play | 0 |
 | USC @ UCLA | spread | USC +2.5 (spread) | 51% |  | No Play | 0 |
 | USC @ UCLA | total | Over 46.5 | 52% | +1.5 pts | No Play | 0 |
-| USC @ UCLA | moneyline | UCLA ML +170 | 40% | +3.2% | Lean | 0.5 |
+| USC @ UCLA | moneyline | UCLA ML +170 | 38% | +1.0% | No Play | 0 |
 | Jacksonville State @ Delaware | spread | Jacksonville State +2.5 (spread) | 50% |  | No Play | 0 |
 | Jacksonville State @ Delaware | total | Under 57.5 | 51% | +0.9 pts | No Play | 0 |
 | Jacksonville State @ Delaware | moneyline | Jacksonville State ML +120 | 44% | -1.3% | No Play | 0 |
@@ -152,10 +152,10 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 ### NCAAF Best parlays
 
 - North Texas ML -135 + Under 76.5: model 33.8%, needs +240 to break even (reference payout +240), edge +4.4%, Lean
-- UCLA ML +170 + North Texas ML -135: model 24.7%, needs +370 to break even (reference payout +370), edge +3.4%, Lean
-- UCLA ML +170 + Under 76.5: model 22.2%, needs +427 to break even (reference payout +427), edge +3.2%, Lean
-- UCLA ML +170 + North Texas ML -135 + Under 76.5: model 13.6%, needs +818 to break even (reference payout +818), edge +2.7%, Lean
 - North Texas ML -135 + Hawai'i -13.5 (spread) + Under 76.5: model 16.9%, needs +543 to break even (reference payout +543), edge +1.4%, No Play
+- Hawai'i -13.5 (spread) + Under 76.5: model 27.6%, needs +270 to break even (reference payout +270), edge +0.5%, No Play
+- North Texas ML -135 + Hawai'i -13.5 (spread): model 30.7%, needs +229 to break even (reference payout +229), edge +0.3%, No Play
+- North Texas -4.5 (spread) + Under 76.5: model 27.6%, needs +265 to break even (reference payout +265), edge +0.2%, No Play
 
 ## NFL
 
