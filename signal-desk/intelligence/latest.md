@@ -1,4 +1,4 @@
-# Signal Desk intelligence report, 2026-11-27
+# Signal Desk intelligence report, 2026-11-28
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
@@ -29,7 +29,7 @@ Overall graded picks: 156-164 (Brier 0.2558).
 - Washington Commanders @ Arizona Cardinals: QB: HOME QB OUT Carson Beck -> Josh Johnson [auto espn 2026-11-27] [priced: Josh Johnson led passing 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-27]; weather: indoor | sev=0.00
 - New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
 
-Tracking picks (paper, 0u): 57. Examples: Georgia Tech @ Georgia -> Georgia Tech +34.5 (spread); Boston College @ Miami -> Miami -25.5 (spread); Purdue @ Indiana -> Indiana -21.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); San Diego State @ Boise State -> Boise State -15.5 (spread)
+Tracking picks (paper, 0u): 47. Examples: Boston College @ Miami -> Miami -25.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); San Diego State @ Boise State -> Boise State -15.5 (spread); Michigan @ Ohio State -> Ohio State -12.5 (spread); Liberty @ Missouri State -> Liberty -14.5 (spread)
 
 ## Recently closed (last 7 days)
 
@@ -147,8 +147,8 @@ By size of base edge:
 
 ## Data gaps right now
 
-- 68 of 68 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Oklahoma @ Missouri; Arizona State @ Arizona; Southern Miss @ Old Dominion; Washington Commanders @ Arizona Cardinals; Central Michigan @ Ball State; Penn State @ Maryland; NC State @ North Carolina
-- NCAAF quarterback checks cover 0 of 56 games (comes from the Grok feed only)
+- 60 of 60 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Oklahoma @ Missouri; Arizona State @ Arizona; Southern Miss @ Old Dominion; Washington Commanders @ Arizona Cardinals; Central Michigan @ Ball State; Penn State @ Maryland; NC State @ North Carolina
+- NCAAF quarterback checks cover 0 of 48 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
 
@@ -157,18 +157,19 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -159 | 65% | Lean | 0.5 |
+| Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML +102 | 53% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 34.5 | 62% | Lean | 0.5 |
 | USC @ UCLA | moneyline | UCLA ML +170 | 40% | Lean | 0.5 |
 | Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -332 | 80% | Lean | 0.5 |
 | Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -930 | 98% | Strong Play | 1.0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -309 | 81% | Lean | 0.5 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +216 | 36% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 55% | Lean | 0.5 |
 - NCAAF parlay: UCLA ML +170 + Under 76.5 | model 22.2%, needs +427 to break even, edge +3.2%, Lean
 - NCAAF parlay: UCLA ML +170 + Hawai'i -13.5 (spread) + Under 76.5 | model 11.1%, needs +898 to break even, edge +1.1%, No Play
 - NCAAF parlay: UCLA ML +170 + North Texas -4.5 (spread) + Under 76.5 | model 11.1%, needs +886 to break even, edge +0.9%, No Play
-- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 + Minnesota Vikings ML -309 | model 49.6%, needs +173 to break even, edge +13.0%, Max Play
+- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 + Minnesota Vikings ML -310 | model 49.6%, needs +173 to break even, edge +13.0%, Max Play
 - NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 | model 61.2%, needs +106 to break even, edge +12.7%, Max Play
 - NFL parlay: Over 34.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -930 | model 49.1%, needs +168 to break even, edge +11.9%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Under 48.5 -> 54.5 | model 47.7%, needs +160 to break even, edge +9.3%, Max Play
