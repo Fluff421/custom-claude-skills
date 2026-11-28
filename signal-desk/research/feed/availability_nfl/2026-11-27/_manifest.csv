@@ -1,0 +1,7 @@
+path,status,rows,notes
+availability_nfl/2026-11-27/qb_starters.csv,written,26,All NFL games covered with official NFL.com sources opened this run
+availability_ncaaf/2026-11-27/qb_starters.csv,not_reached,0,NCAAF volume (69 games) exceeded run time; not individually sourced
+availability_ncaaf/2026-11-27/sec.csv,not_published_yet,0,Conference report not fully opened/parsed this run
+availability_ncaaf/2026-11-27/acc.csv,not_published_yet,0,
+availability_ncaaf/2026-11-27/big12.csv,not_published_yet,0,
+availability_ncaaf/2026-11-27/bigten.csv,not_published_yet,0,
