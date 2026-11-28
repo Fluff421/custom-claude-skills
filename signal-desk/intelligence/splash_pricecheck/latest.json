@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-28T08:39:45.912773+00:00",
- "snapshot_age_hours": 12.9,
+ "generated_at": "2026-11-28T09:39:05.638582+00:00",
+ "snapshot_age_hours": 13.9,
  "games": [
   {
    "game": "Arizona State @ Arizona",
@@ -1797,8 +1797,8 @@
    "moneyline": {
     "pick": "Tulane ML +195",
     "tier": "No Play",
-    "prob": 0.3346,
-    "edge": -0.0044,
+    "prob": 0.3261,
+    "edge": -0.0129,
     "model_ml_side": "away"
    }
   },
@@ -2113,8 +2113,8 @@
    "moneyline": {
     "pick": "Virginia ML +125",
     "tier": "No Play",
-    "prob": 0.4451,
-    "edge": 0.0007,
+    "prob": 0.4544,
+    "edge": 0.0099,
     "model_ml_side": "away"
    }
   },
