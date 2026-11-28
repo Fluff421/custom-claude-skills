@@ -36,7 +36,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Virginia @ Virginia Tech | total | Over 50.5 | 51% | +1.1 pts | No Play | 0 |
 | Virginia @ Virginia Tech | moneyline | Virginia ML +130 | 43% | -0.2% | No Play | 0 |
 | Kansas @ Oklahoma State | spread | Oklahoma State -6.5 (spread) | 51% |  | No Play | 0 |
-| Kansas @ Oklahoma State | total | Under 65.5 | 52% | +1.3 pts | No Play | 0 |
+| Kansas @ Oklahoma State | total | Under 64.5 | 51% | +1.0 pts | No Play | 0 |
 | Kansas @ Oklahoma State | moneyline | Kansas ML +185 | 34% | -1.2% | No Play | 0 |
 | Notre Dame @ Syracuse | spread | Notre Dame -20.5 (spread) | 51% |  | No Play | 0 |
 | Notre Dame @ Syracuse | total | Under 53.5 | 50% | +0.0 pts | No Play | 0 |
@@ -116,7 +116,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Sam Houston @ Florida International | moneyline | Sam Houston ML +360 | 22% | +0.6% | No Play | 0 |
 | Jacksonville State @ Liberty | moneyline | Liberty ML -110 (price estimated from the line) | 80% | +27.7% | No Play | 0 |
 | UAB @ North Texas | spread | North Texas -4.5 (spread) | 50% |  | Lean | 0.5 |
-| UAB @ North Texas | total | Over 45.5 | 52% | +1.5 pts | No Play | 0 |
+| UAB @ North Texas | total | Over 44.5 | 52% | +1.8 pts | No Play | 0 |
 | UAB @ North Texas | moneyline | North Texas ML -142 | 61% | +2.7% | No Play | 0 |
 | UConn @ Wyoming | spread | Wyoming +3.5 (spread) | 50% |  | No Play | 0 |
 | UConn @ Wyoming | total | Under 44.5 | 51% | +1.1 pts | No Play | 0 |
@@ -169,7 +169,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -159 | 65% | +4.1% | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | spread | San Francisco 49ers -2.5 (spread) | 52% |  | Lean | 0.5 |
 | Seattle Seahawks @ San Francisco 49ers | total | Over 42.5 | 53% | +0.6 pts | No Play | 0 |
-| Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML +102 | 53% | +3.3% | Lean | 0.5 |
+| Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML +103 | 53% | +3.5% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | spread | Kansas City Chiefs +1.5 (spread) | 50% |  | No Play | 0 |
 | Kansas City Chiefs @ Los Angeles Rams | total | Under 44.5 | 52% | +0.5 pts | No Play | 0 |
 | Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | +4.6% | Lean | 0.5 |
@@ -193,9 +193,9 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | +5.5% | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | spread | Indianapolis Colts +6.5 (spread) | 59% |  | Lean | 0.5 |
 | New York Giants @ Indianapolis Colts | total | Over 41.5 | 55% | +1.1 pts | No Play | 0 |
-| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +216 | 36% | +4.2% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +221 | 36% | +4.7% | Lean | 0.5 |
 | Las Vegas Raiders @ Cleveland Browns | spread | Cleveland Browns -4.5 (spread) | 51% |  | No Play | 0 |
-| Las Vegas Raiders @ Cleveland Browns | total | Over 39.5 | 55% | +1.1 pts | No Play | 0 |
+| Las Vegas Raiders @ Cleveland Browns | total | Over 38.5 | 56% | +1.4 pts | No Play | 0 |
 | Las Vegas Raiders @ Cleveland Browns | moneyline | Cleveland Browns ML -241 | 69% | -1.9% | No Play | 0 |
 
 ### NFL Best parlays
@@ -208,9 +208,9 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 
 ### NFL Best 6-point teasers
 
+- Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + Over 41.5 -> 35.5: model 48.0%, needs +160 to break even (reference payout +160), edge +9.5%, Max Play
+- Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + Under 48.5 -> 54.5: model 47.8%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
+- Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.8%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
 - Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Under 48.5 -> 54.5: model 47.7%, needs +160 to break even (reference payout +160), edge +9.3%, Max Play
-- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.7%, needs +160 to break even (reference payout +160), edge +9.2%, Max Play
-- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + San Francisco 49ers +1.5 -> +7.5 (crosses 3 and 7): model 47.6%, needs +160 to break even (reference payout +160), edge +9.2%, Max Play
-- Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Over 39.5 -> 33.5: model 47.6%, needs +160 to break even (reference payout +160), edge +9.1%, Max Play
-- Over 34.5 -> 28.5 + Under 48.5 -> 54.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7): model 47.5%, needs +160 to break even (reference payout +160), edge +9.0%, Max Play
+- Over 34.5 -> 28.5 + Over 38.5 -> 32.5 + San Francisco 49ers +1.5 -> +7.5 (crosses 3 and 7): model 47.7%, needs +160 to break even (reference payout +160), edge +9.2%, Max Play
 
