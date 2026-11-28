@@ -5380,3 +5380,12 @@ ts,record_id,event_id,league,game,date,provider,home_margin_line,total,ml_home,m
 2026-11-27T23:38:34+00:00,recpc12VnHvsMb7G1,401858537,NCAAF,Illinois @ Northwestern,2026-11-28,DraftKings,3.0,50.5,-142,120,-102.0,-118.0,-108.0,-112.0,-3.5
 2026-11-27T23:38:34+00:00,recq71YyIpQj8rmRL,401856757,NCAAF,Auburn @ Alabama,2026-11-27,DraftKings,14.5,49.5,-700,500,-110.0,-110.0,-112.0,-108.0,10.0
 2026-11-27T23:38:34+00:00,recsVO5HX7FZ2SCOb,401860927,NCAAF,Oregon State @ Fresno State,2026-11-28,DraftKings,3.0,58.5,-148,124,-108.0,-112.0,-110.0,-110.0,1.5
+2026-11-28T00:38:40+00:00,recLCUiMixwswbAbA,401856756,NCAAF,Texas @ Texas A&M,2026-11-27,DraftKings,-10.0,41.5,320,-410,-112.0,-108.0,-110.0,-110.0,-2.5
+2026-11-28T00:38:40+00:00,recMfKRGMpQxLeiya,401873091,NFL,Seattle Seahawks @ San Francisco 49ers,2026-11-29,DraftKings,-1.5,42.5,100,-119,-115.0,-104.0,-109.0,-110.0,1.5
+2026-11-28T00:38:40+00:00,recPk9HpYptgE0RFK,401858542,NCAAF,Michigan State @ Rutgers,2026-11-28,DraftKings,-2.5,45.5,114,-135,-105.0,-115.0,-110.0,-110.0,-3.5
+2026-11-28T00:38:40+00:00,recQZBRb7qqoprKCI,401860929,NCAAF,San Diego State @ Washington State,2026-11-28,DraftKings,3.0,46.5,-148,124,-105.0,-115.0,-118.0,-102.0,-3.0
+2026-11-28T00:38:40+00:00,recStkT1qVm5ppDHL,401873093,NFL,New England Patriots @ Los Angeles Chargers,2026-11-29,DraftKings,-3.0,34.5,127,-150,-118.0,-101.0,-116.0,-103.0,2.5
+2026-11-28T00:38:40+00:00,recalgE71BaMqZNZd,401856876,NCAAF,Cincinnati @ BYU,2026-11-28,DraftKings,16.5,55.5,-800,550,-112.0,-108.0,-105.0,-115.0,12.5
+2026-11-28T00:38:40+00:00,recgm21tjeN43lLlf,401858544,NCAAF,Minnesota @ Wisconsin,2026-11-27,DraftKings,8.5,36.5,-325,260,-108.0,-112.0,-112.0,-108.0,6.0
+2026-11-28T00:38:40+00:00,recrQkOwpkcIisvRE,401873088,NFL,New York Giants @ Indianapolis Colts,2026-11-29,DraftKings,-5.5,41.5,228,-276,-107.0,-112.0,-111.0,-108.0,2.5
+2026-11-28T00:38:40+00:00,recsVO5HX7FZ2SCOb,401860927,NCAAF,Oregon State @ Fresno State,2026-11-28,DraftKings,3.0,58.5,-148,124,-108.0,-112.0,-115.0,-105.0,1.5

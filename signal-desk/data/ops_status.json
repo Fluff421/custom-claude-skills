@@ -1,10 +1,10 @@
 {
- "generated_at_utc": "2026-11-27T23:38:10Z",
+ "generated_at_utc": "2026-11-28T00:38:07Z",
  "generated_for_central_date": "2026-11-27",
- "graded_picks_csv_rows": 317,
+ "graded_picks_csv_rows": 320,
  "ledger_health": {
   "games_today_or_later": 82,
-  "games_before_today": 79,
+  "games_before_today": 60,
   "checks": {
    "upcoming_no_espn_event_id": {
     "count": 0,
@@ -83,6 +83,24 @@
    "file": "espn-sync.yml",
    "runs": [
     {
+     "run_id": 46087939344,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46087939344",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-28T00:27:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "warnings": [
+       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
+      ],
+      "mode": "LIVE",
+      "rows_scanned": 58,
+      "rows_changed": 14,
+      "fpi_missing": 0
+     }
+    },
+    {
      "run_id": 46083472896,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46083472896",
      "event": "schedule",
@@ -133,24 +151,6 @@
       "mode": "LIVE",
       "rows_scanned": 82,
       "rows_changed": 81,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 46025011822,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46025011822",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-27T15:27:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "warnings": [
-       "WARN: NCAAF injuries: no reliable ESPN league-wide feed; Injury Notes left blank (manual input needed)."
-      ],
-      "mode": "LIVE",
-      "rows_scanned": 82,
-      "rows_changed": 28,
       "fpi_missing": 0
      }
     }
@@ -225,6 +225,16 @@
     }
    ],
    "skipped_chains": [
+    {
+     "run_id": 46088513104,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46088513104",
+     "created_at": "2026-11-28T00:33:24Z"
+    },
+    {
+     "run_id": 46083795321,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46083795321",
+     "created_at": "2026-11-27T23:40:29Z"
+    },
     {
      "run_id": 46071063937,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46071063937",
@@ -309,16 +319,6 @@
      "run_id": 45750739125,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45750739125",
      "created_at": "2026-11-26T03:43:38Z"
-    },
-    {
-     "run_id": 45749656746,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45749656746",
-     "created_at": "2026-11-26T03:33:17Z"
-    },
-    {
-     "run_id": 45729565966,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45729565966",
-     "created_at": "2026-11-26T00:33:19Z"
     }
    ],
    "gate_skipped": [],
@@ -328,6 +328,22 @@
    "workflow": "Close & Grade",
    "file": "close-grade.yml",
    "runs": [
+    {
+     "run_id": 46088838770,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46088838770",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-28T00:37:02Z",
+     "conclusion": "success",
+     "health": "ok",
+     "reasons": [],
+     "summary": {
+      "mode": "LIVE",
+      "ledger_patches": 3,
+      "leg_patches": 0,
+      "calibration_upserts": 28,
+      "fpi_missing": 0
+     }
+    },
     {
      "run_id": 46083488623,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46083488623",
@@ -375,22 +391,6 @@
       "calibration_upserts": 28,
       "fpi_missing": 0
      }
-    },
-    {
-     "run_id": 46071465149,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46071465149",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-27T21:37:02Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "ledger_patches": 3,
-      "leg_patches": 0,
-      "calibration_upserts": 28,
-      "fpi_missing": 0
-     }
     }
    ],
    "skipped_chains": [],
@@ -401,6 +401,58 @@
    "workflow": "NCAAF Injury Pull",
    "file": "injury-pull.yml",
    "runs": [
+    {
+     "run_id": 46088483098,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46088483098",
+     "event": "workflow_dispatch",
+     "created_at": "2026-11-28T00:33:02Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: DraftEdge parsed 455 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: verified 27/43 games; /games/2026-11-28-louisiana-at-georgia-state/: /g"
+      ],
+      "mode": "LIVE",
+      "injury_games_expected": 43,
+      "injury_games_covered": 27,
+      "injury_games_not_yet_due": 14,
+      "injury_games_overdue": 0,
+      "injury_games_independent": 1,
+      "fpi_missing": 0
+     },
+     "error_lines": [
+      "ERROR: DraftEdge parsed 455 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: verified 27/43 games; /games/2026-11-28-louisiana-at-georgia-state/: /"
+     ]
+    },
+    {
+     "run_id": 46083774600,
+     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46083774600",
+     "event": "schedule",
+     "created_at": "2026-11-27T23:40:17Z",
+     "conclusion": "failure",
+     "health": "failed",
+     "reasons": [
+      "conclusion=failure"
+     ],
+     "summary": {
+      "warnings": [
+       "WARN: DraftEdge parsed 455 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-27', 'auburn"
+      ],
+      "mode": "LIVE",
+      "injury_games_expected": 0,
+      "injury_games_covered": 0,
+      "injury_games_not_yet_due": 0,
+      "injury_games_overdue": 0,
+      "injury_games_independent": 0,
+      "fpi_missing": 0
+     },
+     "error_lines": [
+      "ERROR: DraftEdge parsed 455 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-27', 'aubur"
+     ]
+    },
     {
      "run_id": 46071026265,
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46071026265",
@@ -452,58 +504,6 @@
      "error_lines": [
       "ERROR: DraftEdge parsed 455 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-27', 'aubur"
      ]
-    },
-    {
-     "run_id": 46025895668,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46025895668",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-27T15:33:02Z",
-     "conclusion": "failure",
-     "health": "failed",
-     "reasons": [
-      "conclusion=failure"
-     ],
-     "summary": {
-      "warnings": [
-       "WARN: DraftEdge parsed 454 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-27', 'auburn"
-      ],
-      "mode": "LIVE",
-      "injury_games_expected": 0,
-      "injury_games_covered": 0,
-      "injury_games_not_yet_due": 0,
-      "injury_games_overdue": 0,
-      "injury_games_independent": 0,
-      "fpi_missing": 0
-     },
-     "error_lines": [
-      "ERROR: DraftEdge parsed 454 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-27', 'aubur"
-     ]
-    },
-    {
-     "run_id": 46003296621,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/46003296621",
-     "event": "schedule",
-     "created_at": "2026-11-27T13:00:01Z",
-     "conclusion": "failure",
-     "health": "failed",
-     "reasons": [
-      "conclusion=failure"
-     ],
-     "summary": {
-      "warnings": [
-       "WARN: DraftEdge parsed 454 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-27', 'auburn"
-      ],
-      "mode": "LIVE",
-      "injury_games_expected": 0,
-      "injury_games_covered": 0,
-      "injury_games_not_yet_due": 0,
-      "injury_games_overdue": 0,
-      "injury_games_independent": 0,
-      "fpi_missing": 0
-     },
-     "error_lines": [
-      "ERROR: DraftEdge parsed 454 entries but source updated-at is missing; freshness unverifiable; treated as failed; timestamped replacement unavailable: missing expected game coverage in source index: [('2026-11-27', 'aubur"
-     ]
     }
    ],
    "skipped_chains": [],
@@ -547,20 +547,6 @@
      "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45898250173",
      "event": "schedule",
      "created_at": "2026-11-26T21:27:18Z",
-     "conclusion": "success",
-     "health": "ok",
-     "reasons": [],
-     "summary": {
-      "mode": "LIVE",
-      "rows_updated": 83,
-      "fpi_missing": 0
-     }
-    },
-    {
-     "run_id": 45817581344,
-     "url": "https://github.com/Fluff421/custom-claude-skills/actions/runs/45817581344",
-     "event": "workflow_dispatch",
-     "created_at": "2026-11-26T12:13:02Z",
      "conclusion": "success",
      "health": "ok",
      "reasons": [],
@@ -695,7 +681,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T23:36:52Z",
-   "age_h": 0.0,
+   "age_h": 1.0,
    "status": "ok"
   },
   {
@@ -704,7 +690,7 @@
    "expected_every_h": 3,
    "max_gap_h": 4,
    "last_scheduled_run_utc": "2026-11-27T19:10:56Z",
-   "age_h": 4.5,
+   "age_h": 5.5,
    "status": "missed"
   },
   {
@@ -713,8 +699,8 @@
    "expected_every_h": 1,
    "max_gap_h": 2,
    "last_scheduled_run_utc": "2026-11-27T22:19:03Z",
-   "age_h": 1.3,
-   "status": "ok"
+   "age_h": 2.3,
+   "status": "missed"
   },
   {
    "workflow": "Context & Calibrate",
@@ -722,7 +708,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-27T21:11:37Z",
-   "age_h": 2.4,
+   "age_h": 3.4,
    "status": "ok"
   },
   {
@@ -731,7 +717,7 @@
    "expected_every_h": 24,
    "max_gap_h": 26,
    "last_scheduled_run_utc": "2026-11-27T22:20:51Z",
-   "age_h": 1.3,
+   "age_h": 2.3,
    "status": "ok"
   },
   {
@@ -740,7 +726,7 @@
    "expected_every_h": 2,
    "max_gap_h": 6,
    "last_scheduled_run_utc": "2026-11-27T22:51:08Z",
-   "age_h": 0.8,
+   "age_h": 1.8,
    "status": "ok"
   },
   {
@@ -748,9 +734,9 @@
    "file": "injury-pull.yml",
    "expected_every_h": 3,
    "max_gap_h": 4,
-   "last_scheduled_run_utc": "2026-11-27T13:00:01Z",
-   "age_h": 10.6,
-   "status": "missed"
+   "last_scheduled_run_utc": "2026-11-27T23:40:17Z",
+   "age_h": 1.0,
+   "status": "ok"
   }
  ],
  "how_to_read": "workflow health: ok / warn / degraded / failed / unknown. 'success' conclusions are judged from log text, not trusted. Postponed games and schedule_health: ok / missed per workflow (last SCHEDULED run vs tolerated gap; manual runs do not count). same-day games can appear in the ledger_health lists; they are leads, not verdicts."

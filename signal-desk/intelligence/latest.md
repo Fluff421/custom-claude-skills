@@ -2,7 +2,7 @@
 
 All picks are paper picks. Nothing here is a bet instruction. Generated from Airtable by `intelligence_report.py`.
 
-Overall graded picks: 150-163 (Brier 0.256).
+Overall graded picks: 152-164 (Brier 0.2559).
 
 ## Upcoming best bets (Lean and above)
 
@@ -29,19 +29,22 @@ Overall graded picks: 150-163 (Brier 0.256).
 - Washington Commanders @ Arizona Cardinals: QB: HOME QB OUT Carson Beck -> Josh Johnson [auto espn 2026-11-27] [priced: Josh Johnson led passing 2026-11-22] | AWAY QB PLAYING Jayden Daniels [auto espn 2026-11-27]; weather: indoor | sev=0.00
 - New York Giants @ Indianapolis Colts: weather: indoor | sev=0.00
 
-Tracking picks (paper, 0u): 64. Examples: Georgia Tech @ Georgia -> Georgia Tech +34.5 (spread); Boston College @ Miami -> Miami -25.5 (spread); Purdue @ Indiana -> Indiana -21.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); West Virginia @ Utah -> Utah -20.5 (spread)
+Tracking picks (paper, 0u): 61. Examples: Georgia Tech @ Georgia -> Georgia Tech +34.5 (spread); Boston College @ Miami -> Miami -25.5 (spread); Purdue @ Indiana -> Indiana -21.5 (spread); Notre Dame @ Syracuse -> Notre Dame -20.5 (spread); Boise State @ Colorado State -> Boise State -21 (spread); West Virginia @ Utah -> Utah -20.5 (spread)
 
 ## Recently closed (last 7 days)
 
 | Game | Tier | Pick | Result | Final home margin | Model | Line | CLV |
 |---|---|---|---|---|---|---|---|
 | Mississippi State @ Ole Miss | No Play | Mississippi State +19.5 (spread) | Loss | 24 | 16.4 |  | 2 |
+| North Dakota State @ San José State | No Play | San José State +12.5 (spread) | Win | -7 | -9.8 |  | 5 |
+| Temple @ Memphis | No Play | Memphis -17.5 (spread) | Loss | -4 | 18.4 |  | 2 |
 | Tulsa @ UTSA | No Play | Tulsa +2.5 (spread) | Loss | 6 | -0.1 |  | 4 |
 | Denver Broncos @ Pittsburgh Steelers | No Play | Pittsburgh Steelers +1.5 (spread) | Win | 22 | 1.2 |  | -3 |
 | Buffalo @ Akron | No Play | Buffalo -10 (spread) | Loss | -8 | -10.4 |  | -2.5 |
 | Toledo @ Ohio | No Play | Ohio +4.5 (spread) | Win | -3 | -4.3 |  | 1.5 |
 | Nebraska @ Iowa | No Play | Nebraska +6.5 (spread) | Loss | 24 | 3.2 |  | 3 |
 | App State @ South Alabama | No Play | South Alabama -3 (spread) | Win | 7 | 4.4 |  | 0 |
+| Florida @ Florida State | No Play | Florida -4.5 (spread) | Win | -16 | -4.3 |  | 2 |
 | TCU @ Texas Tech | No Play | Texas Tech -10.5 (spread) | Win | 21 | 12.9 |  | 3.5 |
 | Kansas City Chiefs @ Buffalo Bills | No Play | Kansas City Chiefs +3 (spread) | Push | 3 | 2.3 |  | 0 |
 | Chicago Bears @ Detroit Lions | Strong Play | Detroit Lions +2.5 (spread) | Loss | -4 | 2.1 |  | 1 |
@@ -62,18 +65,18 @@ Tracking picks (paper, 0u): 64. Examples: Georgia Tech @ Georgia -> Georgia Tech
 | Tampa Bay Buccaneers @ Detroit Lions | Strong Play | Tampa Bay Buccaneers +3.5 (spread) | Loss | 10 | 4.4 |  | -3 |
 | Tennessee Titans @ Dallas Cowboys | Lean | Dallas Cowboys -7.5 (spread) | Win | 21 | 9.9 |  | 1 |
 | Oklahoma State @ Arizona State | No Play | Oklahoma State -4 (spread) | Loss | -3 | -6.2 |  | -1 |
-| Charlotte @ Tulsa | No Play | Tulsa -18.5 (spread) | Win | 28 | 23.9 |  | 4 |
-| Northern Illinois @ North Dakota State | No Play | Northern Illinois +24.5 (spread) | Win | 6 | 25.4 |  | -1 |
-| Colorado State @ Fresno State | No Play | Colorado State +20.5 (spread) | Win | 7 | 19.3 |  | 0 |
 
 ### Why each result happened
 - Mississippi State @ Ole Miss (Loss): no factor record (game predates shadow factors); pick covered by -4.5 points
+- North Dakota State @ San José State (Win): no factor record (game predates shadow factors); pick covered by +5.5 points
+- Temple @ Memphis (Loss): no factor record (game predates shadow factors); pick covered by -21.5 points
 - Tulsa @ UTSA (Loss): no factor record (game predates shadow factors); pick covered by -3.5 points
 - Denver Broncos @ Pittsburgh Steelers (Win): no factor record (game predates shadow factors); pick covered by +23.5 points
 - Buffalo @ Akron (Loss): no factor record (game predates shadow factors); pick covered by -2.0 points
 - Toledo @ Ohio (Win): no factor record (game predates shadow factors); pick covered by +1.5 points
 - Nebraska @ Iowa (Loss): no factor record (game predates shadow factors); pick covered by -17.5 points
 - App State @ South Alabama (Win): no factor record (game predates shadow factors); pick covered by +4.0 points
+- Florida @ Florida State (Win): no factor record (game predates shadow factors); pick covered by +11.5 points
 - TCU @ Texas Tech (Win): no factor record (game predates shadow factors); pick covered by +10.5 points
 - Kansas City Chiefs @ Buffalo Bills (Push): no factor record (game predates shadow factors); pick covered by +0.0 points
 - Chicago Bears @ Detroit Lions (Loss): no factor record (game predates shadow factors); pick covered by -1.5 points
@@ -94,9 +97,6 @@ Tracking picks (paper, 0u): 64. Examples: Georgia Tech @ Georgia -> Georgia Tech
 - Tampa Bay Buccaneers @ Detroit Lions (Loss): no factor record (game predates shadow factors); pick covered by -6.5 points
 - Tennessee Titans @ Dallas Cowboys (Win): no factor record (game predates shadow factors); pick covered by +13.5 points
 - Oklahoma State @ Arizona State (Loss): no factor record (game predates shadow factors); pick covered by -1.0 points
-- Charlotte @ Tulsa (Win): no factor record (game predates shadow factors); pick covered by +9.5 points
-- Northern Illinois @ North Dakota State (Win): no factor record (game predates shadow factors); pick covered by +18.5 points
-- Colorado State @ Fresno State (Win): no factor record (game predates shadow factors); pick covered by +13.5 points
 
 ## How accurate the system has been
 
@@ -105,7 +105,7 @@ Tracking picks (paper, 0u): 64. Examples: Georgia Tech @ Georgia -> Georgia Tech
 | NCAAF | Max Play | 4 | 7 | 0.364 | 0.3148 | -0.27 | 11 |
 | NCAAF | Strong Play | 3 | 8 | 0.273 | 0.3055 | 1.36 | 11 |
 | NCAAF | Lean | 17 | 19 | 0.472 | 0.2492 | 0.03 | 36 |
-| NCAAF | No Play | 95 | 100 | 0.487 | 0.2508 | 0.19 | 198 |
+| NCAAF | No Play | 97 | 101 | 0.49 | 0.2508 | 0.23 | 201 |
 | NFL | Max Play | 2 | 1 | 0.667 | 0.2487 | 0.5 | 3 |
 | NFL | Strong Play | 6 | 6 | 0.5 | 0.2525 | -0.54 | 12 |
 | NFL | Lean | 14 | 16 | 0.467 | 0.2659 | 0.55 | 30 |
@@ -113,7 +113,7 @@ Tracking picks (paper, 0u): 64. Examples: Georgia Tech @ Georgia -> Georgia Tech
 | ALL | Max Play | 6 | 8 | 0.429 | 0.3006 | -0.11 | 14 |
 | ALL | Strong Play | 9 | 14 | 0.391 | 0.2778 | 0.37 | 23 |
 | ALL | Lean | 31 | 35 | 0.47 | 0.2568 | 0.27 | 66 |
-| ALL | No Play | 104 | 106 | 0.495 | 0.2504 | 0.19 | 214 |
+| ALL | No Play | 106 | 107 | 0.498 | 0.2504 | 0.23 | 217 |
 
 By size of base edge:
 
@@ -128,7 +128,7 @@ By size of base edge:
 ## What the learner currently believes
 
 - NFL: sigma 12.38, market k None, scales injury None / look-ahead None / rest None / travel None / revenge None / weather None; graded 61 (20 with factor records); last calibrated 2026-11-27T21:49:50.000Z
-- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 256 (62 with factor records); last calibrated 2026-11-27T21:49:50.000Z
+- NCAAF: sigma 15.01, market k 0.145, scales injury 1.02 / look-ahead 1.09 / rest 0.99 / travel 0.99 / revenge 0.988 / weather None; graded 259 (62 with factor records); last calibrated 2026-11-27T21:49:50.000Z
 
 ## What changes automatically, and how close each change is
 
@@ -139,16 +139,16 @@ By size of base edge:
 | NFL | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 30/20, Strong Play 12/20, Max Play 3/20 | stays capped; Strong and Max remain paper picks regardless |
 | NFL | Market blend k (does the model add to the line) |  | >= 30 graded with scores | 61/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
 | NFL | Factor scales (injury, look-ahead, rest, travel, revenge, weather) | {'scale_injury': None, 'scale_lookahead': None, 'scale_rest': None, 'scale_travel': None, 'scale_revenge': None, 'scale_weather': None} | >= 30 graded with a factor record; each factor needs 10 non-zero games | 20/30 | joint ridge regression toward 1.0; 0 switches the factor off |
-| NCAAF | Sigma (win-probability spread) | 15.01 | >= 30 graded | 256/30 | daily grid search; picks the sigma with the best Brier score |
+| NCAAF | Sigma (win-probability spread) | 15.01 | >= 30 graded | 259/30 | daily grid search; picks the sigma with the best Brier score |
 | NCAAF | Tier win-probability multipliers | {"Lean": 0.876} | >= 20 graded per tier | Lean 36/20, Strong Play 11/20, Max Play 11/20 | actual hit rate divided by predicted, clipped 0.7 to 1.3 |
 | NCAAF | Unit cap (1.0u) on Strong/Max | capped | >= 20 graded per tier | Lean 36/20, Strong Play 11/20, Max Play 11/20 | stays capped; Strong and Max remain paper picks regardless |
-| NCAAF | Market blend k (does the model add to the line) | 0.145 | >= 30 graded with scores | 256/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
+| NCAAF | Market blend k (does the model add to the line) | 0.145 | >= 30 graded with scores | 259/30 | regression of result-minus-line on model-minus-line, shrunk to a 0.3 prior |
 | NCAAF | Factor scales (injury, look-ahead, rest, travel, revenge, weather) | {'scale_injury': 1.02, 'scale_lookahead': 1.09, 'scale_rest': 0.99, 'scale_travel': 0.99, 'scale_revenge': 0.988, 'scale_weather': None} | >= 30 graded with a factor record; each factor needs 10 non-zero games | 62/30 | joint ridge regression toward 1.0; 0 switches the factor off |
 
 ## Data gaps right now
 
-- 75 of 75 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Oklahoma @ Missouri; North Dakota State @ San José State; Arizona State @ Arizona; Temple @ Memphis; Southern Miss @ Old Dominion; Washington Commanders @ Arizona Cardinals; Central Michigan @ Ball State
-- NCAAF quarterback checks cover 0 of 63 games (comes from the Grok feed only)
+- 72 of 72 upcoming games have no Splash line (tracking picks use the ESPN line): Louisiana Tech @ Georgia Southern; Oklahoma @ Missouri; Arizona State @ Arizona; Southern Miss @ Old Dominion; Washington Commanders @ Arizona Cardinals; Central Michigan @ Ball State; Penn State @ Maryland; Air Force @ New Mexico
+- NCAAF quarterback checks cover 0 of 60 games (comes from the Grok feed only)
 
 ## Every bet type (paper)
 
@@ -156,22 +156,22 @@ Lean-or-better totals and moneylines (spreads are in the table above). Every gam
 
 | Game | Market | Pick | Prob | Tier | Units |
 |---|---|---|---|---|---|
-| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -158 | 65% | Lean | 0.5 |
-| Seattle Seahawks @ San Francisco 49ers | moneyline | San Francisco 49ers ML -148 | 64% | Lean | 0.5 |
+| Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -159 | 65% | Lean | 0.5 |
 | Kansas City Chiefs @ Los Angeles Rams | moneyline | Los Angeles Rams ML -109 | 57% | Lean | 0.5 |
 | New England Patriots @ Los Angeles Chargers | total | Over 34.5 | 62% | Lean | 0.5 |
-| Minnesota @ Wisconsin | total | Over 37.5 | 53% | Lean | 0.5 |
-| UAB @ North Texas | moneyline | North Texas ML -140 | 64% | Lean | 0.5 |
-| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -295 | 80% | Lean | 0.5 |
-| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -1099 | 99% | Strong Play | 1.0 |
-| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -330 | 81% | Lean | 0.5 |
+| USC @ UCLA | moneyline | UCLA ML +170 | 40% | Lean | 0.5 |
+| Minnesota @ Wisconsin | total | Over 36.5 | 54% | Lean | 0.5 |
+| Baltimore Ravens @ Houston Texans | moneyline | Houston Texans ML -332 | 80% | Lean | 0.5 |
+| Tennessee Titans @ Jacksonville Jaguars | moneyline | Jacksonville Jaguars ML -930 | 98% | Strong Play | 1.0 |
+| Atlanta Falcons @ Minnesota Vikings | moneyline | Minnesota Vikings ML -310 | 81% | Lean | 0.5 |
+| New York Giants @ Indianapolis Colts | moneyline | Indianapolis Colts ML +228 | 36% | Lean | 0.5 |
 | Boise State @ Colorado State | total | Under 76.5 | 55% | Lean | 0.5 |
-- NCAAF parlay: North Texas ML -140 + Under 76.5 | model 35.0%, needs +235 to break even, edge +5.1%, Strong Play
-- NCAAF parlay: Over 37.5 + North Texas ML -140 | model 33.9%, needs +227 to break even, edge +3.4%, Lean
-- NCAAF parlay: Over 37.5 + North Texas ML -140 + Under 76.5 | model 18.7%, needs +539 to break even, edge +3.1%, Lean
-- NFL parlay: Over 34.5 + Houston Texans ML -295 + Jacksonville Jaguars ML -1099 | model 49.5%, needs +172 to break even, edge +12.8%, Max Play
-- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -1099 | model 61.7%, needs +103 to break even, edge +12.4%, Max Play
-- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -1099 + Minnesota Vikings ML -330 | model 50.0%, needs +165 to break even, edge +12.2%, Max Play
+- NCAAF parlay: UCLA ML +170 + Under 76.5 | model 22.2%, needs +427 to break even, edge +3.2%, Lean
+- NCAAF parlay: Over 36.5 + Under 76.5 | model 29.7%, needs +270 to break even, edge +2.6%, Lean
+- NCAAF parlay: UCLA ML +170 + Over 36.5 | model 21.6%, needs +411 to break even, edge +2.1%, Lean
+- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 + Minnesota Vikings ML -310 | model 49.6%, needs +173 to break even, edge +13.0%, Max Play
+- NFL parlay: Over 34.5 + Jacksonville Jaguars ML -930 | model 61.2%, needs +106 to break even, edge +12.7%, Max Play
+- NFL parlay: Over 34.5 + Houston Texans ML -332 + Jacksonville Jaguars ML -930 | model 49.1%, needs +168 to break even, edge +11.9%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Under 48.5 -> 54.5 | model 47.7%, needs +160 to break even, edge +9.3%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + Indianapolis Colts +5.5 -> +11.5 (crosses 7) | model 47.7%, needs +160 to break even, edge +9.2%, Max Play
 - NFL teaser: Over 34.5 -> 28.5 + Over 41.5 -> 35.5 + San Francisco 49ers +1.5 -> +7.5 (crosses 3 and 7) | model 47.6%, needs +160 to break even, edge +9.2%, Max Play

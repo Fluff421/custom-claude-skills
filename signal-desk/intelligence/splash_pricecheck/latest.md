@@ -1,4 +1,4 @@
-# Pick-time check at the newest Splash lines, 2026-11-27 23:39Z
+# Pick-time check at the newest Splash lines, 2026-11-28 00:39Z
 
 The model repriced at the line on the Splash board in the newest line dump, not the early-week import. Paper picks only; nothing here was logged as a pick. Verify against your Splash line before locking.
 
@@ -8,7 +8,7 @@ The model repriced at the line on the Splash board in the newest line dump, not 
 |---|---|---|---|
 | UMass @ Bowling Green | 2026-11-28 | repo-game:b13cdfbe2614cc24c27760b5 | Repository schedule reference only; verified model inputs are unavailable. |
 
-15 Lean-or-better plays at the current Splash lines (71 games checked).
+15 Lean-or-better plays at the current Splash lines (68 games checked).
 
 | Game | Date | Market | Pick at current line | Tier | Win prob | Edge | Change vs early line |
 |---|---|---|---|---|---|---|---|
