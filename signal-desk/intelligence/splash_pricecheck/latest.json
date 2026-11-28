@@ -1,57 +1,7 @@
 {
- "generated_at": "2026-11-28T00:39:28.067883+00:00",
- "snapshot_age_hours": 4.9,
+ "generated_at": "2026-11-28T01:39:20.824777+00:00",
+ "snapshot_age_hours": 5.9,
  "games": [
-  {
-   "game": "Air Force @ New Mexico",
-   "record_id": "rec8RppSWt01ORC9x",
-   "league": "NCAAF",
-   "date": "2026-11-27",
-   "snapshot_id": "SPL-L-20261127-1346",
-   "captured_at_central": "2026-11-27 13:45:00 CST",
-   "splash_home_margin": 6.5,
-   "splash_total": 41.5,
-   "import_home_margin": null,
-   "import_total": 42.5,
-   "reference_origin": "airtable",
-   "ledger_record_id": "rec8RppSWt01ORC9x",
-   "model_status": "",
-   "spread": {
-    "pick": "New Mexico -6.5",
-    "side": "home",
-    "tier": "No Play",
-    "prob": 0.5035,
-    "edge": 0.13,
-    "proj": 8.1,
-    "import_side": "",
-    "import_tier": "",
-    "teaser_leg": {
-     "pick": "New Mexico -0.5 (teased)",
-     "prob": 0.6583
-    }
-   },
-   "total": {
-    "pick": "Over 41.5",
-    "side": "over",
-    "tier": "No Play",
-    "prob": 0.5255,
-    "edge": 2.09,
-    "proj": 43.59,
-    "import_side": "over",
-    "import_tier": "No Play",
-    "teaser_leg": {
-     "pick": "Over 35.5 (teased)",
-     "prob": 0.7331
-    }
-   },
-   "moneyline": {
-    "pick": "Air Force ML +210",
-    "tier": "No Play",
-    "prob": 0.3125,
-    "edge": -0.01,
-    "model_ml_side": "home"
-   }
-  },
   {
    "game": "Auburn @ Alabama",
    "record_id": "recq71YyIpQj8rmRL",
