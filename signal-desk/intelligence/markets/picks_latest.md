@@ -9,14 +9,14 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Game | Market | Pick | Prob | Edge | Tier | Units |
 |---|---|---|---|---|---|---|
 | Louisiana Tech @ Georgia Southern | spread | Louisiana Tech +2.5 (spread) | 51% |  | No Play | 0 |
-| Louisiana Tech @ Georgia Southern | total | Under 53.5 | 51% | +1.0 pts | No Play | 0 |
-| Louisiana Tech @ Georgia Southern | moneyline | Georgia Southern ML -125 | 54% | -2.0% | No Play | 0 |
+| Louisiana Tech @ Georgia Southern | total | Under 52.5 | 51% | +0.7 pts | No Play | 0 |
+| Louisiana Tech @ Georgia Southern | moneyline | Georgia Southern ML -120 | 54% | -0.9% | No Play | 0 |
 | Oklahoma @ Missouri | spread | Oklahoma +1.5 (spread) | 50% |  | No Play | 0 |
 | Oklahoma @ Missouri | total | Over 41.5 | 52% | +2.0 pts | No Play | 0 |
 | Oklahoma @ Missouri | moneyline | Missouri ML -125 | 54% | -2.0% | No Play | 0 |
 | Arizona State @ Arizona | spread | Arizona -7.5 (spread) | 51% |  | No Play | 0 |
 | Arizona State @ Arizona | total | Over 53.5 | 51% | +0.7 pts | No Play | 0 |
-| Arizona State @ Arizona | moneyline | Arizona State ML +260 | 26% | -1.8% | No Play | 0 |
+| Arizona State @ Arizona | moneyline | Arizona State ML +250 | 28% | -0.8% | No Play | 0 |
 | Southern Miss @ Old Dominion | spread | Southern Miss +5.5 (spread) | 50% |  | No Play | 0 |
 | Southern Miss @ Old Dominion | total | Over 49.5 | 51% | +0.6 pts | No Play | 0 |
 | Southern Miss @ Old Dominion | moneyline | Southern Miss ML +180 | 36% | +0.5% | No Play | 0 |
@@ -82,7 +82,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Pittsburgh @ California | moneyline | California ML +280 | 26% | -0.7% | No Play | 0 |
 | Texas Tech @ Utah | spread | Utah -2.5 (spread) | 50% |  | No Play | 0 |
 | Texas Tech @ Utah | total | Under 59.5 | 50% | +0.3 pts | No Play | 0 |
-| Texas Tech @ Utah | moneyline | Utah ML -130 | 56% | -0.2% | No Play | 0 |
+| Texas Tech @ Utah | moneyline | Utah ML -135 | 56% | -1.1% | No Play | 0 |
 | Tulane @ South Florida | spread | Tulane +7 (spread) | 50% |  | No Play | 0 |
 | Tulane @ South Florida | total | Over 44.5 | 52% | +1.5 pts | No Play | 0 |
 | Tulane @ South Florida | moneyline | Tulane ML +195 | 33% | -0.5% | No Play | 0 |
@@ -105,7 +105,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Georgia Tech @ Georgia | total | Under 55.5 | 51% | +0.9 pts | No Play | 0 |
 | Georgia Tech @ Georgia | moneyline | Georgia ML -8000 | 99% | +0.3% | No Play | 0 |
 | Baylor @ Houston | spread | Baylor +4.5 (spread) | 50% |  | No Play | 0 |
-| Baylor @ Houston | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
+| Baylor @ Houston | total | Under 56.5 | 51% | +1.0 pts | No Play | 0 |
 | Baylor @ Houston | moneyline | Baylor ML +145 | 41% | -0.1% | No Play | 0 |
 | Cincinnati @ BYU | spread | BYU -14 (spread) | 50% |  | No Play | 0 |
 | Cincinnati @ BYU | total | Under 55.5 | 51% | +0.7 pts | No Play | 0 |
@@ -114,7 +114,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Boston College @ Miami | total | Over 54.5 | 50% | +0.3 pts | No Play | 0 |
 | Boston College @ Miami | moneyline | Miami ML -2800 | 96% | -1.0% | No Play | 0 |
 | Navy @ Charlotte | spread | Charlotte +15.5 (spread) | 50% |  | No Play | 0 |
-| Navy @ Charlotte | total | Over 54.5 | 50% | +0.1 pts | No Play | 0 |
+| Navy @ Charlotte | total | Over 53.5 | 50% | +0.4 pts | No Play | 0 |
 | Navy @ Charlotte | moneyline | Charlotte ML +550 | 14% | -1.7% | No Play | 0 |
 | Liberty @ Missouri State | spread | Liberty -14.5 (spread) | 51% |  | No Play | 0 |
 | Liberty @ Missouri State | total | Under 52.5 | 50% | +0.3 pts | No Play | 0 |
@@ -166,7 +166,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | Marshall @ UL Monroe | total | Over 51.5 | 51% | +0.7 pts | No Play | 0 |
 | Marshall @ UL Monroe | moneyline | UL Monroe ML +190 | 34% | -0.9% | No Play | 0 |
 | Kennesaw State @ Western Kentucky | spread | Kennesaw State -1.5 (spread) | 50% |  | No Play | 0 |
-| Kennesaw State @ Western Kentucky | total | Under 53.5 | 51% | +0.6 pts | No Play | 0 |
+| Kennesaw State @ Western Kentucky | total | Under 54.5 | 51% | +0.9 pts | No Play | 0 |
 | Kennesaw State @ Western Kentucky | moneyline | Western Kentucky ML +142 | 41% | -0.1% | No Play | 0 |
 | Boise State @ Colorado State | spread | Boise State -21 (spread) | 50% |  | No Play | 0 |
 | Boise State @ Colorado State | total | Under 76.5 | 55% | +4.3 pts | Lean | 0.5 |
@@ -189,7 +189,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 |---|---|---|---|---|---|---|
 | Washington Commanders @ Arizona Cardinals | spread | Arizona Cardinals +6.5 (spread) | 54% |  | Lean | 0.5 |
 | Washington Commanders @ Arizona Cardinals | total | Over 41.5 | 56% | +1.4 pts | No Play | 0 |
-| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +277 | 29% | +2.1% | No Play | 0 |
+| Washington Commanders @ Arizona Cardinals | moneyline | Arizona Cardinals ML +276 | 29% | +2.0% | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | spread | Tampa Bay Buccaneers -3 (spread) | 50% |  | Lean | 0.5 |
 | Carolina Panthers @ Tampa Bay Buccaneers | total | Over 43.5 | 55% | +1.1 pts | No Play | 0 |
 | Carolina Panthers @ Tampa Bay Buccaneers | moneyline | Tampa Bay Buccaneers ML -159 | 65% | +4.1% | Lean | 0.5 |
@@ -204,7 +204,7 @@ Markets not yet posted (no pick until a line is listed): Jacksonville State @ Li
 | New England Patriots @ Los Angeles Chargers | moneyline | Los Angeles Chargers ML +127 | 46% | +1.6% | No Play | 0 |
 | New Orleans Saints @ Cincinnati Bengals | spread | Cincinnati Bengals -10 (spread) | 50% |  | Lean | 0.5 |
 | New Orleans Saints @ Cincinnati Bengals | total | Under 48.5 | 56% | +1.3 pts | No Play | 0 |
-| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -571 | 86% | +1.3% | No Play | 0 |
+| New Orleans Saints @ Cincinnati Bengals | moneyline | Cincinnati Bengals ML -550 | 86% | +1.8% | No Play | 0 |
 | New York Jets @ Miami Dolphins | spread | Miami Dolphins +3 (spread) | 50% |  | No Play | 0 |
 | New York Jets @ Miami Dolphins | total | Over 39.5 | 55% | +1.2 pts | No Play | 0 |
 | New York Jets @ Miami Dolphins | moneyline | New York Jets ML -257 | 72% | -0.5% | No Play | 0 |
